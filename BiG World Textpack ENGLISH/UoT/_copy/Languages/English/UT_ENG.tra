@@ -1,0 +1,261 @@
+//--------------------------------hub---------------------------------//
+
+@99999 = ~Hub~ 
+
+//--------------------------------deliver-----------------------------//
+
+@99991 = ~Strange ring~
+@99992 = ~Luo ring~ 
+@99993 = ~This ring is very plain to look at on careful inspection, however, sometimes in a flash, no one knows why, the onlooker will see a splendid and warping color and luminosity emanating from the ring lasting for only moments.~
+@99994 = ~Luo ring: "Eternal Truth"
+
+Traditions exist in Kara-Tur regarding Luo, but there is no universal agreement as to what is true and what is not. Many sects hold many different beliefs but even these sects have sub-sects which argue about the subtext of that belief. Nothing is certain. Even tales told by bards for millenia are not agreed upon. According to some folk-lore, Luo is the origin of the universe and the essence of everything. It is also the chaos of the universe and even a door to extra-dimensional spaces. Luo brings understanding, understanding of the essence of everything. Thousands of seekers have seached through millions of supposed clues, but nothing has been found or learnt, and some have even disappeared down the path in search of ultimate knowledge. The hilarity of the situation increases when one realises that it is still not known what Luo is... a person? A place? A thing? Regardless, this ring, comes from Luo. It is one of the very few concrete things attributed to it. It is a magical item, that much is sure, but no one knows what it's abilities are.~ 
+
+@99995 = ~You can not use the "Jump" ability here.~
+
+//------------------------------- store-------------------------------//
+
+@10001 = ~Dimensional stash~
+
+@10013 = ~Halberd of Pure Evil~ 
+@10014 = ~Carrion +6~
+@10015 = ~This halberd is utter evil.~
+@10016 = ~Halberd +6: "Carrion"
+
+Siren (not the true name) was a Baatezu and once the right hand of Mephisto. A master enchanter and smith, he enchanted this weapon for his master in a very unusual manner. He would follow Mephisto on the battlefield, and imbue it with the soul of every Tanar'ri that his master killed. A point was reached when the weapon itself started imbueing the essence of the creatures it hit or killed. One such creature was Siren himself, when he had outlived his usefulness.    
+
+STATISTICS:
+
+THAC0: +6 bonus
+Damage: 1D10+6
+Damage type: piercing
+Weight: 15
+Speed Factor: 3
+Proficiency Type: Halberd
+Type: 2-handed
+Requires: 13 strength
+
+Equipped Abilities:
+Save vs. death bonus +5
+
+Combat ability: 10% chance to drain 3 levels (no saving throw)
+                25% chance to cause grevious injury to target for 			
+                30 seconds, which costs 1 HP each second, unless  
+                a successful saving throw vs. breath is made with   
+                -5 penalty.
+
+Special ability: Can cast Control Undead three times per day
+
+Not Usable By:
+Druid
+Cleric
+Mage
+Thief~
+
+@10017 = ~Helm of Pure Evil~
+@10018 = ~Demilichs' Skull~ 
+@10019 = ~This helm looks like a demilich's skull.~
+@10020 = ~Helm: "Demilich's Skull"
+
+The baatezu Siren put together this helm from the skulls of many demiliches, taking the parts that were filled with the most magic, and putting them together.
+
+STATISTICS:
+
+Armor Class Bonus: 1
+Weight: 2
+Special:
+ Protects Against Critical Hits
+
+Equipped Abilities: 
+Cold resistance: +30%
+Immunity to Panic, Sleep, Confusion, Fear, Charm Person, Hold Person, Stun, Break Morale
+
+Special ability:  The wearer can cast Wail of the Banshee once per day
+
+Not Usable By:
+Mage
+Bard
+Thief
+Druid~ 
+
+@10021 = ~Armor of Pure Evil~
+@10022 = ~Zombie's Hide +4~
+@10023 = ~This armor looks like a zombie's torso.~
+@10024 = ~Armor +4 "Zombie's Hide"
+
+The baatezu Siren forged this armor from the hides of zombies which had fallen in his master's service. Further enchantments were placed on it afterwards to augment the already tough armor.
+
+STATISTICS:
+
+Armor Class Bonus: -1
+Weight: 35
+Requires: 12 strength
+
+Equipment ability: Immunity to Level drain
+Magic resistance: +10%
+
+Bearers of this armor are always surrounded by a flame barrier, which provides the user with 50% cold resistance. Every creature touched by this armor must win a saving throw vs. death, or be paralyze for 15 seconds
+
+Special ability:
+ Can cast Death Spell 2 times per day 
+
+Not Usable By:
+Mage
+Bard
+Thief
+Druid~ 
+
+@10025 = ~Armor of Pure Good~
+@10026 = ~Siren's Bane +3~ 
+@10027 = ~This armor has a pure aura around it.~ 
+@10028 = ~Full Plate Armor +3: "Siren's Bane"
+
+The baatezu Siren forged this armor as a test object on which he was going to test his new forged weapons. Unfortunately for him, Agarron, son of Mephisto, put the armor on without knowing what it actually was. He was killed instantly. In his wrath, Mephisto tortured and then slaughtered Siren.
+
+STATISTICS:
+
+Armor Class Bonus: -2
+Weight: 50
+Requires: 12 strength
+
+Equipped Abilities:
+Wisdom: +1
+Charisma: +1
+Magic resistance bonus: +5%
+Save vs. death bonus: +2
+Permanent protection vs. evil
+
+Special ability
+Can cast Holy Word 1 per day
+Can cast Bolt of Glory 2 times per day
+Can cast Righteous Magic 3 times per day
+
+Only Usable By:
+Paladin (all kinds)~
+
+@10029 = ~A magic ring~
+@10030 = ~Ring of Apology~
+@10031 = ~This ring is warm to touch.~
+@10032 = ~This is the work of Master Karst. Karst was an avid experimenter and he loved to do new things with magic. During one experiment, where he was trying to turn a chicken into gold (There seemed to be a demand for gold chickens at the time) He caused a violent explosion of wild magic. His friend and assistant Quark was turned, quite by accident, into an Arch-lich. As a token of apology (not wanting to be on the bad side of his lich-friend) Karst enchanted this ring for Quark.
+
+Equipped Abilities:
+Increases the number of level 1 spells by six
+
+Wearer is immune to gender inversion magic 
+
+Wearer receives high chance of success with wild magic (+35 points) The effect is equivalent to Improved Chaos Shield, but can be cumulative if used together.
+
+Special ability
+ Can cast Nahal's Reckless Dweomer 5 times daily
+
+Only Usable By:
+Mage~
+
+//------------------------------- TROW creature ---------------------------//
+
+@2000  = ~Marilith~
+@2001  = ~Glabrezu~
+@2002  = ~Succubus~
+@2003  = ~Cambion elite~
+@2004  = ~Cambion~
+@2005  = ~Pit fiend~
+@2006  = ~Cornugon~
+@2007  = ~Erinyes~
+@2008  = ~Osyluth~
+@2009  = ~Abishired~
+
+@3000  = ~Summon Tanar'ri~
+@3001  = ~Summon Baatezu~
+@3002  = ~Flame Burst~
+
+@4000  = ~Sewphri (The whisperers)~
+@4001  = ~Bleer (The godslayers)~
+@4002  = ~Oralb (The soulless)~
+
+@1008  = ~The Mad Dancer~
+@1009  = ~This armor is very light. It has beautiful patterns carved upon it which are clearly magic. Nothing is known about it's origins or history.
+
+STATISTICS:
+
+Equipped Abilities:
+Protection vs. ranged weapons
+Permanent Freedom of movement on the wearer, Haste spell can still be used.
+
+Weight: 40
+Requires: 10 strength
+
+Not Usable By:
+Mage
+Bard
+Thief
+Druid~
+
+@1010  = ~Flow of the Wind~
+@1011  = ~These boots look very old, and very worn. The wearer finds them to be very smooth and comfortable, as if they weight nothing.
+
+STATISTICS:
+
+Equipment ability:
+Haste
+Each hit causes the wearer to project image and cast invisibility.
+
+Weight: 4
+
+Not Usable By:
+ None~
+
+@1012  = ~The Buzzing Bee~
+@1013  = ~This Katana produces a sharp biting pain when it connects, like a sting. The name comes from the fact that when the sword is swung, instead of producing a swishing sound, it produces a buzzing, like that of a bee.
+
+STATISTICS:
+
+Equipped Abilities:
+On each hit, the target must perform a saving throw vs. spells with -4 penalty, failure causes penalty of -5 to damage and AC as well as inability to use magic and special abilities for 1 turn.
+
+THAC0: +5 bonus
+Damage: 1d10+5 +1D6 magic damage
+Damage type: slashing
+Weight: 5
+Speed Factor: 0
+Proficiency Type: Katana
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+Druid
+Cleric
+Mage~
+
+@1014  = ~Darkness Falls~
+@1015  = ~This Katana emits a faint glow, the colour of which can only be described as black, giving it misty, evil look. It seems to have a mind of it's own and strikes it's target in it's most vulnerable spot while protecting the wielder.
+
+STATISTICS:
+
+Equipped abilities:
+Attack time +1
+Hit dice +2
+User receives damage at 1/3rd of hit received by wielder, after every hit on target, for one turn.
+
+THAC0: +5 bonus
+Damage: 1d10+5
+Damage type: slashing
+Weight: 5
+Speed Factor: 0
+Proficiency Type: Katana
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+Druid
+Cleric
+Mage~
+
+@1016  = ~Mirror~
+@1017  = ~This amulet is inscribed with symbols in a language long forgotten.
+
+STATISTICS:
+
+Special Ability: Deflects offensive spells.
+
+Not Usable By:
+ Wizard Slayer~

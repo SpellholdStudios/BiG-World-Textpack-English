@@ -1,0 +1,596 @@
+@0    = ~"Rukrakia NPC Romance Mod (TOB only)"~
+@1    = ~Rukrakia~
+@2    = ~She was born somewhere in Calimshan. The secret organization Harmonic Shadow killed her parents and kidnapped her to Amn. There, she was trained with other children and witnessed how the children who failed to adjust were disposed. This experience has caused her serious trauma and helped shape her personality. In her training, she showed excellent results, but she learned that she was only raised there to be sacrificed to Master of Harmonic Shadow for her essence. Then she betrayed her order and started her journey with <CHARNAME>.
+She managed to keep her own spirit in her suffering. She is a cheerful, yet sensitive person in her everyday life, but turns into a brutal killing machine in battle.~
+@3    = ~Essence Stealer~
+@4    = ~Essence Stealer +4: Hupjeong sword
+
+
+Sword from the far away Kara-Tur. Its size is similar to that of a short sword and it is used as a short sword. The sword has a dreadful birth legend. The evil blood sucker, a trained vampire in the way of evil in Kara-Tur, took away a thousand women's essence by using stealing women's essence skill. As he became more notorious, a Taoist hermit with supernatural power came down and killed the vampire and locked his soul in his sword. His sword then had a spirit that absorbs others' essence.  
+
+STATISTICS:
+
+Special abilities:
+
+One extra attack per round is added. 
+
+In the case of a successful attack, it absorbs the other's essence. During the round, the opponent gets -1 damage on his health. It recovers 10 hit points for the user. 
+
+THAC0: +4 Bonus
+Damage: 1d6+4
+Damage type: Piercing
+Weight: 4
+Speed Factor: 0
+Proficiency Type: Short Sword
+Requires: more than 8 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Monk~
+@5    = ~Disintegrator~
+@6    = ~Disintegrator +5: Disintegrator
+
+
+This sword came about when the legendary wizard slayer Hyperion gave ten thousand year old iron from Kara-Tur to an ironsmith to custom-made a sword. It was his favorite weapon, extremely heavy for its size, it is blunt overall and much more suitable for crushing rather than slashing or piercing. It was reduced in weight when it was enchanted with magical ingredients, and is able to dispel the opponent’s protections. With this sword in his left hand, Hyperion built a great reputation, and this sword was named Disintegrator. 
+
+STATISTICS:
+
+Special abilities:
+
+The sword can blow the opponent away with its heavy weight. At the same time, your character gets to save at -4 vs. Breath weapons and if fails, your character loses its balance and falls. 
+
+In the success of the attack, the victim’s protections are dispelled with 25 level wizard's dice rolling. 
+
+It damages as a crushing weapon.
+
+THAC0: +5 Bonus
+Damage: 1d6+5
+Damage type: Crushing
+Weight: 20
+Speed factor: 0
+Proficiency Type: Short Sword
+Requires: more 15 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Monk~
+@7    = ~Here we are.~ [rukra0]
+@8    = ~Oh, it's a lovely day.~ [rukra2]
+@9    = ~It's not good.~ [rukra3]
+@10   = ~*Yawn*~ [rukra7]
+@11   = ~Whatever it is, do something, at least.~ [rukra8]
+@12   = ~It's time to move.~ [rukra9]
+@13   = ~Ack!~ [rukra18]
+@14   = ~Argh!~ [rukra19]
+@15   = ~Huh! Would you pay attention to me?~ [rukra68]
+@16   = ~The air is really fresh.~ [rukra21]
+@17   = ~Look at those stars!~ [rukra25]
+@18   = ~U-uh?~ [rukra26]
+@19   = ~Yeah?~ [rukra27]
+@20   = ~What am I supposed to do?~ [rukra28]
+@21   = ~I understand.~ [rukra32]
+@22   = ~Of course.~ [rukra33]
+@23   = ~OK.~ [rukra34]
+@24   = ~I will do my best.~ [rukra35]
+@25   = ~That's what I wanted to do, too.~ [rukra36]
+@26   = ~Bwah-hah-hah!~ [rukra65]
+@27   = ~I can't hurt you!~ [rukra67]
+@28   = ~Sezar~
+@29   = ~Shadow storm guards ~
+@30   = ~Holy protective hands!~
+@31   = ~Holy healing hands!~
+@32   = ~With a body like the golden river!~
+@33   = ~All the unjust protection will be disarmed!~
+@34   = ~Impure air cannot touch us!~
+@35   = ~The holy promise will strike you!~
+@36   = ~All the impure will take the holy blow!~
+@37   = ~As powerfully as a storm!~
+@38   = ~As quietly as a shadow!~
+@39   = ~This is Umar Hills. It's beautiful here.~
+@40   = ~This place is full of vile spirits. We should be prepared for unexpected events.~
+@41   = ~I can feel vile spirits. I think there are undead here. ~
+@42   = ~A place like this in the sewer. What a waste of money.~
+@43   = ~A beholder's nest always makes me sick. They have so many eyes, and they have to make their own nest in this state?~
+@44   = ~Oh, all these dead bodies... I can't believe priests will leave the place like this. They should do some work around here.~
+@45   = ~Wow, what an amazing place.~
+@46   = ~I feel something strange. I sense a wizard presence here.~
+@47   = ~What in the world! Isn't this amazing? The outside has changed!~
+@48   = ~Is this Waukeen's street? I am sure there are lot of things to look at...~
+@49   = ~No matter how many times I encounter them, undead nauseate me.~
+@50   = ~This is where they worship god. It is magnificent.~
+@51   = ~This is Amn administration... This is really orderly.~
+@52   = ~This place is full of alien spirits. We should be careful.~
+@53   = ~Wow, a dungeon adventure? How exciting!~
+@54   = ~This intimidates me a little. Maybe there are lizards around here...~
+@55   = ~What a great keep. I would love to live in a place like this.~
+@56   = ~Trolls are so clumsy. They will give us no trouble, right, <CHARNAME>?~ [rukra26]
+@57   = ~A dungeon adventure is the best of adventures, always a pleasure, right?~
+@58   = ~(She was about to say wow!, then she covers her mouth and whispers.) And the best of a dungeon adventure is dragons. I wish we could fight dragons using backstab...~
+@59   = ~This is dreary and it makes me want to go to the bathroom...~
+@60   = ~Is this Spellhold? I am not afraid of Mages!~
+@61   = ~I think we are tricked...~
+@62   = ~I can smell the salt...~
+@63   = ~These puddles look dirty...~
+@64   = ~A city of merchants... I would like to be rich, if it's possible.~
+@65   = ~Is this The Underdark? Wow, <CHARNAME>, you bring me to all kinds of interesting places.~
+@66   = ~Wow! This is beholders' heaven!~
+@67   = ~It's dragon's lair! Don't you see?~
+@68   = ~Let's take care of them as soon as possible and get the hell out of the Underdark!~
+@69   = ~(In reminiscing their passionate night together, <CHARNAME> realizes that his body got stronger thanks to the ying yang harmony skill she practiced during their consummation.)~
+@70   = ~*Yawn* I am tired.~ [rukra7]
+@71   = ~Ying yang harmony~
+@72   = ~Milte~
+@73   = ~Oh? This is...!~
+@74   = ~Melts like darkness.~
+@75   = ~Rest of shadows.~
+@76   = ~What, what! What is this? Aaarrrggggghhhhh!~
+@77   = ~Amildar~
+@78   = ~Adelbach~
+@79   = ~Extended Spell Trigger~
+@80   = ~Extended continuous Chain Contingency~
+@81   = ~Extended Spell Trigger~
+@82   = ~Watch how I take care of them!~
+@83   = ~I am running towards you!~
+@84   = ~Argh!~
+@85   = ~Ack!~
+@86   = ~Dimension Door~
+@87   = ~Invitation~
+@88   = ~Good day, child of Bhaal. You have no idea how regretful we were to hear that our priest Sezar has passed away in shadow thanks to you. Besides, you also caused many of our storm guards' deaths. We are taking the holy lady. If you want to save her, come to the place you already know. We will give you four days. I hope this does not take long.
+If you feel this is a trap, you do not need to come. I do not underestimate your ability that murdered priest Sezar. However, you should be aware that there is no place out of reach of the shadow.~
+@89   = ~This lame door cannot stop me.~
+@90   = ~They are quite cute. Maybe they thought they might confuse us.~
+@91   = ~Rukrakia's double sword improvement~
+@92   = ~Increased expansion of Spell Trigger by double~
+@93   = ~Increased expansion of Spell Trigger by triple~
+@94   = ~I think this is the portal gate that leads to the outer world. We don't know what will happen if we dive into the deep sea-like darkness.~
+@95   = ~You passed through the deep dark portal gate. You soon lost your sight and all your other senses stopped working.~
+@96   = ~Unbelievably, the portal gate sent you back to where you tore the scroll. You are wondering why, but let out a sigh of relief, thinking this is all over.~
+@97   = ~Arche Baska collapsed like a stack of rotten hay. It felt weird, but <CHARNAME> realized that it was over, finally.~
+@98   = ~With <CHARNAME> who became a mortal permanently, Rukrakia enjoyed her pregnancy with a leisurely tour on a coach drawn by eight horses. They journeyed up north, avoiding dangerous places, through Nashkel, Beregost and stopped in Candlekeep. They used their savings to buy a villa, and had a magnificent wedding there. They had a beautiful daughter there, and spent time reading many books. As soon as their daughter was born, they had an unexpected guest, Milte, Rukrakia's sister. They greeted each other in happiness and travelled to Baldur's Gate together. After enjoying being the third-wheel between the couple, Milte gave them a certificate of aristocracy valid in Baldur's Gate and a big building, and then returned to the order. <CHARNAME> acted as an aristocrat and lived in luxury, but when their daughter turned six, they left their house to their servants and travelled to south according to Rukrakia's wish. They were welcomed by Queen Ellesime and were blessed by the elves. They finally reached Calimshan, Rukrakia's birthplace. Although Rukrakia heard about her parents from Milte, she dropped many tears at their graves at a mountain foot, holding onto <CHARNAME>.~
+@99   = ~Due to <CHARNAME>'s betrayal, Rukrakia got the worst trauma of her life, and left other members, spending months of pain at various taverns. When there is a dispute at the tavern, the people involved were all brutally killed by her sword, and she was badly reputed and feared. Then, her sister, Milte, showed up in front of her. Rukrakia was no more than a ruined person, but Milte took her sister under her wing and took care of Rukrakia in her new order, Dream of Seven Colors. In three years, Rukrakia recovered her own energy and joined Milte in leadership of Dream of Seven Colors. For ten years afterwards, there were many big and small incidents that disappeared like short-lived stars, including the breakdown of Harmonic Shadow. The rumour goes that Rukrakia finally met Master of Harmonic Shadow when she slaughtered most of the order members.  Nothing is known about their battle, but since Rukrakia, a legendary swordswoman with her dual swords, survived, and no one saw Master again, many thought that Rukrakia killed Master. However, Rukrakia kept silent on the subject and no one knew for sure. She maintained a legendary status in combat skills, but after the battle with Master, she started getting sick with after effects from the battle. Not a year passed before she laid her head in her bed next to Milte, and passed away. Then, there were people who claimed that they saw a knight with a dark red sword in a black armor, leaving a flower bouquet at her grave, but the rumour also became forgotten with passing years.~
+@100  = ~I don't want to fight. I am leaving.~
+@101  = ~Arche Baska~
+@102  = ~Harmonic Shadow priest~
+@103  = ~Shadow storm crusader~
+@104  = ~Helm of True Sight~
+@105  = ~Helm of True Sight: "The gazing helmet"
+
+Emperor Levijisk, who was afraid of assassins, gathered world master ironsmiths and had them custom-make helmets that would protect him. One of them is helm of true sight. It is a divine, enchanted helmet, made by a devoted Lathander disciple.
+
+STATISTICS:
+
+Special abilities:  
+ Prevents critical hits 
+ User gets true sight every round. Protection Bonus: None
+Weight: 3
+Not Usable By:
+ Mage
+ Bard
+ Thief~
+@106  = ~Special mithril full plate +3~
+@107  = ~Special mithril full plate +3
+
+A full plate armor made of mithril, which is several times more valuable than gold. It is very light although it is full plate, and it helps the wearer to focus better, therefore, it offers a lot of advantage in casting a spell and employing skills. Magically enchanted, the armor is the best of its kind.
+
+STATISTICS:
+
+Special abilities:
+ Can use thief skills without restriction.
+ Can cast wizard spells without restriction.
+
+Armor class: -2
+Weight: 8
+Requires: more than 8 strength
+Not Usable By:
+ Bard
+ Druid
+ Pure Mage
+ Pure Thief~
+@108  = ~Dimension Door scroll~
+@109  = ~This scroll is the Dimension Door scroll which belongs to Master of Harmonic Shadow, Arche Baska. Using this scroll, user will be able to go back to where he is.~
+@110  = ~Hupjeong great sword +6~
+@111  = ~Great sword: "Hupjeong great sword +6"(Essence-Sucker Great Sword +6)
+
+Master of Harmonic Shadow, Arche Baska, created this sword when he learned Essence-absorbing skill. He originally used a custom-made great sword, and he specially made this whole sword with old iron. It is much bigger than regular two handed-swords, and too heavy for even ogres. Therefore, it seems impossible for humans to use it.
+
+STATISTICS:
+
+Ability with equipment:
+    Seamless use of the sword is impossible because of its heavy weight.
+    Gets -12 THAC0 penalty.
+    Gets -2 speed factor penalty.
+    Gets slowed.
+Special abilities:
+    Due to its immense weight, the user earns +30 crushing damage bonus.
+    With crushing, it blows away the victim for 2 seconds. The victim becomes unconscious for 4 seconds.
+    With crushing, it absorbs the victim's essence. The victim gets -1 strength, health and dexterity penalty for 1 round and the user recovers 10 hitpoints.
+
+THAC0: -6 penalty
+Damage:  1D12 +6 +30
+Damage type: Crushing
+Weight: 60
+Speed Factor: 7
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Requires: over 20 strength
+Not Usable By:
+ Pure Mage
+ Pure Bard
+ Pure Thief
+ Pure Cleric
+ Druid~
+@112  = ~Frozen blade~
+@113  = ~Summon Frozen blade~
+@114  = ~Frozen burst~
+@115  = ~Severe freezing effect~
+@116  = ~Severe freezing effect from Frozen blade~
+@117  = ~Seven Colors Master's own ability lock release~
+@118  = ~Angel protection~
+@119  = ~Rukrakia's bracers~
+@120  = ~These bracers are tightly wrapped around Rukrakia's wrist. These bracers are magically enchanted and cannot be unlocked and released from Rukrakia's wrist. Their abilities are unknown.~
+@121  = ~These bracers are tightly wrapped around Rukrakia's wrist. These bracers are magically enchanted and cannot be unlocked and released from Rukrakia's wrist. There is a rune inscribed in gold, and thanks to the sturdy enchantment, Rukrakia can open and close Gate of Dimension 10 times a day, even outside of battle.~
+@122  = ~Rukrakia's bracers identification confirmed~
+@123  = ~Accessing Akashic record~
+@124  = ~Activating Akashic image~
+@125  = ~25Dialog.bif file is missing. It seems that TOB is not installed.~
+@126  = ~Umm... What is going on? Supernatural powers? This is not working.~
+@127  = ~Arche Baska's avatar~
+@128  = ~Black hole~
+@129  = ~Dimension sword~
+@130  = ~Creating gravitational field~
+@131  = ~Dimension fall~
+@132  = ~Creating Dimension sword~
+@133  = ~Producing sonic wave~
+@134  = ~Breaking sonic speed~
+@135  = ~Producing shock wave~
+@136  = ~Akashic: Eye of God~
+@137  = ~Akashic: Mental interference effect emission~
+@138  = ~Rukrakia has died. The curse has been activated.~
+@139  = ~Curse of death~
+@140  = ~Gravitational field effect~
+@141  = ~Where are you? Well, I am disappointed that you have ran away.~
+@142  = ~Black forest~
+@143  = ~What? Why am I here?~
+@144  = ~Jaheira's advice~
+@145  = ~Damn! My butt is stuck!~
+@146  = ~Ack!~
+@147  = ~Kill him!~
+@148  = ~This one is immune!~
+@149  = ~Disarm it, Lime.~
+@150  = ~Wide area teleport~
+@151  = ~Bye, bye!~
+@152  = ~Arrggghhhh!~
+@153  = ~Hellfire shooting star sword!~
+@154  = ~Frozen snow shooting star sword!~
+@155  = ~Ghost killing sword!~
+@156  = ~Ha!~
+@157  = ~It's been awhile to go back to my body. I will admit that you are not regular people.~
+@158  = ~Those crying in grief, I will embrace you...~
+@159  = ~Those in despair of reality, I will embrace you...~
+@160  = ~Knights in search of rest, I will embrace you...~
+@161  = ~Sages lamenting in tears, I will embrace you...~
+@162  = ~I am king.~
+@163  = ~Only death declares eternal justice.~
+@164  = ~Death fills in the gaps of ignorance.~
+@165  = ~There is green transparent liquid. It looks harmless.~
+@166  = ~As I put my hand in the green liquid, I instantly got more energy and my illness was cured. I think my ability has gone up.~
+@167  = ~It is not usable anymore.~
+@168  = ~Volta chaining spear!~
+@169  = ~Volta vortex!~
+@170  = ~Your highness!~
+@171  = ~Descend on this world and save us all!~
+@172  = ~Aacckkkk! Save me!~
+@173  = ~The offering is filled and the door opens.~
+@174  = ~You cannot enter.~
+@175  = ~Argh! Help me!~
+@176  = ~Thunder hand, Asim~
+@177  = ~Leader, Azure~
+@178  = ~Klose~
+@179  = ~Lime~
+@180  = ~Nino Maximus Keyser Soze~
+@181  = ~Monica~
+@182  = ~Honma~
+@183  = ~Elber~
+@184  = ~Jin~
+@185  = ~Nils~
+@186  = ~Jenkins~
+@187  = ~Baron James~
+@188  = ~Baron's knights~
+@189  = ~Captain Kyrix~
+@190  = ~Baron's wizard~
+@191  = ~Baron's priest~
+@192  = ~Baron's slave~
+@193  = ~Knight of death~
+@194  = ~The lamenting sage~
+@195  = ~The one in despair~
+@196  = ~The one in grief~
+@197  = ~Ancient potion, Evil dead~
+@198  = ~the one who is awake~
+@199  = ~The legendary knight, Raigen~
+@200  = ~Hired assassin~
+@201  = ~Crazy Neff~
+@202  = ~Raigen's diary~
+@203  = ~The journal was so worn out that it was hard to recognize his writing. This is a relatively recognizable part. 
+
+Day 14
+
+I heard that the seal on the old existence was broken. There are already quite a number of victims. Along with my comrades, I started for the Sleeping desert. 
+
+Day 6
+
+It is such a hot day. The severe sun is turning the desert into a burning hell. We are getting close to our destination, but people are getting tired. 
+
+Day 2
+
+The undead are roaming around the ruins. Is this the end of a king who dreamt of the eternal life. We are cleaning up the place and getting ready to meet the king. 
+
+Day 1
+
+In the tomb of the king, there was no trace of the magnificent king, but only a mummy full of spite. 
+
+Day 0
+...
+
+The page was torn. We can only guess what might happened by the old, red tainted pages. 
+~
+@204  = ~Broken weapons~
+@205  = ~Broken weapons
+
+Just by looking at it, I could guess what an old sword it is. I am sure this was used by Raigen. The sword was broken when Raigen died.~
+@206  = ~Raigen's Soul Stone~
+@207  = ~Raigen's Soul Stone
+
+Raigen's Soul Stone. Raigen's soul is trapped in this gleaming stone. I can only guess that this Soul Stone was the driving force behind the seal that locked the mummy in place.~
+@208  = ~Bastard sword +7: Thunderer~
+@209  = ~Bastard sword +7: "Thunderer"
+
+The origin of this sword is not well known, but it is a general consensus that it was an old storm giant's godly artefact. According to the ancient promise, the sword is made of magically enchanted metal that contains the microstructure that creates the maximum potential differences. However, it was stolen by treasure hunters that realized its potential power, and has been modified and transformed by countless mortals through thousands of years.
+
+The sword became a real legend when Raigen, with his "the one with the lightning storm" reputation, wielded it. Raigen asked the dwarf Hilpdane, his friend who helped him, to create its final form. Hilpdane was already famous for a master smith and enchanter, and his craftsmanship made its rebirth as a bastard sword with all its potential power. There, it became the legendary artefact that it is today.
+
+Thunderer is protected by the highest spell and I think there is no more artisan to transform this bastard sword.
+
+The once broken Thunderer was reborn by Raigen's Soul Stone and the king's tears of purification, and it will regain its old fame along with Bhaalspwan, <CHARNAME>.
+
+STATISTICS:
+
+Ability with equipment: 
+
+    Immunity to electricity damage
+
+Special abilities: 
+
+    (1) Basic form
+
+    Produces electricity that produces 10% damage with each blow, and when saving throw vs. Breath weapons at -4 fails, the player gets stunned for 3 seconds. No saving is allowed against the electricity damage.
+
+    (2) Possession by Raigen 
+
+    The player can use Raigen's ability for 30 seconds a day. Basic damage type is changed to crushing and creates chain lightning that produces 10D6 damage from long distance (If saving throw vs. -4 Breath weapons is successful, it causes half damage). Also, it shoots lightening that produces 6D6 damage with hostile objects around the victim. If saving throw vs. Breath weapons fails, the player becomes stunned for 3 seconds.
+
+THAC0: +7 Bonus
+Damage: 2D4 +7
+Damage type: Slashing
+Weight: 2
+Speed Factor: 4
+Proficiency Type: Bastard Sword
+Type: 1-handed weapon
+Requires: more than 12 strength
+Not Usable By:
+ All classes except Fighter, Ranger, Barbarian, Paladin, and all classes without proper swordsmanship.~
+@210  = ~Map of Raigen's Grave~
+@211  = ~Map of Raigen's Grave
+
+The scroll shows a detailed map to Raigen's grave. With this map, it won't be too difficult to find the way.~
+@212  = ~Poison breath~
+@213  = ~Telekinesis~
+@214  = ~Hell fire shooting star sword~
+@215  = ~Frozen snow shooting star sword~
+@216  = ~Ghost killing sword~
+@217  = ~Summon the screaming one~
+@218  = ~Summon the despairing one~
+@219  = ~Summon the knight of death~
+@220  = ~Summon the lamenting sage~
+@221  = ~A holy song for death~
+@222  = ~Region transliteration~
+@223  = ~Poison effect~
+@224  = ~Dispel polymorph~
+@225  = ~Laser breath~
+@226  = ~Volta chaining spear~
+@227  = ~Volta Vortex~
+@228  = ~There is clear green liquid. I would not touch it.~
+@229  = ~Divine suicide bombing~
+@230  = ~It is boring...~
+@231  = ~I have nothing to do...~
+@232  = ~This is no fun...~
+@233  = ~I am sick of this...~
+@234  = ~I told you not to show your face around me! Roach!~
+@235  = ~Vampiric Essence Stealer +5: Hupjeong blood sword
+
+
+Sword from the far away Kara-Tur. Its size is similar to that of a short sword and it is used as a short sword. The sword has a dreadful birth legend. The evil blood sucker, a trained vampire in the way of evil in Kara-Tur, took away a thousand women's essence by using stealing women's essence skill. As he became more notorious, a Taoist hermit with supernatural power came down and killed the vampire and locked his soul in his sword. His sword then had a spirit that absorbs others' essence.
+
+Afterwards, it was transformed by <CHARNAME>'s butler, Masa, and some of high ranking vampire's abilities were incorporated into the sword.
+
+STATISTICS:
+
+Special:
+
+One extra attack per round is added.
+
+With a successful attack, it absorbs the victim's essence. During one round, the victim gets -1 health damage, and the user recovers 10 hit points.
+
+Vampiric abilities:
+
+ Regenerates 1 hit point per hit.
+
+ Immunity to sleep, panic, paralyze, hold, entangle, charm, disease, level drain, and instant death.
+
+ When the attack succeeds, it has 20% chance of draining 4 levels of the victim when saving throw vs. spells at -4 fails.
+
+THAC0: +5
+Damage: 1d6 +5
+Damage type: Slashing
+Weight: 4
+Speed Factor: 0
+Proficiency Type: Short Sword
+Requires: more than 8 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Monk~
+@236  = ~Disintegrator +6: Disintegrator
+
+
+This sword came about when the legendary wizard slayer Hyperion gave ten thousand year old iron from Kara-Tur to an ironsmith to custom-made a sword. It was his favorite weapon, extremely heavy for its size, it is blunt overall and much more suitable for crushing rather than slashing or piercing. It was reduced in weight when it was enchanted with magical ingredients, and is able to dispel the opponent. With this sword in his left hand, Hyperion built a great reputation, and this sword was named Disintegrator.
+
+STATISTICS:
+
+Special:
+
+It blows away the victim because of its weight, and the user loses his own balance and falls down for 3 seconds.
+
+In the case of successful attack, the victim gets dispelled.
+
+It causes damage in the form of crushing.
+
+It transforms from the short sword type, and gets to roll 1d8.
+
+
+THAC0: +6 Bonus
+Damage: 1d8 +6
+Damage type: Crushing
+Weight: 25
+Speed Factor: 0
+Proficiency Type: Short Sword
+Requires: more than 15 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Monk~
+@237  = ~Vampiric essence stealer~
+@238  = ~Masa~
+@239  = ~High-ranking vampire's blood~
+@240  = ~It seems to be the blood of a vampire called Klose, treated and stored in a medicine bottle. High-ranking vampire's blood is quite valuable, so it can be useful in some ways, although the physical liquid has evaporated to fog...~
+@241  = ~Curious ore~
+@242  = ~It is overall golden ore in crystal. It is incredibly heavy and moving it won't be an easy job. I do not know where I can use it.~
+@243  = ~It doesn't even hurt when you hit me... *Yawn*~
+@244  = ~Sleeping desert~
+@245  = ~Thank you, <CHARNAME>.~
+@246  = ~You will regret attacking me. Before you face death!~ [rukra10]
+@247  = ~Do you want to meddle with me?~ [rukra11]
+@248  = ~I can't focus!~ [rukra71]
+@249  = ~That is a good idea.~ [rukra37]
+@250  = ~I heard.~ [rukra38]
+@251  = ~I hate cold.~ [rukra23]
+@252  = ~In the dark.~ [rukra70]
+@253  = ~Genie~
+@254  = ~Goblin~
+@255  = ~Wolf~
+@256  = ~Skeleton~
+@257  = ~Ankheg~
+@258  = ~Elminster~
+@259  = ~Klose~
+@260  = ~Undead~
+@261  = ~Thunder long sword~
+@262  = ~Thunder long sword +5
+
+
+This sword belongs to Elminster.
+
+STATISTICS:
+
+Special:
+
+When the attack is successful, the victim must use a saving throw vs. Breath weapons at -4 with 25% success rate. In case of failure, the player becomes unconscious for 2 rounds.
+
+THAC0: +5 bonus
+Damage: 1d8 +5
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+
+~
+@263  = ~Ring of protection +5~
+@264  = ~Ring of protection +5
+
+This ring belongs to Elminster.
+
+STATISTICS:
+
+Special: Bonus +5 to all saving throws
+         Bonus +5 to AC
+
+Weight: 0
+
+~
+@265  = ~Elminster's eversmoking pipe~
+@266  = ~Elminster's eversmoking pipe
+
+This pipe belongs to Elminster.
+
+STATISTICS:
+
+Special abilities: 
+  Repels micro-sized bugs
+  Physical mirror effect for the user 
+  Shield effect for the user 
+
+Weight: 0
+
+~
+@267  = ~Cloak of spell resistance~
+@268  = ~Cloak of spell resistance
+
+This cloak belongs to Elminster.
+
+STATISTICS:
+
+Special ability: Magic resistance bonus +5 
+
+Weight: 0
+
+~
+@269  = ~Arcane fire~
+@270  = ~Silver fire~
+@271  = ~Mordenkainen's Disjunction~
+@272  = ~Spell-like ability-True sight~
+@273  = ~Spell-like ability-Detect invisibility~
+@274  = ~Contingency~
+@275  = ~Chain contingency~
+@276  = ~Silver fire ability~
+@277  = ~Property change-Dragon breath~
+@278  = ~Spell sequencer~
+@279  = ~Arcane fire–Magic missile~
+@280  = ~Property change-Abi Dalzim's Horrid wilting~
+@281  = ~Property change-FireBall~
+@282  = ~Arcane fire-Melf's acid arrow~
+@283  = ~Arcane fire-Fire ball~
+@284  = ~Spell-like ability-Shapechange~
+@285  = ~Wish~
+@286  = ~Minor spell sequencer~
+@287  = ~Spell trigger~
+@288  = ~Spell-like ability-Mantle~
+@289  = ~Spell-like ability-Remove spell~
+@290  = ~Woooooooo...~
+@291  = ~Team A has won!~
+@292  = ~Team B has won!~
+@293  = ~Worship me!~
+@294  = ~Celebrate me!~
+@295  = ~~
+@296  = ~~
+@297  = ~~
+@298  = ~~
+@299  = ~~
+@300  = ~~
+@301  = ~This mod includes detectable spell patch for BP. Mods incompatible with BP might be also incompatible with this mod.~
+@302  = ~Patching STATS.IDS...~
+@303  = ~Implementing STATES...~
+@304  = ~Now installing Rukrakia romance mod.~
+@305  = ~This mod includes worldmap modification. This mod is incompatible with mods that interfere with worldmap.~
+@306  = ~Updating worldmap...~

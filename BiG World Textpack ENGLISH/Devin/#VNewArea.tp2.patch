@@ -1,0 +1,117 @@
+--- Devin\Tp2externe\#VNewArea.tp2	Sun Sep 04 20:00:21 2016
++++ C:\BWP Patchstudio\patched files\Devin\Tp2externe\#VNewArea.tp2	Mon Sep 05 07:37:32 2016
+@@ -67,7 +67,7 @@
+     INT_VAR
+     fj_loc_x       = 1786
+     fj_loc_y       = 286
+-    fj_note_strref = RESOLVE_STR_REF (~Salle des réprouvés~)
++    fj_note_strref = RESOLVE_STR_REF (@9999964) // ~Salle des réprouvés~
+     fj_strref_loc  = 0
+     fj_color       = 1
+     STR_VAR
+@@ -78,7 +78,7 @@
+     INT_VAR
+     fj_loc_x       = 1755
+     fj_loc_y       = 1440
+-    fj_note_strref = RESOLVE_STR_REF (~Temple du Grand Sacrant~)
++    fj_note_strref = RESOLVE_STR_REF (@9999965) // ~Temple du Grand Sacrant~
+     fj_strref_loc  = 0
+     fj_color       = 1
+     STR_VAR
+@@ -89,18 +89,18 @@
+     INT_VAR
+     fj_loc_x       = 505
+     fj_loc_y       = 743
+-    fj_note_strref = RESOLVE_STR_REF (~Maison des deux fervents~)
++    fj_note_strref = RESOLVE_STR_REF (@9999966) // ~Maison des deux fervents~
+     fj_strref_loc  = 0
+     fj_color       = 1
+     STR_VAR
+     fj_structure_type = note
+ END
+ 
+-SAY 0x3cc ~Vous sentez que les yeux de cette statue ne cessent de vous suivre comme s'ils étaient doué de vie.~
+-SAY 0x490 ~Une aura maléfique émane de cette sculpture, vous ne pouvez retenir un frisson lorsque vos yeux s'attardent dessus.~
+-SAY 0x554 ~Vous pouvez lire une inscription sur l'objet : Deux coeurs qui battent à l'unisson, deux coeurs pour le baiser des justes.~
+-SAY 0x618 ~Ici se trouve une autre inscription : Deux coeurs qui ne cessent de résonner, deux coeurs pour abhorrer le monde.~ 
+-
++SAY 0x3cc @9999967 // ~Vous sentez que les yeux de cette statue ne cessent de vous suivre comme s'ils étaient doué de vie.~
++SAY 0x490 @9999968 // ~Une aura maléfique émane de cette sculpture, vous ne pouvez retenir un frisson lorsque vos yeux s'attardent dessus.~
++SAY 0x554 @9999969 // ~Vous pouvez lire une inscription sur l'objet : Deux coeurs qui battent à l'unisson, deux coeurs pour le baiser des justes.~
++SAY 0x618 @9999970 // ~Ici se trouve une autre inscription : Deux coeurs qui ne cessent de résonner, deux coeurs pour abhorrer le monde.~ 
++ 
+ BUT_ONLY_IF_IT_CHANGES
+ 
+ COPY ~Devin/New Area/#VAR20.mos~ ~override~
+@@ -117,12 +117,12 @@
+ 
+ COPY ~Devin/New Area/#VAR21.are~ ~override~
+ 
+-SAY 0x244 ~Ce cercueil là est suitant de sang. Vopus ne pouvez réprimer un frisson en posant les yeux dessus.~
+-SAY 0x308 ~Un étrange signe est gravé sur ce cercueil, un peu comme une croix...~
+-SAY 0x3cc ~Ce cercueil là est suitant de sang. Vopus ne pouvez réprimer un frisson en posant les yeux dessus.~
+-SAY 0x490 ~Un étrange signe est gravé sur ce cercueil, un peu comme une croix...~
+-SAY 0x554 ~Vous vous demandez à quoi peut bien servir cet appareil. Cela ne semble pas être trés engageant...~
+-SAY 0x618 ~Les crocs de cette machine sont recouvert de sang et de lambeaux de chair. Vous peinez à soutenir votre regard en songeant à son utilisation.~ 
++SAY 0x244 @9999971 // ~Ce cercueil là est suitant de sang. Vopus ne pouvez réprimer un frisson en posant les yeux dessus.~
++SAY 0x308 @9999972 // ~Un étrange signe est gravé sur ce cercueil, un peu comme une croix...~
++SAY 0x3cc @9999973 // ~Ce cercueil là est suitant de sang. Vopus ne pouvez réprimer un frisson en posant les yeux dessus.~
++SAY 0x490 @9999974 // ~Un étrange signe est gravé sur ce cercueil, un peu comme une croix...~
++SAY 0x554 @9999975 // ~Vous vous demandez à quoi peut bien servir cet appareil. Cela ne semble pas être trés engageant...~
++SAY 0x618 @9999976 // ~Les crocs de cette machine sont recouvert de sang et de lambeaux de chair. Vous peinez à soutenir votre regard en songeant à son utilisation.~ 
+ 
+ COPY ~Devin/New Area/#VAR21.mos~ ~override~
+ COPY ~Devin/New Area/#VAR21.tis~ ~override~
+@@ -146,29 +146,29 @@
+ 
+ COPY ~Devin/New Area/#VAR23.are~ ~override~
+ 
+-SAY 0x244 ~...et il fut écarté, rejeté par les déités.~ // VALID
+-SAY 0x308 ~Souffrir sans fin, être ainsi écrasé par son destin...~ // VALID
+-SAY 0x3cc ~Ce mannequin porte encore la marque des derniers entrainements. Il est à moitié desarticulé.~ // VALID
+-SAY 0x490 ~Ce manequin est encore intact. Il semble avoir été changé récement.~ // VALID
+-SAY 0x554 ~C'est un ratelier d'arme, vraisemblablement réservé aux entrainements. Mieux vaut ne pas y toucher.~ // VALID
+-SAY 0x618 ~C'est un gigantesque trou, il s'enfonce dans les profondeurs abyssales. Vous préférez ne pas vous en approchez.~ // VALID
+-SAY 0x6DC ~A peine posez vous les yeux sur l'escalier que vous ressentez une vive douleur au crâne. Vous détournez immédiatement les yeux.~ // VALID
+-SAY 0x7A0 ~D'apparence repoussante, il n'avait pas de place...~ // VALID
+-SAY 0x864 ~...il était sombre, sans forme, il était neuf. ~ // VALID
+-SAY 0x928 ~Et soudain il émergea du cloaque...~ // VALID
+-SAY 0x9EC ~Un passage se fait, une main se tend...~ 
+-SAY 0xAB0 ~La tête de ce mannequin ne tient plus que par un morceau. Vous n'osez imaginez à quelle pression elle a pu être soumise.~ // VALID 
+-SAY 0xB74 ~...et perdre espoir, sans jamais rien savoir.~ // VALID
+-SAY 0xC38 ~Alors un visage gracile s'attarde sur ses traits...~ // VALID
+-SAY 0xCFC ~...et soudain tout est moins noir, moins dur.~ // VALID
+-SAY 0xDC0 ~...puis des cris insensés, tout s'arrête dans l'instant. ~ // VALID
+-SAY 0xE84 ~L'horreur laisse place au mystére...~ // VALID
+-SAY 0xF48 ~...quand une nouvelle sustance émerge du brouillard.~ // VALID
+-SAY 0x100C ~Elle s'en va , elle s'en va tristement...~ // VALID
+-SAY 0x10D0 ~...face à la betise des hymnes décadents.~ // VALID 
+-SAY 0x1194 ~Elle porte un nouveau message...~ // VALID
+-SAY 0x1258 ~...plus personne ne vous mettra en cage dit-elle.~ // VALID
+-SAY 0x131C ~Car voila venu la fin de l'esclavage.~ // VALID
++SAY 0x244 @9999977 // ~...et il fut écarté, rejeté par les déités.~ // VALID
++SAY 0x308 @9999978 // ~Souffrir sans fin, être ainsi écrasé par son destin...~ // VALID
++SAY 0x3cc @9999979 // ~Ce mannequin porte encore la marque des derniers entrainements. Il est à moitié desarticulé.~ // VALID
++SAY 0x490 @9999980 // ~Ce manequin est encore intact. Il semble avoir été changé récement.~ // VALID
++SAY 0x554 @9999981 // ~C'est un ratelier d'arme, vraisemblablement réservé aux entrainements. Mieux vaut ne pas y toucher.~ // VALID
++SAY 0x618 @9999982 // ~C'est un gigantesque trou, il s'enfonce dans les profondeurs abyssales. Vous préférez ne pas vous en approchez.~ // VALID
++SAY 0x6DC @9999983 // ~A peine posez vous les yeux sur l'escalier que vous ressentez une vive douleur au crâne. Vous détournez immédiatement les yeux.~ // VALID
++SAY 0x7A0 @9999984 // ~D'apparence repoussante, il n'avait pas de place...~ // VALID
++SAY 0x864 @9999985 // ~...il était sombre, sans forme, il était neuf. ~ // VALID
++SAY 0x928 @9999986 // ~Et soudain il émergea du cloaque...~ // VALID
++SAY 0x9EC @9999987 // ~Un passage se fait, une main se tend...~ 
++SAY 0xAB0 @9999988 // ~La tête de ce mannequin ne tient plus que par un morceau. Vous n'osez imaginez à quelle pression elle a pu être soumise.~ // VALID 
++SAY 0xB74 @9999989 // ~...et perdre espoir, sans jamais rien savoir.~ // VALID
++SAY 0xC38 @9999990 // ~Alors un visage gracile s'attarde sur ses traits...~ // VALID
++SAY 0xCFC @9999991 // ~...et soudain tout est moins noir, moins dur.~ // VALID
++SAY 0xDC0 @9999992 // ~...puis des cris insensés, tout s'arrête dans l'instant. ~ // VALID
++SAY 0xE84 @9999993 // ~L'horreur laisse place au mystére...~ // VALID
++SAY 0xF48 @9999994 // ~...quand une nouvelle sustance émerge du brouillard.~ // VALID
++SAY 0x100C @9999995 // ~Elle s'en va , elle s'en va tristement...~ // VALID
++SAY 0x10D0 @9999996 // ~...face à la betise des hymnes décadents.~ // VALID 
++SAY 0x1194 @9999997 // ~Elle porte un nouveau message...~ // VALID
++SAY 0x1258 @9999998 // ~...plus personne ne vous mettra en cage dit-elle.~ // VALID
++SAY 0x131C @9999999 // ~Car voila venu la fin de l'esclavage.~ // VALID
+ 
+ 
+ COPY ~Devin/New Area/#VAR23.mos~ ~override~

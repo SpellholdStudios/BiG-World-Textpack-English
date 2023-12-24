@@ -1,0 +1,179 @@
+--- UoT\Languages\Chinese(Simplified)\UTHing01.d	Sat May 03 13:55:48 2008
++++ C:\BWP Patchstudio\patched files\UoT\Languages\Chinese(Simplified)\UTHing01.d	Mon Apr 15 15:09:29 2013
+@@ -5,7 +5,7 @@
+ IF ~Global("UTTalkedToHinge","MYAREA",0)~
+ THEN BEGIN First
+ SAY
+-	~在来得及对眼前的一切表示惊讶之前，知识已自面前流光溢彩的枢纽源源而来，持续不断地灌输到你的思绪之中。于是你便知道了自己身在何处。~
++	@0
+ IF ~~
+ THEN GOTO Second
+ END
+@@ -13,7 +13,7 @@
+ IF ~~
+ THEN BEGIN Second
+ SAY
+-	~这里是超越空间的维度、跨越时间的永恒，这里的生死轮回永无止境、善恶对抗纷争不休，这里是影之特珞无数衍生体中最为诡异险恶的半位面之一。~
++	@1
+ IF ~~
+ THEN GOTO Third
+ END
+@@ -21,7 +21,7 @@
+ IF ~~
+ THEN BEGIN Third
+ SAY
+-	~“次元竞技场”。~
++	@2
+ 	IF ~Global("UTTalkedToHinge","MYAREA",0)~ THEN DO
+ 		~SetGlobal("UTTalkedToHinge","MYAREA",1)~ GOTO Start
+ END
+@@ -29,18 +29,18 @@
+ IF ~GlobalGT("UTTalkedToHinge","MYAREA",0)~
+ THEN BEGIN Start
+ SAY
+-	~以缪比乌斯的名义：~
++	@3
+ IF ~~
+ THEN REPLY
+-	~为吾展现致胜之道！~
++	@4
+ 	GOTO Challenge
+ IF ~~
+ THEN REPLY
+-	~为吾创造战斗之刃！~
++	@5
+ 	GOTO Storage
+ IF ~~
+ THEN REPLY
+-	~为吾开启虚空之门！~
++	@6
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		ClearAllActions()
+@@ -49,13 +49,13 @@
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~结束对话。~
++	@7
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~（测试用选单）~
++	@8
+ 	GOTO Miscellaneous
+ END
+ 
+@@ -67,7 +67,7 @@
+ 	~~
+ IF ~~
+ THEN REPLY
+-	~挑战巴特兹小队。~
++	@10
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		ClearAllActions()
+@@ -76,7 +76,7 @@
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~挑战塔那厘小队。~
++	@11
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		ClearAllActions()
+@@ -85,7 +85,7 @@
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~挑战秘语者。~
++	@12
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		ClearAllActions()
+@@ -94,7 +94,7 @@
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~挑战无魂者。~
++	@13
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		ClearAllActions()
+@@ -103,7 +103,7 @@
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~挑战斩神者。~
++	@14
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		ClearAllActions()
+@@ -112,11 +112,11 @@
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~回到上级菜单。~
++	@15
+ 	GOTO Start
+ IF ~~
+ THEN REPLY
+-	~结束对话。~
++	@7
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 	~ EXIT
+@@ -130,18 +130,18 @@
+ 	~~
+ IF ~~
+ THEN REPLY
+-	~开启次元商店。~
++	@16
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		StartStore("trshop",LastTalkedToBy(Myself))
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~回到上级菜单。~
++	@15
+ 	GOTO Start
+ IF ~~
+ THEN REPLY
+-	~结束对话。~
++	@7
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 	~ EXIT
+@@ -155,25 +155,25 @@
+ 	~~
+ IF ~Global("Comet","MYAREA",0)~ 
+ THEN REPLY
+-	~开启区域天灾：星坠。~
++	@17
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		SetGlobal("Comet","MYAREA",1)
+ 	~ EXIT
+ IF ~Global("Comet","MYAREA",1)~ 
+ THEN REPLY
+-	~关闭区域天灾：星坠。~
++	@18
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 		SetGlobal("Comet","MYAREA",0)
+ 	~ EXIT
+ IF ~~
+ THEN REPLY
+-	~回到上级菜单。~
++	@15
+ 	GOTO Start
+ IF ~~
+ THEN REPLY
+-	~结束对话。~
++	@7
+ 	DO ~
+ 		ActionOverride("UTHing01",DestroySelf())
+ 	~ EXIT

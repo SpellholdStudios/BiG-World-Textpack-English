@@ -1,0 +1,76 @@
+--- Setup-Raziel.tp2	Sun Nov 27 12:13:29 2016
++++ C:\BWP Patchstudio\patched files\Setup-Raziel.tp2	Sun Nov 27 12:10:21 2016
+@@ -3,12 +3,26 @@
+ 
+ VERSION ~v1 BWP Fix~
+ 
+-BEGIN ~Raziel NPC~
++AUTO_TRA ~Raziel\tra\%s~
++
++LANGUAGE ~Polish~
++         ~Polish~
++         ~Raziel\tra\Polish\Setup.tra~
++
++LANGUAGE ~German~
++         ~German~
++         ~Raziel\tra\German\Setup.tra~
++
++LANGUAGE ~English~
++         ~English~
++         ~Raziel\tra\English\Setup.tra~
++
++BEGIN @0
+ 
+ COPY_EXISTING ~key13.itm~ ~override/key50.itm~
+-  SAY NAME1 ~Klucz do celi~
+-  SAY NAME2 ~Klucz do celi~
+-  SAY DESC ~Typowy klucz do celi, jaki mo¿na znaleŸæ w ka¿dym wiêzieniu. Ten mo¿e pasowaæ do drzwi w celi Raziela.~
++  SAY NAME1 @1
++  SAY NAME2 @1
++  SAY DESC @2
+ 
+ COPY_EXISTING ~ar0602.are~ ~override/ar0602.are~
+ //  WRITE_ASCII   0x9708 ~KEY50~
+@@ -22,14 +36,14 @@
+ BUT_ONLY_IF_IT_CHANGES
+ 
+ COPY ~raziel/cre/Raziel.cre~ ~override/Raziel.cre~
+-  SAY NAME1 ~Raziel~
+-  SAY NAME2 ~Raziel~
+-  SAY BIO ~Zapytany o przesz³oœæ, RAZIEL twierdzi, i¿ pochodzi z Waterdeep, najbardziej znanego miejsca w ca³ym Faerunie. Tak jak wiele innych osób nie potrafi³ jednak uczciwie na siebie zarobiæ na jego ulicach. Nie mia³ innego wyboru jak zejœæ na drogê przestêpstwa i wystêpku. Zacz¹³ od drobnych kradzie¿y, skoñczy³ zaœ jako zbir czychaj¹cy na nieostro¿nych wêdrowców w ciemnych uliczkach. By³ na tyle skuteczny, ¿e szybko zainteresowa³a siê nim miejscowa gildia. Z uœmiechem na twarzy wspomina, i¿ odmówi³ wst¹pienia w jej szeregi co by³o równoznaczne z wydaniem na siebie wyroku œmierci. Nie mog¹c szukaæ pomocy u w³adz musia³ uciekaæ z miasta. Od tamtego czasu wiele podró¿owa³ po Krainach. Do Amn trafi³ w poszukiwaniu przygód i jak twierdzi ma nadziejê znaleŸæ je przy twoim boku. NajwyraŸniej uwa¿a, i¿ jest to doskona³a okazja by zapomnieæ o niechlubnej przesz³oœci i urzeczywistnieæ marzenia o bohaterstwie i s³awie.~
+-  SAY MORALE ~Ta walka jest przegrana. Uciekajmy póki mo¿emy!~ [RAZ003]
+-  SAY BATTLE_CRY1 ~Na nich!~ [RAZ004]
+-  SAY HURT ~Jestem ranny... pomó¿cie mi.~ [RAZ005]
+-  SAY TARGET_IMMUNE ~Moje ciosy nie odnosz¹ skutku!~ [RAZ006] 
+-  SAY INVENTORY_FULL ~Albo nagle os³ab³em, albo noszê zbyt wiele.~ [RAZ007]
++  SAY NAME1 @3
++  SAY NAME2 @3
++  SAY BIO @4
++  SAY MORALE @5 
++  SAY BATTLE_CRY1 @6 
++  SAY HURT @7 
++  SAY TARGET_IMMUNE @8  
++  SAY INVENTORY_FULL @9 
+ 
+ EXTEND_BOTTOM ~ar0602.bcs~ ~raziel/baf/ar0602.baf~
+ 
+@@ -39,7 +53,7 @@
+ COPY ~raziel/bmp/RazielS.bmp~ ~portraits/RazielS.bmp~
+ 
+ COMPILE ~raziel/dlg/Raziel.d~
+-  USING ~raziel/tra/Journal.tra~
++  USING ~raziel/tra/%s/Journal.tra~
+ 
+ COMPILE ~raziel/baf/Raziel.baf~
+ 
+@@ -69,8 +83,8 @@
+ 
+ COPY_EXISTING ~newgame.bcs~ ~override~
+ DECOMPILE_BCS_TO_BAF
+-REPLACE 9999999 "Poczekaj tylko, a¿ wydostanê siê z tej klatki!" [RAZ001]
+-REPLACE 9999998 "Cicho, psie!" [RAZ002]
++REPLACE 9999999 @10 
++REPLACE 9999998 @11 
+ COMPILE_BAF_TO_BCS
+ 
+ APPEND ~pdialog.2da~

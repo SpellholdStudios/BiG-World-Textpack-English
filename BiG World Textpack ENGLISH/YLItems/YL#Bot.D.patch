@@ -1,0 +1,9 @@
+--- YLITEMS\DLG\YL#Bot.D	Thu Dec 09 06:49:48 2010
++++ C:\BWP Patchstudio\patched files\YLITEMS\DLG\YL#Bot.D	Sat Aug 23 05:21:30 2014
+@@ -86,4 +86,4 @@
+   IF ~~ THEN  REPLY @2523 GOTO 4
+   IF ~~ THEN REPLY #66556 EXIT
+ END
+-END
+\ No newline at end of file
++END

@@ -1,0 +1,36 @@
+--- YLITEMS\DLG\25XIMEN.D	Fri Jun 01 09:03:32 2007
++++ C:\BWP Patchstudio\patched files\YLITEMS\DLG\25XIMEN.D	Sat Aug 23 05:17:51 2014
+@@ -1,23 +1,23 @@
+ BEGIN 25XIMEN
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN High
+-  SAY ~你好，别来无恙?你要是还想看我的藏品,我现在没有东西可供出售.连大人那里还有点存货，不过他恐怕不会卖的.~
+-  IF ~~ THEN REPLY ~你确定没有任何东西可以转让吗?~ GOTO 1
+-  IF ~~ THEN REPLY ~那么再会了.~ GOTO GoodBye
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 GOTO GoodBye
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+    Global("LCFTALKEDALREADY","GLOBAL",0)~ THEN BEGIN 0
+-  SAY ~你好.有什么需要去和连大人谈吧.~
+-  IF ~~ THEN REPLY ~我想我会的.~ GOTO GoodBye
++  SAY @3
++  IF ~~ THEN REPLY @4 GOTO GoodBye
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~不错.我们本来就不是商人,路费现在也很充足.老实说，作为公职人员经商可不怎么光彩.~
+-  IF ~~ THEN REPLY ~好吧，我也许该和连大人谈谈.~ GOTO GoodBye
++  SAY @5
++  IF ~~ THEN REPLY @6 GOTO GoodBye
+ END
+ 
+ IF ~~ THEN BEGIN GoodBye
+-  SAY ~那么再会.~
++  SAY @7
+   IF ~~ THEN EXIT
+-END
+\ No newline at end of file
++END

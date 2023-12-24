@@ -1,0 +1,27 @@
+@50008 = ~Player1~ 
+
+
+// Premier entretien avec sidge
+
+@11    = ~I'm looking for a certain Lucie. I was told you had pending cases with her.~
+@1     = ~It could be that I've heard of her, in fact. And if you put a bid, it could even be that I remember where she is.~ 
+
+@2     = ~Ah... And how much you would estimate this bid?~
+
+@3     = ~Well, this is a very valuable information: yesterday, I was offered eight hundred coins of gold to get this information. I refused, of course: I have a certain sense of ethics, as you can see...~ 
+
+@4     = ~I offer you a thousand and two hundred coins of gold. It's a very small price to pay for such information.~
+@5     = ~Two thousand pieces of gold would perhaps be enough to deprive you of your scruples?~
+@6     = ~How about five thousand coins of gold?~ 
+@7     = ~I don't have a sum huge enough to negotiate. Maybe I can offer you a service in return?~
+
+@41    = ~In the end, I prefer to keep the information for myself. You can always come back later. You never know...~ 
+@61    = ~A tempting offer... Very well: the person you're looking for is in the house adjacent to the building. But I didn't say anything, okay?~
+@62    = ~A short friendly advice: you should draw a circle with chalk on the floor when you enter, otherwise you won't see anyone. You'll understand when you get there.~
+@71    = ~Yes, of course, I just need a maid! No, seriously: come back when you have a serious proposal for me. I have no time to lose.~ 
+
+
+// Premier entretien avec bodhi
+
+
+@21    = ~You have taken the wrong direction: bad encounter, bad decision... You're going to pay for it expensively, very expensively. I look forward to having you in my claws. See you very soon!~

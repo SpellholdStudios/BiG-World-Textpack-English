@@ -1,0 +1,207 @@
+@0  = ~Lester the NPC for BGII~ 
+@1  = ~Warrior of Order of Pints of Beer~
+@2  = ~WARRIOR OF THE ORDER OF PINTS OF BEER: At first sight, this warrior looks like a pariah, a vagrant. But when he's drunk, his extraordinary skills are unlocked.
+
+Advantages:
+- gains high bonuses to strength and constitution when drunk
+- Gains a bonus to stealth
+- becomes immune to mental attacks when drunk
+Disadvantages:
+- cannot specialize in ranged weapons
+- cannot dual or multi class.
+- excessive alcohol consumption causes high penalty to   
+  dexterity~ 
+@3  = ~Lester~
+@4  = ~When asked about his past, LESTER speaks in a drunken stupor, the smell alcohol thick on his breath. The story he tells is chaotic, full of colorful descriptions of great battles and beautiful maidens, of curses and nudity, that you manage to understand very little of it. The most that can be inferred is that Lester fell to alcoholism due to heartbreak.
+Concluding his story Lester wipes away tears from his eyes with a filthy sleeve, and starts frantically rummaging through the backpack in seach of drink.~ 
+@5  = ~Keep up! Valour and ale go hand in hand!~
+@6  = ~Can we discuss your behavior? With ale?~
+@7  = ~You don't drink beer... you aren't funny... what am I doing in your party?~ 
+@8  = ~A Warrior of Order of Pints of Beer does not associate with scum like you!~
+@9  = ~What?~ 
+@10 = ~I can't right now.~
+@11 = ~Not a moment of peace...~
+@12 = ~Wait a second!~ 
+@13 = ~Oh, right!~
+@14 = ~Party! Follow me!~ 
+@15 = ~As leader I propose a half-hour stop at the closest tavern!~
+@16 = ~My legs hurt. I'm thirsty.~
+@17 = ~If we're not doing anything, let's drink!.~
+@18 = ~Ouch!~ 
+@19 = ~My sword is very dirty!~
+@20 = ~Attention, attention!~ 
+@21 = ~Ah... save me a beer!~ 
+@22 = ~All right, don't hurt me!~
+@23 = ~Uh, excuse me, where is the nearest tavern?~ 
+@24 = ~I know a nice inn here. They have cheap beer and sausage.~
+@25 = ~It is so pleasant here. Like being in a wine cellar!~
+@26 = ~For beer!~
+@27 = ~Missed! I guess I'm too drunk!~
+@28 = ~Ughh! Bastard!~
+@29 = ~I have holes in my pockets!~
+@30 = ~I cannot focus!~
+@31 = ~Tarin~
+@32 = ~Bons~
+@33 = ~Lenn~
+@34 = ~Fuzuli~
+@35 = ~Hlayster~
+@36 = ~Dionysis Entreri~
+@37 = ~Drunken Rage~
+@38 = ~Hep~
+@39 = ~Belted down~
+@40 = ~Liquor~
+@41 = ~Pretence~
+@42 = ~Drunken songs~
+@43 = ~Staggering~
+@44 = ~Breath Weapon~
+@45 = ~Lester's Dirty Sword~
+@46 = ~Lester's Dirty Sword +2
+
+Lester, like many drunks, doesn't give much attention to hygiene, he gives of a particularly unpleasant odor, and his weapons are in a woeful state.
+This sword, probably once smooth and shiny, is now so dirty and rusty that with every hit it inflicts, it can cause an infection of the wound, and thus - further injury.
+In addition, there is also the risk of infection in the person wielding the sword. 
+
+STATISTICS:
+
+Special Skills:
+25% chance of causing disease with each hit
+25% chance of causing disease to wielder
+
+THAC0: +2
+Damage: 1d8 +2
+Damage type: slashing
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: 1-handed
+Usable By:
+ Lester~
+@47 = ~Lester's Dirty Sword +3, +4 against lawful
+
+Rather than returning this sword to its former glory, Cromwell has it even more virulent and poisonous. However, he has modified the hilt so that there is risk to the wielder.
+This weapon is a complete affront to the law-abiding and gains a bonus while attacking such creatures as they try to avoid it's ichor!
+
+STATISTICS:
+
+Special Skills:
+25% chance of causing disease with each hit
+
+THAC0: +3
+Damage: 1d8 +3, +4 vs. lawful
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: 1-handed
+Usable By:
+ Lester~
+@48 = ~Lester's Dirty Sword +4, +6 against law-abiding
+
+Lester's sword has been saturated with other magical power, this time by Cespenar from the depths of hell, meaning that despite it still being dirty and rusty, it has become one of the most powerful weapons on Faerun.
+
+STATISTICS:
+
+Special Skills:
+25% chance of causing disease with each hit
+
+THAC0: +4
+Damage: 1d8 +4, +6 vs. law-abiding
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: 1-handed
+Usable By:
+ Lester~
+@49 = ~Lester's Kufajka~
+@50 = ~Lester's favorite kufajka
+
+The Kufajka is a type of protective jacket which has two tough inner and outer linings with wadding in the middle. It looks quite unsightly and is not exactly a very good protective covering. But it protects against the cold and is Lester's favorite, to such an extent that he never takes it off (even while sleeping), which, given his carelessness about hygiene, is quite annoying for his companions. The Kufajka has it's origins in the Hordelands, in the east of Faerun.
+
+STATISTICS:
+
++60% cold resistance
+
+Armor Class: 5
+Weight: 25
+Usable By:
+ Lester~
+@51 = ~Throwing bottle~
+@52 = ~Throwing bottle
+
+An empty bottle, which can be used as a throwing weapon.
+
+STATISTICS:
+
+Damage: 1d6
+Damage type: crushing
+Damage: 1d4
+Damage type: slashing
+Weight: 5
+Proficiency Type: Dart
+Type: 1-handed
+Not Usable By:
+ Lawful
+ Priest
+ Paladin
+ Mage
+ Druid
+ Monk
+ Elf
+ Half-elf~
+@53 = ~Healing Tincture~
+@54 = ~This tincture provides minor wound healing - it restores  14 HP. However, it is very difficult to ingest, and only warriors of min. 17 level can use it. If ingested otherwise it may cause nasty side-effects.~
+@55 = ~Beer of barley~
+@56 = ~The Pride Of Delzoun
+It's a clear, strong bottom-fermented beer produced for many millenia by dwarves. Whether the recipe originally came from Delzoun is the subject of debate. It's composition is somewhat of a mystery. The beer has an amber color, which why it is sometimes called Amber-Moon. It has a bitter taste, and makes a thick, rich foam.~
+@57 = ~Red Wine~
+@58 = ~Red Wine
+A fairly common red wine, readily available at any local tavern, but it has a dedicated fan-club. It has a gentle sweet aroma, and a strong taste. A favorite among peasants and nobles alike.~
+@59 = ~Mysterious drink~
+@60 = ~The clear liquid seems innocent enough, but when you smell it, it is sharper and more intoxicating than Dragon's Breath. It is likely that Lester has already used it. He should be approached with caution. Perhaps the decision to try it was a bit too hasty.~
+@61 = ~History of the Warriors of the Order of Pints of Beer.~
+@62 = ~A brief history of the Warriors of the Order of Pints of Beer:
+
+The Order of the Pints of Beer was founded in the year 1365 DR by Barnen Tiris of Luskan, nicknamed The Nose. Barnen, in his youth, was a mercenary, smuggler, bard and adventurer, and he had an incredible love of ale, of which he could consume incredible quantities.
+It so happened that Barnen was out adventuring south of Baldur's Gate when he had a very close encounter with in an illithid. He and his small group barely escaped with their lives and then only because Barnen was drunk and seemed to resist the mental attacks of the viscious creature.
+His group barely managed to make it to the Friendly Arm Inn in one peace. Dazed by their close encounter, happy to be alive and amazed and Barnen's seemingly strong mental capabilities brought on by alcohol, the group rapidly descended into a drunken haze. More and more people joined in the debauchery when, in the midst of the furor, Bernan jumped on a table and announced his intent to form an order of drunken warriors dedicated to unlocking their abilities through the liberal consumption of alcohol.
+The idea was a hit, apparently there were a lot of people in the world who liked the idea of being in a perpetual drunken daze. The Brotherhood was initially called "The Order of Drunk Knights", but, due to numerous protests from various quarters, the name was changed to what it is now.
+The Order was headquartered in Waterdeep, where unfortunately, Barnen died, nobody had taken into account the fact that so many drunkards living together would result in very poor hygiene conditions. Plague claimed most of the order, and membership fell.
+So it was that Teiran Grot took up the title of Grand Boozer. Under his watchful eye, membership has more than quadrupled, reaching close to a thousand. However, this period was not to last as well and Grot died, drowned in a bathtub.
+In recent months, the order has faced various financial issues, recruiting numbers have fallen greatly*.
+The honourary title of Boozer is awarded to members who have carried out exemplery deeds, or to persons who are not direct members, but are committed to the ideals of the order. Among those awarded this title are:
+King of the Mithral Hall, Bruenor Battlehammer, for the idea of promoting healthy consumption of light beer in large quantities.
+Member Adalbert Fester, for the heroic act of destroying a den of trolls on the Evermoors single-handedly (award given posthumously).
+Member Zechariah Nottel, for winning the International Tournament of Beer Chugging in the year 1366.
+Member Vernon Serter, for the heroic act of killing the red dragon, Firkraag**.
+Professor of alchemy Harold Starkel for the development of a method for large-scale production of bottom-fermented beer.
+
+*) In the year 1367 the order numbered 428 members, about 37 less than the previous year. Source: Statistical Yearbook of 1367, Waterdeep.
+**) This claim is in doubt as the dragon, Firkraag was allegedly seen in Amn, alive and well.~
+@63 = ~Strength of the Giant Space Hamster~
+@64 = ~According to Bons, anyone who drinks this potion, will gain the strength of the giant space hamster! One hopes he is not as crazy as Minsc!
+
+STATISTICS:
+
+Strength: 28 (Strength of the Giant Space Hamster)
+Duration: 10 rounds~
+@65 = ~Speed of the Giant Space Hamster~
+@66 = ~Bons says that the potion will provide the imbiber with the speed of the fastest animal in existence - the giant space hamster! The potion works for 5 turns. One hopes he is not as crazy as Minsc!~
+@67 = ~Polyformus Rasholyticus~
+@68 = ~If you have scabies, dermatitis, ringworm, hay fever or you simply got a rash from a dirty, stinky weapon - this is a preparation for you!
+With Polyformus Rasholyticus, you can get rid of that nasty itch that just won't go away! Not to mention that the skin rot will disappear! Just put a bit of Polyformus Rasholyticus on the lesion and gently rub it into the skin, and all your problems will go away!
+
+
+Ingredients:	Mistletoe from a dryad's tree
+		Claws of the gargoyle
+		Oil of salamander
+		Cerebellum of rat
+		Color E150d
+		Aqua
+
+STATISTICS:
+
+Duration: Instant!
+Warning: Side effects may include itching, oozing, weeping among other things. Not intended for heart patients or people with personality disorders.
+Before using, please read parchment attached or consult with your local shaman or a specialist mage.~
+@69 = ~Vampiric yeast~
+@70 = ~This vial contains a small quantity of extremely rare and valuable vampiric yeast. The yeast leeches on any kind of blood and refines it to a humanoid composition and consistency while, at the same time, causing a basic form of fermentation. It is used in alchemy in general and by vampires in particular.
+All types of yeast are saprophytic, however, vampiric yeast also has parasitic properties.~

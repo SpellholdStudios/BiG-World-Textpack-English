@@ -1,0 +1,62 @@
+@0    = ~v0.77~
+@1    = ~ULDAR, el Barbaro Semiorco~
+@2    = ~ToB No instalado~
+@3    = ~Uldar~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@29   = ~¡¿Eh?!~ [2HOM016]
+@30   = ~¡¿Qué pasa?!~ [2HOM018]
+
+@32   = ~Uldar, como a él le gusta contar siempre que le dan ocasión, es un guerrero del orgulloso pueblo de los Hatuk, una tribu de humanos nómadas que viven en los Picos Nublados y que veneran al Lobo Sagrado de las Tres Colas. Tu alto y musculoso compañero, cuenta muchas historias sobre las costumbres de su pueblo y alguna que otra leyenda o anecdota pero, quizás, con lo que más se emocione es cuando relata como, siendo un bebe, fue encontrado por los Hatuk entre las ruinas humeantes de una aldea minera que había sido arrasada por orcos. Según Uldar, los Hatuk no solo se apiadaron de él sino que le acogieron como uno de los suyos y le enseñaron la Senda del Guerrero Hatuk. 
+
+  Al parecer los guerreros Hatuk basan sus técnicas de combate en una agresividad extrema combinada con estados alterados de conciencia en las que les sobreviene una terrible furia berserker que los hacen muy fuertes y resistentes. Sin duda la prueba más feaciente de que esto es así es viendo combatir a Uldar, sin duda, un valiente Guerrero Hatuk.~
+@33   = ~Uldar, como a él le gusta contar siempre que le dan ocasión, es un guerrero del orgulloso pueblo de los Hatuk, una tribu de humanos nómadas que viven en los Picos Nublados  y que veneran al Lobo Sagrado de las Tres Colas. Tu alto y musculoso compañero, cuenta muchas historias sobre las costumbres de su pueblo y alguna que otra leyenda o anecdota pero, quizás, con lo que más se emocione es cuando relata como, siendo un bebe, fue encontrado por los Hatuk entre las ruinas humeantes de una aldea minera que había sido arrasada por orcos. Según Uldar, los Hatuk no solo se apiadaron de él sino que le acogieron como uno de los suyos y le enseñaron la Senda del Guerrero Hatuk. 
+
+  Al parecer los guerreros Hatuk basan sus técnicas de combate en una agresividad extrema combinada con estados alterados de conciencia en las que les sobreviene una terrible furia berserker que los hacen muy fuertes y resistentes. Sin duda la prueba más feaciente de que esto es así es viendo combatir a Uldar, sin duda, un valiente Guerrero Hatuk.~
+@34   = ~Tras ayudar a <CHARNAME> a alcanzar su destino, Uldar decidió volver con su tribu, los Hatuk, allá en los Picos Nublados. Fue para el una gran sorpresa y motivo de alegría y satisfacción ver que su llegada fue celebrada por todo lo alto con una fiesta digna de los grandes héroes. No había duda, hasta aquellas remotas montañas, aisladas de toda civilización, habían llegado las aventuras y gestas de Uldar, el poderoso y bravo guerrero Hatuk que en sus viajes se había enfrentado a  magos, a dragones e incluso a entidades de otros planos. Las celebraciones se prolongaron durante tres días con sus tres noches, concluyendo en una ceremonia en la que el curtido guerrero Uldar fue envestido con la Corona de los Colmillos Sagrados...Esto le convirtió en Jefe de los Guerreros Hatuk y en una leyenda viva que serviría de inspiración a su pueblo. Terminada la ceremonia y ya anocheciendo, Uldar se acercó al fuego vivo de una gran hoguera en donde comían, bebían y conversaban muchos de sus suyos, le sirvieron una gran jarra de hidromiel y tras darle un buen trago, empezó a relatar sus viajes con <CHARNAME>: "Estaba yo, Uldar, un guerrero de la orgullosa tribu de los Hatuk, esclavizado y jugandome la vida en la arena de una sucia taberna en los barrios bajos de Athkatla cuando..."~
+@35   = ~BÁRBARO: el bárbaro puede ser un guerrero excelente. Aunque no sea tan disciplinado ni hábil como un combatiente normal, puede dejarse llevar voluntariamente por la furia bersérker, convirtiéndose en un oponente más fuerte y duro.
+
+Ventajas:
+-  Obtiene +1 al ataque y +1 al daño.
+-  Los bárbaros son inmunes al apuñalamiento por la espalda.
+-  Pueden enfurecerse una vez al día por cada 4 niveles de experiencia que posean (empezando con un uso diario en 1er nivel). La furia bárbara les concede un +4 a la Constitución y a la Fuerza durante 5 asaltos, pero también un +2 a la Clase de Armadura y un +2 a las tiradas de salvación contra magia (durante el mismo tiempo). También les concede inmunidad a los conjuros de Hechizar, Inmovilizar, Miedo, Laberinto, Confusión y los relacionados con la consunción de niveles de experiencia.
+-  Al alcanzar el 11º nivel, el bárbaro adquiere un 10% de resistencia al daño cortante, perforante, contundente o provocado por proyectiles. Además, obtendrá un 5% adicional en los niveles 15º y 19º.
+-  El bárbaro lanza 1d12 para determinar sus puntos de golpe en lugar de 1d10 como los guerreros.
+
+Desventajas:
+-  El bárbaro no puede utilizar armadura completa ni de placas.
+-  Tampoco tiene derecho a la especialización extraordinaria permitida a los guerreros (es decir, que sólo pueden adquirir dos casillas en un talento marcial).~
+@36   = ~Carta de Ordenes~
+@37   = ~Jarall, dirigete inmediatamente al barco del capitán Haegan en los Barrios Bajos y lleva contigo de cuantos hermanos puedas disponer. Tu misión será proteger la plaza y al capitán de cualquier tipo de asaltante. Estamos ya bastante cerca de lograrlo como para tener que cambiar ahora de proveedor. 
+
+He dado ordenes para que te envien refuerzos. Aún no sé a que tipo de amenaza nos enfrentamos pero no permitiremos que nada impida nuestra sagrada misión.
+
+Así me ha sido revelado y así ha de verse cumplido.
+
+                                       L.~
+@38   = ~Oso~
+@39   = ~Lasard~
+@40   = ~Jarall~

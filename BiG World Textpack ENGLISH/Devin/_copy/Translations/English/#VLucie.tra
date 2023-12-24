@@ -1,0 +1,75 @@
+@50008 = ~#VLucie~ 
+
+
+// Première conversation avec lucie
+
+@1     = ~You follow the advice of the thief and draw a circle on the floor. For a moment, nothing seems to happen, when you hear something like a creaking.~
+
+@2     = ~(A young woman with tanned skin appears to you. She looks at you with a suspicious look.)~ 
+@3     = ~Who are you? How is it that you know the code?~
+
+@4     = ~There are people... at the graveyard. They would love to talk to you, they feel they have been mistaken about the nature of a certain scroll.~ 
+@5     = ~Two freaks in a mausoleum, at the Graveyard District... does that tell you something?~
+@6     = ~I came to retrieve the scroll of Knots, woman! And you'd better give it to me unless you want to switch from life to death in an instant.~
+
+@7     = ~These creatures were merely aberrations: they wanted power and I would have been mad to give it to them.~ 
+@8     = ~And what would you do? You know nothing of its power!~
+
+@811   = ~They told me that you belong to Zentharims. Give me this scroll or I will reveal your secret!~ 
+@812   = ~What may the Zentharims have to do with such a scroll? What is that "you", are you going to do?~
+
+@813   = ~Thus, they are aware, very disturbing... I'll have to go for a walk at the graveyard to clarify everything. But first, I have to take care of you: you have signed your death warrant by coming here. You know too much and I can't let you live.~
+
+
+
+
+
+
+
+// Un départ précipité
+
+@9     = ~You may have won this time but you'll fall like the others because we are countless!~ 
+
+@10    = ~Hello <CHARNANE>, really sorry to interfere with your small business but I have to take action.~
+
+@101   = ~You're spying on me, then. I believed you were unable to work alone?~ 
+@102   = ~You followed me from the beginning, isn't it? You never did trust me.~
+@103   = ~What are you doing here? How... did you know I was here?~
+
+@20    = ~Let's rather say I watched over you, <CHARNAME>. It would really be a shame you'll mysteriously disappear. So I took the liberty to do some "checks" here and there.~
+@21    = ~Let's say I have some small chicks whispering in my ear from time to time. So I have to help.~ 
+
+@22    = ~Bardick? Can you stop this girl please? I don't see very clear, she moves too fast.~
+@23    = ~It won't be difficult. Just a second...~ [Lucie@23] 
+
+
+// Confrontation/Départ dans les geôles
+
+
+@231   = ~(Bardick holds her by the waist, missing him to pick the pelvis. Lucie looks him up and down with a look full of scorn.)~ 
+
+@24    = ~Wonderful! Lucie, aren't you? We would like to "talk" to you. Would you be kind enough to accompany us?~
+
+@25    = ~I won't follow you now or never! I am a powerful and influent woman! Dare to touch me and you'll pay a hundred times the price!~ 
+
+@26    = ~I'm really sorry, but I think it won't be possible. You are my prisoner now and where we are going, your "power" will be worth absolutely nothing.~
+
+@27    = ~No, you can't, you wouldn't dare... You can't hold me! They will find me, they...~
+
+@28    = ~They? Nobody will find you, trust me. It wouldn't had not been after all these years. Bardick, gag her, I'm tired of her screams of outrage.~
+
+@29    = ~(Bardick approaches surely, with a crazy look. Lucie tries to struggle but her frail body is exhausted facing the imposing stature of Bardick.)~
+
+@30    = ~(Sparkles begin to appear at his fingertips as he speaks.) I'll explain how it works, my kitten. First solution: you struggle and your soft hair tastes the pleasure of a great fire. It's certainly very fun, I agree, but it could be actually painful.~ [Lucie@30]
+
+@31    = ~Second solution: you behave like a good girl, and then I try to do my best to curb these little "things" that come out of my fingers which will, without a doubt, be much less painful.~ [Lucie@31]
+
+@32    = ~You...You are crazy...You! For pity's sake, save me from these men, I will give you everything you want!~
+
+@329   = ~<CHARNAME> is absolutely not in a position to negotiate, don't hope any act from her side. Good: Bardick, give <CHARNAME> what she needs and let's leave.~
+
+@33    = ~<CHARNAME> is absolutely not in a position to negotiate, don't hope any act from his side. Good: Bardick, give <CHARNAME> what he needs and let's leave.~
+
+@34    = ~Pardon me, my dear, but I'll have to rummage a little. Ah! This is what I was looking for: the bodice! It's funny, it's always the same hiding place!~
+
+@35    = ~(You launch the scroll in a case.)  Here, take it and good luck. We will meet again soon, I think.~ [Lucie@35]

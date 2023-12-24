@@ -1,0 +1,64 @@
+--- AviM\ToB\1xAVMC.d	Wed Sep 23 16:16:50 2009
++++ C:\BWP Patchstudio\patched files\AviM\ToB\1xAVMC.d	Mon Mar 25 11:10:46 2013
+@@ -1,37 +1,37 @@
+ BEGIN ~1xAVMC~
+ 
+-IF~InParty("AviDV") Global("AviMayaWife","GLOBAL",0)~ THEN BEGIN AVMC01
+-SAY~Hahaha! Co to tu tam tu i tam i wszechtam pe³za i ³azi? Mamy goœci jak widaæ!~
+-IF~~THEN GOTO AVMC02
++IF ~InParty("AviDV") Global("AviMayaWife","GLOBAL",0)~ THEN BEGIN AVMC01
++SAY @0
++IF ~~ THEN GOTO AVMC02
+ END
+ 
+-IF~~THEN BEGIN AVMC02
+-SAY~Wiêc?~
+-IF~Global("AviRelationsActive","GLOBAL",2)~THEN REPLY~Czy... czy mo¿esz mi udzieliæ œlubu z Avi May¹?~ GOTO AVMC03
+-IF~~THEN REPLY~Ja... w³aœciwie to nic do ciebie nie mam... Bywaj!~ GOTO AVMC04
++IF ~~ THEN BEGIN AVMC02
++SAY @1
++IF ~Global("AviRelationsActive","GLOBAL",2)~ THEN REPLY@2 GOTO AVMC03
++IF ~~ THEN REPLY @3 GOTO AVMC04
+ END
+ 
+-IF~~THEN BEGIN AVMC04
+-SAY~Hu hu! Ha ha! Sztylety dwa! Ha! Zmiataæ!~
+-IF~~THEN DO~SetGlobal("AviMayaWife","GLOBAL",1) EscapeArea()~EXIT
++IF ~~ THEN BEGIN AVMC04
++SAY @4
++IF ~~ THEN DO ~SetGlobal("AviMayaWife","GLOBAL",1) EscapeArea()~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVMC03
+-SAY~No! Sensowne gadanie! Ha! Sensowne! Dobrze wiêc. Czy masz obr¹czkê? Masz piêkny pierœcionek?!~
+-IF~~THEN REPLY~(Rozgl¹dasz siê wokó³. Widzisz jedyny tutaj kwiat. Uformuj z niego okr¹g i tchnij w pierœcieñ energiê swojego ducha.)~ GOTO AVMC05
++IF ~~ THEN BEGIN AVMC03
++SAY @5
++IF ~~ THEN REPLY @6 GOTO AVMC05
+ END
+ 
+-IF~~THEN BEGIN AVMC05
+-SAY~(Kwiat rozjaœnia³. Uformowa³ on coœ na kszta³t magicznego, œwiec¹cego pierœcienia. Eterycznego blasku nada³a mu esencja Bhaala.)~
+-IF~~THEN REPLY ~Pragnê zwi¹zaæ moj¹ duszê z Avi May¹. Kocham j¹, nie opuszcze jej nawet po mojej œmierci. (Uca³uj rêkê Avi Mayi.)~ GOTO AVMC06
++IF ~~ THEN BEGIN AVMC05
++SAY @7
++IF ~~ THEN REPLY @8 GOTO AVMC06
+ END
+ 
+-IF~~ THEN BEGIN AVMC06
+-SAY~No! Piêkny gest! Og³aszam, ¿e splatam wasze duszê! Mi³ujcie siê nawet po œmierci!~
+-IF~~THEN GOTO AVMC07
++IF ~~ THEN BEGIN AVMC06
++SAY @9
++IF ~~ THEN GOTO AVMC07
+ END
+ 
+-IF~~THEN BEGIN AVMC07
+-SAY~(Kap³an odchodzi.)~
+-IF~~THEN DO~SetGlobal("AviMayaWife","GLOBAL",2) EscapeArea()~EXIT
+-END
+\ No newline at end of file
++IF ~~ THEN BEGIN AVMC07
++SAY @10
++IF ~~ THEN DO~SetGlobal("AviMayaWife","GLOBAL",2) EscapeArea()~ EXIT
++END

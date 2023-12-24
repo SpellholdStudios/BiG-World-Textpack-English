@@ -1,0 +1,27 @@
+--- PoFQuestPack\English\D\FIRQ1MOD.tra	Mon Apr 26 14:26:18 2021
++++ C:\BWP Patchstudio\patched files\PoFQuestPack\English\D\FIRQ1MOD.tra	Mon Mar 13 08:39:15 2023
+@@ -1,15 +1,14 @@
+ @1   = ~Hello! I have a mystery for you, if you can guess, I will teleport you closer to what you are looking for, if you do not depart, then you will never pass. If you succeed, you teleport closer.~
+ @2   = ~So this is a demon mystery.~
+-@3   = ~Who sees him,
+-попробует его скрыть;
+-kdo ho chce chovati,
+-musi se varovati;
+-das-li mu masti,
+-будет расти,
+-когда он вырастет,
+-bude krasti,
+-vsecko ti pred ocima pobere
+-a z domu te vyzene.~
++@3   = ~Whoever sees it
++should keep an eye on him;
++anyone who wants to leave it unattended
++should be warned;
++if you feed him,
++he will grow,
++and when he grows up,
++he will begin to devour everything you have
++and drive you out of the house.~
+ @4   = ~Sadness.~
+ @5   = ~Hate.~
+ @6   = ~Fire.~

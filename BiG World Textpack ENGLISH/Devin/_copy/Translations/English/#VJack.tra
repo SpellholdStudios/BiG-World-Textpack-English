@@ -1,0 +1,304 @@
+@50005   = ~#VJack~ 
+
+@1       = ~(The door opens abruptly, revealing a young man in his late teens. He raises his voice, surprising you by his deep tone.)~
+
+@10      = ~You found something to take care of, from what I see.~ 
+@101     = ~Yes, we have fun as best we can. Who are you?~
+
+
+
+// CHARNAME LE SANGLANT
+
+@10      = ~You found something to take care of, from what I see.~ 
+@101     = ~Yes, we have fun as best we can. Who are you?~
+@102     = ~Lord Jackomo. I take care of this place. I was passing here and I was very curious to meet you.~
+@103     = ~so, are you the Sacrant?~ 
+@104     = ~You know that term. Surprisingly enough, I must say... Whatever, it doesn't change anything. Tell me, blood does not seem to repel you?~
+@105     = ~I had a rather unusual journey. I came out slightly changed.~ 
+@106     = ~I can understand that. Do you like puzzles?~
+@107     = ~That depends on who asks me. Therefore, do you like guessing too?~
+@108     = ~Sometimes, they can be very instructive. Anyway, you advance into a minefield here. I don't think you have many alternatives.~ 
+@1081    = ~In such a case, I am listening.~
+@1082    = ~I don't have much to lose, you know. And this is not just another umpteenth fanatic with a hood, that will tell me what I should do.~ 
+@1083    = ~Be very careful to what you tell me, young start-up. You're a hundred miles away to imagine the extent of my powers. Your Irenicus is nothing next to me.~
+@1084    = ~You have heard of Irenicus?~
+@1085    = ~Do you know about Irenicus?~
+@1086    = ~How did I not? The whole city knows! Yes, I know about Irenicus, I know about your sister, I know about Sarevok and about many other things you could never suspect!~ 
+@10861   = ~It's needless that you rage, my truly. Do you think you scare me with your pink dress?~
+@1087    = ~I would have warned you!~ 
+
+@10811   = ~What is evil for you?~ 
+@10812   = ~A concept, at best. The notion of what is evil changes much over time. Evil does not mean anything. However what is good for me, which is likely to bring me enjoyment, whether "good" of "evil"... That's what really interests me.~
+@10813   = ~A way to get what you want.~ 
+@10814   = ~The evil is what differentiates me from all these cowards do-gooders, these makers of moral discount.~
+@10815   = ~The evil is inseparable from my existence. It is part of me and what they can say, I owe it what I am.~
+@108121  = ~Very informative answer. It seems that we have more things in common, than I thought.~
+@108131  = ~A little dry answer, maybe. But at least it shows that you know what you want.~
+@108141  = ~The passion, the anger. love it! I love it a lot!~
+@108151  = ~A thoughtful response is the least one can say. I shall appreciate your intelligence.~
+@1088    = ~Very well. From what I've heard, we have every reason to enjoy. We should work together, what do you think?~
+@10881   = ~It depends. What can you offer me?~
+@10882   = ~I thought anyone coming here couldn't come out feet first?~
+@10883   = ~This could tempt me, indeed. And what exactly do you do?~
+@108811  = ~You know, our organization has branches everywhere. You'll need time to get into this small circle of initiates we formed. But we are fully aware of your potential and we are willing to put in some efforts...~
+@108812  = ~And if you are "cooperative" enough, we believe we can reward you for your true worth. Our extreme discretion doesn't prevent us to have a great power.~
+@108821  = ~We would be fools to kill a being like you. It would be a grotesque mistake.~
+
+
+
+// CHARNAME LE GENTIL
+
+@11      = ~I see you've become acquainted with Elenna.~
+@110     = ~Yes. She taught me some things... Maybe you can tell me more.~
+@111     = ~Certainly. What can I say? You are in a "test" room where we study the psychology of human beings. We try to evaluate, to determine possibilities on both visible and invisible.~
+@1121    = ~So why the torture? What do you gain?~
+@1122    = ~In psychology? Who do you want to fool? Is it in satisfying your sadistic impulses that you think you can achieve your goals?~
+@113     = ~These are just appearances. The body resists so the mind doesn't break. Humans are fragile, relating desperately to their own reality. As unstable and as pathetic it might be.~
+@114     = ~You play with words. The truth is: you have lost your mind.~
+@1141    = ~Maybe. But you too, you aren't all clean. I discern in you some resentment, as if you tried to fight against violence living in yourself.~
+@1142    = ~Don't turn the situation to your advantage. It's not me who committed these atrocities.~
+
+@11421   = ~Maybe... And even if. Does that make me a monster thirsty for blood. I'm not like you.~
+@11422   = ~I don't fight at all against violence, it's part of myself. I know how to control it, that's all.~
+@11423   = ~Do you think so? I wouldn't be that sure. The future could well show you the opposite.~
+
+@1143    = ~No, but you've committed other things and will commit again... We all have good reasons to do what we do. And we always find means to justify ourselves.~
+@1144    = ~Our actions may seem meaningless and free. But we set the possibility of a more real existence beyond everything. We have dedicated our lives in the service of an ideal, it is just less "easy to reach" than others.~
+@1145    = ~And the ideals of the priests of Lathander doesn't suit you?~
+@1146    = ~And the ideals of Elenna? Like living free, living a life without suffering at every moment?~
+@11461   = ~Elenna never wanted to live free. Her only goal was to be popular among her peers, regardless of the price. No matter how much she had to lie for it. Like all worshippers of Lathander, she wanted to impose her point of view to others. She's only suffering the other side of the coin.~
+
+@11451   = ~Since when do worshippers of Lathander have ideals? They have the taste for power, the taste to impose their pathetic moral sense to others. That's all.~
+@11452   = ~In this case, what am I doing here? Who are these people I saw nearby the graves? Of what weird organization do you belong?~
+@11453   = ~These are a lot of questions. But rather than answering you, I'll come up with something.~
+@11454   = ~I'm listening.~
+@11455   = ~Actually, there are two options: either we fight right away and so we handle our little problem...~
+@11456   = ~... or you work for us, which would allow you to take an opinion over us. After that, you're free to take a decision.~
+@114561  = ~Your proposal hardly gives me a possible choice. Very well, I agree. I'm not in a fighting mood, anyway.~
+@114562  = ~Why would I help you? What would I gain?~
+@1145621 = ~Perhaps because actually, you're my prisoner, or because we're able to help you better than anyone. Athkatla is full of ambitious churls but with a sparrow brain. We have the advantage of discretion and we have enough influence to know better than anyone what happens "outside".~
+
+@1145620 = ~Perhaps because actually, you're my prisoner, or because we're able to help you better than anyone. Athkatla is full of ambitious churls but with a sparrow brain. We have the advantage of discretion and we have enough influence to know better than anyone what happens "outside".~
+
+@1145622 = ~In this case, what do you suggest?~
+@114563  = ~I think I'll opt for fighting. I am tired of these very long conversations, I need to unwind myself.~
+@1145631 = ~Thus it will be. I can't stop you from being stupid.~
+@114564  = ~That's how things will happen: you know nothing of us and you have no way to contact us. You're going to get out of here by this door that has some enchantments and will bring you where you come from. After that, go to see Bardick. He's waiting for you, he dosn't budge. He will tell you what to do.~
+
+// CONCLUSION
+
+@12      = ~Well: since everything is settled, I can return to my duties. What if we go for a ride on the upper floors, my dear Elenna?~
+@121     = ~No, not yet! I beg you! Leave me, it will be just a short break!~
+@122     = ~Hmm... No, I'd rather not. I am in a playful mood today.~
+@123     = ~No! I...~
+@124     = ~Be quiet now! You would have many other occasions to complain, believe me.~
+
+
+
+// Démarrage rencontre intro/quaso/narine
+
+@125     = ~Here's then <CHARNAME>, my brothers. <PRO_HESHE> passed the tests without problems, I think <PRO_HESHE> has deserved our attention.~
+@126     = ~Finally, the introductions begin...~
+@127     = ~Here's Myriam, who makes sure rules are respected.~
+@128     = ~(The young woman addresses you with a broad grin.)~
+@129     = ~Anghus, responsible for "monitoring" our adepts.~
+@130     = ~(The old man nods at you.)~
+@131     = ~Bardick, whom you already know, is in charge of recruiting new adepts.~
+@132     = ~(The half-orc addresses you with a look full of innuendo.)~
+@133     = ~Fenrir is the leader here, he has a direct contact with our god. We all vowed to him an infinite respect. Be very careful when you address him.~
+@134     = ~(The creature examines you with a cold eye.)~
+@135     = ~And Chataya, which should also tell you something.~
+@136     = ~(The succubus shows a mischievous smile.)~
+
+@137     = ~Well, this is done, what if we move to something serious?~
+
+
+
+
+@138     = ~Serious? Because everything I was able to do before was a joke for you? It's reassuring...~
+@139     = ~I don't understand anything... Who are you really? What is this place? What is this mystery with which you surround yourselves?~
+
+@140     = ~Our organization is very ancient, you know, and if we were able to keep such secret until now, it's not by luck.~
+@141     = ~The walls have ears and there are a few places where we can go without being spied on.~
+@142     = ~It is therefore necessary to play a little comedy but luckily we have this place where we can move freely.~
+
+
+@143     = ~But I think that before anything else, it would be fine to clarify a number of points. Anghus?~
+
+// anghus
+
+@144     = ~It's for several millennia we're living here. Forging year after year, century after century, the plot of a new world. But recently, some pieces took into action and have even dared to attack us even in our lands.~
+@145     = ~There is especially a pawn who bothers us in this moment in the execution of a certain plan we have in mind. This pawn took control of a guild in Athkatla that we usually control.~
+@146     = ~This is unacceptable and we would like that you take action. It would weaken them enough so that we can act. This "pawn" is very powerful indeed, but there are already other fishes to fry and, with your help, we should be able to sufficiently distract him.~
+
+// fenrir
+
+@147     = ~I speak only a little. My question is thus simple: do you accept to go to one of his hideouts to destroy a part of the troops that are there?~
+
+
+@149     = ~I'll go. Nobody in the world scares me: I'll kill this miserable and bring you his head.~
+@150     = ~All right. But I was promised much, I dare to hope the reward will be up to my expectations.~
+@151     = ~In any case, I don't seem to have the choice if I believe past events. Well: I'll do what you tell me, if it can give me peace.~
+@152     = ~I definitely don't like the way things are imposed on me. Manage it without me.~
+@1521    = ~(The look of Jackomo turns from you to Fenrir, as if the trade worries him.)~
+@153     = ~So be it.~
+
+@154     = ~This is not surprising from a weak mind. Jackomo?~
+@155     = ~It will be done according to your wish.~
+@156     = ~Good.~
+
+
+
+
+@157     = ~Rama will take you back to your company. Once back in Athkatla, you must meet one of our contacts, called Melusiane. She is responsible of "approaching" certain members of the Amnish nobility. We don't know exactly where she is right now, but you should be able to put your hands on her with a little researching.~
+@158     = ~We will grant you our trusting, so don't disappoint us. The benefit in learning from this story is important to us as it is to you. But I'm sure you'll know to be smart.~
+@159     = ~Wise choice... Adequate reward... Inadequate choice... Vicious reward...~
+@160     = ~~
+
+
+// ENTREES JOURNAL
+
+
+
+@171     = ~The secret brotherhood.
+
+I know a little more about this, now. Among other things, I met someone, or rather something. He is called Fenrir and I agreed to work for him. It's strange but the more I proceed, the less I understand about what happens...~
+
+@172     = ~The secret brotherhood.
+
+The death of Bardick has been well accepted, ultimately. Fenrir seems to have a very strong authority here and as I pleased him, I should have no worries. He left after giving me my reward...~
+
+@173     = ~~
+@174     = ~~
+@175     = ~~
+@176     = ~~
+@177     = ~~
+@178     = ~~
+
+@355     = ~The secret brotherhood.
+
+Apparently, I gained the trust of the Brotherhood. I have to meet one of their contacts outside the city. Now, I only have to find the place.~
+
+@356     = ~The secret brotherhood.
+
+I refused to help the Brotherhood in its plans. I don't like their methods and I have no desire to help them. I had been apparently teleported at the Graveyard of Athkatla but there is no trace of the people I got to meet previously.~
+
+@357     = ~The secret brotherhood.
+
+I know a little more about the Brotherhood now. But I did not appreciate the way they spoke to me. They are but only scheming in their corner, their business does concern me no more.~
+
+
+@358     = ~The secret brotherhood.
+
+Thanks to Timek, I know more about the place I have to go to. If I base on what I could deduce from his rantings, I will find Melusiane inside the building of the Council of Six.~
+
+@17344   = ~The secret brotherhood.
+
+The old man seems to have brought me (voluntarily or against his will) to get into touch with a brotherhood of the most mysterious. It desires that I "collaborate" and can apparently be very persuasive... For now I have to go into a mausoleum, I am eager to learn more.~
+
+@17345   = ~A nightmarish vision.
+          
+I went to see Bardick, as Jackomo told me. And when I wanted to express my refusal... By all gods, it was terrible! A horrible creature appeared and when it touched me, I felt... It was a vision worthy of my worst nightmares! Or rather no, I've never experienced such a nightmare! Not even... Ultimately, Irenicus can't be the main danger. I must be very careful of what I do in this brotherhood, this could become very dangerous. And this Bardick! I will have my revenge on him! One way or another...~
+
+
+
+
+
+
+
+
+
+// MONK 6
+
+@178     = ~Don't give in to the call of the visible and smiling entities. Dare to put your eyes on what can't be seen, on what can't be understood.~
+
+// MONK 7
+
+
+@179     = ~Pray, child! Pray! Pray that he will spare you. Pray that he will reveal to you. Pray for the advent of suffering.~
+@180     = ~The mists of madness. He will grab you from the mists. Feel his gaze, feel his voice...~
+
+// MONK 8
+
+
+@181     = ~This passage is prohibited, please go away.~
+
+
+// MONK 9
+
+@182     = ~The abyss talks to you, the abyss will follow you... ~
+@183     = ~And... What happens inside?~
+@184     = ~Inside? Such naivety, how endearing...~
+
+
+// MONK 10
+
+
+@185     = ~Leave me. You disturb my concentration.~
+
+// MONK 11
+
+
+@186     = ~Are you the newcomers? Hmmmm... Feel free to move around here, if you wish.~
+
+
+// MONK 12
+
+@187     = ~It is said that you talked TO Fenrir? He made you a great honor, don't spoil it.~
+
+
+// MONK 13
+
+@188     = ~You attract the attention of many people here. I guess there are good reasons for that.~
+
+
+// GARD03
+
+@189     = ~This is MY personal training room, please exit.~
+
+// GARD04
+
+@190     = ~I'd been specially selected by Fenrir for the next challenge. Maybe we'll have the chance to face again.~
+
+
+
+
+// Discussion avec fenrir (post bardick H.S)
+
+
+@191     = ~We have received your message, Rama. What's going on? Everything was confused in our head... What happened?~
+
+@192     = ~It's this <CHARNAME>... According to <PRO_HIMHER>, <PRO_HESHE> would have killed Bardick. <PRO_HESHE> says <PRO_HESHE>'s in possession of a proof of his betrayal. I think it would be best to...~
+
+@193     = ~Silence! Trouble spreads... Silence. <CHARNAME>, I leave you a chance to explain. The only one you get.~
+
+@194     = ~I have here the journal of Bardick. As you could see, his story is particularly instructive.~
+@195     = ~Where is Jackomo? I have a proof that shows his real intentions. Everything is recorded in this journal.~
+
+@196     = ~(The creature takes the journal from your hands before you can react. You feel like an icy wind runs through you through the arm.)~
+
+
+@197     = ~(The creature emits an evil chuckle as it runs her hand over the book.) Very instructive, indeed... It makes you wonder who the thing could be possible.~
+@198     = ~(The creature emits an evil chuckle as it runs her hand over the book.)  Oh, Jackomo left for far away... He has done well then, from what I see.~
+
+
+@199     = ~I wonder, however, how could you know so much about the subject. Do you have any idea, "<CHARNAME>"?~
+
+
+@200     = ~I am a discreet person and I want to remain that way. This is what helped me stay alive until now.~ ~I am a fairly discreet person and I want to remain that way. This is what helped me stay alive until now.~
+@201     = ~An old man empowered by forces of which I know nothing has guided me. It was him who helped me get in touch with you.~
+@202     = ~I came into possession of this journal by luck. Let's say I'm lucky.~
+
+
+@203     = ~Excellent quality. We'll leave you then, there is much to do. Here, take it, you've accomplished your mission successfully, after all: you deserve a reward.~
+@204     = ~A cock-and-bull story... But maybe you will tell me truth another time. Here, take it, you've accomplished your mission successfully, after all: you deserve a reward.~
+@205     = ~Yes, luck... It takes us into places often improbable, isn't it? Here, take it, you've accomplished your mission successfully, after all: you deserve a reward.~
+
+
+@206     = ~But we meet again. Soon, I hope... Someone with your skills is very valuable, even in this part of the world.~
+@207     = ~~
+@208     = ~~
+@209     = ~~
+@210     = ~~
+@211     = ~~
+@212     = ~~

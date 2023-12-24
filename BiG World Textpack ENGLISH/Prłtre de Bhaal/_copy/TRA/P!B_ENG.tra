@@ -1,0 +1,94 @@
+@0  = ~Kit Installation: Priest of Bhaal - created by Spirit.
+User of the Copper Coronet, www.baldursgateworld.com/lacouronne/index.php?~
+@1  = ~Priest of Bhaal~
+@2  = ~PRIEST OF BHAAL:
+
+The priests of Bhaal were once a powerful cabal and reigned supreme over the affairs of death on Toril. However, with the death of their master during the Times of Troubles, their power weakened considerably. However, all was not lost for them as their master's essence had not left the world, Bhaal had planted his seed everywhere he could find and some of his most powerful priest succeeded in channeling this divine essence and retain their powers. With the purge of the children of Bhaal, as foretold by Alaundo, Bhaal's essence will begin to concentrate in certain powerful individuals and Bhaal's priest will gain in strength.
+
+
+Advantages:
+- Chaos: the Priest of Bhaal can cast Chaos, like a mage, Once per day per ten levels, for a maximum of 5 times per day at level 40)
+- Bhaal's Chaos: At level 10, the Priest of Bhaal can cast the spell Bhaal's Chaos once per day, which unleashes a fireball with an area blast effect. He gains one extra use per day for every ten levels, for a maximum of 4 per day at level 40.
+- Bhaal's Agony: At level 15, the Priest of Bhaal gains the ability to cast Bhaal's Agony once per day, which causes lightening to fall from the sky and hit multiple targets. There is a maximum of three uses per day at level 40.
+- At level 10, the Priest of Bhaal gets permanent immunity to poison. // AP_spcl818 //
+
+Disadvantage: Only Chaotic Evil characters may be Priest of Bhaal.~
+@3  = ~Bhaal's Chaos~
+@4  = ~Bhaal's Agony~
+@5  = ~Holy Symbol~
+@6  = ~Chaos~
+@7  = ~Rock Tear~
+@8  = ~Bhaal's Sacred Symbol~
+@9  = ~This stone seems to be a petrified tear. It exudes an intensely evil aura...~
+@10 = ~Only the most loyal servants of the god of Murder receive this magical item, charged with his divine essence.
+
+STATISTICS:
+
+Skills when equipped:
+One additional spell slot for 6th and 7th level.
++ 5% Magic Resistance.
++1 Strength.
+
+Only usable by:
+Priests of Bhaal~
+@11 = ~Warhammer~
+@12 = ~Carnage + 4~
+@13 = ~This war hammer is not like any ordinary hammer, it is bigger, heavier and it exudes a palpable aura of evil~
+@14 = ~Warhammer: Carnage +4
+
+This hammer formerly belonged to Shaïgatyr, half orc servant to Bhaal, Lord of Murder. This creature was so evil and killed so many people in the name of the Lord of Murder, that Bhaal rewarded him with this huge war hammer to kill even more. With Shaïgatyr was killed, the destructive power of this evil weapon was considerably reduced but it is still a weapon to be reckoned with.
+
+STATISTICS:
+
+Bonus +2 strength points
+THAC0: +4 bonus
+Damage: 1D12 +4
+Damage Type: Crushing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: 1-handed
+Requires: 12 strength
+
+Only usable by:
+- Priests of Bhaal~
+@15 = ~Scourge of Bhaal~
+@16 = ~Wrath of Hell
+Level: 7
+Range: 50 meters
+Duration: Instant
+Casting Time: 9
+Area of Effect: Visual range of the caster
+Saving Throw:
+
+At the end of the incantation, a thunderous sound echoes through the sky and there is a yawning chasm, through which can be seen the depths of hell. A meteor crashes from the chasm onto the target location targeted dealing 10d10 points of damage to everything in the area unless the win a saving throw.~
+@17 = ~Summon Blades of Murder~
+@18 = ~Summon Blades of Murder
+Level: 7
+Range: 50 meters
+Duration:
+Casting time: 5
+Area of Effect: Visual range of the caster
+Saving Throw: None
+
+The "Blades of Murder" were a group of assassins devoted to the Lord of Murder. When he disappeared, giving way to Cyric, the Blades of murder took refuge in the depths of hell. The Priests of Bhaal's knowledge allows them to call on the blades to their aid.~
+@19 = ~Summon Shadow of the Shrike~
+@20 = ~Summon Shadow of the Shrike
+Level: 7
+Range: 50 meters
+Duration:
+Casting time: 5
+Area of Effect: Visual range of the caster
+Saving Throw: None
+
+This spell uses the essence of Bhaal to open a portal to hell. What remains of the Shrike, a favoured beast of Bhaal, is summoned to help the caster against their enemies within view range.~
+@21 = ~Murder's Child~
+@22 = ~Murder's Child
+Level: 7
+Range: 50 meters
+Duration:
+Casting time: 5
+Area of Effect: range of view of the caster
+Saving Throw: None
+
+Drawing from his link to the divine essence of Bhaal, the Priest calls on two of Bhaal's favourite assassins and forces them to fight alongside.~

@@ -1,0 +1,86 @@
+--- YLITEMS\DLG\25LCF.d	Fri Jun 01 12:33:32 2007
++++ C:\BWP Patchstudio\patched files\YLITEMS\DLG\25LCF.d	Sat Aug 23 05:17:40 2014
+@@ -1,37 +1,37 @@
+ BEGIN 25LCF
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-  SAY ~你好,神之子. 在下连城峰，你也许还记得我.~
+-  IF ~~ THEN REPLY ~当然,很高兴又见到你.想必你已经筹集到足够的路费了.~ GOTO 1
+-  IF ~~ THEN REPLY ~当然记得.不过我们也许稍后再谈.~ DO ~SetGlobal("LCFFIN","LOCALS",3)~ GOTO 5
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
++  IF ~~ THEN REPLY @2 DO ~SetGlobal("LCFFIN","LOCALS",3)~ GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 1 
+-  SAY ~路费早就不是问题了.我们原本可以从安姆直接回东方,不过为了多体验一下异域风光,我们决定从陆路到卡丽杉,再从那里走海路回去.现在看来我们的运气不大好.~
+-  IF ~~ THEN REPLY ~现在呆在萨拉督许确实不是时候.想到离开的办法了吗?~ GOTO 2
++  SAY @3
++  IF ~~ THEN REPLY @4 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-  SAY ~我想我们有办法安然脱身,虽然不容易.~
++  SAY @5
+   IF ~Alignment(Player1,MASK_GOOD)
+-    !ReputationLT(Player1,20)~ THEN REPLY ~你还有可转让的装备吗?应该说你的收藏都相当的棒.~ GOTO 3
+-  IF ~~ THEN REPLY ~那很好,祝你好运.~ DO ~SetGlobal("LCFFIN","LOCALS",4)~ GOTO 5
++    !ReputationLT(Player1,20)~ THEN REPLY @6 GOTO 3
++  IF ~~ THEN REPLY @7 DO ~SetGlobal("LCFFIN","LOCALS",4)~ GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~我现在不卖任何东西.但你用善行获得了不错的名声,不要奇怪我对你有所了解,你现在是名人,而我在费伦呆的时间足够我知道一些事情.~
+-  IF ~~ THEN REPLY ~继续.~ GOTO 4
++  SAY @8
++  IF ~~ THEN REPLY @9 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~你可以从我这里挑选几件最顶级装备,它们肯定可以在你的命运之战中给你很大的帮助.但你必须保证在你完成你的命运之战后把它们归还给我,你愿意保证吗?~
+-  IF ~~ THEN REPLY ~我恐怕不能保证.~ DO ~SetGlobal("LCFFIN","LOCALS",2)~ GOTO 5
+-  IF ~~ THEN REPLY ~我保证.~ DO ~SetGlobal("LCFFIN","LOCALS",1)
++  SAY @10
++  IF ~~ THEN REPLY @11 DO ~SetGlobal("LCFFIN","LOCALS",2)~ GOTO 5
++  IF ~~ THEN REPLY @12 DO ~SetGlobal("LCFFIN","LOCALS",1)
+                                  StartStore("25YLITEM",LastTalkedToBy())~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-  SAY ~那么再会了.~ 
++  SAY @13 
+   IF ~~ THEN EXIT
+ END
+ 
+@@ -39,21 +39,21 @@
+     OR(2)
+     Global("LCFFIN","LOCALS",1)
+     Global("LCFFIN","LOCALS",4)~ THEN BEGIN 6
+-  SAY ~你该去忙你的事而不是和我闲聊.~
+-  IF ~~ THEN REPLY ~好吧,我不再打搅你了.~ EXIT
++  SAY @14
++  IF ~~ THEN REPLY @15 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+     Global("LCFFIN","LOCALS",2)~ THEN BEGIN 7
+-  SAY ~你改变主意了吗？~
+-  IF ~~ THEN REPLY ~一点不错.~ DO ~SetGlobal("LCFFIN","LOCALS",1)
++  SAY @16
++  IF ~~ THEN REPLY @17 DO ~SetGlobal("LCFFIN","LOCALS",1)
+                                   StartStore("25YLITEM",LastTalkedToBy())~ EXIT
+-  IF ~~ THEN REPLY ~不，只是确定你还在.~ EXIT
++  IF ~~ THEN REPLY @18 EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+     Global("LCFFIN","LOCALS",3)~ THEN BEGIN 8
+-  SAY ~你想谈谈?~
+-  IF ~~ THEN REPLY ~很高兴又见到你.想必你已经筹集到足够的路费了.~ GOTO 1
+-  IF ~~ THEN REPLY ~不，只是确定你还在.~ EXIT
+-END
+\ No newline at end of file
++  SAY @19
++  IF ~~ THEN REPLY @20 GOTO 1
++  IF ~~ THEN REPLY @18 EXIT
++END

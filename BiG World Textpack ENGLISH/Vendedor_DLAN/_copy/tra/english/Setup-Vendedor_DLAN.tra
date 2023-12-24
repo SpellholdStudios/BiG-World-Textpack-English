@@ -1,0 +1,1290 @@
+@0   = ~D'Lan Merchant for SoA v6.1~ 
+@1   = ~Studded leather~
+@2   = ~Studded leather +5: The Stalker~ 
+@3   = ~This armor was forged by Rembrandt, "The Celestial Blacksmith". His creations were renowned for being beautiful and useful at the same time. This was made for Uttiro, one of his disciples, who left his tutelage to explore the world. Uttiro did not accept it, so the armor stayed in Rembrandt's stores, along with a lot of other things, until his death. Items from his collection have since been showing up far and wide.
+
+STATISTICS:
+
+Equipped Skills:
+Bonus +30% for stealing, hiding in shadows, moving silently and setting traps.
+Bonus +2 to speed of movement.
+Bonus +1 to dexterity.
+Bonus +1 to back stabbing.
+Non-detection
+Armor Class: 2
+Weight: 5
+Require: 6 Strength
+
+Usable by:
+ Thief
+ Fighter/Mage (including Kensai)~
+@4   = ~Two-handed sword~ 
+@5   = ~Two-handed sword +4: Nhoram~
+@6   = ~In 272 DR, a small kingdom in what is now Mirabar and The Crags, called Grimmantle was ruled by it's king-mage, Nhoram, with justice and kindness. The kingdom prospered under his reign for two decades. Nhoram had an obsession for magic: he would try to learn any magical spell and horde any magical item that he could find. Nhoram also had a beautiful elven sorceress named Sura who would help him understand and master these artifacts and spells. And although this  strange behaviour was discussed, there were no objections, as the people could not ask for a better king.
+
+But when the twenty first year of his rule began, calamity started to befall the little kingdom. It started the day the sky darkened at mid-day, without a cloud in the sky. A dark and terrible voice resonated throughout the land, shouting in some unknown, ancient language. The people cowered in fear. The darkness and the voice passed by the evening. But the fear stayed on.
+
+As the weeks passed, the kingdom was devastated by one calamity after another. Floods, slides, locusts and the plague. No one understood why this was happening. Nhoram searched far and wide for an answer as his people suffered and died but to no avail. Sura had also disappeared and there were no answers to be gained from her. Nhoram swept through the kingdom with his army and destroyed any evil that he thought might be responsible for the curse on his land but to no avail. Everyone knew that the cause was magical though, and people slowly started to blame their beloved king and his unfortunate habit. 
+
+Rumors spread of a nameless evil which had taken up residence in a series of mines in the northern-most part of The Crags, sending forays of undead into the kingdom to cause havoc and slaughter. Nhoram decided to destroy it as well. Mustering all his strength he marched to hills and laid siege to the mines. Battling through all manner of skeletons and undead, Nhoram reached the very heart of the hills where he finally came across the necromancer. To his shock it was none other than Sura, his own court wizard. Only she had completely changed. Her mind did not seem to be her own and she kept shouting the same word in a sepulchral, deep voice: "Kozah". 
+  
+Nhoram and his brave men did all they could but to no avail. Sura destroyed all that attacked her. All except one.
+
+Elgharin was his name, and he was an aged warrior. He made his way back to the city, telling tales of an undead army and an impossible-to-beat sorceress. The kingdom was lost to chaos as there was no one to replace Nhoram.
+
+Such was the state when Rembrandt (who had not yet earned the title "The Celestial Blacksmith") arrived with a sword: a two handed behemoth, almost 1.40 m long.
+
+Rembrandt presented the sword to Elgharin, and convinced him to go once more into the Crags. Hesitant at first, Elgharin changed his mind the moment he held the hilt of the sword. He made his way to Sura's lair to destroy her evil once and for all. As the battle began it became clear that Sura's spells were having little effect on Elgharin, who seemed to be ducking and weaving with unbelievable speed and agility. 
+
+Elgharin managed to hit Sura with the sword immediately dispelling the magic which was placed on her but also mortally wounding her. In her dying breath, Sura told Elgharin that there was an idol in Nhoram's collection and any who touches it will be possessed by it's evil. She told Elgharin that it cannot be destroyed and that he needs to take it far, far away and bury it. Sura died after giving this advice.
+
+Elgharin did as she asked. He ran back, put the idol in a box using telekinesis and had it sent away and buried. He was elected the new king. He named his sword "Nhoram" in honour of his predecessor and ruled for twelve years. 
+
+In 304 DR, Elgharin was assassinated by Gaucelm Gonfrey, the "thief-king" and this sword passed to him. Gonfrey did not have the pleasure of ruling the kingdom or use this sword for long as he too was assassinated a year later. The sword, and the entire kingdom of Grimmantle were lost, when the orcs of the Thousand Fangs tribes swept through the area on their way down to destroy Neverwinter and Illusk.
+
+STATISTICS:
+
+* 30% chance to remove magic protection and cast Dispel Magic with each hit if the target fails a saving throw vs. spells.
+* Dexterity fixed to 19
+* Provides two levels of proficiency in two handed sword skill.
+* Magical resistance fixed to 30%
+* Movement Factor fixed to 12
+
+THAC0: Bonus +4
+Damage: 1D10 +5
+Damage type: slashing
+Weight: 2
+Speed Factor: 6
+Proficiency Type: Two Handed sword
+Type: 2-handed sword
+Requires: 14 Strength
+
+Not usable by:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@7   = ~Ring~ 
+@8   = ~Ring of Controlled Fury~
+@9   = ~This ring has been inscribed with very thin letters on the inner margin: "May your mind always rule your heart". This ring was forged long ago by the famous Rembrandt "The Celestial Blacksmith" for one of his many apprentices, whose name was Pleagûind. They say that the road to hell is paved with good intentions, Pleagûind was a personfication of that saying. Heart of gold but with a temper that burned hotter than a Halruuan fire chilli. Despite his good intentions, Pleagûind caused more harm than good.
+
+Such was his state when Rembrandt took him in as an apprentice. He realised Pleagûind's true potential, and also the fact that Pleagûind became more powerful in his rage fits. In order to control his anger without losing it, Rembrandt forged this ring for him. After a lifetime of use, Pleagûind passed the ring on to his son, which then went on to his grandson and so on and so forth till it was lost or stolen.
+
+STATISTICS:
+
+Equipped Skills:
+  Fixed wisdom at 15
+Skills:
+  Cast Controlled Fury over the wearer once a day. Effects are:
+    * Bonus +2 strength
+    * Bonus +2 dexterity
+    * Bonus +2 constitutin
+    * Bonus +3 movement
+    * Bonus +20 life points
+    * Bonus +2 all saving throws
+    * Duration: 60 seconds
+Weight: 1
+
+Usable only by:
+  Chaotic good.
+  Minsc.~ 
+@10  = ~Sash~
+@11  = ~Corrupted Sash of Luminant Brilliance~
+@12  = ~Corrupted Sash of Luminant Brilliance:
+
+   This sash was forged by Rembrandt, "the Celestial Blacksmith" in 307 DR. Like many other items that he created, it was stored in his warehouse in the absence of a worthy owner. It was one of his most beautiful and powerful creations and attracted many thieves, who made futile attempts to make it their own.
+
+By pure chance and sheer dumb luck, two thieves, the red-headed Herman and the half-orc Enrik, managed to break into the warehouse and steal the sash. Unfortunately for them, the sash was impossible to use: Everytime they would tie it around their waste, it would come loose. 
+
+Stumped, the thieves sought the help of a local hedge-wizard of some renown called Sucineri, who was an accomplished necromancer and transmuter, to reverse the magical protections on it. After numerous experiments, one of which resulted in the death of one of Sucineri's cows (He was also a farmer, it paid to diversify in that day and age.) as well as the maiming of an apprentice, Sucineri succeeded in reversing the enchantment on the sash with a reverse alignment enchantment of his own. As a side effect the sash lost most of it's power.
+
+Upon learning that their once priceless sash was now considerably less priceless, the thieves refused to pay Sucineri anything. Sucineri was a businessman, he knew he had to recover his losses somehow. Not much is known of about what happened that night. What is known is that the next day, Sucineri had a handsome new cow with the brightest red-hide and his apprentice had a new arm... that looked disturbingly like that of a half-orc. Sucineri sold the sash to a travelling merchant. From there it has exchanged many hands. 
+
+STATISTICS:
+
+Equipped Skills:
+
+Resistance to fire, cold, electricity, magic and physical damage fixed at 22.
+
+The wearer is immune to non magical weapons
+
+Skills:
+Can summon a two-handed Sword of Dark Magic once a day for 30 seconds
+Weight: 2
+
+Usable only by:
+  Fighter (single, dual or multiclass)
+  Evil characters
+  Humans
+
+Two-Handed Sword of Dark Magic:
+
+This Two-Handed Sword has been formed with the magic emanating from the Corrupted Sash of Luminant Brilliance. It doesn't seem to weight anything at all and moves with a mind of it's own in the hands of the wielder. A massive surge of energy is required to form and maintain it, therefore the sword cannot last for long, and cannot be summoned frequently.
+
+STATISTICS:
+
+Equipped Skills:
+  * Bonus +2 to two-handed weapon skill
+  * Inflicts 1d4 electricity damage
+  * Inflicts 1d4 fire damage
+  * Inflicts 1d4 cold damange
+  * casts Haste on wielder
+THAC0: Bonus +7
+Damage: 1d10 +7
+Weight: 1
+Speed Factor: 3
+Damage type: slashing
+Proficiency Type: Two Handed Sword~ 
+@13  = ~Two-Handed Sword of Dark Magic~
+@14  = ~Scimitar +5: Nature's Shield~ 
+@15  = ~Scimitar +5: Nature's Shield.
+
+  Laneor was a half-elf warrior, a wandering assassin accepting any job he could to make a profit. A merciless killer, neither the good nor bad were spared his blade. Neither kings nor beggars. When he was 45 years old, he arrived in the kingdom of Grimmantle to take care of a small "problem" for an influential merchant guild. The guild mass produced various weaponry and sold it all along the Sword Coast, but were facing problems in Grimmantle due to some robust competition. A local smith produced better weapons at a lower price and, what's more, his fame and wares were spreading to the surrounding areas, threatening the guild's monopoly and profits. After numerous failed attempts to buy out the local, the guild decided to send in a specialist.
+
+Laneor landed at the biggest inn he could find, to gather information. After greasing the batender's hands and buying him a few drinks, he learnt the location of his target, his friends, and some of his habits. Laneor decided the next best step would be to survey the target.
+
+He got up very early in the morning and made his way to the blacksmith's shop, when he reached there he was surprised to see that the smith was already up and working. The blacksmith worked all day with very few breaks. He was never alone, there was usually at least two or three of his apprentices working with him. A red haired girl would bring out his meals. At dusk, the smith would go back in to the house and the lights would go out.
+
+Laneor observed him for one whole week and realised that he couldn't poison this man, his meals were tightly regulated by his red headed helper, he couldn't break in and poison them without being seen. Nor could he do anything during the day, when all those workers and customers were standing around him. It had to be a night job at close quarters, Laneor ran his fingers along the edge of his sharp dagger.
+
+Laneor broke into the house that night through the open window in the attic. He bypassed many traps and all went very smoothly till he reached the bedroom door, as soon as he touched the latch, a bolt of energy leaped out and struck his body. Laneor lost consciousness.
+
+When he opened his eyes he felt very groggy. There were two people standing over him. One of them said,"I am Rembrandt, I am sure this must be very disconcerting for you, but I assure you, you will get better." As Laneor's vision became clearer, he saw that which shocked him out of his wits: his own body was lying on the floor in front of him, while he himself was looking out of a glass jar. The man who called himself Rembrandt said," We knew you were here to kill me, we had been observing you for a whole week. We were hoping you would not make it till the latch, it was a last resort spell placed by my sister, Arelianth," Rembrandt gestured towards the red haired girl, the second person in the room.
+
+"You will get better, soon"... Laneor was devastated. It took Rembrandt three weeks to get him back to his body, and another two months before he could walk and talk normally.
+
+Laneor was touched by Rembrandt's kindness and asked to be his pupil, and he remained so for ten years. During that time he evolved a strong love for nature. He gave up his former life and vowed to never use another dagger ever again. Instead he chose the scimitar to be his weapon of choice, following the great traditions surrounding that weapon from Zakhara, which Rembrandt taught him. 
+
+After this he left to travel the Sword Coast for six years, a protector of balance, and became a renowned druid. Rembrandt decided to reward the zeal and hard work of his pupil, and gave him this scimitar.
+
+This scimitar has a giant ruby on the hilt, which is where it stores its awesome power. Unfortunately, after a hard fight against a particularly pesky mage, magic damaged the jewel, sometimes some of the energy, leaks out from the jewel in the shape of an immense fireball that threatens to consume everything close by. Nonetheless, Laneor never left this sword until the day he returned to the bosom of the very nature that he had come to love.
+
+STATISTICS:
+
+Skills for each hit:
+* Inflicts 1d6 fire damage
+* Inflicts 1d6 cold damage
+* Inflicts 15 electricity damage (saving throw against spells with a -4 penalty).
+* 50% chances to daze the target for 12 seconds (saving throw vs. paralysis)
+* 35% chances to remove magical protection.
+* 35% chances to cast Dispel Magic over target.
+* 10% chances to force the soul to leave the body (saving throw vs. death with -3 penalty)
+* 2% chances t cast a Fireball over the wielder.
+
+THAC0: Bonus +5
+Damge: 1d6
+Damage Type: slashing
+Weight: 4
+Speed Factor: 5
+Proficiency skill: Scimitar/Wakizashi/Ninja-To
+Weapon Type: 1-handed
+
+Usable by:
+  Half-elf Warriors/Druids.
+  Jaheira~
+@16  = ~Assassin's Garb~
+@17  = ~ "The most difficult target for an experienced assassin is... another assassin. The best approach is one in which the target is killed long after the killer has left the location. This necessitates the use of poison. However, the target assassin might know that... and will take precautions".
+
+Arkanis Gath, Master of Assassins.
+
+STATISTICS:
+
+Immune to all poisons.
+Regenerate 5 HP per second.~
+@18  = ~Short Bow~ 
+@19  = ~Arruza's Ripper~
+@20  = ~This Bow was created for Arruza, a taxidermist, dealing exclusively in stuffed dragons.
+
+STATISTICS:
+
+Immunity to Fear.
+Does not require ammunition.
+
+THAC0: +7
+Damage: +7, Double Damage to Dragons
+Speed Factor: 2
+Proficiency Skill: Short Bow
+Weapon Type: 2-handed
+Weight: 3
+Requires: 15 Dexterity
+
+Not usable by:
+ Mage
+ Bard
+ Druid
+ Cleric~ 
+@21  = ~Bullet~ 
+@22  = ~Efreet's Might~
+@23  = ~This is not a normal bullet, when it hits it's target it explodes into a fireball, making it a deadly weapon for all in proximity.~ 
+@24  = ~Boots~
+@25  = ~Assassin's Boots~
+@26  = ~ "Fools rush in where angels fear to tread, and get themselves killed... unless they are fleet of foot."
+
+Arkanis Gath, Master of Assassins.
+
+STATISTICS:
+
+Permanent Improved Haste
+Immunity to backstabbing~
+@27  = ~Helmet~
+@28  = ~Experimental Purple Dragon Helm~
+@29  = ~The Purple Dragons are are an organisation that needs no introduction. This helm was forged as an experimental piece of equipment, following an increase in dealing with rogue mages. However, it was decided that it was just cheaper to get new recruits.
+
+STATISTICS:
+
++15 to maximum HP
++25% magic resistance
+Cast Spell Trap 3 times/day
+Cast Spell Turning 3 times/day~
+@30  = ~Legacy of the C'rintrin~
+@31  = ~C'rintrin means "noble drow". This ring is ancient, dating back to the time when the dark elves still lived on the surface and were at peace with their brothers. The ring bears the seal of the drow house to which it belongs, but the records of which are long lost to memory. 
+
+STATISTICS:
+
+Regenerates 1 HP every six seconds.~
+@32  = ~Belt~
+@33  = ~Belt of the Homeless~
+@34  = ~This belt is clearly very strange, it is not known where it got it's name, and it is not known where it was made.
+
+STATISTICS:
+
+Strength to 22
++2 Dexterity
++25% magic resistance
++50% magic damage resistance.~
+@35  = ~Scimitar~
+@36  = ~Kamikura +4~
+@37  = ~This scimitar was crafted by Latis for Redjan, of clan D'Lan, specifically to combat trolls. Latis felt that Radjan needed the extra help. Redjan didn't agree. 
+
+STATISTICS:
+
+THAC0: +4
+Damage: 1d8 +4, +3d10 fire damage
+Weight: 4
+Speed Factor: 2
+Proficiency Skill: Scimitar/Wakizashi/Ninja-To
+Weapon Type: 1-handed
+
+Not usable by:
+ Cleric
+ Mage
+ Thief~
+@38  = ~Katana~
+@39  = ~Dancing Crane Katana~
+@40  = ~ "The Dancing Crane is a very light weight and extremely fast blade designed to perform trick cuts and Nukitsuke. There is also a very slight Niku on the blade so it cuts very clean, but don't let the light weight of the blade fool you into thinking the blade is not strong"
+
+Drizzt Do´Urden. Warder. Hero of Icewind Dale, on the Dancing Crane Katana's of Wa. 
+
+STATISTICS:
+
+Can cast Cloak of Fear 3 times/day.
+
+Can cast Cure 3 times/day.
+
+Combat skills:
+   3-10 additional damage points for each hit, unless the target saves from poison.
+   10% chances to behead an opponent with each hit (no saving throw).
+
+THAC0: Bonus +6
+Damage: 2d12 +6
+Damage Type: Piercing
+Weight: 10
+Speed Factor: 3
+Proficiency Skill: Katana
+Weapon Type: 1-handed
+Requires: 13 Strength~
+@41  = ~Small Shield~
+@42  = ~Mental Endurance~
+@43  = ~"What is the most important attribute of a fighter? Expertise with weapons? Speed? No, the most important thing for a fighter is to keep focus, to keep striving for his goal, otherwise he might become a puppet".
+
+Drizzt Do´Urden, Hero of Icewind Dale.
+
+"Better death than living a slave, To be the love of my life, from that need is born my incredible skill, whatever happens I must be the master of my fate".
+
+Artemis Entreri Destroyer of Crenshinibon.
+
+STATISTICS:
+
+The user is totally immune to any form of mental manipulation, whether of magical or mental.
+
+Physical Mirror 3 times/day
+Bonus +5 to armor~
+@44  = ~Bracers~
+@45  = ~Watchers of Blood~
+@46  = ~ "Knowledge is... a weapon. We do not need weapons...
+-Do we not?? We are sufficient to us"
+
+"Words of Khaelor the mad, from the novel Watchers of Blood"
+
+STATISTICS:
+
+THAC0: Bonus +10
+Greater Whirlwind Attack 5 times/day  ~
+@47  = ~Cloak~
+@48  = ~Cloak of Shadows~
+@49  = ~ "Listen carefully, maggots! No assassin in his right mind would attack a mage head on without magic of your own. What good would it do if you are a smoking cinder by the time you reach him? Unless you are quicker than is possible. Magic is fought with magic, Remember that!"
+
+Arkanis Gath, Master of Assassins.
+
+STATISTICS:
+
+Special: The wearer is immune to everything, magical or any otherwise, that affects movement in any way. This does not include Haste and Improved Haste spells.
+The wearer is under the effects of Non Detection.
+Can cast Improved Invisibility 3 times/day.
+
+Usable by:
+ All.~
+@50  = ~Glove~
+@51  = ~Hand of Vecna~
+@52  = ~A pair of gloves which seem made of some type of skin. They have a revolting odor and a nasty feel~
+@53  = ~ The Hand of Vecna: This is supposedly the hand of the lich, Vecna. Whether this is true or not is the subject of great debate.
+
+Once the hand of the arch-lich, Vecna, and its sister artifact, the eye of Vecna, were all that remained of the lich-king after his battle with his renegade lieutenant, Kas the Bloody-Handed.
+
+In the 5th century CY, both the Hand and the Eye fell into possession of a Shield Lands warlord known as Halmadar the Cruel, who terrorized the region from 420-455 CY. Halmadar was defeated only after being drugged and interred alive in a tomb in the Kron Hills.
+
+In 581 CY, Halmadar escaped with the help of Vecna himself, who had by this time become a god, and sought to become even more powerful with the aid of the artifacts, which he reclaimed after destroying Halmadar. Vecna's plans were thwarted by adventurers, and the artifacts once more became separated from his body, vanishing into the Flanaess.
+
+As of 596 CY, the Hand had resurfaced, but the Eye's whereabouts remain unknown, and was rumored to be in Sigil.
+
+How this artifact ended up on Toril is not known.
+
+However, regardless of the truth there is little doubt that it is a powerful and ancient artifact, and should be used very carefully. 
+  
+STATISTICS:
+
+Abilities:
++10% magic resistance
++20% magic damage resistance
++20% fire, cold and electric resistance
+Can cast Improved Alacrity 3 times/day, lasts 2 minutes~
+@54  = ~Eye~
+@55  = ~Eye of Vecna~
+@56  = ~It looks like the crystallized eye of some horror~
+@57  = ~The Eye of Vecna: This is supposedly the eye of Vecna. Whether it is is true or not is the subject of great debate.
+
+Once the left eye of the arch-lich, Vecna, the Eye, and its sister artifact, the Hand of Vecna, were all that remained of the lich-king after his battle with his renegade lieutenant, Kas the Bloody-Handed.
+
+In the 5th century CY, both the Hand and the Eye fell into possession of a Shield Lands warlord known as Halmadar the Cruel, who terrorized the region from 420-455 CY. Halmadar was defeated only after being drugged and interred alive in a tomb in the Kron Hills.
+
+In 581 CY, Halmadar escaped with the help of Vecna himself, who had by this time become a god, and sought to become even more powerful with the aid of the artifacts, which he reclaimed after destroying Halmadar. Vecna's plans were thwarted by adventurers, and the artifacts once more became separated from his body, vanishing into the Flanaess.
+
+As of 596 CY, the Hand had resurfaced, but the Eye's whereabouts remain unknown, and was rumored to be in Sigil.
+
+How this artifact ended up on Toril is not known.
+
+However, regardless of the truth there is little doubt that it is a powerful and ancient artifact, and should be used very carefully. 
+
+STATISTICS: 
+
++2 intelligence
++2 to all saving throws
+Allows memorisation of one additional spell for levels 7, 8 and 9 
+True Sight 3 times/day~
+@58  = ~War Hammer~
+@59  = ~Moradin's Might~
+@60  = ~This hammer is said to be created by Moradin himself. Somewhere between -150 DR and -100 DR, it was wielded by the leaders of the Brightshield clan as they fought to defend Delzoun against the Phaerimm and the undead horrors they brought. Two notable bearers were Khâzzlex Brightshield and his son, and successor, Amrheck Brightshield. When Delzoun was lost, this weapon fell out of history.
+
+STATISTICS:
+
+Combat skills: +10 damage points to undead, who must win a saving throw vs death (-4 penalty) or be utterly destroyed.
+
+THAC0: +4
+Damage: 2d4 +4
+Damage Type (melee): Crushing
+Damage Type (thrown): Missile (Crushing)
+Special: Returns to the hand once thrown
+Weight: 2
+Speed Factor: 1
+Proficiency Type: War Hammer 
+Type: 1-handed
+
+Not usable by:
+ Druid
+ Mage
+ Thief
+ Bard~
+@61  = ~Raven's Revenge~
+@62  = ~This magnificent sword was created, like its sister: Raven Fury, in the smithies of clan D'Lan. The smith was called
+Redjan, a master blacksmith, who created the weapon for his kensai lover, White Raven. It is said that when these weapons are used together, the attacks are irresistable.
+
+STATISTICS
+
+10% chance to inflict 10 points of fire damage.
++25% Fire, Acid and Cold Resistance.
++3 Strength
++1 Constitution
++1 AC
+
+THAC0: +4
+Damage: 1d10 +4 +3 Fire Damage
+Speed Factor: 1
+Damage Type: Slashing
+Proficiency Skill: Katana
+Type: 1-handed
+Weight: 4
+
+Usable by:
+ Kensai
+ Chaotic Good~
+@63  = ~Raven's Fury~
+@64  = ~Created by Redjan, a famous blacksmith of clan D'Lan, this sword was given to his lover, White Raven (a contradiction) as a gift. This is the sister blade to the katana, Raven's Revenge. 
+
+STATISTICS
+
+ 50% chance to paralise target for 20 seconds.
+ 18% chance to behead target with one hit, with no saving throw.
+ Bonus AC: +2
+
+THAC0: +3
+Damage: 1d10+3, +3 Electrical Damage.
+Damage Type: Slashing
+Speed Factor: 1
+Weight: 4
+Proficiency Skill: Katana
+Type: 1-handed
+
+Usable by:
+ Kensai~
+@65  = ~Dragon Basher~
+@66  = ~There are very few hammers like this one in Faerun, this was one of a set of six hammers whose whereabouts at present are unknown. These were created by dwarven blacksmiths of Mithril Hall to aid against the offspring of Velcuthimmorhar. 
+
+Velcuthimmorhar (also known as Hephaestus) was a red wyrm living in the mountains west of Mirabar around Raven Rock, where he has resided for longer than even the dwarves can remember. The name "Hephaestus" was given to the dragon in reference to some obscure god of blacksmiths. He earned his considerable pay by melting ores for merchants.
+
+The dragon was lazy, somewhat stupid and was overly proud. He describes himself as Destroyer of Cockleby, Devourer of Ten Thousand Cattle, He Who Crushed Anga Lander the Stupid Silver. He was able to speak the common tongue, but was not very perceptive when presented with duplicity. Drizzt Do'Urden once passed by Hephaestus claiming to be Mergandevinasander of Chult (an old black dragon known to Hephaestus) and claimed that his lavender eyes, a trait shared between the two, proved it.
+
+While Velcuthimmorhar was an amiable fellow as red dragons go, his offspring were not. This particular hammer belonged to a dwarf named Lornaf Brightshield, a paladin who dedicated his life to the extermination of red dragons. He managed to defeat three of Velcuthimmorhar's wyrmling offspring in one go, alone, in their own lair, one of them was the terrible Urlrenklaax who was notorious for having killed of entire villages before even reaching adulthood, a thing unheard of among red dragons (red dragons are very vulnerable to hunters before reaching adulthood).
+
+STATISTICS:
+
+Special abilities:
+Grants fire immunity to the wielder
+Can cast Cone of Cold 3 times/day
+When thrown the hammer returns to the hand of the wielder
+
+THAC0: +6
+Damage: 1d8+4
+Damage Type: Blunt
+Weight: 10
+Speed Factor: 0
+Proficiency Skill: War Hammer
+Type: 1-handed
+
+Not usable by:
+ Druid
+ Mage
+ Thief~
+@67  = ~Scroll~
+@68  = ~Spatial Seal~
+@69  = ~School: Abjuration
+Level 5
+Range: 60 meters.
+Area of Effect: Global
+Saving Throw: None
+Duration: 2 minutes
+
+When cast, the mage "seals" the immediate area around him, preventing portals from other parts of the Prime Material Plane as well as other planes from opening around him. Summoning spells such as Summon Monsters, Summon Elementals and Raise Dead do not work.
+The effects cannot be dispelled and there is no saving throw or magic resistance. This spell affects allies as well. ~
+@70  = ~Wand~
+@71  = ~Wand of Captivity~
+@72  = ~Andradas Daarshuvaal, a Red Wizard of Thay, discovered how to summon demons with a quick and easy method and he soon summoned an army of monsters. Unfortunately, he was killed by a rival, his death resulting in an instant unleashing of a demon horde on northern Thay and parts of Rasheman. Facing certain annihilation, the Rashemi approached the Harpers for help. Agents of the organization, arriving in Rasheman to help were all equipped with these wands.
+
+STATISTICS:
+
+Can cast Captivity 5 times a day.
+Range: 60 meters
+
+Usable by:
+ All.~
+@73  = ~Dagger~
+@74  = ~Attacker's Defender~
+@75  = ~Many great swordsmen fight with two weapons at once. This style generally works under the assumption that offense is the best defense for few have the skills needed to properly defend with two weapons.
+   
+Arklem Greeth, founder of the Arcane Brotherhood of Luskan, had an annoying problem in the form of a rival who had this habit of summoning swarms of trolls each time he was attacked. Greeth imbued this dagger for a trusted associate so that he could absorb damage and deal with the trolls while Greeth dealt with his rival.
+
+STATISTICS:
+
+Armor Class: +5
+Damage: 1d6 fire damage.
+Damage Type: Cutting
+Weight: 0
+Speed Factor: 0
+Proficiency Skill: Dagger
+Type: 1-handed
+Increases the speed of the wielder.
+100% cold and fire resistance.
+The wearer is immune to mind controlling spells.~
+@76  = ~Meat for the Winner~
+@77  = ~ What happens when a mad dwarf asks his powerful sorceror friend to enchant something for him? Probably this wand. Brill Battlehammer was a fighter unparalleled; unfortunately one to many blows to the head caused one too many cracks and his sanity came leaking out. He would be seen wandering around Mithril Hall or Fell Pass carrying a stuffed bunny (which he claimed was a miniature giant space rabbit) fighting orcs and shouting battle cries like "HAMSTERS SUCK EGGS!" and "MINSC IS A GIANT PANSY!".
+
+One day, he told his friend, Elminster, that it was a shame that his dead enemies had to be left to vultures, and if they were chickens, at least their deaths would provide some meat. The eccentric mage decided to do just that.
+
+STATISTICS:
+
+- Target must make a save vs. polymorph with a -10 penalty or be turned into a chicken, with all it's abilities and attacks... splendid.~
+@78  = ~Statuette~
+@79  = ~This statuette allows the Bhaalspawn to summon an aspect of Sarevok to fight for the party 5 times a day. This was forged by clan D'Lan for <CHARNAME>.~
+@80  = ~Blessed Grail~
+@81  = ~Legends say this cup belonged to an ancient prophet who preached monotheism. Anyone who drinks from it will be instantly healed of an injury or disease.~
+@82  = ~Gwynn~
+@83  = ~Gwynn, the Wild Hunter~
+@84  = ~This two-handed sword has been brought from Hell itself by the ancient Netherese, to be used in the war against Illefarn, and it's mysterious protector.
+A great fighter who was known only as Immortality found it after Netheril fell and brought it to Baldur's Gate.
+
+STATISTICS:
+
+ 100% magic resistance.
+ Dispel Magic when hits target.
+THAC0: +10
+Damage: 6d10
+Damate Type: Cutting
+Weight: 0
+Speed Factor: 2
+Proficiency Skill: Two Hand Sword
+Type: 2-handed~
+@85  = ~Light Crossbow~
+@86  = ~H'Ler, Bane of the foot soldier~
+@87  = ~A powerful weapon, designed to be used against infantry, and especially for piercing thick armour.
+
+STATISTICS:
+
+Does not need ammo.
+
+Fires acid bolts +3
+
+THAC0: bonus +7 (+5 crossbow, +3 Acid Arrows)
+Damage: 1d10+5, +3 acid damange.
+Weight: 5
+Speed Factor: 1
+Proficiency Type: Crossbow
+Type: 2-handed~
+@88  = ~Katana +6~
+@89  = ~Shadow Star~
+@90  = ~This Katana has been used by the best and strongest warriors of Wa. It was so sharp, it could easily split a person in two.
+
+On the hilt it the family name reads: "Nayasaki."
+
+STATISTICS:
+
+Damage: 1d10+7
+THAC0: +6
+Weight: 0
+Possessed Skills:
+80% chance to regenerate 4d20 life points per hit.
+40% chance to behead an opponent per hit.
+Poisons target.
+Speed Factor: 1
+Damage Type: Slashing.
+Proficiency Type: Katana.
+Type: 1-handed~
+@91  = ~Tarkona~
+@92  = ~This sword was used by Lord Amren Lurraxol, during earlier skirmishes against Calishite raids.
+
+STATISTICS:
+
+THAC0: +10
+
+Damage: 10d10 +10
+
+Haste while equipped
+Two attacks per turn
+Speed Factor: 2
+Weight: 5
+Proficiency Type: Scimitar~
+@93  = ~This sword was used by Lord Amren Lurraxol, during earlier skirmishes against Calishite raids.
+
+STATISTICS:
+
+THAC0: +10
+Damage: 10d10 +10
+Damage Type: Slashing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
+Haste while equipped
+Two attacks per turn~
+@94  = ~Cloak~
+@95  = ~Cloak of the Wondeful Memory~
+@96  = ~Rembrandt was young when he found her, alone, lost in the streets of Grimmantle, she was only eight years old. A beautiful little girl, with resplendent red hair, wandering the streets late at night. He felt very sorry for her and took her to live with him in his house.
+
+Rembrandt never knew how she go to be where she was. And he never asked. Arelianth (as she was called) lived with him for many years and he loved her like a sister. During that time she learnt how to practice the magical arts, both magical and divine. She decided she would practice both. However, since she was studying two different arts at once, she could never memorise many spells, and could not advance quickly in her studies. But still, she was a good mage and cleric.
+
+When she turned sixteen, she decided she wanted to "see the world". She was very excited, she told Rembrandt she planned to leave the next day. Rembrandt was very sad, though he said nothing. He was very fond of Arelianth and had never thought about the possibility that she would ever leave. 
+
+He wished her good night and went to his workshop, where he spent the entire night enchanting a cloak that he had been making for Arelianth for many months, using all the skills that he had to imbue all magic properties that he could in one object in a single night. Next morning, he handed the cloak to her and wished her well on her journey.
+
+Unfortunately, one day, when had taken her clothes off to bathe in a waterfall, Arelianth was ambushed by a pack of kobolds, they abducted her and she was never heard from again. When Rembrandt left Grimmantle to search for her, after many months, this cloak was all he found.
+
+STATISTICS:
+
+Equipped Skills:
+ +2 spells to all spell levels for mages and clerics.
+ Protection against evil.
+ +50% fire, cold and electricity resistance.
+ +2 to armor class.
+ Immunity to mind altering attacks
+
+NOTE: This cloak can be used as mage's robe
+
+Usable by:
+  Elf Mage/Cleric Mage of Good Alignement
+  Aerie~
+@97  = ~Mordenkainen's Ring of the Wizardry~
+@98  = ~When worn these words appear as a whisper in the bearer's ears: "You are not my master... Use my power wisely and there will be no consequence, if not...". 
+
+STATISTICS:
+   -5 bonus to Armor Class.
+   -2 bonus to Armor Class against missile weapons of the   
+   wearer.
+   Increases the number of spells that a wizard or a priest can   
+   cast for each level by 2.
+   +4 Intelligence, Wisdom, Charisma and Constitution.
+   Speed factor for spell casting time reduced by 5.
+   Permanent Vocalize effect.
+   Permanent Haste effect.
+   Instant Neutralize Poison effect.
+   +4 bonus to all saving throws.
+   Immunity to Time Stop, Imprisonment, Petrification and spells  
+   causing instant death of hostiles.
+   Immunity to Confusion, Psionic powers, all kinds of Fear and  
+   Stunning.
+   Regenerates 3 Hit Points per second.
+   Provide 30% Magic Resistance.
+   75% Cold, Fire, Acid and Electricity Resistance.
+
+The ring also grants the use of the following skills:
+
+   "Know Alignment" at will.
+   "Breach" at will.
+   "Zone of Sweet Air" at will.
+   "Healing" at will.
+   "Regeneration" at will.
+   "Freedom" at will.
+   "Resurrection" at will.
+   "Remove Paralysis" at will.
+   "Cure Disease" at will.~
+@99  = ~Otiluke's Elemental Forces~
+@100 = ~Sphere: Elemental
+School: Alteration
+Level: 1
+Casting Time: 2
+
+    This spell manifest material components which produce mulitple effects depending on which component is used alone or in combination: 
+Sword:
+Manifests a water jet, earth burst, lightning strike or fireball causing damage of 1d6 points to the target (saving throw vs spells causes half damage).
+   
+Seal: 
+- Shield of the Water Dragon which protects against first level spells, or three +1 attacks/level (for a max of 12) and gives a 1% magic resistance/level (for a max of 10%).
+- Breath of the Earth Elemental  which reduces AC, saving throws and THAC0 by 4, saving Throws against breath weapons negates effects.
+    
+- Burst of the Fire Salamander causes 1d6 damage points/level, for a max of 4d6, saving throws vs spells for no damage, or manifest a mirror of energy which reflects spells aimed at target and gives 15% magic resistance.
+    
+Sword and Seal:
+Cone of Cold, or a Fireball or a Lightning Bolt causing 1d6 damage/level (max 5d6), or a protective Storm (+5 AC and saving throws and immunity to magic projectiles, 1 turn/level, max 10 turns).~
+@101 = ~Mah-Noor's Force Bolt~
+@102 = ~School: Evocation
+Level: 4
+Range: 30 mts./level
+Duration: Instant
+Casting Time: 4
+Area of Effect: Target Creature
+Saving Throw: none.
+
+When cast a column of pure force descends on the target inflicting 4d4 +1d4 damage points per level with no saving throw.~
+@103 = ~Mah-Noor's Snuff Life~
+@104 = ~School: Necromancy
+Level: 2
+Range: 1 meter/level
+Duration: Instant
+Casting Time: 1
+Area of Effect: Target creature
+Saving Throw: None
+
+With this spell the caster can steal the life force of a victim to increase his own, weakening the victim's body and revitalizing his his own. The victim will suffer 1d8 points of damage per spell level and 1 damage point per experience level. At the same time, the caster will recover health points equal to total damage points inflicted.~
+@105 = ~Melf's Over-Charged Super Bolt~
+@106 = ~School: Alteration
+Level: 3
+Range: 0
+Duration: Instant
+Casting Time: 9
+Area of Effect: 80 meters radius
+Saving Throw: 1/2
+
+The caster immediately attracts a lightning bolt from the sky; which causes electricity damage at a value of 2d8 points, besides an additional 1d8 points for every experience level of the caster. Thus, a caster of level 4 will cause damage of 6d8 (2d8 + 4d8) for up to a maximum of 22d8 at level 20. This spell will not work in-doors.~
+@107 = ~Mah-Noor's Magic Missile Burst~
+@108 = ~School: Evocation
+Level: 3
+Range: 120 meters + 20 meters/level, max. 300 mts.
+Duration: Instant
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell produces up to ten missiles of magical energy that burst out from the caster's hands and reach their target even at great distances. Each missile causes 1d6 +1 points of damage. For every level of experience, the mage will earn an additional missile: six at level six, seven at level seven, eight at level eight, and so on for up to a maximum of ten missiles.~
+@109 = ~Potion~
+@110 = ~Neverending Potion of Supreme Knowledge~
+@111 = ~This potions infuses the drinker the ability to infallibly focus the mind on any task. It will refill by itself over time.
+
+STATISTICS:
+
+   Intelligence fixed at 25.
+   The vial refills.
+   Duration: 1 hour.~
+@112 = ~Potion of Miraculous Healing~
+@113 = ~When ingested, this potion can recover up to two hundred hit points. The effect is instanteneous and its content is magically refilled, so that it can be used again.~
+@114 = ~Battle Axe~
+@115 = ~Reint's Bane~
+@116 = ~This axe was forged long ago by Lord Gaton Reint, famous for his creations and even more famous for the complete lack of talent he had at wielding them. Lord Reint put all his crafting skills to make a weapon that he could wield and forged this axe.
+   
+   Buoyed by his new forged creation, Reint decided to test it by raiding a goblin den that had been irking the locals for some time. What followed next was a harsh lesson: while a man with a magical axe is powerful, he is helpless when attacked by thirty goblin archers from a hundred yards away.
+
+STATISTICS:
+Considered a + 5 weapon to hit
+Equipped Skills: Improves axe skills up to level 6.
+THAC0: +2 bonus
+Damage: 1d8 + 2
+Damage type: Slashing
+Weight: 7
+Speed Factor: 5
+Proficiency Type: Axe
+Type: 1-handed
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@117 = ~Leather Armor~
+@118 = ~Balor Leather Armor~
+@119 = ~This armor has been has been forged from the skin of a balor. It is very resistant to fire attacks. But one must be careful where one wears this... if a living, breathing balor were to see it...
+
+STATISTICS:
+
+Bonuses: + 30% fire resistance
+Armor Class: 2
+Weight: 40
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Characters with non evil alignment~
+@120 = ~Bracers of the Wise~
+@121 = ~These were made a few years ago for Midsal, a monk. Midsal was not satisfied with her progress in her order and wanted to rise through the ranks quickly. She asked the famous blacksmith Klimvark to forge her bracers with magical properties: She wanted to gain great wisdom and perfection in unarmed combat.
+
+The bracers were crafted, for a price of course. After some time the masters of Midsal's order started noticing strange changes in her behavior and upon investigation, realised what she was up to. They decided that Midsal was too ambitious, and that wisdom was achieved through devotion and meditation, not by magic.
+
+They decided to punish Midsal for taking shortcuts. Without her knowledge, they infused the bracers with an additional magical property: Only those who are already wise could benefit from it's effects.
+
+Midsal was incensed and, in a fit of range, attacked her masters. They knocked her out and expelled her from the order. Nothing is known about what happened to Midsal next.
+
+STATISTICS:
+
+  +10 to hit points
+  +1 bonus to AC
+  +10% bonus to magic resistance
+  +1 bonus to Speed Factor
+  +1 bonus to Speed of Movement
+  Weight: 2
+  
+  Usable By:
+   Monk with wisdom and level 13 or above.~
+@122 = ~Dagger +4: Fang of Garrkiyaanathax~
+@123 = ~This dagger is made of stone, but it is incredibly sharp and it has incredible magical skills.
+
+The story goes that once, a scholar named Brik found a monument shaped like the head of a blue dragon made of stone near the Goblin Marches, north of modern day Cormyr. 
+
+There was an inscription in draconic: "Glory to Garrkiyaanathax, queen of all that behold her". The dragon's teeth were made from all sorts of precious gems, except for one which was made from stone. Being a prodigious scholar, Brik decided to protect the statue from potential robbers. However, one day he was accosted by a group of mages who knocked him unconscious and destroyed the statue, taking it's gems. When Brik came to, the only intact part he could find was the stone tooth. Frustrated, Brik made his way to Cormyr, angry with himself that he could not defend himself, he made his way to the first blacksmith he could find, who, upon seeing the stone tooth, decided to forge a simple dagger from it. Little did they know that it would contain such incredible powers...
+
+STATISTICS:
+
+Can cast "Chain Lightning" once a day
+Bonuses: +1 AC
+THAC0: Bonus + 4
+Damage: 1d4 + 4,  + 2 electrical damage
+Damage Type: Piercing
+Weight: 1
+Speed Factor: 2
+Proficiency type: Dagger
+Type: 1-handed
+
+Not Usable By:
+ Cleric~
+@124 = ~Club~
+@125 = ~The Antilich~
+@126 = ~A simple looking club, but on divination it is revealed to be ensorcelled with powerful magics directed against liches.
+
+STATISTICS:
+
+Considered as a +2 weapon to hit
+THAC0: Bonus +2, +5 vs. liches
+Damage: 1d6 +2, +5 vs. liches
+Damage Type: Crushing
+Weight: 3
+Speed Factor: 4
+Proficiency Type: Dagger
+Type: 1-handed
+
+Not Usable By:
+ Mage~
+@127 = ~Amulet~
+@128 = ~Amulet of Amaunator~
+@129 = ~This amulet was originally just a simple necklace with a single ruby. However, it had the unique ability to cast a ball of exploding fire when the wearer willed.
+
+This amulet was passed from father to son in a Waterdhavian noble family for generations till it was inherited by an unscrupulous fellow named Gwarim, who peddled it off immediately to the highest bidder.
+
+The amulet was sold, in turn, to a cleric of Amaunator, a holy man with great compassion and a great desire to attain martydom in Amaunator's cause. Long did he quest to attain his goal, which he finally accomplished when he battled alone against  a shadow dragon. Foolish though it was, Amaunator was pleased with the sacrifices of his cleric and infused his spirit into the amulet, as a source of strength for others.
+
+STATISTICS:
+
+Can cast Fireball three times/day
+Fixes constitution to 22
+
+Not Usable By:
+ Characters of evil alignment.~
+@130 = ~Morning Star~
+@131 = ~Morning Star +3: Eyes of the Hawk~
+@132 = ~This Morning Star has an excellent balance, it swings smoothly,  and it is just the right length. This weapon was forged by clan D'Lan.
+
+STATISTICS:
+
+Can cast Distant view 2 times/day.
+Increases speed by factor of 1
+THAC0: Bonus + 3
+Damage: 2d4 + 3
+Damage type: crushing
+Weight: 7
+Speed Factor: 2
+Proficiency Type: Flail/Morningstar
+Type: 1-handed
+
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+@133 = ~Celestial Might~
+@134 = ~Celestial Might.
+
+Nothing is known about this katana, other than it's awesome power.
+
+STATISTICS:
+Armor Class: bonus -4
+Bonus +4 to Dexterity.
+Bonus +4 to Saving Throws.
+Immunity to Backstabbing
+
+Fightning skills:
+Improved Haste always active upon the wielder.
+10% chances to slaughter opponent.
+
+THAC0: +4 (hits as a weapon +6)
+Damage: 1d10 +4
+Damage type: piercing
+Weight: 2
+Speed Factor: 1
+Proficiency Type: Katana
+Type: 1-handed
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@135 = ~Saarkavun~
+@136 = ~Saarkavun +6
+   
+The Holy Avenger: Saarkavun is one of the most, if not the most, powerful blades on Faerun. It was forged with the specific purpose of hunting down chromatic dragons. Over the ages, it has appeared in the hands of many a hero who was fighting against some of the most vicious dragons. It's origins are a mystery and many scholars argue that this sword was forged at the very beginning of the Dawn War for use against the Primordials who rode on dragon steeds. Nevertheless, this powerful sword is a coveted weapon, and one of the very few Holy Avengers that can be wielded by anyone another than a Paladin.
+
+STATISTICS:
+- Armor Class: -3 bonus
+- 40% chance to inflict 5 acid damage, 5 cold damage, 5 electricity damage and 5 fire damage points.
+- 50% acid, cold, electricity, fire and magic resistance.
+- Immunity to psionic powers, confusion and fear.
+- Dispels magic protection with each hit.
+   
+THAC0: bonus +6
+Damage: 1d10 +6
+Damage type: piercing.
+Weight: 30.
+Speed Factor: 1
+Proficiency Type: Two Handed sword
+Type: 2-handed
+      
+Usable By:
+  Human, Elf or Half-elf Fighters with a non-evil alignment.~
+@137 = ~Bastard Sword~
+@138 = ~Elemental Rage +6~
+@139 = ~No one knows the exact origins of this sword forged from ebonite, it is known as Elemental Rage for it's ability to channel storms and hurricanes, fling giants around like leaves, and even summon elementals from other planes. 
+
+STATISTICS:
+
+Abilities:
+
+- Considered a +6 weapon to hit.
+- Dispel magic defenses on contact.
+- Has a 10% chance to kill the target with a single decapitating strike.
+- Target receives a shock lose consciousness for 10 seconds with 1d6 additional damage.
+- Twice per day can cast Ice Storm, Fire Storm and Summon 2 Air Elementals.
+
+THAC0: +6
+Damage: 1d12 +9
+Damage type: slashing.
+Weight: 5
+Speed Factor: 3
+Proficiency Type: Bastard Sword.
+Type: 1-handed.
+Requires: 11 Constitution
+
+Not Usable By:
+ Thief
+ Druid
+ Cleric
+ Mage~
+@140 = ~Nemesis +6~
+@141 = ~Nemesis +6
+This is sword has it's origins in ancient Illefarn. It's blade is made of mithril and its hilt is hewn from the scales of a Dragon. This blade has been forged in chaos, it influences it's wielder's decisions. It is probably why most owners have either discarded it after prolonged use, or gone mad.
+
+STATISTICS:
+
+Abilities:
+Haste, Barkskin and Invisibility once a day.
+Chance to dispel magical defenses.
+Constitution reduced by 2 points.
+Dexterity increased by 1 point.
+Wielder alignment changed to Chaotic Neutral
+Charisma reduced by 2 points
+
+THAC0: +6
+Damage: 1d10 +6
+Damage type: slashing
+Weight: 11
+Speed Factor: 1
+Proficiency Type: Bastard Sword
+Type: 1-handed
+
+Not Usable By:
+ Cleric
+ Druid
+ Mage~
+@142 = ~Wand of the Thief~
+@143 = ~A powerful wand with unlimited charges to detect traps and open locks.~
+@144 = ~Shock, Burn, Freeze~
+@145 = ~This blade was forged by clan D'Lan for a half-orc paladin who didn't have a very active imagination... to say the very least. When the weapon was handed over, the smith asked the half-orc what he would name it to which the half-orc replied,"Shock, Burn, Freeze"! The half-orc was killed in battle and the sword was recovered by clan D'Lan. 
+STATISTICS:
+
+ Regarded as a weapon +4 to hit
+ +1 fire damage
+ +1 cold damage
+ +1 electricity damage
+ Can cast Sanctuary once per day
+
+ Damage: 1d10 +2
+ THAC0: +3
+ Weight: 10
+ Speed Factor: 10
+ Damage type: slashing
+ Proficiency Type: Two-handed sword
+ Type: 2-handed
+ Requires: 14 Strength
+ Bonus to Armor Class: +2
+ +1 spell  clerics for levels 1 and 2
+ +5 damage vs. evil opponents
+ -3 damage vs. good opponents
+
+ Usable By:
+  Paladin 
+  Lawful Good~
+@146 = ~Kelhan's Ward~
+@147 = ~This sword was owned by a mage named Kelhan. He was very weak in combat and was ashamed of it because he felt that having magical skills was not enough and that there should be a good balance between magic and strength in combat.
+
+One night, he dreamt that a magical sword materialized in his hands, and by using it, Kelhan became very skilled in combat. Lo and behold, when he awoke, the sword was lying by his side, ready to serve himself.
+
+After Kelhan's death by natural causes, the sword passed from hand to hand among merchants all over Faerun as a highly over-priced relic.
+
+STATISTICS:
+
+Equipped Ability:
+ Adds one spell for each level as a mage
+ Increases casting time by 1
+
+Fighting Skills:
+ 4% chance to disintegrate the target with no saving throw
+
+Special Skills:
+ Can cast True Sight 3 times a day
+
+ Damage: 1d8 +3
+ THAC0: +3
+ Weight: 4
+ Damage type: slashing
+ Speed Factor: 5
+ Proficiency Type: Long Sword
+ Type: 1-handed
+ Requires: 6 Strength
+
+Usable By:
+ Mage~
+@148 = ~Boots of the Red Wyrmling~
+@149 = ~These boots were made from the scales of the wyrmling Urlrenklaax, killed by Lornaf Brightshield somewhere close to Raven Rock, near the Spine of the World. It was an epic battle in which Lornaf, alone, fought against three red wyrmlings simultaneously.
+
+STATISTICS:
+
+Equipped Abilities:
+ 100% fire resistance
+ Reduced movement speed by 1
+
+ Weight: 4
+ Requires: 5 Strength~
+@150 = ~Wand of Improved Invisibility~
+@151 = ~This wand was created on the request of a novice thief who had little or no faith in his own skills. It turns out his lack of faith in himself was justified as  he was discovered and executed on his first offense, while using this wand. However, it is still a useful item.
+
+STATISTICS:
+
+ Cast Improved Invisibility 3 times/day
+ Cast Mass Invisibility once/day
+
+ Weight: 1
+ 
+ Usable By:
+  Mage~
+@152 = ~The Witching Hour~
+@153 = ~A Samarachan weapon, designed to specifically target spellcasters. How it found it's way to this part of Faerun is a wonder indeed.
+
+STATISTICS:
+
+CURSED ITEM
+
+Fighting Skills:
+ 60% chances to cast dispel magic on target
+
+Special Skills:
+ Can cast Oracle 2 times/day
+
+ Considered as +5 weapon to hit
+ Damage: 1d8 +1
+ THAC0: +1
+ Weight: 15
+ Speed Factor: 9
+ Damage type: Piercing
+ Proficiency Type: Halberd
+ Requires: 13 Strength
+ Type: 2-handed
+ 
+ Not Usable By:
+  Druid
+  Cleric
+  Mage
+  Thief
+  Bard
+  Monk~
+@154 = ~Huntress~
+@155 = ~A two-handed sword that was forged by the huntress Misha. It seems to be an ordinary sword except when used against animals.
+
+STATISTICS:
+
+Fighting Skills:
+ 20% chance to instantly kill any animal with no saving throw
+
+ THAC0: +2, +4 vs. animals
+ Damage: 1d10 +2, +4 vs. animals
+ Damage type: slashing
+ Speed Factor: 5
+ Proficiency Type: Two Handed sword
+ Type: 2-handed
+ Weight: 5
+ Requires: 13 Dexterity
+ 
+ Not Usable By:
+  Druid
+  Cleric
+  Mage
+  Thief
+  Monk
+  Bard~
+@156 = ~Wand of Mass Healing~
+@157 = ~A rare type of wand often used by clerics in battles. It can instantly heal several people.
+
+STATISTICS:
+
+Special Skills:
+ 10 charges of Mass Healing
+
+ Weight: 1
+ 
+ Usable By:
+  Cleric~
+@158 = ~Amulet of Ohmmar~
+@159 = ~This amulet belonged to a thief named Ohmmar. To be fair, it belonged to a man who aspired to be a thief but he never actually got round to it. In the end, he died by the hands of a few burglars who raided his house and took everything, including this amulet.
+
+STATISTICS:
+
+Equipped Skills:
+ +1 to Armor Class
+
+Special Skills:
+ Cast Invisibility once per day
+ Cast Expert Thief once per day
+
+Expert Thief:
+ - +70% to all thief skills
+ - +1 backstabbing multiplier
+ - Fixes Short Sword skill to 3
+ - Haste
+ - Duration: 30 seconds
+
+ Weight: 1
+ 
+ Usable By:
+  Thief~
+@160 = ~Nature's Harmony~
+@161 = ~By it's attributes, it may be said that this cloak belonged to one - or several - druids. Nothing else in known or can be discerned.
+
+STATISTICS:
+
+Equipped Skills:
+ +2 to Natural Armor Class
+ One Extra slot for levels 4, 5 and 6
+ Can cast Charm Person or Mammal 3 times/day.
+ Weight: 3
+
+  Usable By:
+  Druid~
+@162 = ~Ultimate Sacrifice~
+@163 = ~This spell sacrifices the life of the caster and transfers it to all members of the party. 
+Usable By:
+ Cleric
+ Druid~
+@164 = ~Gloves of the Elements~
+@165 = ~These gloves belonged to the legendary fighter Go-ku. It is said that, after humiliating his enemies in battle with his formidable swordsmanship, he would cast his weapon aside and taunt them into attacking. When they would do so, Go-Ku would quickly destroy them with the elements.
+
+STATISTICS:
+
+Special Skills:
+ Cast Melf's Acid Arrow 3 times/day
+ Cast Flame Arrow 2 times/day
+ Cast Chain Lightning Once/day
+ Cast Cone of Cold Once/day
+
+Equipped Skills:
+ Resistance to all elements: +15%
+
+ Weight: 1
+ 
+ Not Usable By:
+  Mage
+  Cleric
+  Druid
+  Thief~
+@166 = ~Armor of Natural Protection~
+@167 = ~This armor is very popular among warriors who value agility over protection. It is made from the hide of wild goats and reinforced with powerful magic, that grant incredible protections which are not very common. However, the magic interferes with casting abilities and this armor cannot be warn by casters. Thieves also avoid it because it gives of a faint glow.
+
+STATISTICS:
+
+Equipped Skills:
+ 75% magic resistence to the elements and magic
+ 55% slashing, piercing and crushing resistance
+ Protection vs. backstabbing
+ No bonus to Armor Class
+
+ Weight: 3
+ 
+ Not Usable By:
+  Mage
+  Thief
+  Druid
+  Cleric
+  Bard
+  Monk~
+@168 = ~Fists of Algerion~
+@169 = ~These gloves were crafted to mimic the power of the mighty fists of Algerion, a giant who, in his youth, single-handedly devastated several towns along the Sword Coast.
+
+STATISTICS:
+
+Special Skills:
+ Cast Fist of Algerion 3 times/day 
+
+Fist of Algerion:
+ Inflicts 1d10 magic damage, stuns and/or throws the target   
+ back if it fails a saving throw vs. breath with a -5   
+ penalty~
+@170 = ~Lucky charm~
+@171 = ~This amulet has been blessed by the goddess of good fortune.
+
+STATISTICS:
+
+Equipped Skills:
+ +1 to all saving throws
+ -1 to Constitution
+ +2 to THAC0~
+@172 = ~Ring of Rorth~
+@173 = ~This ring contains the essence of an ogre warlord, Rorth, who infused it in an effort to be immortal. It gives Rorth's capabilities to the wearer.
+
+STATISTICS:
+
+Equipped Skills:
+ Fixes Strength at 22
+ Fixes Constitution at 20
+ -2 to Dexterity
+ Fixes all other characterics at 7
+
+Special Skills:
+ Cast Chain Lightning 1 time/day~
+@174 = ~Expert Thief~
+@175 = ~Fist of Algerion~
+@176 = ~Controlled Fury~
+@177 = ~Summon Two-Handed Sword of Dark Magic~
+@178 = ~Spatial Seal
+School: Abjuration
+Level 5
+Range: 60 meters.
+Area of Effect: Global
+Saving Throw: None
+Duration: 2 minutes
+
+When cast, the mage "seals" the immediate area around him, preventing portals from other parts of the Prime Material Plane as well as other planes from opening around him. Summoning spells such as Summon Monsters, Summon Elementals and Raise Dead do not work.
+The effects cannot be dispelled and there is no saving throw or magic resistance. This spell affects allies as well. ~
+@179 = ~ ~
+@180 = ~Mah-Noor's Force Bolt~
+@181 = ~School: Evocation
+Level: 4
+Range: 30 meters/level
+Duration: Instant
+Casting Time: 4
+Area of Effect: Target Creature
+Saving Throw: None
+
+When cast a column of pure force descends on the target inflicting 4d4 +1d4 damage points per level with no saving throw.~
+@182 =~Mah-Noor's Snuff Life
+School: Necromancy
+Level: 2
+Range: 1 meter/level
+Duration: Instant
+Casting Time: 1
+Area of Effect: Target Creature
+Saving Throw: None
+
+With this spell the caster can steal the life force of a victim to increase his own, weakening the victim's body and revitalizing his his own. The victim will suffer 1d8 points of damage per spell level and 1 damage point per experience level. At the same time, the caster will recover health points equal to total damage points inflicted.~
+@183 = ~Mah-Noor's Snuff Life
+School: Necromancy
+Level: 2
+Range: 1 meter/level
+Duration: Instant
+Casting Time: 1
+Area of Effect: Target Creature
+Saving Throw: None
+
+With this spell the caster can steal the life force of a victim to increase his own, weakening the victim's body and revitalizing his his own. The victim will suffer 1d8 points of damage per spell level and 1 damage point per experience level. At the same time, the caster will recover health points equal to total damage points inflicted.~
+@184 =~Mah-Noor's Magic Missile Burst
+School: Evocation
+Level: 3
+Range: 120 meters + 20 meters/level, max. 300 mts.
+Duration: Instant
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell produces up to ten missiles of magical energy that burst out from the caster's hands and reach their target even at great distances. Each missile causes 1d6 +1 points of damage. For every level of experience, the mage will earn an additional missile: six at level six, seven at level seven, eight at level eight, and so on for up to a maximum of ten missiles.~
+@185 = ~Eman Rahc~
+@186 = ~D'Lan Merchant for ToB v6.1~
+@187 = ~You don't have ToB installed.~

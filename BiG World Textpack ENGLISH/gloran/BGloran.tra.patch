@@ -1,0 +1,195 @@
+--- gloran\tra\polish\BGloran.tra	Wed Apr 19 15:10:26 2006
++++ C:\BWP Patchstudio\patched files\gloran\tra\polish\BGloran.tra	Fri Aug 31 09:07:32 2012
+@@ -0,0 +1,192 @@
++@0    = ~Viconio czy mog³abyœ powiedzieæ dlaczego opuœci³aœ Podmrok?~
++@1    = ~Nie powinno ciê to obchodziæ.~
++@2    = ~Zastanawiam siê tylko...~
++@3    = ~Zamilcz zanim wpadne w gniew.~
++@4    = ~Po prostu ciekwai³o mnie...~
++@5    = ~Zatrzymaj swoje pytania dla siebie jeœli chcesz zachowaæ swoje ¿ycie.~
++@6    = ~Jesteœ naprawdê piêkn¹ istot¹ drowko...~
++@7    = ~Za to wasza rasa krasnoludzie nadaje siê tylko na niewolników lub jako szmata do wycierania 
++
++pod³óg.~
++@8    = ~Chyba rozumiem dlaczego ludzie nienawidz¹ drowów.~
++@9    = ~Macie dziwne poczucie humoru.~
++@10   = ~Zastanawia³em siê tylko czy œcie¿ka, któr¹ pod¹¿aj¹ paladyni jest w³aœciwa.~
++@11   = ~Droga prawoœci i sprawiedliwoœci zawsze jest w³aœciwa.~
++@12   = ~Czym¿e jest sprawiedliwoœæ i prawoœæ.~
++@13   = ~To doœæ trudne do wyt³umaczenia Gloranie.~
++@14   = ~Nadal mam sporo w¹tpliwoœci Keldornie, czasami przecie¿ trzeba zrobiæ coœ nie do koñca prawego by uczyniæ coœ dobrego.~
++@15   = ~W twoim ¿yciu by³o sporo bólu i cierpienia. Myœlê, ¿e kiedyœ dojdziesz do podobnych wniosków co ja.~
++@16   = ~W¹tpiê ale rozwa¿ê twoje s³owa.~
++@17   = ~Mam wra¿enie, ¿e coœ ciê gnêbi Gloranie.~
++@18   = ~Korganie czy ty masz choæ odrobinê honoru? Bo po mordzie tego nie widaæ...~
++@19   = ~Czy ty zawsze zadajesz takie g³upie pytania zawszony krasnoludzie?~
++@20   = ~Chcesz ¿ebym skopa³ ci dupsko przy ca³ej dru¿ynie?~
++@21   = ~Jeszcze tylko jedne s³owo a rozp³atam ciê na pó³.~
++@22   = ~Przypomnij mi ¿ebym przy najbli¿szej okazji przetrzepa³ ci skórê.~
++@23   = ~Argh!~
++@24   = ~Jedyny w swoim rodzaju Korganie.~
++@25   = ~Poza tym nie masz jaj i mam nadzieje, ¿e <CHARNAME> wywali ciê przy najbli¿szej okazji.~
++@26   = ~Jesteœ strasznie têpy, tak têpy jak siekiera mojego stryja.~
++@27   = ~Eee... to nie by³ dobry przyk³ad.~
++@28   = ~Zaraz wbije ci swój topór, w ten twój pusty ³eb!~
++@29   = ~Tylko nie zapomnij go naostrzyæ! To coœ co nazywasz toporem bardziej przypomina m³ot.~
++@30   = ~By³byœ ca³kiem dobrym towarzyszem podró¿y Gloranie, gdyby nie to, ¿e jesteœ taki dobroduszny 
++
++i g³upi zarazem. Co z ciebie za krasnolud?!~
++@31   = ~Korganie jesteœ bardzo skuteczny w walce! Nie zechcia³byœ zdradziæ choæ czêœci swojej tajnej 
++
++techniki?~
++@32   = ~Za ka¿dym razem kiedy wyprowadzasz cios mam wra¿enie, ¿e upadniesz i ju¿ nie wstaniesz.~
++@33   = ~Po prostu zabijam wszystko co siê rusza, zakuta pa³o.~
++@34   = ~Ciekawi mnie, jak to siê sta³o, ¿e jeszcze <CHARNAME> na tym nie ucierpia³<PRO_HESHE>...~
++@35   = ~Zamknij siê ¿a³osna imitacjo krasnoluda! Bo bêdziesz pierwszym, któremu roz³upie czerep!~
++@36   = ~Mówi³em ci ju¿ kiedyœ, ¿e jesteœ strasznie ograniczony umys³owo?~
++@37   = ~Doœæ tego! Stawaj do walki psie!~
++@38   = ~Szykuj siê na œmieræ!~
++@39   = ~Janie znasz mo¿e jak¹œ ciekaw¹ opowieœæ o wielkich i wspania³ych bitwach?~
++@40   = ~No có¿ prawdê mówi¹c nie ale znam œwietn¹ historie o...~
++@41   = ~Wiesz co, mo¿e opowiesz mi to innym razem. Ruszajmy <CHARNAME> tak jakoœ na nas dziwnie 
++
++patrzy...~
++@42   = ~Nie ma poœpiechu <CHARNAME> poczeka... Opowiem ci jak wujcio Klapcioch walczy³ z rzepowym 
++
++smokiem.~
++@43   = ~Rzepowym smokiem?~
++@44   = ~Tak, a tak nawiasem mówi¹c ciotka Petunia robi wyœmienite ciastka z rzepy. Mo¿e chcesz spróbowaæ? 
++
++Mam kilka przy sobie, nie ma to jak ma³e co nieco.~
++@45   = ~Ciastka? Czy to jest jadalne?~
++@46   = ~Dobra nie chcê wiedzieæ. Ruszajmy zanim siê porzygam.~
++@47   = ~Janie, mam dziwne wra¿enie, ¿e chcesz uraczyæ mnie jedn¹ ze swych opowieœci...~
++@48   = ~Wiesz co przyda³by ci siê ³yk piwa na uspokojenie. To nasz tajemny rodzinny przepis. Tak siê 
++
++szczêœliwie sk³ada, ¿e mam butelkê przy sobie...~
++@49   = ~Co to jest?~
++@50   = ~Piwo z rzepy najlepszej jakoœci.~
++@51   = ~Ale chyba nie pierwszej œwie¿oœci. Cuchnie skarpetkami!~
++@52   = ~Ale ma w³aœciwoœci uspokajaj¹ce no i œwietnie dzia³a na reumatyzm.~
++@53   = ~Ech... A nie ma czasami skutków ubocznych takich jak wymioty?~
++@54   = ~Nie... No oprócz tego, ¿e przez najbli¿sze kilka godzin bêdzie bola³ ciê brzuch, dostajesz 
++
++kopronej wysypki i...~
++@55   = ~Trzymaj t¹ butelkê przy sobie zanim siê zdenerwuje.~
++@56   = ~Jesteœ strasznie nerwowy jak wujcio Gerhard w dniu k¹pieli.~
++@57   = ~Valygarze jak to siê sta³o, ¿e ktoœ tak wysoko urodzony zosta³ ³owc¹?~
++@58   = ~Zadajesz trudne pytanie, sam w³aœciwie nie wiem.~
++@59   = ~Jakby siê tak zastanowiæ to te¿ nie wiem co sk³oni³o mnie do tego ¿eby ciê o to zapytaæ.~
++@60   = ~Znam to uczucie.~
++@61   = ~A mo¿e to jakieœ si³y wy¿sze?~
++@62   = ~Mo¿e, kto wie...~
++@63   = ~Valygarze wszystko w porz¹dku?~
++@64   = ~Tak, to tylko draœniêcie.~
++@65   = ~Hmmm... wiesz zna³em kilku ludzi co od takich draœniêæ rozstali siê z ¿yciem...~
++@66   = ~Nic mi nie jest dziêki za troskê.~
++@67   = ~Haer'dalisie?~
++@68   = ~Tak, gawronie?~
++@69   = ~Czy ja jestem jakiœ dziwny?~
++@70   = ~Sk¹d to pytanie?~
++@71   = ~Ludzie siê tak jakoœ na mnie dziwnie patrz¹.~
++@72   = ~Powiedzia³bym, ¿e jesteœ doœæ oryginalny.~
++@73   = ~Naprawdê?~
++@74   = ~Pewnie to z powodu tej twojej d³ugiej broni, ludzie myœl¹, ¿e chcesz sobie zrekompensowaæ swoje 
++
++rozmiary...~
++@75   = ~Wiedz, ¿e wybra³em t¹ broñ, gdy¿ uwa¿am j¹ za najskuteczniejsz¹.~
++@76   = ~Nie jestem tego taki pewien...~
++@77   = ~No dobra... Ruszajmy dalej, mój gawronie! <CHARNAME> siê niecierpliwi.~
++@78   = ~Mam jeszcze jedn¹ proœbê... nie nazywaj mnie gawronem! Mam na imiê Gloran.~
++@79   = ~Dobrze, mój gawronie!~
++@80   = ~Haer'dalisie nie jestem taki stary... jak na krasnoluda oczywiœcie.~
++@81   = ~Czy mogê ciê spytaæ o wiek?~
++@82   = ~No có¿, mam ju¿ 136 lat lub wiosen jak wolisz.~
++@83   = ~Nadal uwa¿asz mnie za starucha?~
++@84   = ~Powiedzia³bym, ¿e jesteœ dopiero w œrednim wieku.~
++@85   = ~Ale co sk³oni³o ciê do poszukiwania przygód?~
++@86   = ~Lubiê przygody, no i mo¿na na tym zarobiæ.~
++@87   = ~A poza tym?~
++@88   = ~Czy ja wiem... Wole walczyæ ni¿ siedzieæ gdzieœ na rzyci. Rozumiesz?~
++@89   = ~Chyba tak...~
++@90   = ~Mam wra¿enie ¿e chcesz napisaæ o mnie balladê. Nie mylê siê?~
++@91   = ~Owszem, mój gawronie. Oczywiœcie jeœli twoje przygody by³y interesuj¹ce.~
++@92   = ~Gloranie szlachetny wojowniku, jak to siê sta³o, ¿e tak stary ju¿ krasnolud wyruszy³ w 
++
++poszukiwanie przygód?~
++@93   = ~Dziêkuje Yoshimo. Staram siê tylko zwyciê¿yæ w ka¿dej bitwie.~
++@94   = ~Rad jestem, ¿e moge podró¿owaæ z tak honorowym krasnoludem.~
++@95   = ~Zbytnio mi schlebiasz przyjacielu.~
++@96   = ~Mówiê tylko najszczersz¹ prawdê Gloranie.~
++@97   = ~Mia³em tak¹ nadziejê Yoshimo.~
++@98   = ~Walczysz jak prawdziwy samuraj Gloranie, jesteœ odwa¿nym i szlachetnym wojownikiem.~
++@99   = ~Yoshimo?~
++@100  = ~Tak?~
++@101  = ~Czy uwa¿asz, ¿e te wszystkie prawa s¹ potrzebne.~
++@102  = ~Myœlê, ¿e nie. Przecie¿ i tak s¹ ³amane w ka¿dy mo¿liwy sposób.~
++@103  = ~Spodziewa³em siê takiej odpowiedzi. W pe³ni zgadzam siê z tob¹.~
++@104  = ~Mi³o mi z tego powodu szlachetny wojowniku.~
++@105  = ~Minscu zaciekawi³ mnie sposób w jaki walczysz. Jest naprawdê skuteczny. Mo¿e móg³byœ mi udzieliæ 
++
++kilku wskazówek?~
++@106  = ~To bardzo proste, Boo wskazuje, a ja wale!~
++@107  = ~Naprawdê imponuj¹ca technika.~
++@108  = ~Minscu czy ty aby na pewno dobrze siê czujesz?~
++@109  = ~Nie jestem ranny, Boo mówi, ¿e te¿ nie jest ranny.~
++@110  = ~No w³aœnie rozmawiasz z chomikiem.~
++@111  = ~Czy to coœ dziwnego?~
++@112  = ~Tak, normalni ludzie nie rozmawiaj¹ z chomikami.~
++@113  = ~Boo uwa¿a mnie za normalnego.~
++@114  = ~Ech...~
++@115  = ~Czy ten twój Boo posiada jakieœ magiczne w³aœciwoœci?~
++@116  = ~Oczywiœcie, Boo jest przecie¿ miniaturk¹ gigantycznego kosmicznego chomika!~
++@117  = ~A wiêc co on potrafi?~
++@118  = ~Posiada moce które twoje oko nie dostrzega, a s³owa Boo docieraj¹ tylko do uszu Minsca.~
++@119  = ~Jak to jest, ¿e tylko ty mo¿esz go us³yszeæ?~
++@120  = ~Poniewa¿ tylko Minsc potrafi go zrozumieæ. Poniewa¿ Minsc jest Boo, tak samo jak Boo jest 
++
++Minsciem.~
++@121  = ~Acha...~
++@122  = ~Minsc czy to nie jest czasami twój chomik?~
++@123  = ~Dziwne jak Boo dosta³ siê do twojego plecaka krasnoludzie?~
++@124  = ~Nie wiem, powinieneœ go bardziej pilnowaæ. No i radzi³bym ci uwa¿aæ na Jana.~
++@125  = ~To by³a tylko nieoczekiwana zamiana miejsc. Chyba siê na mnie nie gniewasz Minscu?~
++@126  = ~Jeszcze jeden taki numer, a nie ominie ciê kilka celnych kopniaków!~
++@127  = ~Zapewne bra³eœ udzia³ w wielu bitwach i pojedynkach. Mo¿e d¹³byœ mi jak¹œ dobr¹ radê?~
++@128  = ~Owszem, jedn¹ z najtrudniejszych bitew by³a walka przeciw olbrzymom ska³o¿erom.~
++@129  = ~Mój klan chêtnie organizowa³ wyprawy przeciw olbrzymom. Na ten temat wiem prawie wszystko wiêc 
++
++nie wysilaj siê...~
++@130  = ~Œmiesz w¹tpiæ w moje umiejêtnoœci?~
++@131  = ~Tak, jeœli chodzi o kwestie olbrzymów to krasnoludzcy wojownicy s¹ w tej dziedzinie ekspertami. 
++
++Wy ludzie nie macie o tym zielonego pojêcia.~
++@132  = ~Jesteœ bardzo dumnym wojownikiem Anomenie.~
++@133  = ~Tak to prawda.~
++@134  = ~To nie by³ komplement.~
++@135  = ~Co masz na myœli krasnoludzie?~
++@136  = ~To nieuprzejmie ¿e nazywasz mnie krasnoludem. Ja mam swoje imiê.~
++@137  = ~Lepiej uwa¿aj co mówisz!~
++@138  = ~Anomenie oka¿ trochê szacunku dla starszych.~
++@139  = ~Anomenie nie mogê patrzeæ na twoje zachowanie podczas walki...~
++@140  = ~Zamknij siê albo poczujesz mój gniew.~
++@141  = ~Wybacz mi szlachetny rycerzu. Zrobiê to o co mnie prosisz.~
++@142  = ~Czy to kolejna z twoich sztuczek?~
++@143  = ~Kolejna? Nie, stosuje j¹ po raz pierwszy, a poza tym nie jest to ¿adna sztuczka.~
++@144  = ~Skoro tak...~
++@145  = ~Wiedzia³em, ¿e siê jakoœ dogadamy.~
++@146  = ~Jaki piêkny dzieñ na przygodê, a patrzeæ na pani¹ to jak na piêkny trójmasztowiec z nowymi 
++
++¿aglami.~
++@147  = ~Niech pan zachowa te tanie komplementy dla portowych panienek.~
++@148  = ~Pani rani me serce, ja zawsze mówiê to co mi w duszy gra.~
++@149  = ~Hehe, nie tylko ¿artowa³em. Ale ubaw!~
++@150  = ~Cudowny dzieñ nieprawda¿?~
++@151  = ~Nawet siê nie wysilaj, twoje poczucie humoru jest godne po¿a³owania.~
++@152  = ~Wy druidzi nie znacie siê na ¿artach.~
++@153  = ~To samo mogê powiedzieæ o krasnoludach.~
++@154  = ~W przysz³oœci postaram siê wymyœliæ coœ bardziej œmiesznego.~
++@155  = ~Nie obraŸ siê Mazzy ale nie przepadam za nizio³kami.~
++@156  = ~Pewnie masz jakieœ uprzedzenia. Wszyscy s¹dz¹, ¿e jesteœmy zwyk³ymi z³odziejami.~
++@157  = ~Nigdy nie zapomnê jak mnie obrabowali. Ukradli mi nawet skarpety!~
++@158  = ~Nie mo¿esz oceniaæ nas po jednym incydencie.~
++@159  = ~Nie muszê chyba dodawaæ, ¿e spotka³o mnie to szeœæ razy.~
++@160  = ~Eeee... Widocznie nie mia³eœ szczêœcia...~
++@161  = ~Nie musisz dokañczaæ, wiem co masz na myœli.~

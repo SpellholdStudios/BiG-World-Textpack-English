@@ -1,0 +1,112 @@
+--- AviM\ToB\1xAv25J.d	Wed Sep 23 16:07:58 2009
++++ C:\BWP Patchstudio\patched files\AviM\ToB\1xAv25J.d	Mon Mar 25 11:10:46 2013
+@@ -2,80 +2,80 @@
+ 
+ INTERJECT_COPY_TRANS 1xAVMC 0 aviavmc
+ == 1xAv25J IF ~InParty("AviDV") Global("AviRelationsActive","GLOBAL",2)~ THEN
+-~A tutaj mamy doœæ szalonego kap³ana... ~
++@0
+ ==1xAVMC
+-~No! Móg³bym wiele dla was zrobiæ, wiêc nie pytluj! Ha!~
++@1
+ END
+ 
+ EXTEND_BOTTOM FATESP 6 #4
+-IF ~ !Dead("AviDV") !InMyArea("AviDV") Global("AviSummonedTB","GLOBAL",0) ~ THEN REPLY ~SprowadŸ Avi Mayê - potê¿n¹ widmow¹ bardkê! ~ DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
++IF ~!Dead("AviDV") !InMyArea("AviDV") Global("AviSummonedTB","GLOBAL",0)~ THEN REPLY @2 DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
+ Wait(2) 
+ CreateCreature("1xAVI25",[1999.1228],0) 
+-SetGlobal("AviSummonedTB","GLOBAL",1) ~ GOTO 8
++SetGlobal("AviSummonedTB","GLOBAL",1)~ GOTO 8
+ END
+ 
+ INTERJECT_COPY_TRANS HGWRA01 4 avigorion
+ == 1xAv25J IF ~InParty("AviDV") Global("AviRelationsActive","GLOBAL",2)~ THEN
+-~Doœæ tego!~
++@3
+ ==HGWRA01
+-~Tak, <CHARNAME>. Jest jeszcze kwestia Avi Mayi.~
++@4
+ ==HGWRA01
+-~Zawiod³eœ mnie. Targasz za sob¹ nieumar³ych. Stajesz siê jak Bhaal. Jesteœ gorszy. Mordujesz. Ten czerw o postaci widma pomaga ci. Ona tak¿e mnie morduje.~
++@5
+ ==HGWRA01
+-~To twoja wina! Twoja i Avi Mayi!~
++@6
+ ==1xAv25J
+-~Przestañ, duszo! Jesteœ zniszczon¹ zjaw¹! Sam jestes rozgoryczonym starcem. Têtni od ciebie z³a aura. Jesteœ g³upcem. Nic nie...~
++@7
+ ==HGWRA01
+-~Zamilcz, czerwiu!~
++@8
+ ==HGWRA01
+-~Jesteœ jak ona, <CHARNAME>! Martwy! Zimny! Jesteœ nikim. Zaprzepaœci³eœ nauki! Zgni³eœ!~
++@9
+ ==1xAv25J
+-~Przestañ!~
++@10
+ ==HGWRA01
+-~Twoje serce, dusza i umys³ s¹ toczone przez chorobê. Jesteœ jak rana wype³niona rop¹ i zgnilizn¹.~
++@11
+ END
+ 
+ INTERJECT_COPY_TRANS SENDAI 13 avisendai
+ == 1xAv25J IF ~InParty("AviDV")~ THEN
+-~Zg³adzimy ciê! S¹dzisz, ¿e ktoœ taki jak ty mo¿e pokonaæ dziecko Bhaala którego sojuszniczk¹ jest nieumra³a bardka?~
++@12
+ ==SENDAI
+-~Ja wiem, ¿e moge was zg³adziæ! Jesteœcie jedynie iblith!~
++@13
+ END
+ 
+ INTERJECT_COPY_TRANS ILLASERA 0 aviilla
+ == 1xAv25J IF ~InParty("AviDV")~ THEN
+-~Kolejna ³owczyni na twojej g³owie, <CHARNAME>! Wiêc co teraz? Widaæ, ¿e nie wyjdzie z tego nic dobrego.~
++@14
+ ==ILLASERA
+-~Nie przerywaj mi. Niech <CHARNAME> mówi.~
++@15
+ END
+ 
+ INTERJECT_COPY_TRANS SARKIS01 4 avikis
+ == 1xAv25J IF ~InParty("AviDV")~ THEN
+-~Coœ mi nie gra w tym... Zaufaj duszyczce.~
++@16
+ ==SARKIS01
+-~Zamilcz.~
++@17
+ END
+ 
+ INTERJECT_COPY_TRANS BAZDRA01 0 avidrac
+ == 1xAv25J IF ~InParty("AviDV")~ THEN
+-~O nie... czujê... Uwa¿aj, <CHARNAME>! To nie jest zwyczajna osoba!~
++@18
+ ==BAZDRA01
+-~Czujê twój zapach, nieumar³a.~
++@19
+ END
+ 
+ INTERJECT_COPY_TRANS 25SPELL 0 avilaz
+ == 1xAv25J IF ~InParty("AviDV")~ THEN
+-~No! Dla odmiany spotykamy kogoœ kto zdaje siê byæ m¹dry!~
++@20
+ ==25SPELL
+-~Mi³o, ¿e tak mówisz.~
++@21
+ END
+ 
+ EXTEND_BOTTOM SARVOLO 9 #4
+-+ ~InParty("AviDV") InMyArea("AviDV") !StateCheck("AviDV",CD_STATE_NOTVALID)~ + ~Opowiedz mi o Avi Mayi.~ + AviMayaBio
+++ ~InParty("AviDV") InMyArea("AviDV") !StateCheck("AviDV",CD_STATE_NOTVALID)~ + @22 + AviMayaBio
+ END
+ 
+ CHAIN SARVOLO AviMayaBio
+-~Avi Maya to dobra dusza która wêdruje z <CHARNAME>. Jej wdziêki i ch³ód pozna³ nie jeden mê¿czyzna! Wspania³a bardka, nieoceniona pomoc w sprawach œmierci. Kto lepiej pozna³ œmieræ ni¿ ona?! Biada temu kto chce po³o¿yæ rêce na jej martwym cia³ku.~
+-== 1xAv25J ~Intryguj¹co mnie opisa³eœ, bardzie.~
+-== SARVOLO ~Dziêkujê ci, Avi Mayu.~
+-EXTERN SARVOLO 9
+\ No newline at end of file
++@23
++== 1xAv25J @24
++== SARVOLO @25
++EXTERN SARVOLO 9

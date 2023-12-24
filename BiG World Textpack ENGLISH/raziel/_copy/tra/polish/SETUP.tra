@@ -1,0 +1,12 @@
+@0    = ~Raziel NPC~
+@1    = ~Klucz do celi~
+@2    = ~Typowy klucz do celi, jaki mo¿na znaleŸæ w ka¿dym wiêzieniu. Ten mo¿e pasowaæ do drzwi w celi Raziela.~
+@3    = ~Raziel~
+@4    = ~Zapytany o przesz³oœæ, RAZIEL twierdzi, i¿ pochodzi z Waterdeep, najbardziej znanego miejsca w ca³ym Faerunie. Tak jak wiele innych osób nie potrafi³ jednak uczciwie na siebie zarobiæ na jego ulicach. Nie mia³ innego wyboru jak zejœæ na drogê przestêpstwa i wystêpku. Zacz¹³ od drobnych kradzie¿y, skoñczy³ zaœ jako zbir czychaj¹cy na nieostro¿nych wêdrowców w ciemnych uliczkach. By³ na tyle skuteczny, ¿e szybko zainteresowa³a siê nim miejscowa gildia. Z uœmiechem na twarzy wspomina, i¿ odmówi³ wst¹pienia w jej szeregi co by³o równoznaczne z wydaniem na siebie wyroku œmierci. Nie mog¹c szukaæ pomocy u w³adz musia³ uciekaæ z miasta. Od tamtego czasu wiele podró¿owa³ po Krainach. Do Amn trafi³ w poszukiwaniu przygód i jak twierdzi ma nadziejê znaleŸæ je przy twoim boku. NajwyraŸniej uwa¿a, i¿ jest to doskona³a okazja by zapomnieæ o niechlubnej przesz³oœci i urzeczywistnieæ marzenia o bohaterstwie i s³awie.~
+@5    = ~Ta walka jest przegrana. Uciekajmy póki mo¿emy!~ [RAZ003]
+@6    = ~Na nich!~ [RAZ004]
+@7    = ~Jestem ranny... pomó¿cie mi.~ [RAZ005]
+@8    = ~Moje ciosy nie odnosz¹ skutku!~ [RAZ006]
+@9    = ~Albo nagle os³ab³em, albo noszê zbyt wiele.~ [RAZ007]
+@10   = ~Poczekaj tylko, a¿ wydostanê siê z tej klatki!~ [RAZ001]
+@11   = ~Cicho, psie!~ [RAZ002]

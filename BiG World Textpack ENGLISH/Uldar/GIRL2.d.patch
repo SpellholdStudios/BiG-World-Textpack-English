@@ -1,0 +1,54 @@
+--- Uldar\d\GIRL2.d	Thu Apr 17 02:51:42 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\GIRL2.d	Wed Aug 29 05:58:58 2012
+@@ -2,30 +2,30 @@
+ 
+ IF ~NumTimesTalkedTo(0)
+ ~ THEN BEGIN 0 
+-  SAY ~(jadeo) Muchas... muchas gracias, por salvar mi vida. Intenté escapar pero me pillaron y ahora querían darme un castigo ejemplar para el resto de niños. ¡Seguro que ese monstruo me habría matado!~
+-  IF ~~ THEN REPLY ~Es verdad. Ahora estáis libres, así que os sugiero que huyáis mientras podáis.~ GOTO 1
++  SAY @0
++  IF ~~ THEN REPLY @1 GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1 
+-  SAY ~Sí, sí, señor. No sé dónde iremos. Scornubel está tan lejos... ¡Pero cualquier cosa es mejor que luchar para que esos malvados se rían de nosotros!~ ~Sí, sí, señora. No sé dónde iremos. Scornubel está tan lejos... ¡Pero cualquier cosa es mejor que luchar para que esos malvados se rían de nosotros!~
+-  IF ~~ THEN REPLY ~¿Por qué los esclavistas tienen tantos niños aquí?~ GOTO 2
+-  IF ~PartyGoldGT(99)~ THEN REPLY ~Aquí hija. Aquí hay 100 piezas de oro... mira a ver si con esto tú y estos otros niños podéis volver al lugar del que venís.~ DO ~TakePartyGold(100)~ GOTO 3
+-  IF ~~ THEN REPLY ~¡No importa, chica, tú corre!~ GOTO 4
++  SAY @2 
++  IF ~~ THEN REPLY @3 GOTO 2
++  IF ~PartyGoldGT(99)~ THEN REPLY @4 DO ~TakePartyGold(100)~ GOTO 3
++  IF ~~ THEN REPLY @5 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 2 
+-  SAY ~Yo, no estoy segura. Creo que uno de ellos dijo que formabamos parte del siguiente pedido para un nuevo cliente muy poderoso. Dijo que necesitaba reunir a diez niños más antes de que acabara la semana. ¡No sé que habría pasado si no nos hubieras salvado!~
+-  IF ~PartyGoldGT(99)~ THEN REPLY ~Bueno, aquí hay 100 piezas de oro, hija. Quizá esto os ayude a algunos de vosotros a volver a vuestras casas.~ DO ~TakePartyGold(100)~ GOTO 3
+-  IF ~~ THEN REPLY ~Ya. Bueno, ya sois libres, ¡así que ahora corred mientras podáis!~ GOTO 4
++  SAY @6
++  IF ~PartyGoldGT(99)~ THEN REPLY @7 DO ~TakePartyGold(100)~ GOTO 3
++  IF ~~ THEN REPLY @8 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-  SAY ~¡Oh! Eres demasiado amable, señor. Esto, esto puede que pueda llevar a algunos de los nuestros a casa. Gracias, de verdad.~ ~¡Oh! Eres demasiado amable, señora. Esto, esto puede que pueda llevar a algunos de los nuestros a casa. Gracias, de verdad.~
+-  IF ~~ THEN REPLY ~En serio. Sois libres, ahora... ¡marchaos, mientras podáis!~ GOTO 5
++  SAY @9 
++  IF ~~ THEN REPLY @10 GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-  SAY ~¡Vale! ¡Gracias otra vez, señor! ¡Estoy seguro de que la Dama de la Alegría os sonreirá!~ ~¡Vale! ¡Gracias otra vez, señora! ¡Estoy seguro de que la Dama de la Alegría os sonreirá!~
++  SAY @11 
+   IF ~!IsValidForPartyDialog("Aerie")
+ !IsValidForPartyDialog("Anomen")
+ !IsValidForPartyDialog("Jaheira")~ THEN DO ~SetGlobal("FreeSlaves","GLOBAL",1)
+@@ -53,7 +53,7 @@
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from: 3.0
+-  SAY #48460 /* ~¡Vale! ¡Gracias otra vez, señor! ¡Estoy seguro de que la Dama de la Alegría os sonreirá!~ ~¡Vale! ¡Gracias otra vez, señora! ¡Estoy seguro de que la Dama de la Alegría os sonreirá!~ */
++  SAY #48460 /* @11  */
+   IF ~!IsValidForPartyDialog("Nalia")
+ !IsValidForPartyDialog("Yoshimo")
+ !IsValidForPartyDialog("Korgan")~ THEN DO ~SetGlobal("FreeSlaves","GLOBAL",1)

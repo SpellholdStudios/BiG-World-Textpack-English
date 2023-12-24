@@ -1,0 +1,222 @@
+@1000 = ~Requires the installation of the component Pirate Kit~
+@1 = ~Kuo-Toa Plague~
+@2 = ~Corsair~
+@3 = ~Corsair Captain~
+@4 = ~Captain Akbet-Khrul~
+@460 = ~Mysterious map~
+@461 = ~Map of Lopango, southern Maztica~
+@4600 = ~Found at the bottom of a chest, this dusty map shows a land that you do not know, yet. A black inked cross suggests a particular location of importance at the center of the map.~
+@4601 = ~After careful observation and interpretation, you have managed to read the writing, which had almost been effaced by time, in the lower part of the map.
+You can now make out: "LOPANGO, Land of Fire".
+The words bring back memory of a particularly tedious lesson of geography taught to you during your childhood at Candlekeep. Lopango is a very distant land, located south of Maztica, which are the supposed origins of your parrot. It is said that Lopango is inhabited by groups of wild creatures called the "green people".
+The black cross in the center of the map indicates the location of something of value, possibly treasure.
+To get there, you will have to brave months on the Trackless Sea, and such an expedition cannot be prepared for in a single day.
+You decide to take this particular adventure up later, putting the map away for safe keeping.~
+@5 = ~Core of the Mind Chest~
+@6 = ~Coco~
+@676 = ~Like any respectable pirate, you constantly carry a parrot on your shoulder.
+The parrot itself comes from the distant jungles of the New World, from across the Trackless Sea, possibly Maztica. The bird was acquired by Gorion, your foster father, during a fair in the city of Murann.
+Constantly nestled on your left shoulder, this very talkative and no less perceptive animal has become accustomed to you after many years; and despity its unbearable tendency to repeatedly reel phrases off, you are certain that this bird likes you as much as the adventure in which you have plunged it in.
+
+Special: Coco can retrieve valuable items and explore areas beginning at level 14.
+
+Please note: Duration of absence of Coco can vary greatly. When the bird has found a useful item, it will go back to the area where you left it.~
+@462 = ~Tropical Fruit~
+@4602 = ~This is a rather unusual fruit of this part of Faerun. It radiates exotic colours and sweet scents.
+
+STATISTICS:
+
++1 life point per eaten fruit~
+@463 = ~Selune' Tear~
+@4603 = ~This is a fragment of a rock from the moon of Abeir-Toril, Selune. No doubt finding such a stone on Toril is a rarity.~
+@464 = ~Old Rusty Key~
+@4604 = ~This rusty key is literally riddled with age; it has no clear use because you don't know which lock it is supposed to unlock.~
+@465 = ~Representation of Halruaa~
+@4605 = ~This work represents an artist's view of the region of all wonders: Halruaa; renowned for its powerful wizards and known flying ships.
+
+Halruaa was settled centuries ago by wizards fleeing the Phaerimm in what was to become the Anauroch Desert. The first wizards came in unique flying ships invented by the Netherese, and found a beautiful and rich country settled only by shepherds and large herds of aurochs, a wild Rothe. It was here that the wizards decided to make a stand should the Phaerimm follow. The Phaerimm never did, But Halruaa has had to defend itself from attacks by all of its neighbors since then.
+Over the centuries Dambrath has attacked and raided Halruaa's ports and borders multiple times. Once, led by a magic-resistant barbarian, the Dambraii occupied all of the country south of Lake Halruaa. They were defeated in battle by the great archmage Mycontil, who slew their barbarian leader. Four thousand Dambraii attacked and were stopped by 500 Halruaans. More than 200 Halruaan wizards, including Mycontil, died in the battle.
+The last attack upon Halruaa was less than 100 years ago, through the Talath Pass by the power-hungry king of Lapaliiya. He had allied with bandits from the Wastes, though this time the Halruaans were able to field a larger force, including fighting men, as well as wizards in their skyships. The attackers were easily routed.
+Halruaa also suffered through a civil war about five centuries ago, when a number of mages advocated beginning new experiments in magic, ones of which even the Netherese didn't approve. The renegades were driven from the region, but went on to found the land of Thay, or so it is said in Halruaa.
+Since then Halruaa has been at peace, (they have had no declared wars) though it still suffers raids from Dambraii pirates, bandits of the wastes, savages from Mhair jungles, and any other pirate, raider or hungry wizard who thinks that magic and wealth grow on trees in Halruaa.
+The constant raiding has made the Halruaans very defensive, war-like and traditional. The people say that since Wizards have always led them, Wizards always will.~
+@466 = ~Pirate Tricorne~
+@4606 = ~Special: Immunity to blindness
+
+
+Usable Only By:
+ Non-Lawful Thief~
+@467 = ~Hathran Mask~
+@468 = ~Hathran Fire Mask~
+@4607 = ~Hathrans of Rashemen are known for their masks, often magical, which they carry when traveling and fighting.
+This mask, along with the scarlet glow it releases, radiates a hot and suffocating aura.~
+@4608 = ~Hathrans of Rashemen are known for their masks, often magical, which they carry when traveling and fighting.
+This mask, along with the scarlet glow it releases, radiates a hot and suffocating aura.
+
+STATISTICS:
+
+Special: Immunity to fire
+
+Not Usable By
+ Good alignment characters~
+
+@469 = ~Horn of the Mutual Fraternal Help~
+@4609 = ~This is a horn you received in your inheritance along with your chest. Every pirate worth their salt has one.
+Supposedly, this was one of the horns that allowed a certain mercenary group to fight more effectively against The Kraken Society and children of Umberlee along the Sword Coast.
+
+STATISTICS:
+
+Special: This horn allows the user to call their crew, bloodthirsty pirates and corsairs to their aid, depending on their level.
+
+Only Usable By:
+ Pirate Captains
+ Non-Lawful Thief~
+
+@7 = ~Left hand unusable~
+@70 = ~My hand!! My hand it's not moving... I can't use it!~
+@71 = ~Penalty to Armor Class~
+@72 = ~Coco can now explore areas where he is instructed to search for valuable items.~
+@73 = ~Improved Parrot~
+@8 = ~Curse of the Pirate~
+@9 = ~Luck of the Pirate~
+@10 = ~Prepare to Board!~
+@11 = ~Sea Bane~
+@12 = ~Corsair Crew~
+@122 = ~You do not have the required level to call mercenaries to your aid.~
+@13 = ~Awakening of Akbet-Khrul~
+@14 = ~Obtained Coco the Parrot~
+@15 = ~Obtained an old chest~
+//@16 = ~Coco retrieved a precious item~//
+@17 = ~Treasure Chest~
+@170 = ~This is your pirate chest, where you store your gold coins. You can also store any valuable item in your possession.
+This chest is special in that it can only be opened by a guardian spirit, formerly great pirate of the realms.
+You inherited this chest shortly before your hasty exit from Candlekeep.
+
+STATISTICS:
+
+Special: Placed in the quick items panel, this chest allows you to invoke the guardian spirit and access the treasure.
+If you lose or discard the chest, the gold coins in it will be lost.~
+@171 = ~Gold Cup~
+@172 = ~This wonderful solid gold cup is worth a lot. One thing is sure, such treasure should not be sold. It occupies a promiment place in your chest... Where your parrot could have found such an item, is a mystery, especially since the scraggy varmint refuses to spill the beans!~
+@18 = ~Injured Left Hand~
+@181 = ~Wounded by many fierce battles, your left hand is now useless.
+A simple cure critical wounds spell could eliminate this handicap, but you refuse to have it healed. Pride drives you to be the mighty pirate that you are, and that attitude, in this case, has taken precedence over your health.
+While next to useless in battle, you choose from time to time. to wear hook, for aesthetics.~
+@19 = ~Pirate~
+@20 = ~Pirate~
+@21 = ~PIRATE: True masters of seas and oceans, these are sailors without fear or scruples. Not only are they fearsome fighters, but also good thieves too.
+
+Advantages:
+- Bonus +1 to hit and damage at levels 2, 19 and 28
+- Special ability: "Prepare to board!" at levels 9 and 17; temporarily improving combat skills.
+- "Seabane" at level 5 (gift of the goddess Umberlee), ability to summon a Kuo-Toa from the Elemental Plane of Water for aid.
+- Summon your pirate crew, first at level 13. The size of crew increases every two levels (includs "Akbet-Khrul", the evil pirate, from level 24).
+- Can achieve Grand mastery with the scimitar.
+- Coco the parrot can retrieve items to its owner and explore areas for you at level 14.
+- Owns a treasure chest which acts as a gold reserve and allows for storage of other items.
+
+Disadvantages:
+- From level 8 to 21, the pirate reduces party reputation by 1 for every 3 levels
+- Cannot use his offhand items or two-handed weapons after level 9
+- Switches between "Curse of the Pirate" and "Luck of the Pirate" every level; alternating penalties and bonuses to saving throws with each effect.
+- Penalty of 1 to AC
+- Requires 17 constitution and 11 strength
+- Cannot be of LAWFUL alignment, or NEUTRAL-GOOD alignment
+- Cannot set traps
+- Low level thieving skill only
+- No dual-classing
+- -4 penalty to charisma
+- Can not specialize in missile weapons
+
+Regional trait:
+Depending on the geographical origin of the pirate (chosen when installing the kit), he can have one of four additional advantages:
+-Pirate of the Nelanther Isles:
+Massive Attack: When he calls his pirate allies, they come with an additional crew member.
+
+-Pirate of the Inner Sea (Sea of Fallen Stars):
+Fierce Will: +10% magic resistance.
+
+-Pirate of the Island Kingdoms of Kara-Tur:
+Fearless and strong: Permanent +12 life points.
+
+-Pirate of Zakhara:
+Ultimate Grand Mastery of the scimitar (6th proficiency slot available): For the pirates of the burning sands of Zakhara, scimitars are handled with such skill that they are considered as 2-handed weapons +1, thus benefiting from the same advantages in terms of damage, without the disadvantage of -2 to movement speed due the weight of the latter.
+~
+
+@1060 = ~Species of the parrot, Coco~
+@1061 = ~Scarlet macaw (red)
+~
+@1062 = ~Blue-and-yellow macaw (green-blue-yellow)
+~
+
+@9999 = ~Regional innate gifts~
+@10000 = ~
+Pirate of the Nelanther Isles:
+Massive Attack: When he calls his pirate allies, they come with an additional crew member.
+~
+@10001 = ~
+Pirate of the Inner Sea (Sea of Fallen Stars):
+Fierce Will: +10% magic resistance.
+~
+@10002 = ~
+Pirate of the Island Kingdoms of Kara-Tur:
+Fearless and strong: Permanent +12 life points.
+~
+@10003 = ~
+Pirate of Zakhara:
+Ultimate Grand Mastery of the scimitar (6th proficiency slot available): For the pirates of the burning sands of Zakhara, scimitars are handled with such skill that they are considered as 2-handed weapons +1, thus benefiting from the same advantages in terms of damage, without the disadvantage of -2 to movement speed due the weight of the latter.
+~
+@10033 = ~The long, simple, curved blade is the characteristic of scimitars and even some words, although they do not share a common origin in Faerun. While the sword was primarily made for knights, particularly for its versatility, the scimitar is imbued by a more Eastern influence. The "shamshir" as it was first called, is larger and more curved, and tapers to an elongated tip.
+This scimitar in particular, is blessed by Hajama, god of war of Zakhara.
+
+STATISTICS:
+
+Damage: 1d8
+Damage Type:  slashing
+Weight: 4
+Speed Factor: 2 (Pirate of Zakhara: Ultimate Grand Mastery)
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed weapon
+Requires: 10 strength
+Only Usable By:
+ Pirates of Zakhara~
+@10034 = ~Blessed Scimitar of Hajama~
+
+@13462 = ~Ear of corn~
+@13463 = ~This plant, that Aolalitl calls "mais", is cultivated in the lands of Maztica, on a large scale.
+
+STATISTICS:
+
+Special: Heals 5HP per ear eaten~
+@13900 = ~Aolalitl~
+@13901 = ~Cotton bed~
+@13990 = ~Priestess of Qotal~
+@13991 = ~Priestess of Qotal~
+@13992 = ~Creation of this NPC is not complete~
+@13999 = ~Aolalitl NPC: priestess of QOTAL, specific quests~
+//nouveaux sorts de Aolalitl:
+@14000 = ~Freshness~
+@14001 = ~This spell causes creation of an aura of freshness and pure water vapour which protects the party from fire and dehydration.
+100% immunity to fire for 7 rounds, after level 12 increases to 20 rounds.~
+@14002 = ~Heat~
+@14003 = ~This spell allows Aolalitl to provide complete immunity to cold to one of her allies for 7 rounds up to level 12, after level 12 increases to 20 rounds.~
+@14004 = ~Elevation~
+@14005 = ~This spell creates a cloud of cotton the carries every party member where he/she wishes, thus avoiding unnecessary fatigue.
+During transport, every party member also regenerates 1 life point every 2 rounds.
+Caution: If enemies are encoutered, the spell dissipates immediately.~
+@14006 = ~Benevolence of Qotal~
+@14007 = ~This spell allows the caster to cure 2% hit points of an ally per spellcaster level (up to level 20).
+For example: if an ally has 30 base HP, and Aolalitl is level 7, the spell will regenerate 4 HP.~
+@14008 = ~Inner Light~
+@14009 = ~This spell allows the caster to detect evil. All evil creatures within range of the spell will glow for a brief moment. Moreover, it creates a magical barrier generated around the target at 30cm distance. The barrier moves with the recipient and has two major effects: first, any evil or enchanted creature launching an attack against the protected recipient receives a -2 penalty to attack rolls, in addition, the recipient will get a +2 bonus to saving throws.~
+@14010 = ~Gift Of Self~
+@14011 = ~This spell allows Aolalitl to permanently sacrifice 1 of her HP and provide this vital energy to one of her allies: the latter will have life points permanently increased by 5%, through the of life breathing power of Qotal.~
+@14012 = ~Fertility~
+@14013 = ~With this spell, Aolalitl manifests a random number of ears of corn, to be consumed for hunger or health.~
+
+@18000 = ~Immunity to fire and dehydration~
+@18001 = ~Immunity to cold~
+@18002 = ~Detection and protection from evil~
+@18003 = ~The soil is fertile: Ears of corn were harvested~
+@18004 = ~Energy virtues of corn allows restoration of some life points~
+@18005 = ~The Elevation spell has not been dispelled yet.~

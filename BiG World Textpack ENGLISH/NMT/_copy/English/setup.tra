@@ -1,0 +1,345 @@
+@0    = ~Traveler-Traveller~
+@1    = ~Traveller~
+@50    = ~Traveller's Collection~
+
+@100    = ~Drop of blood~
+@101    = ~A drop of condensed blood.~
+@102    = ~Heart amulet~
+@103    = ~This creates drops of blood as hard and smooth as pearls from ambient energy. When placed n the tongue, they dissolve and spread through the blood vessels and the heart.
+
+The heart amulet is more powerful than the blood amulet or the talisman of blood clotting, and can immediately heal many wounds, even serious or critical injuries. In addition, the wearer also gains increased vigor, which eliminates fatigue.
+
+STATISTICS:
+
+Special Abilities:
+Recovers 27 HP
+Eliminates fatigue
+Slashing attack resistance +10%
+Piercing attack resistance +20%
+Effect lasts 2 rounds~
+@104    = ~Bone~
+@105    = ~Small pieces of bone that seem to be weaved together.~
+@106    = ~Bone amulet~
+@107    = ~This amulet is made of hollowed out bone with tiny symbols engraved on its surface. Users have to break it in half in order to activate it.
+
+The broken bone amulet temporarily strengthens the bones of the users to avoid their fracture. This amulet gives the user protection against crushing attacks.
+
+STATISTICS:
+
+Special Abilities:
+Armor Class: +2
+Resistance against blunt weapons: +2
++15% Resistance against crushing attacks
+Effect lasts for 2 rounds~
+@108    = ~Dead flies~
+@109    = ~This is a completely dead fly~
+@110    = ~Amulet of dead flies~
+@111    = ~The flies look like they are frozen, they appear to be dead, but you can't seem to be sure. If these insects are eaten, the magic of the amulet is actived. When swallowed, their is a bout of violent vomiting following which a swarm of insects crawls out from every natural orifice. If the caster can remain conscious, they will be able to use this swarm to attack targets.
+
+STATISTICS:
+
+Special Abilities:
+Divine spell: "Disease spreading insect swarm"~
+@112    = ~Cranium of a rat~
+@113    = ~You can be sure it's dead.~
+@114    = ~Rat cranium amulet~
+@115    = ~This rat head has been specially treated: its inside hasbeen is hollowed and cleared out and filled with a variety of herbs and straw paper containing magical symbols.
+If this amulet is consumed, logical reasoning and understanding abilities of the user are temporarily increased. The user has a heightened sense of awareness as well.
+
+STATISTICS:
+
+Special Abilities:
+Detect trap bonus: +5%
+Wisdom: +5
+Intelligence: +1
+Effects last 10 rounds~
+@116    = ~Dead cockroach~
+@117    = ~These repugnant insects indeed.~
+@118    = ~Amulet of cockroaches~
+@119    = ~Cockroaches are scavengers, hardy creatures. The dead cockroaches' carapace is covered in mysterious and magical symbols. When the amulet is consumed, the skin becomes hard, raising resistance to certain types of weapons.
+
+STATISTICS:
+
+Special Abilities:
+Armor Class: +4
+Protection against crushing weapons: +2
+Resistance to blunt weapons: +10%
+Effect lasts for 2 rounds~
+@120    = ~Liquor~
+@121    = ~The amber liquid gives a tempting aroma.~
+@122    = ~Heart Wine~
+@123    = ~This wine is very strong, the wine itself is very rich, extremely sweet tasting.
+
+This wine was originally produced in ancient Illefarn. Few know the recipe and fewer still know how to follow it.
+The bottles are enchanted so they slowly refill.
+
+STATISTICS:
+
+Weight: 1
+
+Special Abilities:
+Unknown effects
+Thirst: Recovers 6 points
+1 use every 8 hours~
+@124    = ~Liquor~
+@125    = ~A bottle of a dark red liquid.~
+@126    = ~Refined Firewater~
+@127    = ~As soon as the tongue comes in contact with this seed, there is a feeling of intense heat, without burning. This feeling is very odd but soothing, and forces the user to drink  large gulps of Firewater to cool the burning of the seed.
+The bottles are enchanted so they slowly refill.
+
+STATISTICS:
+
+Weight: 1
+
+Special Abilities:
+Fire resistance: increased by 100%
+Saving throw against breath weapons: -10 bonus
+Duration: 5 rounds
+Thirst: Recovers 6 points
+1 use every 8 hours~
+@128    = ~Shining seeds~
+@129    = ~These seeds seem to be very flammable.~
+@130    = ~Fire seed~
+@131    = ~Fire seeds for Firewater
+These are very flammable.
+
+STATISTICS:
+
+Special Abilities:
+Cause 6D6 fire damage in a range of 50 feet from the target area.
+Fire resistance: +50%, the effect lasts 3 rounds.
+These fire seeds can be used about 3 times.~
+@132    = ~Bottle of a colorless transparent liquid~
+@133    = ~This seems to be a bottle of... water.~
+@134    = ~Water from the Elemental Plane of Water~
+@135    = ~Bottle of Elemental water:
+Taken from the heart of the Elemental Plane of Water. Bottles of Elemental water and drinking water look no different. When ingested, it slowly feels as if a soft velvet wave is flowing over the tongue and into the stomach. It is the purest thing, purging all other impurities from the body.
+The cold water itself suppress troubled emotions. The bottles are enchanted so they slowly refill.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+All toxins are purged
+Restores 12 HP per second
+Mind Shield
+Durations: 5 rounds
+Thirst: Restores 8 points
+1 Drink every 8 hours~
+@136    = ~A bottle of wine~
+@137    = ~This wine is hot, surprisingly, like it's just been taken out of the fire. Even thoughthere is hot gas billowing out of the top, one is very tempted to drink it.~
+@138    = ~Brew of the Outer Planes~
+@139    = ~This bottle comes from the Outer Planes. The wafting black smoke from the amber coloured fluid seems to be a testament to that fact. As unwelcome as the beverage looks, it entices the onlooker to drink it. Upon ingestion, it causes pain so light, it feels like pleasure.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Unknown effects~
+@200    = ~Forever Together~
+@201    = ~The origins of the name "Forever Together" are not known, but the recipe has been shared for and wide. Despite it's wide distribution, this beverage is still very rare owing to the extremely difficult recipe. Eight kinds of fruit are collected on Mid-Summer's night, half-cooked in oak-matured mead, and  distilled under sunlight at the dead of winter when the temperature is just right. Storing the components from summer to winter is a big headache!
+
+STATISTICS:
+Weight: 1~
+@202    = ~Golden Sands~
+@203    = ~A shade of brilliant gold, just looking at this shimmering liquid is mesmerising. A creation of the Djinn of Calimsham, a recipe guarded very jealously indeed.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Restores 1 point~
+@204    = ~Krupneisch~
+@205    = ~A sweet drink made from fermented honey to which over 50 different herbs are added.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Restores 6 points~
+@206    = ~Farm Honey mead~
+@207    = ~Derived from farmed honey, fermentated and matured, mixed with essence of butter to give a nice creamy taste and thick texture.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@208    = ~Bitter rye whiskey~
+@209    = ~This drink is made from fermented rye and malt. Slightly bitter, an acquired taste.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@210    = ~Ruby wine from Westgate~
+@211    = ~The wine is named after it's ruby red color because residues contain more tannin. The "reddest" red wine ever or so they say.
+
+STATISTICS:
+Weight: 1~
+@212    = ~Selune's Kiss~
+@213    = ~No one knows where this particular brew originated, all that is known is that it is NOT named after the goddess, Selune.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@214    = ~Wild honey mead~
+@215    = ~Made from non-farmed forest honey, having a higher alcohol content than farmed honey mead, as well as more sugar.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Restores 6 points~
+@216    = ~Apple Cider~
+@217    = ~"Apples grown for cider are not for eating, they are for brewing", is an indignant expression amongst cider brewers. Specials apples are scratted, pressed and then fermented before being blended and bottled.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Restores 6 points~
+@218    = ~Auriel's Breath~
+@219    = ~A bottle of Auriel's Breath, a slush of ice, cold, perfect for slaking thirst on a hot, humid summer's day. Magic has been infused into the potion to keep it icy cold,
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Restores 6 points~
+@220    = ~Grape wine~
+@221    = ~A bottle of simple grape wine, brewed locally.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@222    = ~Elminster's Draught~
+@223    = ~It would appear that some enterprising brewers decided to name this beverage after a famous mage to boost sales. Whether this tactic works or not is anybody's guess.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@224    = ~Chultan Palm wine~
+@225    = ~Coconut ferment, straight from Chult... or so it says on the label.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@226    = ~Rice sake from Kara-Tur~
+@227    = ~This is plain ferment of rice. A popular drink in Kara-Tur, which is served hot.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@228    = ~Kaelyn's Sweet Bosom~
+@229    = ~Widely heralded as an aphrodisiac, this drink has also been purported to have the ability to "transport the drinker to the very bosom of their first love". Perhaps, the effect is due to the fermented hallucinogens present in the ingredients...
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@230    = ~Blood wine~
+@231    = ~A bottle of blood wine. Made from fermented blood... literally.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Restores 1 point~
+@232    = ~Ironfist Rock ale~
+@233    = ~This brew is concocted by a clan of dwarves in the Sword Mountains. Contrary, to popular belief it is NOT made from rocks but it is difficult to ingest.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@234    = ~Halruuan Stout~
+@235    = ~Surprisingly bitter, an acquired taste from an exotic land.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@236    = ~Dragon's Swill~
+@237    = ~A bottle of Dragon's Swill. Burns going in and burns coming out!
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@238    = ~Firewater~
+@239    = ~A bottle of firewater. Scorches as it goes down, and fills the entire body with red hot vigor!
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@240    = ~Winter's Frost~
+@241    = ~A bottle of Winter's Frost, buttery to taste, with a texture like ice crushed into slush. There is a common misconception that this drink takes it's origins from Icewind Dale. In fact this is a svirfneblin creation.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@242    = ~Amnish Rekaan wine~
+@243    = ~Amnish wine, using the Eshpurtan white grape, rough on the nose but smooth on the stomach!
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@244    = ~Black Isle beer~
+@245    = ~A bottle of Black Isle beer, straight from the Moonshae Isles. So strong, it is known to knock out even the hardiest of dwarves after a few swigs!
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 6 points~
+@246    = ~Dale Brew~
+@247    = ~Dale Brew
+This brew is made by pressing sparkling purple grapes. It gives a nice tangy fruity taste when ingested.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@248    = ~Horsehead Red Wine~
+@249    = ~The label on the bottle reads: "Ol' Horsehead Red". It has an odd floral fragrance. 
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@250    = ~Rashemi Pilrod wine~
+@251    = ~A rare brew, based on a cocktail of fermented fruit.
+
+STATISTICS:
+Weight: 8~
+////
+@1000    = ~Thank you! Please give me a glass.~
+@1001    = ~sigh... Why does it always end like this?
+
+(He drops a few gold coins on the table, and with a flash of white light, disappears in front of your eyes!)~
+@1002    = ~Sorry, I have my own things to do, I can't travel with you.~
+@1003    = ~Don't touch my glass!~

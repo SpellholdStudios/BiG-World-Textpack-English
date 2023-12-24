@@ -1,0 +1,14 @@
+--- Setup-Malthis.tp2	Mon Jun 22 20:32:32 2009
++++ C:\BWP Patchstudio\patched files\Setup-Malthis.tp2	Mon Dec 03 14:33:18 2012
+@@ -15,6 +15,11 @@
+          ~franzoesisch~
+          ~Malthis\franzoesisch\Setup.tra~
+ 
++LANGUAGE ~English~
++         ~english~
++         ~Malthis\english\Setup.tra~
++
++
+ BEGIN @0
+ 
+ 

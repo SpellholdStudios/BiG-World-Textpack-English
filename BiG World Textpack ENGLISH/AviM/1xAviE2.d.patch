@@ -1,0 +1,30 @@
+--- AviM\SoA\1xAviE2.d	Wed Sep 23 16:15:02 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviE2.d	Mon Mar 25 11:10:42 2013
+@@ -1,16 +1,16 @@
+ BEGIN 1xAviE2
+ 
+-IF~InParty("AviDV")~ THEN BEGIN 1xAviE2x1
+-SAY~Bobi znalaz³ Avi! Avi Maya musi zgin¹æ!~
+-IF~~THEN GOTO 1xAviE2x2
++IF ~InParty("AviDV")~ THEN BEGIN 1xAviE2x1
++SAY @0
++IF ~~ THEN GOTO 1xAviE2x2
+ END
+ 
+-IF~~THEN BEGIN 1xAviE2x2
+-SAY~Mistrz kaza³ zabiæ ciebie! Mistrz nauczy³ ja wiele wilorakoœci i kazaæ zabiæ! Podbnieæ ty "zabruszasz równiowagê"! ~
+-IF~~THEN GOTO 1xAviE2x3
++IF ~~ THEN BEGIN 1xAviE2x2
++SAY @1
++IF ~~ THEN GOTO 1xAviE2x3
+ END
+ 
+-IF~~THEN BEGIN 1xAviE2x3
+-SAY~Ja wiêc zabiæ ciebie i twoich przyjació³!~
+-IF~~THEN DO ~Enemy()~ EXIT
+-END
+\ No newline at end of file
++IF ~~ THEN BEGIN 1xAviE2x3
++SAY @2
++IF ~~ THEN DO ~Enemy()~ EXIT
++END

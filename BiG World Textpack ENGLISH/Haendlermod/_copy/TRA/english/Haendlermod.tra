@@ -1,0 +1,191 @@
+@0  = ~v1.1~ 
+@1  = ~Haendlermod~
+@2  = ~Zun~ 
+@3  = ~Spirit of the mage~
+@4  = ~Spirit of the warrior~ 
+@5  = ~Spirit of the thief~
+@6  = ~Spirit of the priest~
+@7  = ~Krish~ 
+@8  = ~Rose~
+@9  = ~Bottle~ 
+@10 = ~Bottle of the dealer~
+@11 = ~The bottle looks valuable and fits comfortably in your hand. You can not say of what material it was made, but it does not seem to be fragile. The bottle is empty.~
+@12 = ~If you rub the bottle a Djin appears. The Djin is a dealer, offering the summoner to buy his wares and items. If the Djin is killed, while serving the summoner, the bottle will be destroyed.
+
+STATISTICS:
+
+Special abilities: a Djin can be summoned three times a day.~ 
+@13 = ~Powder~
+@14 = ~Goblin powder~ 
+@15 = ~Goblin powder is one of the most famous inventions of Hirrin the madman. The necromancer has succeeded to enchant this powder extracted from the natural excrement of male goblins, so that one can evoke an image of the originating goblin. The evoked image will serve the user of the powder until the evocation ends. After a single application, it loses its effect.
+
+STATISTICS:
+
+Special abilities: Summons a goblin, that serves the summoner for one minute.~
+@16 = ~Mirror of distant vision~
+@17 = ~This silver mirror must have been made by a soothsayer. The frame is overlooked with artistic runes, however they seem to have no recognizable meaning. If you concentrate yourself, the mirror image changes and can show you places, that you have not yet discovered.
+
+STATISTICS:
+
+Special abilities: the carrier can cast three times a day the distant vision spell.~
+@18 = ~Key of the caretaker~ 
+@19 = ~This key once belonged to a successful thief, who caused mischief in Calimport. His career ended, when the door of the treasury of a rich mage dropped behind him into the lock. The key was still on the outside of the door and the thief found no way to open it without it. When the landlord discovered the intruder, he showed his discontent by turning the thief into a pile of ashes. The key was sold and his treasury room was filled with even more gold.
+
+STATISTICS:
+
+Special abilities: can cast the knock spell three times a day.~
+@20 = ~Amulet of the spirit invoker~ 
+@21 = ~The amulet is made of a material that you have never seen before. It seems to have no weight, and as hard as you may try, you can't focus on a specific aspect of it. As you wear it, you can hear soft whispering voices, struggling for attention in your mind. The longer you wear the amulet, the louder and more intrusive the voices seem to become. They lure you with promises, praise their virtues and accuse the others of lying. As you focus on one of the voices, it seems to come closer and closer to you, until the amulet evokes the spirit of the soul that you have chosen. You know no stories or legends that would somehow be related to the amulet and if you didn't check for it regularly, you could not even be sure whether the amulet is real or if you only imagined it.
+
+STATISTICS:
+
+Special abilities: summons a special spirit for five minutes once a day.~ 
+@22 = ~Gloves of the assassin~
+@23 = ~An assassin is always more successful if the victim does not expect an attack. The gloves of the assassin were made according to this principle. Their first owner was a dark elf, calling herself Black Snake. She preferred to approach her victims unarmed and at the last moment summoning a poisoned dagger with which she struck them at the speed of light. The gloves wandered through many hands since then, which is a clear indication of the risks this tactic brings.
+
+STATISTICS:
+
+THAC0: -1
+Special features: The wearer can summon 5 poisoned throwing daggers a day.
+Weight: 1
+Usable by:
+Thief (including multiclass and class combination)~ 
+@24 = ~Ring of dimension~
+@25 = ~The ring of dimension has been originally created by an evil mage, who did not want to accept that despite his power he still had to use his feet. He reliably used the ring for many years, but got used to it so much that he didn't want to make any step without it. As he did not end this habit while staying in Amn, he was warned by the Cowled Wizards only once. The second time, they sent a combat patrol of their inquisitors who could overcome the mage after a violent struggle. He was never seen again.
+
+STATISTICS:
+
+Special abilities: The wearer can cast the dimension door spell unlimited times.~
+@26 = ~Glasses of reading~
+@27 = ~When the orc chieftain Ubruk the Tooth noted that he could not read the news of his many spies, he asked one his advisers to make him a pair of glasses. The wise adviser however saw that the vision was not the real problem of the chieftain. Therefore he arranged that a pair of glasses, with simple lenses, be enchanted and handed them to the chieftain. Although the glasses served their purpose, the chieftain immediately had his adviser executed, because he was now able to see through the adviser's ruse.
+
+STATISTICS:
+
+Special abilities: Intelligence +3~
+@28 = ~Potion of life~
+@29 = ~Rea Silverbow was a loyal follower of Sune, who had dedicated her life to the Goddess. When she had to leave the temple for a mission of goodness, she was blessed by Sune and all potions, that she had with her were reinforced by the power of the Goddess. The Potion of life is one of those potions.
+
+STATISTICS:
+
+Special abilities: The potion can be used once a day to cure 50 damage points.~
+@30 = ~Leopard skin~
+@31 = ~This leopard skin has hardly been processed and can be worn as a simple cloak. It has been blessed by the shaman of the now extinct tribe of Utghar and served the tribe as an honor for its bravest warriors.
+
+STATISTICS:
+
+Special abilities: The wearer may turn into a leopard three times a day.~
+@32 = ~This particular trap has a similar effect than the spell skull trap. If you throw the skull, it floats motionless in the air. If inside a 6m radius the floating skull is neared by a creature, it explodes and causes every creature in a 9m radius 7D6 damage points. The first specimens of these necromantic traps are supposed to go back to the time of the ancient Netheril.~
+@33 = ~Fire gloves~
+@34 = ~Gloves like these come from Calimport and strengthens the wearer's melee attacks with elemental-type damage. When worn, even an unarmed attack can be fatal. This is not necessary however, since their magic works well with any type of melee weapon equipped.
+
+STATISTICS:
+
+Damage: 1 damage point by fire
+Weight: 2~
+@35 = ~Ice gloves~
+@36 = ~Gloves like these come from Calimport and strengthens the wearer's melee attacks with elemental-type damage. When worn, even an unarmed attack can be fatal. This is not necessary however, since their magic works well with any type of melee weapon equipped.
+
+STATISTICS:
+
+Damage: 1 damage point by cold
+Weight: 2~
+@37 = ~Electric gloves~
+@38 = ~Gloves like these come from Calimport and strengthens the wearer's melee attacks with elemental-type damage. When worn, even an unarmed attack can be fatal. This is not necessary however, since their magic works well with any type of melee weapon equipped.
+
+STATISTICS:
+
+Damage: 1 damage point by electricity
+Weight: 2~
+@39 = ~Ax of torture +2~
+@40 = ~The ax of torture once belonged to an influential duergar slave trader. The evil dwarf often and gladly used the ax against disobedient slaves, causing additional pain by electricity through its enchantment. Unfortunately for the duergar, among those slaves there was also a member of a powerful house of the dark elves. Since the elves did not know what to do with the inelegant weapon, they simply left it behind with the mutilated corpse of the dwarf.
+
+STATISTICS:
+
+THAC0: -2
+Damage: 1D8 +2 (slashing), +2 by electricity
+Weight: 5
+Speed factor: 5
+Proficiency Skill: Axe
+Weapon type: 1-handed
+Strength required: 10
+Not usable by:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@41 = ~Vampire teeth +1~
+@42 = ~Although there are certainly more powerful weapons, the vampire teeth crafted by the Zhentarim are especially popular among mages. This is not only because most mages find any weapon unacceptable, which is heavier than an ink pen, but is also related to the fact that the darts come back to the hands of the wearer after each throw. In addition, with each hit they transmit a small part of the life force from their victims to the thrower.
+
+STATISTICS:
+
+Special abilities: After each throw returns to the hand of the wearer. Each hit with the dart heals 1 damage point of the wearer
+THAC0: -1
+Damage: 1D3 +1
+Damage Type: missile (piercing)
+Weight: 0
+Speed Factor: 1
+Weapon Skill: Dart
+Weapon Type: one-handed
+Not usable by:
+ Cleric~
+@43 = ~Rod of the oppressor +3~
+@44 = ~Muran Balok's admiration for the people of the Illithid would be best explained by the fact that he was sick and highly intelligent from the birth. Very early, the mage began to studying the history of their people and sought ways and means to learn their special abilities. His studies eventually ended when he tried to grow his own tribe of Illithids, in the heart of Amn, by kidnapping citizens and implanting them tadpoles, the larvae of the illithids. A group of Harpers stormed his property and put an end this his dark activities. This rod is one the most powerful items, that Balok developed during his studies.
+
+STATISTICS:
+
+Special abilities: each hit lowers the intelligence of the victim by 2 and restores a spell of 6th or lower grade to the wearer.
+THAC0: -3
+Damage: 1D6 +3 (weapon power)
+Weight: 4
+Speed Factor: 1
+Proficiency Type Skill: Quarterstaff
+Weapon Type: Ambidextrous
+Usable by:
+ Mage (no class combination)~
+@45 = ~Green arrows~
+@46 = ~The green arrows were made by a ranger, who wanted to avoid killing more animals than necessary. A single hit with them was enough to put a beast temporarily out of action, and to take it to safety. It was not long until the arrows had been popular among poachers, slave traders and assassins, so that the ranger felt forced to stop the production. The existence of these arrows shows that his realization came too late and less considerate arrow makers have found a way to produce the arrows.
+
+SPECIFIC FEATURES:
+
+Damage: 1D6
+THAC0: -1
+Damage Type: missile (piercing)
+Special characteristics: creatures, which do not succeed in saving throw +3 against magic, are affected by Entanglement.
+Weight: 0
+Launcher: Bow~
+@47 = ~Demon sword +2~
+@48 = ~Demon swords as this one originate from the Abyss and were worn by the soldiers of a powerful prince of the Tanar'ri. Although in that region a large number of swords are given this little imaginative name, blades of this Tanar'ris are easily recognized since each successful hit inflicts one damage point by fire to the wielder. While for mere mortals this is a curse, it is a blessing for the troops of demon, as they would be cured by the sword due to their extreme fire resistance.
+
+STATISTICS:
+
+Special abilities: each hit with the sword causes 1 damage point of fire to the wielder.
+THAC0: -2
+Damage: 2D4 +2
+Damage type: slashing
+Weight: 7
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Not ussable by:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@49 = ~Demon sword +4~
+@50 = ~This sword was was once swung by a Balor, who fought as a general in the Blood Wars. Each of his soldiers wore a similar, albeit less powerful blade, that inflicted them fire damage with each hit. Since the soldiers were demons, they were healed by the fire and thus were able to fight longer. The Balor and his troops fought against Baatezu for countless years and brought them defeat after defeat. But as in an eternal war it could not be otherwise, the day came when they had to find their master too. When the blade of a prince of the Baatezu found its way into the corrupted heart of the Balor, even his powerful weapon could not save him. His body eclipsed into an explosion of flames, which not only tore his opponent into pieces, but it also destroyed his entire equipment. Only the sword remained undamaged.
+
+STATISTICS:
+
+Special abilities: the wielder has +50% fire resistance; each hit with the sword causes 3 damage points of fire to the wielder.
+THAC0: -4
+Damage: 2D4 +4
+Damage type: slashing
+Speed Factor: 4
+Weight: 6
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Not usable by:
+ Druid
+ Cleric
+ Mage
+ Thief~

@@ -1,0 +1,31 @@
+--- rukrakia\D\rukrakia.d	Sun May 03 07:35:15 2015
++++ C:\BWP Patchstudio\patched files\rukrakia\D\rukrakia.D	Fri Oct 03 05:23:51 2014
+@@ -109,9 +109,7 @@
+ IF ~~ 
+   THEN BEGIN TWO9 // from:
+   SAY @23
+-  IF ~~ THEN DO ~EraseJournalEntry(%검은 숲의 괴물?
+-
+-약간 정신이 나간 나무꾼과 이야기를 나눴다. 아마도 검은 숲에서 몬스터에게 동료들을 잃고 그 충격에 정신이 이상해진 것 같다. 대충 검은 숲의 위치를 알려줬지만 찾으려면 고생할 것 같다.%)
++  IF ~~ THEN DO ~EraseJournalEntry(@101)
+                  SetGlobal("CheckRukrakiaMatch1","GLOBAL",6)
+                  JoinParty()~ SOLVED_JOURNAL @73 EXIT
+ END
+@@ -119,9 +117,7 @@
+ IF ~~ 
+   THEN BEGIN TWO10 // from:
+   SAY @26 = @71
+-  IF ~~ THEN DO ~EraseJournalEntry(%검은 숲의 괴물?
+-
+-약간 정신이 나간 나무꾼과 이야기를 나눴다. 아마도 검은 숲에서 몬스터에게 동료들을 잃고 그 충격에 정신이 이상해진 것 같다. 대충 검은 숲의 위치를 알려줬지만 찾으려면 고생할 것 같다.%)
++  IF ~~ THEN DO ~EraseJournalEntry(@101)
+                  SetGlobal("CheckRukrakiaMatch1","GLOBAL",5)~ SOLVED_JOURNAL @72 EXIT
+ END
+ 
+@@ -268,4 +264,4 @@
+   SAY @44
+   IF ~~ THEN EXTERN RUKRAKIA TWO13
+ END
+-END
+\ No newline at end of file
++END

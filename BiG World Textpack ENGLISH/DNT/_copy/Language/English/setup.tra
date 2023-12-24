@@ -1,0 +1,175 @@
+//title
+@1   = ~Tomoyo and the Underground City MOD v0.9 by Viracocha~
+
+//character
+@2   = ~Takafumi No.054~
+@3   = ~Takafumi No.068~
+@4   = ~Takafumi No.071~
+@5   = ~Takafumi No.075~
+@6   = ~Takafumi No.081~
+@7   = ~Takafumi No.090~
+
+@15  = ~Fujiwara Tofu Shop~
+@16  = ~Furukawa Bakery~
+@17  = ~Takumi Fujiwara~ 
+@18  = ~Sanae Furukawa~
+@19  = ~Nagisa Furukawa~
+@20  = ~Tomoyo Sakagami~
+@21  = ~Tomoyo was the student council president of Hikarizaka High School of Witchcraft and Wizardry, because of her brother, Takafumi. At least that's what they say...~
+
+@40  = ~Sea Foam god~
+@41  = ~Werewolf Minion~
+@42  = ~Werewolf~
+@43  = ~Fiery Werewolf~
+@44  = ~Freezing Werewolf~ 
+@51  = ~Greater Werewolf~
+@52  = ~Fiery Greater Werewolf~
+@53  = ~Freezing Greater Werewolf~
+@54  = ~Werewolf Lord~
+@60  = ~Almond Tofu Golem~
+@61  = ~The Dragon, the thunderbolt, incredibly invincible, high as heaven, stately, handsome and loved by everyone!~
+@62  = ~Dwarf Musketeer~
+@63  = ~Dwarf Sniper~
+
+//goods
+@101 = ~Aegis Fang, made from almond tofu~
+@102 = ~Aegis Fang, made from almond tofu,
+This can be used as a war-hammer. It is a pity that it is made of almond tofu. But it is better if you just eat it.
+~
+@103 = ~Sword of Balduran, made from almond tofu~
+@104 = ~Sword of Balduran, made from almond tofu,
+This can be used as a longsword. It really looks like the Sword of Balduran, but people will find that it is made of tofu after it is equipped.
+~
+@105 = ~Flail of Ages +5, made from almond tofu~
+@106 = ~Flail of Ages +5, made from almond tofu,
+This can be used as a flail, but it might as well be a feather duster +5.
+~
+@107 = ~Boots of Speed, made from almond tofu~
+@108 = ~Boots of Speed, made from almond tofu,
+These can be used as boots, it is a pity that they are made from tofu.
+~
+@109 = ~Scimitar: Frostbrand, made from almond tofu~
+@110 = ~Scimitar: Frostbrand, made from almond tofu,
+This is the famous scimitar wielded by the even more famous ranger Drizzt of the north. On closer inspection, it is better of being lunch or dinner.
+~
+@111 = ~Long Sword +1, made from almond tofu~
+@112 = ~Long Sword +1, made from almond tofu,
+This could be used as a longsword, it is made of tofu, so everyone can use it!
+~
+@113 = ~Red Dragon Scales, made from almond tofu~
+@114 = ~Red Dragon Scales, made from almond tofu,
+This can be used as armor, but it is made of tofu... don't expect it to be fireproof!
+~
+@115 = ~Hallowed Redeemer Long Sword +4, made from almond tofu~
+@116 = ~Hallowed Redeemer Long Sword +4, made from almond tofu,
+This katana smells of almonds, it should probably just be eaten.
+~
+@117 = ~Carsomyr +5, made from almond tofu~
+@118 = ~Carsomyr +5, made from almond tofu,
+This is two-handed holy avenger is made from almond tofu! Good for any paladin who can't get their hands on the real deal...
+~
+@119 = ~Celestial Fury, made from almond tofu~
+@120 = ~Celestial Fury, made from almond tofu,
+This is not the real Celestial Fury, seeing as it is made out of tofu, but it is quite useful!
+~
+@121 = ~Robe of Vecna, made from almond tofu~
+@122 = ~Robe of Vecna, made from almond tofu,
+This piece of tofu has a glorious history. A long long time ago, on another world, this tofu robe was forged as a decoy to swap it out with real Robe of Vecna... or serve as an enticing treat to the lich if the thief got caught. Unfortunately, Vecna had a greater taste for flesh than he did for tofu...
+~
+@123 = ~Vorpal Silver Sword, made from almond tofu~
+@124 = ~Vorpal Silver Sword, made from almond tofu,
+While useful, it is not as powerful as real silver swords. And may still provoke attacks by the Githyanki!
+~
+@125 = ~Almond tofu~
+@126 = ~Almond tofu,
+Almond tofu is very popular in the underground city. Give it a taste!
+
+STATISTICS:
+
+Damage: 1D3
+Poisin: must succeed in a save vs. death, or receive 5 points of damage each second for 5 seconds
+Damage type: missile (piercing)
+Weight: 0
+Speed Factor: 2
+Proficiency Type: Dart
+Type: 1-handed
+
+Not Usable By:
+It is a piece of tofu, everyone can use it!
+~
+@127 = ~Sanae's bread~
+@128 = ~Sanae's bread,
+Sanae Furukawa made this bread, it looks and tastes very strange. Almost stone-like, you get the impression that it is meant to be used as a weapon.
+
+STATISTICS:
+
+Damage: 4d12 area damage (very dangerous, please do not use in a crowd)
+
+Weight: 1
+
+Usable By:
+ Everyone
+~
+@129 = ~Limited Edition BB gun~
+@130 = ~Limited Edition BB gun,
+This strange device was picked up from a dead body in the underground city. It shoots out pellets through some unknown mechanism. Have fun!
+
+STATISTICS:
+
+Automatically launches BB pellets
+THAC0: +8 bonus
+Damage: 1d60
+Weight: 5
+Speed Factor: 1
+Proficiency Type: Crossbow
+Type: 2-handed
+
+Usable By:
+ Everyone
+~
+@600 = ~The Truly Dark, Sinster and Evil Pillow~
+@601 = ~The Truly Dark, Sinster and Evil Pillow,
+This pillow is impregnated with dark magic of the most loathsome kind. It was imbued as such when a group of glabrezuu decided to hold an unholy orgy on it... or with it... or in it. Wash it thoroughly before use.
+
+STATISTICS:
+
+Special ability: can cast Raise Dead 3 times/day
+
+Weight: 3
+~
+@602 = ~The Truly Dark, Sinster and Evil bed-sheet~
+@603 = ~The Truly Dark, Sinster and Evil bed-sheet,
+This bed-sheet is impregnated with dark magic of the most loathsome kind. It was imbued as such when a group of glabrezuu decided to hold an unholy orgy on it... or with it.... or in it. Wash it thoroughly before use.
+
+STATISTICS:
+
+Armor Class bonus: +1
+Regeneration: +1
+
+Special abilities:
+Regeneration: 5 HP per second
+Non-detection
+Immunity to backstab
+Morale increased by 100 points
+
+Weight: 3
+~
+@604 = ~Tomoyo's Super Bolt~
+@605 = ~Tomoyo's Super Bolt,
+The stuff of legends, this item is god-like in it's power!
+
+STATISTICS:
+
+Fighting ability: throwable weapon, will return to thrower's hand
+THAC0: +3 bonus
+Damage: 1D30+3
+Damage type: missile (piercing)
+Weight: 1
+Speed Factor: 1
+Proficiency Type: Dagger
+Type: 1-handed
+Requires: 3 strength
+
+Usable By:
+Everyone
+~

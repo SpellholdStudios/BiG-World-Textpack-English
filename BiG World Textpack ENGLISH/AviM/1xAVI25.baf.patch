@@ -1,0 +1,130 @@
+--- AviM\ToB\1xAVI25.baf	Sun Oct 05 17:18:37 2014
++++ C:\BWP Patchstudio\patched files\AviM\ToB\1xAVI25.baf	Sun Oct 05 11:33:55 2014
+@@ -7,8 +7,8 @@
+ SetGlobal("AviSumTalked","GLOBAL",1)
+ StartDialogueNoSet([PC])
+ Wait(1)
+-END
+- 
++END 
++
+ //////Romans ToB
+ IF
+ Global("AviRelationsActive","GLOBAL",2)
+@@ -266,7 +266,7 @@
+ THEN
+ RESPONSE #100
+ SetGlobal("AviGromnitext", "GLOBAL",1)
+-DisplayStringWait(Myself,~Ha! Jesteœmy ju¿ blisko. Zaraz duszyczka zabije parê cia³ek.~)
++DisplayStringWait(Myself,@0)
+ END
+ 
+ IF
+@@ -275,7 +275,7 @@
+ THEN
+ RESPONSE #100
+ SetGlobal("AviAltarText", "GLOBAL",1)
+-DisplayStringWait(Myself,~Dziwne pomieszczenia... Ta twierdza musi zawieraæ wielê... tajemnic...~)
++DisplayStringWait(Myself,@1)
+ END
+ 
+ IF
+@@ -284,7 +284,7 @@
+ THEN
+ RESPONSE #100
+ SetGlobal("AviTDemon", "GLOBAL",1)
+-DisplayStringWait(Myself,~Ale tu œmierdzi demonem.~)
++DisplayStringWait(Myself,@2)
+ END
+ 
+ IF
+@@ -293,7 +293,7 @@
+ THEN
+ RESPONSE #100
+ SetGlobal("AviTav","GLOBAL",1)
+-DisplayStringWait(Myself,~I co teraz? Masz zamiar siê uchlaæ?~)
++DisplayStringWait(Myself,@3)
+ END
+ 
+ IF
+@@ -302,7 +302,7 @@
+ THEN
+ RESPONSE #100
+ SetGlobal("AviFi", "GLOBAL",1)
+-DisplayStringWait(Myself,~Bdzie gor¹co... Ju¿ to czujê...~)
++DisplayStringWait(Myself,@4)
+ END
+ 
+ IF
+@@ -311,7 +311,7 @@
+ THEN
+ RESPONSE #100
+ SetGlobal("AviTav2", "GLOBAL",1)
+-DisplayStringWait(Myself,~Czy ty wchodzisz do ka¿dej tawerny po drodzê?~)
++DisplayStringWait(Myself,@5)
+ END
+ 
+ IF
+@@ -320,7 +320,7 @@
+ THEN
+ RESPONSE #100
+ SetGlobal("AviBle", "GLOBAL",1)
+-DisplayStringWait(Myself,~Gdzie ty prowadzisz tak¹ dobr¹ duszê jak ja? Wa³êsamy siê po niezbyt przytulnych miejscach.~)
++DisplayStringWait(Myself,@6)
+ END
+ 
+ /////////// Slub
+@@ -351,7 +351,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Moje cia³o! Przestañ!~)
++  DisplayStringWait(Myself,@7)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,11,PIERCING)
+   SetInterrupt(TRUE)
+@@ -362,7 +362,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Moje cia³o! Przestañ!~)
++  DisplayStringWait(Myself,@7)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,20,PIERCING)
+   SetInterrupt(TRUE)
+@@ -373,7 +373,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Moje cia³o! Przestañ!~)
++  DisplayStringWait(Myself,@7)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,30,PIERCING)
+   SetInterrupt(TRUE)
+@@ -384,7 +384,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Moje cia³o! Przestañ!~)
++  DisplayStringWait(Myself,@7)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,35,PIERCING)
+   SetInterrupt(TRUE)
+@@ -394,7 +394,7 @@
+   SpellCastOnMe([ANYONE],CLERIC_HEAL)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Tylko nie to zaklêcie! NIE!!!~)
++  DisplayStringWait(Myself,@8)
+   SetInterrupt(FALSE)
+   Kill("AviDV")
+   SetInterrupt(TRUE)
+@@ -424,7 +424,7 @@
+ SetGlobal("AviBowChange2","GLOBAL",1)
+ DestroyItem("AVII4")
+ GiveItemCreate("AVII5","AVIDV",0,0,0)
+-DisplayStringWait(Myself,~(Energia która usz³a z awatara Kelemvora natychmiast zosta³a wessana przez ³uk Avi Mayi.)~)
++DisplayStringWait(Myself,@9)
+ END
+ 
+ /////// wydanie avi

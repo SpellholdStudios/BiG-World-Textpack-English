@@ -1,0 +1,44 @@
+@50005 = ~#VElen~ 
+
+@1     = ~(As soon as you open the door, you see a young gnome woman who probably suffered harsh torture sessions. From her face, you struggle to discern the traits, and her body seems like disjointed.)~
+@11    = ~(In panic.) Who's there? Is that you, Jackomo? Or maybe is it still your crazy dog? Does our sweet Bardick want to resume his sadistic games?~ 
+
+@12    = ~I'm <CHARNAME>. It seems that Bardick has sent me here. I am a prisoner, just like you. I don't know where I am but it worries me a little.~ ~I'm <CHARNAME>. It seems that Bardick has sent me here. I am a prisoner, just like you. I don't know where I am but it worries me a little.~
+@13    = ~My name is <CHARNAME>. I have also been imprisoned here. Do you know where we are?~ ~My name is <CHARNAME>. I have also been imprisoned here. Do you know where are we?~ 
+@14    = ~I'm just one of your fellows of pain, a prisoner. Which sadistic games are you talking about? Who are these men? And besides, where the hell we are!~ ~I'm just one of your fellows of pain, a prisoner. Which sadistic games are you talking about? Who are these men? And besides, where the hell are we!~
+@15    = ~I'm just a torturer among others. What do you want to start with? Arms? Legs? Face, perhaps?~
+
+@121   = ~(Taken by a hysterical laughter.) Ha, ha, ha, ha , ha! Are you "a little" worried? Have you seen me? Do you see the horror which happens to be my face? Did you see my body covered with such deep wounds that make me  look more like a corpse than a human being? Really, you have a sense of humor!~ 
+@122   = ~But who are those who did that to you? I am armed, I could help you.~ ~But who are those who did that to you? I am armed, I could help you.~
+@123   = ~You can't do ANYTHING! Despite my position, they were able to treat me like any of their toys. They have immeasurable power, they have the power of those who act in the shadows and strike you in the back.~ 
+// @138
+
+
+
+
+@131   = ~We are in a place unknown to men. And even gods since apparently, even my dear Lathander, has abandoned me.~
+@132   = ~Were you a priestess under the service of Lathander?~
+@133   = ~Were you part of the clergy?~ 
+@134   = ~I was more than just a priestess. I had reached the highest office in the service of our God. But that was before. Before they decided to destroy everything that I could be. Without a reason, just like that, by sadism.~
+@135   = ~There must be a way to stop them!~ 
+@136   = ~I will stop them. I'm not afraid of anyone.~
+@137   = ~You can't do anything! Their sense of manipulation and deceit has no equal. This is arguably the most intelligent and most powerful group you will ever meet. The most cruel too...~
+@138   = ~It's not by coincidence that this group remained secret all this time. You won't come through living here, whatever you do.~
+@139   = ~I'll find a way. I'm not easy to kill, I experienced other things.~ 
+@1391  = ~(Her disfigured face expresses a vague smirk.) As you wish, as far as I'm concerned...~
+// EXIT
+
+@141   = ~In your opinion, what kind of games I would like to talk about? Aren't the bloody and burning marks running through my body explicit enough?!~ 
+@142   = ~This is not what I meant... I might be able to help you leave this place...~ 
+// @137
+
+@151   = ~A torturer? An unnamed torturer? So come ahead, very dear "torturer"! Enjoy with what's left of my body!~
+@152   = ~(You start having fun by the wounds covering her face.)~ 
+@153   = ~(The blood, which soon covers your hands, excites you at the highest point. You're just starting to have fun when you hear footsteps.)~
+// EXIT
+
+// DISPLAY STRING
+
+// Cimetiére
+
+@154   = ~You find yourself in a dark and wet cell, your feet splash in a blackish substance, of which you can't determine the nature.~

@@ -1,0 +1,62 @@
+@1  = ~Joinable NPC Gloran~
+@2  = ~Gloran Battlehammer~
+@3  = ~When asked about his past GLORAN answers, with great pride, that his home is Mithril Hall, clanhold of the Battlehammers, to the far northern mountains and that he is a soldier. He says he chose to leave the hard-fought peace of the dwarven halls in search of glory and adventure. This, despite his age. He talks very little about his family, probably because most of his close relatives were killed in the wars to reclaim Mithril Hall, but he proudly points to his distant relation with Gandalug Battlehammer, leader of the clan. When asked about his adventures he stays silent for a long time and then says that it is a long and boring story that is not worth telling.~ 
+@4  = ~Gloran's Armor~
+@5  = ~Gloran's Armor
+This armor was forged by Arnolinus Battlehammer, long ago, when he was chief armourer to the Battlehammer clan, during the wars to reclaim Mithril Hall. This armor was damaged during the skirmish in front of the gates, and Gloran had to have it repaired by it's creator. Despite rigorous use over the years, it still provides an excellent defense. In addition, during the recent repair the armor has been improved to provide protection against spells. 
+
+STATISTICS:
+
+Special Skills:
++5 HP
++20% magic resistance
+Armor Class: 0
+Weight: 10
+Usable By: 
+Gloran~ 
+@6  = ~Gloran's Glory~
+@7  = ~Halberd +2 Gloran's Glory
+This halberd belongs to Gloran Battlehammer. He received the weapon from his friend Cromwell, the master blacksmith residing in the Docks District of Athkathla. This halberd is faster and lighter than other similar weapons while maintaining the level of damage it inflicts, making it a deadly weapon. 
+
+STATISTICS:
+
+Damage: 1d10 + 2
+THAC0: +2
+Damage type: piercing
+Special Skills:
+1 additional attack per round
++1 AC
+Weight: 6
+Speed Factor: 4
+Proficiency Type: Halberd
+Weapon type: 2-handed
+Usable By:
+Gloran~
+@8  = ~Gloran's Helm~ 
+@9  = ~Gloran's Helm
+This helm has been forged by Gloran Battlehammer. It has no magical properties, but provides additional defense. It has been made for mithril, which makes it extremely hard and resistant.
+
+STATISTICS:
+
+Armor Class: +1
+Special Skills:
+Protection vs. critical hits
+Weight: 2
+Usable By:
+Gloran~
+@10 = ~Ring of Ultimate Reinforcement~ 
+@11 = ~Ring of Ultimate Reinforcement
+This ring increases the health of the owner. It was created for an unknown explorer wandering the deserts of Anauroch. The explorer had such feeble health that he had to keep this ring on at all times, which saved him from disease and even death on many occasions. This item was so practical that quite a few copies were produced.
+
+STATISTICS:
+
+Special Skills:
+Constitution: 18~
+@12 = ~Various addictions (under construction)~
+@13 = ~Gloran & Virtue~ 
+@14 = ~After parting ways with <CHARNAME>, Gloran traveled long through Forgotten Realms for many years. After many adventures, he decided to return to his home, Mithril Hall, where, after the death of King Gandalug, he became general of the standing army under King Bruenor Battlehammer. During his tenure, he led many battles, most notably against MacBec Maclyon and his insane followers residing in the Castle of Illusion. But what he became famous for was his command at the Second Battle of Fell Pass, where he held the line with fifteen hundred Battlehammer dwarves against six thousands orcs. This was to be his last battle, Gloran lost three sons, and he never felt quite the same. In the honour of his many service, King Bruenor granted him the title of Steward, second only to the king. Stories of his valor will be told in Mithril Hall, and perhaps the entire North and the Sword Coast for a long time to come.~
+@24 = ~Tagnar~ 
+@25 = ~Ardan~
+@26 = ~Groth~
+@27 = ~Lisan~
+@28 = ~Tamath~ 

@@ -1,0 +1,178 @@
+@50000 = ~Devin~
+
+// Première rencontre avec le devin.
+
+@1     = ~(Suddenly, you realize that a man is trapped in the cage opposite to yours. He seems like he's bathed in a luminous aura.)~
+@2     = ~Punch! Go and punch <CHARNAME> ! Forget yourself into hate, forget even who you are. Your hits are just caresses to my withered heart...~ 
+@10    = ~Who are you? Are you also locked?~
+@11    = ~Are you a mage? Can you help me to get out of here?~ 
+@12    = ~I'm not really "here" to tell the truth. However, if I appear in front of you is to see you, to provide you with certain information. You're an interesting case, you know.~
+@13    = ~Interesting? How is that?~
+@14    = ~I'm just a messenger. And I'm here just to deliver you a message, nothing more.~ 
+@15    = ~A message... That is?~
+@2     = ~You travel a lot, <CHARNAME>. It's amusing to see how you can change: your actions seem to bring you very far. ~ 
+@2041  = ~(The space of a second, a shadow passes over his face. He hesitates, then starts to talk to you again.)~
+@2051  = ~You have changed a lot since Candlekeep. It is also rather unexpected, given the nature of your tutor.~
+@2049  = ~You have changed a lot since Candlekeep. It is also rather unexpected, given the nature of your tutor.~ 
+@4     = ~Who told you that I grew up over there? Did we  ever meet?~
+@5     = ~Do you know me? Would you be a friend of Gorion?~ 
+@6     = ~You seem to know a lot about me. Where from is your information?~
+
+@41    = ~(A smile appears on his face.) I have many and varied acquaintances. But... No, you don't know me.~
+@42    = ~But I'm not here to talk about myself. In fact, I represent important people who would like to meet you.~
+@43    = ~Meet me? So have you came to rescue me?~ 
+@44    = ~As I've told you, I just came to talk to you. I'm not supposed to interfere, I don't have the power, anyway.~
+@445   = ~Talk to me? But why appearing while I am a prisoner? Do you fool me?~ ~Talk to me? But why appearing while I am a prisoner? Do you fool me?~ 
+@446   = ~You don't have the power. but what power do you have then? To come to torment me?~ 
+@45    = ~Your suffering made us perceive a nature we didn't know. We want to help you but we can't interfere here. The future is too cloudy, the risk too uncertain.~
+@46    = ~(hew... This aura of mystery gets on my nerves.) And what are "you" going to do, in such a case?~ 
+@461   = ~(As I wasn't lost enough...)  Very well. Then? What do you have to say?~
+@47    = ~Just to tell you that the Grand Sacrant wants to meet you. He told me to ask you, to join him as soon as you can, if you manage to get out of here, of course.~
+@471   = ~Just to tell you that the Grand Sacrant wants to meet you. He told me to ask you, to join him as soon as you can, if you manage to get out of here, of course.~
+@477   = ~Perfect... And where is this "Grand Sacrant" to be found?~
+@478   = ~I can't answer you. He wouldn't tell me the place of the meeting.~
+@479   = ~Better and better! And how am I supposed to find him?~
+@4789  = ~Better and better! And how am I supposed to find him?~
+@4791  = ~He wished to leave you a clue.~
+@4792  = ~Awesome! A treasure hunting! And what did he say to you?~
+@4793  = ~you will find him where silence is golden.~
+@4794  = ~And what does that mean?~ // @49&@491&@492
+
+@49    = ~Think. The solution is at hand, if you take the trouble to read between the lines. Now, excuse me, but I have to go.~
+@491   = ~Wait...~
+@492   = ~See you very soon, <CHARNAME>. Lastly, I hope...~
+
+
+@51    = ~A "friend" isn't the right word. Let's rather say we attended the same circles at one point.~
+
+@61    = ~Let me keep the secret over my informants.~
+@62    = ~Let's rather get to the point why I'm here. I would like to introduce you to someone who wants to meet you.~
+
+// ENTREES JOURNAL
+
+@493   = ~A meeting among the most obscure.
+
+An old man appeared to me out of my cage. Very enigmatic, I have to say: I don't know much about who I am dealing with. He seemed to know me and told me that I could find a "Grand Sacrant" there where silence is golden. I definitely have no idea where it may be nor for who he's doing business but you never know...~
+
+@494   = ~A meeting among the most obscure.
+
+It wasn't that difficult, after all. I found my enigmatic messenger at the Graveyard District. He asked me to spy over some monks near the graves, I agreed. All this going back and forth annoys me a bit but I'm curious to know who wants me.~
+
+@495   = ~A meeting among the most obscure.
+
+It wasn't that difficult, after all. I found my enigmatic messenger at the Graveyard District. He asked me to spy over some monks near the graves, I told him very kindly to get lost. I'm sick of these freaks constantly toying with me!~
+
+
+@496   = ~A meeting among the most obscure.
+
+I ended up seeing again the instigator of this whole adventure. He told me about a great danger threatening Amn, that Jackomo would wake the dead up, a large number of the dead. There are still many obscure points in this story but maybe I'll learn more by completing the mission he has entrusted to me. He told me that I have to find Bardick to convince him to give me his journal. He is to be found at the Windspear Hills.~
+
+@497   = ~A meeting among the most obscure.
+
+Things didn't go exactly as planned: Bardick is dead and my enigmatic messenger doesn't seem very happy. He told me that I could find Rama at the usual place. The story finally seems to come to an end.~
+
+
+// Deuxième rencontre avec le devin.
+
+@7     = ~Ah! There you are, <CHARNAME>. I see you managed to find your way up to here.~
+@721   = ~(Annoyed) Yeah, I'm kind of smart. Well! Will you finally tell me what do you want!?~ ~(Annoyed) Yeah, I'm kind of smart. Well! Will you finally tell me what do you want!?~
+@722   = ~Yes, I was curious. You told me you had some things to show me.~ ~Yes, I was curious. You told me you had some things to show me.~
+@723   = ~I was passing here, anyway. Well, what do you want?~
+@724   = ~Quite nearby, there are two monks who have an instructive conversation. I want you to approach them and listen to their conversation.~
+@7241  = ~Why would I do it?~
+@7242  = ~Maybe because you're alone and don't know where to go. Or simply out of curiosity. Who knows?~
+@72419 = ~Maybe because you're alone and don't know where to go. Or simply out of curiosity. Who knows?~
+@7243  = ~(Smile.) Well, that's okay. I'm curious, that's true.~ ~(Smile.) Well, that's okay. I admit that I'm curious.~
+@7244  = ~I am a servant of no one and I am tired of your riddles. Farewell!~ ~I am a servant of no one and I am tired of your riddles. Farewell!~
+@7245  = ~This is true. I might still need assistance. But your little game has better be taking me somewhere! I have other concerns at the moment.~
+@7246  = ~Let's wait just here for a second, it's not the time yet.~
+@7247  = ~To be honest, you disappoint me a little. Farewell, <CHARNAME>! Maybe we meet again one day...~
+@7248  = ~I well know it, <CHARNAME>. But don't worry: this little "game" as you say, could help you in your quest.~
+
+@7249  = ~Well, now you can go. They are not far from the gravestones.~
+@725   = ~How am I supposed to do that? And if they spot me?~
+@726   = ~You're full of resources, I'm sure you'll find a solution.~
+@7259  = ~You're full of resources, I'm sure you'll find a solution.~
+@727   = ~But to make the job easier, I think I have a little something which enables you to hide your presence. Are you interested in it?~
+@728   = ~(A one more blow and I find myself turned into a gibberling.) Yes... I'll try... It is not dangerous, I hope?~
+@729   = ~Not at all. I have a certain skill in this field. You'll see...~
+
+
+// Troisième rencontre : le rêve
+
+
+@201   = ~Welcome, <CHARNAME>. Sorry to interrupt you in your journeys but I had to talk to you.~
+
+@202   = ~I am getting tired of being tossed from arm to arm. Will you finally explain to me what is happening?~ ~I am getting tired of being tossed from arm to arm. Will you finally explain to me what is happening?~
+@203   = ~What game do you play? What is your relationship with this brotherhood? Why did you put me in touch with them?~
+
+
+@204   = ~We live in a dark time, <CHARNAME>, and what I saw among the stars is quite disturbing. I saw the death of...~
+@205   = ~Serious things are going to happen and while you pursue your own goals, other powers are at work.~
+@206   = ~This is the reason I have been asked to take action.~
+
+
+@207   = ~Who? Who asked you that?~
+@208   = ~The death of what? The death of who? About which dark powers are you talking about?~
+
+
+@209   = ~Ancient and forgotten forces by men. Forces who remember and are able to perceive the lurking danger.~
+@2091  = ~Infinity, <CHARNAME>. Infinity... What you can neither see nor feel. You, nor any other creatures, not even gods...~
+@210   = ~These dark powers wake up or, at least, try to wake up. The story is already known: a man wants to play God irrespective of human life.~
+
+
+@211   = ~Let me guess: I have to save the world, right?~
+@212   = ~And why don't you take action yourselves?~
+@213   = ~A man? And what does he intend to do?~
+@2131  = ~Did you speak of a man? And what does he intend to do?~
+
+
+@214   = ~I'm telling you about humanity. Maybe it is a concept that talks to you?~
+@215   = ~I'm not an actor here, I'm just passing through...Taking action would be against nature.~
+
+@216   = ~The dead, <CHARNAME>, the dead... He wants them out of their eternal rest. But it's not an ordinary spell: it's immensely more dangerous than that. He has accumulated an enormous power over time through an old relic. A prohibited relic that any mage would dare to use today.~
+@217   = ~This mage, finally this necromancer, you already know him: he calls himself Jackomo. It's been a long time he has forgotten his real name but he still has in himself the bitterness, the pain, the thirst for power, and revenge.~
+@2171  = ~A revenge against those who forced him to flee long ago, while he was involved in the building of the prestigious city of Silverymoon alongside of Alustriel.~
+@2172  = ~He never accepted the vision of his own fall when he learned the truth. His existence was not natural and no elf, no man, no living creature could accept that. He aspired life to extend his own. Such an act was against nature and Alustriel had to act accordingly: he was sentenced to death.~
+@2173  = ~We don’t know the reason why he is still able to set foot on our lands without paying the price, yet the facts are here: he lives. And he holds in his hands this famous relic that would never even have to exist.~
+@2174  = ~Furthermore, and for our great misfortune, this "Jackomo" stays in a gap of space and time which prevents any intervention. However, there is a flaw: this flaw is called Bardick.~
+
+@2175  = ~Do you want me to kill him? No problem. It's been a while since his pretentious ways made him an enemy of mine.~
+@2176  = ~And Bardick is a flaw in what? I guess you have a plan...~
+@2177  = ~A strange story... That doesn't surprise much anyway: since the beginning of this adventure I had a lot of trouble to understand certain things.~
+
+
+@21771 = ~Bardick has been influenced. Things would not have happened, and we would have been manipulated. There is still hope for him. No: Bardick doesn't deserve death. Even if he hurt a lot... I don't think we can consider him wholly responsible for his actions. He has been influenced, he took many bad choices, but it would have happened in another way. This should have happened in another way.~
+
+@21772 = ~The story is long. Long and complicated... You just have to know that your role will be crucial in this adventure.~
+
+@2178  = ~No: Bardick doesn't deserve death. Even if he hurt a lot... I don't think we can consider him wholly responsible for his actions. He has been influenced, he took many bad choices, but it would have happened in another way. This should have happened in another way.~
+
+
+@2179  = ~Bardick has been "recruited" in some way. Jackomo completed his education and maliciously took advantage of the attraction he felt for the fire. It destroyed all his faith, all his heart, all his soul. He literally consumed him...~
+
+@2180  = ~Nevertheless, we believe that the Bardick of the past is not completely dead. There are still a few remnants in him of his past life, otherwise he would not be so upset.~
+@2181  = ~We want that you reason with him. Bardick wrote a journal that tells the whole story. It would be sufficient that Fenrir takes a look at it that all plans of Jackomo would be washed up.~
+
+@2182  = ~Your goals seem to be the same as mine. I will help you then.~
+@2183  = ~I have no desire to attract new troubles. Especially not with someone as dangerous as Jackomo. You will have to find another sucker to do the dirty work.~
+@2184  = ~Got it, I'll try to reason with Bardick. Although I doubt he will listen to me...~
+
+
+@2185  = ~I would expect no less from you, <CHARNAME>. Eternity would not suffice to thank you for what you are about to do. Bardick is impossible to address when he's inside the House of a Thousand Faces, fortunately, he's actually outside the house. Go to the Windspear Hills: there's a waterhole over there, where the nymphs are accustomed to come together to celebrate nature. You'll find him there. Now, you can sink back into your mist: whatever happens, I know you will act for the best.~
+@2186  = ~You're young. Young and reckless... Unfortunately, we don't have time to wait while I retain you here. Until you find common sense.~
+
+
+// FINAL DIALOGUE ARCHI FINAL
+
+
+@2187  = ~Oh no, I'm too late! What did you do, <CHARNAME>? What did you do...~
+@2188  = ~I couldn't do anything, he didn't want to listen to anything.~
+@2189  = ~Well... I guess it was inevitable. Rama is at the usual place, I think you know what you still have to do...~
+@2190  = ~Farewell, <CHARNAME>. Good luck to you.~
+@2191  = ~~
+@2192  = ~~
+@2193  = ~~
+@2194  = ~~
+@2195  = ~~
+@2196  = ~~

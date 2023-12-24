@@ -1,0 +1,39 @@
+--- AviM\ToB\1xAVPL.d	Wed Sep 23 16:17:22 2009
++++ C:\BWP Patchstudio\patched files\AviM\ToB\1xAVPL.d	Mon Mar 25 11:10:46 2013
+@@ -1,23 +1,23 @@
+ BEGIN ~1xAVPL~
+ 
+-IF~InParty("AVIDV") Global("AviDoNotLikeKeli","GLOBAL",0)~THEN BEGIN 1xAVPL1
+-SAY~(Odzywa siÍ g≥os niczym z zaúwiatÛw.)TAK WI C ODNALAZ£EM CI  AVI MAYU...~ [ AVIA1 ] 
+-IF~~THEN GOTO 1xAVPL2
++IF ~InParty("AVIDV") Global("AviDoNotLikeKeli","GLOBAL",0)~ THEN BEGIN 1xAVPL1
++SAY @0  
++IF ~~ THEN GOTO 1xAVPL2
+ END
+ 
+-IF~~THEN BEGIN 1xAVPL2
+-SAY~JAM JEST AWATAR KELEMVORA. STA£Aå SI  CZYMå NIENATURALNYM. JESTEå NIEUMAR£• NIE STOSUJ•C• SI  DO ZASAD åMIERCI. ODEJDè ZE MN• ALBO ZMUSZ  CI  DO TEGO. JEØELI ZGODZICIE SI , WYNAGRODZ  TWYCH PRZYJACI”£ MOC•. DECYDUJ DOW”DCO.~ [ AVIA2 ] 
+-IF~~THEN REPLY~Ja pragnÍ by Avi Maya zosta≥a.~ GOTO 1xAVPL3
+-IF~~THEN REPLY~Rozumiem ciÍ, awatarze. Moøesz zabraÊ Avi MayÍ...~ GOTO 1xAVPL4
++IF ~~ THEN BEGIN 1xAVPL2
++SAY @1  
++IF ~~ THEN REPLY @2 GOTO 1xAVPL3
++IF ~~ THEN REPLY @3 GOTO 1xAVPL4
+ END
+ 
+-IF~~THEN BEGIN 1xAVPL3
+-SAY~TAK WI C MUSICIE ZGIN•∆.~
+-IF~~THEN DO~Enemy()~ EXIT
++IF ~~ THEN BEGIN 1xAVPL3
++SAY @4
++IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+-IF~~THEN BEGIN 1xAVPL4
+-SAY~TAK WI C MUSICIE ZGIN•∆.~
+-IF~~THEN DO~Kill("1xAVPL") Kill("AVIDV") AddXPObject(Player1,50000) AddXPObject(Player2,50000) AddXPObject(Player3,50000) AddXPObject(Player4,50000) AddXPObject(Player5,50000) AddXPObject(Player6,50000) SetGlobal("AviDoNotLikeKeli","GLOBAL",1)~ EXIT
++IF ~~ THEN BEGIN 1xAVPL4
++SAY @4
++IF ~~ THEN DO ~Kill("1xAVPL") Kill("AVIDV") AddXPObject(Player1,50000) AddXPObject(Player2,50000) AddXPObject(Player3,50000) AddXPObject(Player4,50000) AddXPObject(Player5,50000) AddXPObject(Player6,50000) SetGlobal("AviDoNotLikeKeli","GLOBAL",1)~ EXIT
+ END
+ 

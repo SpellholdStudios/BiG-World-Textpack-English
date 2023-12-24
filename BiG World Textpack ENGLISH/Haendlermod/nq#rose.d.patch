@@ -1,0 +1,167 @@
+--- Haendlermod\d\nq#rose.d	Mon Apr 05 06:54:14 2010
++++ C:\BWP Patchstudio\patched files\Haendlermod\d\nq#rose.d	Mon Aug 27 04:27:01 2012
+@@ -8,125 +8,117 @@
+ BEGIN ~nq#rose~
+ 
+ IF ~~ THEN BEGIN 0 // from:
+-SAY ~Krish, Schätzchen, Ihr wollt mir doch nicht wirklich weh tun!~
++SAY @0
+  IF ~~ THEN EXTERN ~NQ#RBAD6~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from:
+-SAY ~Nein! Ihr da! Helft mir, bitte!~
+- IF ~~ THEN REPLY ~Was ist eigentlich das Problem?~ GOTO 2
+- IF ~Gender(LastTalkedToBy,MALE)~ THEN REPLY ~Keine Sorge, aus diesen Schurken mache ich Kleinholz!~ GOTO 3
+- IF ~!Gender(LastTalkedToBy,MALE)~ THEN REPLY ~Keine Sorge, aus diesen Schurken mache ich Kleinholz!~ GOTO 20
+- IF ~~ THEN REPLY ~Lasst mich bloß in Ruhe. Ich habe meine eigenen Probleme.~ GOTO 4
++SAY @1
++ IF ~~ THEN REPLY @2 GOTO 2
++ IF ~Gender(LastTalkedToBy,MALE)~ THEN REPLY @3 GOTO 3
++ IF ~!Gender(LastTalkedToBy,MALE)~ THEN REPLY @3 GOTO 20
++ IF ~~ THEN REPLY @4 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from:
+-SAY ~Dieses Monster will mich umbringen! Er...~
++SAY @5
+  IF ~~ THEN EXTERN ~NQ#RBAD6~ 3
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from:
+-SAY ~Danke! Vielen Dank, mein Retter!~
++SAY @6
+  IF ~~ THEN EXTERN ~NQ#RBAD6~ 8
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from:
+-SAY ~Hilfe!!! ~
+- IF ~~ THEN DO ~ReputationInc(-2) SetGlobal("NQ#ROSE","GLOBAL",2)~ SOLVED_JOURNAL ~Unterschlagung
+-
+-Ich habe mitbekommen wie eine Postituierte von ihrem Zuhälter und seinen Schlägern getötet wurde. Die Frau bat mich um Hilfe, aber ich habe meine eigenen Probleme, um die ich mich kümmern muss. Leider scheint die Szene von jemandem beobachtet worden zu sein, denn mein Ruf hat sich verschlechtert.~ EXIT
++SAY @7
++ IF ~~ THEN DO ~ReputationInc(-2) SetGlobal("NQ#ROSE","GLOBAL",2)~ SOLVED_JOURNAL @8 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from:
+-SAY ~Das ist eine Lüge! Dieser...~
++SAY @9
+  IF ~~ THEN EXTERN ~NQ#RBAD6~ 6
+ END
+ 
+ IF ~NumTimesTalkedTo(0) Global("NQ#ROSE","GLOBAL",1) Dead("nq#rbad6")~ THEN BEGIN 6 // from:
+-SAY ~Ihr habt mich gerettet! Ich bin Euch so dankbar, ich weiß gar nicht was ich sagen soll.~
+- IF ~~ THEN SOLVED_JOURNAL ~Unterschlagung
+-
+-Ich habe mitbekommen wie eine Postituierte namens Rose von ihrem Zuhälter bedroht wurde. Offensichtlich wollte er sie töten und ich musste ihn und seine Schläger überwältigen. Rose zeigte sich erkenntlich und schenkte mir eine magische Flasche.~ GOTO 9
++SAY @10
++ IF ~~ THEN SOLVED_JOURNAL @11 GOTO 9
+ END
+ 
+ IF ~NumTimesTalkedTo(0) Global("NQ#ROSE","GLOBAL",3) Dead("nq#rbad6")~ THEN BEGIN 7 // from:
+-SAY ~Ihr habt mich gerettet! Ich bin Euch so dankbar, ich weiß gar nicht was ich sagen soll.~
+- IF ~~ THEN SOLVED_JOURNAL ~Unterschlagung
+-
+-Ich habe mitbekommen wie eine Postituierte namens Rose von ihrem Zuhälter bedroht wurde. Offensichtlich wollte er sie töten und ich musste ihn und seine Schläger überwältigen. Rose zeigte sich erkenntlich und schenkte mir eine magische Flasche.~ GOTO 9
++SAY @10
++ IF ~~ THEN SOLVED_JOURNAL @11 GOTO 9
+ END
+ 
+ IF ~NumTimesTalkedTo(0) Global("NQ#ROSE","GLOBAL",3) !Dead("nq#rbad6")~ THEN BEGIN 8 // from:
+-SAY ~Ihr habt mich gerettet! Ich bin Euch so dankbar, auch wenn ich wünschte, dass Ihr Krish getötet hättet.~
+- IF ~~ THEN SOLVED_JOURNAL ~Unterschlagung
+-
+-Ich habe mitbekommen wie eine Postituierte namens Rose von ihrem Zuhälter bedroht wurde. Offensichtlich wollte er sie töten, aber ich konnte ihn davon überzeugen, sie in Ruhe zu lassen. Rose zeigte sich erkenntlich und schenkte mir eine magische Flasche.~ GOTO 9
++SAY @12
++ IF ~~ THEN SOLVED_JOURNAL @13 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9 // from:
+-SAY ~Nehmt dies hier! Es ist eine magische Flasche, die ein Kunde einst bei mir... vergessen hat. Sie ist sehr wertvoll, aber schließlich habt Ihr mein Leben gerettet.~
+-  IF ~CheckStatGT(LastTalkedToBy,16,CHR)~ THEN REPLY ~Danke, ich habe Euch gerne geholfen.~ DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 10
+-  IF ~CheckStatLT(LastTalkedToBy,17,CHR)~ THEN REPLY ~Danke, ich habe Euch gerne geholfen.~ DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 11
+-  IF ~CheckStatGT(LastTalkedToBy,15,CHR)~ THEN REPLY ~Danke, aber ich brauche keine Belohnung um einer hübschen Frau zu helfen.~ DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 12
+-  IF ~CheckStatLT(LastTalkedToBy,16,CHR)~ THEN REPLY ~Danke, aber ich brauche keine Belohnung um einer hübschen Frau zu helfen.~ DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 13
+-  IF ~CheckStatGT(LastTalkedToBy,17,CHR)~ THEN REPLY ~Danke, aber es war meine Pflicht zu helfen und Ihr müsst mir keine Belohnung geben.~ DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 10
+-  IF ~CheckStatLT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Danke, aber es war meine Pflicht zu helfen und Ihr müsst mir keine Belohnung geben.~ DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 13
+-  IF ~Global("NQ#ROSE","GLOBAL",1)~ THEN REPLY ~Das hatte nichts mit Euch zu tun, ich wollte diesem schmierigen Zuhälter einfach in seine Schranken weisen. Verschwindet!~ DO ~AddExperienceParty(10000) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 13
++SAY @14
++  IF ~CheckStatGT(LastTalkedToBy,16,CHR)~ THEN REPLY @15 DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 10
++  IF ~CheckStatLT(LastTalkedToBy,17,CHR)~ THEN REPLY @15 DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 11
++  IF ~CheckStatGT(LastTalkedToBy,15,CHR)~ THEN REPLY @16 DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 12
++  IF ~CheckStatLT(LastTalkedToBy,16,CHR)~ THEN REPLY @16 DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 13
++  IF ~CheckStatGT(LastTalkedToBy,17,CHR)~ THEN REPLY @17 DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 10
++  IF ~CheckStatLT(LastTalkedToBy,18,CHR)~ THEN REPLY @17 DO ~AddExperienceParty(10000) ReputationInc(1) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 13
++  IF ~Global("NQ#ROSE","GLOBAL",1)~ THEN REPLY @18 DO ~AddExperienceParty(10000) GiveItemCreate("nq#djin1",LastTalkedToBy,1,0,0)~ GOTO 13
+ END
+ 
+ IF ~~ THEN BEGIN 10 // from:
+-SAY ~Ihr seid wirklich nett... und attraktiv. Kommt einfach vorbei, wenn Ihr mal Lust auf ein bisschen Spaß habt!~
++SAY @19
+  IF ~~ THEN DO ~SetGlobal("NQ#ROSE","GLOBAL",6)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11 // from:
+-SAY ~Ich verschwinde erstmal aus der Gegend hier. Lebt wohl, <LADYLORD>!~
++SAY @20
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12 // from:
+-SAY ~Ihr seid wirklich charmant, aber ich bestehe darauf. Falls... falls Ihr mal Lust auf ein bisschen Spaß habt, könnt Ihr jederzeit zu mir kommen. Ihr habt mein Leben gerettet und ich würde kein Gold von Euch verlangen.~
++SAY @21
+  IF ~~ THEN DO ~SetGlobal("NQ#ROSE","GLOBAL",6)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 13 // from:
+-SAY ~Ihr seid sehr nett, aber ich bestehe darauf. Ich verschwinde erstmal aus der Stadt. Lebt wohl, <LADYLORD>!~
++SAY @22
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 14 // from:
+-SAY ~Wie Ihr meint. Mein Leben habt Ihr dennoch gerettet. Lebt wohl, <LADYLORD>!~
++SAY @23
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~Global("NQ#ROSE","GLOBAL",6) !Global("NiceTime","LOCALS",1)~ THEN BEGIN 15 // from:
+-SAY ~Hey Schätzchen, das seid Ihr ja wieder! Habt Ihr Lust auf ein paar schöne Momente?~
+- IF ~~ THEN REPLY ~Ich glaube, ich könnte wirklich ein bisschen Ruhe gebrauchen.~ GOTO 16
+- IF ~~ THEN REPLY ~Tut mir Leid, aber mein Herz ist bereits vergeben.~ GOTO 17
+- IF ~~ THEN REPLY ~Im Moment nicht, aber vielleicht später.~ GOTO 18
++SAY @24
++ IF ~~ THEN REPLY @25 GOTO 16
++ IF ~~ THEN REPLY @26 GOTO 17
++ IF ~~ THEN REPLY @27 GOTO 18
+ END
+ 
+ IF ~~ THEN BEGIN 16 // from:
+-SAY ~Ich werde dafür sorgen, dass Ihr Euch wie neu geboren fühlt.~
++SAY @28
+  IF ~~ THEN DO ~SetGlobal("NiceTime","LOCALS",1) FadeToColor([20.0],0) Wait(3) ReallyForceSpellRES("nq#rose",LastTalkedToBy) FadeFromColor([20.0],0) Wait(1) StartDialogNoSet(LastTalkedToBy)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 17 // from:
+-SAY ~Ihr wisst nicht was Ihr verpasst!~
++SAY @29
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 18 // from:
+-SAY ~Ihr wisst wo Ihr mich findet, <LADYLORD>.~
++SAY @30
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("NQ#ROSE","GLOBAL",6) Global("NiceTime","LOCALS",1)~ THEN BEGIN 19 // from:
+-SAY ~Es ist immer schön mit Euch, <LADYLORD>. Schaut doch mal wieder rein!~
++SAY @31
+  IF ~~ THEN DO ~SetGlobal("NiceTime","LOCALS",0)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 20 // from:
+-SAY ~Danke! Vielen Dank, meine Retterin!~
++SAY @32
+  IF ~~ THEN EXTERN ~NQ#RBAD6~ 8
+ END

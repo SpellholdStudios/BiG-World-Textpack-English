@@ -1,0 +1,238 @@
+@2011 = ~Flowered Winds of Garlidol~
+@2012 = ~Flowered Winds of Garlidol (Olfaction)
+Level: 1
+Range: 0
+Duration: 1 round/level
+Casting Time: 2
+Area of Effect: the caster
+Saving Throw: none
+
+This spell turns the smell of flatulence from the mage into a delicate flowery scent. By casting the spell, it is possible to choose which flowers will be mimicked at each expulsion of wind from the mage. If nothing is specified, the smell is random (but still pleasant).~
+
+@2013 = ~Singing Burps of Garlidol~
+@2014 = ~Singing Burps of Garlidol (Digestion)
+Level: 1
+Range: 0
+Duration: 1 round/level
+Casting Time: 2
+Area of Effect: the caster
+Saving Throw: none
+
+This spell turns the burps of the mage into lovely birdsong. Thus, at each burp, the mage will chirp like the morning song of a chaffinch. Successful evenings are guaranteed!~
+
+@2015 = ~Invisible Runes~
+@2016 = ~Invisible Runes (Cautiousness)
+Level: 1
+Range: 0
+Duration: permanent
+Casting Time: 5
+Area of Effect: 5 runes/level
+Saving Throw: none
+
+This spell allows the caster to inscribe runes that are absolutely undetectable by all forms of examination, magical or non-magical (including those available to the same caster). These runes are gifted with no other power by this spell.~
+@20161 = ~Inscribe~
+
+@2017 = ~Bertèle's Fast Recall~
+@2018 = ~Bertèle's Fast Recall (Repetition)
+Level 1
+Range: 0
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: the caster
+Saving Throw: none
+
+This enables the caster to bring a spell that have been previously cast back into memory. If no spells have been cast yet, then nothing happens. Bertèle's Fast Recall can only recall 1st-level spells.~
+
+@2021 = ~Inanimate Invisibility~
+@2022 = ~Inanimate Invisibility (Dissimulation)
+Level: 2
+Range: 30 meters
+Duration: 1 round / level
+Casting Time: 2
+Area of Effect: 1 creature
+Saving Throw: none
+
+This spell allows the target of the spell to become completely invisible to inanimate items. As with the Improved Invisibility spell, the recipient of the spell can take any action, including those of an offensive nature, without becoming visible to inanimate objects; the latter cannot see or detect the spell recipient in any way for the duraction of the spell.~
+@20221 = ~Invisible to inanimate items~
+
+@2023 = ~Antichickenator~
+@2024 = ~Antichickenator (Normalization)
+Level: 2
+Range: 0
+Duration: Instantaneous
+Casting Time: 2
+Area of Effect: the caster
+Saving Throw: none
+
+This spell allows a mage accidentally turned into a chicken recover his original shape. Designed by a very gifted apprentice named Melicamp, (at least that's the official version), the spell is not perfect and needs a little luck to be useful.
+Firstly, one must be able to cast the spell in the shape of a chicken. Secondly, one must pass a saving throw vs. polymorph to regain the original shape, otherwise the spell pulverises the mage. Use with caution.
+Note: This spell is meant to help a mage polymorphed as a chicken. No one knows what effect the spell will have if cast by an un-polymorphed mage as Melicamp never did care to test it when in human shape.~
+
+@2031 = ~Watermelon Aid~
+@2032 = ~Watermelon Aid (Transportation)
+Level: 3
+Range: contact
+Duration: 8 hours
+Casting Time: 3
+Area of Effect: 1 creature
+Saving Throw: none
+
+The goal of the spell is aid the target to carry more watermelons. The spell does not affect the weight or size of the watermelons carried by the target, but allows the spell-recipient to carry more.
+The number of additional watermelons that can be carried depends upon the class of the spell-recipient.
+Barbarian  +1D8 watermelons
+Fighter / Paladin / Ranger  +1D6 watermelons
+Monk / Priest  +1D4+1 watermelons
+Bard / Thief  +1D4 watermelons
+Mage / Wizard  +1D2 watermelons~
+
+@2033 = ~Aura of Protection against Dishes~
+@2034 = ~Aura of Protection against Dishes (Protection)
+Level: 3
+Range: 0
+Duration: 2 rounds / level
+Casting Time: 3
+Area of Effect: 1 meter around the caster
+Saving Throw: none
+
+The mage is surrounded by an aura that protects him from any dishes launched against him. For the duration of the spell, any plate penetrating the one meter perimeter of the aura around the mage is immediately turned into a sugar pancake.
+This does not stop the pancake hitting the mage, although the impact is minimised by the changed weight and shape of the projectile.
+The spell targets only dishes (any size, material or weight) and will not affect glasses, jugs, pots, or any other tableware launched at the mage during a fight or domestic dispute.~
+
+@2035 = ~Improved Summoning of Slippers~
+@2036 = ~Improved Summoning of Slippers (Comfort)
+Level: 3
+Range: Special
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: caster
+Saving Throw: none
+
+This spell makes the favourite slippers of the caster appear on the caster's feet, so he can spend an evening at home wearing his slippers.
+This infallible spell will fetch the slippers no matter where they are, even if they are pinned under something else or in a pocket dimension.
+The slippers will instanteously appear on the feet of the mage, replacing any other shoes the caster may be wearing. The slippers will stay there until the mage chooses to remove his shoes.~
+@20361 = ~Squirrel Slippers.~
+@20362 = ~These are your slippers. They are very comfortable.~
+
+@2041 = ~Chameleon~
+@2042 = ~Chameleon (Coloration)
+Level: 4
+Range: 0
+Duration: 1 round / level
+Casting Time: 4
+Area of Effect: caster
+Saving Throw: none
+
+When this spell is cast, the caster can change the color of skin and hair at will. There is no limit to the number of changes the caster can perform for the duration of the spell.~
+@20421 = ~To change the the caster's colouration, access the Character Record, and click on the "Customize" button and then on the "Color" button, and then choose the colors as you wish. You can repeat this process at will, and the good news is that you can even do so once the spell expires.~
+
+@2051 = ~Spooky Wall~
+@2052 = ~Spooky Wall (Imagination/Dissimulation)
+Level: 5
+Range: -
+Duration: Special
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: none
+
+This spell creates an invisible wall, undetectable and intangible, of a size and extent determined by the caster. For a mage of average skill, the maximum area of the wall is approximately 25sqm per caster level, and the maximum thickness is approximately 20cm per caster level for an average skilled mage. A mage with greater powers of design may be able to exceed even this size.
+A mage with *truly* great powers of design could create an entire castle. The mage may even be able to arrange secret passages in the walls of this undetectable, intangible and completely invisible castle.~
+@20521 = ~Create!~
+
+@2053 = ~Rock to Stone~
+@2054 = ~Rock to Stone (Restatement)
+Level: 5
+Range: 30 meters
+Duration: Permanent
+Casting Time: 6
+Area of Effect: 2m3 / Level
+Saving Throw: Neg.
+
+This spell transforms a rock in its natural state (that is to say not processed) to an equal amount of non-magical stone. The target rock is entitled to a saving throw if it is intact, but is not allowed a saving throw if it is cracked or naturally altered in some kind of way. If the rock fails or is unable to take a saving throw, it is irreversably turned into stone.~
+
+@2061 = ~Time Travel~
+@2062 = ~Time Travel (Seclusion)
+Level: 6
+Range: -
+Duration: instantaneous
+Casting Time: 1 hour
+Area of Effect: caster
+Saving Throw: none
+
+This spell allows the mage to travel into the future. To cast it, the mage must have a laboratory equipped with a closet. He must be cloistered in the closet for the duration of the spell (1 hour).
+When the mage comes out of that closet, he will be projected into the future, about an hour after the start of the cast.
+This spell is not reversible and therefore can not be used to travel into the past.~
+@20621 = ~<Casting Canceled> Oops, I'm not in a cupboard at my laboratory.~
+
+@2063 = ~Personal Resurrection~
+@2064 = ~Personal Resurrection (Resuscitation)
+Level: 6
+Range: 0
+Duration: instantaneous
+Casting Time: 8
+Area of Effect: caster
+Saving Throw: none
+
+You're dead. No problem. Cast this spell and you will resurrect, in full possession of your items and soon resume the fight, with all the spells that you had at the time of your death memorized. Each personal resurrection costs you 2 life points that are permanently lost.
+This spell can only affect someone who is truly dead, no type of the undead will receive any benefit . It cannot affect a mage who has exceeded his life expectancy (death due to age).~
+@20641 = ~ Unlucky !! This spell was to be cast by a dead being in order to bring themselves back to life. A living being who casts it will experience the opposite effect, which only makes sense!~
+
+@2071 = ~Cleaning Silt Invocation~ // Unable to do, parameter "only inside" nonexistent.
+@2072 = ~Cleaning Silt Invocation (Cleaning Up)
+Level: 7
+Range: Visual field of the caster
+Duration: 1 day / level
+Casting Time: 6
+Area of ??Effect: Special
+Saving Throw: none
+
+This spell summons a Cleaning Silt, an amorphous creature who will rid any enclosed place from amy dirt that prevails. The silt is dirtivorus, it ingests and disintegrates dust, dirt and debris. It does not fight, and if it has to, it will just start throwing bactericidal soaps over its attackers to wash them if they are dirty.
+
+This spell can be cast only indoors as the Cleaning Silt cannot stand daylight. If exposed to daylight it will melt in 1D4 rounds. The silt can still tolerate passing a window if it does not linger there.
+
+Attention: some uncertain rumors report that a little Cleaning Silt could have fully cleaned the great library of Kalieshira, leaving behind an empty tower as a clean building.~
+
+@20111 = ~Super Heroism~
+@20112 = ~Super Heroism (Evolution)
+Level: 11
+Range: 0
+Duration: Permanent
+Casting Time: 5 rounds
+Area of Effect: caster
+Saving Throw: none
+
+After casting, the mage will finally achieve the power of super-haste. This powerful spell grants exceptional haste, even greater than the speed of light. The mage that has such power cannot even be caught by a god; he is no longer plaything of fate. He is beyond all limitations.~
+@201121 = ~The magic of the spell was successful and makes you into a superman. You live hasted now. If time seems to have stopped, this is only an optical illusion: the rest of the multiverse will take a millenium to catch up to what you can now do in a second; this is what makes the world appear as frozen. You also see the world without color, because you are also faster than the photons that make up light.~
+
+@20113 = ~Supreme Teleport~
+@20114 = ~Supreme Teleport (Transpose)
+Level: 11
+Range: -
+Duration: Permanent
+Casting Time: 5 rounds
+Area of Effect: Infinite
+Saving Throw: none
+
+To cast this spell, the mage must always be placed within the Realms. If he is not there, he can not cast the spell.
+If the Realms are in range, the mage who casts the spell is instantly teleported a thousand light-years to the left, with his clothing, equipment, those who are at his side, the ground on which he places his feet and in short, everything that surrounds him (continent, sky, stars, multiverse). As EVERYTHING moves simultaneously, an uninformed observer might think that nothing has happened. This spell may therefore be spectacular, (if not to the spectator), as it does involve cosmic forces.~
+
+@20115 = ~Dimensional Change~
+@20116 = ~Dimensional Change (Conversion)
+Level: 11
+Range: 0
+Duration: Permanent
+Casting Time: 5 rounds
+Area of Effect: caster
+Saving Throw: none
+
+This spell changes the dimensions of the caster. More than a change of plane, it is the structure of the universe that the caster travels that changes. It goes from 2D to 3D. This is a fundamental change providing a new view of things and an almost complete change of known rules to the mage casting this spell. He can only stand up.~
+@201161 = ~Now you can quit BG2 and recreate your character in Neverwinter Nights 1 or 2 to enjoy a new 3D world, a different viewpoint and the improved rules of Dungeon and Dragons 3.5 Edition.~
+
+
+
+
+
+// Mind control spell that allows to take control of a member of acquiescent party (therefore useless in BG2)
+
+// Level 5 Spell that allows to take control of an ogre if he fails a saving throw against spells (works on ogres, mage ogres and ogrillons (IDS class) but not on half-ogres)
+
+// Spell that gives the power to slip away as the "slipping beast" when a hit is received (teleport field effect, so by chance, 10 meters, thus boring)

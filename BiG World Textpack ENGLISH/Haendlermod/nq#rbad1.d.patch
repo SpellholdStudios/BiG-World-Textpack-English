@@ -1,0 +1,22 @@
+--- Haendlermod\d\nq#rbad1.d	Fri Nov 28 10:17:58 2008
++++ C:\BWP Patchstudio\patched files\Haendlermod\d\nq#rbad1.d	Mon Aug 27 04:27:01 2012
+@@ -8,16 +8,16 @@
+ BEGIN ~nq#rbad1~
+ 
+ IF ~RandomNum(3,1)~ THEN BEGIN 0 // from:
+-SAY ~Verschwindet!~
++SAY @0
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(3,2)~ THEN BEGIN 1 // from:
+-SAY ~Haut ab!~
++SAY @1
+  IF ~~ THEN EXIT
+ END
+ 
+ IF ~RandomNum(3,3)~ THEN BEGIN 2 // from:
+-SAY ~Legt euch nicht mit mir an.~
++SAY @2
+  IF ~~ THEN EXIT
+ END

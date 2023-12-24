@@ -1,0 +1,46 @@
+--- Devin\Translations\French\Setup.tra	Tue Feb 23 10:12:00 2010
++++ C:\BWP Patchstudio\patched files\Devin\Translations\French\Setup.tra	Thu Mar 14 05:26:31 2013
+@@ -187,4 +187,42 @@
+ 
+ 
+ 
+- 
++
++
++
++@9999964 = ~Salle des réprouvés~
++@9999965 = ~Temple du Grand Sacrant~
++@9999966 = ~Maison des deux fervents~
++@9999967 = ~Vous sentez que les yeux de cette statue ne cessent de vous suivre comme s'ils étaient doué de vie.~
++@9999968 = ~Une aura maléfique émane de cette sculpture, vous ne pouvez retenir un frisson lorsque vos yeux s'attardent dessus.~
++@9999969 = ~Vous pouvez lire une inscription sur l'objet : Deux coeurs qui battent à l'unisson, deux coeurs pour le baiser des justes.~
++@9999970 = ~Ici se trouve une autre inscription : Deux coeurs qui ne cessent de résonner, deux coeurs pour abhorrer le monde.~
++@9999971 = ~Ce cercueil là est suitant de sang. Vopus ne pouvez réprimer un frisson en posant les yeux dessus.~
++@9999972 = ~Un étrange signe est gravé sur ce cercueil, un peu comme une croix...~
++@9999973 = ~Ce cercueil là est suitant de sang. Vopus ne pouvez réprimer un frisson en posant les yeux dessus.~
++@9999974 = ~Un étrange signe est gravé sur ce cercueil, un peu comme une croix...~
++@9999975 = ~Vous vous demandez à quoi peut bien servir cet appareil. Cela ne semble pas être trés engageant...~
++@9999976 = ~Les crocs de cette machine sont recouvert de sang et de lambeaux de chair. Vous peinez à soutenir votre regard en songeant à son utilisation.~
++@9999977 = ~...et il fut écarté, rejeté par les déités.~
++@9999978 = ~Souffrir sans fin, être ainsi écrasé par son destin...~
++@9999979 = ~Ce mannequin porte encore la marque des derniers entrainements. Il est à moitié desarticulé.~
++@9999980 = ~Ce manequin est encore intact. Il semble avoir été changé récement.~
++@9999981 = ~C'est un ratelier d'arme, vraisemblablement réservé aux entrainements. Mieux vaut ne pas y toucher.~
++@9999982 = ~C'est un gigantesque trou, il s'enfonce dans les profondeurs abyssales. Vous préférez ne pas vous en approchez.~
++@9999983 = ~A peine posez vous les yeux sur l'escalier que vous ressentez une vive douleur au crâne. Vous détournez immédiatement les yeux.~
++@9999984 = ~D'apparence repoussante, il n'avait pas de place...~
++@9999985 = ~...il était sombre, sans forme, il était neuf. ~
++@9999986 = ~Et soudain il émergea du cloaque...~
++@9999987 = ~Un passage se fait, une main se tend...~
++@9999988 = ~La tête de ce mannequin ne tient plus que par un morceau. Vous n'osez imaginez à quelle pression elle a pu être soumise.~
++@9999989 = ~...et perdre espoir, sans jamais rien savoir.~
++@9999990 = ~Alors un visage gracile s'attarde sur ses traits...~
++@9999991 = ~...et soudain tout est moins noir, moins dur.~
++@9999992 = ~...puis des cris insensés, tout s'arrête dans l'instant.~
++@9999993 = ~L'horreur laisse place au mystére...~
++@9999994 = ~...quand une nouvelle sustance émerge du brouillard.~
++@9999995 = ~Elle s'en va , elle s'en va tristement...~
++@9999996 = ~...face à la betise des hymnes décadents.~
++@9999997 = ~Elle porte un nouveau message...~
++@9999998 = ~...plus personne ne vous mettra en cage dit-elle.~
++@9999999 = ~Car voila venu la fin de l'esclavage.~

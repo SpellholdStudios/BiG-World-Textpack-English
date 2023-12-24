@@ -1,0 +1,810 @@
+@21    = ~Preacher of fire~ 
+@22    = ~Preacher of fire~
+@23    = ~PREACHER OF FIRE:
+Fire has often been admired among humanoids. Pyromancers light it for the simple pleasure of seeing it consuming all things. Mages (notably of Thay) admire it for its destructive power. Tacticians use it to scare, repel, corner the enemies.
+Sometimes it also happens that clerics fall in admiration for this force of nature. Some less reasonable than others may even find that power worthy of veneration. Rejecting their original worshipped gods, they are deprived of their skill to cast spells of divine origin. Among these fallen priests, the most fanatics towards fire and destruction it can cause are sometimes marked by dark powers, mostly of demonic origin. These fanatic clerics then want to have back the skill to cast spells, though corrupted by the power of fire and having no more restoration abilities. The dark powers that thus boost the power into these deprived clerics make them a tool of pure and simple destruction, although they don't necessarily get in touch with them to explain...
+
+
+Advantages:
+- Gains bonus spells, all based on fire:
+      Level 1: Burning Hands, Agannazar's Scorcher.
+      Level 2: Lower Fire Resistance, Fire Seeds, Explosion.
+      Level 3: FireBall, Fire Shield (Red), Flame Arrow.
+      Level 4: Minute Meteors, Pulverization, Burning Hands, Explosive Aura.
+      Level 5: Dark Flame, Lower Fire Resistance, Blaze, Vapors of fire, Conjure Lesser Fire Elemental.
+      Level 6: Waves of Flame, Fireflies, Conjure Fire Elemental, Summon Efreeti, Heat Overflow, Bombing Mephits.
+      Level 7: Incendiary Cloud, Greater FireBall, Globe of Fire.
+- Gains 10% fire resistance at level one, then 3% per level.
+- At level 10 and for the 3 following levels, earns the ability to cast "Burning palm" once a day.
+- At level 13 and for the 7 following levels, can charm a Fire Elemental once a day.
+- At level 25, he can open a channel between the body and the elemental plane of fire. The original flames engulf him and he turns into an incarnation of fire. The ecstasy he feels is so huge that he no longer thinks to cast. He merely delights over his condition and the carnage he can cause. Under this shape he gains Herculean strength, becomes immune to non-magical weapons, resistant to physical damage, fire damage regenerates him and the worse, he emits so much heat that everyone close suffers 2D10 fire damage points (per round). Anyone who touches him equally immediately suffers 2D10 fire damage points. This transformation can last for a very long time before the interplanar  energies exhaust the channel and strength halts. The preacher of fire will suffer a lot of pain to stand the return to human shape. If he chooses to turn voluntarily, he will stay destabilized for some time.
+
+
+Disadvantages:
+- The preacher of fire has no access to ANY healing, cure or restoration spell.
+- He cannot turn Undead.
+- Restricted to chaotic alignment, and cannot be of any good alignment.
+- Obsessed by fire, he will never consider to embark on another career. (cannot dual class)
+- He doesn't receive the divine symbol at level 21, no longer having any connection with any "god" whatsoever.
+
+
+
+CHARM FIRE ELEMENTAL:
+The wizard may attempt to control any fire elemental by casual contact. The target is entitled to a saving throw at a penalty -4 to resist, otherwise will pass under the control of the wizard for 5 rounds.
+
+BURNING PALM:
+Once the spell is casted the wizard has two rounds to touch and burn with 5D6 fire damage points his opponent. If the wizard fails to touch his opponent, the spell is lost.~ 
+
+@212   = ~Remove Fear (Abjuration) 
+Level: 1
+Sphere: charm
+Range: 10 meters
+Duration: 1 hour
+Casting Time: 1
+Area of Effect: 9-meters radius
+Saving Throw: special
+
+The priest instills courage in the spell recipients, raising their morale to its highest. The recipients morale will gradually reset to normal as the duration runs out.
+The version of remove fear he casts can't override the fear of someone already scared, as the preacher of fire has lost all healing skills.~
+
+@214   = ~Agannazar's Scorcher (Evocation)
+Level: 1
+Sphere: Elemental
+Range: 20 meters
+Duration: Instant
+Casting Time: 3
+Area of Effect: 0,5x20 meters
+Saving Throw: None
+
+Upon casting this spell a jet of flame appears at the caster's fingertips and bursts out toward one target of the caster's choice. That target will be hit by this flame for 3-18 points of damage. There is no saving throw against this spell, though anti-fire capabilities such as fire resistance will apply and may reduce or eliminate the damage. Other creatures who cross the path of the flame jet will also take damage as long as they stand in the flame.~ 
+@2141  = ~Agannazar's Scorcher (Evocation)
+Level: 1
+Sphere: Elemental
+Range: 20 meters
+Duration: Instant
+Casting Time: 3
+Area of Effect: 0,5x20 meters
+Saving Throw: None
+
+Upon casting this spell a jet of flame appears at the caster's fingertips and bursts out toward one target of the caster's choice. That target will be hit by this flame for 4-22 points of damage. There is no saving throw against this spell, though anti-fire capabilities such as fire resistance will apply and may reduce or eliminate the damage. Other creatures who cross the path of the flame jet will also take damage as long as they stand in the flame.~
+
+@216   = ~Burning Hands (Alteration)
+Level: 1
+Sphere: Elemental
+Range: 2 meters
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 60 degree arc
+Saving Throw: 1/2
+
+When the wizard casts this spell, a jet of searing flame shoots from his fingertips. His hands must be held so as to send forth a fanlike sheet of flames: the wizard's thumbs must touch each other and fingers must be spread. The burning hands send out flame jets of 1.5 meters length in a horizontal arc of about 60 degrees in front of the wizard. Any creature in the area of the flames suffers 1d4 hit points of damage, plus 2 points for each level of the spellcaster, to a maximum of 1d4 + 20 points of fire damage. Those successfully saving vs. spell receive half damage.~
+@2161  = ~Burning Hands (Alteration)
+Level: 1
+Sphere: Elemental
+Range: 2 meters
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 60 degree arc
+Saving Throw: 1/2
+
+When the wizard casts this spell, a jet of searing flame shoots from his fingertips. His hands must be held so as to send forth a fanlike sheet of flames: the wizard's thumbs must touch each other and fingers must be spread. The burning hands send out flame jets of 1.5 meters length in a horizontal arc of about 60 degrees in front of the wizard. Any creature in the area of the flames suffers 1d4 + 24 points of fire damage. Those successfully saving vs. spell receive half damage.~ 
+
+@221   = ~Lower Fire Resistance~
+@222   = ~Lower Fire Resistance (Abjuration, Alteration)
+Level: 2
+Sphere: Elemental
+Range: Visual sight of caster
+Duration: 2 rounds
+Casting Time: 3
+Area of Effect: 10-meters radius
+Saving Throw: None
+
+When the preacher of fire casts this spell, the designated area is run through by elemental energies. All creatures present in the area must make a saving throw against spells (at -3) or their fire resistance would be lowered by 35% for 2 rounds.~ 
+
+@223   = ~Explosion~
+@224   = ~Explosion (Evocation)
+Level: 2
+Sphere: Elemental
+Range: 0
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 1.5-meters radius
+Saving Throw: 1/2
+
+The spell creates an explosion from the character and wounds all creatures within a 1.50-meters radius. With the exception of the character, the creatures present in the area of effect suffer 1d8 fire damage points per each level of the caster (up to a maximum of 5d8). Those successfully saving vs. explosion receive half damage.~
+@2241  = ~Explosion (Evocation)
+Level: 2
+Sphere: Elemental
+Range: 0
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 1.5-meters radius
+Saving Throw: 1/2
+
+The spell creates an explosion from the character and wounds all creatures within a 1.50-meters radius. With the exception of the character, the creatures present in the area of effect suffer 6d8 fire damage points. Those successfully saving vs. explosion receive half damage.~ 
+
+@226   = ~Fire Seeds (Conjuration)
+Level: 2
+Sphere: Elemental
+Range: Special
+Duration: 3 turns
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: 1/2
+
+Casting the fire seed spell creates 4 fire seeds that will appear in the casters inventory. The seeds will remain in existence after the spell is cast for 3 turns.  During this time, if they are thrown at an enemy, a fireball will ensue causing 2-16 points of damage to all within the area of effect, allowing a save vs. spells for half damage.~
+@2261  = ~Fire Seeds (Conjuration)
+Level: 2
+Sphere: Elemental
+Range: Special
+Duration: 3 turns
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: 1/2
+
+Casting the fire seed spell creates 4 fire seeds that will appear in the casters inventory. The seeds will remain in existence after the spell is cast for 3 turns.  During this time, if they are thrown at an enemy, a fireball will ensue causing 2-20 points of damage to all within the area of effect, allowing a save vs. spells for half damage.~ 
+
+@232   = ~Fireshield (Red) (Evocation, Alteration)
+Level: 3
+Sphere: Protection, Elemental
+Range: 0
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: The Caster
+Saving Throw: None
+
+The red fireshield protects from fire by surrounding the caster with a shield of flame. This shield not only grants the user 50% fire resistance, but also protects the caster from attacks made within a 1.5-meters radius around the caster. An opponent that hits the caster with any weapon or spell suffers 1d8 +2 fire damage.~
+@2321  = ~Fireshield (Red) (Evocation, Alteration)
+Level: 3
+Sphere: Protection, Elemental
+Range: 0
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: The Caster
+Saving Throw: None
+
+The red fireshield protects from fire by surrounding the caster with a shield of flame. This shield not only grants the user 50% fire resistance, but also protects the caster from attacks made within a 1.5-meters radius around the caster. An opponent that hits the caster with any weapon or spell suffers 1d8 +3 fire damage.~
+
+@234   = ~Fireball (Evocation)
+Level: 3
+Sphere: Elemental
+Range: Visual range of caster
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 9-meters radius
+Saving Throw: 1/2
+
+A fireball is an explosive burst of flame, which detonates with a low roar and delivers damage proportional to the level of the wizard who cast it - 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 10d6). The wizard points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures failing their saving throws each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half the damage.~
+@2341  = ~Fireball (Evocation)
+Level: 3
+Sphere: Elemental
+Range: Visual range of caster
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 9-meters radius
+Saving Throw: 1/2
+
+A fireball is an explosive burst of flame, which detonates with a low roar and delivers a damage of 12d6. The wizard points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures failing their saving throws each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half the damage.~ 
+
+@236   = ~Flame Arrow (Conjuration/Summoning)
+Level: 3
+Sphere: Elemental
+Range: Visual range of caster
+Duration: 1 round
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: None
+
+This spell enables the caster to hurl fiery bolts at opponents within range. Each bolt inflicts 1d6 points of piercing damage, plus 4d6 points of fire damage. Only half of the fire damage is inflicted if the creature struck saves vs. spell. The caster receives one bolt for every five
+ experience levels beyond 5th (two bolts at 10th level, three at 15th level, etc.). All of the bolts will fly towards the target of the spell.~
+@2361  = ~Flame Arrow (Conjuration/Summoning)
+Level: 3
+Sphere: Elemental
+Range: Visual range of caster
+Duration: 1 round
+Casting Time: 3
+Area of Effect: Special
+Saving Throw: None
+
+This spell enables the caster to hurl fiery bolts at opponents within range. Each bolt inflicts 1d6 points of piercing damage, plus 4d8 points of fire damage. Only half of the fire damage is inflicted if the creature struck saves vs. spell. The caster receives one bolt for every five
+ experience levels beyond 5th (two bolts at 10th level, three at 15th level, etc.). All of the bolts will fly towards the target of the spell.~ 
+
+@242   = ~Call Woodland Beings (Conjuration/Summoning)
+Level: 4
+Sphere: Animal, Elemental, Summoning
+Range: Visual Range of Caster
+Durations: 3 turns
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: None
+
+This spell summons forth a nymph to assist the party.  The nymph has several priest spells at her disposal and will use them in the best interests of the party (these include Mental Domination, Confusion, and Healing spells).  She will remain under the casters control until slain or the spell duration expires.
+When it is casted by an experienced preacher of fire (lvl 17 and beyond), this spell instead summons a Yuan-Ti Pyromancer.~ 
+
+@2421  = ~Yuan-Ti Pyromancer~
+
+@244   = ~Animal Summoning I
+(Conjuration, Summoning)
+Level: 4
+Sphere: Animal, Elemental, Summoning
+Range: 20 meters
+Duration: 3 turns
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls between two and three animals that have 4 Hit Dice or less. The type of animal appearing depends on the surrounding area of the caster at the precise time of the summoning. They will remain under the caster's control until slain or the spell duration expires.
+When the caster has reached a high level (16th and beyond), the preacher of fire casting the spell only summons fire creatures or creatures with an affinity with fire.~ 
+
+@2441  = ~Fire spider~
+
+@246   = ~Free Action (Abjuration) 
+Level: 4
+Sphere: Charm
+Range: Touch 
+Duration: 1 turn + 1 round/level 
+Casting Time: 5 
+Area of Effect: Creature touched 
+Saving Throw: None 
+
+While under the effects of this spell, the recipient becomes immune to anything that limits his movement. This includes the effects of web, hold person, grease and entangle. The version of this spell casted can't free an already paralyzed target, as the preacher of fire has no healing powers.~
+
+@247   = ~Minute Meteors~
+@248   = ~Minute Meteors (Evocation, Alteration)
+Level: 4
+Sphere: Elemental
+Range: 70 meters
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 target/meteor
+Saving Throw: None
+
+This spell enables the preacher of fire to cast small globes of fire (one for each experience level attained), each of which bursts into a 30-cm-diameter sphere upon impact, inflicting 1d4 points of damage to the creature struck. It can also ignite combustible materials (even solid planks). The meteors are treated as missiles hurled by the wizard with a +3 bonus to the attack rolls and with no penalty for range. Each meteor inflicts +3 damage, and an additional +3 fire damage.
+The preacher may discharge up to five missiles per round.~
+@2471  = ~Minute Meteor~
+@2472  = ~This glowing meteor has been created by using the Minute Meteor spell.~
+@2481  = ~Minute Meteors (Evocation, Alteration)
+Level: 4
+Sphere: Elemental
+Range: 70 meters
+Duration: Special
+Casting Time: 3
+Area of Effect: 1 target/meteor
+Saving Throw: None
+
+This spell enables the preacher of fire to cast small globes of fire (one for each experience level attained), each of which bursts into a 30-cm-diameter sphere upon impact, inflicting 1d4 points of damage to the creature struck. It can also ignite combustible materials (even solid planks). The meteors are treated as missiles hurled by the wizard with a +3 bonus to the attack rolls and with no penalty for range. Each meteor inflicts +3 damage, and an additional +4 fire damage.
+The preacher may discharge up to five missiles per round.~
+@2482  = ~This glowing meteor has been created by using the Minute Meteor spell. It is embellished with elemental fire.~
+
+@249   = ~Burning Hands~
+@2410  = ~Burning Hands (Alteration)
+Level: 4
+Sphere: Elemental
+Range: 9 meters
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 60 degree arc
+Saving Throw: 1/2
+
+This spell is an altered version of Burning Hands, that the preacher of fire can cast and more powerful. The handling is the same, the preacher's thumbs must touch each other and fingers must be spread. The burning hands send out flame jets 9-meters long. Any creature in the area of the flames suffers 1d4 hit points of damage, plus 2 fire points for each level of the spellcaster (up to a maximum of 12d4 + 24). Those successfully saving vs. spell receive half damage.~
+@24101 = ~Burning Hands (Alteration)
+Level: 4
+Sphere: Elemental
+Range: 9 meters
+Duration: Instantaneous
+Casting Time: 1
+Area of Effect: 60 degree arc
+Saving Throw: 1/2
+
+This spell is an altered version of Burning Hands, that the preacher of fire can cast and more powerful. The handling is the same, the preacher's thumbs must touch each other and fingers must be spread. The burning hands send out flame jets 9-meters long. Any creature in the area of the flames suffers 14d4 + 30 fire damage points. Those successfully saving vs. spell receive half damage.~
+
+@2411  = ~Pulverization~
+@2412  = ~Pulverization (Alteration)
+Level: 4
+Sphere: Elemental
+Range: Visual Range of caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: 5-meters radius.
+Saving Throw: Special
+
+When he utters the incantation of this spell, the preacher of fire should focus on any solid element. (Stone, tree, plate armor, weapon, or another natural element). The targeted item gradually warms up to its breaking point and at the end of the spell explodes projecting many sparkles, injuring all creatures within the area of the explosion. The affected creatures suffer 4D6 crushing damage and 1D4 fire damage points per level of the caster. A successful saving throw can half fire damage points, but it's not possible avoiding the projection of sparkles.~
+@24121 = ~Pulverization (Alteration)
+Level: 4
+Sphere: Elemental
+Range: Visual Range of caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: 5-meters radius.
+Saving Throw: Special
+
+When he utters the incantation of this spell, the preacher of fire should focus on any solid element. (Stone, tree, plate armor, weapon, or another natural element). The targeted item gradually warms up to its breaking point and at the end of the spell explodes projecting many sparkles, injuring all creatures within the area of the explosion. The affected creatures suffer 4D6 crushing damage and 24D4 fire damage points per level of the caster. A successful saving throw can half fire damage points, but it's not possible avoiding the projection of sparkles.~
+
+@2413  = ~Explosive Aura~
+@2414  = ~Explosive Aura (Enchantment/Charm) 
+Level: 4
+Sphere: Elemental
+Eange: touched creature
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: Special
+
+When he casts this spell, the preacher of fire must touch the target he wants to enchant. The target will begin to gleam an orange light, and is charged of explosive energy.
+As long as the spell has effect, if the enchanted creature suffers a single hit, the shining enchantment triggers and the explosive energy is released into a fireball of 10D6 damage points. The creatures within the area of explosion may attempt a saving throw vs. spells to half damage points, but not the enchanted creature.
+If the enchanted creature is an ally or summoned, can release the explosive energy whenever wished, and, in this case, is allowed a saving throw to reduce explosion damage.~
+@24141 = ~Explosive Aura (Enchantment/Charm) 
+Level: 4
+Sphere: Elemental
+Eange: touched creature
+Duration: 1 round/level
+Casting Time: 5
+Area of Effect: Special
+Saving Throw: Special
+
+When he casts this spell, the preacher of fire must touch the target he wants to enchant. The target will begin to gleam an orange light, and is charged of explosive energy.
+As long as the spell has effect, if the enchanted creature suffers a single hit, the shining enchantment triggers and the explosive energy is released into a fireball of 12D6 damage points. The creatures within the area of explosion may attempt a saving throw vs. spells to half damage points, but not the enchanted creature.
+If the enchanted creature is an ally or summoned, can release the explosive energy whenever wished, and, in this case, is allowed a saving throw to reduce explosion damage.~
+
+@251   = ~Dark Flame~
+@252   = ~Dark Flame (Evocation)
+Level: 5
+Sphere: Elemental
+Range: Contact
+Duration: 1 round/level
+Casting Time: 4
+Area of Effect: touched weapon
+Saving Throw: None
+
+This spell ignites a melee weapon by granting a fire damage bonus of 1D6 +1 every 2 levels of the preacher (up to a maximum of 1D6 + 10). With this spell, one can target either a specific weapon or a creature.~
+@2521  = ~Dark Flame (Evocation)
+Level: 5
+Sphere: Elemental
+Range: Contact
+Duration: 1 round/level
+Casting Time: 4
+Area of Effect: touched weapon
+Saving Throw: None
+
+This spell ignites a melee weapon by granting a fire damage bonus of 1D6 +12. With this spell, one can target either a specific weapon or a creature.~
+
+@254   = ~Animal Summoning II
+(Conjuration/Summoning)
+Level: 5
+Sphere: Animal, Elemental, Summoning
+Range: 60 meters/level
+Duration: 3 turns
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls from three to eight animals that have 8 Hit Dice or less. Only animals within the range of the caster at the moment of casting the spell come. The animals summoned aid the caster by whatever means they possess, staying until the fight is over, the mission is accomplished, the caster is safe, the caster is returned, etc..., or that spell duration expires. Only normal or giant animals can be summoned.
+When the caster has reached a high level (16th and beyond), the preacher of fire casting the spell only summons fire creatures or creatures with an affinity to fire.~
+
+@2541  = ~Meteoric Crater~
+@2542  = ~Spirit of Fire~
+@2543  = ~Magmatic~
+
+@255   = ~Conjure Lesser Fire Elemental~
+@256   = ~Conjure Lesser Fire Elemental (Conjuration, Summoning)
+Level: 5
+Sphere: Elemental, Summoning
+Range: Visual Sight of priest
+Duration: 1 turn/2 Level
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: None
+
+This spell opens a special gate to the elemental plane of Fire, summoning a lesser fire elemental at 8 Hit Dice near the spellcaster. It's not necessary to know the language of the summoned creature as it is being controlled only by telepathy. It stays under the control of the caster until the spell expires.~
+
+@257   = ~Blaze~
+@258   = ~Blaze (Necromancy)
+Level: 5
+Sphere: Elemental
+Range: Visual Sight of the caster
+Duration: 5 rounds
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This horrible spell sets ablaze the body of the target, which is enveloped in flames and burns alive. The target suffers 3D12+4 fire damage. For the second round fire damage turns to 3D10+3. Then 3D8+2 for the third round, and so on for 5 rounds. When affected, the victim must attempt a successful saving throw vs. spells (at a -3 penalty) or flee, terrified of being burned alive. The pain resulting from such treatment significantly hampers the target, which sees all his throws reduced by -2, including THAC0. The spell burns the flesh of the victim for 5 rounds, but the negative effects consequential to the pain last for 4 extra rounds.
+Creatures immune to fire can stand the damage but not other effects, as this horrible spell doesn't contend just by charring flesh, it also completely keeps the blood boiling!~
+@2581  = ~Blaze (Necromancy)
+Level: 5
+Sphere: Elemental
+Range: Visual Sight of the caster
+Duration: 5 rounds
+Casting Time: 4
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This horrible spell sets ablaze the body of the target, which is enveloped in flames and burns alive. The target suffers 3D14+4 fire damage. For the second round fire damage turns to 3D12+3. Then 3D10+2 for the third round, and so on for 5 rounds. When affected, the victim must attempt a successful saving throw vs. spells (at a -3 penalty) or flee, terrified of being burned alive. The pain resulting from such treatment significantly hampers the target, which sees all his throws reduced by -2, including THAC0. The spell burns the flesh of the victim for 5 rounds, but the negative effects consequential to the pain last for 4 extra rounds.
+Creatures immune to fire can stand the damage but not other effects, as this horrible spell doesn't contend just by charring flesh, it also completely keeps the blood boiling!~
+
+@2510  = ~Lower Fire Resistance (Abjuration, Alteration)
+Level: 5
+Sphere: Elemental
+Range: Visual Sight of the caster
+Duration: 2 rounds
+Casting Time: 3
+Area of Effect: 10-meters radius
+Saving Throw: None
+
+When the preacher of fire casts this spell, the targeted area is covered with elemental energies. All creatures present within the range of the spell have their fire resistance lowered by 25% for 2 rounds. Unlike the spell of level 2, the effect applied is less powerful, but the spell allows no saving throw and doesn't take into consideration magic resistance of the targets.~
+
+@2511  = ~Vapors of fire~
+@2512  = ~Vapors of Fire (Evocation)
+Level: 4
+Sphere: Elemental
+Range: 10 meters
+Duration: 1 round
+Casting Time: 4
+Area of Effect: 12 meters wide,6 meters long and 6 meters size
+Saving Throw: None
+
+This spell creates a cloud of extremely hot vapor, as resulting from a bed of volcanic lava. The creatures in the middle of the clouds must leave immediately, or they suffer 3D6 fire damage points each round they stay in the area of effect of the spell.~
+@25121 = ~Vapors of Fire (Evocation)
+Level: 4
+Sphere: Elemental
+Range: 10 meters
+Duration: 1 round
+Casting Time: 4
+Area of Effect: 12 meters wide,6 meters long and 6 meters size
+Saving Throw: None
+
+This spell creates a cloud of extremely hot vapor, as resulting from a bed of volcanic lava. The creatures in the middle of the clouds must leave immediately, or they suffer 3D8 fire damage points each round they stay in the area of effect of the spell.~
+
+@25141 = ~Pillar of Fire (Evocation)
+Level: 5
+Sphere: Combat
+Range: Visual range of caster
+Duration: Instantaneous
+Casting Time: 8
+Area of Effect: Target creature
+Saving Throw: 1/2
+
+When the preacher casts this spell, a vertical column of fire roars downward striking the exact location called for by the caster. Any creature within the area of effect of a pillar of fire must roll a saving throw vs. spell. Failure means the creature sustains 24d8 points of damage; otherwise, the damage is halved.~
+
+@262   = ~Conjure Animals (Conjuration/Summoning)
+Level: 6
+Sphere: Summoning
+Range: 60 meters
+Duration: 4 turns
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows the caster to summon forth and control one or two massive mountain bears. The bears will respond to the caster's every whim for the duration of the spell.
+When the preacher of fire reaches level 19, this spell instead summons a fire salamander. At level 26, summons a noble salamander.~
+
+@264   = ~Animal Summoning III (Conjuration, Summoning)
+Level: 6
+Sphere: Animal, Elemental, Summoning
+Range: 55 meters
+Duration: 4 turns
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+By means of this spell, the caster calls two or three animals that have 12 Hit Dice or less. Only animals within range of the caster at the time the spell is cast will come. The summoned animals aid the caster by whatever means they possess, staying until they are slain or the spell duration expires. Only normal or giant animals can be summoned.
+When the preacher reaches a high level (20 and beyond), the preacher of fire casting this spell summons only fire creatures or creatures with an affinity to fire.~
+
+@2641  = ~Volcanoes Troll~
+@2642  = ~Baby Fire Drake~
+@2643  = ~Fire snake~
+@2644  = ~Incandescent Body~
+
+@266   = ~Summon Efreeti (Conjuration/Summoning)
+Level: 6
+Sphere: Elemental, Summoning
+Range: 40 meters
+Duration: 8 rounds + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+With this spell, the conjurer can summon an efreeti, a massive genie with powerful abilities, to leave the elemental plane of fire to come serving the preacher of fire. The efreeti will serve for the duration of the spell, attacking the enemies of the conjurer. summoners are warned to be careful with this spell, for a mistreated efreeti will turn on his master at the first available opportunity.~
+
+@267   = ~Bombing Mephits~
+@268   = ~Bombing Mephits (Conjuration/Summoning)
+Level: 6
+Sphere: Summoning
+Range: 60 meters
+Duration: 3 rounds
+Casting Time: 6
+Area of Effect: Special
+Saving Throw: None
+
+This gift can summon 1D4 incendiary mephits that will fight hard for the preacher of fire. Particularly sadistic race, when they are about to die they prefer to explode (6D6, saving throw for 1/2) to cause the maximum damage.~
+@2681  = ~Incendiary Bombing Mephits~
+@2682  = ~Boom!~
+
+@269   = ~Fireflies~
+@2610  = ~Fireflies (Conjuration/Summoning)
+Level: 6
+Sphere: Elemental
+Range: 120 meters
+Duration: 1 round
+Casting Time: 5
+Area of Effect: Visible Enemies
+Saving Throw: Special
+
+When the preacher of fire casts this spell, a horde of fireflies of the elemental plane of fire gather in a swarm that will run straight to the first target enemy, and the closest ally to the target, for a total of 6 creatures. It's impossible to cast spells in this swarm (100% chance of failure). Creatures attacked by fireflies, whatever be the armor class, suffer 1 point of damage every second, due to the burning stings of insects. Invisibility offers no protection. The swarm has a tendency to choke its victims, they must successfully try a saving throw vs. breath failing to flee due to fear lasting 1 round.~
+
+@2611  = ~Heat Overflow~
+@2612  = ~Heat Overflow (Conjuration/Summoning, Necromancy)
+Level: 6
+Sphere: Elemental, War
+Range: Visual Sight of the caster
+Duration: 3 seconds
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Special
+
+Consequent improvement of the spell "Blaze", this spell violently heats internal organs of the targeted creature. In addition, a glowing cloud of dust is generated and just clumps on the target. The consequence of such treatment is a rapid raising to a lethal level of the internal temperature of the creature, which suffers 1D6 fire damage, plus 2D6, after which the creature must successfully attempt a saving throw vs. death or will succumb to an overflow of internal heat and shatters. If the creature survives, it rapidly cools.~
+
+@2613  = ~Waves of Flame~
+@2614  = ~Waves of Flame (Evocation)
+Level: 6
+Sphere: Elemental
+Range: caster of the spell
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 9-meters radius
+Saving Throw: 1/2
+
+This spell generates a tremendous explosion emanating from the body of the preacher of fire and extends for a 9-meters radius. All creatures caught in the wave of flames created by the explosion suffer 1d8 fire damage points per each level of the caster (up to a maximum of 15D8). Affected creatures can attempt to reduce the damage by half by a successful saving throw vs. breath weapons.~
+@26141 = ~Waves of Flame (Evocation)
+Level: 6
+Sphere: Elemental
+Range: caster of the spell
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect: 9-meters radius
+Saving Throw: 1/2
+
+This spell generates a tremendous explosion emanating from the body of the preacher of fire and extends for a 9-meters radius. All creatures caught in the wave of flames created by the explosion suffer 18d8 damage points. Affected creatures can attempt to reduce the damage by half by a successful saving throw vs. breath weapons.~
+
+@271   = ~Greater FireBall~
+@272   = ~Greater FireBall (Evocation)
+Level: 7
+Sphere: Elemental
+Range: Visual Sight of the caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: 12-meters radius
+Saving Throw: 1/2
+
+This spell is identical to the spell FireBall of level 3, an explosive burst of flame, which detonates with a low roar and delivers damage proportional to the level of the preacher of fire who cast it, but in a powerful version, with a wider area of effect and 1d8 points of damage for each level of experience of the spellcaster (up to a maximum of 15d8). The preacher of fire points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures failing their saving throws each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half.~
+@2721  = ~Greater FireBall (Evocation)
+Level: 7
+Sphere: Elemental
+Range: Visual Sight of the caster
+Duration: Instantaneous
+Casting Time: 4
+Area of Effect: 12-meters radius
+Saving Throw: 1/2
+
+This spell is identical to the spell FireBall of level 3, an explosive burst of flame, which detonates with a low roar and delivers 18d8 damage, but with a wider area of effect. The preacher of fire points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures failing their saving throws each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half.~
+
+@274   = ~Incendiary Cloud (Evocation)
+Level: 7
+Sphere: Elemental
+Range: Visual Sight of Caster
+Duration: 1 turn
+Casting Time: 8
+Area of Effect: 27-meters radius cloud
+Saving Throw: 1/2
+
+This spell creates a billowing cloud of roaring flame.  Any in the area of the spell must leave the cloud immediately, or suffer 1D4 points of fire damage per level of the caster each round while in the area of effect. A successful saving throw vs. spells halves damage.~
+@2741  = ~Incendiary Cloud (Evocation)
+Level: 7
+Sphere: Elemental
+Range: Visual Sight of Caster
+Duration: 1 turn
+Casting Time: 8
+Area of Effect: 27-meters radius cloud
+Saving Throw: 1/2
+
+This spell creates a billowing cloud of roaring flame.  Any in the area of the spell must leave the cloud immediately, or suffer 24D4 points of fire damage per level of the caster each round while in the area of effect. A successful saving throw vs. spells halves damage.~
+
+@275   = ~Globes of Fire~
+@276   = ~Globes of Fire (Conjuration)
+Level: 7
+Sphere: Elemental
+Range: 70 meters
+Duration: Special
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: 1/2
+
+This spell creates large globes of fire in the hand of the preacher (one per each level of experience), that he can throw at a target. A single globe is created a time, and is replaced as soon as it's being thrown. The preacher can throw 5 per round. The globes of fire are considered as +5 projectiles and inflict 4D6 fire damage points to the affected creature and to all those present within the area of effect (A successful saving throw allows the victims to halve their damage).~
+@2751  = ~Globe of Fire~
+@2752  = ~This fireball has been created by the spell Globes of Fire.~
+@2761  = ~Globes of Fire (Conjuration)
+Level: 7
+Sphere: Elemental
+Range: 70 meters
+Duration: Special
+Casting Time: 7
+Area of Effect: Special
+Saving Throw: 1/2
+
+This spell creates large globes of fire in the hand of the preacher (one per each level of experience), that he can throw at a target. A single globe is created a time, and is replaced as soon as it's being thrown. The preacher can throw 5 per round. The globes of fire are considered as +5 projectiles and inflict 4D8 fire damage points to the affected creature and to all those present within the area of effect (A successful saving throw allows the victims to halve their damage).~
+@2762  = ~This fireball has been created by the spell Globes of Fire. It's partially charged by elemental fire.~
+
+@2771  = ~Fire Storm (Evocation)
+Level: 7
+Sphere: Elemental (Fire)
+Range: 40 meters
+Duration: 4 rounds
+Casting Time: 1 round
+Area of Effect: 7-meters radius
+Saving Throw: None
+
+When a fire storm spell is cast, the whole area is shot through with sheets of roaring flames. Creatures within the area of fire receive 2d10 + 24 points of damage. This assault will last for four rounds and will continue to do damage to the creature during that time unless he moves out of the area of effect.  There is no saving throw versus this spell.~
+
+@201   = ~Basic Channeling~
+@202   = ~Back to Normal Condition~
+
+@203   = ~Burning Palm~
+@204   = ~Burning Palm:
+
+This gift allows to use Burning Palm once a day.~
+
+@205   = ~Charm Fire Elemental~
+
+@281   = ~Contact with the Elemental Plane~
+@282   = ~Requires: mastering Basic channeling
+
+Contact with the Elemental Plane (Evocation) 
+Level: Quest
+Range: Visual Sight of caster
+Duration: 1 to 3 rounds
+Casting Time: 8
+Area of Effect: 1 creature
+Saving Throw: None
+
+This powerful spell allows the preacher of fire to impose a target the contact with elemental plane of fire, in the same way that he contacts that place to channel and turns. It opens a channel between the body of the victim and the elemental plane of fire for a few seconds, that is enough to inflict heavy damage. The victim of the spell may attempt a saving throw vs. spell to resist the spell, but if it fails, suffers 15D10 fire damage points per round, for 1D3 rounds. Only fire resistance allows to reduce the damage.~
+
+@2821  = ~Contact with the Elemental Plane (Evocation) 
+Level: Quest
+Range: Visual Sight of caster
+Duration: 1 to 3 rounds
+Casting Time: 8
+Area of Effect: 1 creature
+Saving Throw: None
+
+This powerful spell allows the preacher of fire to impose a target the contact with elemental plane of fire, in the same way that he contacts that place to channel and turns. It opens a channel between the body of the victim and the elemental plane of fire for a few seconds, that is enough to inflict heavy damage. The victim of the spell may attempt a saving throw vs. spell to resist the spell, but if it fails, suffers 15D10 fire damage points per round, for 1D3 rounds. Only fire resistance allows to reduce the damage.~
+
+@283   = ~Guards of the Prince~
+@284   = ~Requires: Summon Elemental Prince
+
+Guards of the Prince (Conjuration/Summoning)
+Level: Quest
+Sphere: Elemental, Summoning
+Range: 9 meters
+Duration: 10 rounds
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows to summon the three personal guards of Zaaman Rul. All three are major elementals of 16 Hit Dice. They will stay under the service of the preacher for the time of the spell, and if Zaaman Rul is also summoned, they shall be bound by the magic of the spell to the preacher.~
+
+@2841  = ~Guards of the Prince (Conjuration/Summoning)
+Level: Quest
+Sphere: Elemental, Summoning
+Range: 9 meters
+Duration: 10 rounds
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spell allows to summon the three personal guards of Zaaman Rul. All three are major elementals of 16 Hit Dice. They will stay under the service of the preacher for the time of the spell, and if Zaaman Rul is also summoned, they shall be bound by the magic of the spell to the preacher.~
+@2842  = ~Princely Guard~
+
+@285   = ~Summon Elemental Prince~
+@286   = ~Summon Elemental Prince (Conjuration/Summoning)
+Level: Quest
+Sphere: Elemental, Summoning
+Range: 9 meters
+Duration: 10 rounds
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+The power and experience of the preacher of fire have significantly increased, he's now able to directly summon the Elemental Prince Zaaman Rul. He will serve the preacher for 10 rounds.~
+
+@2861  = ~Summon Elemental Prince (Conjuration/Summoning)
+Level: Quest
+Sphere: Elemental, Summoning
+Range: 9 meters
+Duration: 10 rounds
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+This spells allows to summon the Elemental Prince Zaaman Rul. He will serve the preacher for 10 rounds.~
+
+@287   = ~Fire Protection 3-meters radius~
+@288   = ~Fire Protection 3-meters radius (Abjuration)
+Level: Quest
+Sphere: Protection, Elemental
+Range: 7 meters
+Duration: 3 rounds + 1 round/level
+Casting Time: 6
+Area of Effect: affected creature
+Saving Throw: None
+
+The spell grants a full immunity to normal fires (torches, braziers, burning oil). It also absorbs 80% of magical fire damage (Dragon's Breath, FireBall, etc...). The preacher of fire is the only one able to cast this enhanced version of the spell, which can be casted anywhere in the visual sight of the caster (therefore it doesn't require contact), covers an area of 3 meters and only protects the members of the party.~
+
+@289   = ~Armor of Volcanic Rocks~
+@2810  = ~Armor of Volcanic Rocks:
+Level: Quest
+Sphere: Elemental, Protection
+Range: 0
+Duration: 5 rounds
+Casting Time: 1
+Area of Effect: Caster
+Saving Throw: None
+
+This spell creates a wall of lava which covers the preacher of fire, before a rapid cooling and thus generates an armor of volcanic rocks covering his entire body. This armor provides a powerful protection, resulting in the following effects: first, the rock behaves as an additional armor, which improves AC of the preacher by 3. Second, it can undergo many shots before weakening, which gives an effect of Stoneskin (7 skins). Third, only magic weapons can affect the wearer of the armor. And finally, covered by this rock the wearer gains 40% fire resistance.~
+
+@2811  = ~Mass Blaze~
+@2812  = ~Mass Blaze (Necromancy)
+Level: Quest
+Sphere: Elemental
+Range: Sight Vision of the caster
+Duration: 5 rounds
+Casting Time: 7
+Area of Effect: 20-meters radius
+Saving Throw: None
+
+All enemies within the affected area by the preacher of fire when casting the spell must take a saving throw vs. spell or they burn, like the spell "Blaze" of level 5.~
+
+@291   = ~Alchemy of Fire~
+@292   = ~Alchemy of Fire:
+
+This gift allows the preacher of fire to create one or two potions to use. The potions created by the preacher of fire have a use strictly connected with fire.~
+@2921  = ~Balsam of Fire Protection~
+@2922  = ~This greasy balsam can be applied to the skin of a person. The application takes 1 round, after which the person gains 50% fire protection as the fluid is not dry, that is to say 10 rounds.~
+
+@293   = ~Spirit of Fire~
+@294   = ~Spirit of Fire:
+
+The preacher of fire acquires a deeper knowledge of the base elements. Moving away a little more from the primary plane to the one of fire, begins to introduce into the fire he creates portions of elemental fire.
+Each offensive spell based on fire he casts is strengthened, and inflicts 20% of additional damage.
+(remember to re-memorize the modified spells to take advantage of the improvements)~
+
+@295   = ~Master of Fire~
+@296   = ~Master of Fire:
+
+The preacher of fire establishes himself as a master of fire element. He gains the alliance of some creatures from the elemental plane of fire.
+Once the title of master of fire is obtained, the gift of charm of the preacher is no longer limited to elementals. The preacher can charm all creatures of the kind of fire: elementals, salamanders, djinnies, efreeties, mephits, etc... In addition, he has no more need to touch for that, and they will no longer attempt to resist by a saving throw. He also gains two additional daily uses.~
+
+@297   = ~Rage of the preacher~
+@298   = ~Rage of the preacher:
+
+The preacher of fire has learned so much about fire, he can henceforth channel the frenzy he feels in fighting, and release it as a shape of a powerful blast of fire. It then creates a wave of flames whose effect is similar to the spell of level 6.~
+
+@299   = ~Scarification by Fire~
+@2910  = ~Scarification by Fire:
+
+When using this gift, the preacher of fire inflicts on a willing ally long and slow burns, which are meant to strengthen resistance to fire. At the end of the ritual, the ally gains 1D10 + 10% fire resistance, but the suffered burns will make the target lose 10 life points and 2 charisma points. Scarification is effective only once on each person. Because by his nature, he is highly resistant to fire, the preacher of fire finds no advantage to scarify himself.~
+
+@2911  = ~Recall of the Army of Fire~
+@2912  = ~Requires: Level 24
+
+Recall of the Army of Fire:
+
+This gift can bring back to life 1D10 undead, animated by the spirits of brave warriors who have suffered and enjoyed the bite of fire on the battlefield. They are recruits of class for the preacher of fire, because they are in perfect harmony with fire in this revived shape. When this gift is used, there is a 10% chance that a powerful pyromancer mage will answer the call and thus is brought back to life.~
+@29121 = ~Burnt dead~
+@29122 = ~Charred warrior~
+@29123 = ~Pyromancer mage~
+@29124 = ~Charred barbarian~
+
+
+
+@5541  = ~Fire Beetle~
+
+@5732  = ~Gehenna~

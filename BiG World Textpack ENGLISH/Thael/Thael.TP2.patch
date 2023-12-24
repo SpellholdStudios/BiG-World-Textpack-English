@@ -1,0 +1,13 @@
+--- Thael\Thael.TP2	Thu Apr 01 08:22:44 2010
++++ C:\BWP Patchstudio\patched files\Thael\Thael.TP2	Tue Dec 11 05:56:42 2012
+@@ -35,7 +35,9 @@
+          ~french~
+          ~thael/tra/french/setup.tra~		 
+         
+-
++LANGUAGE ~English~
++         ~english~
++         ~thael/tra/english/setup.tra~
+ 
+ //////////////////////// END OF TRANSLATION SUPPORT /////////////////////
+ 

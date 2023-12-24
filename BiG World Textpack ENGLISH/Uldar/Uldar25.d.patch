@@ -1,0 +1,127 @@
+--- Uldar\d\Uldar25.d	Sun Sep 21 13:15:04 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\Uldar25.d	Wed Aug 29 05:58:59 2012
+@@ -2,30 +2,30 @@
+ 
+ 
+ IF ~Global("UldarSummoned","GLOBAL",1)~ THEN BEGIN InvocarUldar1 
+-  SAY ~¡¿<CHARNAME>?!...¡El espiritu del Lobo Sagrado de las Tres Colas me advirtió de tu llamada y alguna especie de brujería me ha traido hasta aquí!...¿Qué sucede?~
+-IF ~~ THEN REPLY ~Te necesito nuevamente Uldar, quiero que hagas honor a tu promesa y te unas a mi. Por lo que sé, la saga de los Hijos de Bhaal está llegando a su fin y voy a necesitar de tu fuerza y tu destreza en el combate para salir victorioso.~ DO ~SetGlobal("UldarSummoned","GLOBAL",2)~ GOTO EnEquipo
+-IF ~~ THEN REPLY ~Te he llamado porque me vendría muy bien contar contigo Uldar. ¿Me harás el honor de luchar nuevamente a mi lado?~ DO ~SetGlobal("UldarSummoned","GLOBAL",2)~ GOTO EnEquipo
++  SAY @0
++IF ~~ THEN REPLY @1 DO ~SetGlobal("UldarSummoned","GLOBAL",2)~ GOTO EnEquipo
++IF ~~ THEN REPLY @2 DO ~SetGlobal("UldarSummoned","GLOBAL",2)~ GOTO EnEquipo
+ END
+ 
+ 
+ IF ~~ THEN BEGIN EnEquipo 
+-  SAY ~No tienes que seguir hablando <CHARNAME>. El juramento de un guerrero Hatuk es sagrado y así se verá cumplido. Solo tienes que mandar que yo obedeceré... la caza del venado en los Picos Nublados puede esperar.~
+-  IF ~~ THEN REPLY ~¡Estupendo! Vamos entonces, hay mucho que hacer.~ DO ~JoinParty()~ EXIT
+-  IF ~~ THEN REPLY ~¡Excelente! Me alegra saber que puedo contar contigo. Espera aquí, pronto volveré a por ti~ GOTO Fuera
++  SAY @3
++  IF ~~ THEN REPLY @4 DO ~JoinParty()~ EXIT
++  IF ~~ THEN REPLY @5 GOTO Fuera
+ END
+ 
+ 
+ 
+ IF ~~ THEN BEGIN Fuera 
+-  SAY ~Como desees...pero no tardes mucho, este lugar no es natural...no me gusta, me siento como un lobo en medio del mar...~ 
++  SAY @6 
+   IF ~~ THEN DO ~SetGlobal("UldarFuera","GLOBAL",1) MoveToPointNoInterrupt([2550.1436]) Face(0)~ EXIT
+ END
+ 
+ 
+ IF ~Global("UldarFuera","GLOBAL",1)~ THEN DentroBis                //Nunca ha estado dentro
+-  SAY ~¿Nos vamos ya?. Estoy deseando salir de aquí y volver a respirar aire fresco~ 
+-  IF ~~ THEN REPLY ~Sí, vamos.~ DO ~JoinParty() SetGlobal("UldarFuera","GLOBAL",0)~ EXIT
+-  IF ~~ THEN REPLY ~Espera un poco más. Pronto partiremos.~ EXIT
++  SAY @7 
++  IF ~~ THEN REPLY @8 DO ~JoinParty() SetGlobal("UldarFuera","GLOBAL",0)~ EXIT
++  IF ~~ THEN REPLY @9 EXIT
+ END
+ 
+ 
+@@ -35,25 +35,25 @@
+ BEGIN ~Uldar25p~
+ 
+ IF ~Global("UldarKickedOut","GLOBAL",0)~ THEN BEGIN AbandonarGrupo
+-  SAY ~¿Es lo que quieres?.~
+-  IF ~~ THEN REPLY ~¡No! Perdona, no se en que estaba pensando.~ DO ~SetGlobal("UldarKickedOut","GLOBAL",0) JoinParty()~ EXIT
+-  IF ~AreaCheck("AR4500")~ THEN REPLY ~Sí, es lo mejor por el momento.~ DO ~SetGlobal("UldarKickedOut","GLOBAL",1) MoveToPointNoInterrupt([2550.1436]) Face(0)~ EXIT
+-  IF ~!AreaCheck("AR4500") !AreaCheck("AR4000") !AreaCheck("AR6200")~ THEN REPLY ~Sí, es lo más conveniente. Pero te voy a enviar de vuelta a la Bolsa Planar porque es probable que pronto te vuelva a necesitar. Esperame allí.~ DO ~SetGlobal("UldarKickedOut","GLOBAL",1)  CreateVisualEffectObject("SPDIMNDR",Myself) Wait(2) MoveBetweenAreas("AR4500",[2550.1436],0)~ EXIT
+-  IF ~!AreaCheck("AR4500") !AreaCheck("AR4000") !AreaCheck("AR6200")~ THEN REPLY ~Es necesario Uldar. Espera aquí, pronto volveré.~ DO ~SetGlobal("UldarKickedOut","GLOBAL",1)~ EXIT
++  SAY @10
++  IF ~~ THEN REPLY @11 DO ~SetGlobal("UldarKickedOut","GLOBAL",0) JoinParty()~ EXIT
++  IF ~AreaCheck("AR4500")~ THEN REPLY @12 DO ~SetGlobal("UldarKickedOut","GLOBAL",1) MoveToPointNoInterrupt([2550.1436]) Face(0)~ EXIT
++  IF ~!AreaCheck("AR4500") !AreaCheck("AR4000") !AreaCheck("AR6200")~ THEN REPLY @13 DO ~SetGlobal("UldarKickedOut","GLOBAL",1)  CreateVisualEffectObject("SPDIMNDR",Myself) Wait(2) MoveBetweenAreas("AR4500",[2550.1436],0)~ EXIT
++  IF ~!AreaCheck("AR4500") !AreaCheck("AR4000") !AreaCheck("AR6200")~ THEN REPLY @14 DO ~SetGlobal("UldarKickedOut","GLOBAL",1)~ EXIT
+ END
+ 
+ 
+ 
+ IF ~Global("UldarKickedOut","GLOBAL",1)~ THEN BEGIN RegresarGrupo 
+-  SAY ~¡Ya era hora!. Empezaba a pensar que me ibas a dejar aquí para los restos~
+-  IF ~~ THEN REPLY ~Nada de eso Uldar. ¡Vamos!~ DO ~SetGlobal("UldarKickedOut","GLOBAL",0) JoinParty()~ EXIT
+-  IF ~~ THEN REPLY ~Se que es duro para ti per necestio que esperes un poco más. Pronto volveré.~ GOTO Paciencia
+-  IF ~~ THEN REPLY ~Tranquilo guerrero. Se paciente, en breve volveremos a viajar juntos.~ GOTO Paciencia
++  SAY @15
++  IF ~~ THEN REPLY @16 DO ~SetGlobal("UldarKickedOut","GLOBAL",0) JoinParty()~ EXIT
++  IF ~~ THEN REPLY @17 GOTO Paciencia
++  IF ~~ THEN REPLY @18 GOTO Paciencia
+ END
+ 
+ 
+ IF ~~ THEN BEGIN Paciencia 
+-  SAY ~Umff...vale, pero no tardes mucho.~ 
++  SAY @19 
+   IF ~~ THEN EXIT
+ END
+ 
+@@ -65,16 +65,16 @@
+ 
+ 
+ I_C_T BAZDRA01 0 UldarAvisoDraconis
+-== Uldar25J IF ~InParty("Uldar")~ THEN ~*Sniff*, *sniff*...Aquí huele a sierpe pero no la veo...que extraño.~
++== Uldar25J IF ~InParty("Uldar")~ THEN @20
+ END
+ 
+ 
+ I_C_T SOLAR 67 UldarDecision
+-== Uldar25J IF ~InParty("Uldar")~ THEN ~¡Por fin. Tenemos a Melisan a tiro de piedra compañero! ¡Sí!... ¡Esta será sin duda una batalla que cantaran los bardos hasta el fin de los tiempos! ¡¡ADELANTE!!~
++== Uldar25J IF ~InParty("Uldar")~ THEN @21
+ END
+ 
+ I_C_T FINSOL01 27 UldarAscendChoice
+-== Uldar25J IF ~InParty("Uldar")~ THEN ~El poder de un dios está a tu alcance...dan escalofrios solo de pensarlo. <CHARNAME>, no soy quien para dar consejos sobre esto...creo que ni los Ancianos de mi tribu serían capaces de hacerlo...pero decidas lo que decidas estaré contigo.~
++== Uldar25J IF ~InParty("Uldar")~ THEN @22
+ END
+ 
+ 
+@@ -83,13 +83,13 @@
+ 
+ 
+ EXTEND_TOP SARVOLO 9 #7
+-IF ~InParty("Uldar")~ THEN REPLY ~Hablame de Uldar.~ GOTO VoloUldar
++IF ~InParty("Uldar")~ THEN REPLY @23 GOTO VoloUldar
+ END
+ 
+ CHAIN SARVOLO VoloUldar
+-~Uldar, el orgulloso bárbaro de la tribu de los Hatuk. Su valor y furia en combate son más que conocidas y sus gestas empiezan a cantarse por toda la Costa de la Espada... Uldar, "Colmillo Encontrado", el más audaz entre los suyos va camino de convertise en una leyenda viva, orgullo para su tribu e inspiración para los nuevos guerreros.~ 
++@24 
+ 
+-== Uldar25J IF ~IsValidForPartyDialog("Uldar")~ THEN ~Vaya, no está nada mal... No creía que tuviera ya tanta fama...Me pregunto si realmente mi gente siente eso por mi...~
++== Uldar25J IF ~IsValidForPartyDialog("Uldar")~ THEN @25
+ EXTERN SARVOLO 9
+ 
+ 
+@@ -100,8 +100,8 @@
+ 
+ CHAIN
+ IF ~InParty("Sarevok") See("Sarevok") !StateCheck("Sarevok",STATE_SLEEPING) Global("BUldarSarevok","LOCALS",0)~ THEN BUldar25 TCHAIN110
+-~Sarevok, eres sin duda un gran guerrero. He visto muy pocas veces una destreza tal en el combate...~ DO ~SetGlobal("BUldarSarevok","LOCALS",1)~
+-== BSAREV25 ~¡Dejame en paz semiorco!~
++@26 DO ~SetGlobal("BUldarSarevok","LOCALS",1)~
++== BSAREV25 @27
+ EXIT
+ 
+ 

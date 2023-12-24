@@ -1,0 +1,11 @@
+--- gloran\tra\polish\setup.tra	Sat Apr 22 12:49:02 2006
++++ C:\BWP Patchstudio\patched files\gloran\tra\polish\setup.tra	Thu Jan 10 08:06:19 2013
+@@ -54,3 +54,8 @@
+ @12 = ~Rozne dodatki (w budowie)~
+ @13 = ~Gloran & Virtue~
+ @14 = ~Po opuszczeniu dru¿yny, której przewodzi³<PRO_HESHE> <CHARNAME>, Gloran jeszcze przez wiele lat podró¿owa³ po Zapomnianych Krainach. Po licznych przygodach postanowi³ powróciæ w rodzinne strony gdzie po œmierci swojego kuzyna Toghara przej¹³ kontrolê nad ca³ym klanem krasnoludów. Podczas swojego panowania poprowadzi³ rodaków w wielu bitwach ukazuj¹c swoje zdolnoœci taktyczne. Zas³yn¹³ z tego, ¿e niewielkim oddzia³em krasnoludów odpar³ liczn¹ armiê mrocznych elfów. Dziêki temu wyczynowi wielokrotnie proszony by³ przez w³adców Faerunu o pomoc, a jego umiejêtnoœci zawsze okaza³y siê nieocenione. Jednak kiedy jego dwaj synowie zginêli podczas jednej z bitew Gloran opuœci³ swój klan i ponownie wyruszy³ poszukiwaniu przygód. Chodz¹ pog³oski, ¿e wyruszy³ do Kara-Tur w poszukiwaniu spokoju ale tak naprawdê wyruszy³ na pó³noc do Doliny Lodowego Wichru, gdzie siê zreszt¹ osiedli³. S³uch o nim zagin¹³ lecz legenda o m¹drym i szlachetnym krasnoludzie przetrwa³a do dziœ.~
++@24 = ~Tagnar~
++@25 = ~Ardan~
++@26 = ~Groth~
++@27 = ~Lisan~
++@28 = ~Tamath~

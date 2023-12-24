@@ -1,0 +1,80 @@
+--- AviM\ToB\1xAVI25.d	Sun Sep 27 22:01:40 2009
++++ C:\BWP Patchstudio\patched files\AviM\ToB\1xAVI25.d	Mon Mar 25 11:10:46 2013
+@@ -1,49 +1,49 @@
+ BEGIN ~1xAVI25~
+ 
+-IF~!InParty("AviDV")~THEN BEGIN AVTPor1
+-SAY~No wspaniale... Duszyczka powiedzia³a, ¿e odchodzi, ale jednak inni siê na to nie zgadzaj¹... Wiêc? W jakim z Dziewiêciu Piekie³ jesteœmy? A mo¿e coœ nowego? Zaraz mi powiesz, ¿e w³aœnie jesteœ na herbatce w Pajêczych Othc³aniach Lloth? Nie myœl tylko, ¿e powiesz mi, ¿e mam tutaj czekaæ.~ [AVI042]  
+-IF~~THEN REPLY ~To tylko piek³o. Gniewasz siê, Avi, ¿e mnie widzisz? Przyznaj siê... têskni³aœ za nami!~ GOTO AVTPor2
+-IF~~THEN REPLY ~Nie marudŸ! Nie têskni³aœ?~ GOTO AVTPor2
+-IF~~THEN REPLY ~Przepraszam, pomy³em siê... OdejdŸ.~ GOTO AVTPor3
++IF ~!InParty("AviDV")~ THEN BEGIN AVTPor1
++SAY @0   
++IF ~~ THEN REPLY @1 GOTO AVTPor2
++IF ~~ THEN REPLY @2 GOTO AVTPor2
++IF ~~ THEN REPLY @3 GOTO AVTPor3
+ END
+ 
+-IF~~THEN BEGIN AVTPor2
+-SAY~Nawet jak powiem inaczej to mi nie uwierzysz!~
+-IF~~THEN GOTO AVTPor4
++IF ~~ THEN BEGIN AVTPor2
++SAY @4
++IF ~~ THEN GOTO AVTPor4
+ END
+ 
+-IF~~THEN BEGIN AVTPor4
+-SAY~Niech zgadnê! Kolejne tarapaty, kolejne trupy, kolejne b³aganie Avi Mayi o pomoc! No nie krepuj siê. To zimne cia³ko a¿ p³onie by us³yszeæ przytakniêcie.~
+-IF~~THEN REPLY ~Wiêc chcesz do³¹czyæ? Potrzebujê pomocy.~ GOTO AVTPor5
+-IF~~THEN REPLY ~Nie... Jednak musisz odejœæ. ¯egnaj...~ GOTO AVTPor3
++IF ~~ THEN BEGIN AVTPor4
++SAY @5
++IF ~~ THEN REPLY @6 GOTO AVTPor5
++IF ~~ THEN REPLY @7 GOTO AVTPor3
+ END
+ 
+-IF~~THEN BEGIN AVTPor5
+-SAY ~Tak! Wiedzia³am! Po prostu potrzebujesz duszyczki. I to jest wspania³e!~ [AVI043]  
+-IF~~THEN DO~JoinParty()~ EXIT
++IF ~~ THEN BEGIN AVTPor5
++SAY @8   
++IF ~~ THEN DO ~JoinParty()~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVTPor3
+-SAY ~Zostawia mnie w piekle i siê cieszy... ech... ¯egnaj.~
+-IF~~THEN DO ~EscapeArea()~ EXIT
++IF ~~ THEN BEGIN AVTPor3
++SAY @9
++IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ BEGIN ~1xAV25P~
+ 
+-IF~Global("AviMayaLeftTB","GLOBAL",0)~THEN BEGIN AviKickTB
+-SAY~I co teraz? Chcesz siê pozbyæ duszyczki? Powiem to jeszcze raz. Je¿eli opuszczê dru¿ynê to odejdê i nie mam zamiaru wracaæ.~
+-IF~~THEN REPLY ~Musisz odejœæ. Bywaj.~ GOTO AviKickTB1
+-IF~~THEN REPLY ~To pomy³ka... Zostañ!~ GOTO AviKickTB2
++IF ~Global("AviMayaLeftTB","GLOBAL",0)~ THEN BEGIN AviKickTB
++SAY @10
++IF ~~ THEN REPLY @11 GOTO AviKickTB1
++IF ~~ THEN REPLY @12 GOTO AviKickTB2
+ END
+ 
+-IF~~THEN BEGIN AviKickTB1
+-SAY ~A wiêc tak. Wiêc ¿egnam. Duszyczka odchodzi!~
+-IF~~THEN DO ~SetGlobal("AviMayaLeftTB","GLOBAL",1) EscapeArea()~ EXIT
++IF ~~ THEN BEGIN AviKickTB1
++SAY @13
++IF ~~ THEN DO ~SetGlobal("AviMayaLeftTB","GLOBAL",1) EscapeArea()~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AviKickTB2
+-SAY ~Dobrze... Niech bêdzie...~
+-IF~~THEN DO ~JoinParty()~ EXIT
++IF ~~ THEN BEGIN AviKickTB2
++SAY @14
++IF ~~ THEN DO ~JoinParty()~ EXIT
+ END
+ 
+ 

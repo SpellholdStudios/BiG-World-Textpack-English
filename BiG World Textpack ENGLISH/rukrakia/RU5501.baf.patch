@@ -1,0 +1,17 @@
+--- rukrakia\BAF\RU5501.baf	Fri Oct 05 08:33:20 2007
++++ C:\BWP Patchstudio\patched files\rukrakia\BAF\RU5501.baf	Wed Oct 01 05:36:19 2014
+@@ -26,10 +26,6 @@
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("RU_ELBER_ESCAPE","GLOBAL",2)
+-		EraseJournalEntry(%라이젠의 무덤?
+-
+-나는 사라두쉬에서 젠킨스라는 자를 만났다. 그는 나에게 앰케스란 어딘가에 있는 엘버라는 자를 죽여달라고 부탁을 했고, 곧 이어 뒤따라온 암살자에게 살해당했다. 그 암살자는 나에게 관심을 끄라고 경고를 했지만, 그것과는 관계없이 선택은 어디까지나 나의 몫이다.%)
+-                EraseJournalEntry(%라이젠의 무덤?
+-
+-엘버라는 자는 젠킨스가 말했던 대로 앰케스란의 여관에 있었다. 내가 그를 추궁하거나 그렇지 않거나 어느 쪽이든 그는 달가워 하지 않는 듯 보였다. 그의 품에 라이젠의 무덤의 위치가 적혀진 지도가 있었고 나는 선택을 해야만 한다.%)
+-END
+\ No newline at end of file
++		EraseJournalEntry(@0)
++                EraseJournalEntry(@1)
++END

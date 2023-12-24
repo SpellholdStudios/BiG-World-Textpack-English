@@ -1,0 +1,125 @@
+--- Haendlermod\d\nq#rbad6.d	Thu Jul 16 12:13:00 2009
++++ C:\BWP Patchstudio\patched files\Haendlermod\d\nq#rbad6.d	Mon Aug 27 04:27:01 2012
+@@ -8,88 +8,86 @@
+ BEGIN ~nq#rbad6~
+ 
+ IF ~NumTimesTalkedTo(0) See("nq#rose")~ THEN BEGIN 0 // from:
+-SAY ~Ihr habt einmal zuviel Gold für Euch behalten, Rose. Mein Gold!~
++SAY @0
+  IF ~~ THEN EXTERN ~NQ#ROSE~ 0
+ END
+ 
+ IF ~~ THEN BEGIN 1// from:
+-SAY ~Ich will das nicht tun, aber ich kann nicht zu lassen, dass meine Mädchen denken sie könnten sich an meinem Gold bedienen wie es ihnen passt.~
++SAY @1
+  IF ~~ THEN GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2// from:
+-SAY ~Ihr hattet Eure Chance, Rose. Betet zu Umberlee!~
++SAY @2
+  IF ~~ THEN EXTERN ~NQ#ROSE~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from:
+-SAY ~Mein Freund, dies ist eine private Angelegenheit. Diese Frau ist eine Angestellte von mir und hat wiederholt von meinem Gold gestohlen.~
++SAY @3
+  IF ~~ THEN GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from:
+-SAY ~Ich möchte Euch jetzt die Gelegenheit geben Euch zurück zu ziehen, bevor es unangenehm wird.~
+- IF ~~ THEN REPLY ~Wieviel schuldet sie Euch?~ GOTO 5
+- IF ~XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich werde nicht zulassen, dass Ihr dieser Frau etwas antut. Verschwindet jetzt!~ GOTO 7
+- IF ~XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich werde nicht zulassen, dass Ihr dieser Frau etwas antut. Verschwindet jetzt!~ GOTO 7
+- IF ~!XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich werde nicht zulassen, dass Ihr dieser Frau etwas antut. Verschwindet jetzt!~ GOTO 7
+- IF ~!XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich werde nicht zulassen, dass ihr dieser Frau etwas antut. Verschwindet jetzt!~ GOTO 8
+- IF ~~ THEN REPLY ~Ihr habt Recht. Ich werde mich nicht in Eure Angelegenheiten einmischen.~ GOTO 9
++SAY @4
++ IF ~~ THEN REPLY @5 GOTO 5
++ IF ~XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @6 GOTO 7
++ IF ~XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @6 GOTO 7
++ IF ~!XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @6 GOTO 7
++ IF ~!XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @7 GOTO 8
++ IF ~~ THEN REPLY @8 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 5// from:
+-SAY ~Nun, wenn Ihr so fragt... es müssten etwa 1000 Goldstücke sein.~
++SAY @9
+  IF ~~ THEN EXTERN ~NQ#ROSE~ 5
+ END
+ 
+ IF ~~ THEN BEGIN 6// from:
+-SAY ~Still, dummes Mädchen! Hier unterhalten sich Menschen mit Verstand. Was sagt Ihr, mein Freund, wollt Ihr das Gold für sie bezahlen?~
+- IF ~XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich glaube ich behalte mein Gold. Lasst sie gehen oder sterbt!~ GOTO 7
+- IF ~XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich glaube ich behalte mein Gold. Lasst sie gehen oder sterbt!~ GOTO 7
+- IF ~!XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich glaube ich behalte mein Gold. Lasst sie gehen oder sterbt!~ GOTO 7
+- IF ~!XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY ~Ich glaube ich behalte mein Gold. Lasst sie gehen oder sterbt!~ GOTO 8
+- IF ~XPGT(Myself,3999999) PartyGoldGT(999)~ THEN REPLY ~Also gut, nehmt diese 1000 Goldstücke und verschwindet.~ GOTO 10
+- IF ~!XPGT(Myself,3999999) PartyGoldGT(999)~ THEN REPLY ~Also gut, nehmt diese 1000 Goldstücke und verschwindet.~ GOTO 11
+- IF ~CheckStatGT(LastTalkedToBy,15,CHR) PartyGoldGT(499)~ THEN REPLY ~Nehmt diese 500 Goldstücke und lasst die Sache auf sich beruhen, Ihr habt keinen Vorteil davon sie zu töten.~ GOTO 12
+- IF ~!CheckStatGT(LastTalkedToBy,15,CHR) PartyGoldGT(499)~ THEN REPLY ~Nehmt diese 500 Goldstücke und lasst die Sache auf sich beruhen, Ihr habt keinen Vorteil davon sie zu töten.~ GOTO 13
+- IF ~~ THEN REPLY ~Für diese diebische Hure? Macht mit Ihr was ihr wollt, das ist nicht mein Problem.~ GOTO 9
++SAY @10
++ IF ~XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @11 GOTO 7
++ IF ~XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @11 GOTO 7
++ IF ~!XPGT(Myself,3999999) CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @11 GOTO 7
++ IF ~!XPGT(Myself,3999999) !CheckStatGT(LastTalkedToBy,18,CHR)~ THEN REPLY @11 GOTO 8
++ IF ~XPGT(Myself,3999999) PartyGoldGT(999)~ THEN REPLY @12 GOTO 10
++ IF ~!XPGT(Myself,3999999) PartyGoldGT(999)~ THEN REPLY @12 GOTO 11
++ IF ~CheckStatGT(LastTalkedToBy,15,CHR) PartyGoldGT(499)~ THEN REPLY @13 GOTO 12
++ IF ~!CheckStatGT(LastTalkedToBy,15,CHR) PartyGoldGT(499)~ THEN REPLY @13 GOTO 13
++ IF ~~ THEN REPLY @14 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 7// from:
+-SAY ~Wir... wollen keinen Ärger. Nehmt bitte meine Entschuldigung an und lebt wohl!~
+- IF ~~ THEN REPLY ~Dabei kann ich es leider nicht belassen. Zeit für Euch zu sterben!~ GOTO 8
+- IF ~~ THEN REPLY ~Macht das Ihr davon kommt und betet, dass wir uns nie wieder begegnen.~ DO ~SetGlobal("NQ#ROSE","GLOBAL",3)~ EXIT
++SAY @15
++ IF ~~ THEN REPLY @16 GOTO 8
++ IF ~~ THEN REPLY @17 DO ~SetGlobal("NQ#ROSE","GLOBAL",3)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8// from:
+-SAY ~Elender Narr! Ihr werdet ihr Schicksal teilen!~
++SAY @18
+  IF ~~ THEN DO ~SetGlobal("NQ#ROSE","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 9// from:
+-SAY ~Eine kluge Entscheidung. Macht dass Ihr davon kommt!~
+- IF ~~ THEN DO ~ReputationInc(-2) SetGlobal("NQ#ROSE","GLOBAL",2)~ SOLVED_JOURNAL ~Unterschlagung
+-
+-Ich habe mitbekommen wie eine Postituierte von ihrem Zuhälter und seinen Schlägern getötet wurde. Die Frau bat mich um Hilfe, aber ich habe meine eigenen Probleme, um die ich mich kümmern muss. Leider scheint die Szene von jemanden beobachtet worden zu sein, denn mein Ruf hat sich verschlechtert.~ EXIT
++SAY @19
++ IF ~~ THEN DO ~ReputationInc(-2) SetGlobal("NQ#ROSE","GLOBAL",2)~ SOLVED_JOURNAL @20 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 10// from:
+-SAY ~Ein großzügiges Angebot. Sie gehört Euch, mein Freund. Lebt wohl!~
++SAY @21
+  IF ~~ THEN DO ~SetGlobal("NQ#ROSE","GLOBAL",3) TakePartyGold(1000)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 11// from:
+-SAY ~Wer 1000 Goldstücke für diese jämmerliche Schlampe bezahlen würde, hat noch mehr. Ihr habt Euer Leben verwirkt, Narr!~
++SAY @22
+  IF ~~ THEN DO ~SetGlobal("NQ#ROSE","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 12// from:
+-SAY ~Ich habe heute einen meiner großzügigen Tage. Nehmt die Schlampe und lauft mir nie wieder über den Weg.~
++SAY @23
+  IF ~~ THEN DO ~SetGlobal("NQ#ROSE","GLOBAL",3) TakePartyGold(500)~  EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 13// from:
+-SAY ~Ich habe kein Interresse an Euren Almosen! Verschwindet jetzt oder ich werde wirklich böse.~
+-  IF ~~ THEN REPLY ~Ihr seid tot.~ GOTO 8
+-  IF ~~ THEN REPLY ~Okay, ich will keinen Ärger.~ GOTO 9
++SAY @24
++  IF ~~ THEN REPLY @25 GOTO 8
++  IF ~~ THEN REPLY @26 GOTO 9
+ END

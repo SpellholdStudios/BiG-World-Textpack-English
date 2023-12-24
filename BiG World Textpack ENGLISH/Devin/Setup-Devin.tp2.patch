@@ -1,0 +1,184 @@
+--- Devin\Setup-Devin.tp2	Sun Sep 04 20:00:21 2016
++++ C:\BWP Patchstudio\patched files\Devin\Setup-Devin.tp2	Mon Sep 05 07:24:46 2016
+@@ -1,5 +1,6 @@
+ BACKUP ~Devin/backup~
+ AUTHOR ~Armand~
++AUTO_TRA ~Devin/Translations/%s~
+ VERSION ~v1 BWP Fix~
+ 
+ LANGUAGE ~Francais~
+@@ -7,6 +8,11 @@
+ 	 ~Devin/Translations/French/Setup.tra~
+ 	 ~Devin/Translations/French/Flammes.tra~
+ 
++LANGUAGE ~English~
++	 ~english~
++	 ~Devin/Translations/English/Setup.tra~
++	 ~Devin/Translations/English/Flammes.tra~
++
+ 
+ BEGIN @0
+ 
+@@ -165,7 +171,7 @@
+ SAY NAME1 @10
+ SAY NAME2 @10
+ COMPILE ~Devin/Dialogues/#VDevin.d~
+-  USING ~Devin/Translations/French/#VDevin.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VDevin.tra~
+ COMPILE ~Devin/Scripts/Perso/#VDevin.baf~
+ 
+ 
+@@ -205,25 +211,25 @@
+ SAY NAME1 @17
+ SAY NAME2 @17
+ COMPILE ~Devin/Dialogues/#VMonk2.d~
+-  USING ~Devin/Translations/French/#VMonk2.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VMonk2.tra~
+ COMPILE ~Devin/Dialogues/#VBardi.d~
+-  USING ~Devin/Translations/French/#VBardi.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VBardi.tra~
+ COMPILE ~Devin/Dialogues/#VAkno.d~
+-  USING ~Devin/Translations/French/#VAkno.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VAkno.tra~
+ COMPILE ~Devin/Dialogues/#VMonk1.d~
+-  USING ~Devin/Translations/French/#VMonk1.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VMonk1.tra~
+ COMPILE ~Devin/Dialogues/#VElen.d~
+-  USING ~Devin/Translations/French/#VElen.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VElen.tra~
+ COMPILE ~Devin/Dialogues/#VChat.d~
+-  USING ~Devin/Translations/French/#VSke01.tra~ 
++  USING ~Devin/Translations/%LANGUAGE%/#VSke01.tra~ 
+ COMPILE ~Devin/Dialogues/#VRama.d~ // Travail zone principal (transféré de #var20)
+-  USING ~Devin/Translations/French/#VSke02.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~
+ COMPILE ~Devin/Dialogues/#VJack.d~
+-  USING ~Devin/Translations/French/#VJack.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VJack.tra~
+ COMPILE ~Devin/Scripts/Perso/#VMonk1.baf~
+ COMPILE ~Devin/Scripts/Perso/#VMonk2.baf~
+ COMPILE ~Devin/Scripts/Perso/#VBardi.baf~
+-  USING ~Devin/Translations/French/#VBardi.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VBardi.tra~
+ COMPILE ~Devin/Scripts/CutScene/#VCutAkn.baf~
+ COMPILE ~Devin/Scripts/Perso/#VElen.baf~
+ COMPILE ~Devin/Scripts/Perso/#VJack.baf~
+@@ -311,17 +317,17 @@
+ COMPILE ~Devin/Scripts/CutScene/#VCutJ02.baf~
+ COMPILE ~Devin/Scripts/CutScene/#VCutscr.baf~
+ COMPILE ~Devin/Dialogues/#VSke02.d~
+-  USING ~Devin/Translations/French/#VSke02.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~
+ COMPILE ~Devin/Dialogues/#VSke01.d~
+-  USING ~Devin/Translations/French/#VSke01.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke01.tra~
+ COMPILE ~Devin/Dialogues/#VSku.d~
+-  USING ~Devin/Translations/French/#VSku.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSku.tra~
+ COMPILE ~Devin/Dialogues/#VLmail.d~
+-  USING ~Devin/Translations/French/#VLmail.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VLmail.tra~
+ COMPILE ~Devin/Dialogues/#VInter1.d~
+-  USING ~Devin/Translations/French/#VInter1.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VInter1.tra~
+ COMPILE ~Devin/Dialogues/#VLucie.d~
+-  USING ~Devin/Translations/French/#VLucie.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VLucie.tra~
+ COPY ~Devin/Items/#vskull.itm~ ~override~ SAY NAME1 @1 SAY NAME2 @1 SAY DESC @2
+ COPY ~Devin/Items/#vsku1.itm~ ~override~ SAY NAME1 @3 SAY NAME2 @3 SAY DESC @4
+ COPY ~Devin/Items/#VLmail.itm~ ~override~ SAY NAME1 @5 SAY NAME2 @5 SAY DESC @6
+@@ -345,9 +351,9 @@
+ SAY NAME2 @63
+ COMPILE ~Devin/Scripts/Perso/#VZoma.baf~
+ COMPILE ~Devin/Scripts/CutScene/#VCutD01.baf~
+-  USING ~Devin/Translations/French/#VSke02.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~
+ COMPILE ~Devin/Scripts/CutScene/#VCutD02.baf~
+-  USING ~Devin/Translations/French/#VSke02.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~
+ COPY ~Devin/Items/#vnews.itm~ ~override~ SAY NAME1 @723 SAY NAME2 @723 SAY DESC @724
+ COPY ~Devin/Spell/pxbardi.spl~ ~override~
+ COPY ~Devin/Spell/#VGros.spl~ ~override~
+@@ -394,7 +400,7 @@
+ SAY NAME1 @44
+ SAY NAME2 @44
+ COMPILE ~Devin/Dialogues/#VImplen.d~
+-  USING ~Devin/Translations/French/#VMonk2.tra~    
++  USING ~Devin/Translations/%LANGUAGE%/#VMonk2.tra~    
+ COMPILE ~Devin/Scripts/Perso/#VRama.baf~
+ COMPILE ~Devin/Scripts/CutScene/#VCutRam.baf~
+ 
+@@ -435,9 +441,9 @@
+ SAY NAME2 @47
+ COMPILE ~Devin/Scripts/Perso/#VChat.baf~
+ COMPILE ~Devin/Scripts/CutScene/#VCutM14.baf~
+- USING ~Devin/Translations/French/#VMonk2.tra~
++ USING ~Devin/Translations/%LANGUAGE%/#VMonk2.tra~
+ COMPILE ~Devin/Scripts/CutScene/#VCutCha.baf~
+- USING ~Devin/Translations/French/#VMonk2.tra~
++ USING ~Devin/Translations/%LANGUAGE%/#VMonk2.tra~
+ COPY ~Devin/Anim/#vChBoom.bam~ ~override~
+ COPY ~Devin/Anim/#vChBam.bam~ ~override~
+ 
+@@ -486,10 +492,10 @@
+ SAY NAME1 @61
+ SAY NAME2 @61
+ COMPILE ~Devin/Scripts/CutScene/#VCutRa1.baf~
+- USING ~Devin/Translations/French/#VSke02.tra~
++ USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~
+ COMPILE ~Devin/Scripts/CutScene/#VCutRaO.baf~
+ COMPILE ~Devin/Scripts/CutScene/#VCutRaP.baf~ 
+- USING ~Devin/Translations/French/#VSke02.tra~
++ USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~
+ COMPILE ~Devin/Scripts/CutScene/#VCutRaH.baf~ 
+ 
+ 
+@@ -547,32 +553,32 @@
+ 
+ EXTEND_BOTTOM ~AR0602.bcs~ ~Devin/Scripts/Zone/#VAr0602.baf~ // Irenicus Dungeon
+ EXTEND_BOTTOM ~AR0800.bcs~ ~Devin/Scripts/Zone/#VAr0800.baf~ // District du cimetiére
+- USING ~Devin/Translations/French/#VElen.tra~
++ USING ~Devin/Translations/%LANGUAGE%/#VElen.tra~
+ EXTEND_BOTTOM ~#V7000.bcs~ ~Devin/Scripts/Zone/#V7000.baf~   // Prison perso
+- USING ~Devin/Translations/French/#VElen.tra~
++ USING ~Devin/Translations/%LANGUAGE%/#VElen.tra~
+ EXTEND_BOTTOM ~AR0810.bcs~ ~Devin/Scripts/Zone/#VAr0810.baf~ // Mausolée
+- USING ~Devin/Translations/French/#VSke01.tra~
++ USING ~Devin/Translations/%LANGUAGE%/#VSke01.tra~
+ EXTEND_BOTTOM ~AR1002.bcs~ ~Devin/Scripts/Zone/#VAr1002.baf~ // Conseil des six
+ EXTEND_BOTTOM ~AR1200.bcs~ ~Devin/Scripts/Zone/#VAr1200.baf~ // Shialla
+ EXTEND_BOTTOM ~AR0318.bcs~ ~Devin/Scripts/Zone/#VAr0318.baf~ // Zent
+-  USING ~Devin/Translations/French/#VLucie.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VLucie.tra~
+ EXTEND_BOTTOM ~AR1300.bcs~ ~Devin/Scripts/Zone/#VAr1300.baf~ // Voyage vers le site de la confrérie-combat contre bodhi
+-  USING ~Devin/Translations/French/#VSke02.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~
+ EXTEND_BOTTOM ~AR1304.bcs~ ~Devin/Scripts/Zone/#VAr1304.baf~ // Voyage vers le site de la confrérie-combat contre bodhi
+-  USING ~Devin/Translations/French/#VSke02.tra~  
++  USING ~Devin/Translations/%LANGUAGE%/#VSke02.tra~  
+ EXTEND_BOTTOM ~#VAr20.bcs~ ~Devin/Scripts/Zone/#VAr20.baf~ // Site de la confrérie
+-  USING ~Devin/Translations/French/#VMonk2.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VMonk2.tra~
+ EXTEND_BOTTOM ~#VAr21.bcs~ ~Devin/Scripts/Zone/#VAr21.baf~ // Salle torture
+ EXTEND_BOTTOM ~#VAr22.bcs~ ~Devin/Scripts/Zone/#VAr22.baf~ // Temple   
+ EXTEND_BOTTOM ~#VAr23.bcs~ ~Devin/Scripts/Zone/#VAr23.baf~  // Maison des deux fervents
+-  USING ~Devin/Translations/French/#VSke01.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke01.tra~
+ EXTEND_BOTTOM ~#VAr30.bcs~ ~Devin/Scripts/Zone/#VAr30.baf~  // Antre du messager
+ 
+ 
+ // Script universel
+ 
+ EXTEND_BOTTOM ~Baldur.bcs~ ~Devin/Scripts/Perso/#VUni.baf~ 
+-  USING ~Devin/Translations/French/#VSke01.tra~
++  USING ~Devin/Translations/%LANGUAGE%/#VSke01.tra~
+ 
+ // Text screen
+ 
+@@ -599,4 +605,4 @@
+ // Lancement du pack voix
+     
+ AT_INTERACTIVE_EXIT ~Devin/VoiceActing/Audioin.bat~ 
+-AT_INTERACTIVE_UNINSTALL ~Devin/VoiceActing/Audiouninstall.bat~
+\ No newline at end of file
++AT_INTERACTIVE_UNINSTALL ~Devin/VoiceActing/Audiouninstall.bat~

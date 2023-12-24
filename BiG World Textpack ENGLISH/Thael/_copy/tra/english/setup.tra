@@ -1,0 +1,125 @@
+@0  = ~THAEL, Elf Mage-Thief and VEL-VEVLOS, The Bloodied Blade~ 
+@1  = ~ToB not installed~
+@2  = ~Thael~ 
+@3  = ~Greetings, friend.~ [Thael01]
+@5  = ~Vel-Vevlos and I will guide you to vengeance and victory!~ [Thael02] 
+@6  = ~We have to rest.~ [Thael03]
+@7  = ~Vel-Vevlos is thirsty!~ [Thael04]
+@8  = ~Youu are deaaaad!~ [Thael05] 
+@9  = ~You will die!~ [Thael06]
+@10 = ~The Bloodied Blade will drink from your throaaaat!~ [Thael07] 
+@11 = ~Your soul will feed my sword!~ [Thael08]
+@12 = ~Good, more souls to devouuur!~ [Thael09]
+@13 = ~Aaah!~ [Thael10] 
+@14 = ~Urrggghhh!~ [Thael11]
+@15 = ~Ummmpphh, I'm losing a lot of blood.~ [Thael12] 
+@16 = ~Take heed, these places are usually full of danger.~ [Thael13]
+@17 = ~Yes?~ [Thael14]
+@18 = ~What do you want?~ [Thael15]
+@19 = ~Tell me~ [Thael16] 
+@20 = ~Mmmmm?~ [Thael20]
+@21 = ~Do you want something?~ [Thael17] 
+@22 = ~What?~ [Thael18] 
+@23 = ~We will do it.~ [Thael19]
+@24 = ~Easy!~ [Thael21] 
+@25 = ~I agree.~ [Thael22]
+@26 = ~There we go.~ [Thael23]
+@27 = ~Consider it done!~ [Thael24]
+@28 = ~Right now!~ [Thael25]
+@29 = ~Right away!~ [Thael26]
+@30 = ~Nethesa, Luriviel... I swear I will avenge you!~ [Thael27]
+@32 = ~Nice shot!~ [Thael29]
+@33 = ~I failed!~ [Thael30]
+@34 = ~Immune!~ [Thael31]
+@35 = ~Uff, I cannot bear more.~ [Thael32]
+@36 = ~Mmm, too easy.~ [Thael33]
+@37 = ~Now they can not see us.~ [Thael34]
+@38 = ~Trap ready.~ [Thael35]
+@39 = ~Thael is a moon elf with a unique appearance. His hair is long and black, his skin has an almost golden metallic sheen and his eyes give off a faint green glow. He is an introvert by nature, given to gravity, giving few clues, if any, about his past. When he rarely speaks of it, he does so with great sadness, alternating with great rage...
+From the few conversations that you have had with him about his past in his "silent as the grave" voice, you have learned that before he started travelling, he was a wizard in a small community of elves south of the High Forest where he lived with his family. Apparently, his skills in the art of thieving have been acquired later by necessity, during his adventures along the Sword Coast.~
+@40 = ~After finally getting his revenge,and helping <CHARNAME>, Thael, finding no more reason to live, retired to Lorenthelian, to die beside the remains of his wife and daughter.
+But Vel-Vevlos was a vile artifact with infinite bloodlust and would not let itself be forgotten in the ruins of a destroyed village. When Thael was crossing the Forest of Tethyr to the north, he was ambushed by a drow war party. Thael had no chance... The "Bloodied Blade" knowing the fate that awaited it, betrayed its wielder, alerting the drow to its presence. Thael escaped, but his wounds were grave, eventually falling unconscious, surrendering completely to his much longed for death. He woke up eight days later, in the Healing House in Suldanessalar. It took him nearly a month to recover under the watchful care of an elf woman with big blue eyes and long blond hair called Lisilde, a Priestess of Corellon. Thael passed ten years in Lisilde's loving care, and finally made her his own. Lisilde not only mended his body, but also his soul.~
+@41 = ~Mutation Power~
+@42 = ~Thael's Mutation power
+
+Time: 1 assault / level
+Casting time: 6
+Area of effect: Thael
+Saving Throw: None
+
+The mutations Thael suffers from make him weak in many respects, but on the other side, and only a couple of times a day, Thael can experience an amazing transformation: His strength is increased to heroic proportions, becoming a formidable fighting machine.
+......... His damage points double, and all damage point he suffers are recorded separately until one inflicts him nine in all. In addition, his armor improves by 4 points with respect to which he had before invoking his mutant power (up to -10 maximum to Armor Class).
+......... He will perform all attacks as a warrior of his same wizard level. He will even have the ability to keep using spells. Besides, will perform all his attacks with a +2, and giving each successful hit in combat inflicts an addiction of 2 points of damage. The effect will last until it expires or is revoked.~
+@43 = ~Short Sword~
+@44 = ~Velvevlos~
+@45 = ~The short sword is the first type of sword to be used and could be described as a kind of dagger so long that it is no longer a dagger. The term short sword does not fall into the classification of swords. However, the use of this term has been generalized to describe a double-edged blade of approximately 60 cm. in length. The tip of the sword is usually sharp, perfect for stabbing.~
+@46 = ~Velvevlos, known by others as Bloodied Blade, is a short sword that has a rather strange manufacturing, even for a drow weapon. On one side there is the handle, which is coupled to such shape by the hand of Thael, one does not know very well who helds who. Then there is the leaf, that looks unfinished and realized with a slight but very hard metal in which magic runes are inscribed that can not get deciphered because, apparently, the sword has enough power to prevent one to find out his capabilities.
+Given how nervous Thael gets in front of your pushy interest to know more of his sword, he prefers to leave it for another time, although he reassures you that the sword emanates a great aura of evil.
+
+
+FEATURES:
+
+Special Abilities: Unknown, but apparently, most of them designed to protect the wearer.
+
+Combat Abilities: Unknown, but the legends say that with each death it becomes more powerful.
+
+Power Level: Medium
+
+Talent type: Short Sword
+
+Can only be used by: Velvevlos has established a telepathic link with Thael, which seems to be the only one able to wield it properly.~
+@47 = ~Vel-Vevlos, famous by the name "The Bloodied Blade", is a short sword that has unique smithing, even for a drow weapon. The handle is shaped like a hand, invitingly open, as if for a handshake. It fits the wielder's hand beautifully, even the sword has changed users. However, once grasped, it is difficult to let go of the handle as it seemingly clenches around the hand. The blade itself is inscribed whith runes that shift continuously, making it impossible to discern what the say, or what the true nature of this sword is.
+Thael gets nervous everytime someone makes inquiry about this weapon. One thing is certain, the sword emanates a great aura of evil.
+
+
+
+FEATURES:
+
+Special Abilities: Unknown, but apparently, most of them are designed to protect the wielder.
+
+Combat Abilities: Unknown, but the legends say that with each death it becomes more powerful.
+
+Power Level: High
+
+Talent type: Short Sword
+
+Can only be used by: Vel-Vevlos has established a telepathic link with Thael, who seems to be the only one able to wield it properly.~
+@48 = ~Vel-Vevlos, famous by the name "The Bloodied Blade", is a short sword that has unique smithing, even for a drow weapon. The handle is shaped like a hand, invitingly open, as if for a handshake. It fits the wielder's hand beautifully, even the sword has changed users. However, once grasped, it is difficult to let go of the handle as it seemingly clenches around the hand. The blade itself is inscribed whith runes that shift continuously, making it impossible to discern what the say, or what the true nature of this sword is.
+Thael gets nervous everytime someone makes inquiry about this weapon. One thing is certain, the sword emanates a great aura of evil.
+
+
+FEATURES:
+
+Special Abilities: Unknown, but apparently, most of them are designed to protect the wielder.
+
+Combat Abilities: Unknown, but the legends say that with each death it becomes more powerful.
+
+Power Level: Overpowering
+
+Talent type: Short Sword
+
+Can only be used by: Vel-Vevlos has established a telepathic link with Thael, who seems to be the only one able to wield it properly.~
+@49 = ~Sindel~
+@50 = ~Look what we have here!~ [Sindel01]
+@51 = ~Try the blade of my sword!~ [Sindel02]
+@52 = ~It is the will of our father!~ [Sindel03]
+@53 = ~Try the blade of my sword!~ [Sindel02]
+@54 = ~It is the will of our father!~ [Sindel03]
+@55 = ~It is the will of our father!~ [Sindel02]
+@56 = ~Ouch~ [Sindel04]
+@57 = ~Ugghh~ [Sindel05]
+@58 = ~Eeh?~ [Sindel06]
+@59 = ~Here I come!~ [Sindel07]
+@60 = ~I have you!~ [Sindel08]
+@61 = ~I failed!~ [Sindel09]
+@62 = ~Buch~
+@63 = ~Buss~
+@64 = ~Buba~
+@65 = ~Zaki~
+@66 = ~Hee hee hee!~ [Zaki01]
+@67 = ~Hee hee hee!~ [Zaki01]
+@68 = ~Ayyy~ [Zaki02]
+@69 = ~Sigh~ [Zaki03]
+@70 = ~Hee hee hee!!~ [Zaki01]
+@71 = ~Ooopss~ [Zaki04]
+@72 = ~Optional: Install the first version of the voices for Thael.~

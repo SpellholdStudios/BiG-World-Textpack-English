@@ -1,0 +1,133 @@
+--- raziel\dlg\RAZIEL.d	Mon Dec 21 18:46:28 2009
++++ C:\BWP Patchstudio\patched files\raziel\dlg\RAZIEL.d	Wed Dec 23 07:50:06 2009
+@@ -1,79 +1,79 @@
+ BEGIN ~RAZIEL~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+-SAY ~Kimkolwiek jesteœcie, to wspania³y widok! Mam ju¿ serdecznie doœæ tego miejsca!~
+-IF ~~ THEN REPLY ~Kim jesteœ i jak siê tu znalaz³eœ?~ GOTO 1
+-IF ~~ THEN REPLY ~Nie mam czasu, ¿eby go marnowaæ na rozmowê z tob¹.~ GOTO 2
++SAY @0
++IF ~~ THEN REPLY @1 GOTO 1
++IF ~~ THEN REPLY @2 GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-SAY ~Nazywam siê Raziel. Kilka dni temu ja i moi towarzysze zostaliœmy napadniêci. Choæ broniliœmy siê dzielnie zostaliœmy pojmani i uwiêzieni w tym miejscu.~
++SAY @3
+ IF ~~ THEN GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-SAY ~Czekaj, czekaj! Nie zostawiaj mnie tutaj! Czujê, ¿e jesteœ osob¹, która nie pozwoli mi tu zgniæ.~
+-IF ~~ THEN REPLY ~Powiedz mi, czego chcesz, byle szybko.~ GOTO 1
+-IF ~~ THEN REPLY ~Nie mam czasu. Do zobaczenia, nie pomogê ci.~ GOTO 4
++SAY @4
++IF ~~ THEN REPLY @5 GOTO 1
++IF ~~ THEN REPLY @6 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 3
+-SAY ~Moi kompani prawdopodobnie ju¿ nie ¿yj¹, mnie zaœ czeka ten sam los jeœli mnie nie uwolnisz.~
+-IF ~~ THEN REPLY ~Zrobiê wszystko co w mojej mocy by ci pomóc. Czy wiesz jak mo¿na wyci¹gn¹æ ciê z tej klatki?~ GOTO 5
+-IF ~~ THEN REPLY ~Nie ma mowy. Zostaniesz tam gdzie jesteœ.~ GOTO 4
++SAY @7
++IF ~~ THEN REPLY @8 GOTO 5
++IF ~~ THEN REPLY @9 GOTO 4
+ END
+ 
+ IF ~~ THEN BEGIN 4
+-SAY ~Nie pomo¿esz mi? Czy¿ nie masz honoru? Niech bogowie ciê przekln¹, a otch³añ po³knie tw¹ duszê za to, co czynisz!~
++SAY @10
+ IF ~~ THEN DO ~SetGlobal("RazielDeclined","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 5
+-SAY ~Z ca³¹ pewnoœci¹ potrzebny bêdzie odpowiedni klucz, nie wiem jednak gdzie nale¿y go szukaæ. Byæ mo¿e powinieneœ zajrzeæ do pobliskich komnat.~
++SAY @11
+ IF ~~ THEN GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6
+-SAY ~Mogê mieæ jedynie nadziejê, ¿e ten sadystyczny mag go nie wyrzuci³.~
++SAY @12
+ IF ~~ THEN DO ~SetGlobal("RazielTalked","GLOBAL",1) AddJournalEntry(@1,QUEST)~ EXIT
+ END
+ 
+ IF ~Global("RazielTalked","GLOBAL",1) OpenState("Cell06",FALSE)~ THEN BEGIN 7
+-SAY ~Witaj znów, widzê, ¿e jak dot¹d nie uda³o ci siê nic zdzia³aæ. Próbuj dalej. Opuœæmy to miejsce jak najszybciej.~
++SAY @13
+ IF ~~ THEN EXIT
+ END
+ 
+ IF ~Global("RazielTalked","GLOBAL",2) OpenState("Cell06",TRUE)~ THEN BEGIN 8
+-SAY ~Nareszcie wolny. Ju¿ nie mogê siê doczekaæ chwili gdy opuœcimy to przeklête miejsce.~
+-IF ~~ THEN REPLY ~Do³¹cz do mnie i razem ucieknijmy z tego miejsca~ DO ~AddJournalEntry(@2,QUEST_DONE) EraseJournalEntry(@1) AddexperienceParty(1500) JoinParty() SetGlobal("RazielJoined","GLOBAL",1)~ EXIT
+-IF ~~ THEN REPLY ~ZnajdŸ w³asne wyjœcie na zewn¹trz. Nasze szanse bêd¹ wiêksze, jeœli siê rozdzielimy.~ GOTO 9
++SAY @14
++IF ~~ THEN REPLY @15 DO ~AddJournalEntry(@2,QUEST_DONE) EraseJournalEntry(@1) AddexperienceParty(1500) JoinParty() SetGlobal("RazielJoined","GLOBAL",1)~ EXIT
++IF ~~ THEN REPLY @16 GOTO 9
+ END
+ 
+ IF ~~ THEN BEGIN 9
+-SAY ~Niech i tak bêdzie. Do zobaczenia.~
++SAY @17
+ IF ~~ THEN DO ~AddJournalEntry(@2,QUEST_DONE) EraseJournalEntry(@1) AddexperienceParty(1500)~ EXIT
+ END
+ 
+ IF ~Global("RazielDeclined","GLOBAL",1)~ THEN BEGIN 10
+-SAY ~Jesteœ ostatni¹ osob¹, któr¹ chcia³bym teraz ogl¹daæ.~
++SAY @18
+ IF ~~ THEN EXIT
+ END
+ 
+ BEGIN ~RAZIELP~
+ 
+ IF ~Global("RazielJoined","LOCALS",1) HappinessLT(Myself,-290)~ THEN BEGIN 0
+-SAY ~ZejdŸ mi z oczu. Twe czyny dowiod³y, ¿eœ jest osob¹ niegodn¹ mej przyjaŸni.~
++SAY @19
+ IF ~~ THEN DO ~SetGlobal("RazielJoined","LOCALS",0) EscapeArea()~ EXIT
+ END
+ 
+ IF ~Global("RazielJoined","LOCALS",1)~ THEN BEGIN 1
+-SAY ~Jesteœ pewien, ¿e powinniœmy siê rozdzieliæ?.~
+-IF ~~ THEN REPLY ~Nie, zostañ ze mn¹.~ DO ~JoinParty()~ EXIT
+-IF ~~ THEN REPLY ~Tak bêdzie najlepiej.~ DO ~SetGlobal("RazielJoined","LOCALS",0)~ GOTO 2
++SAY @20
++IF ~~ THEN REPLY @21 DO ~JoinParty()~ EXIT
++IF ~~ THEN REPLY @22 DO ~SetGlobal("RazielJoined","LOCALS",0)~ GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 2
+-SAY ~Jeœli tego chcesz. Mam nadziejê, ¿e to tylko chwilowe rozstanie. Gdzie pragniesz spotkaæ siê ponownie?~
++SAY @23
+ IF ~!AreaCheck("AR0601")
+ !AreaCheck("AR0602")
+ !AreaCheck("AR0603")
+@@ -122,7 +122,7 @@
+ !AreaCheck("AR2904")
+ !AreaCheck("AR2905")
+ !AreaCheck("AR2906")
+-~ THEN REPLY ~W ober¿y Pod Miedzianym Diademem.  Gdybym znów ciê potrzebowa³<PRO_HESHE> to bêdê ciê tam szukaæ.~  DO ~SetGlobal("RazielJoined","LOCALS",0) EscapeAreaMove("AR0406",1178,1386,0)~ EXIT
++~ THEN REPLY @24  DO ~SetGlobal("RazielJoined","LOCALS",0) EscapeAreaMove("AR0406",1178,1386,0)~ EXIT
+ IF ~!AreaCheck("AR0301")
+ !AreaCheck("AR0302")
+ !AreaCheck("AR0303")
+@@ -147,12 +147,12 @@
+ !AreaCheck("AR0604")
+ !AreaCheck("AR0605")
+ !AreaCheck("AR0606")
+-~ THEN REPLY ~Poczekaj w tym miejscu. Gdyby twoje umiejêtnoœci by³y mi potrzebne to wrócê tutaj.~ DO ~SetGlobal("RazielJoined","LOCALS",0)~ EXIT
+-IF ~~ THEN REPLY ~Nie mam pojêcia. Postaraj siê byæ w jakiejœ karczmie lub ober¿y.~ DO ~SetGlobal("RazielJoined","LOCALS",0) EscapeAreaMove("AR0406",1107,1362,0)~ EXIT
++~ THEN REPLY @25 DO ~SetGlobal("RazielJoined","LOCALS",0)~ EXIT
++IF ~~ THEN REPLY @26 DO ~SetGlobal("RazielJoined","LOCALS",0) EscapeAreaMove("AR0406",1178,1386,0)~ EXIT
+ END
+ 
+ IF ~Global("RazielJoined","LOCALS",0)~ THEN BEGIN 3
+-SAY ~Witam! Czy¿byœ chcia³<PRO_HESHE> wybraæ siê ze mn¹ w dalsz¹ wêdrówkê?~ 
+-IF ~~ THEN REPLY ~Z radoœci¹ przyjmê ciê do naszej dru¿yny.~ DO ~SetGlobal("RazielJoined","LOCALS",1) JoinParty()~ EXIT
+-IF ~~ THEN REPLY ~Na razie nie potrzebna mi twoja pomoc.~ EXIT
++SAY @27 
++IF ~~ THEN REPLY @28 DO ~SetGlobal("RazielJoined","LOCALS",1) JoinParty()~ EXIT
++IF ~~ THEN REPLY @29 EXIT
+ END

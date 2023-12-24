@@ -1,0 +1,236 @@
+--- Setup-PBhaal.TP2	Tue Dec 07 10:44:40 2004
++++ C:\BWP Patchstudio\patched files\Setup-PBhaal.TP2	Fri Aug 15 15:53:47 2014
+@@ -1,7 +1,19 @@
+ BACKUP ~Prêtre de Bhaal/Backup~
+ AUTHOR ~Esprit - duracuir@hotmail.com~
+-BEGIN ~Installation du Kit : Prêtre de Bhaal - cree par Esprit.
+-client de la couronne de cuivre, www.baldursgateworld.com/lacouronne/index.php?~
++
++AUTO_TRA ~Prêtre de Bhaal\%s~
++
++LANGUAGE	~Francais~
++		~french~
++		~Prêtre de Bhaal/TRA/P!B_FRA.tra~
++LANGUAGE	~Russian (by Gingerrr & aerie.ru)~
++        	~russian~
++        	~Prêtre de Bhaal/russian/Setup.tra~ 
++LANGUAGE 	~English~
++		~english~
++		~Prêtre de Bhaal/TRA/P!B_ENG.tra~
++
++BEGIN @0
+ ADD_KIT ~P!Bhaal~
+ ~P!Bhaal                0           0           1           1           0           1           0           0~
+ ~P!Bhaal  0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+@@ -16,176 +28,75 @@
+ ~0x00004000 3~
+ ~P!B~
+ ~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
+-SAY ~Prêtre de Bhaal~
+-SAY ~Prêtre de Bhaal~
+-SAY ~PRETRE DE BHAAL:
+-
+-Les prêtres de Bhaal étaient autrefois puissants et régnaient en maître sur les sphères d'assassins de Féérune. Lors du temps des troubles leur puissance s'affaiblit et finallement disparut quand Bhaal disparut. Néanmoins certains de ces enfants les plus puissants on réussit a canaliser l'essence divine qui est en eux afin de l'utiliser comme les prêtres des autres cultes. Mais avec la purge des enfants de Bhaal orchestrée par Sarevok tout d'abord puis par les fils du meurtre entre eux, nul ne sait combien il reste de ses clerc maléfique dévoué à leur père...
+-
+-
+-Avantages :
+-- Chaos : le prêtre de Bhaal peut lancer le sort Chaos comme un magicien de même niveau 1 fois par jours tous les 10 niveaux (1 utilisation au niveau 1, 5 au niveau 40)
+-- Chaos de Bhaal : à partir du niveau 10 le Prêtre de Bhaal peut lancer le sortilège Chaos de Bhaal (similaire a boule de feu) 1 fois par jour. Il gagne cette capacité une nouvelle fois au niveau 20, 30, puis au niveau 40.
+-- Torture de Bhaal : au niveau 15, 30 et 40 le prêtre de Bhaal obtient la capacité Torture de Bhaal une fois par jour (similaire à chaîne d'éclair).
+-- Au niveau 10 le Prêtre de Bhaal obtient une immunité permanente au poison. //AP_spcl818//
+-
+-Désavantage : Seul les personnages chaotiques Mauvais peuvent être Prêtre de Bhaal.~
++SAY @1
++SAY @1
++SAY @2
+ 
+ //////////////////////////////////////////////////////Capacités spéciales\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ 
+ COPY ~Prêtre de Bhaal/spells/BhaChaos.spl~  ~override/Bhachaos.spl~  //Similaire à boule de feu//
+-SAY NAME1 ~Chaos de Bhaal~
+-SAY NAME2 ~Chaos de Bhaal~
++SAY NAME1 @3
++SAY NAME2 @3
+ 
+ 
+ COPY ~Prêtre de Bhaal/spells/Bhpain.spl~  ~override/Bhpain.spl~     //Similaire à Chaîne d'éclair//
+-SAY NAME1 ~Torture de Bhaal~
+-SAY NAME2 ~Torture de Bhaal~
++SAY NAME1 @4
++SAY NAME2 @4
+ 
+ 
+ COPY ~Prêtre de Bhaal/spells/SSbhaal.spl~  ~override/SSbhaal.spl~  //Faît apparâitre le symbole sacré de Bhaal dans l'inventaire//
+-SAY NAME1 ~Symbole sacré~
+-SAY NAME2 ~Symbole sacré~
++SAY NAME1 @5
++SAY NAME2 @5
+ 
+ COPY ~Prêtre de Bhaal/spells/bhch.spl~ ~override/bhch.spl~         //Similaire au sort Chaos//
+-SAY NAME1 ~Chaos~
+-SAY NAME2 ~Chaos~
++SAY NAME1 @6
++SAY NAME2 @6
+ 
+ //////////////////////////////////////////////////////Objets\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ 
+ COPY ~Prêtre de Bhaal/items/SSBhaal.itm~  ~override/SSBhaal.itm~
+-SAY NAME1 ~Larme de roche~
+-SAY NAME2 ~Symbole Sacré de Bhaal~
+-SAY UNIDENTIFIED_DESC ~Cette pierre ressemble à une larme pétrifiée. Il s'en dégage un aura maléfique intense...~
+-SAY DESC ~Seul les plus fidèles serviteurs du Dieu du Meurtre peuvent espérer recevoir cet objet magiques chargé d'essence divine.
+-
+-PARAMETRES
+-
+-Capacités d'équipement :
+-Mémorisation de 1 sort additionnel du 6ème et du 7ème niveau.
+-+5% de Résistance Magique.
+-Force +1.
+-
+-Utilisable seulement par :
+-Prêtres de Bhaal~
++SAY NAME1 @7
++SAY NAME2 @8
++SAY UNIDENTIFIED_DESC @9
++SAY DESC @10
+ 
+ COPY ~Prêtre de Bhaal/items/MBhaal.itm~ ~override/MBhaal.itm~
+-SAY NAME1 ~Marteau de Guerre~
+-SAY NAME2 ~Pilon du carnage +4~
+-SAY UNIDENTIFIED_DESC ~Ce marteau de guerre ne ressemble à aucun marteau de votre connaissance, il est plus grand, plus lourd et il s'en dégage une aura maléfique presque palpable~
+-SAY DESC ~Marteau de Guerre : Pilon du carnage +4
+-
+-Ce marteau à autrefois appartenus à Shaïgatyr, un demi orc serviteur de Bhaal. Cette créature était tellement maléfique et avait tué telement de personnes au nom de Bhaal, que ce dernier le récompensa en lui fesant forger un énorme marteau de guerre déstiné à tuer encore et toujours plus. A la longue le pouvoir destructeur de cette arme maléfique s'est quelque peu dissipé mais elle est encore chargée d'une puissance phénoménale.
+-
+-PARAMETRES :
+-
+-+2 points de force
+-TAC0 :  +4
+-Dégâts :  1D12 +4
+-Type de Dégâts :  contondant
+-Poids : 5
+-Facteur de Vitesse : 2
+-Type de compétence : marteau de guerre
+-Type : arme à 1 mains
+-Force nécessaire : 12
+-Utilisable seulement par :
+-- Prêtres de Bhaal~
++SAY NAME1 @11
++SAY NAME2 @12
++SAY UNIDENTIFIED_DESC @13
++SAY DESC @14
+ 
+ //////////////////////////////////////////////////////Sorts de hauts niveaux\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ 
+ COPY ~Prêtre de Bhaal/2da/LUP!B.2da~ ~override/LUP!B.2da~
+ 
+ COPY ~Prêtre de Bhaal/CHN/bhaaldes.spl~ ~override/bhaaldes.spl~  //Similaire au sort Comète//
+-SAY NAME1 ~Fléau de Bhaal~
+-SAY NAME2 ~Fléau de Bhaal~
+-SAY UNIDENTIFIED_DESC ~Fureur des cieux
+-Niveau : 7
+-Portée : 50 mètre
+-Durée : Instantanné
+-Temps d'incantation : 9
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde :
+-
+-A la fin de l'incantation du Prêtre, un bruit de tonnerre envahit le ciel et un gouffre béant s'ouvre dans les cieux. L'instant d'après un météore s'écrase sur l'endroit pointé par le Prêtre infligeant 10d10 points de dégâts à toutes l cibles dans la zones d'effets. Les créatures touchées seront sonnées sauf si elle résussisse leur jet de sauvegarde.~
+-
+-SAY DESC ~Fureur des cieux
+-Niveau : 7
+-Portée : 50 mètre
+-Durée : Instantanné
+-Temps d'incantation : 9
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde :
++SAY NAME1 @15
++SAY NAME2 @15
++SAY UNIDENTIFIED_DESC @16
+ 
+-A la fin de l'incantation du Prêtre, un bruit de tonnerre envahit le ciel et un gouffre béant s'ouvre dans les cieux. L'instant d'après un météore s'écrase sur l'endroit pointé par le Prêtre infligeant 10d10 points de dégâts à toutes l cibles dans la zones d'effets. Les créatures touchées seront sonnées sauf si elle résussisse leur jet de sauvegarde.~
++SAY DESC @16
+ /////////////////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ COPY ~Prêtre de Bhaal/CHN/thruse.spl~ ~override/thruse.spl~     //invoque six assassins dévoués prêts à en découdre avec l'ennemi//
+-SAY NAME1 ~Convocation des Lames du Meurtre~
+-SAY NAME2 ~Convocation des Lames du Meurtre~
+-SAY UNIDENTIFIED_DESC ~Convocation des Lames du Meurtre
+-Niveau : 7
+-Portée : 50 mètre
+-Durée :
+-Temps d'incantation : 5
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde : Aucun
+-
+-Les "Lames du meurtre" étaient un groupe d'assassins dévoué au seigneur du meurtre. Lorsque celui ci disparut, laissant place à Cyric, les Lames du meurtre se réfugièrent dans les abysses. Aujourd'hui vos compétencs vous permettent de faire appel à eux. En tant que fils de Bhaal et prêtre de son culte ils vous obéirons sans conditions.~
+-
+-SAY DESC ~Convocation des Lames du Meurtre
+-Niveau : 7
+-Portée : 50 mètre
+-Durée :
+-Temps d'incantation : 5
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde : Aucun
++SAY NAME1 @17
++SAY NAME2 @17
++SAY UNIDENTIFIED_DESC @18
+ 
+-Les "Lames du meurtre" étaient un groupe d'assassins dévoué au seigneur du meurtre. Lorsque celui ci disparut, laissant place à Cyric, les Lames du meurtre se réfugièrent dans les abysses. Aujourd'hui vos compétencs vous permettent de faire appel à eux. En tant que fils de Bhaal et prêtre de son culte ils vous obéirons sans conditions.~
++SAY DESC @18
+ /////////////////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ COPY ~Prêtre de Bhaal/CHN/ecorr.spl~ ~override/ecorr.spl~      //invoque l'ombre de l'écorcheur//
+-SAY NAME1 ~Convocation de l'ombre de l'écorcheur~
+-SAY NAME2 ~Convocation de l'ombre de l'écorcheur~
+-SAY UNIDENTIFIED_DESC ~Convocation de l'ombre de l'écorcheur
+-Niveau : 7
+-Portée : 50 mètre
+-Durée :
+-Temps d'incantation : 5
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde : Aucun
+-
+-Ce sort fait appel à l'essence de Bhaal pour ouvrir une faille, suffisament grande, vers le plan abyssal. Ce qu'il reste de l'écorcheur, la bête favorite du dieu du meurtre, vous vient alors en aide en attaquant tous les ennemis se trouvant dans leur champs de visions.~
+-
+-SAY DESC ~Convocation de l'ombre de l'écorcheur
+-Niveau : 7
+-Portée : 50 mètre
+-Durée :
+-Temps d'incantation : 5
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde : Aucun
++SAY NAME1 @19
++SAY NAME2 @19
++SAY UNIDENTIFIED_DESC @20
+ 
+-Ce sort fait appel à l'essence de Bhaal pour ouvrir une faille, suffisament grande, vers le plan abyssal. Ce qu'il reste de l'écorcheur, la bête favorite du dieu du meurtre, vous vient alors en aide en attaquant tous les ennemis se trouvant dans leur champs de visions.~
++SAY DESC @20
+ /////////////////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ COPY ~Prêtre de Bhaal/CHN/Convinf.spl~ ~override/convinf.spl~  //invoque deux puissants cambions guerrier-mages, dévoués à votre cause//
+-SAY NAME1 ~Rejetons du meurtre~
+-SAY NAME2 ~Rejetons du meurtre~
+-SAY UNIDENTIFIED_DESC ~Rejetons du meurtre
+-Niveau : 7
+-Portée : 50 mètre
+-Durée :
+-Temps d'incantation : 5
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde : Aucun
+-
+-En puisant dans son essence divine le Prêtre de Bhaal convoque 2 des assassins préférés de Bhaal et leur ordonne de lutter à ses côtés. La puissance du Prêtre est telle que les démon n'ont d'autre choix que d'obéir...~
+-
+-SAY DESC ~Rejetons du meurtre
+-Niveau : 7
+-Portée : 50 mètre
+-Durée :
+-Temps d'incantation : 5
+-Zone d'effet : champ de vision du lanceur
+-Jet de Sauvegarde : Aucun
++SAY NAME1 @21
++SAY NAME2 @21
++SAY UNIDENTIFIED_DESC @22
+ 
+-En puisant dans son essence divine le Prêtre de Bhaal convoque 2 des assassins préférés de Bhaal et leur ordonne de lutter à ses côtés. La puissance du Prêtre est telle que les démon n'ont d'autre choix que d'obéir...~
++SAY DESC @22
+ 
+ //////////////////////////////////////////////////////Créatures\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ 

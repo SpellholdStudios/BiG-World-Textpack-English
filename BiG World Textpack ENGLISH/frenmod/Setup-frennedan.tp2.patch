@@ -1,0 +1,14 @@
+--- Setup-frennedan.tp2	Wed Jun 24 08:29:44 2009
++++ C:\BWP Patchstudio\patched files\frenmod\Setup-frennedan.tp2	Tue Dec 25 08:45:28 2012
+@@ -11,6 +11,11 @@
+          ~German~
+          ~frenmod\German\Setup.tra~
+ 
++LANGUAGE ~English~
++         ~English~
++         ~frenmod\English\Setup.tra~
++
++
+ BEGIN @1
+ 
+ // adding all ToB actions to action.ids unless already present

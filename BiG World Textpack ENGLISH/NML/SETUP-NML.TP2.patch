@@ -1,0 +1,13 @@
+--- SETUP-NML.TP2	Sun Nov 07 06:19:40 2010
++++ C:\BWP Patchstudio\patched files\SETUP-NML.TP2	Thu Mar 28 11:37:50 2013
+@@ -17,6 +17,10 @@
+          ~TraditionalChinese~ 
+          ~NML/TraditionalChinese/NML-setup.tra~
+ 
++LANGUAGE ~English~ 
++         ~English~ 
++         ~NML/English/NML-setup.tra~
++
+ BEGIN @1
+ //BAF
+ COPY_EXISTING ~DPlayer3.bcs~ ~Override/DPlayer3.bcs~

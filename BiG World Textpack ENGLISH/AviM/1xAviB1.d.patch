@@ -1,0 +1,56 @@
+--- AviM\SoA\1xAviB1.d	Wed Sep 23 16:12:20 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviB1.d	Mon Mar 25 11:10:41 2013
+@@ -1,35 +1,35 @@
+ BEGIN 1xAviB1
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ Global("AviBrother","GLOBAL",2)~ THEN BEGIN 1xAviB1
+-SAY~(Pracuj¹cy mê¿czyzna spogl¹da na dru¿ynê.)~
+-IF~~ THEN GOTO 1xAviB1x1
++SAY @0
++IF ~~ THEN GOTO 1xAviB1x1
+ END
+ 
+-IF~~THEN BEGIN 1xAviB1x1
+-SAY~Avi Maya? Ale ty jesteœ martwa! Chocia¿ nic nie powinno mnie ju¿ zdziwiæ. Zawsze interesowa³aœ siê "¿yciem" nieumar³ych. S³uchaj mnie uwa¿nie.~
+-IF~~ THEN GOTO 1xAviB1x2
++IF ~~ THEN BEGIN 1xAviB1x1
++SAY @1
++IF ~~ THEN GOTO 1xAviB1x2
+ END
+ 
+-IF~~THEN BEGIN 1xAviB1x2
+-SAY~Nie odzywaj siê teraz. Kap³ani nie powinni wiedzieæ, ¿e nieumar³a jest w œwi¹tyni. Staraj siê... udawaæ ¿yw¹. Pewnie przysz³aœ zobaczyæ siê z bratem. Obawiam siê, ¿e coœ siê sta³o. Nie pojawia³ siê ostatnio w œwi¹tyni... i... no jego ukochana. Zachowywa³a siê dziwnie... (Wspominaj¹c o ukochanej kap³an spuszcza g³owê.) Coœ mi tu nie pasuje... SprawdŸ to. A teraz idŸ. Nie powinnaœ tu przebywaæ... Ukochan¹ twojego brata znajdziesz gdzieœ niedaleko bram miasta Athkatla. ¯yczê ci powodzenia... OdnajdŸ go.~
+-IF~~ THEN GOTO 1xAviB1x3
++IF ~~ THEN BEGIN 1xAviB1x2
++SAY @2
++IF ~~ THEN GOTO 1xAviB1x3
+ END
+ 
+-IF~~ THEN BEGIN 1xAviB1x3
+-SAY~(Kleryk wraca do swojej pracy.)~
+-IF~~THEN DO ~SetGlobal("AviBrother","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN 1xAviB1x3
++SAY @3
++IF ~~ THEN DO ~SetGlobal("AviBrother","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ PartyHasItem("AVBS")
+ Global("AviBroRevive","GLOBAL",0)~ THEN BEGIN 1xAviB1z1
+-SAY~Hmm?~
+-IF~~ THEN REPLY ~Mamy czaszkê Dosta. Zosta³ magicznie zamieniony w nieumra³ego. Czy mo¿esz jakoœ przywróciæ go do ¿ycia? B³agamy...~ GOTO 1xAviB1z2
++SAY @4
++IF ~~ THEN REPLY @5 GOTO 1xAviB1z2
+ END
+ 
+-IF~~ THEN BEGIN 1xAviB1z2
+-SAY~To... to jest czaszka Dosta?! Dost?! Mój Dost?! Przywrócê ciê do ¿ycia. Poœwiêcê czêœæ w³asnego!~
+-IF~~THEN DO ~SetGlobal("AviBroRevive","GLOBAL",1)~ EXIT
++IF ~~ THEN BEGIN 1xAviB1z2
++SAY @6
++IF ~~ THEN DO ~SetGlobal("AviBroRevive","GLOBAL",1)~ EXIT
+ END
+ 

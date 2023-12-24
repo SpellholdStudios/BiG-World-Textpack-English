@@ -1,0 +1,699 @@
+--- gloran\dlg\BGloran.d	Sat Apr 22 10:32:36 2006
++++ C:\BWP Patchstudio\patched files\gloran\dlg\BGloran.d	Thu Jan 10 08:04:32 2013
+@@ -6,18 +6,18 @@
+ !StateCheck("Viconia",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("ViconiaGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranViconiaDrowy 
+-~Viconio czy mog³abyœ powiedzieæ dlaczego opuœci³aœ Podmrok?~
++@0
+ DO ~SetGlobal("ViconiaGloranTalk1","LOCALS",1)~
+ == BVICONI
+-~Nie powinno ciê to obchodziæ.~
++@1
+ == BGLORAN
+-~Zastanawiam siê tylko...~
++@2
+ == BVICONI
+-~Zamilcz zanim wpadne w gniew.~
++@3
+ == BGLORAN
+-~Po prostu ciekwai³o mnie...~
++@4
+ == BVICONI
+-~Zatrzymaj swoje pytania dla siebie jeœli chcesz zachowaæ swoje ¿ycie.~
++@5
+ EXIT
+ 
+ CHAIN
+@@ -26,36 +26,34 @@
+ !StateCheck("Viconia",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("ViconiaGloranTalk2","LOCALS",0)~ THEN BGLORAN GloranViconiaDrowy2 
+-~Jesteœ naprawdê piêkn¹ istot¹ drowko...~
++@6
+ DO ~SetGlobal("ViconiaGloranTalk2","LOCALS",1)~
+ == BVICONI
+-~Za to wasza rasa krasnoludzie nadaje siê tylko na niewolników lub jako szmata do wycierania 
+-
+-pod³óg.~
++@7
+ == BGLORAN
+-~Chyba rozumiem dlaczego ludzie nienawidz¹ drowów.~
++@8
+ =
+-~Macie dziwne poczucie humoru.~
++@9
+ EXIT
+ 
+ // keldorn
+ 
+ CHAIN
+ IF ~~ THEN BGLORAN GloranKeldornBanter
+-~Zastanawia³em siê tylko czy œcie¿ka, któr¹ pod¹¿aj¹ paladyni jest w³aœciwa.~
++@10
+ DO ~SetGlobal("KeldornGloranTalk1","LOCALS",1)~
+ == BKELDOR
+-~Droga prawoœci i sprawiedliwoœci zawsze jest w³aœciwa.~
++@11
+ == BGLORAN
+-~Czym¿e jest sprawiedliwoœæ i prawoœæ.~
++@12
+ == BKELDOR
+-~To doœæ trudne do wyt³umaczenia Gloranie.~
++@13
+ == BGLORAN
+-~Nadal mam sporo w¹tpliwoœci Keldornie, czasami przecie¿ trzeba zrobiæ coœ nie do koñca prawego by uczyniæ coœ dobrego.~
++@14
+ == BKELDOR
+-~W twoim ¿yciu by³o sporo bólu i cierpienia. Myœlê, ¿e kiedyœ dojdziesz do podobnych wniosków co ja.~
++@15
+ == BGLORAN
+-~W¹tpiê ale rozwa¿ê twoje s³owa.~
++@16
+ EXIT
+ 
+ APPEND BKORGAN
+@@ -64,7 +62,7 @@
+ !StateCheck("Gloran",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("KeldornGloranTalk1","LOCALS",0)~ THEN BEGIN GloranKeldornBanter2
+-SAY ~Mam wra¿enie, ¿e coœ ciê gnêbi Gloranie.~
++SAY @17
+ IF ~~ THEN DO ~SetGlobal("KorganGloranTalk1","LOCALS",1)~ EXTERN BGLORAN GloranKeldornBanter
+ END
+ END
+@@ -76,32 +74,32 @@
+ !StateCheck("Korgan",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("KorganGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranKorganHonor 
+-~Korganie czy ty masz choæ odrobinê honoru? Bo po mordzie tego nie widaæ...~
++@18
+ DO ~SetGlobal("KorganGloranTalk1","LOCALS",1)~
+ == BKORGAN
+-~Czy ty zawsze zadajesz takie g³upie pytania zawszony krasnoludzie?~
++@19
+ == BGLORAN
+-~Chcesz ¿ebym skopa³ ci dupsko przy ca³ej dru¿ynie?~
++@20
+ == BKORGAN
+-~Jeszcze tylko jedne s³owo a rozp³atam ciê na pó³.~
++@21
+ == BGLORAN
+-~Przypomnij mi ¿ebym przy najbli¿szej okazji przetrzepa³ ci skórê.~
++@22
+ == BKORGAN
+-~Argh!~
++@23
+ EXIT
+ 
+ CHAIN IF ~~ THEN BGLORAN GloranKorganBanter
+-~Jedyny w swoim rodzaju Korganie.~
++@24
+ == BKORGAN
+-~Poza tym nie masz jaj i mam nadzieje, ¿e <CHARNAME> wywali ciê przy najbli¿szej okazji.~
++@25
+ == BGLORAN
+-~Jesteœ strasznie têpy, tak têpy jak siekiera mojego stryja.~
++@26
+ =
+-~Eee... to nie by³ dobry przyk³ad.~
++@27
+ == BKORGAN
+-~Zaraz wbije ci swój topór, w ten twój pusty ³eb!~
++@28
+ == BGLORAN
+-~Tylko nie zapomnij go naostrzyæ! To coœ co nazywasz toporem bardziej przypomina m³ot.~
++@29
+ EXIT
+ 
+ APPEND BKORGAN
+@@ -110,9 +108,7 @@
+ !StateCheck("Gloran",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("KorganGloranTalk1","LOCALS",1)~ THEN BEGIN GloranKorganBanter2
+-SAY ~By³byœ ca³kiem dobrym towarzyszem podró¿y Gloranie, gdyby nie to, ¿e jesteœ taki dobroduszny 
+-
+-i g³upi zarazem. Co z ciebie za krasnolud?!~
++SAY @30
+ IF ~~ THEN DO ~SetGlobal("KorganGloranTalk1","LOCALS",2)~ EXTERN BGLORAN GloranKorganBanter
+ END
+ END
+@@ -123,24 +119,22 @@
+ !StateCheck("Korgan",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("KorganGloranTalk1","LOCALS",2)~ THEN BGLORAN GloranKorganWalka 
+-~Korganie jesteœ bardzo skuteczny w walce! Nie zechcia³byœ zdradziæ choæ czêœci swojej tajnej 
+-
+-techniki?~
++@31
+ =
+-~Za ka¿dym razem kiedy wyprowadzasz cios mam wra¿enie, ¿e upadniesz i ju¿ nie wstaniesz.~
++@32
+ DO ~SetGlobal("KorganGloranTalk1","LOCALS",3)~
+ == BKORGAN
+-~Po prostu zabijam wszystko co siê rusza, zakuta pa³o.~
++@33
+ == BGLORAN
+-~Ciekawi mnie, jak to siê sta³o, ¿e jeszcze <CHARNAME> na tym nie ucierpia³<PRO_HESHE>...~
++@34
+ == BKORGAN
+-~Zamknij siê ¿a³osna imitacjo krasnoluda! Bo bêdziesz pierwszym, któremu roz³upie czerep!~
++@35
+ == BGLORAN
+-~Mówi³em ci ju¿ kiedyœ, ¿e jesteœ strasznie ograniczony umys³owo?~
++@36
+ == BKORGAN
+-~Doœæ tego! Stawaj do walki psie!~
++@37
+ == BGLORAN
+-~Szykuj siê na œmieræ!~
++@38
+ DO ~LeaveParty()
+ ActionOverride("Korgan",LeaveParty())
+ ActionOverride("Korgan",SetGlobal("KickedOut","LOCALS",1))
+@@ -157,28 +151,22 @@
+ !StateCheck("Jan",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("JanGloranTalk1","LOCALS",0)~ THEN BGLORAN BGLORANanBitwy
+-~Janie znasz mo¿e jak¹œ ciekaw¹ opowieœæ o wielkich i wspania³ych bitwach?~
++@39
+ DO ~SetGlobal("JanGloranTalk1","LOCALS",1)~
+ == BJAN
+-~No có¿ prawdê mówi¹c nie ale znam œwietn¹ historie o...~
++@40
+ == BGLORAN
+-~Wiesz co, mo¿e opowiesz mi to innym razem. Ruszajmy <CHARNAME> tak jakoœ na nas dziwnie 
+-
+-patrzy...~
++@41
+ == BJAN
+-~Nie ma poœpiechu <CHARNAME> poczeka... Opowiem ci jak wujcio Klapcioch walczy³ z rzepowym 
+-
+-smokiem.~
++@42
+ == BGLORAN
+-~Rzepowym smokiem?~
++@43
+ == BJAN
+-~Tak, a tak nawiasem mówi¹c ciotka Petunia robi wyœmienite ciastka z rzepy. Mo¿e chcesz spróbowaæ? 
+-
+-Mam kilka przy sobie, nie ma to jak ma³e co nieco.~
++@44
+ == BGLORAN
+-~Ciastka? Czy to jest jadalne?~
++@45
+ =
+-~Dobra nie chcê wiedzieæ. Ruszajmy zanim siê porzygam.~
++@46
+ EXIT
+ 
+ CHAIN
+@@ -187,30 +175,26 @@
+ !StateCheck("Jan",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("JanGloranTalk2","LOCALS",0)~ THEN BGLORAN BGLORANanPiwo
+-~Janie, mam dziwne wra¿enie, ¿e chcesz uraczyæ mnie jedn¹ ze swych opowieœci...~
++@47
+ DO ~SetGlobal("JanGloranTalk2","LOCALS",1)~
+ == BJAN
+-~Wiesz co przyda³by ci siê ³yk piwa na uspokojenie. To nasz tajemny rodzinny przepis. Tak siê 
+-
+-szczêœliwie sk³ada, ¿e mam butelkê przy sobie...~
++@48
+ == BGLORAN
+-~Co to jest?~
++@49
+ == BJAN
+-~Piwo z rzepy najlepszej jakoœci.~
++@50
+ == BGLORAN
+-~Ale chyba nie pierwszej œwie¿oœci. Cuchnie skarpetkami!~
++@51
+ == BJAN
+-~Ale ma w³aœciwoœci uspokajaj¹ce no i œwietnie dzia³a na reumatyzm.~
++@52
+ == BGLORAN
+-~Ech... A nie ma czasami skutków ubocznych takich jak wymioty?~
++@53
+ == BJAN
+-~Nie... No oprócz tego, ¿e przez najbli¿sze kilka godzin bêdzie bola³ ciê brzuch, dostajesz 
+-
+-kopronej wysypki i...~
++@54
+ == BGLORAN
+-~Trzymaj t¹ butelkê przy sobie zanim siê zdenerwuje.~
++@55
+ == BJAN
+-~Jesteœ strasznie nerwowy jak wujcio Gerhard w dniu k¹pieli.~
++@56
+ EXIT
+ 
+ // valygar
+@@ -220,18 +204,18 @@
+ !StateCheck("Valygar",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("ValygarGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranValygarLowca 
+-~Valygarze jak to siê sta³o, ¿e ktoœ tak wysoko urodzony zosta³ ³owc¹?~
++@57
+ DO ~SetGlobal("ValygarGloranTalk1","LOCALS",1)~
+ == BVALYGA
+-~Zadajesz trudne pytanie, sam w³aœciwie nie wiem.~
++@58
+ == BGLORAN
+-~Jakby siê tak zastanowiæ to te¿ nie wiem co sk³oni³o mnie do tego ¿eby ciê o to zapytaæ.~
++@59
+ == BVALYGA
+-~Znam to uczucie.~
++@60
+ == BGLORAN
+-~A mo¿e to jakieœ si³y wy¿sze?~
++@61
+ == BVALYGA
+-~Mo¿e, kto wie...~
++@62
+ EXIT
+ 
+ CHAIN
+@@ -241,14 +225,14 @@
+ !StateCheck("Valygar",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("ValygarGloranTalk3","LOCALS",0)~ THEN BGLORAN GloranValygarHeal 
+-~Valygarze wszystko w porz¹dku?~
++@63
+ DO ~SetGlobal("ValygarGloranTalk2","LOCALS",1)~
+ == BVALYGA
+-~Tak, to tylko draœniêcie.~
++@64
+ == BGLORAN
+-~Hmmm... wiesz zna³em kilku ludzi co od takich draœniêæ rozstali siê z ¿yciem...~
++@65
+ == BVALYGA
+-~Nic mi nie jest dziêki za troskê.~
++@66
+ EXIT
+ 
+ // heardalis
+@@ -258,60 +242,58 @@
+ !StateCheck("Haerdalis",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("HaerdalisGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranHaerdalisProblem 
+-~Haer'dalisie?~
++@67
+ DO ~SetGlobal("HaerdalisGloranTalk1","LOCALS",1)~
+ == BHAERDA
+-~Tak, gawronie?~
++@68
+ == BGLORAN
+-~Czy ja jestem jakiœ dziwny?~
++@69
+ == BHAERDA
+-~Sk¹d to pytanie?~
++@70
+ == BGLORAN
+-~Ludzie siê tak jakoœ na mnie dziwnie patrz¹.~
++@71
+ == BHAERDA
+-~Powiedzia³bym, ¿e jesteœ doœæ oryginalny.~
++@72
+ == BGLORAN
+-~Naprawdê?~
++@73
+ == BHAERDA
+-~Pewnie to z powodu tej twojej d³ugiej broni, ludzie myœl¹, ¿e chcesz sobie zrekompensowaæ swoje 
+-
+-rozmiary...~
++@74
+ == BGLORAN
+-~Wiedz, ¿e wybra³em t¹ broñ, gdy¿ uwa¿am j¹ za najskuteczniejsz¹.~
++@75
+ == BHAERDA
+-~Nie jestem tego taki pewien...~
++@76
+ =
+-~No dobra... Ruszajmy dalej, mój gawronie! <CHARNAME> siê niecierpliwi.~
++@77
+ == BGLORAN
+-~Mam jeszcze jedn¹ proœbê... nie nazywaj mnie gawronem! Mam na imiê Gloran.~
++@78
+ == BHAERDA
+-~Dobrze, mój gawronie!~
++@79
+ EXIT
+ 
+ CHAIN IF ~~ THEN BGLORAN GloranHaerdalisBanter
+-~Haer'dalisie nie jestem taki stary... jak na krasnoluda oczywiœcie.~
++@80
+ == BHAERDA
+-~Czy mogê ciê spytaæ o wiek?~
++@81
+ == BGLORAN
+-~No có¿, mam ju¿ 136 lat lub wiosen jak wolisz.~
++@82
+ =
+-~Nadal uwa¿asz mnie za starucha?~
++@83
+ == BHAERDA
+-~Powiedzia³bym, ¿e jesteœ dopiero w œrednim wieku.~
++@84
+ =
+-~Ale co sk³oni³o ciê do poszukiwania przygód?~
++@85
+ == BGLORAN
+-~Lubiê przygody, no i mo¿na na tym zarobiæ.~
++@86
+ == BHAERDA
+-~A poza tym?~
++@87
+ == BGLORAN
+-~Czy ja wiem... Wole walczyæ ni¿ siedzieæ gdzieœ na rzyci. Rozumiesz?~
++@88
+ == BHAERDA
+-~Chyba tak...~
++@89
+ == BGLORAN
+-~Mam wra¿enie ¿e chcesz napisaæ o mnie balladê. Nie mylê siê?~
++@90
+ == BHAERDA
+-~Owszem, mój gawronie. Oczywiœcie jeœli twoje przygody by³y interesuj¹ce.~
++@91
+ EXIT
+ 
+ APPEND BHAERDA
+@@ -320,25 +302,23 @@
+ !StateCheck("Gloran",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("HaerdalisGloranTalk2","LOCALS",0)~ THEN BEGIN GloranHaerdalisBanter2
+-SAY ~Gloranie szlachetny wojowniku, jak to siê sta³o, ¿e tak stary ju¿ krasnolud wyruszy³ w 
+-
+-poszukiwanie przygód?~
++SAY @92
+ IF ~~ THEN DO ~SetGlobal("HaerdalisGloranTalk2","LOCALS",1)~ EXTERN BGLORAN GloranHaerdalisBanter
+ END
+ END
+ 
+ // yoshimo
+ CHAIN  IF ~~ THEN BGLORAN GloranYoshimoBanter
+-~Dziêkuje Yoshimo. Staram siê tylko zwyciê¿yæ w ka¿dej bitwie.~
++@93
+ DO ~SetGlobal("YoshimoGloranTalk2","LOCALS",1)~
+ == BYOSHIM
+-~Rad jestem, ¿e moge podró¿owaæ z tak honorowym krasnoludem.~
++@94
+ == BGLORAN
+-~Zbytnio mi schlebiasz przyjacielu.~
++@95
+ == BYOSHIM
+-~Mówiê tylko najszczersz¹ prawdê Gloranie.~
++@96
+ == BGLORAN
+-~Mia³em tak¹ nadziejê Yoshimo.~
++@97
+ EXIT
+ 
+ APPEND BYOSHIM
+@@ -347,7 +327,7 @@
+ !StateCheck("Gloran",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("YoshimoGloranTalk2","LOCALS",0)~ THEN BEGIN GloranYoshimoBanter2
+-SAY ~Walczysz jak prawdziwy samuraj Gloranie, jesteœ odwa¿nym i szlachetnym wojownikiem.~
++SAY @98
+ IF ~~ THEN DO ~SetGlobal("YoshimoGloranTalk2","LOCALS",1)~ EXTERN BGLORAN GloranYoshimoBanter
+ END
+ END
+@@ -358,18 +338,18 @@
+ !StateCheck("Yoshimo",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("YoshimoGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranYoshimoPrawo 
+-~Yoshimo?~
++@99
+ DO ~SetGlobal("YoshimoGloranTalk1","LOCALS",1)~
+ == BYOSHIM
+-~Tak?~
++@100
+ == BGLORAN
+-~Czy uwa¿asz, ¿e te wszystkie prawa s¹ potrzebne.~
++@101
+ == BYOSHIM
+-~Myœlê, ¿e nie. Przecie¿ i tak s¹ ³amane w ka¿dy mo¿liwy sposób.~
++@102
+ == BGLORAN
+-~Spodziewa³em siê takiej odpowiedzi. W pe³ni zgadzam siê z tob¹.~
++@103
+ == BYOSHIM
+-~Mi³o mi z tego powodu szlachetny wojowniku.~
++@104
+ EXIT
+ 
+ // minsc
+@@ -379,14 +359,12 @@
+ !StateCheck("Minsc",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("MinscGloranTalk2","LOCALS",0)~ THEN BGLORAN GloranMinscTechnika 
+-~Minscu zaciekawi³ mnie sposób w jaki walczysz. Jest naprawdê skuteczny. Mo¿e móg³byœ mi udzieliæ 
+-
+-kilku wskazówek?~
++@105
+ DO ~SetGlobal("MinscGloranTalk2","LOCALS",1)~
+ == BMINSC
+-~To bardzo proste, Boo wskazuje, a ja wale!~
++@106
+ == BGLORAN
+-~Naprawdê imponuj¹ca technika.~
++@107
+ EXIT
+ 
+ CHAIN
+@@ -395,20 +373,20 @@
+ !StateCheck("Minsc",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("MinscGloranTalk3","LOCALS",0)~ THEN BGLORAN GloranMinscChory 
+-~Minscu czy ty aby na pewno dobrze siê czujesz?~
++@108
+ DO ~SetGlobal("MinscGloranTalk3","LOCALS",1)~
+ == BMINSC
+-~Nie jestem ranny, Boo mówi, ¿e te¿ nie jest ranny.~
++@109
+ == BGLORAN
+-~No w³aœnie rozmawiasz z chomikiem.~
++@110
+ == BMINSC
+-~Czy to coœ dziwnego?~
++@111
+ == BGLORAN
+-~Tak, normalni ludzie nie rozmawiaj¹ z chomikami.~
++@112
+ == BMINSC
+-~Boo uwa¿a mnie za normalnego.~
++@113
+ == BGLORAN
+-~Ech...~
++@114
+ EXIT
+ 
+ CHAIN
+@@ -417,22 +395,20 @@
+ !StateCheck("Minsc",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("MinscGloranTalk4","LOCALS",0)~ THEN BGLORAN GloranMinscChomik
+-~Czy ten twój Boo posiada jakieœ magiczne w³aœciwoœci?~
++@115
+ DO ~SetGlobal("MinscGloranTalk3","LOCALS",1)~
+ == BMINSC
+-~Oczywiœcie, Boo jest przecie¿ miniaturk¹ gigantycznego kosmicznego chomika!~
++@116
+ == BGLORAN
+-~A wiêc co on potrafi?~
++@117
+ == BMINSC
+-~Posiada moce które twoje oko nie dostrzega, a s³owa Boo docieraj¹ tylko do uszu Minsca.~
++@118
+ == BGLORAN
+-~Jak to jest, ¿e tylko ty mo¿esz go us³yszeæ?~
++@119
+ == BMINSC
+-~Poniewa¿ tylko Minsc potrafi go zrozumieæ. Poniewa¿ Minsc jest Boo, tak samo jak Boo jest 
+-
+-Minsciem.~
++@120
+ == BGLORAN
+-~Acha...~
++@121
+ EXIT
+ 
+ CHAIN
+@@ -444,16 +420,16 @@
+ CombatCounter(0)
+ !StateCheck("Jan",STATE_SLEEPING)
+ Global("MinscGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranMinscJanBoo 
+-~Minsc czy to nie jest czasami twój chomik?~
++@122
+ DO ~SetGlobal("MinscGloranTalk1","LOCALS",1)~
+ == BMINSC
+-~Dziwne jak Boo dosta³ siê do twojego plecaka krasnoludzie?~
++@123
+ == BGLORAN
+-~Nie wiem, powinieneœ go bardziej pilnowaæ. No i radzi³bym ci uwa¿aæ na Jana.~
++@124
+ == BJAN
+-~To by³a tylko nieoczekiwana zamiana miejsc. Chyba siê na mnie nie gniewasz Minscu?~
++@125
+ == BMINSC
+-~Jeszcze jeden taki numer, a nie ominie ciê kilka celnych kopniaków!~
++@126
+ EXIT
+ 
+ // anomen
+@@ -463,20 +439,16 @@
+ !StateCheck("Anomen",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("AnomenGloranTalk2","LOCALS",0)~ THEN BGLORAN GloranAnomenRycerz
+-~Zapewne bra³eœ udzia³ w wielu bitwach i pojedynkach. Mo¿e d¹³byœ mi jak¹œ dobr¹ radê?~
++@127
+ DO ~SetGlobal("AnomenGloranTalk2","LOCALS",1)~
+ == BANOMEN
+-~Owszem, jedn¹ z najtrudniejszych bitew by³a walka przeciw olbrzymom ska³o¿erom.~
++@128
+ == BGLORAN
+-~Mój klan chêtnie organizowa³ wyprawy przeciw olbrzymom. Na ten temat wiem prawie wszystko wiêc 
+-
+-nie wysilaj siê...~
++@129
+ == BANOMEN
+-~Œmiesz w¹tpiæ w moje umiejêtnoœci?~
++@130
+ == BGLORAN
+-~Tak, jeœli chodzi o kwestie olbrzymów to krasnoludzcy wojownicy s¹ w tej dziedzinie ekspertami. 
+-
+-Wy ludzie nie macie o tym zielonego pojêcia.~
++@131
+ EXIT
+ 
+ CHAIN
+@@ -485,20 +457,20 @@
+ !StateCheck("Anomen",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("AnomenGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranAnomenDuma
+-~Jesteœ bardzo dumnym wojownikiem Anomenie.~
++@132
+ DO ~SetGlobal("AnomenGloranTalk1","LOCALS",1)~
+ == BANOMEN
+-~Tak to prawda.~
++@133
+ == BGLORAN
+-~To nie by³ komplement.~
++@134
+ == BANOMEN
+-~Co masz na myœli krasnoludzie?~
++@135
+ == BGLORAN
+-~To nieuprzejmie ¿e nazywasz mnie krasnoludem. Ja mam swoje imiê.~
++@136
+ == BANOMEN
+-~Lepiej uwa¿aj co mówisz!~
++@137
+ == BGLORAN
+-~Anomenie oka¿ trochê szacunku dla starszych.~
++@138
+ EXIT
+ 
+ CHAIN
+@@ -507,20 +479,20 @@
+ !StateCheck("Anomen",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("AnomenGloranTalk1","LOCALS",1)~ THEN BGLORAN GloranAnomenZach
+-~Anomenie nie mogê patrzeæ na twoje zachowanie podczas walki...~
++@139
+ DO ~SetGlobal("AnomenGloranTalk1","LOCALS",2)~
+ == BANOMEN
+-~Zamknij siê albo poczujesz mój gniew.~
++@140
+ == BGLORAN
+-~Wybacz mi szlachetny rycerzu. Zrobiê to o co mnie prosisz.~
++@141
+ == BANOMEN
+-~Czy to kolejna z twoich sztuczek?~
++@142
+ == BGLORAN
+-~Kolejna? Nie, stosuje j¹ po raz pierwszy, a poza tym nie jest to ¿adna sztuczka.~
++@143
+ == BANOMEN
+-~Skoro tak...~
++@144
+ == BGLORAN
+-~Wiedzia³em, ¿e siê jakoœ dogadamy.~
++@145
+ EXIT
+ 
+ // jaheira
+@@ -531,18 +503,16 @@
+ TimeOfDay(DAY)
+ CombatCounter(0)
+ Global("JaheiraGloranTalk1","LOCALS",0)~ THEN BGLORAN JaheiraProblem 
+-~Jaki piêkny dzieñ na przygodê, a patrzeæ na pani¹ to jak na piêkny trójmasztowiec z nowymi 
+-
+-¿aglami.~
++@146
+ DO ~SetGlobal("JaheiraGloranTalk1","LOCALS",1)~
+ == BJAHEIR
+-~Niech pan zachowa te tanie komplementy dla portowych panienek.~
++@147
+ == BGLORAN
+-~Pani rani me serce, ja zawsze mówiê to co mi w duszy gra.~
++@148
+ == BJAHEIR
+-~Naprawdê?~
++@73
+ == BGLORAN
+-~Hehe, nie tylko ¿artowa³em. Ale ubaw!~
++@149
+ EXIT
+ 
+ CHAIN
+@@ -552,16 +522,16 @@
+ CombatCounter(0)
+ TimeOfDay(DAY)
+ Global("JaheiraGloranTalk1","LOCALS",1)~ THEN BGLORAN JaheiraProblem2 
+-~Cudowny dzieñ nieprawda¿?~
++@150
+ DO ~SetGlobal("JaheiraGloranTalk1","LOCALS",2)~
+ == BJAHEIR
+-~Nawet siê nie wysilaj, twoje poczucie humoru jest godne po¿a³owania.~
++@151
+ == BGLORAN
+-~Wy druidzi nie znacie siê na ¿artach.~
++@152
+ == BJAHEIR
+-~To samo mogê powiedzieæ o krasnoludach.~
++@153
+ == BGLORAN
+-~W przysz³oœci postaram siê wymyœliæ coœ bardziej œmiesznego.~
++@154
+ EXIT
+ 
+ // mazzy
+@@ -572,18 +542,18 @@
+ !StateCheck("Mazzy",STATE_SLEEPING)
+ CombatCounter(0)
+ Global("MazzyGloranTalk1","LOCALS",0)~ THEN BGLORAN GloranMazzyNiziolki
+-~Nie obraŸ siê Mazzy ale nie przepadam za nizio³kami.~
++@155
+ DO ~SetGlobal("MazzyGloranTalk1","LOCALS",1)~
+ == BMAZZY
+-~Pewnie masz jakieœ uprzedzenia. Wszyscy s¹dz¹, ¿e jesteœmy zwyk³ymi z³odziejami.~
++@156
+ == BGLORAN
+-~Nigdy nie zapomnê jak mnie obrabowali. Ukradli mi nawet skarpety!~
++@157
+ == BMAZZY
+-~Nie mo¿esz oceniaæ nas po jednym incydencie.~
++@158
+ == BGLORAN
+-~Nie muszê chyba dodawaæ, ¿e spotka³o mnie to szeœæ razy.~
++@159
+ == BMAZZY
+-~Eeee... Widocznie nie mia³eœ szczêœcia...~
++@160
+ == BGLORAN
+-~Nie musisz dokañczaæ, wiem co masz na myœli.~
++@161
+ EXIT

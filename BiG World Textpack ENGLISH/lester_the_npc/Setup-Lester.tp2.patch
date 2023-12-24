@@ -1,0 +1,17 @@
+--- Setup-Lester.tp2	Tue Aug 19 17:47:41 2014
++++ C:\BWP Patchstudio\patched files\Setup-Lester.tp2	Sun Aug 17 21:37:06 2014
+@@ -11,6 +11,14 @@
+          ~polish~
+          ~lester_the_npc\polish\Setup.tra~
+ 
++LANGUAGE ~German~
++         ~german~
++         ~lester_the_npc\german\Setup.tra~
++
++LANGUAGE ~English~
++         ~english~
++         ~lester_the_npc\english\Setup.tra~
++
+ BEGIN @0
+ 
+ // Instalacja podklasy

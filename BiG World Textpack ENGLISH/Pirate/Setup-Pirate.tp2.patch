@@ -1,0 +1,14 @@
+--- Pirate\Setup-Pirate.tp2	Sun Apr 14 18:06:11 2019
++++ C:\BWP Patchstudio\patched files\Pirate\Setup-Pirate.tp2	Sun Apr 14 18:49:00 2019
+@@ -11,6 +11,10 @@
+ 	 ~french~
+ 	 ~Pirate/traductions/French/Setup.tra~
+ 
++LANGUAGE ~english~
++	 ~english~
++	 ~Pirate/traductions/English/Setup.tra~
++
+ BEGIN ~Pirate Kit v1.1~
+ 
+ // The following fixes the broken kit.ids so that it can be used to detect kits properly.I stole this improved version from the Ding0.
+

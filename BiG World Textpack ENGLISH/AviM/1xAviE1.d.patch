@@ -1,0 +1,30 @@
+--- AviM\SoA\1xAviE1.d	Wed Sep 23 16:14:32 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviE1.d	Mon Mar 25 11:10:42 2013
+@@ -1,16 +1,16 @@
+ BEGIN 1xAviE1
+ 
+-IF~InParty("AviDV")~ THEN BEGIN 1xAviE1x1
+-SAY~Ach wiêc tutaj jesteœ!~
+-IF~~THEN GOTO 1xAviE1x2
++IF ~InParty("AviDV")~ THEN BEGIN 1xAviE1x1
++SAY @0
++IF ~~ THEN GOTO 1xAviE1x2
+ END
+ 
+-IF~~THEN BEGIN 1xAviE1x2
+-SAY~Nawet nie próbuj nic mówiæ, Avi Maya. Wyczu³em ciê. Twoje istnienie zaburza równowagê. Niewzywana wsta³aœ z martwych, wêdrujesz z ¿ywymi, ingerujesz w nasz œwiat nawet siê z tym nie kryj¹c!~
+-IF~~THEN GOTO 1xAviE1x3
++IF ~~ THEN BEGIN 1xAviE1x2
++SAY @1
++IF ~~ THEN GOTO 1xAviE1x3
+ END
+ 
+-IF~~THEN BEGIN 1xAviE1x3
+-SAY~Zgiñ! Ku czci Kelemvora!~
+-IF~~THEN DO ~Enemy()~ EXIT
+-END
+\ No newline at end of file
++IF ~~ THEN BEGIN 1xAviE1x3
++SAY @2
++IF ~~ THEN DO ~Enemy()~ EXIT
++END

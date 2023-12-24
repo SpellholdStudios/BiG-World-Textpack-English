@@ -1,0 +1,449 @@
+@1 = ~Adventurer's Cuisine~
+//ITM
+@1000 = ~Dry Rations~
+@1001 = ~Dry Rations
+Food bag containing salted, smoked and dried beef, dried fruits and wheat flour. When required the flour, which can be kneaded into dough with a little water, is cooked over an open flame with a pan to make bread, which is then eaten with the beef for an all round meal covering basic nutritional requirements.
+
+STATISTICS:
+Weight: 1
+
+Special Skills:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 10% points~
+@1002 = ~Pure Water~
+@1003 = ~Pure Water
+This water has been boiled and distilled, making it safe for drinking.
+
+STATISTICS:
+Weight: 1
+
+Special Skills:
+Thirst: Recovers 8 points
+Fatigue: Recovers up to 10% points~
+//DAILY
+@1010 = ~Roasted bird spider~
+@1011 = ~Roasted bird spider
+A common misconception about "Bird Spiders" is that their name stems from the presence of feathers on their body, or their ability to fly. On the contrary, their name stems from the way they taste after they are cooked! Taste like chicken!
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 4 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 4 hours~
+@1012 = ~Chicken soup~
+@1013 = ~Chicken soup
+Soup cooked with large chunks of chicken, eggs, thyme, carrots, sweet corn and cabbage. Stirred with flour to thicken and served while hot.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Thirst: Recovers 4 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 8 hours~
+@1014 = ~Venison sausage~
+@1015 = ~Venison sausage
+This sausage is made from venison. The sausages are evenly browned in oil, taking care not to split the skins. Then sauteed onions and garlic are added. Some Amnish chefs, catering for high society of course, prefer to braise the sausages in a local brew called Devil's mead, earning the name "Devil's Tail" for the sausages.
+
+STATISTICS:
+Weight: 1
+
+Special Skills:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 6 hours~
+@1016 = ~Garlic rye bread~
+@1017 = ~Garlic rye bread
+Rye bread cooked in butter and garlic and then topped off with melted cheese.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 10%~
+@1018 = ~Pudding bread~
+@1019 = ~Pudding bread
+Tapioca, specially imported from Maztica, cooked with bread, apples, pineapples and bananas into a pudding.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 10%~
+@1020 = ~Turnip steak~
+@1021 = ~Turnip steak
+A favorite among gnomes, this a fillet of meat,  usually beef cooked with sauteed turnips, topped with essence of turnip (a sauce) and served with turnip fries and turnip juice.  
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 6 hours~
+@1022 = ~Cheese apple~
+@1023 = ~Cheese apple
+Little holes are made in these apples which are then filled with molten Swimkoff sweet cheese, to make a tantalizing dessert.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 6 hours~
+@1024 = ~Beef steak~
+@1025 = ~Beef steak
+An old fashioned beef steak, with fried onions, garlic and potatos.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 30%
+Luck: Improves +2 for 6 hours~
+@1026 = ~Roasted pigeon~
+@1027 = ~Roasted pigeon
+Roasted pigeon, served with fresh tomato, nimbus grass and goat cheese.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 6 hours~
+@1028 = ~Fried Rice with Herring~
+@1029 = ~Fried Rice with Herring
+Pickled herrings, served with onions and carrots and, of course, white rice.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 8 hours~
+@1030 = ~Pork strips~
+@1031 = ~Pork strips
+Marinated in a special recipe, covered in tangy batter, these slices are fried, making them nice and crunchy!
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 6 hours~
+@1032 = ~Rum~
+@1033 = ~Liquor
+Liquor based on a colorless spirit, with gin, nutmeg and cinnamon added. Cool, transparent, sweet alcohol.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 1 point~
+@1034 = ~Dried fish~
+@1035 = ~Dried fish
+This dried fish, drenched in unique spices.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 4 points
+Fatigue: Recovers up to 10%
+Luck: Improves +1 for 4 hours~
+@1036 = ~Apple juice­~
+@1037 = ~Apple juice­
+Freshly squeezed apple juice, both sweet and refreshing.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 8 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 8 hours~
+@1038 = ~Honey turkey drumsticks~
+@1039 = ~Honey turkey drumsticks
+Turkey drumsticks with baked potatoes, topped with a lemon and honey sauce.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 6 hours~
+@1040 = ~Badger with mashed potatoes~
+@1041 = ~Badger with mashed potatoes
+Minced badger, with sides of mashed potatoes, and oats. A poor group's meal.
+
+STATISTICS:
+Weight: 6
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 8 hours~
+@1042 = ~Spiced lobster~
+@1043 = ~Spiced lobster
+Steamed lobster, cooked with exotic spices.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 30%
+Luck: Improves +2 for 6 hours~
+@1044 = ~Jakarta~
+@1045 = ~Jakarta
+Local plant sap, leaves and vines brewed into a beverage called Jakarta.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 8 points
+Fatigue: Recovers up to 30%
+Luck: Improves +2 for 8 hours~
+@1046 = ~Sajji~
+@1047 = ~Sajji
+A whole sheep or lamb, cooked on a spit, and stuffed with chicken, pheasant, turkey, potatos, rice, spinach and onions. Cooked in a garlic marinate. A delicacy originating from Samarach.
+
+STATISTICS:
+Weight: 6
+
+Special Abilities:
+Hunger: Recovers 8 points
+Thirst: Recovers 4 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 8 hours~
+@1048 = ~Bacon rolled in eggplant~
+@1049 = ~Bacon rolled in eggplant
+Fried bacon with butter and honey, rolled up in a cut eggplant, cooked with a charcoal barbecue.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 6 hours~
+@1052 = ~Seafood Chowder~
+@1053 = ~Seafood chowder
+Grilled dolphins and crayfish minced with meat sauce.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 6 hours~
+@1054 = ~Lemonade~
+@1055 = ~Lemonade
+Juice of freshly squeezed lemons with honey mixed with pure water.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Recovers 8 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 8 hours~
+@1056 = ~Shark steak~
+@1057 = ~Shark steak
+Served with asparagus and sliced tomatoes, and some maida bread.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 30%
+Luck: Improves +2 for 6 hours~
+@1058 = ~"Sheepdog" meatloaf~
+@1059 = ~"Sheepdog" meatloaf
+Bull meat, peas and turnip sauce.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 6 hours~
+@1060 = ~Fig pie~
+@1061 = ~Fig pie
+Pie made up with figs and palm dates.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 8 hours~
+@1062 = ~Deer skewers~
+@1063 = ~Deer skewers
+Freshly killed venison, skewered, lacquered in special oils and then barbecued.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 6 hours~
+@1064 = ~Grilled snake~
+@1065 = ~Grilled snake
+Snake braised in spirits, with sides of olives and pickled lemon.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 4 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 4 hours~
+@1066 = ~Lao Shurou stew~
+@1067 = ~Lao Shurou stew
+A cauldron of Lao Shurou emitting a seductive aroma.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 10%
+Luck: Improves +1 for 8 hours~
+@1068 = ~Porridge of coconut and salted fish~
+@1069 = ~Porridge of coconut and salted fish
+Salted fish and coconut, pounded into a paste.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Thirst: Recovers 4 points
+Fatigue: Recovers up to 10%
+Luck: Improves +1 for 8 hours~
+@1070 = ~Shortcake~
+@1071 = ~Shortcake
+Shortcake made with almonds, pine nuts and honey.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 4 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 4 hours~
+@1072 = ~Liquor~
+@1073 = ~Liquor
+Pub-brewed liquor, with a dry taste.
+
+STATISTICS:
+Weight: 1~
+@1074 = ~Cheese bread~
+@1075 = ~Cheese bread
+Baked goat cheese, roasted pear and bread.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 20%
+Luck: Improves +1 for 8 hours~
+@1076 = ~Sea turtle soup~
+@1077 = ~Sea turle soup
+Shelled sea turles boiled to make soup, scooped on toast. Fresh, cheap food for a large party.
+
+STATISTICS:
+Weight: 6
+
+Special Abilities:
+Hunger: Recovers 8 points
+Thirst: Recovers 4 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 8 hours~
+@1078 = ~Bread and dip~
+@1079 = ~Bread and dip
+Hard bread, accompanied by a sauce made of onions and fennel.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 8 points
+Fatigue: Recovers up to 10%~
+@1080 = ~Buttered corn~
+@1081 = ~Buttered corn
+Golden sweet corn, slowly cooked over an open flame, served with peanut butter and peppermints.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Hunger: Recovers 6 points
+Fatigue: Recovers up to 20%~
+@1082 = ~Strawberry yogurt~
+@1083 = ~Strawberry yogurt
+Strawberry extract blended in yogurt.
+
+STATISTICS:
+Weight: 1
+
+Special Abilities:
+Thirst: Restores 4 points
+Fatigue: Recovers up to 30%
+Luck: Improves +1 for 4 hours~
+////MISC7U GBERRY
+@1100 = ~Good Berry~
+@1101 = ~Good Berry
+Created by the Goodberry spell, these simple looking blueberries will heal one point of damage for each handfull of berries eaten.
+
+STATISTICS:
+Hunger: Recovers 1 point
+Thirst: Recovers 1 point~
+//BAF
+@10000 = ~(non-fatal injury due to excessive hunger)~
+@10001 = ~(non-fatal injury due to excessive thirst)~
+@10002 = ~(Strength decreases)~
+@10003 = ~(Dexterity decreases)~
+@10004 = ~(Leading to death due to dehydration and starvation)~
+
+@10005 = ~It tastes good.~
+@10006 = ~My thirst is quenched.~
+
+@10007 = ~(Restore non-fatal injury due to hunger)~
+@10008 = ~(Restore non-fatal injury due to thirst)~
+@10009 = ~(Restore physical fitness)~
+
+@10010 = ~(Already full)~
+@10011 = ~(Not thirsty)~
+@10012 = ~(You feel uncomfortable, your stomach is bulging)~
+//
+@10100 = ~(hunger full value)~
+@10101 = ~(hunger is less than 24)~
+@10102 = ~(hunger is less than 16)~
+@10103 = ~(hunger is less than 8)~
+@10104 = ~(hunger is less than 0)~
+//
+@10200 = ~(thirst full value)~
+@10201 = ~(thirst is less than 24)~
+@10202 = ~(thirst is less than 16)~
+@10203 = ~(thirst is less than 8)~
+@10204 = ~(thirst is less than 0)~

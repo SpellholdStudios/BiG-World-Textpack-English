@@ -1,0 +1,124 @@
+@0    = ~Avi Maya NPC SoA/ToB~
+@1    = ~Wymagany Tron Bhaala~
+@2    = ~Pieœñ Tchnienia~
+@3    = ~Pieœñ ta sprawia, ¿e martwi wstaj¹ z grobu~
+@4    = ~Pieœñ Tañcz¹cego Ch³odu~
+@5    = ~Dziêki tej pieœni Avi Maya chroniona jest przez tañcz¹cy lodowaty p³omieñ.~
+@6    = ~Pieœñ P³aczu~
+@7    = ~Dziêki tej pieœni Avi Maya obezw³adnia wrogów.~
+@8    = ~Pieœñ Ostro¿noœci~
+@9    = ~Dziêki tej pieœni Avi Maya wykrywa pu³apki.~
+@10   = ~Dr¿¹ca Forma~
+@11   = ~Dziêki tej pieœni Avi Maya dr¿y.~
+@12   = ~Krzyk piekielnej zjawy~
+@13   = ~Dziêki tej umiejêtnoœci Avi Maya zabija wrogów.~
+@14   = ~Spojrzenie zjawy~
+@15   = ~Dziêki tej umiejêtnoœci Avi Maya patrzy na wrogów z niszcz¹c¹ moc¹.~
+@16   = ~Dotyk Avi Mayi~
+@17   = ~Dziêki tej umiejêtnoœci Avi Maya dotyka wrogów z niszcz¹c¹ moc¹.~
+@18   = ~Kl¹twa Avi Mayi~
+@19   = ~Dziêki tej umiejêtnoœci Avi Maya przeklina wrogów z niszcz¹c¹ moc¹.~
+@20   = ~Avi Maya~
+@21   = ~Zapytana o przesz³oœæ AVI MAYA, spogl¹da na ciebie w dziwny sposób. Mówi, ¿e zanim sta³a siê nieumar³ym by³a zwyczajn¹, ma³o znan¹ bardk¹. W sumie dalej ni¹ jest tyle, ¿e teraz ³atwiej j¹ zapamiêtaæ. W koñcu ilu jest nieumar³ych œpiewaków. Avi Maya mówi tak¿e, i¿ posiada³a brata - Dosta. Nie posiadali rodziców. To jest jednak dawne ¿ycie Avi Mayi. Obecnie nie ma nikogo bliskiego.~
+@22   = ~Nawet umarli czasami siê boj¹!~ [AVI001]
+@23   = ~No to doœæ ¿ywa dru¿yna!~ [AVI002]
+@24   = ~Ech... g³upio robimy...~ [AVI003]
+@25   = ~Zaprzedajecie swoj¹ duszê demonom!?~ [AVI004]
+@26   = ~Koniec tego! Duszyczka odchodzi!~ [AVI005]
+@27   = ~Umar³a dziewczyna na czele!~ [AVI006]
+@28   = ~Odpocznijmy. Utrzymanie tej formy jest mêcz¹ce...~ [AVI007]
+@29   = ~Paj¹czek, deszczyk, zmar³y œpi...~ [AVI008]
+@30   = ~Aa!~ [AVI009]
+@31   = ~Nie! Moja forma...~ [AVI010]
+@32   = ~Moja struktura! Rozpadam siê!~ [AVI011]
+@33   = ~Czego dusza pragnie?~ [AVI012]
+@34   = ~Hmm?~ [AVI013]
+@35   = ~Co znowu, zdechlaku? Oj, z³e okreœlenie...~ [AVI014]
+@36   = ~Gdybym by³a ¿ywa, to bym siê wyk¹pa³a.~ [AVI015]
+@37   = ~Czegoœ pragniesz, ¿ywy?~ [AVI016]
+@38   = ~Na z³amanie karku!~ [AVI017]
+@39   = ~Robi siê!~ [AVI018]
+@40   = ~Na ³eb, na szyjê!~ [AVI019]
+@41   = ~Dobra, dobra... i po co zak³ócaæ spokój zmar³ych...~ [AVI020]
+@42   = ~Poca³uj mnie w duszê!~ [AVI021]
+@43   = ~Hihi...~ [AVI022]
+@44   = ~Ze mnie to niez³a martwa natura, co nie?~ [AVI023]
+@45   = ~Gdyby nie ja to dawno byœ ju¿ by³ martwy.~ [AVI024]
+@46   = ~Zadbaj o siebiê! Chcesz wygl¹daæ jak ja?!~ [AVI025]
+@47   = ~Czemu to nie dzia³a?! Duszyczka jest nieskuteczna?!~ [AVI026]
+@48   = ~Tu œmierdzi ¿yciem...~ [AVI027]
+@49   = ~Duszyczka zawsze sprawna! Duszyczka zawsze zabójcza!~ [AVI028]
+@50   = ~Tak spud³owaæ...~ [AVI029]
+@51   = ~Tu œmierdzi jak w grobowcu mojego s¹siada... ~ [AVI030]
+@52   = ~Ach, ³adny dzionek...~ [AVI031]
+@53   = ~Mmm... piêkna noc... a¿ chce siê odwiedziæ jakiœ cmentarz...~ [AVI032]
+@54   = ~To co, z³amiemy parê kosteczek?~ [AVI033]
+@55   = ~Zaraz zobaczymy co masz w œrodku!~ [AVI034]
+@56   = ~No, no, no! Taka masa jak ty nieŸle walnie o ziemiê!~ [AVI035]
+@57   = ~Zielono, zielono! Lasy s¹ takie "uduchowione"!~ [AVI036]
+@58   = ~Avi Maya ma now¹ zabaweczkê!~ [AVI038]
+@59   = ~Cornelius~
+@60   = ~Kania~
+@61   = ~Boddi~
+@62   = ~Fanatyczny Kap³an~
+@63   = ~Bobi~
+@64   = ~Amorak~
+@65   = ~Ubranie Avi Mayi~
+@66   = ~Ubranie Avi Mayi
+
+Jest to ubranie w którym Avi Maya zosta³a pochowana. Za ¿ycia by³a to jej ulubiona kolczuga. Nigdy siê z nia nie rozstawa³a. Nawet po œmierci dobrze jej s³u¿y, aczkolwiek w tym wypadku s³owa "zbroja ma mnie chroniæ przed œmierci¹" nabra³y nowego znaczenia.~
+@67   = ~£uk Avi Mayi~
+@68   = ~£uk Avi Mayi
+
+Jest to ukochana broñ Avi. To dziêki niej za ¿ycia i nie¿ycia pokonuje wrogów. Broñ ta jest niezwykle piêkna i posiada cz¹stkê duszy Avi Mayi. £uk wystrzeliwuje duchowe strza³y o tajemniczej sile.~
+@69   = ~Skrystalizowana Krew~
+@70   = ~Skrystalizowana Krew
+
+Jest to przedmiot stworzony przez Avi Mayê. Jego przeznaczeniem jest pomaganie kompanom, ale wiadome jest, ¿e naprawdê chcia³a by by³ on u¿ywany przez <CHARNAME>. To specjalnie dla niego wezwa³a t¹ magiczn¹ broñ. Jest to potê¿na broñ której moc mo¿na wezwaæ do wykonywania ataków dystansowych. Jego moc jest dzika, tak wiêc zapanowanie nad broni¹ jest doœæ trudne.
+
+STATYSTYKI:
+
+Obra¿enia: 1k4 + 3
+Trak0: +3 w zwarciu / +5 jako broñ miotana
+Dodaje 10 do P¯
+Premia 1 do klasy pancerza
+Dodaje 3/2 ataku na rundê
+Szybkoœæ: 0
+Waga: 1
+Mo¿e u¿ywaæ: 
+Ka¿dy~
+@71   = ~£uk Avi Mayi
+
+Jest to ukochana broñ Avi. To dziêki niej za ¿ycia i nie¿ycia pokonuje wrogów. Broñ ta jest niezwykle piêkna i posiada cz¹stkê duszy Avi Mayi. £uk wystrzeliwuje duchowe strza³y o tajemniczej sile.
+
+Dziêki bliskiej obecnoœci naczynia z magicznie przechowywan¹ dusz¹ ten ³uk nabra³ astralnej mocy. Sta³ siê bardziej zabójczy.~
+@72   = ~£uk Avi Mayi
+
+Jest to ukochana broñ Avi. To dziêki niej za ¿ycia i nie¿ycia pokonuje wrogów. Broñ ta jest niezwykle piêkna i posiada cz¹stkê duszy Avi Mayi. £uk wystrzeliwuje duchowe strza³y o tajemniczej sile.
+
+Dziêki bliskiej obecnoœci naczynia z magicznie przechowywan¹ dusz¹ ten ³uk nabra³ astralnej mocy. Sta³ siê bardziej zabójczy.
+
+£uk ten tak¿e wch³on¹³ esencjê awatara Kelemvora. Uczyni³o to ³uk szybszym, celniejszym i potê¿niejszym.~
+@73   = ~Nieumar³y Dost~
+@74   = ~Czaszka Dosta~
+@75   = ~Czaszka Dosta
+
+Jest to wszystko co zosta³o z Dosta - brata Avi Mayi - który zosta³ magicznie zamieniony w nieumar³ego. T¹ czaszkê musimy dostarczyæ jego przyjacielowi w œwi¹tyni w Targowie.~
+@76   = ~Dost~
+@77   = ~Enigma Avi~
+@78   = ~Pieœñ ta sprawia, ¿e Avi wysysa duszê wroga.~
+@79   = ~Szalona dusza kap³ana~
+@80   = ~Awatar~
+@81   = ~Obr¹czka Avi~
+@82   = ~Obr¹czka Avi
+
+To obr¹czka stworzona z esencji Bhaala. Tak naprawdê jest to uschniêta dusza kwiatu która zosta³a uwieczniona przez duszê <CHARNAME>. To symbol mi³oœci <CHARNAME> do Avi Mayi.~
+@83   = ~Decyzja zosta³a podjêta. Po ostatniej rozmowie <CHARNAME> i Avi Mayi wszystko sta³o siê jasnê. Zdecydowa³eœ siê zostaæ Panem Mordu, a kochaj¹ca ciê Avi po³¹czy³a siê z twoj¹ dusz¹. Przez eony czujesz jej ciep³o jako cz¹stkê samego siebie. Wiesz, ¿e to ona.~
+@84   = ~Avi Maya zosta³a z tob¹ na ziemi. Niestety nigdy jej nie zaakceptowano. Nie chodzi nawet o jej dziwne zachowanie lecz o formê jej istnienia. Staliœcie siê celem paladynów.  Uciekanie sta³o siê waszym ¿yciem. Przez wiele lat ukrywaliœcie siê w ró¿nych miejscach. Odwiedzaliœcie Podmrok, Waterdeep, Kara-Tur, a nawet Rashemen - krainê duchów. Za wami zawêdrowa³ fanatyk Kelemvora. Podczas walki przebi³ twe cia³o mieczem, jednak... Twoje ¿ycie siê nie skoñczy³o... Us³ysza³eœ œpiew artystki. Œpiew barda... Kobiety... Ten œpiew sprowadzi³ twoj¹ duszê... ~
+@85   = ~Avi Maya - zlodziej/mag~
+@86   = ~Alternatywna Avi Maya~
+@87   = ~Czesc glowna nie zostala zainstalowana~
+@88   = ~Avi Maya - zlodziej (zawadiaka)~
+@89   = ~Avi Maya - subtelniejszy portret~
+@90   = ~Alternatywny Portret~
+@91   = ~Avi Maya - portret bazuj¹cy na Sharwyn z NWN~

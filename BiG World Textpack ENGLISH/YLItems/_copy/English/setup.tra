@@ -1,0 +1,1455 @@
+@1010 = ~Amulet of Tai Chi~
+@1020 = ~This amulet belonged to the immortal Sanfeng. An ordinary item when it was made, Sanfeng never took it off, and while he gradually gained power, the amulet did so as well. It makes the wearer calm, cool and in control of his mind and body. For "to be master of one's mind is to be master of existence itself" as Sanfeng was fond of saying.
+
+STATISTICS:
+
+Wearer is immune to most psionic effects, timestop, silencing spells and decapitation. 
++1 Bonus to AC, 
+Save vs. spell bonus +5, 
+Magic resistance bonus +10, 
+1 HP regeneration per second~
+@1030 = ~Mages' Bounty~
+@1040 = ~In Shou Lung, magic is recognised as a great blessing and is widespread. Talent varies from extremely powerful magicians to those who can cast a few simple cantrips. This necklaces was designed on the orders of the Celestial Emperor to be given to those who had little magic, so that they would not be open to exploitation by those that had more.
+
+STATISTICS:
+
+Armor Class bonus: +1
+Increase casting speed factor: +5
+Increase spells cast per round: 2
+Magic resistance bonus: +20%
+Magic damage resistance bonus: +50%
+
+Only Usable By:
+ Mage
+ Cleric~
+@1050 = ~Talisman of Wisdom~
+@1060 = ~A barbarian tribe residing in Icewind Dale, whose name has been lost to time, created this necklace. The leather straps and simple pendant are indicative of their simple methods. These were used by shamans to increase their wisodm. It was said that they became masters of strategy, predicting outcomes of events simply by ruling out remoter possibilities. Some claimed they even received the gift of foresight when using these because their abilities became so uncanny.
+
+STATISTICS:
+
+Wisdom bonus: +2
+Armor Class bonus: +1
+Saving throw bonus: +1
+Magic resistance bonus: +5%
+Cold/Fire resistance bonus: +10
+Immunity to Charm Person and Hold Person
+
+Usable By:
+ Everyone~
+@1070 = ~Battle Axe +5, The Polymorpher~
+@1080 = ~Battle Axe +5: The Polymorpher
+This Axe is called The Polymorpher, each hit has a chance to polymorph the target into a rabbit, giving the wielder the opportunity to be merciless to a defenseless enemy. Many refuse to use such a weapon, despite it's great power.
+
+STATISTICS:
+
+Equipment abilities:
+ Strength bonus: +2
+ Immunity to Stun
+Special abilities:
+ 15% chance to turn the enemy into a rabbit (saving throw vs. polymorph with a -4 penalty)
+
+THAC0: +5 bonus
+Damage: 1D8 +5, +1D6 fire damage
+Damage type: slashing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Axe
+Type: 1-handed
+Requires: 10 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@1090 = ~The Master's Belt~
+@1100 = ~The Master's Belt
+It is said that this belt belonged to "The Master", a legendary figure who founded Kung Fu, the famous martial art form, practiced in Kara-Tur. Some say it gained power because of The Master's skill, others say it was what gave him power in the first place. Regardless of whether the chicken came before the egg or vice versa, weapons' skills greatly increase when using this item. One cannot gain mastery just by donning it though, but one can get really close...
+
+STATISTICS:
+
+Equipped ability:
+Strength bonus: +2
+
+Special abilities:
+Whe equipped, the wearer gains the first two skill levels with Axe, Bastard Sword, Dagger, Flail, Morning Star, Halberd, Long Bow, Long Sword, Mace, Quarterstaff, Short Sword, Two Handed Sword, Crossbow, War Hammer and two-handed weapon style as well as three levels of skill in two Weapon Style.
+
+Weight: 2~
+@1110 = ~Belt of Balduran~
+@1120 = ~This belt belongs to set, purportedly used by Balduran, the legendary hero. As the story goes, this was one of the few items from the set stolen from Baldur's Gate. It increase resistance to magic attacks as well a breath weapons, and enhances the user's strength, while offering protection against assassins.
+
+STATISTICS:
+
+Strength bonus: +2
+Saving Throw: Save vs. polymorph and Save vs. breath +4 bonus
+Special abilities:
+ Haste
+ Immunity to backstabbing
+ Immunity to Poison and Disease
+
+
+Weight: 2~
+@1122 = ~This belt belongs to set, purportedly used by Balduran, the legendary hero. As the story goes, this was one of the few items from the set stolen from Baldur's Gate. It increase resistance to magic attacks as well a breath weapons, and enhances the user's strength, while offering protection against assassins.
+
+STATISTICS:
+
+Strength bonus: +2
+Saving Throw: Save vs. polymorph and Save vs. breath +4 bonus
+Special abilities:
+ Haste
+ Immunity to backstabbing
+ Immunity to Poison and Disease
+
+
+Weight: 2~
+@1130 = ~The Blessed Belt~
+@1140 = ~The Blessed Belt
+The origins of this belt are not known, and there seem to be few legends associated with it. Supposedly it once belonged to a secret magical sect known as the Five Elements, which once operated in Shou Lung.
+
+STATISTICS:
+
+Equipped ability:
+Armor Class bonus: +3
+Saving Throw bonus: +2
+
+Special abilities:
+25% resistance to elemental and magic damage
+
+Weight: 2~
+@1150 = ~Whirlwind~
+@1160 = ~Whirlwind
+This belt belongs to the famous Kuzuri Mazda, the guildmaster and hero who came up with the Whirlwind attack technique now seen all over Toril and even in other Planes...
+
+STATISTICS:
+
+Equipped ability: 
+Armor Class bonus: +2
+25% resistance to magic damage
+
+Special abilities:
+Immunity to Sleep and Level Drain
+Haste
+
+Weight: 2~
+@1170 = ~The Dancing Butterfly~
+@1180 = ~The Dancing Butterfly
+Sakura, the Dancing Butterfly, is the famous heroine widely known for inventing her own graceful and elegant fighting technique which she used against the Tuigan Hordes to great effect. These belts were created as homage to her great sacrifices.
+
+STATISTICS:
+
+Equipped ability:
+Armor Class bonus: +2
+Magic damage resistance bonus +50%
+Crushing/Piercing/Slashing damage resistance bonus +10%
+
+Weight: 2~
+@1190 = ~Mace of Ecstasy~
+@1200 = ~Mace of Ecstasy +5
+This is a weapon with long history, although no one seems to know aht it is for sure! The most accepted legend says that it comes from the 333rd level of the Abyss, the strange demon skull atop the mace seems to be some proof of that. This weapon gives off an aura of brutality, the sharp angles in the skull cause additional piercing damage. Of course, the most impressive part are the two glowing red eyes, which shimmer as if they still have life.
+
+STATISTICS:
+
+Equipped ability:
+ Immunity to Blindness
+ Extra attack per turn
+ 15% crushing resistance and 25% acid resistance bonus
+
+Special abilities:
+Ecstasy attack: 25% chance to hit with the skull, causing an  		           additional 2D6 damage, and casting Chaos   
+                for 3 turns on target.
+
+THAC0: +5 bonus
+Damage: 1d6 +6, +3 crushing damage and +3 acid damage
+Damage type: Crushing
+Weight: 6
+Speed Factor: 2
+Proficiency Type: Mace
+Type: 1-handed
+Requires: 10 strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+@1210 = ~Bartuc's Fist­~
+@1220 = ~Mace +4: Bartuc's Fist
+With a simple, but powerful, shape, Bartz's Fist is famous for it's participation in many bloody battles. It shown up, many a times, in the hands of both sides during the Blood War.
+
+STATISTICS:
+
+Equipped ability:
+ Armor Class bonus: +2
+ +20% fire resistance
+Special abilities:
+ 5% chance to kill target outright.
+
+THAC0: +4 bonus
+Damage: 1d6 +5, + 1d4 fire damage
+Damage Type: Crushing
+Weight: 6
+Speed Factor: 3
+Proficiency Type: Mace
+Type: 1-handed
+Requires: 10 strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+@1221 = ~Arya's Leather Bracers~
+@1222 = ~Long ago, when the elves first founded Evereska, Arya Finoweil was one of the few elves who ranged into the High Forest. This beautiful and elegant ranger made it her life's mission to serve as a protector of this vast forest. Arya was trained as an excellent swordsman and with her chosen profession, she came in close contact with the druids who taught her many of their secrets. Many legends are associated with Arya, but the most famous one is that of her confrontation with the powerful dragon Salokronathixx-- an ancient red wyrmn in the high Star Mounts located in the middle of High Forest.
+These leather bracers are made with the skilled craftsmanship of the elves.
+
+STATISTICS:
+
+Equipped ability:
+ Armor Class bonus: +1
+ +20% electricity resistance 
+ Less chance of being attacked by wild animals
+
+Weight: 1
+
+Only Usable By:
+ Elf or half elf characters~
+@1223 = ~Greater Bracers of the Blessed~
+@1224 = ~Through a combination of combining two different sets of gloves with different abilities, AND a LOT of gold, the Paladin's bracers has been greatly improved. Not only can it provide healing skills during battles, but it also improves the fighting abilities of the wearer.
+
+STATISTICS:
+
+Equipped ability:
+THAC0: +1 bonus
+Damage: +2 bonus
+Can cast Heal once per day
+Can cast Resurrection once per day
+Increases HP by 10
+Regenerates 1 HP every 2 second
+
+Weight: 1
+
+Usable Only By:
+ Paladin~
+@1225 = ~Mielikki's favor~
+@1226 = ~According to legend, this item belonged to an un-named  heroine, a champion of the goddess Mielikki to her loyal ranger. Whether the legend is true or not is irrelevant, this bracer definitely carries the blessing of the goddess.
+
+STATISTICS:
+
+Equipped ability: 
+ Blessed
+ Regenerates 2 HP every turn
+ Missile weapon damage bonus: +2
+ 10% chance to cast healing magic for serious wounds on being  
+ hit
+
+Armor Class bonus: +2
+Weight: 1
+
+Usable Only By:
+ Ranger~
+@1230 = ~Rogue's Bracers~
+@1240 = ~Rogue's Bracers
+These bracers are found all over Faerun, in the possession of thieves both high and low.
+
+STATISTICS:
+
+Dexterity: +2
+Luck: +5
+Backstabbing: +2
+Attacks per round: +1
+THAC0: +1
+All thief' skills: +20
+Special ability: use items without class restriction
+
+Weight: 1
+
+Only Usable By:
+ Thief~
+@1250 = ~Bracers of Greater Health~
+@1260 = ~Bracers of Greater Health
+These bracers were originally granted by the Temples of Amaunator to their most loyal champions as reward for services rendered. After the reduction and disappearance of Amaunator's worship, they were passed around from person to person, showing up here and there throughout recorded history.
+
+STATISTICS:
+
+Armor Class bonus: +2
+Regenerates 1 HP per second
+Can cast Greater Restoration twice per day
+
+Weight: 2~
+@1270 = ~Bracers of Chivalry~
+@1280 = ~Bracers of Chivalry
+These leather bracers were once part of the armory of the legendary Shou hero, Qiu Ranke. They were enchanted by his mentor: Sakura, the Dancing Butterfly, during their campaign against the Tuigan hordes, augmenting his already formidable skills.
+
+STATISTICS:
+
+Special abilities:
+Armor Class bonus: +1
+Off-hand THAC0 bonus: +2
+Unknown/random bonus to attack damage on each hit when equipped. 
+
+Weight: 2~
+@1300 = ~Arya's Cloak of the Chameleon~
+@1310 = ~Long ago, when the elves first founded Evereska, Arya Finoweil was one of the few elves who ranged into the High Forest. This beautiful and elegant ranger made it her life's mission to serve as a protector of this vast forest. Arya was trained as an excellent swordsman and with her chosen profession, she came in close contact with the druids who taught her many of their secrets. Many legends are associated with Arya, but the most famous one is that of her confrontation with the powerful dragon Salokronathixx-- an ancient red wyrmn in the high Star Mounts located in the middle of High Forest.
+
+Arya's cloak can change colour to match the surrounding environment, like a chameleon (Hence the name.), offering great protection during thieving activities or during battle.
+
+STATISTICS:
+
+Equipped ability:
+Armor Class bonus: +2
+Saving Throw bonus: +2
+Hide in Shadow bonus: +50%
+
+15% chance for the user to turn invisible on being hit.
+
+Not Usable By:
+ Evil characters~
+@1320 = ~Chu Liuxiang's Cloak~
+@1330 = ~Chu Liuxiang's Cloak
+Chu Liuxiang was a jack-of-all-trades and the Celestial Emperor's designated problem-solver about three centuries ago. Many stories and legends exist about this man ranging from taking Tuigan hordes alone to being solely responsible for the greatness of the Shou Empire. Each story is more embellished than the next. This cloak helps to keep the wearer hidden, an ability that Chu apparently used with great effect.
+
+STATISTICS:
+
+Equipped ability:
+Armor Class bonus: +3
+Magic resistance bonus: +15%
+Special abilities:
+Non-detection
+Immunity to Detect Invisible and True Sight when equipped
+Immunity to Dispel Magic and other similar spells
+
+Weight: 1~
+@1340 = ~Cloak of Muchness~
+@1350 = ~Cloak of Muchness
+This cloak has a variety of defensive abilities that would be the envy of any sentient being.
+
+STATISTICS:
+
+Equipped ability:
+Armor Class bonus: +2
+Saving Throw bonus: +2
+Special abilities:
+Haste
+Can cast Simulacrum once per day
+
+Weight: 2~
+@1352 = ~Cloak of Muchness
+This cloak has a variety of defensive abilities that would be the envy of any sentient being.
+
+Equipped ability:
+Armor Class bonus: +2
+Saving Throw bonus: +2
+Special abilities:
+Haste
+Can cast Simulacrum once per day
+
+Weight: 2~
+@1360 = ~Elf's Bane~
+@1370 = ~Club +3: Elf's Bane
+This ugly, thick wood club is of orcish make. It is especially forged to radiate hatred against the most reviled enemies of the orcs: elves. Improving defenses against elvish weaponry and enchanted to cause extra damage to them, this club is every elf's nightmare.
+
+STATISTICS:
+
+Equipped ability:
+ Armor Class bonus for Missile weapons: +5
+Special abilities:
+ +5 damage points to elves
+
+THAC0: +3 bonus
+Damage: 1D6 +3, +3 fire damage points
+Damage Type: Crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Club
+Type: 1-handed
+Requires: 7 strength
+
+Not Usable By:
+ Mage~
+@1380 = ~Fish Maw~
+@1390 = ~Dagger +6: Fish Maw
+This dagger gained it's infamous name when the notorious assassin Fu Su used it to assassinate the eldest son of the Celestial Emperor. He hid the dagger inside a fish and posed as a cook to gain entrance to the prince's quarters. He passed through strict inspections without any problems and successfully carried out his contract. This was the final straw which led to the breakout of war between Shou Lung and Wa during 939 DR.
+
+STATISTICS:
+
+Equipped ability:
+ Dexterity set to 24
+ Immunity to Panic
+ Aid
+Fighting abilities:
+On each hit the target is must make a successful saving throw vs. poison, or suffer an additional 20 points of damage
+
+THAC0: +6 bonus
+Damage: 1d4 +6, +6 poison damage
+Damage Type: Piercing
+Weight: 1
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: 1-handed
+Requires: 3 strength
+
+Not Usable By:
+ Cleric~
+@1400 = ~Fang +4~
+@1410 = ~Dagger +4: Fang
+This dagger's blade was once some gigantic creatures tooth. It pulsates with magical energy which is palpable when the dagger is held.
+
+STATISTICS:
+
+Special abilities:
+ Returns to user's hand when thrown
+ Immunity to Poison
+ 25% chance to poison target
+
+THAC0: +4 bonus
+Damage: 2d4 +4, +4 poison damage
+Damage Type: Missile (Piercing)
+Weight: 1
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: 1-handed
+Requires: 3 strength
+
+Not Usable By:
+ Cleric~
+@1411 = ~Shin guards~
+@1412 = ~Shin Guards of Chivalry~
+@1413 = ~A shin guard is made of leather or metal, and is used as an armor to protect the shin.~
+@1414 = ~These guards belonged to the legendary Shou hero, Qiu Ranke. They were enchanted by his mentor: Sakura, the Dancing Butterfly, during their campaign against the Tuigan hordes, augmenting his already formidable skills. Qiu was an accomplished cavalryman, but the Tuigan's had faster horses, they would hit and run before Qiu had a chance to retaliate and he had no chance of catching up as the Tuigan's would cast defensive magic behind them as they rode away. The Dancing Butterfly made these for Qiu Ranke so that the Tuigan's would be robbed of their advantage.
+
+STATISTICS:
+
+Equipped ability: 
+Users are under the effect of Haste and immune to holding/slowing spells such as Entangle, Grease, Hold, Slow and Web.
+
+Armor Class bonus: +2
+Weight: 3
+
+Usable By:
+ Monk
+ Fighter~
+@1415 = ~Golden Shin Guards~
+@1416 = ~These shin guards belonged to the fallen solar, Izrathaniel, apart of the Golden Armor that he stole from the High Heavens.
+
+STATISTICS:
+
+Equipped ability:
+ Freedom of Movement
+
+Armor Class bonus: +3
+Weight: 8
+
+Usable By:
+ Paladin
+ Fighter~
+@1417 = ~Shi Qian's Leather Leg Guards~
+@1418 = ~The famous thief Shi Qian prized mobility and speed over all else, but he also knew the importance of protection. In an attempt to accomplish both things, he made this lightweight equipment that maintained speed but also offered protection.
+
+STATISTICS:
+
+Equipped ability:
+Armor Class bonus: +2
+Stealth bonus: +50
+Haste
+
+Weight: 3
+
+Only Usable By:
+ Thief~
+@1420 = ~Headband of the Hero~
+@1430 = ~Also known as the Wiping Headband (For reasons unknown.) This item gained fame not because it was powerful but because of who wore it. This was worn by General Ruun Bao,  during the Lang Chan Ko war with Wa. The war broke out when the crown prince, the eldest son of the Celestial Emperor was assassinated and Wa was implicated. Hostilities broke out immediately and the Emperor's second son, and now, heir was caught inside Wa on a state visit. He was surrounded by over two hundred troops and had little chance of escape. Ruun Bao, not only rescued the prince with only 17 men, he also killed more than half of the attacking force. His courage, loyalty and skill became legend which endures to this day.
+
+STATISTICS:
+
+Equipped ability:
+ Immunity to Panic and Blindness
+ Saving Throw bonus: +1
+ Magic resistance bonus: +5%
+Special ability:
+ Protects Against Critical Hits
+
+Weight: 1
+
+Not Usable By:
+ Mage~
+@1440 = ~Mask~
+@1450 = ~Golden Mask~
+@1460 = ~Masks are usually made of fabric, leather or metal, mostly used in drama.~
+@1470 = ~This mask belonged to the fallen solar, Izrathaniel, a part of the Golden Armor that he stole from the High Heavens.
+
+STATISTICS:
+
+Equipped ability:
+ Charisma bonus +2
+ Changing Electricity resistance bonus
+
+Armor Class bonus: +2
+Saving Throw bonus: +1
+Magic resistance bonus: +5%
+Special capabilities:
+ Protection Against Critical Hits
+Weight: 1
+
+Not Unable By:
+ none~
+@1480 = ~Redeemed Golden Crest~
+@1490 = ~This helmet is made of some sort of gold alloy and was part of a set of armor called the Golden Armor. This armor was forged in the High Heavens for it's foremost champion, and it was stored there, ready to be bestowed on whoever the over-god, Ao, wished. However, Izrathaniel coveted the armor, and, unable to resist temptation, one day he stole it and escaped to the Prime Material Plane. The forces of the High Heavens dogged him at every step, however, so he made deals with the demons of the Abyss and took up residence there to escape Heaven's wrath. The Golden Armor was lost piece by piece and some parts have found their way back to the Prime Material Plane.
+
+The helm has been cleaned with holy water. It has regained some of the power it lost to the sins that were committed by Izrathaniel.
+
+STATISTICS:
+
+Equipped ability:
+ Casting speed factor +2
+ Protection Against Evil
+
+Armor Class bonus: +2
+Saving Throw bonus: +1
+Fire resistance bonus: +20%
+Cold resistance bonus: +20%
+Magic resistance bonus: +10%
+Special abilities:
+ Protection Against Critical Hits
+
+Weight: 3
+
+Usable By:
+ Good aligned cleric
+ Paladin~
+@1491 = ~Tainted Golden Crest~
+@1492 = ~This helmet is made of some sort of gold alloy and was part of a set of armor called the Golden Armor. This armor was forged in the High Heavens for it's foremost champion, and it was stored there, ready to be bestowed on whoever the over-god, Ao, wished. However, Izrathaniel coveted the armor, and, unable to resist temptation, one day he stole it and escaped to the Prime Material Plane. The forces of the High Heavens dogged him at every step, however, so he made deals with the demons of the Abyss and took up residence there to escape Heaven's wrath. The Golden Armor was lost piece by piece and some parts have found their way back to the Prime Material Plane.
+
+The helm is tainted by the sins of Izrathaniel and has lost much of it's power.
+
+STATISTICS:
+
+Equipped ability:
+
+Armor Class bonus: +2
+
+Special:
+ Protection Against Critical Hits
+
+Weight: 3
+
+Only Usable By:
+ Fallen Paladin~
+@1500 = ~Hood of Sorcery~
+@1502 = ~This cloth hood provides little in the way of protection against weapons, it's magic is primarily directed at strengthening magical skills.~
+@1505 = ~Wild Mage Essentials~
+@1510 = ~This hood was designed to be mass produced by a small business conglomertate in Sembia. Wild magic was a relatively undiscovered field because of it's unpredicatability. The idea was to channel it so that the wild mage had higher chances of achieving better results. It was a good idea, however, wild magic never really became mainstream, so the business suffered huge losses and shut down.
+
+STATISTICS:
+
+Equipped ability:
+Increases the number of spells by 1 for each level from 1 to 6
+Regenerates 2 HP every round
+Immunity to Stun
+ 
+Armor Class bonus: none
+Saving Throw bonus: +1
+Magic resistance bonus: +5%
+
+Weight: 5
+
+Only Usable By:
+ Wild mage~
+@1520 = ~Antheraea Yamamai Armor~
+@1530 = ~Antheraea Yamamai Armor
+Rangers in Kara-Tur pride themselves on their speed and agility. Armor is cumbersome and therefore largely not used. Dexterity to dodge and attack, as quick as lighting is considered a better defense. However, armor is armor, and a Smith-Mage had the idea to craft armor that provides protection, but also preserves speed, and she came up with this, the Antheraea Yamamai. Not only this, but the wearer can also withstand hot and cold environments. There are many legends with regards to the manufacture of this armor, the only thing that is known for certain is that spider silk is definitely used. These armors are precious and those who have them generally keep quiet about it. For owning an Antheraea Yamamai can bring a host of thieves and thugs to the doorstep.
+
+STATISTICS:
+
+Special ability: 
+
+Wearer receives high level dodge skills (universal saving throws bonus +2, missile resistance bonus) unless they are a thief
+
+Fire/Cold/Acid resistance bonus +50%, 
+Physical attacks resistance bonus +10%.
+
+Armor Class bonus: -2
+Weight: 3
+Requires: nothing
+
+Not Usable By:
+ none~
+@1540 = ~Revered Unicorn armor~
+@1550 = ~This leather armor is very rare. Although unicorns can be killed and an armor forged from the leather obtained, it doesn't retain much magic. The Revered armor can only be forged when a unicorn willingly sacrifices itself to have it's hide harvested and forged into armor, hence the rarity.
+
+STATISTICS:
+ 
+Equipped ability: 
+Saving Throw bonus: +2 
+Fire/Cold/Electricity resistance bonus: +50%
+
+Armor Class bonus: -1
+Weight: 5
+Requires: 5 strength
+
+Not Usable By:
+ Mage
+ Monk
+ Druid~
+@1560 = ~Black Drake Scales~
+@1570 = ~Black Drake Scales
+Black drakes are very rare in Shou Lung. There scales can be forged into a useful armor which is highly prized there.
+
+STATISTICS:
+
+Equipped ability: 
+
+Wearer can cast healing (two times per day), 
+Universal saving throws: +2 bonus
+Fire and cold resistance: 50% bonus.
+Wearer is immune to holding/slowing magic.
+
+Armor Class bonus: -3
+Weight: 25
+Requires: 15 strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+@1580 = ~Mastery Of Death~
+@1590 = ~Mastery Of Death
+The three gods Bane, Bhaal and Myrkul argued long and hard over who was the most powerful. Each claimed mastery over the other but their claims could not be backed. To prove who was the most powerful, they decided to enchant this ring... each god would place his own enchantment. Then the ring would be given to a mortal who would decide which enchantment is the most powerful. The ring was thus enchanted and handed over to a mortal. The mortal asked all three gods for 10 years to be able to thoroughly test the ring on the Prime Material Plane, the gods agreed. Then came the Times of Trouble and the ring, and the gods, were lost...
+
+STATISTICS:
+
+Armor Class bonus: +4
+Saving Throw bonus: +4
+Magic resistance bonus: +25%
+Magic damage resistance bonus: +50%
+All physical attack damage resistance bonus: +15%
+Special abilities:
+The wearer gets a high level resistance to many elements as well as bonuses to attacks and magic, but effects cannot be discerned from the ring, even by the most talented diviner.~
+@1600 = ~Ring of War~
+@1610 = ~Ring of War
+Legend has it that this ring belongs to Tempus's, whether this is true or not is unknown. There is no doubt, however, that this is a powerful ring.
+
+STATISTICS:
+
+Armor Class bonus: +3
+Saving Throw bonus: +3
+Magic resistance bonus: +10%
+Magic damage resistance bonus: +25%
+All physical attack damage resistance bonus: +10%
+Special abilities:
+ Immunity to Sleep and Level Drain~
+@1620 = ~Ring of Elemental Shielding~
+@1630 = ~This ring is made of a strange metal, which exudes an unnatural coldness. It is known to give the bearer strong defense against the elements. The ring also masks fatigue which brings a disadvantage: the user must take it off to feel the effects of rest and cannot wear it for prolonged periods without the risk of dying from undetected fatigue.
+
+STATISTICS:
+
+Equipped ability: 
+Fire/Cold/Electricity/Poison damage resistance bonus: +50%
+Bearer will not feel tired.~
+@1640 = ~The Zero ring~
+@1650 = ~The Zero ring
+For the inhabitants of the Prime Material Plane, the source of the Zero ring is an unsolvable mystery. However, most scholars agree that the ring originates from Sigil. Some even say it belonged to the Lady of Pain. In the hands of a high level mage, this ring is mighty.
+
+STATISTICS:
+
+Equipped ability
+ Armor Class bonus: +2
+ Saving Throw bonus: +2
+ Magic resistance bonus: +10%
+ Magic damage resistance bonus: +10%
+Special abilities:
+ Can cast Spell Trigger and Spell Trap once per day
+ One additional wizard spell from level 1 to 8, and two for   
+ level 9.
+
+Usable Only By:
+ Mage~
+@1660 = ~Ring of Faith~
+@1670 = ~Ring of Faith
+These rings are "issued" to the high priests of Lathander, those who are most devoted in faith.
+
+STATISTICS:
+
+Equipped ability: 
+ Armor Class bonus: +2
+ Saving Throw bonus: +2
+ Magic resistance bonus: +10%
+Special abilities:
+ Regenerates 3 HP each turn
+ Casting speed factor increased by 3
+
+Not Usable By:
+ Evil aligned creatures
+ Fighter
+ Mage
+ Thief
+ Monk
+ Bard~
+@1680 = ~Netherese ring~
+@1690 = ~Netherese ring
+A broke adventurer sold this ring in Waterdeep, claiming he found this ring in Netherese ruins that still exist in some parts of the Great Sand Sea, Anauroch. This is a powerful item, and it attracts powerful enemies... covetous enemies.
+
+STATISTICS:
+
+Equipment ability:
+ Armor Class bonus: +3
+ Saving Throw bonus: +3
+ Magic resistance bonus: +10%
+Special abilities:
+ Immunity to Disease
+ Regenerates 3 HP per round
+
+Not Usable By:
+ none~
+@1700 = ~Ring of the Chosen~
+@1710 = ~Ring of the Chosen
+Apparently, Mystra gives a ring to each of her Chosen, to give them the ultimate protection as they wander Toril, carrying out tasks in her name. This may or may not be an authentic ring, but it is powerful, nevertheless.
+
+STATISTICS:
+
+Equipped ability:
+ Armor Class bonus: +3
+ Saving Throw bonus: +3
+ Magic resistance bonus: +10%
+ Fire resistance bonus: +25%
+Special abilities:
+ Increases Intelligence by 2
+ One extra wizard spell for each level, from level 1 to 8
+ Can cast a summoning spell once per day
+
+Only Usable By:
+ Mage~
+@1720 = ~Ring of the Sentinel~
+@1730 = ~Ring of the Sentinel
+Halruuan mages crafted these rings to increase magical memory. The rings may vary in properties from crafter to crafter. The Sentinels are powerful mages who ensure peace within Halruua, through any and all means, they serve as secret agents to the government.
+
+STATISTICS:
+
+Equipped ability: 
+ Armor Class bonus: +3
+ Saving Throw bonus: +3
+ Magic resistance bonus: +5%
+Special abilities:
+ One additional spell per level, from level 1 to 4
+
+Only Usable By:
+ Mage~
+@1740 = ~The Devil Sword +5~
+@1750 = ~Scimitar +5: The Devil Sword
+This sword belonged to a powerful Baatezu, and has seen much action during the Blood War. It is not known how it entered the Prime Material Plane. It has a viscious appearance, a bloody red hilt, as if it leeches on blood of it's victim.
+
+STATISTICS:
+
+Equipment ability: 
+ Magic resistance bonus: +10%
+ Grand Mastery with scimitars
+
+Special ability:
+ Absorbs 2 HP from the target and heals the user, with each hit
+ Decreases target's fire resistance (no saving throw) with each  
+ hit and causes damage.
+
+THAC0: +5 bonus
+Damage: 1d8+5, +1d4 fire damage
+Damage Type: Slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
+Requires: 8 strength
+
+Not Usable By:
+ Paladin
+ Cleric
+ Mage~
+@1760 = ~Night Walker +4~
+@1770 = ~Scimitar +4: Night Walker
+This scimitar gained infamy in Shou Lung for it's use in numerous high profile assassinations. For the assassin, there is no better weapon than the Night Walker, for it not only poisons the targets but also prevents them from screaming before dying.
+
+STATISTICS:
+
+Equipped ability:
+ Immunity to Charm/Abi-Dalzim's Horrid Wilting
+Special abilities:
+ Silences the target
+ Poisons the target (for 5 turns, 6 damage points per turn)
+ Heals user 2 HP (does not exceeding upper limit)with each   
+ attack
+
+Damage: 1d8 +4
+THAC0: +4
+Damage type: Slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
+Requires: 8 strength
+
+Not Usable By:
+ Cleric
+ Mage~
+@1780 = ~Luther's Carving Knife~
+@1790 = ~Scimitar +3: Luther's Carving knife
+Luther was a butcher, up around Waterdeep. He liked to carve his meat with a scimitar, though everyone wondered why. He also had strange, some would call cruel, ways of butchering animals with it, which led to him largely being an outcast. When he started killing animals in slow, painful ways, his neighbours decided you had to leave. Luther was forced out of his home with nothing but his beloved scimitar. He decided to make his way up to Bremen, up in Icewind Dale, where he had some relatives. It took him ten years to reach Bremen: along the way he became famous for his heroics against the orcs at Old Owl Well, as well as various actions near Triboar and Yartar. Luther eventually died while escorting a caravan from Targos to Lonelywood during the War of the Legion of the Chimera.
+
+STATISTICS:
+
+Equipped ability: 
+ Strength bonus: +2
+ Charisma bonus: -1
+
+Damage: 1d8 +3
+THAC0: +3
+Damage: Slashing
+Weight: 5
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
+Requires: 8 strenght
+
+Not Usable By:
+ Cleric
+ Mage~
+@1800 = ~Ring-Pommeled Sabre~
+@1802 = ~Ring-Pommeled Sabre +5~
+@1804 = ~This simple straight bladed sabre, one of the first to be made exclusively for use by cavalrymen. It is a single edge weapon with a sharpened end for stabbing.~
+@1810 = ~Whoever forged this blade was a true artist, this blade as all function, it has no frills, no embellishments. The steel exudes a cold, hard, smooth beauty. A better weapon would be hard to find.
+
+STATISTICS:
+
+Special abilities: 
+Immunity to knockdown
+10% chance of inflicting +15 cold damage and freezing the target for 3 turns
+10% chance of beheading the target, unless a succesful saving throw vs. death with a -4 penalty is made, which will result in 2d10 slashing damage.
+
+Damage: 1d10 +5, +5 cold damage
+THAC0: +5 bonus
+Damage Type: Slashing
+Weight: 5
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: 1-handed
+Requires: 8 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@1820 = ~Holy Avenger: Glorkaarniir~
+@1830 = ~This sword was forged in the High Heavens, specifically for used with the legendary Golden Armor set. It is beautifully engraved with the symbols of all the gods of the High Heavens and is the merciless bane of all evil. There are ten diamonds encrusted in the blade, representing righteousness, justice and faith. This blade has seen innumerable wars since it's inception. When Izrathaniel stole the Golden Armor, he also took the sword. The sword itself was corrupted by his sin, and lost much of it's power. Now it awaits a champion of the light to restore it to it's former glory.
+
+STATISTICS:
+
+Equipped ability:
+Wielder under the effect of Draw Upon Holy Might
+
+Damage: 1d8 +3, +3 fire damage
+THAC0: +3
+Damage Type: Slashing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@1831 = ~After being cleansed of corruption with the help of the Daystar, this Holy Avenger has been restored to it's former glory. It shines with a soft glow, like sunlight. For the righteous, no evil can withstand when wielding this awe-inspiring weapon.
+
+STATISTICS:
+
+Special abilities:
+Can cast Sunray once per day
+ Damage: 3d6 (if the target fails saving throw, it will be  
+ blinded for 10 turns)
+ Undead: recieve an additional 1d6 points of damage per level (a  
+ failed saving throw vs spells results in instant death.)
+Distance: 20 feet
+Range: 20 feet radius
+
+Equipped ability:
+Wielder under the effect of Draw Upon Holy Might
+
+THAC0: +5 bonus, +7 vs. evil creatures
+Damage: 1d8 +5, +7 vs. evil creature, +3 fire damage
+Damage Type: Slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+ Evil aligned characters
+ Druid
+ Cleric
+ Mage~
+@1840 = ~Ganjiang +6~
+@1850 = ~Long Sword +6: Ganjiang
+Gan Jiang was one of the earliest and greatest swordsmiths to walk the face of Toril. Mo Ye was his wife and assistant and together they forged a series of very famous swords. Gan Jiang and Mo Ye named a pair of longswords after themselves. The two swords were the last they forged, however, for Mo Ye passed from this world soon after.
+This sword is the very definition of deadly, Gan Jiang put all his considerable skill into it. It is not lost any of it's potence over the centuries.
+
+STATISTICS:
+
+Equipped abilities:
++20% magic resistance
++20% magic damage resistance
+
+Special abilities:
+Increased attack radius
+Each succesfull hit results in a decrease in target's resistance to slashing weapons and magic damage by 10% (for 10 turns)
+Dispel effects on hit
+25% chance to disarm target (no saving throw)
+15% chance to stun the target for 3 turns, and cause 4d6 magic damage (no saving throw)
+
+THAC0: +6 bonus
+Damage: 2d4 +6, +6 magic damage
+Damage Type: Slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@1860 = ~Moye +6~
+@1870 = ~Long Sword +6: Moye
+Gan Jiang was one of the earliest and greatest swordsmiths to walk the face of Toril. Mo Ye was his wife and assistant and together they forged a series of very famous swords. Gan Jiang and Mo Ye named a pair of longswords after themselves. The two swords were the last they forged, however, for Mo Ye passed from this world soon after.
+This sword was built with defense in mind, it is as potent at attacking as it is defending it's wielder. It is not lost any of it's potence over the centuries.
+
+STATISTICS:
+ 
+Equipment ability:
+ Electricity resistance bonus: +100%
+ Immunity to Sleep and Wing Buffet
+ Unknown negative effect on attacker
+Special abilities:
+ Attack radius is increased
+ Each hit results in blindness for 3 turns (no saving throw)
+
+THAC0: +6 bonus
+Damage: 2d4 +6, +6 electricity damage
+Damage type: Slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@1880 = ~Unholy Reaper: Shadowbane +5~
+@1890 = ~Long sword +5: Unholy Reaper: Shadowbane
+The world knows of the Holy Avengers, swords which are the forces of righteousness. But there is also a flip side to them. Unholy Reapers are swords created in the Hells and the Abyss to wreak havoc, pure and simple.
+
+The Shadowbane is an Unholy Reaper. It was forged in the Abyss to destroy one and all, and it has done so by cutting a bloody path through history, through the Planes, through anything it has attacked.  
+
+STATISTICS:
+
+Equipped ability:
+ Armor Class bonus (if chaotic): +2
+ Slashing resistance bonus: +10%
+ Magic resistance bonus: +25%
+Special abilities:
+25% chance to cast Hold on target for 4 turns, if target is paralyzed, it suffers 1d4 fire and cold damage in the first turn, 1d4 electricity and acid damage in the second turn, and 2d4 poison damage in the third turn, saving throw vs. magic at -2 penalty.
+5% chance to cast Confusion upon the target and inflicting 6d6 magic damage, with no saving throw.
++5 damage points against lawful characters.
+
+THAC0: +5 bonus
+Damage: 1d8 +5, +3 magic damage
+Damage type: Slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+ Lawful characters
+ Paladin
+ Druid
+ Cleric
+ Mage~
+@1900 = ~Cobb's Redemption +4~
+@1910 = ~Long Sword +4: Cobb's Redemption
+Cobb was a powerful warrior, a leader of a mercenary group. He acquired powerful skills but he was especially envious of some of the powers the undead seemed to wield and imbued his sword with such abilities. In an attempt to gain such power in his body as well, Cobb infected himself with vampirism. However, things didn't work out as Cobb hoped as he started to lose his self-consciousness. He felt revulsion and disgust for himself, as a parasite on other beings. Finally unable to take more of his existence, Cobb put an end to himself with this sword.
+
+STATISTICS:
+
+Equipped ability: 
+ Fire/cold resistance bonus: + 20%
+
+Special abilities: 
+ 15% chance to cast Hold on the target, target can resist  
+ through a saving throw vs. spells at -4 penalty
+ 5% chance to drain 2 levels on hitting (no saving throw)
+
+THAC0: +4 bonus
+Damage: 1d8+4, +1d4 magic damage
+Damage type: Slashing
+Weight: 3
+Speed Factor: 0
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 6 strength
+
+Not Usable By:
+ Paladin
+ Druid
+ Cleric
+ Mage~
+@1920 = ~Token of the Sacred Flame +3~
+@1922 = ~Token of the Sacred Flame +5~
+@1924 = ~Bastard Sword +5: Token of the Sacred Flame
+This sword belonged to a high priest from a theistic religion based around fire, the name of which is lost to time. The religion used to be practiced millenia ago, in what is now, Thay.
+
+STATISTICS:
+
+Equipped ability:
+ Slashing resistance bonus +10%
+ Cold resistance bonus +30%
+Special abilities:
+ 20% chance to cast Blindness upon target (no saving throw) and 
+ cause additional 10 fire damage points
+
+THAC0: +5 bonus
+Damage: 2d4 +5, +1d6 fire damage
+Damage: Slashing
+Weight: 7
+Speed Factor: 2
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Requires: 11 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@1930 = ~Bastard Sword +3: Token of the Sacred Flame
+This sword belonged to a high priest from a theistic religion based around fire, the name of which is lost to time. The religion used to be practiced millenia ago, in what is now, Thay.
+
+STATISTICS:
+
+Equipped ability:
+ Slashing resistance bonus +10%
+ Cold resistance bonus +25%
+Special abilities:
+ 10% chance to cast Blindness upon target (no saving throw) and  
+ cause an additional 2d6 fire points of damage
+
+THAC0: +3 bonus
+Damage: 2d4 +3, +1d6 fire damage
+Damage type: Slashing
+Weight: 7
+Speed Factor: 4
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Requires: 11 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@1940 = ~Holy Avenger: The Curse of Heaven +5~
+@1950 = ~Bastard Sword +5: Holy Avenger: The Curse of Heaven
+When the High Heavens can no longer endure a prevailing evil power, they send this sword down to destroy it. It has never failed.
+
+The Curse of Heaven is the most feared Holy Avenger ever to be in existence. Only the holiest of the holy can even dare to wield it.
+
+STATISTICS:
+
+Equipment ability:
+ Slashing resistance bonus +15%
+ Magic resistance bonus +25%
+ Grand mastery with Bastard Sword
+Fighting abilities:
+ 10% chance to cast the Curse of Heaven, a Bolt of Glory on the  
+ target
+ Critical hit has a 15% chance to cast Sleep on target,  
+ causing an additional 2d10 electricity damage
+
+THAC0: +5 bonus
+Damage: 1d10 +5, +5 electricity damage
+Damage type: Slashing
+Weight: 7
+Speed Factor: 3
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Requires: 11 strength
+
+Not Usable By:
+ Evil aligned characters
+ Druid
+ Cleric
+ Mage
+ Thief~
+@1960 = ~Sword of the Woodlands +5~
+@1970 = ~Bastard Sword +5: Sword of Woodlands
+One of the many magical works produced of the ancient elves of Illefarn in conjuction with local druids. The Sword of the Woodlands embodies perfectly the superb craftsmanship of the elves. The magic imbued in it mimics that of natural forces, just another indication of the closeness of the elves' to nature. Illefarn fell to the King of Shadows, long ago, and this sword was lost to history.
+
+STATISTICS:
+
+Equipped ability:
+ Magic damage resistance bonus: +25%
+ 15% chance to cast Dolorous Decay on the target
+Special abilities:
+ 10% chance to cause additional 2d6 acid damage
+ 10% chance to cast Panic and Morale Failure on the target  
+ (single target)
+
+THAC0: +5 bonus
+Damage: 2d4 +5, +2d6 acid damage
+Damage type: Slashing
+Weight: 5
+Speed Factor: 3
+Proficiency Type: Bastard Sword
+Type: 1-handed
+Requires: 11 strength
+
+Not Usable By:
+ Evil aligned characters
+ Druid
+ Cleric
+ Mage
+ Thief~
+@1980 = ~Curved Thorn +5~
+@1990 = ~Short Sword +5: Curved Thorn
+This curved short sword is made of bone, bone the size and shape of which is so outlandish that it is difficult not to assume that it has originated from somewhere other than the Prime Material Plane. Despite it's odd look, it is an extremely powerful weapon.
+
+STATISTICS:
+
+Equipped ability:
+ Immunity to Poison and Disease 
+ Piercing damage resistance +10%
+Special abilities:
+ 25% chance to cast Slow on the target (no saving throw), 
+ 15% chance for the user to self-cast Invisibility for 5 turns.
+
+THAC0: +5 bonus
+Damage: 1d6 +5, +1d6 poison damage
+Damage type: Piercing
+Weight: 2
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: 1-handed
+Requires: 5 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@2000 = ~Nighthawk +4~
+@2010 = ~Long ago, when the elves first founded Evereska, Arya Finoweil was one of the few elves who ranged into the High Forest. This beautiful and elegant ranger made it her life's mission to serve as a protector of this vast forest. Arya was trained as an excellent swordsman and with her chosen profession, she came in close contact with the druids who taught her many of their secrets. Many legends are associated with Arya, but the most famous one is that of her confrontation with the powerful dragon Salokronathixx-- an ancient red wyrmn in the high Star Mounts located in the middle of High Forest.
+
+After completion of training as a ranger, Arya received this precious sword for her hard work, forged by the greatest swordsmiths in Evereska. This sword has a thin, sharp blade, lightweight, but it can cut through heavy armor like a knife through butter in the hands of the right person.
+
+This sword has been improved by <CHARNAME>.
+
+STATISTICS:
+
+Special ability: 
+ When wielder is hit, there is a 10% chance to cast Chain  
+ Lightning upon the target
+
+Equipped abilities:
+ 5% chance to cause +10 lightning damage when user is hit
+ When hit target must launch a successful saving throw vs.  
+ death/poison, or be killed
+
+THAC0: +4 bonus
+Damage: 1D8 +2, +3 electricity damage
+Damage type: Slashing
+Speed Factor: 0
+Weight: 2
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 5 strength, 16 dexterity
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@2011 = ~Nighthawk +4~
+@2012 = ~Long ago, when the elves first founded Evereska, Arya Finoweil was one of the few elves who ranged into the High Forest. This beautiful and elegant ranger made it her life's mission to serve as a protector of this vast forest. Arya was trained as an excellent swordsman and with her chosen profession, she came in close contact with the druids who taught her many of their secrets. Many legends are associated with Arya, but the most famous one is that of her confrontation with the powerful dragon Salokronathixx-- an ancient red wyrmn in the high Star Mounts located in the middle of High Forest.
+
+After completion of training as a ranger, Arya received this precious sword for her hard work, forged by the greatest swordsmiths in Evereska. This sword has a thin, sharp blade, lightweight, but it can cut through heavy armor like a knife through butter in the hands of the right person. 
+
+STATISTICS:
+
+Special ability: 
+ 10% chance to cause +10 lightning damage when user is hit
+ When hit target must launch a successful saving throw vs.  
+ death/poison, or be killed
+
+THAC0: +4 bonus
+Damage: 1D8 +2, +3 electricity damage
+Damage type: Slashing
+Speed Factor: 0
+Weight: 2
+Proficiency Type: Long Sword
+Type: 1-handed
+Requires: 5 strength, 16 dexterity
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@2013 = ~Huo Qubing's Sword~
+@2014 = ~This is the sword of legendary commander Huo Qubing. The youngest general of the Shou Empire in recorded history, who achieved immortal glory through his exceptional military skills and vast courage. This sword was granted to him by the Celestial Emperor as a reward. The tortoise-shell-like pattern on the sword hilt was beautifully crafted, the talent for the creation of which is now lost to this world.
+
+STATISTICS:
+
+Special ability:
+ Strength bonus +2
+ User under the effects of Courage
+
+Equipped ability:
+ 10% chance to cause additional 2d6 damage, 
+ 10% chance to cast Sleep and Stun on target for 2 turns
+ 5% chance to knockdown target
+
+Damage: 1d12 +5, +5 fire damage
+THAC0: +5 bonus
+Damage type: Slashing
+Weight: 9
+Speed Factor: 5
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Requires: 14 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@2016 = ~This is the sword of legendary commander Huo Qubing. The youngest general of the Shou Empire in recorded history, who achieved immortal glory through his exceptional military skills and vast courage. This sword was granted to him by the Celestial Emperor as a reward. The tortoise-shell-like pattern on the sword hilt was beautifully crafted, the talent for the creation of which is now lost to this world.
+After being sharpened with diamond powder, this ancient sword is as sharp as if it were crafted anew.
+
+STATISTICS:
+
+Special ability:
+ Strength bonus +3
+ Fire resistance bonus 50%
+ User under the effects of Courage
+
+
+Equipped abilities:
+15% chance to Break Morale of target for two turns, 
+15% chance to cause 3d6 additional damage points
+5% chance to knowdown the target for 2 turns, and causing +6 fire damage points per turn
+
+Damage: 1d12 +6, +6 fire damage
+THAC0: +6 bonus
+Damage type: Slashing
+Weight: 10
+Speed Factor: 4
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Requires: 15 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@2020 = ~Dugu Sword +6~
+@2030 = ~Dark Steel Sword +6: Dugu
+This dark and heavy sword is made of dark steel, and used to be the sword of Dugu Qiubai. Dugu Qiubai waited his entire life for a worthy adversary, but this desire was never realized, and Dugu died an old man. 
+
+STATISTICS:
+
+Equipped ability:
+ Fire resistance bonus: 100%
+ Immunity to Confusion and Level Drain
+Special abilities:
+ Kills Fire Elementals, Djinn and Fire Salamanders instantly (no  
+ saving throw)
+ 10% chance to immediately kill the target (no saving throw)
+ On each hit the target must successfully launch a saving throw  
+ vs. death with a -2 penalty, or be knocked unconscious to the  
+ ground for 3 turns and suffers an additional 2d6 crushing  
+ damage
+
+THAC0: +6 bonus
+Damage: 2d6 +6(Slashing), 1d6 +2(Cold)
+Weight: 25
+Speed Factor: 4
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Requires: Minimum 19 strength, Minimum 18 dexterity
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@2040 = ~The Lost Sword +4~
+@2050 = ~Two Handed Sword +4: The Lost Sword
+The ancient totem sculpture on the hilt clearly shows that this weapon has originated from the West. As it so happens, this sword was recently imported into Amn from Maztica. Why it's called the Lost Sword is not known.
+
+STATISTICS:
+
+Special ability: Immunity to Hold
+Equippied ability: 25% chance to cast Hold on target for 3 turns on each hit, unless a succesfull saving throw vs. spells is made
+
+Damage: 1d10 +4, +1d6 cold damage
+THAC0: +4 bonus
+Damage type: Slashing
+Weight: 9
+Speed Factor: 6
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Requires: 14 strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@2060 = ~Sune's Blessing~
+@2070 = ~Large Shield +5: Sune's Blessing
+Sune's priests are famous for their intransigence towards undead creatures. This shield would be given to the blessed few, to be used in the path of Sune. It was forged by the dwarves, made of pure mithril, one of the toughest and versatile materials known to man.
+
+STATISTICS:
+
+Equipped ability:
+ Armor Class bonus: +5
+
+Special abilities:
+ Protected by Positive energy
+ Immunity to Charm, Confusion, Hold
+ Draw Upon Holy Might
+Requires: 15 strength
+Weight: 8~
+@2080 = ~Shield of Harmony~
+@2090 = ~Large Shield +3: Shield Of Harmony
+A sturdy shield with an unknown history. When equipped it is said to produce Harmony, of mind, body and soul. Perhaps that is due to the fact the shield is so powerful even a child wearing it would be difficult to kill.
+
+STATISTICS:
+
+Equipped ability:
+ Armor Class bonus: +4, +1 vs. ranged weapons
+
+Special abilities:
+ Magic resistance bonus: +10%
+ Fire/Cold/Acid reistance bonus: +25%
+ Immunity to Charm, Panic and Hold when equipped
+ +1 number of attacks per turn
+Requires: 14 strength
+Weight: 8~
+@2100 = ~Guardian~
+@2110 = ~Guardian +2
+This shield was designed specifically for hunters targetting vampires. It is one of the very few shields that can also be used by mages.
+
+STATISTICS:
+
+Special ability:
+ Casting speed bonus: +3
+ Haste
+ Immunity to Level Drain, Confusion and Stun
+
+Armor Class bonus: +3
+Weight: 3
+Requires: 4 strength
+
+Not Usable By:
+ Monk
+ Thief~
+@2120 = ~Bandit's Shield~
+@2130 = ~Bandit's Shield +2
+Rogue's don't usually use shields. But Fei Luen was no ordinary rogue. This provides protection from fire and cold, Fei Luen had to encounter a lot of mages during his time...
+
+STATISTICS:
+
+Special ability:
+ Luck +2
+ Fire/Cold resistance bonus: +25%
+ Immunity to Panic and Confusion
+ Protection vs. elemental damage (once per daily)
+
+Armor Class bonus: +3
+Special: No Missile/Piercing Attack Protection
+Weight: 2
+Requires: 4 strength
+
+Not Usable By:
+ Monk
+ Mage~
+@2140 = ~Crazy Bull Horn~
+@2150 = ~The Crazy Bull Horn is a mages' worst nightmare. It can break all magical defence easily and cause temporary deafness, as a result target mages lose all protection. Many mages have sworn to destroy it, but it is very hard to acquire, and those that do acquire it, covet it's power. (A great debate rages about the nature of the Crazy Bull Horn as an abomination, largely considered by the forces of balance, as it is considered a destroyer of balance, because it converts the severe threat that a mage poses to that of about an average goblin. However, supporters suggest that it is NOT the destroyer of balance, and balance is destroyed by the mage: a mage who casts powerful offensive and defensive magic from all angles and distances constantly; a mage who cannot be hit or interrupted, ever; a mage who is invisibile, and immune to scrying methods, these are the real destroyers of balance, the Horn merely restores it!)
+
+STATISTICS:
+
+Special ability: When blown, three times per day, on a single target, this horn:
+ Removes all defensive magic, potions and spell effects are  
+ included.
+ Causes deafness for 5 turns (no saving throw)
+ Causes Panic for 2 turns (saving throw vs. death with a -4  
+ penalty)
+ 2d10 damage points (halved by a successful saving throw vs.  
+ death at a -4 penalty)
+
+Usable By:
+ All~
+
+@2400 = ~Can you do anything with this elven long sword?~
+@2402 = ~Let me take a look... fine handcraft, very fine indeed... it would be very difficult for any blacksmith to make any improvements to this weapon. But I may be able to do something with it.~
+@2404 = ~If you bring me a star sapphire and a staff of lightning, I will be able to do something with it. If you prove to me that you are a force of goodness, I will do it for free!~
+@2406 = ~Do you have these items? If you do, I can get to work right now? You have to stay here for one whole day to help me at the forge, because I don't have an apprentice.~
+@2408 = ~Maybe some time later.~
+@2410 = ~Okay, goodbye.~
+@2430 = ~I have some items that may be in need of your special crafting skills, do you want to take a look?~
+@2431 = ~That is the reason I am here. Let me have a look...~
+@2440 = ~What's this? Holy items from Up High?~
+@2450 = ~Ah, I see a golden helmet, surely the handycraft of the divine... Don't see things like this every day... This is a very precious, unfortunately, it is desecrated. We need to purify it... I need holy water... I can wash it clean and refresh the enchantments.~
+@2451 = ~But you don't have any, so...~
+@2455 = ~You have holy water? I need it to wash away the desecration and refresh the enchantments. It won't be easy but I can restore most of it's former glory. Interested?~
+@2460 = ~Two things, my friend. Payment is 20000 gold, no less. And you have to stay here with me for one complete day to help me at the forge. I don't have an apprentice.~
+@2470 = ~You have a sword forged in the High Heavens! What a splendid weapon! I am honoured to be able to touch it! Oh but the swords is desecrated. I will need to remove the taint it has accumulated.~
+@2475 = ~How can the taint be removed?~
+@2480 = ~It can not be fully restored. But you can sacrifice a weapon with similar properties, combining it's magic with this sword to strengthen it, if you could find a similar sword that is...~
+@2481 = ~Are there any other item you could improve?~
+@2490 = ~It cannot be fully restored. But I could merge it's properties with the Daystar, and craft a new sword. But you will lose the Daystar. Tell me what you think.~
+@2500 = ~It is a difficult task even for me. I will require 25000 gold, not less. I need your help for one whole day... to help me at the forge, I need an apprentice.~
+@2503 = ~What do you need?~
+@2504 = ~Sounds good, let's do it.~
+@2505 = ~I don't have that much gold.~
+@2506 = ~You don't need to pay now.~
+@2507 = ~Well, there is nothing I need, so I'll see you later.~
+@2508 = ~Do it.~
+@2509 = ~Cespenar, have a look at these bracers... see if you can do anything...~
+@2510 = ~Hmmmm... uhhh.. Holy bracers, great one... Ugghhhh! should throw them in the trash! No? Oohhh Master... your wish is Cespenar's command... 15000 gold I need. I have secret recipe! Need gloves of healing and gloves of weapon expertise!~
+@2520 = ~If Master has healing gloves... and weapon expertise gloves also! Yes?! 15000 gold? If you bring all these to me, I will make holy bracers more holey! Hehehehe!~
+@2522 = ~Do you want Cespenar to look at your smelly old bag again?~
+@2523 = ~Okay, let's see what else you can do.~
+@2530 = ~Do you have healing gloves and gloves of weapon expertise? Cespenar needs 15000 gold! Then can show secret recipe, Master will like very very much! Shall I begin?~
+@2534 = ~What you can do with Huo Qubing sword?~
+@2536 = ~What you can do with the Token of the Sacred Flame?~
+@2540 = ~Huo Qubing sword? Cubing, like squaring? Tee hee! Cespenar has a secret recipe that can make it more powerful! Need 5 diamonds to make diamond powder! Diamond powder needed to sharpen blade, and carve patterns! Need Ring of Fire Control too!~
+@2545 = ~What else is required?~
+@2550 = ~This is a very difficult recipe, Master! Needs some patience and... hmm, 25000 gold.~
+@2555 = ~This is a very difficult recipe, Master! Needs some patience and... hmm, 25000 gold, but need the other ingredients! Do you want Cespenar to look at your foul smelling bag again?~
+@2560 = ~25000 gold? Here you are.~
+@2570 = ~You have the Fire Sword?! Need a scroll of Power word Blindness! Need a Burning Hands scroll... to make fire burn stronger! And 10000 gold, then recipe complete!~
+@2572 = ~Do you want Cespenar to do it now?~
+@2580 = ~Let's do it, here you are.~
+@2800 = ~Due to your lack of nobility and immoral behaviour, The  Curse of Heaven refuses to let you use it.~
+@2802 = ~Due to your terrible reputation, The Curse of Heaven has disappeared from your possession, you will never see it again.~
+@2803 = ~Arya's Complete Set Abilities.~
+@2804 = ~While using Arya's complete set, wearer recieves +20% to physical resistance +20%, +1 to strength and +2 to constitution.~
+@2805 = ~While wearing the complete Golden Armor set the attacker will recieve 15 damage points on each successful hit in the form of a counterattack.~
+@2806 = ~The attacker will suffer God's wrath!~
+@2808 = ~Equipping Qiu Ranke's Bracers and Shin Guards at the same time increases all physical damage resistance by 10%, with a chance for all attacks to rebound on the attacker.~
+@2809 = ~YLITEMS~
+@2810 = ~You need to install TOB first.~
+@2811 = ~Lian Chengfeng~
+@2812 = ~Ximen Ji~
+@2813 = ~YLItems Addon~
+@2814 = ~Do not use shape of Japanese knife~
+@2815 = ~Improved Haste replaced by Haste.~
+@2816 = ~Imoen WM/T~

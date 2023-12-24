@@ -1,0 +1,119 @@
+@50008 = ~#VSku~ 
+
+
+// Premier entretien avec Timek
+
+@11    = ~(Fatigue overcomes you and you decide to stop for a moment.)~
+@1     = ~These old piles of bones have less brain than me.~ 
+@2     = ~(Suddenly you turn around because someone spoke to you, you could swear.)~
+
+@111   = ~Halt here! Who are you? Speak out!~ 
+@112   = ~Who spoke? Show yourself or I'll burn you!~
+@113   = ~I don't like your little game. Dare, therefore, to appear in full light if you have the guts!~
+
+@114   = ~(Sneering.) I ran again into a little devil. But no, you moron! I'm here! The head without the body, it doesn't really tell you anything? Don't I reflect enough in the night to you?~ 
+@1141  = ~(Sneering.) I ran again into a fine one. Look better, cute one! I'm here! The head without the body, it doesn't really tell you anything? Don't I reflect enough in the night to you?~
+@115   = ~A head without the body? But yes! It's this dirty skull that talks to you! There are also two blue flames emanating from its empty eye sockets! It can be seen as the nose at the middle of your face, you wonder how you didn't see it sooner!~ 
+
+@1151  = ~What... What are you?~
+@1152  = ~The skeleton soldiers at the mausoleum suggested to me that you had been "cursed". But who really are you?~
+@1153  = ~(Now I start talking to a skull, I think I'm hitting the rock bottom...) Ah yes, of course! Pardon me, sir Skull. You were saying?~ 
+
+@1154  = ~Me, it's Timek, Timek the barbarian. At least, my name is the same as when I was still having the head on my shoulders. Ha, ha, ha! Uh yeah... What did I already tell? Ah, yes! I was telling about these others guys, it's not like they are very close.~
+@1155  = ~These old piles of bones are worth little to nothing, they know nothing. They say I talk too much, that’s what they say. I'd rather say they don't understand too much what I rant about.~ 
+@1156  = ~(Yes well, it's fine what I was saying: he did not invent the gunpowder.)~ // @1154
+
+@11551 = ~(I think I agree a little with their point of view...) They told me that it was due to you that I could understand them.~
+
+@11552 = ~Yeah, there's a dirty mage in this hole. I had to slam me in fighting against a bucket full of dead, I felt the pain, I had only one desire, that was to see what was on the other side and then...~
+@11553 = ~And then here I wake up and I see that all things are not the same, with a kind of mist all around. There were no heroes, no little demons and not even a good pint! It was all black and I felt something strange inside my head, I saw a young fanatic... A giant!~ 
+@11554 = ~A moron of a giant with a dress. He held me in his little hand and laughed like a jerk. And this is where he put me in the front of a mirror and that I understood everything: he reduced me, this dizzy. But without my body, because it was easier to carry me, he said.~
+@11555 = ~And this' the little story. Now, I serve as a translator. More dead than alive and more alive than dead, I pass from hand to hand until someone doesn't want me anymore.~ 
+
+@11556 = ~Funny story. And can you help me? I have to find some priests of Shialla by the hills...~ 
+@11557 = ~I might be able to deliver you from this spell that keeps you here. If you help in return, of course.~
+
+@11558 = ~Fun? It's not the word I'd have chosen... But the sooner you're done with this story, the sooner I will be freed. All that I can give you for helping, is that I heard they were near the abode of a red dragon.~ 
+@11559 = ~Deliver me? Things will vanish by themselves when I finished fulfilling my contract. Hundred pilgrims I had to help, it is said. In other words, I'm not out of the woods... When a helping hand... All that I can give you for helping, is that I heard they were near the abode of a red dragon.~
+
+
+// Deuxième entretien avec Timek
+
+
+@12    = ~(Timek suddenly appears in front of you, scaring you to death.)~
+
+@121   = ~Timek, dammit! Can't you avoid appearing in front of me like that?~
+
+@122   = ~Oh? Did I scare the young man? Really sorry. I will sound the bell next time.~
+@1221  = ~Oh? Did I scare the young woman? Really sorry. I will sound the bell next time.~
+
+@123   = ~Well, since you're here, maybe you could help me?~
+@124   = ~And why were you out this time? To walk around outdoors?~
+
+@1231  = ~I must say I don't give a damn so just do something... I could always go for a run in the fields but I have no legs. Or, well, I could go cutting some throats but I have no hands, nor arms elsewhere. I could also have it off with some virgins but I have no...~
+@1232  = ~Okay, that's enough! Did you hear about a sir with whom the Brotherhood "works"?~
+@1233  = ~Dunno. Usually he's not too kind. And doesn't like too much hanging out with nobles in normal times.~
+@1234  = ~When I was still in this world, I've known one of these.~
+@1235  = ~Sir of Threepenny, he was called. Someone gave him this name because he was walking around on the roads asking to be called 'Sir' while he was wearing nothing but charms. One day...~
+
+@12351 = ~Oh gently, gently! Do you still believe I will listen to your story to the end? Do you know this sir, yes or no?~
+@12352 = ~Excuse me but... does it have a connection with our story or....~
+@12353 = ~You don't seem to like nobles much, Timek. I think this story will end very badly for this sir...~
+
+
+@12354 = ~(Timek continues talking as if nothing had happened.)~
+@12355 = ~That's for sure, highly likely! I don't like too much gals who put on airs with me.~
+@12356 = ~One day then, pushes the old Krandoeil. The weight of this guy, more like bear than human. And then he doesn't even apologize, looking him from up and all. Ah, ah! I still remember! The old man took his head into his big cuff, that the sir has barely had the time to squeal. Then flopped his head and the sir was no more!~
+@12357 = ~Ah! It must be said we knew how to have fun at the time and nobody wanted to mess up with us. After this story, there's not been a vagabond for us to look down. Whoever lowered the eyes instead, yeah that's for sure!~
+
+@125   = ~It looks like you regret your past life, Timek...~
+@126   = ~Would you like to see him again, if you could? This Krandoeil?~
+@127   = ~Your stupid stories have the gift of getting on my nerves. You'll be so kind to avoid them in the future. You are here to serve me, not to fill my head with your little stories!~
+
+
+@1251  = ~A little, for sure! What would I give to taste again the pleasure of flesh! But no need to dream...~
+@1261  = ~Knowing him, he would drag not breaking my little head. As I said: what I don't understand, I smashed his face, you never know.~
+@1271  = ~Phew! And there's another one playing the precious... See you later... Young man!!~
+@1272  = ~Phew! And there's another one playing the precious... See you later... Young woman!!~
+
+@1241  = ~Finally for you info: the gal you're looking for lurks near a keep. Finally, there's a chance... I'll go back crashing out.~
+
+
+// Troisième entretien avec Timek
+
+@13    = ~Then, lad? I bet you still need the good old Timek, right or wrong?~
+
+
+@131   = ~(I would have never done it...) Yes... Lastly, I have to recover from my heart attack. Does the name Melusiane mean anything to you?~
+@132   = ~I look for Melusiane, I have some important business to deal with her. The kind of things that your pathetic brain is incapable of understanding.~
+
+
+
+@1311  = ~Fuck no! I must say, me among skunks, is not the name that interests me much. It also reminds me of the story of the daughter of the boss of the clan of the Bluestone...~
+@1321  = ~I find you have a big mouth for someone who needs help. Ha, ha, ha... Come on, for once, I'll play the good prince. Melusiane, do you say? It doesn't tell me anything... I must say, me among skunks, is not the name that interests me much. It also reminds me of the story of the daughter of the boss of the clan of the Bluestone...~
+
+
+@14    = ~(And here we go: he will talk for half an hour.) This is very interesting but about Melusiane?~
+@15    = ~The Bluestone? Is it a barbaric clan?~
+@16    = ~No, please, Timek... I have no desire to re-enter one of your stupid stories. If you don't have anything to tell me about Melusiane, you can return straight into the bag. I wouldn't be angry.~
+
+
+
+@17    = ~(As usual, Timek doesn't seem to listen to you: he continues his incessant crap that you can’t do anything.)~
+@18    = ~Yep, so it seems. But the interesting thing in the story, is the nice piece that was hanging in the clan.~
+
+@19    = ~The Bluestone clan was one of these villages planted straight in the desert with tackies as the only skunks to pass the time. I must say the time and kind of chews one could find over there without any help.~
+@20    = ~But there are people who were saying that one day there was a young called Yasmina, and others that say she was the daughter of the boss. It's not important, it's not who she was, but how she looked like.~
+@21    = ~She had a bright skin, one would say looked like glass beads or I don’t know what. She wasn't like the other vixens, no: would have said more like a king's daughter.~
+@22    = ~The boss jealously guarded her, and they were saying due to her, the life of the clan would change, that he would give her to a prince, if not a king. But there was this warrior a little less ugly than the others: his name was Marlos. The worse is that one day, they found them in the hay with nothing on their backs.~
+@23    = ~And there the boss becomes all red, who said that more than a daughter, she was a whore. And since they had it off for a large amount of money, he would fuck her out without thinking.~
+@24    = ~They fuck in jail for the night, the time to think a way to avenge. And in the early morning, there was no trace of the girl nor of the hothead. They flew like the little birds in springtime...~
+@25    = ~And that instead of the statue of the warrior in the middle of the village, there would have been a large sapphire like no one would have ever seen... My father said that this story had a moral and never told me.~
+
+
+@26    = ~In any case, I'm glad it's over! Unless you have other stupid stories to tell, I suggest to go straight back into your little bag and LEAVE ME ALONE!!~
+@27    = ~A funny story... Now, if that doesn't bother you, could you help me finding this Melusiane? I was told that she has to do with notable Amnish persons.~
+
+
+@28    = ~All right, all right. Timek goes back to sleep, don't worry yourself sick.~
+@29    = ~It reminds me of something the other freak all green was saying all the time. He spoke about the Council of Eight, I think. Unless it was of Nine? Ah yes, that's right, the Council of Nine!~

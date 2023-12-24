@@ -1,0 +1,15 @@
+--- Derats_Ogre\Setup-Derats_Ogre.tp2	Sat May 09 19:42:04 2015
++++ C:\BWP Patchstudio\patched files\Derats_Ogre\Setup-Derats_Ogre.tp2	Sat Oct 22 17:22:41 2016
+@@ -17,6 +17,12 @@
+ 	~Derats_Ogre/Languages/FrenchEE/Magasin-objets.tra~
+ 	~Derats_Ogre/Languages/FrenchEE/Besace.tra~
+ 
++LANGUAGE ~English~	~English~
++	~Derats_Ogre/Languages/English/Setup.tra~
++	~Derats_Ogre/Languages/English/Magasin-sorts.tra~
++	~Derats_Ogre/Languages/English/Magasin-objets.tra~
++	~Derats_Ogre/Languages/English/Besace.tra~
++
+ BEGIN @0
+ 
+ COPY	~Derats_Ogre/Bams/Quete~				~override~

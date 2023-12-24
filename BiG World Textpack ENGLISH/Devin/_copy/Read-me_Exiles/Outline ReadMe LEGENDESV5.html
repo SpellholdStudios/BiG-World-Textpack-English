@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Tout d'abord, merci à vous d'utiliser ce modèle de readme, créé spécialement pour vous, moddeurs (et moddeuses ;) ) de Légendes!
+Pour vous guider dans l'édition de ce modèle, j'ai inséré des commentaires un peu partout dans le code. 
+
+Afin de vous rendre la tâche plus facile, je vous conseille très fortement d'éditer ce document avec un éditeur de texte
+doté de coloration syntaxique, tel ConTEXT ou gViM. Les commentaires seront plus faciles à repérer.
+
+Dernière recommendation, n'ajoutez pas de balises <p> </p> au sein d'un autre paragraphe. Par défaut, je me suis arrangé pour que cette
+balise dessine le cadre autour des sections. Si vous ajoutez des sections, n'oubliez pas de l'ajouter aux liens en haut de la page, 
+puis regardez respectez cette "convention" 
+<h3 id="nlleid"><strong>TITRE DE LA SECTION : </strong></h3>
+      <p>VOTRE TEXTE</p>
+
+Bonne édition! 
+Kurokarasu -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+   <head>
+      <title>The exiles ~ The read-me</title>
+      <!-- C'est le titre qui apparaitra dans votre navigateur, par exemple "LÉGENDES, LA COMMUNAUTÉ DU MODDING"-->
+      <!-- Écrivez le vôtre entre <title> et </title> -->
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+      <style type="text/css">
+	 .index
+	 {
+	    text-align: center;
+	    border-top: 4px groove #c39200;
+	 }
+	 .subtitle
+   {
+	    font-variant: small-caps;
+	    color: #c39200;
+	    font-family: Bell Gothic; 
+	    text-decoration: underline;
+   }
+   .retrait
+	 {
+	    list-style-position: inside;
+	    color : #687CFF
+	 }
+   li
+	 {
+	    list-style-image: url("../Read-me_Exiles/parchemin.jpg");
+	 }	 	 
+	 .lien
+	 {
+	    color: #57839f;
+	 }
+	 .separ
+	 {
+	    background-color:#000000;
+	    border: none;
+	 }
+	 body
+	 {
+	    background-color:#000000;
+	 }
+	 p
+	 {
+	    margin: auto;
+	    background-color:#1e1e2a;
+	    width: 900px;
+	    text-align: justify;
+	    color: #9db0bc;
+	    font-size: 14px;
+	    font-family: Trebuchet MS;
+	    padding:12px;
+	    border-bottom: 4px groove #c39200;
+	    border-left: 4px groove #c39200;
+	    border-right: 4px groove #c39200;
+	 }
+	 h1
+	 {
+	    font-size: xx-large;
+	    color: orange;
+	    font-family:Verdana;
+	    text-align: center;
+	 }
+	 h4
+	 {
+	    margin: auto;
+	    font-size:large;
+	    font-family:Verdana;
+	    text-align: center;
+	    color: orange;
+	 }
+	 h3
+	 {
+	    margin: auto;
+	    padding-top:12px;
+	    padding-right:12px;
+	    padding-left:12px;
+	    padding-bottom:6px;
+	    background-color:#1e1e2a;
+	    width: 900px;
+	    font-size:large;
+	    font-family:Verdana;
+	    color: #9db0bc;
+	    font-variant:small-caps;
+	    border-top: 4px groove #c39200;
+	    border-left: 4px groove #c39200;
+	    border-right: 4px groove #c39200;
+	 }
+	 em
+	 {
+	    font-style: italic;
+	 }
+	 strong
+	 {
+	    font-style: bold;
+	 }
+      </style>
+
+   </head>
+   <body>
+      <h1>
+	 <img src="./ban210.jpg" alt="Logo de LÉGENDES" align="MIDDLE"><br />
+	 The Exiles of Silverymoon
+      </h1>
+      <!-- Écrivez le nom de votre mod entre <h1> et </h1>, là où est le «Mon Mod» -->
+      <!-- Si jamais vous mettez la bannière Légendes dans un autre dossier que celui où se trouve le readme, 
+      éditez ce qui se trouve entre guillemets dans la balise imf, à l'attribut src.-->
+      <h4><em>Developed by Armand for LÉGENDES studios</em></h4>
+      <!-- Remplacez "[PSEUDO]" par votre pseudo (évidemment XD) -->
+
+      <p class="separ">
+         <br />
+         <br />
+      </p>
+
+      <p class="index">Go directly to the part that interests you :<br />
+         <!-- Petit index permettant au lecteur de sauter directement là où il désire aller. 
+	 Pour en ajouter un, au besoin, voici la syntaxe : 
+	 <a href="#nlleid" class="lien">TITRE DE LA SECTION</a><br /> --> 
+         <a href="#pres" class="lien">I - Mod Introduction :</a><br />
+         <a href="#install" class="lien">II - Install Instructions :</a><br />
+         <a href="#bug" class="lien">III - Compatibility and Known Bugs :</a><br />
+         <a href="#contact" class="lien">IV - Contact Me :</a><br />
+         <a href="#merci" class="lien">V - Acknowledgments :</a><br />
+         <a href="#faq" class="lien">VI - FAQ :</a><br />  <!-- Effacez cette ligne si vous ne mettez pas de FAQ. -->
+         <a href="#histo" class="lien">Version History :</a><br />
+      </p>
+
+      <p class="separ">
+         <br />
+         <br />
+      </p>
+
+      <h3 id="pres"><strong>I - Mod Introduction : </strong></h3>
+      <!-- Bon, c'est maintenant que le plaisir commence.
+      Écrivez ce qui vous passe par la tête pour présenter votre mod entre les balises <p> et </p>.
+      Si vous souffrez de la page blanche. voici quelques pistes sur ce que vous pouvez écrire : 
+
+      MOD PNJ : Où le recruter? Doit-on accomplir une (ou des) quête(s) afin de l'obtenir? Est-il romançable? Si oui, par qui (sexe, race, alignement, autre prérequis)?
+      Quelle est sa classe? A-t-il des quêtes particulières? A-t-il des banters avec les PNJs originaux? A-t-il des interjections?
+      N'hésitez pas à parler de son caractère et de son passé, si vous le voulez et si cela est pertinent
+
+      MOD MAGASIN & ITEMS : Où est situé le marchand? Quelles sortes d'items sont ajoutés? 
+      Sont-ils répartis chez les marchands déjà présents (si oui, lesquels) ou ailleurs dans le jeu?
+
+      MOD QUETE : Comment démarrer la (ou les) quête(s)? Le mod comporte-t-il des nouvelles cartes, de nouveaux items, de nouveaux sorts?                 
+
+      Voici, pour référence, quelques balises utiles :
+
+      Si vous avez besoin de mettre du texte en gras, procédez ainsi : 
+      <strong>TEXTE EN GRAS</strong>
+
+      Si vous avez besoin de mettre du texte en italique, procédez ainsi :  
+      <em>TEXTE EN ITALIQUE</em> 
+
+      Si vous avez besoin d'insérer un retour de chariot (touche «entrée» ou «retour») inscrivez :
+      <br />
+
+      Si vous avez besoin de guillemets " et ", voici la démarche : 
+      <q>TEXTE ENTRE GUILLEMETS</q>
+
+      Si vous voulez créer un nouveau paragraphe, utlisez la balise :
+      <p>TEXTE DE VOTRE PARAGRAPHE</p> -->
+      <p>
+      The exiles of Silverymoon is a quest mod that adds a contact with a mysterious new group. The chance to get a lot of new encounters
+      throughout the game in well-known places but also in new places since the mod offers a new fully customized area. The quest
+      will start automatically when you start a new game as long as you have a neutral or evil alignment (for consistency reasons I was
+      forced to do so). The mod takes 1140 lines, what fun you could experience for a while and as you might notice a number of characters were doubled
+      (129 replies in total). So much for the small description, I wish you a pleasant playing and I hope that this first version will make you want to play with the new
+      that will see the day...
+
+
+      <p class="separ">
+         <br />
+         <br />
+      </p>
+
+      <h3 id="install"><strong>II - Install Instructions : </strong></h3>
+      <!-- Écrivez vos instructions d'installation entre <p> et </p>. Vous pouvez conserver les miennes comme base, ce sont des instructions normales et courantes.
+      Assurez-vous que les instructions soient brèves, claires, et précises. 
+      N'oubliez surtout pas de préciser les prérequis potentiels (avoir installé le patch, tel ou tel mod, etc. ). -->
+         <p>** It is <strong>VERY</strong> highly recommended that you install the latest available patch for <em>Baldur's Gate II - Throne of Bhaal</em>. If you own <em>Throne of Bhaal</em>, please note that you do not need to patch <em>Shadows of Amn</em>. **
+         <br />** The installation of <em>BG2 Fixpack </em> of Gibberlings Three is, as well, strongly recommended. **
+	 <br />** I remind you that the expansion <em>Throne of Bhaal</em> is needed to take advantage of the Exiles of Silverymoon. **
+
+         <br /><br /><strong>Detailed Instructions :</strong>
+         <br />1. Ensure that no software using the resources of <em>Baldur's Gate II</em> is running. This includes the game itself, utilities as <em>NearInfinity</em> or <em>ShadowKeeper</em> and the installation of another mod.
+         <br />2. Extract the archive.
+         <br />3. Click <q>Setup - Devin.exe</q> and let Weidu do its job!
+         <br />4. Now, pleasant playing!
+      </p>
+
+
+      <p class="separ">
+         <br />
+         <br />
+      </p>
+
+      <h3  id="bug"><strong>III - Compatibility and Known Bugs : </strong></h3>
+      <!-- Écrivez ici les problèmes de compatibilité connus, les bugs existants que vous ne pouvez régler pour le moment et, 
+      Quant à y être, si votre personnage réagit à d'autres mods (exemple : si Severian est dans le groupe 
+      et que votre personnage peut le romancer si CHARNAME ne le fait pas déjà), précisez-le! -->
+         <p>After nearly two months of testing, The exiles of Silverymoon are finally ready! There is currently no known bug beside
+         the weapon reserved to half-orcs that can also be used by humans (hardcoded - I did not find a stable solution for the moment). Beside that, the mod
+         is compatible with dungeon be gone</p>.
+
+      <p class="separ">
+         <br />
+         <br />
+      </p>
+
+      <h3  id="contact"><strong>IV - Contact Me : </strong></h3>
+      <!-- Comment peut-on vous contacter? Précisez-le ici. Si vous désirez insérer un hyperlien, voici la syntaxe : 
+      <a href=[Votre lien entre guillemets] class="lien">abcxyz</a> (class="lien" est un attribut définissant le formatage d'un lien au sein de ce document)
+      Donc, pour le forum de LÉGENDES, le code sera : 
+      <a href="http://weiducommando.forumsactifs.com/portal.htm" class="lien">Le forum de LÉGENDES</a> 
+
+      Pour une adresse e-mail, la démarche est sensiblement la même; regardez dans le document. -->
+      <p>If you ever need to contact me, be it just to congratulate me, to receive a hand for one of the quests of the mod, to ask a question, to volunteer to translate this mod, or to report a bug, here's where you can find me : 
+         <br /><br /><strong><a href="http://weiducommando.forumsactifs.com/portal.htm" class="lien">The forum of LÉGENDES</a></strong>, the francophone modding community, where The exiles of Silverymoon has its discussion forum. Members do not bite, you'll see ;). It is by this way that I would prefer that you contact me since other players could then easily get a solution to their problems by searching the forum of The Exiles of Silverymoon. 
+         <br /><br />You can always email me <a href="mailto:Mytridate@hotmail.fr" class="lien">at this address</a> !
+         <br /><br />I will be happy to help and answer you.
+      </p>
+
+      <p class="separ">
+         <br />
+         <br />
+      </p>
+
+      <h3  id="merci"><strong>V - Acknowledgments : </strong></h3>
+      <!-- Vous avez sans doute envie de remercier quelqu'un en particulier, surtout si c'est votre premier mod... ;) 
+      C'est ici que vous les nommez, et les remerciez pour tout ce qu'ils ont fait pour vous. -->
+         <p>I would especially like to thank Cool Coyote, phoeunix and Rigel that helped me to take my first steps in modding 
+         and supported me all along. Deratiseur for his highly creative kit without which the mod would not exist. A big thank you as well to Zranoff who 
+         highly facilitated the work of the end and will always impress me by his mastery of WeiDU.
+I surely also thank the Légendes community without which, I know, I could have never got done with my mod. In this space I found a real creative group always ready to help each other way more far than the snobbish image that programmers often wear.
+Finally, I thank all those who, to a more or less extent, contributed by their moral and technical support to get done with this mod : Cargolin, Isaya, Akadis, Lucretia or Graoumf to name a few.
+<br />
+<br />
+<span class="subtitle">The tools used for designing</span>
+<br />
+<br />
+WeiDU of Westley Weimer. <br />
+IESDP.   <br />
+Bam modification tutorial by Rigel.   <br />
+NPC creation tutorial by Cool Coyote.   <br />
+Dialogue management tutorial by phoeunix.   <br />
+Readme Weidu.  <br />
+Staff of the modder by Zranoff.  <br />
+DLTCEP of Avenger.  <br />
+IETME of TeamBG. <br />
+BAM Workshop II of TeamBG. <br />
+Near Infinity of Jon Olav Hauglid.  <br />
+PsPad (thanks to miloch for his highlighters). <br />
+Audacity.  <br />
+Infinity Explorer v085 of Dimitry Jemerov.
+<br />
+<br />
+<span class="subtitle">Voices</span>
+<br />
+<br />
+Daffy from the GoldenFreaks in the role of the succubus.<br />
+Phoeunix in the role of the old and young monk.<br />
+<br />
+<span class="subtitle">Beta Testers</span>
+<br />
+<br />
+Cool coyote for his valuable beta and spelling corrections. <br />
+Phoeunix for his suggested corrections and graphics editing.  <br />
+Akadis for his several corrections and suggestions. <br />
+Nouch for his beta aborted but nevertheless valuable.
+Aylon for the same reasons.  <br /> </p>
+
+
+
+
+
+      <p class="separ">
+         <br />
+         <br />
+      </p>
+
+      <h3 id="faq"><strong>VI - FAQ : </strong></h3>
+      <!-- Cette section est un peu facultative et "fourre-tout". Si plusieurs questions sont posées souvent sur le forum de votre mod, vous pouvez les inclure. 
+      Également, vous pouvez en profiter pour synthétiser certaines informations (où recruter le personnage, comment démarrer la quête, etc.), 
+      ou ajouter des petits détails (statistiques du PNJ, d'où proviennent les poèmes apparaissant dans les banters, etc.). 
+      Vous écrivez le tout, encore une fois, entre les balises <p> et </p> ci-dessous.-->
+      <p>
+      <br />
+      <br />
+      <strong>I do not have access to the new city, is this normal ?</strong>
+      <br />
+      <br />
+      <i>It depends. If you refused to follow Jackomo or Devin at one point or another you do not actually get (or no more) access to the new city. An 
+      alternative component is planned, it will be released in a few months and let you explore a new part of the history.</i>
+      <br />
+      <br />
+      <strong>I want to recruit Bardick but I can not, is this normal ?</strong> 
+      <br />
+      <br />      
+      <i>Yes, this is normal. It was indeed a question in my early to recruit Bardick but as the contruction I saw things differently
+      and now I think it's slightly more interesting to develop him as a non recuitable character. As you will see in the next versions, 
+      I hope...</i>
+      <br />
+      <br />
+      <strong>Where is Sidge ?</strong>
+      <br />
+      <br />
+      <i>Sidge is by Renal Bloodscalp in the basement. And he's a.... THIEF ! It seems logical, right ?</i>
+      <br />
+      <br />
+      <strong>I love the area musics you set, where did you get it ?</strong>
+      <br />
+      <br />
+      <i>Well, actually it's black metal ! Thus wild music... And it's not the worse in its genre, the band is called Cradle of Filth and are archi known,
+      finally, for rans at least.... The musics are intros to their songs, namely :</i>
+      <br />
+      <br />
+      <span class="retrait">
+      <li>Venus in fear after the album Cruelty and The Beast (the best to me)</li>
+      <li>Sin Deep my Wicked Angel after the album Bitter Suites To Succubi</li>
+      <li>The Mordant Liquor of Tears after the  album Damnation and a day</li>
+      </span>
+      <br />
+      <br />
+      <strong>I HATE the area musics you set, where did you get them ?</strong>  
+      <br />
+      <br />
+      <i>Well, Fuck off !! No, seriously, if the musics displease you, best would be that we discuss together. I always
+      like the criticism, be it positive or negative. So do not hesitate and <a href="#contact" class="lien">contact me</a>!</i>    
+      <br />
+      <br />
+      </p>
+
+      <p class="separ">
+      <br />
+      <br />
+      </p> 
+
+      <h3 id="histo"><strong>Version History : </strong></h3>
+      <!-- Quels changements ont été faits d'une version à l'autre? Des bugs ont-ils été corrigés? 
+      Avez-vous ajouté une quête? Votre mod bénéficie-t-il d'une refonte totale? 
+      Y a-t-il une traduction qui est nouvelle ou mise à jour? -->
+      <p>Mod released : Devin 1.0</p>
+   </body>
+</html>
+
+

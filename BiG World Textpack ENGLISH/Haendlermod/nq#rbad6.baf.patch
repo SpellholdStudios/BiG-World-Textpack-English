@@ -1,0 +1,11 @@
+--- Haendlermod\baf\nq#rbad6.baf	Tue Jul 28 13:21:46 2009
++++ C:\BWP Patchstudio\patched files\Haendlermod\baf\nq#rbad6.baf	Mon Aug 27 04:27:03 2012
+@@ -38,7 +38,7 @@
+   Global("NQ#ROSE","GLOBAL",2)
+ THEN
+   RESPONSE #100
+-    DisplayStringHead(Myself,%Tötet sie!%)
++    DisplayStringHead(Myself,@0)
+     SetGlobal("KillRose","LOCALS",1)
+ END
+ 

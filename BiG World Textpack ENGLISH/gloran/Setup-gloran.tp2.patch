@@ -1,0 +1,72 @@
+--- Setup-gloran.tp2	Tue Aug 19 17:46:58 2014
++++ C:\BWP Patchstudio\patched files\Setup-gloran.tp2	Sun Aug 17 21:36:57 2014
+@@ -8,6 +8,10 @@
+   ~polish~
+   ~gloran/tra/polish/setup.tra~
+ 
++LANGUAGE ~English (Gloran)~
++  ~english~
++  ~gloran/tra/english/setup.tra~
++
+ BEGIN @1
+ 
+ COPY ~gloran/cre/Gloran.cre~ ~override/Gloran.cre~
+@@ -44,12 +48,13 @@
+ 
+ COPY ~gloran/audio~ ~override~
+ COMPILE ~gloran/dlg/Gloran.d~
+-USING   ~gloran/tra/%s/Gloran.tra~
++USING   ~gloran/tra/%LANGUAGE%/Gloran.tra~
+ COMPILE ~gloran/dlg/GloranJ.d~
+-USING   ~gloran/tra/%s/GloranJ.tra~
++USING   ~gloran/tra/%LANGUAGE%/GloranJ.tra~
+ COMPILE ~gloran/dlg/BGloran.d~
++USING   ~gloran/tra/%LANGUAGE%/BGloran.tra~
+ COMPILE ~gloran/dlg/GloranF.d~
+-USING   ~gloran/tra/%s/GloranF.tra~
++USING   ~gloran/tra/%LANGUAGE%/GloranF.tra~
+ COMPILE ~gloran/baf/Gloran.baf~
+ 
+ APPEND ~pdialog.2da~
+@@ -99,30 +104,31 @@
+ 
+ COPY ~gloran/cre/GLORA03.cre~ ~override/GLORA03.cre~
+ 
+-SAY NAME1 ~Tagnar~
+-SAY NAME2 ~Tagnar~
++SAY NAME1 @24
++SAY NAME2 @24
+ 
+ COPY ~gloran/cre/GLORA01.cre~ ~override/GLORA01.cre~
+ 
+-SAY NAME1 ~Ardan~
+-SAY NAME2 ~Ardan~
++SAY NAME1 @25
++SAY NAME2 @25
+ 
+ COPY ~gloran/cre/GLORA02.cre~ ~override/GLORA02.cre~
+ 
+-SAY NAME1 ~Groth~
+-SAY NAME2 ~Groth~
++SAY NAME1 @26
++SAY NAME2 @26
+ 
+ COPY ~gloran/cre/GLORA04.cre~ ~override/GLORA04.cre~
+ 
+-SAY NAME1 ~Lisan~
+-SAY NAME2 ~Lisan~
++SAY NAME1 @27
++SAY NAME2 @27
+ 
+ COPY ~gloran/cre/GLORA05.cre~ ~override/GLORA05.cre~
+ 
+-SAY NAME1 ~Tamath~
+-SAY NAME2 ~Tamath~
++SAY NAME1 @28
++SAY NAME2 @28
+ 
+ COMPILE ~gloran/dlg/Tagnar.d~
++USING   ~gloran/tra/%LANGUAGE%/Tagnar.tra~
+ COMPILE ~gloran/baf/Tagnar.baf~
+ COMPILE ~gloran/baf/TAlly.baf~
+ 

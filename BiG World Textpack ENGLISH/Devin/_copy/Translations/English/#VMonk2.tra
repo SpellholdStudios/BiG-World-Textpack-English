@@ -1,0 +1,267 @@
+@50002 = ~#VMonk2~ 
+
+
+// DIALOGUE DE LA COURTISANE
+
+
+@101   = ~Welcome to the City of a Thousand Faces, foreigner.~ ~Welcome to the City of a Thousand Faces, foreigner.~
+@102   = ~It's always a pleasure to see new faces. I was running out of young flesh...~ 
+
+@103   = ~Who are you? You don't know me yet and you seem... very attractive.~
+@104   = ~Can you tell me more about this place? Wherefrom comes the name you give it?~ 
+
+@105   = ~I'm Irinna. Excuse me but I'm always a little excited when I see new faces.~
+
+@1051  = ~I'm Irinna. Excuse me but I'm always a little excited when I see new faces.~
+
+@106   = ~Oh yes, of course! It is called like that not because it really has a thousand faces, but due to the difficulty that foreigners have to access it.~ 
+@107   = ~What do you mean?~
+@108   = ~In fact, seen from outside, this place is nothing more than a rocky islet in the middle of the ocean. And even the most experienced sailor would not dare to approach us.~ 
+@109   = ~And even when this would happen, he would only see here a succession of illusions that would eventually make him mad.~
+@110   = ~This is why I am always happy to meet people from outside.~
+
+@111   = ~(Shaking her head.) And you? Do you have a  name?~ 
+
+
+@112   = ~I'm <CHARNAME>. It's Rama who brought me here, I have to look for her inside the temple.~ ~I'm <CHARNAME>. It's Rama who brought me here, I have to look for her inside the temple.~
+@113   = ~Very well... In this case, I'll leave you to your obligations. Maybe we'll have the chance to meet again... my chick! Hi, hi, hi!!~ 
+
+@1131  = ~Very well... In this case, I'll leave you to your obligations. Maybe we'll have the chance to meet again... my darling! Hi, hi, hi!!~
+
+@114   = ~Come back to see me again when you're a little less busy. We could always find a way to have fun together.~
+
+@1141  = ~Come back to see me again when you're a little less busy. We could always find a way to have fun together.~
+
+
+// DIALOGUE DES PRETRESSES DE LA MORT
+
+@200   = ~The private rooms are open. Anyone who enters this place will leave forever changed.~ 
+
+@201   = ~Changed? What are you talking about?~ ~Changed? What are you talking about?~
+@202   = ~You'll see it when you enter. Feel free to have fun with them the way you please.~ 
+
+@203   = ~May darkness reveal to you your true face. May the mark of the Sacrant absorb you, let yourself be carried away by his ecstasy.~ 
+
+
+
+// DIALOGUE GARDE 1
+
+@300   = ~Who goes there?~
+
+@301   = ~I'm <CHARNAME>, Rama told me to meet her at the House of the Two Devotees. It is here, isn't it?~ 
+
+@302   = ~Yes, it is here. <CHARNAME>, you say? Yes, I remember: I'd been warned of your arrival. Excuse me, but recently we had some problems with foreigners. Finally, especially with a foreigner.~
+
+@303   = ~Have you been attacked?~
+@304   = ~A problem? What kind of problem?~
+
+@305   = ~Well actually... Technically, nobody should be able to attack us but apparently, this woman... Besides the fact she seems to be very strong, it would appear she's been helped.~
+@306   = ~Finally, in any case, the place is secured, you can enter: Rama awaits you.~
+
+
+// DIALOGUE GARDE 2
+
+
+@350   = ~Two days without being able to close my eyes, I'm sick of all these guards that never end.~
+
+
+
+// DIALOGUE FANATIQUE
+
+@370   = ~Bend under the shadow of the Grand Sacrant! Pray that he spares you!!~
+
+
+// DIALOGUE PRÊTRE DE BHAAL
+
+@400   = ~Welcome <CHARNAME>, I was expecting impatiently your arrival.~
+
+@401   = ~And you are? Have we met?~
+@402   = ~You expected me... And why? What makes you think we have something to say?~
+
+@403   = ~All those who follow the path of the Lord of Murder have things to say.~
+@404   = ~I'm Evan, one of the last survivors of the cult of Bhaal. (You address him with a smirk.) A renegade priest among all his worshippers.~
+
+@4041  = ~The Lord of Murder. Then you know who I am... It's for that you were expecting me.~
+@405   = ~The cult of Bhaal. Then you know who I am... It's for that you were expecting me.~
+@406   = ~Not really, I've been away too long from real power to have an idea. But there are still snippets lying around here and there.~
+@407   = ~And I feel many of these "snippets" around you. You are the bearer of his power, that's for sure. But how, I am unable to say...~
+@408   = ~A certain Bardick told me it might be interesting to talk to you. He told me that you'd end up passing here sooner or later.~
+
+@409   = ~Bardick? He's a pitiful being! He has no personality and follows his master like a dog. He does not even deserve a look.~
+@410   = ~Bardick? He's someone strange... It's always very difficult to know what he has in mind.~
+@411   = ~Bardick? I wonder how he can find me interesting. He has the air of a simple underling.~ ~Bardick? I wonder how he can find me interesting. He has the air of a simple underling.~
+
+@412   = ~Bardick is someone quite complicated, actually. One moment, you think to see right through him and right after that he gets back surprising us.~
+@413   = ~This is probably the most amoral person I had the opportunity to meet. Yet, I don't know why, I have a blind trust on him.~
+@414   = ~I think he has a great love for people and things that are different, for one reason or another are a bit away.~
+@415   = ~This may be why you interest him. He helped me once, when I was just a pitiful clerk emptied of his power.~
+
+@416   = ~Yours and Bardick's plots leave me indifferent. I have more important things to take care of at this moment.~ ~Yours and Bardick's plots leave me indifferent. I have more important things to take care of at this moment.~
+@417   = ~Why did you come to talk to me? To lick Bardick's boots or to learn more about me?~
+
+@418   = ~I came to talk to you because a friend of mine suggested it to me. I don't know much wherefrom you get your power, but maybe I might help you to channel it?~
+
+@419   = ~I will know very well how to make my way out, thank you.~ ~I will know very well how to make my way out, thank you.~
+@420   = ~Maybe. I'd be curious to know more about this force...~
+
+@421   = ~I'm just an old dwarf with no importance... And I'm no more even a cleric! But if, one day, you ever manage to find a way to protect me from the forces that are at work here, then we could take care of your "case".~
+
+@422   = ~Then I'll go now.~
+
+@423   = ~I'm at your disposal, <CHARNAME>. See you soon.~
+
+// Reprise dialogue quête
+
+@424   = ~There you are again, <CHARNAME>? Is there something you want to tell me?~
+
+@425   = ~Not at the moment, Evan, not at the moment...~
+
+// PECHEUR EGARE
+
+@450   = ~And I felt a shadow over me! He has... They have... His voice! HIS VOICE!!! OH NO, NOT HIS VOICE!!!~
+
+@451   = ~The fog was everywhere. Though I turned, turned again, it was thicker.~
+@452   = ~And then they came! The shadows! HE's in charge of the shadows!~
+
+@453   = ~They touched me! They laid their steamy hands over me and... and I felt... DEATH! IT CARRIED DEATH IN ITSELF!!~
+
+
+// Chanteur 1
+
+@501   = ~For the venom exhaling from the body!~
+@502   = ~We will make you pay with your lives on this bed!~
+@503   = ~The one which is not named.~
+
+// Chanteur 2
+
+@504   = ~For the villainy that escapes from your lips!~
+@505   = ~We will offer you sleep, the unfathomable oblivion!~
+@506   = ~That one who can't be named.~
+
+// Chanteur 3
+
+@507   = ~Through blood and steel, through fire and pain!~
+@508   = ~And you will reach the multitude, the huge army!~
+@509   = ~The one we dare not name.~
+
+// Prospecteur
+
+@510   = ~Alcohol is punishable by death in these places. We won't tolerate any weakness.~
+@511   = ~This city lacks gallows.~
+@512   = ~There is no downside here, we are protected by his shadow.~
+
+
+// Implantation rumeur
+
+@513   = ~It is said that sir Bardick had a very big trouble as a youngster and that is how he's been put under the command of sir Jackomo.~
+@514   = ~The Grand Sacrant protects the inhabitants of the City of a Thousand Faces. So much that its essence is not questioned, the city is forever protected.~
+@515   = ~It is said that one day, the Brotherhood will be powerful enough to cleanse the world of all its imperfections. From the most infamous thief to the last of its corrupted paladins.~
+@516   = ~The old Calusse got caught with a bucket of booze of his own production. He has never been seen again...~
+@517   = ~It is said that Fenrir is even older than the city itself. It is also said that in a distant past it's found an explanation for his appearance.~
+@518   = ~It is said that the High Priest Anghus once belonged to the clergy of Shialla. A strange rumor, when you know the man.~
+@519   = ~The Brotherhood had purified since a long time this country. Evil has been ruled out for the good of all.~
+
+// DIALOGUE HAUT SERVITEUR
+
+@520   = ~Welcome inside the temple of the Grand Sacrant, may his shadow protect you. Express your desire and we’ll do our best to satisfy you.~
+
+@521   = ~I would like to know more about your religion. What can you tell me about the subject?~
+@5211  = ~The time will come when I could tell you more. But for now, you'll have to wait.~
+@522   = ~I would like to take advantage of your services. What do you suggest?~
+@523   = ~After all, I don't need anything. I will leave you.~
+
+// ** 1ére partie **
+
+@524   = ~Why don’t you know it? This is surprising...~
+@525   = ~"The Grand Sacrant", as we call him here, is an entity that has arisen from chaos since several millennia. When he emerged from the cesspit, his appearance had so much shocked the gods, they banished him from their planes of existence.~
+@527   = ~In the bloody mire in which he was constantly evolving, the father of us all had the experience of suffering. Time went still, and in this world where everything was black and belching, torture never seemed to want to stop. However, there was a goddess, at that time, to worry about the fate of our master: Myrcilla. Human history wouldn't have remembered her name, yet she played a key role in the events.~
+@529   = ~By a skilled method, she succeeded, it is unclear how, to open a passage between the world of men and that created by the gods to banish the father of us all. No sooner she had opened the passage that a black light emerged in the world of gods through the opening that was made. Such an unusual sparkle immediately attracted the attention of the gods who rushed to close it.~
+@531   = ~While seeking to block the way, Myrcilla was thrown into the passage without that the gods could do anything to prevent, the passage closed forever. A long night of mourning followed this event, the disappearance of Myrcilla made the gods aware of the measure of their pathetic lives.~
+@533   = ~And as the night dragged on earth, symbol of the despair of gods, there were some men in these distant lands to attend the rest of the story. The City of a Thousand Faces had not, obviously, yet been built: there was here just a raging sea. And apart from two or three fishermen in search of food for their family, there was never anyone to stand alongside these dangerous reefs.~
+@535   = ~Fate wanted that some castaways were stranded in these areas... But the story is very long and I already feel the tiredness over your face. Come back a little later then, I will tell you the rest.~
+
+// ** 2éme partie **
+
+@537   = ~You want to know what happened? Very well. Take good care of my words, they say a lot more than it seems.~
+@538   = ~As I told you the other time, there were some castaways who were stranded here, when there were only reefs.~
+@539   = ~It is said pirates, it is said bandits but whoever they could be, at the end of that long night that seemed to never want to end, they were more than men.~
+@540   = ~For in this long night, far away from the human world, by the place where Myrcilla had disappeared, a strange thing was happening.~
+@541   = ~The father of us all, or at least a piece of him, had escaped from the passage.~
+@542   = ~A dark shadow lurking and it could already be seen a grimacing face, amorphous, wispy, screaming his hatred against the gods.~
+@543   = ~Something different had escaped, something changed.~
+@544   = ~And this thing demonic-looking, angelic-looking wept heart-felt. Wept for the stupidity, wept for the pride, for the silence of gods.~
+@545   = ~Weighed down by the burden of resentment, hatred and revenge, he fell. He fell very far away, in another dimension. He fell into the world of men, very near to the reefs where the castaways were stranded.~
+@546   = ~He then expressed by these words.~
+
+
+
+@547   = ~I'm not Myrcilla, I'm not a horror
+        I'm not a god nor a savior
+        I'm the creature fed by hatred
+        I'm, indeed, this unfair anathema~
+
+@548   = ~I won't help you but you adore me
+        Not for that I am but for truth
+        You will become more than men, you will become more than gods
+        You will know the pain of being fed by my fire~
+
+@549   = ~Follow me, be carried away, and forget everything
+        Because what you will see
+        Does not occur anywhere~
+
+@550   = ~Here's away from demons and angels
+        That deity disappear for you
+        Reappearing in the mire
+        We'll be able to recreate a world for us~
+
+@551   = ~Far from stupid creations
+        Far from divine ambitions
+        We'll create a new model
+        To get the world rid of its mortal creations~
+
+@552   = ~This is how this story ends. And this is how begins the one of our master. Maybe I'll tell you one day, if I deem it necessary.~
+@553   = ~We have a few common goods here waiting for the next supply. For the rest, it's up to you to see what you want.~
+@554   = ~~
+
+
+//  DIALOGUE CHATAYA (violent)
+
+@555   = ~HOW CHARMING, THIS MORTAL WANTS TO PLAY WITH ME. WE WILL SEE THEN, IF YOUR MEAT IS WORTH TO BE SAVOURED.~
+@556   = ~BUT I FEEL YOU AGGRESSIVE, WHAT IF WE BEGIN TO ARRANGE?~
+
+
+
+// Incanteur rituel n°1
+
+@557   = ~Who are you then? Your face is completely unknown to me. Would you be... a "visitor"?~
+
+
+@558   = ~Yes, I'm <CHARNAME>. What is your role here?~
+@559   = ~My role? Prayer, of course, and experiments to a lesser extent.~
+@560   = ~And... what do you experiment?~
+@561   = ~Death, of course, and life by extension. It's always instructive.~
+@562   = ~But maybe do you to "try out" by yourself?~
+
+@563   = ~I'm not sure, no. Another time, perhaps.~
+@564   = ~Why not? what does it consist of?~
+
+
+@566   = ~Okay, another time.~
+@565   = ~Oh, nothing too bad. After all... A demonstration would probably be more meaningful...~
+
+@5651  = ~You didn't seem to appreciate my little demonstration. You shouldn't be ready yet.~
+@5652  = ~You didn't seem to appreciate my little demonstration. You shouldn't be ready yet.~
+
+
+// Les incanteur rituel se déchainent
+
+
+@567   = ~No! Not yet!~
+@568   = ~I... I want to die!~
+@569   = ~Mercy... Please...~
+@570   = ~By all the gods that someone...~
+@571   = ~A satisfactory result. Don't you think, dear brother?~
+@572   = ~Definitely. Perfectly instructive.~
+@573   = ~~
+@574   = ~~
+@575   = ~~

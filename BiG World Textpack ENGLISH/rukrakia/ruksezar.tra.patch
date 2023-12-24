@@ -1,0 +1,9 @@
+--- rukrakia\KOREAN\ruksezar.tra	Mon Jun 20 19:28:09 2011
++++ C:\BWP Patchstudio\patched files\rukrakia\KOREAN\ruksezar.tra	Fri Oct 03 05:05:00 2014
+@@ -5,4 +5,4 @@
+ @4    = ~제가... 사람을 정말 잘못 봤군요. 당신은 위험에 처하면 동료를 팔아넘길 사람이에요. 전 가겠어요.~
+ @5    = ~긍지를 잃어버렸군, <CHARNAME>. 그런 자의 곁엔 내가 있을 필요가 없네.~
+ @6    = ~아보린의 검을 걸고 당신이 이런 사람인 걸 알았더라면 당신을 도와주지 않았을 거에요, <CHARNAME>.~
+-@7    = ~당신... 이런 사람이었군요! 차라리 서커스단에 남을 걸 그랬어요. 잘 있어요.~
+\ No newline at end of file
++@7    = ~당신... 이런 사람이었군요! 차라리 서커스단에 남을 걸 그랬어요. 잘 있어요.~

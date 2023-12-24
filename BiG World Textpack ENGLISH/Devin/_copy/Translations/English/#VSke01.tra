@@ -1,0 +1,318 @@
+@50006 = ~#VSke01~ 
+
+
+// PHASE 1
+
+@1     = ~Thanks for helping out, kids! Behave, Second Class, there's the world! Come On! At attention!~
+@2     = ~Yes boss! Aye sir!~ 
+
+@21    = ~(Skeletons talking? I'd definitely seen it all.) You... Do you talk? Aren't you supposed to be bloodthirsty skeletons?~
+@22    = ~Excuse me, but who are you exactly? I thought to be in a crypt with undead doing in. After all, the usual bunch.~ 
+
+@211   = ~It is so, indeed, adventurers! I'm a skeleton thus I'm INEVITABLY a bloodthirsty brute! If I'm able to align three words conversely unlike these other idiots that can haunt the area, there's panic then!~
+@210   = ~It is so, indeed, adventurers! I'm a skeleton thus I'm INEVITABLY a bloodthirsty brute! If I'm able to align three words conversely unlike these other idiots that can haunt the area, there's panic then!~
+@212   = ~I did my duty in Silverymoon, me, sir! I shook hands with the great Alustriel! I can say, without boasting, I have seen countries and I should not be compared to these simpletons of dregs!~ 
+@213   = ~Nor to this simpleton of Second Class: he hasn't invented gunpowder, that one...~
+@214   = ~How, boss? Do you speak to me, boss?~ 
+@215   = ~Nothing, Second class, nothing... Well, let's start again: who are you here for?~
+@216   = ~A certain Bardick sent me here. He told me that I would have no problems if I brought that. (Showing the skull.)~
+
+@231   = ~This dickybird here, he told something indeed. Eh! I better understand now why you can hear us chatting!  And he passed you the famous skull, he doesn't have a nerve! Hahahaha!~ 
+@232   = ~Why? What does this skull do? Is it cursed or something?~
+@233   = ~Yeah, cursed, it can be said so. And yet the word is fair! But you won't take long to become aware!~ 
+@234   = ~Now, where were we? Oh yeah: you come from that smoke filled jar, and tell me that you would help me, actually. We would need tough arms to cross swords from pillar to post, given our face we hardly get out of here... Would you be able to help?~
+
+@2341  = ~Of course! It's always a pleasure to help my skeleton friends!~
+@2342  = ~I can always help you but I warn you it will cost you a lot!~
+@2343  = ~If there's an adequate reward, why not. I'm always looking for useful items.~ 
+@2344  = ~I'm here for that. Against whom do you want me to "cross sword", as you say?~
+
+@24    = ~Your skeleton friends? Yeah, take care not to be a smartass, unless "your skeleton friends" could get angry.~ 
+
+@25    = ~There is not so much gold up our sleeve. What would we do? But if you're okay with us, we could always pass you the baubles found here and there. And it seems some are worth a wad of gold!~ 
+@251   = ~And besides, there's the famous...~
+@252   = ~SECOND CLASS! Have you been told to open your mouth, Second class?~ 
+@253   = ~Uh no, boss... (making his crooked teeth grind and lowering the head.) Sorry, boss...~
+
+@26    = ~In fact, there's a bit of things to do here. We have to practice a ritual and we have need of two or three little things...~
+@27    = ~It seems there are worshippers of Shialla here. I need you to bring me their priestess. Preferably dead, huhuhu! For what we have to do, it's not that bad...~
+
+@271   = ~Priests of Shialla? But these priests are nature lovers! Why do you want them hurt?~
+@29    = ~Why not if it can bring benefit to me... And where am I supposed to find these priests?~
+
+@30    = ~These dirty priests full of good feelings are just ranting unnecessary things. Dead, at least, they will be useful for something!~
+@31    = ~I heard you could find them by the hills. After you are done with these ones, there is another problem.~
+@32    = ~We wait for you here! And don't drag! It is a rather pressing business.~
+
+// PHASE 2
+
+@34    = ~Perfect! Exactly what we wanted. Now, we're missing just one item: we would need two beautiful sapphires with stars in the middle to complete the ritual.~
+
+@341   = ~A canvas? How?~
+@342   = ~A gem with a canvas? But what do you mean?~
+
+@343   = ~Oh, well the nerd! Don't play the one who don't understand! The thing that shines at night, the symbol of a cow-boy job, what a star!~
+
+@344   = ~A star sapphire? Is that what you want?~
+@345   = ~Well maybe, it could always be useful. You could even have your reward if you give it to us.~
+
+
+@35    = ~And where am I supposed to find gems of this value? Under the hoof of a horse?~ ~And where am I supposed to find gems of this value? Under the hoof of a horse?~
+@36    = ~Very well, then I'll be back... again!~
+
+@37    = ~Who knows? It is possible. After all, it's not our business, thus go ahead, dash!~
+
+@38    = ~It's not by looking me in the hollow eyes that you'll find what you're looking for. Hurry up, damn it!~
+@39    = ~That's for sure: it's not the boss who gets going. You'd better do what he says, I look forward for this story to end...~
+@40    = ~SECOND CLASS! I HAVE ALREADY TOLD YOU TO KEEP YOUR THOUGHTS FOR YOURSELF! You wanted that: you're on guard for the night!~
+@41    = ~(Sighing or rather hissing in this case, Second Class has lips no more.) Yes, sir. As usual, sir.~
+
+@42    = ~Nice job, my boy. We could tuck into our business. So...~
+@419   = ~Nice job, my darling. We could tuck into our business. So...~
+@43    = ~(Taking out an old scroll from his pocket, he began to start deciphering) Ign... Ignom... katom? Dirt, my eyes are very good.~
+@44    = ~(The skeleton takes out an old pair of glasses and puts them over his eyes, his nose has probably suffered an axe hit. You repress a smile looking at his appearance.) Yes then: Kamvor, elector ign as vok....~
+@45    = ~(The skeleton continues casting while you look at your fingertips.)~
+@46    = ~God damn, it doesn't work! Second class, you that studied, look at that!~
+@47    = ~(Second class carefully observes the scroll.) Hmmm... (You address him with a sidelong glance.) I don't have a degree, sir. Maybe I'll say something stupid but if this is a three thousand years old scroll then my aunt is a lich.~
+@48    = ~For the Nine Hells! It's this dirty messenger who has foisted upon us a fake, if I catch him! We've been drooled enough like that, a three thousand years old ritual scroll, it's not found under the hoof of a horse.~
+
+@49    = ~Listen: I'm sick of your problems! I have other things to take the piss out on other than listening to your clown act!~
+@50    = ~I guess I'll have to find this woman again... do we need to kill her too?~
+@51    = ~Oh no, not again! What is it this time? Find a drunkard in a tavern? Saving a cat from the clutches of a mother madam?~
+
+@491   = ~You make me laugh, if you're here it's because you don't have a choice. Do what you're told and keep your mouth shut!~
+@492   = ~Very well: what do you need this time then?~
+
+@501   = ~As you wish. Since we'll get the real spell, we trust your method.~
+@502   = ~There's a sweet woman called Lucie. She works for those clowns of Zentharims, it seems. She's dealing with a certain Sidge, a thief, from what we know.~
+@503   = ~The scroll has been written by a race extinct since ages. They were called the Knots, that it is written with the blood of a virgin.~
+
+
+// Rencontre surprise avec Jackomo
+
+@5041  = ~(The skeletons don't appeal to you at your arrival, as their habit, their cadaveric bodies remain like frozen by a strange force.)~
+@504   = ~(A group of men and women stand in front of Jackomo. Glassy gaze, they stand still.) Oh but it's the good old <CHARNAME>... The time has come for you, I think.~
+@5039  = ~(A group of men and women stand in front of Jackomo. Glassy gaze, they stand still.) Oh but it's the good old <CHARNAME>... The time has come for you, I think.~
+
+
+@505   = ~The time has come for what? And who are all these people lined up like stakes? What are you going to do?~
+
+
+@506   = ~Oh, the time to take a choice about your involvement with us. You can leave here with your reward or choose acting. Choose to be in, accepting power.~
+@507   = ~Do you have any idea what this "ritual" looks like?~
+
+@5071  = ~No, I admit it, and frankly, I don't really want to know.~
+@5072  = ~Something bloody, I guess. Some sacrifice, probably....~
+@5073  = ~An unspeakable act, I think. And even though I have been controlled by my cowardice until now, I can't definitely continue. I will fight at any cost, against you and your kind. Even if only to prove that something human remains in me.~
+@5074  = ~I don't know and I don't care. All this story bothers me deeply and I can't wait to finish.~ ~I don't know and I don't care. All this story bothers me deeply and I can't wait to finish.~
+
+// Je m'en cogne  (BadChoice2)
+
+@5075  = ~I see... You'd rather avoid reality, isn't it? But then you have took part! You're like the others, <CHARNAME>, you're no different.~
+
+// Je vais te te tataner la gueule (BadChoice3)
+
+@5076  = ~This is unfortunate, <CHARNAME>, very unfortunate. Unfortunately, it turns out that your "crimes", if they were disclosed, could cause you a lot of troubles... These poor devotees of Shialla that you've killed... I could easily find witnesses... And if death intimidates you no more, perhaps the sight of your fall could convince you more.~
+
+@5077  = ~ You're despicable! You have plotted everything from the beginning.~
+@50771 = ~I should have suspected it. You have no morals. You're nothing more than calculation and small game.~
+
+@5078  = ~It's possible, I don't remember very well, indeed.~
+@50781 = ~Well, anyway...~
+
+// Du sang ! A boire  (BadChoice4)
+
+@5079  = ~It seems obvious, indeed. Although the term any one seems somewhat inappropriate.~
+
+// Suite
+
+@508   = ~It's even here that Chataya, a succubus with amazing powers has been locked in a space outside our time and understanding, precisely by the disciples of Shialla.~
+
+@509   = ~And do you think you can bring her back? And do you think you're able to control a demon?~
+
+@510   = ~Maybe not alone, but with your help, who knows?~
+@511   = ~You've been very helpful and we're grateful to you. However, it's your blood that is the key: linked to mine, it will give me the needed power to control superior beings such as Chataya.~
+
+
+
+@512   = ~I'm afraid I can't accept to give you so much power. I say to you good-bye then, fool, and I have fun in advance for your "meeting" with your succubus.~
+@513   = ~And what would I gain, me? You constantly talk to me about collaboration and I still have not seen my interest in all this story.~
+@514   = ~I'm afraid that this all is too creepy for me, I'm done with you in this moment! So I'll make sure you don't commit more atrocities.~
+
+
+// Fin ONE (BadChoice6)
+
+@5121  = ~Ah! <CHARNAME>! You're a toy I'm tired of... Do you want to leave? All right! I leave you to your business then. As for me, I'll amuse about the war you triggered amongst your little party of the powerful brotherhood of Zentharims... It promises to be fun! FAREWELL <CHARNAME>!!~
+
+// Fin TWO (BadChoice7)
+
+@5131  = ~You're right, you're absolutely right! Gentlemen! I think it's time to part ways with... What is your name, again?~
+@5132  = ~"THE BIG THING THAT HURTS!"~
+@5133  = ~But it's... Uhh... Actually, this is our war treasure and...~
+@5144  = ~And without me you would still be squashing slugs inside an old ruined keep. Come on, hurry up! It would be unfortunate if I get upset.~
+@5155  = ~Well, here... Take it! We no more need it, anyway.~
+@5156  = ~A certainly very useful item and it's only a taste of what you can get if you assist us in our task. After all, I only lack a few drops of your own blood.~
+
+@5157  = ~Take what you need. I hope I won't regret it.~ // Infliger 5 de dommage
+@5158  = ~I'd rather die, I don't trust you!~ // @5121
+
+// Fin THREE (BadChoice8)
+
+@5141  = ~You're someone strange, <CHARNAME>, I wonder how you managed to survive so far. But the great fight won't take place; the valiant <CHARNAME> won't put an end to the miserable existence of an evil necromancer.~ // @5521
+
+
+
+// Ca va saigner !
+
+
+@52    = ~Excellent! I'm going to start! But maybe you want to execute yourself these sacrifices?~
+
+@521   = ~With pleasure. It's with joy that I will take great delight in their cries of agony.~
+@522   = ~Sorry, I'm not a sadist. I won't take part in this little game.~ ~Sorry, I'm not a sadist. I won't take part in this little game.~
+@523   = ~Just as you like. I made worse things, besides the one I'll take care of. I hate to stand idly.~
+@524   = ~That is very good for a start. To be quite honest, I didn't believe you can.~
+@525   = ~(Turning to skeletons.) Follow the plan as expected: we'll soon have newcomers. We need you there.~
+@526   = ~Aye, sir! Second class! TURN BAAAAACK LEFT! LEFT! LEFT! LEFT!~
+@527   = ~(Ah... This freak is even more annoying dead than alive...) Yes: left, left...~
+@528   = ~Louder, Second class, LOUDER! I want to hear you screaming up to spitting the vocal cords out! Come on, for the dirty name of god of a spineless, clean your throat!!!~
+@529   = ~(Sigh...)~
+
+
+
+
+@531   = ~(A smile of complicity appears on her angelic face.) In this case, I'll stay a little behind. It will be very instructive to watch you...~
+@532   = ~Honestly, I expected better from you, but... As you wish, I'll look into it.~
+
+// Ca y est enfin
+
+@533   = ~Good. Now, move back a little: this could be quite spectacular.~
+
+@534   = ~FREE! I'M FREE! THE WORLD COULD FINALLY TASTE THE SAVOUR OF MY WAKENING!~ [Ch@534]
+@535   = ~A second, sweet Chataya. I require your attention.~
+@536   = ~WHO ARE YOU MORTAL! WHO ARE YOU TO DARE TO ADDRESS ME THIS WAY?~
+@537   = ~A humble necromancer, nothing more. I have great need of your help, this is the reason I've invoked you.~
+@538   = ~AND WHAT DOES MAKE YOU BELIEVE, PATHETIC CREATURE, THAT I COULD ACCEPT TO HELP YOU?~ [Ch@538]
+@539   = ~Well, this is a detail, of course, but... For now, you are my prisoner, and without me, I'm afraid you're somewhat limited in your movements...~
+@540   = ~PHEW!  PATHETIC!! DO YOU THINK YOU CAN HOLD ME!? COMPLETELY RIDICULOUS!~ [Ch@540]
+
+@541   = ~I WILL CRUSH YOU IN MY HANDS AS SOON AS I HAVE THE CHANCE, YOU AND YOUR RIDICULOUS SPELLS!!~ [Ch@541]
+@542   = ~Oh, I don't doubt it, but for the time being... Could we reach an agreement, what do you think?~
+@543   = ~AND WHAT WOULD YOU HAVE TO OFFER ME, YOU POOR HERE?~ [Ch@543]
+@544   = ~Besides freedom, do you mean? Well, you will have your share of sex and blood, I guess...~
+@545   = ~DO YOU BELIEVE THAT I AM A FOOL? WOULD YOU LET ME FREE? WHY WOULD YOU RUN SUCH A RISK?~ [Ch@545]
+@546   = ~I think you're overestimating your power a bit. I don't think you're that dangerous, all least not all alone.~
+@547   = ~YOU PLAY A DANGEROUS GAME MOR... (An expression of doubt passes over the face of the succubus.) WHO ARE YOU THEN? I FEEL SOMETHING UNUSUAL IN YOU...~ [Ch@547]
+@548   = ~Your powers have finally woke up, though. (Pointing the finger at you.) Do you also feel something unusual in our friend, there?~
+@549   = ~I'M NOT A FOOL, I KNOW TO RECOGNIZE THE POWER IN EVERYTHING. BUT YOU... YOU ARE NOT NATURAL. ONE WOULD SAY THAT YOU...~ [Ch@549]
+@550   = ~We'll finish this conversation later. I'll send you to a place more suitable.~
+@551   = ~AH AH AH! ONE WOULD SAY I FOUND A WAY TO PUT PRESSURE ON YOU, "YOUNG" MAGE...~ [Ch@551]
+@552   = ~<CHARNAME>, I have to go: some obligations require me elsewhere. Make yourself outside of the city, one of our contacts is dealing with a local lord. He will guide you to us.~
+@553   = ~The code name of the contact is "Salkez".~
+@554   = ~Chataya, I’ll introduce you to some people. Do you accept to kindly follow me?~
+@555   = ~YOU KNOW THE VALUE OF THE WORD OF A DEMON...~ [Ch@555]
+@556   = ~Yes, of course, Chataya. I see exactly what you mean. But nevertheless I will try to trust you, you never know.~
+
+
+
+
+// ENTRÉE JOURNAL
+
+@33    = ~The Ritual.
+
+My "job" within the Brotherhood seems to lead me far: I have to kill a priestess of Shialla. The two completely nuts skeleton guards that occupy the mausoleum ordered me to. I should find her among "the hills", according to them but they were unable to tell me which ones exactly...~
+
+@331   = ~The Ritual.
+
+The absurd gives up place to irrational. The skull I carried in my backpack suddenly decided to get out of there to enjoy the great outdoors. We had a conversation that is most obscure and I'm starting to wonder whether I'm simply going crazy. Either way, I know a little more about the way to find my priestess: she's near the abode of a red dragon.~
+
+
+@351   = ~The Ritual.
+
+I brought the body of the priestess to the skeletons but they sent me to find two gems to complete their ritual: star sapphires.~
+
+@352   = ~The Ritual.
+
+I managed to get hold on the star sapphires. The ritual was supposed to work properly but there is a problem: the ritual scroll was a fake and I have to get my hands over the agent of the Zentharim who sold it to them. The skeletons have told me that a shadow thief called Sidge might be able to help me.~
+
+@353   = ~The Ritual.
+
+It's Jackomo who has been the initiator of the ritual, I should have guessed... I managed to escape him but his last words worry me: do the Zentharims really want to pursue me?~
+
+@354   = ~The Ritual.
+
+It's Jackomo who was behind all this story, it was predictable. All this was only a stage play. I agreed to help him by giving him a few drops of my blood in order to wake up a succubus called Chataya. I wonder if he will manage to keep control over her.~
+
+@355   = ~The secret brotherhood.
+
+Apparently, I gained the trust of the Brotherhood. I have to meet one of their contacts outside the city. Now, I only have to find the place.~
+
+@356   = ~The secret brotherhood.
+
+I refused to help the Brotherhood in its plans. I don't like their methods and I have no desire to help them. I'd been apparently teleported at the Graveyard of Athkatla but there is no trace of the people I got to meet previously.~
+
+@357   = ~The secret brotherhood.
+
+I know a little more about the Brotherhood now. But I did not appreciate the way they spoke to me. They are but only scheming in their corner, their business does concern me no more.~
+
+
+@358   = ~The secret brotherhood.
+
+Thanks to Timek, I know more about the place I have to go to. If I base on what I could deduce from his rantings, I will find Melusiane inside the building of the Council of Six.~
+
+@17344 = ~The secret brotherhood.
+
+The old man seems to have brought me (voluntarily or against his will) to get into touch with a brotherhood of the most mysterious. It desires that I "collaborate" and can apparently be very persuasive... For now I have to go into a mausoleum, I am eager to learn more.~
+
+
+@17345 = ~A nightmarish vision.
+
+I went to see Bardick, as Jackomo told me. And when I wanted to express my refusal... By all gods, it was terrible! A horrible creature appeared and when it touched me, I felt... It was a vision worthy of my worst nightmares! Or rather no, I've never experienced such a nightmare! Not even... Ultimately, Irenicus can't be the main danger. I must be very careful of what I do in this brotherhood, this could become very dangerous. And this Bardick! I will have my revenge on him! One way or another...~
+
+
+// JOURNAL ENTRY (second)
+
+@157   = ~You have waited too long. You missed the meeting that Melusiane pointed you to.~
+@158   = ~I missed the meeting that would have enabled me to meet the troublesome people whom I've been ordered to get rid of. I hope that the Brotherhood doesn't take offense at me and gets in touch with me again...~
+@159   = ~~
+
+
+// DISPLAY STRING
+
+// Cimetiére
+
+@154   = ~You find yourself in a dark and wet cell, your feet splash in a blackish substance, of which you can't determine the nature.~
+@155   = ~You don't know how, but presumably, you're back at your starting point. You take a look through the crack of the door behind you, but what you can see doesn't resemble in any way the place you just quit.~
+
+// Arnise 
+
+@156   = ~You are again nearby de'Arnise Keep, alone this time. Finally, no traces of Rama in all cases.~
+
+@157   = ~You are again nearby de'Arnise Keep, alone this time. Finally, no traces of Rama in all cases.~
+
+
+
+
+
+
+//  DIALOGUE CHATAYA (confrérie)
+
+@557   = ~OH BUT HERE AGAIN OUR ROMANTIC MALE LEAD! HE ENDED UP FINDING HIS WAY, FROM WHAT I SEE.~ [Ch@557]
+@5569  = ~OH BUT HERE AGAIN OUR ROMANTIC FEMALE LEAD! SHE ENDED UP FINDING HER WAY, FROM WHAT I SEE.~ [Ch@5569]
+
+@558   = ~Chataya? Are you now a servant? You appeared tougher the other day...~
+@559   = ~What are you doing here? And what is this place? There are things I can't explain to myself.~
+@560   = ~You are here? I would have believed you were going to devastate I don't know what part of the world. And besides, this place intrigues me... What is a devil of such a type may well be up to?~
+
+@561   = ~SERVANT, ME? TAKE VERY GOOD CARE OF WHAT YOU CAN TELL ME YOUNG MORTAL. YOU ARE A HUNDRED MILES AWAY TO KNOW WHAT I AM CAPABLE OF...~ [Ch@561]
+@562   = ~THIS PLACE IS... ENTERTAINING. IT IS A PLAYGROUND WHICH SATISFIES ME FOR NOW.~ [Ch@562]
+@563   = ~FOR HERE THERE IS TO DEVASTATE... I WOULD SAY THERE IS A TIME FOR EVERYTHING: A TIME FOR A MASSACRE, FOR TREASON, A TIME FOR RAPE, FOR ENJOYNMENT, FOR MURDERING, A TIME FOR MACABRE PLEASURES. EVERYTHING IS A MATTER OF TIME AND HUMOR.~ [Ch@563]
+
+@564   = ~Maybe. But that doesn't explain your presence here.~
+
+@565   = ~I see. I remark: I should not be surprised to find you in such a place.~
+
+
+@566   = ~NO, INDEED. THE JOURNEY HAS BEEN REALLY VERY INSTRUCTIVE AND I HAVE WELL FOUND WHAT TO TAKE CARE OF FOR NOW. AS YOU MAY NOTICE YOURSELF, THERE ARE PLENTY OF THINGS TO HAVE FUN HERE.~ [Ch@566]
+@567   = ~THEN MAYBE WE WILL HAVE THE CHANCE TO TALK AGAIN OVER IT. IN THE MEANTIME, YOU WOULD FORGIVE ME, BUT I HAVE THINGS TO DO...~ [Ch@567]
+
+@568   = ~PATIENCE, PATIENCE, BEAUTIFUL CREATURE WITH A PIERCING SIGHT. WE WILL HAVE THE CHANCE TO TALK ABOUT THAT LATER.~ [Ch@568]

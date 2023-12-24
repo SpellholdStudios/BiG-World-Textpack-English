@@ -1,0 +1,16 @@
+--- Uldar\d\BOY3.d	Sun Mar 02 00:01:02 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\BOY3.d	Wed Aug 29 05:58:57 2012
+@@ -4,11 +4,11 @@
+ 
+ IF ~NumTimesTalkedTo(0)
+ ~ THEN BEGIN 0 
+-  SAY ~¡Oh, gracias, señor! ¡Muchas gracias por dejarme salir de aquí! ¡Tenía tanto miedo!~ ~¡Oh, gracias, señora! ¡Muchas gracias por dejarme salir de aquí! ¡Tenía tanto miedo!~ 
++  SAY @0  
+   IF ~~ THEN GOTO 1
+ END
+ 
+ IF ~~ THEN BEGIN 1 
+-  SAY ~¡Me voy de aquí!~ 
++  SAY @1 
+   IF ~~ THEN DO ~AddexperienceParty(2500) SetGlobal("CeldaniñoUldar","GLOBAL",1) EscapeArea()~ EXIT
+ END

@@ -1,0 +1,97 @@
+@0  = ~<CHARNAME>, I'd like to make you familiar with some of the esteemed traditions of the Order of Pints of Beer.~ 
+@1  = ~Yes?~
+@2  = ~Do you mean that competition where you force pints of beer down the throats of immobilised kobolds?~ 
+@3  = ~Not now, Lester, I have something else in mind.~
+@4  = ~No, not that... who told you they were immobilised? They are tied from their legs to a tree when it's windy so they sway... they are NOT immobilised, that would make it too easy!~ 
+@5  = ~In that case, I'm listening.~
+@6  = ~No, I don't really want to hear about your craziness.~
+@7  = ~Well, singing is an important part of the life of an order member. Composing a song of praise in honour of alcohol and debauchery is a requirement for promotion!~ 
+@8  = ~I will now present to you my first completed piece!~
+@9  = ~By all means! Everyone, listen, Lester is going to sing for us! Go ahead, Lester!~ 
+@10 = ~With pleasure! I'm listening, go ahead, Lester!~
+@11 = ~Oh no! Please, don't sing!~
+@12 = ~Okay... sha... shall I begin? Okay.~ 
+@13 = ~Ahem...~
+@14 = ~Oh fair maiden, oh buxom wench!
+Come hither, come hither,
+Ignore my stench!
+Ere my tumescence doth wither, come hither!~ 
+@15 = ~Bravo! Bravo! What wordplay! Go on!~
+@16 = ~Hmm, yes, very... raunchy. But we have to go, you can finish some other time, okay?~
+@17 = ~In that case, <PRO_LADYLORD>, I'm sorry to disturb you, let's move on.~
+@18 = ~Er... that's all for now. I haven't made any more up yet. But as soon as I complete the next verse, I'll let you know!~ 
+@19 = ~Okay, okay. But don't rush! These things take time!~
+@20 = ~Ahem, ahem, <CHARNAME>, are you ready to listen to the next verse of my poem?~ 
+@21 = ~Fantastic! Sing on!~ 
+@22 = ~Er... maybe another time? We have to go.~
+@23 = ~Well, I'll sing the whole thing from the beginning!~ 
+@24 = ~Oh fair maiden, oh buxom wench!
+Come hither, come hither,
+Ignore my stench!
+Ere my tumescence doth wither, come hither!
+
+Who needs a bed, when we have this bench!
+Come hither, come hither,
+Your bosom, my lust doth quench!
+My heart hurts to see you dither, come hither!~
+@25 = ~Bravo! Great song! I've never heard anything so beautiful!~
+@26 = ~That's very nice... I've rarely heard something so... er, inspirational!~
+@27 = ~Your ignorance of my great talent is remarkable... Remind me not to talk to you anymore.~
+@28 = ~<CHARNAME>, I have finished my poem!~
+@29 = ~Really? I look forward to listening to the ending! Go ahead, sing!~
+@30 = ~I look forward to putting this whole episode behind us. Go on, sing already!~
+@31 = ~Well, what of it?! I don't care about your stupid song!~
+@32 = ~I'll start from the beginning and sing the whole song.~
+@33 = ~Get ready!~
+@34 = ~Oh fair maiden, oh buxom wench!
+Come hither, come hither,
+Ignore my stench!
+Ere my tumescence doth wither, come hither!
+
+Who needs a bed, when we have this bench!
+Come hither, come hither,
+Your bosom, my lust doth quench!
+My soul hurts to see you dither, come hither
+
+I can see your jaw doth clench!
+Come hither, come hither,
+My heart doth wrench!
+Be pleased, my manhood doth slither, come hither!~
+@35 = ~So what do you think?! I called it "Ode to a tavern wench!"~
+@36 = ~Bravo! Great! Lester, your poetic prowess will go down in the history of Faerun as being completely unparalleled! You bring honor to the Order of Pints of Beer!~
+@37 = ~You really think so? I knew you'd like it!~
+@38 = ~Oh, yeah?! Oh, YEAH?! Fine. I won't sing! I won't fight! I won't lift a finger when a dragon attacks and burns you alive! Humph! What would an abstainer know of poetry, anyway!~
+@39 = ~Bah! What do you know?! Your sense of poetry is as developed as a kobold's cock and just as limp!~
+@40 = ~Are we going to bed? I confess (hep!), I am a little scared...~
+@41 = ~You? Afraid? I thought you weren't afraid of anything!~
+@42 = ~A big boozer like you? Afraid? I knew your order was full of a bunch of pussies!~
+@43 = ~Well... almost anything! I'm afraid to go to sleep... I had a horrible nightmare last night...~
+@44 = ~What was it about?~
+@45 = ~You aren't the only one. What was the nightmare about?~
+@46 = ~Do you really care about dreams?~
+@47 = ~Not usually. I don't really dream at all, but if I do it is usually about a barrel full of delicious ale, tanned and promiscuous wenches and-~
+@48 = ~Okay, okay, I don't want to hear more. So what did you dream that was so unpleasant?~
+@49 = ~What did you dream about last night?~
+@50 = ~Well... I dreamt about my grandfather...~
+@51 = ~Grandfather? And that was so terrible that you are afraid to go to sleep?~
+@52 = ~I understand. Grandfathers are the epitome of scary. Horrible, dangerous, drooling creatures that they are...~
+@53 = ~My grandfather... He is (hep!) dead... or rather, he was dead...~
+@54 = ~Okay... Go on.~
+@55 = ~I dreamt that my grandfather was looking for me and then he found me, but something was terribly wrong. He waved his hand to me, as if he wanted to say something, but I couldn't hear his words.~
+@56 = ~That is somewhat unpleasant.~
+@57 = ~My grandfather died some time ago. He was buried in the Graveyard District of Athkatla,(hep!) . I just... can't shake this feeling... of foreboding...~
+@58 = ~What?~
+@59 = ~Maybe if we went to the graveyard at night...~
+@60 = ~What for? You are afraid of your grandfather!~
+@61 = ~Yes, but... Maybe I'll learn something important... or at least my mind will be at ease.~
+@62 = ~Okay, Lester, we will go to put you at ease. Tomorrow night, then?~
+@63 = ~I understand. But we don't have time right now. Can we go next week?~
+@64 = ~Lester, you are even more drunk than usual! What are we going to accomplish by going there?! We will not go.~
+@65 = ~Ha ha ha! You are seriously losing it, man! What was in that last bottle?!~
+@66 = ~Thank you. I'll buy you a large beer!~
+@67 = ~This is important to me... Can we not go tomorrow night? I can't wait for next week...~
+@68 = ~We'll go as soon as possible.~
+@69 = ~No, I don't have time for such nonsense. I have serious things on my mind.~
+@70 = ~What?! This is how you repay me for helping?! Forget my grandfather. Forget Lester! Go to hell!~
+@71 = ~You disappoint me, <CHARNAME>. You promised we'd go to the graveyard to have a look. You have failed to keep your word. There is nothing else for me to do but leave the group. I am sorry.~
+@72 = ~You disappoint me, <CHARNAME>. You promised we'd go to the graveyard to have a look. You have failed to keep your word. There is nothing else for me to do but leave the group. I am sorry.~

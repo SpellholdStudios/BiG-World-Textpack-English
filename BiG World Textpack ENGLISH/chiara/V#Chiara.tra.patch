@@ -1,0 +1,12 @@
+--- chiara\deutsch\V#Chiara.tra	Thu Apr 17 16:41:18 2003
++++ C:\BWP Patchstudio\patched files\chiara\deutsch\V#Chiara.tra	Tue Aug 28 11:46:44 2012
+@@ -22,3 +22,9 @@
+ @22 = ~Es ist Zeit, es zu einem Ende zu bringen. Lebend oder tot, ich übergebe Euch den Wachen.~
+ @23 = ~Meine Absichten sind gut. Ich kann Eure Hilfe brauchen, im Gegenzug biete ich den Schutz meiner Gruppe.~
+ @24 = ~Reiner Zufall.~
++@25 = ~Gewährt mir Zugang zu den unteren Gewölben, Bursche! Und zwar schnell!~
++@26 = ~Eine Kameradin von mir möchte gern die unteren Gewölbe sehen! Wir haben dort einige Geschäfte zu erledigen!~
++@27 = ~Nun gut, ich will keinen Ärger mit Jakob! Geht also runter!~
++@28 = ~<CHARNAME>, bitte passt auf wo Ihr hintretet. Ich weiß nicht warum, aber ich spüre Gefahr.~
++@29 = ~Das arme Kind! Wie kann jemand nur ein unschuldiges Kind töten und es ausrauben? Es macht mich so wütend zu wissen, dass dieser Dreckskerl noch freirumrennt! <CHARNAME>, wir müssen den Kerl finden und stellen.~
++@30 = ~WAS??? Wir helfen diesem armen Jungen nicht!? Oh wartet, <CHARNAME>! Ihr werdet mich kennenlernen! Untote, eilt herbei!~

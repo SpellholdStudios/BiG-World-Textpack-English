@@ -1,0 +1,35 @@
+--- Setup-Larsha.tp2	Sat Jul 14 23:16:52 2007
++++ C:\BWP Patchstudio\patched files\Setup-Larsha.tp2	Mon Sep 10 09:01:40 2012
+@@ -3,11 +3,17 @@
+ BACKUP ~Larsha\Backup~
+ AUTHOR ~Marcin <marcin_skc1@wp.pl>~
+ 
++AUTO_TRA ~Larsha/%s~
+ 
+ LANGUAGE ~Polski ( Marcin Kijo)~
+          ~polski~
+          ~Larsha/Polski/setup.tra~
+ 
++LANGUAGE ~English~
++         ~english~
++         ~Larsha/English/setup.tra~
++
++
+ BEGIN ~Larsha~
+ 
+ COPY    ~Larsha/LarshaS.bmp~      ~override/LarshaS.bmp~
+@@ -74,11 +80,11 @@
+ 
+ 
+ COMPILE ~Larsha/larcespe.d~
+-  USING ~Larsha/Polski/larcespe.tra~
++  USING ~Larsha/%LANGUAGE%/larcespe.tra~
+ COMPILE ~Larsha/dialog/larsha.d~
+-  USING ~Larsha/Polski/larsha.tra~ 
++  USING ~Larsha/%LANGUAGE%/larsha.tra~ 
+ COMPILE ~Larsha/dialog/larinter.d~
+-  USING ~Larsha/Polski/larinter.tra~      
++  USING ~Larsha/%LANGUAGE%/larinter.tra~      
+ 
+ APPEND ~pdialog.2da~
+ ~LARSHA          LARSHAP               LARSHAJ              LARSHAD~

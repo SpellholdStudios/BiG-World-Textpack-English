@@ -1,0 +1,265 @@
+--- AviM\SoA\1xAvi.baf	Sun Oct 05 17:18:37 2014
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAvi.baf	Sun Oct 05 11:28:01 2014
+@@ -3,7 +3,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Tylko nie to!~)
++  DisplayStringWait(Myself,@0)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,11,PIERCING)
+   SetInterrupt(TRUE)
+@@ -14,7 +14,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Tylko nie to!~)
++  DisplayStringWait(Myself,@0)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,20,PIERCING)
+   SetInterrupt(TRUE)
+@@ -25,7 +25,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Tylko nie to!~)
++  DisplayStringWait(Myself,@0)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,30,PIERCING)
+   SetInterrupt(TRUE)
+@@ -36,7 +36,7 @@
+   !StateCheck(Myself,STATE_INVISIBLE)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Tylko nie to!~)
++  DisplayStringWait(Myself,@0)
+   SetInterrupt(FALSE)
+   ApplyDamage(Myself,35,PIERCING)
+   SetInterrupt(TRUE)
+@@ -46,7 +46,7 @@
+   SpellCastOnMe([ANYONE],CLERIC_HEAL)
+ THEN
+   RESPONSE #100
+-  DisplayStringWait(Myself,~Nie! Nie mo¿esz...!~)
++  DisplayStringWait(Myself,@1)
+   SetInterrupt(FALSE)
+   Kill("AviDV")
+   SetInterrupt(TRUE)
+@@ -92,7 +92,7 @@
+ RESPONSE #100
+ SetGlobal("AviShadowPalace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~To miejsce jest pe³ne œmierci i cienia... Powinniœmy uwa¿aæ.~)
++DisplayStringWait(Myself,@2)
+ END
+ 
+ IF
+@@ -102,7 +102,7 @@
+ RESPONSE #100
+ SetGlobal("AviTannerPlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~To miejsce œmierdzi œmierci¹ prawie tak bardzo jak mój s¹siad z cmentarza. Uwa¿ajmy.~)
++DisplayStringWait(Myself,@3)
+ END
+ 
+ IF
+@@ -112,7 +112,7 @@
+ RESPONSE #100
+ SetGlobal("AviRunePlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~Podoba mi siê wystój tutaj... ale czuje te¿ obecnoœæ silnych istot. Uwa¿aj, byœ nie przyj¹³ mojej obecnej formy przez wizyte tutaj.~)
++DisplayStringWait(Myself,@4)
+ END
+ 
+ IF
+@@ -122,7 +122,7 @@
+ RESPONSE #100
+ SetGlobal("AviCementaryPlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~Cmentarz...? Prawie jak w domu... Poszukamy skarbów?~)
++DisplayStringWait(Myself,@5)
+ END
+ 
+ IF
+@@ -132,7 +132,7 @@
+ RESPONSE #100
+ SetGlobal("AviDeeperPlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~Och... tylko usi¹œæ tutaj i zasn¹æ... zapewne snem wiecznym.~)
++DisplayStringWait(Myself,@6)
+ END
+ 
+ IF
+@@ -142,7 +142,7 @@
+ RESPONSE #100
+ SetGlobal("AviCabinPlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~Jakoœ tu ma³o... przytulnie.~)
++DisplayStringWait(Myself,@7)
+ END
+ 
+ IF
+@@ -152,7 +152,7 @@
+ RESPONSE #100
+ SetGlobal("AviCryptPlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~Ach... Ta krytpa... W sumie to taki jakby mój dom.~)
++DisplayStringWait(Myself,@8)
+ END
+ 
+ IF
+@@ -162,7 +162,7 @@
+ RESPONSE #100
+ SetGlobal("AviUnderPlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~To jest Podmrok? Napewno nie weszliœmy do gigantycznego grobu? ~)
++DisplayStringWait(Myself,@9)
+ END
+ 
+ IF
+@@ -172,7 +172,7 @@
+ RESPONSE #100
+ SetGlobal("AviAbyssPlace", "GLOBAL",1)
+ WAIT(1)
+-DisplayStringWait(Myself,~Za tob¹ to nawet umarli do Piek³a pójd¹....~)
++DisplayStringWait(Myself,@10)
+ END
+ 
+ IF
+@@ -223,8 +223,7 @@
+ Global("AviBrotherJour1","GLOBAL",0)
+ THEN
+ RESPONSE #100
+-AddJournalEntry(~Avi Maya i jej brat
+-Avi Maya poprosi³a nas byœmy odwiedzili jej brata. Zazwyczaj mo¿na go odszukaæ w œwi¹tyni Targowa. Widaæ, ¿e bardzo jej na tym zale¿y.~,QUEST)
++AddJournalEntry(@11,QUEST)
+ SetGlobal("AviBrotherJour1","GLOBAL",1)
+ END
+ 
+@@ -234,10 +233,8 @@
+ Global("AviBrotherJour2","GLOBAL",0)
+ THEN
+ RESPONSE #100
+-EraseJournalEntry(~Avi Maya i jej brat
+-Avi Maya poprosi³a nas byœmy odwiedzili jej brata. Zazwyczaj mo¿na go odszukaæ w œwi¹tyni Targowa. Widaæ, ¿e bardzo jej na tym zale¿y.~)
+-AddJournalEntry(~Avi Maya i jej brat
+-Kania pope³ni³a samobójstwo. Przed œmierci¹ powiedziala, ¿e Dost odszed³ z kobiet¹ imieniem Boddi. Spotkali siê na cmentarzu. Powinniœmy sprawdziæ czy ich tam nie ma.~,QUEST)
++EraseJournalEntry(@11)
++AddJournalEntry(@12,QUEST)
+ SetGlobal("AviBrotherJour2","GLOBAL",1)
+ Kill("1xAviB2")
+ END
+@@ -248,10 +245,8 @@
+ Global("AviBrotherJour3","GLOBAL",0)
+ THEN
+ RESPONSE #100
+-EraseJournalEntry(~Avi Maya i jej brat
+-Kania pope³ni³a samobójstwo. Przed œmierci¹ powiedziala, ¿e Dost odszed³ z kobiet¹ imieniem Boddi. Spotkali siê na cmentarzu. Powinniœmy sprawdziæ czy ich tam nie ma.~)
+-AddJournalEntry(~Avi Maya i jej brat
+-Spotkaliœmy Boddi. Powiedzia³a nam, ¿e nie zna nikogo imieniem Dost. Nie posiadamy wiêcej punktów zaczepienia. Zasmucona Avi Maya powiedzia³a byœmy po prostu kontynuowali nasz¹ pracê nad zadaniami. Miejmy nadziejê, ¿e mimo wszystko dowiemy siê gdzie jest Dost.~,QUEST)
++EraseJournalEntry(@12)
++AddJournalEntry(@13,QUEST)
+ SetGlobal("AviBrotherJour3","GLOBAL",1)
+ END
+ 
+@@ -262,8 +257,7 @@
+ Global("AviEnemyDead","GLOBAL",0)
+ THEN
+ RESPONSE #100
+-AddJournalEntry(~"Upiorne" k³opoty
+-Gdy wêdruje z nami Avi Maya jesteœmy czêsciej zauwa¿ani. Zaatakowa³ nas fanatyczny kap³an Kelemvora. Wygl¹da na to, ¿e jego wyznawcy niezbyt siê ciesz¹ na fakt, ¿e Avi Maya wp³ywa w ten sposób na œwiat ¿ywych. Musimy siê trzymaæ na bacznoœci.~,QUEST)
++AddJournalEntry(@14,QUEST)
+ SetGlobal("AviEJour4","GLOBAL",1)
+ SetGlobal("AviEnemyDead","GLOBAL",1)
+ END
+@@ -275,10 +269,8 @@
+ Global("AviEnemyDead","GLOBAL",1)
+ THEN
+ RESPONSE #100
+-EraseJournalEntry(~"Upiorne" k³opoty
+-Gdy wêdruje z nami Avi Maya jesteœmy czêsciej zauwa¿ani. Zaatakowa³ nas fanatyczny kap³an Kelemvora. Wygl¹da na to, ¿e jego wyznawcy niezbyt siê ciesz¹ na fakt, ¿e Avi Maya wp³ywa w ten sposób na œwiat ¿ywych. Musimy siê trzymaæ na bacznoœci.~)
+-AddJournalEntry(~"Upiorne" k³opoty
+-Ponownie zostaliœmy zaatakowani przez s³ugê nieznanego wroga.~,QUEST)
++EraseJournalEntry(@15)
++AddJournalEntry(@16,QUEST)
+ SetGlobal("AviEJour5","GLOBAL",1)
+ SetGlobal("AviEnemyDead","GLOBAL",2)
+ END
+@@ -290,10 +282,8 @@
+ Global("AviEnemyDead","GLOBAL",2)
+ THEN
+ RESPONSE #100
+-EraseJournalEntry(~"Upiorne" k³opoty
+-Ponownie zostaliœmy zaatakowani przez s³ugê nieznanego wroga.~)
+-AddJournalEntry(~"Upiorne" k³opoty
+-Pokaza³ siê nasz wróg. Po pokonaniu Bobiego - dziwnego gibberlinga - pojawi³ siê Amorak. Jego zabicie zakoñczy³o sprawê.~,QUEST_DONE)
++EraseJournalEntry(@16)
++AddJournalEntry(@17,QUEST_DONE)
+ SetGlobal("AviEJour6","GLOBAL",1)
+ SetGlobal("AviEnemyDead","GLOBAL",3)
+ END
+@@ -319,7 +309,7 @@
+ SetGlobal("AviRelationsActive","GLOBAL",1)
+ RealSetGlobalTimer("AviRomance","GLOBAL",180)
+ END
+-
++ 
+ IF
+ InParty(Myself)
+ Global("AviRelationsActive","GLOBAL",1)
+@@ -591,10 +581,8 @@
+ THEN 
+ RESPONSE #100
+ AddexperienceParty(50000)
+-EraseJournalEntry(~Avi Maya i jej brat
+-Spotkaliœmy Boddi. Powiedzia³a nam, ¿e nie zna nikogo imieniem Dost. Nie posiadamy wiêcej punktów zaczepienia. Zasmucona Avi Maya powiedzia³a byœmy po prostu kontynuowali nasz¹ pracê nad zadaniami. Miejmy nadziejê, ¿e mimo wszystko dowiemy siê gdzie jest Dost.~)
+-AddJournalEntry(~Avi Maya i jej brat
+-Brat Avi Mayi zosta³ zamieniony w nieumar³ego. Pokonaliœmy go i zdobyliœmy jego czaszkê. Oddaliœmy j¹ kap³anowi w Targowie. Uda³o siê uratowaæ Dosta. Jak okaza³o siê, kap³an ten jest kochankiem brata Avi. Wszystko dobrze siê zakoñczy³o.~,QUEST_DONE)
++EraseJournalEntry(@18)
++AddJournalEntry(@19,QUEST_DONE)
+ SetGlobal("AviBrotherAction","GLOBAL",6)
+ END
+ 
+@@ -769,7 +757,7 @@
+ Global("AviRelationsActive","GLOBAL",2)
+ THEN
+ RESPONSE #100
+-DisplayStringWait(Myself,~Jak... Jak mog³eœ. Ta dusza nie bêdzie wiêcej z tob¹ rozmawiaæ.~)
++DisplayStringWait(Myself,@20)
+ SetGlobal("AviRelationsActive","GLOBAL",3)
+ SetGlobal("AviPhaereInnuendo","GLOBAL",1)
+ END
+@@ -786,9 +774,8 @@
+ WAIT(1)
+ DestroyItem("AVII2")
+ GiveItemCreate("AVII4","AVIDV",0,0,0)
+-DisplayStringWait(Myself,~Dziwne... Zdaje siê, ¿e mój ³uk reaguje na obecnoœæ Lanthorn...~)
++DisplayStringWait(Myself,@21)
+ END
+-
+ ///// bantery
+ IF
+ InParty("AVIDV")
+@@ -1017,6 +1004,7 @@
+ Global("AviRelationsActive","GLOBAL",0)
+ THEN
+   RESPONSE #100
++  
+   DestroyItem("Avii1")
+   DestroyItem("Avii2")
+   LeaveParty()
+@@ -1027,13 +1015,12 @@
+   OR(3)
+   Die()
+   CheckStatLT(Myself,1,INT)
+-  
+   CheckStatLT(Myself,1,STR)
+ OR(2)
+ Global("AviRelationsActive","GLOBAL",1)
+ Global("AviRelationsActive","GLOBAL",2)
+ THEN
+-  RESPONSE #100
++  RESPONSE #100 
+   DestroyItem("Avii1")
+   DestroyItem("Avii2")
+   LeaveParty()

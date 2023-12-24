@@ -1,0 +1,32 @@
+--- AviM\SoA\1xAviE3.d	Wed Sep 23 16:15:34 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviE3.d	Mon Mar 25 11:10:43 2013
+@@ -1,17 +1,17 @@
+ BEGIN 1xAviE3
+ 
+-IF~InParty("AviDV")~ THEN BEGIN 1xAviE3x1
+-SAY~Ach, mój kolejny s³uga pad³. No wiêc, zdech³y babsztylu, muszê siê zaj¹c tob¹ w³asnorêcznie. Nie pozwole byœ ingerowa³a w sprawy ¿ywych.~
+-IF~~THEN REPLY ~Mówiê w imieniu Avi! Giñ!~ GOTO 1xAviE3x2
+-IF~~THEN REPLY ~(Nie odzywaj siê.)~ GOTO 1xAviE3x3
++IF ~InParty("AviDV")~ THEN BEGIN 1xAviE3x1
++SAY @0
++IF ~~ THEN REPLY @1 GOTO 1xAviE3x2
++IF ~~ THEN REPLY @2 GOTO 1xAviE3x3
+ END
+ 
+-IF~~THEN BEGIN 1xAviE3x2
+-SAY~Co za odwaga i g³upota! Zginiecie!~
+-IF~~THEN DO ~Enemy()~ EXIT
++IF ~~ THEN BEGIN 1xAviE3x2
++SAY @3
++IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+-IF~~THEN BEGIN 1xAviE3x3
+-SAY~(Avi Maya nic nie mówi. Rzuca siê w wir walki.)~
+-IF~~THEN DO ~Enemy()~ EXIT
+-END
+\ No newline at end of file
++IF ~~ THEN BEGIN 1xAviE3x3
++SAY @4
++IF ~~ THEN DO ~Enemy()~ EXIT
++END

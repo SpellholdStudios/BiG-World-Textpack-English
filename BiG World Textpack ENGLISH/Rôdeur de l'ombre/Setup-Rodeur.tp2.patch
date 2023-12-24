@@ -1,0 +1,23 @@
+--- Setup-Rodeur.tp2	Wed Dec 08 20:22:50 2004
++++ C:\BWP Patchstudio\patched files\Setup-Rodeur.tp2	Fri Aug 15 09:26:31 2014
+@@ -1,11 +1,19 @@
+ BACKUP ~Rôdeur de l'ombre/Backup~
+ AUTHOR ~Esprit - duracuir@hotmail.com~
+ 
++AUTO_TRA ~Rôdeur de l'ombre\%s~
++
+ LANGUAGE 	~Francais~
+ 		~french~
+ 		~Rôdeur de l'ombre/TRA/R!O_FRA.tra~
++LANGUAGE 	~Russian~
++		~russian~
++		~Rôdeur de l'ombre/TRA/R!O_RUS.tra~
++LANGUAGE 	~English~
++		~english~
++		~Rôdeur de l'ombre/TRA/R!O_ENG.tra~
+ 
+-BEGIN ~Installation du Kit : Rôdeur de l'ombre~
++BEGIN @0
+ ADD_KIT ~R!Omb~
+ ~R!Omb                1           0           1           1           1           1           0           1~
+ ~R!Omb  0 2 2 2 0 2 0 2 0 0 2 0 0 0 0 2 0 0 0 0 0 2 2 0 2 0 0 2 2 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~

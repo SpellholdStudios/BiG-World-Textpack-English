@@ -1,0 +1,20 @@
+--- rukrakia\D\RU_WOOD1.D	Thu Jun 23 11:17:59 2011
++++ C:\BWP Patchstudio\patched files\rukrakia\D\RU_WOOD1.D	Fri Oct 03 04:23:36 2014
+@@ -29,9 +29,7 @@
+ IF ~~ THEN BEGIN RU_WOOD1_4
+   SAY @15 = @16
+   IF ~~ THEN DO ~RevealAreaOnMap("RU6700")
+-                 EscapeArea()~ UNSOLVED_JOURNAL %검은 숲의 괴물?
+-
+-약간 정신이 나간 나무꾼과 이야기를 나눴다. 아마도 검은 숲에서 몬스터에게 동료들을 잃고 그 충격에 정신이 이상해진 것 같다. 대충 검은 숲의 위치를 알려줬지만 찾으려면 고생할 것 같다.% EXIT
++                 EscapeArea()~ UNSOLVED_JOURNAL @21 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN RU_WOOD1_5
+@@ -42,4 +40,4 @@
+ IF ~~ THEN BEGIN RU_WOOD1_6
+   SAY @19
+   IF ~~ THEN DO ~EscapeArea()~ EXIT
+-END
+\ No newline at end of file
++END

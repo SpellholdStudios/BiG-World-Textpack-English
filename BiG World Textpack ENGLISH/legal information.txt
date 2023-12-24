@@ -1,0 +1,31 @@
+The Big World Project (shortly BWP) is a completely independent product developed and maintained by Leonardo Watson as a hobby for free. It aims to merge the games of the Baldur's Gate classic version and the additional content of hundred of mods created by various modders, into one epic adventure.
+
+BALDUR'S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.
+
+BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Throne of Bhaal, and Shadows of Amn are trademarks owned by Wizards of the Coast, Inc. and are used by Interplay under license. All Rights Reserved. The BioWare Infinity Engine is a trademark of BioWare Corp. All Rights Reserved.
+
+All mods affected by BWP remain the property and responsibility of their respective creators.
+
+BWP and all associated files and folders, that is Big World Guide, Big World Installpack, Big World Fixpack, Big World Textpacks, Big World Trimpack and Big World logos are the sole property of Leonardo Watson and may not be sold, published, compiled or redistributed in any form or mirrored anywhere without the consent of its author. Copyrights © 2008-2023 by Leonardo Watson
+
+BWP guide is the sole effort of Leonardo Watson.
+
+Installpack is developed by Leonardo Watson using some code written especially for BWP by Dabus, Davor, Taimon, Fish and Lollorian.
+It also uses various freely available tools:
+
+7-Zip Copyright (C) 1999-2016 Igor Pavlov
+EditV32, Copyright © 2006-2010 by Bill Stewart
+ImageMagick, Copyright © 1999-2017 ImageMagick Studio LLC
+Mtee, Copyright © 2001-2003 Ritchie Lawrence
+mute, Copyright © Christian Klukas
+weidu by Wes Weimer, the bigg, and Wisp, Copyright (C) 1989, 1991 Free Software Foundation
+cksum, cut, diff, find, patch, sed and tee are parts of the GNU utilities for Win32 (UnxUtils)
+
+Fixpack uses some fixes created by various members of the community.
+Textpack stores translations created by various members of the community that belongs to respective authors.
+Trimpack includes Lol's former "borkpack".
+
+The term "Big World Project" and the associated logos may only be used related to the Baldur's Gate classic version.
+Any publication in any form (i.e. tutorial, video or mod) basing on my work must give credits for Leonardo Watson.
+
+USE THESE TOOLS AT YOUR OWN RISK.

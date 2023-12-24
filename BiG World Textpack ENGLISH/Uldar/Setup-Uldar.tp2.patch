@@ -1,0 +1,205 @@
+--- Uldar\Setup-Uldar.tp2	Sat Sep 24 17:16:34 2016
++++ C:\BWP Patchstudio\patched files\Uldar\Setup-Uldar.tp2	Sat Sep 24 17:17:17 2016
+@@ -8,12 +8,22 @@
+ 
+ VERSION ~v0.77 BWP Fix~
+ 
++AUTO_TRA ~Uldar/tra/%s~
++
+ README ~Uldar/UldarREADME.txt~
+ 
++LANGUAGE ~Spanish~
++         ~spanish~
++         ~Uldar/tra/spanish/Setup-Uldar.tra~
++         
++LANGUAGE ~English~
++         ~english~
++         ~Uldar/tra/english/Setup-Uldar.tra~
++
+ 
+-BEGIN ~ULDAR, el Barbaro Semiorco~
++BEGIN @1
+ 
+-REQUIRE_FILE ~data/25dialog.bif~ ~ToB No instalado~
++REQUIRE_FILE ~data/25dialog.bif~ @2
+ 
+ 
+ 
+@@ -87,8 +97,8 @@
+ // Copia Uldar y asigna strings para el SoA
+ 
+ COPY ~Uldar\CRE\Uldar.cre~ ~override\Uldar.cre~
+-SAY NAME1 ~Uldar~
+-SAY NAME2 ~Uldar~
++SAY NAME1 @3
++SAY NAME2 @3
+ 
+ SAY INITIAL_MEETING ~~
+ SAY MORALE ~~ [2HOM002] 
+@@ -134,9 +144,9 @@
+ SAY SELECT_RARE2 ~~ 
+ 
+ SAY CRITICAL_HIT ~~ [2HOM004]
+-SAY CRITICAL_MISS ~¡¿Eh?!~ [2HOM016]
+-SAY TARGET_IMMUNE ~¡¿Qué pasa?!~ [2HOM018]
+-SAY INVENTORY_FULL ~¡¿Eh?!~ [2HOM016]
++SAY CRITICAL_MISS @29
++SAY TARGET_IMMUNE @30
++SAY INVENTORY_FULL @29
+ 
+ SAY PICKED_POCKET ~~ 
+ SAY HIDDEN_IN_SHADOWS ~~
+@@ -144,15 +154,13 @@
+ 
+ SAY EXISTANCE2 ~~ [2HOM035]  //Perdida de concentración
+ 
+-SAY BIO ~Uldar, como a él le gusta contar siempre que le dan ocasión, es un guerrero del orgulloso pueblo de los Hatuk, una tribu de humanos nómadas que viven en los Picos Nublados y que veneran al Lobo Sagrado de las Tres Colas. Tu alto y musculoso compañero, cuenta muchas historias sobre las costumbres de su pueblo y alguna que otra leyenda o anecdota pero, quizás, con lo que más se emocione es cuando relata como, siendo un bebe, fue encontrado por los Hatuk entre las ruinas humeantes de una aldea minera que había sido arrasada por orcos. Según Uldar, los Hatuk no solo se apiadaron de él sino que le acogieron como uno de los suyos y le enseñaron la Senda del Guerrero Hatuk. 
+-
+-  Al parecer los guerreros Hatuk basan sus técnicas de combate en una agresividad extrema combinada con estados alterados de conciencia en las que les sobreviene una terrible furia berserker que los hacen muy fuertes y resistentes. Sin duda la prueba más feaciente de que esto es así es viendo combatir a Uldar, sin duda, un valiente Guerrero Hatuk.~
++SAY BIO @32
+ 
+ 
+ // Copia Uldar y asigna strings para el ToB
+ COPY ~Uldar\CRE\Uldar25.cre~ ~override\Uldar25.cre~
+-SAY NAME1 ~Uldar~
+-SAY NAME2 ~Uldar~
++SAY NAME1 @3
++SAY NAME2 @3
+ 
+ 
+ SAY INITIAL_MEETING ~~
+@@ -199,9 +207,9 @@
+ SAY SELECT_RARE2 ~~ 
+ 
+ SAY CRITICAL_HIT ~~ [2HOM004]
+-SAY CRITICAL_MISS ~¡¿Eh?!~ [2HOM016]
+-SAY TARGET_IMMUNE ~¡¿Qué pasa?!~ [2HOM018]
+-SAY INVENTORY_FULL ~¡¿Eh?!~ [2HOM016]
++SAY CRITICAL_MISS @29
++SAY TARGET_IMMUNE @30
++SAY INVENTORY_FULL @29
+ 
+ SAY PICKED_POCKET ~~ 
+ SAY HIDDEN_IN_SHADOWS ~~
+@@ -209,9 +217,7 @@
+ 
+ SAY EXISTANCE2 ~~ [2HOM035]  //Perdida de concentración
+ 
+-SAY BIO ~Uldar, como a él le gusta contar siempre que le dan ocasión, es un guerrero del orgulloso pueblo de los Hatuk, una tribu de humanos nómadas que viven en los Picos Nublados  y que veneran al Lobo Sagrado de las Tres Colas. Tu alto y musculoso compañero, cuenta muchas historias sobre las costumbres de su pueblo y alguna que otra leyenda o anecdota pero, quizás, con lo que más se emocione es cuando relata como, siendo un bebe, fue encontrado por los Hatuk entre las ruinas humeantes de una aldea minera que había sido arrasada por orcos. Según Uldar, los Hatuk no solo se apiadaron de él sino que le acogieron como uno de los suyos y le enseñaron la Senda del Guerrero Hatuk. 
+-
+-  Al parecer los guerreros Hatuk basan sus técnicas de combate en una agresividad extrema combinada con estados alterados de conciencia en las que les sobreviene una terrible furia berserker que los hacen muy fuertes y resistentes. Sin duda la prueba más feaciente de que esto es así es viendo combatir a Uldar, sin duda, un valiente Guerrero Hatuk.~
++SAY BIO @33
+ 
+ 
+ //**202
+@@ -223,7 +229,7 @@
+ 
+ EXTEND_TOP ~ar6200.bcs~ ~Uldar\EPILOGO\UldarAR6200.baf~
+ COPY ~Uldar\EPILOGO\UldEnd.2da~ ~override\UldEnd.2da~
+-REPLACE ~99998~ ~Tras ayudar a <CHARNAME> a alcanzar su destino, Uldar decidió volver con su tribu, los Hatuk, allá en los Picos Nublados. Fue para el una gran sorpresa y motivo de alegría y satisfacción ver que su llegada fue celebrada por todo lo alto con una fiesta digna de los grandes héroes. No había duda, hasta aquellas remotas montañas, aisladas de toda civilización, habían llegado las aventuras y gestas de Uldar, el poderoso y bravo guerrero Hatuk que en sus viajes se había enfrentado a  magos, a dragones e incluso a entidades de otros planos. Las celebraciones se prolongaron durante tres días con sus tres noches, concluyendo en una ceremonia en la que el curtido guerrero Uldar fue envestido con la Corona de los Colmillos Sagrados...Esto le convirtió en Jefe de los Guerreros Hatuk y en una leyenda viva que serviría de inspiración a su pueblo. Terminada la ceremonia y ya anocheciendo, Uldar se acercó al fuego vivo de una gran hoguera en donde comían, bebían y conversaban muchos de sus suyos, le sirvieron una gran jarra de hidromiel y tras darle un buen trago, empezó a relatar sus viajes con <CHARNAME>: "Estaba yo, Uldar, un guerrero de la orgullosa tribu de los Hatuk, esclavizado y jugandome la vida en la arena de una sucia taberna en los barrios bajos de Athkatla cuando..."~
++REPLACE ~99998~ @34
+ 
+ 
+ //**************************************************************
+@@ -243,18 +249,7 @@
+ ///////////////////////////////////////////////
+ 
+ COPY ~Uldar/Barbaro/CLABFI05.2da~ ~override/CLABFI05.2da~
+-STRING_SET 45869 ~BÁRBARO: el bárbaro puede ser un guerrero excelente. Aunque no sea tan disciplinado ni hábil como un combatiente normal, puede dejarse llevar voluntariamente por la furia bersérker, convirtiéndose en un oponente más fuerte y duro.
+-
+-Ventajas:
+--  Obtiene +1 al ataque y +1 al daño.
+--  Los bárbaros son inmunes al apuñalamiento por la espalda.
+--  Pueden enfurecerse una vez al día por cada 4 niveles de experiencia que posean (empezando con un uso diario en 1er nivel). La furia bárbara les concede un +4 a la Constitución y a la Fuerza durante 5 asaltos, pero también un +2 a la Clase de Armadura y un +2 a las tiradas de salvación contra magia (durante el mismo tiempo). También les concede inmunidad a los conjuros de Hechizar, Inmovilizar, Miedo, Laberinto, Confusión y los relacionados con la consunción de niveles de experiencia.
+--  Al alcanzar el 11º nivel, el bárbaro adquiere un 10% de resistencia al daño cortante, perforante, contundente o provocado por proyectiles. Además, obtendrá un 5% adicional en los niveles 15º y 19º.
+--  El bárbaro lanza 1d12 para determinar sus puntos de golpe en lugar de 1d10 como los guerreros.
+-
+-Desventajas:
+--  El bárbaro no puede utilizar armadura completa ni de placas.
+--  Tampoco tiene derecho a la especialización extraordinaria permitida a los guerreros (es decir, que sólo pueden adquirir dos casillas en un talento marcial).~
++STRING_SET 45869 @35
+ 
+ 
+ 
+@@ -358,25 +353,13 @@
+ // Carta de Ordenes
+ 
+ COPY ~ULDAR/Objetos/cartapag.itm~ ~override\cartapag.itm~
+-SAY NAME1 ~Carta de Ordenes~
+-SAY NAME2 ~Carta de Ordenes~
+-
+-SAY UNIDENTIFIED_DESC ~Jarall, dirigete inmediatamente al barco del capitán Haegan en los Barrios Bajos y lleva contigo de cuantos hermanos puedas disponer. Tu misión será proteger la plaza y al capitán de cualquier tipo de asaltante. Estamos ya bastante cerca de lograrlo como para tener que cambiar ahora de proveedor. 
+-
+-He dado ordenes para que te envien refuerzos. Aún no sé a que tipo de amenaza nos enfrentamos pero no permitiremos que nada impida nuestra sagrada misión.
+-
+-Así me ha sido revelado y así ha de verse cumplido.
+-
+-                                       L.~
+-
+-
+-SAY DESC ~Jarall, dirigete inmediatamente al barco del capitán Haegan en los Barrios Bajos y lleva contigo de cuantos hermanos puedas disponer. Tu misión será proteger la plaza y al capitán de cualquier tipo de asaltante. Estamos ya bastante cerca de lograrlo como para tener que cambiar ahora de proveedor. 
++SAY NAME1 @36
++SAY NAME2 @36
+ 
+-He dado ordenes para que te envien refuerzos. Aún no sé a que tipo de amenaza nos enfrentamos pero no permitiremos que nada impida nuestra sagrada misión.
++SAY UNIDENTIFIED_DESC @37
+ 
+-Así me ha sido revelado y así ha de verse cumplido.
+ 
+-                                       L.~
++SAY DESC @37
+ 
+ 
+ 
+@@ -396,8 +379,8 @@
+ //************CORONA DE COBRE**********************
+ 
+ COPY_EXISTING ~glbear.cre~ ~override~
+-SAY NAME1 ~Oso~
+-SAY NAME2 ~Oso~
++SAY NAME1 @38
++SAY NAME2 @38
+ WRITE_SHORT 0x24 85
+ WRITE_SHORT 0x26 85
+ WRITE_BYTE 0x238 18
+@@ -416,8 +399,8 @@
+ 
+ 
+ COPY ~Uldar\CRE\Uldarsc1.cre~ ~override\Uldarsc1.cre~
+-SAY NAME1 ~Uldar~
+-SAY NAME2 ~Uldar~
++SAY NAME1 @3
++SAY NAME2 @3
+ 
+ 
+ SAY INITIAL_MEETING ~~
+@@ -464,9 +447,9 @@
+ SAY SELECT_RARE2 ~~ 
+ 
+ SAY CRITICAL_HIT ~~ [2HOM004]
+-SAY CRITICAL_MISS ~¡¿Eh?!~ [2HOM016]
+-SAY TARGET_IMMUNE ~¡¿Qué pasa?!~ [2HOM018]
+-SAY INVENTORY_FULL ~¡¿Eh?!~ [2HOM016]
++SAY CRITICAL_MISS @29
++SAY TARGET_IMMUNE @30
++SAY INVENTORY_FULL @29
+ 
+ SAY PICKED_POCKET ~~ 
+ SAY HIDDEN_IN_SHADOWS ~~
+@@ -511,12 +494,12 @@
+ 
+ 
+ COPY ~Uldar\CRE\Lasard.cre~ ~override\Lasard.cre~
+-SAY NAME1 ~Lasard~
+-SAY NAME2 ~Lasard~
++SAY NAME1 @39
++SAY NAME2 @39
+ 
+ COPY ~Uldar\CRE\Jarall.CRE~ ~override\Jarall.CRE~
+-SAY NAME1 ~Jarall~
+-SAY NAME2 ~Jarall~
++SAY NAME1 @40
++SAY NAME2 @40
+ 
+ COMPILE ~Uldar\baf\Añadir_Jarall.baf~
+ COMPILE ~Uldar\baf\Jarall.baf~

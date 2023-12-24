@@ -1,0 +1,45 @@
+--- chiara\V#Chiara.d	Fri Jul 09 18:10:34 2004
++++ C:\BWP Patchstudio\patched files\chiara\V#Chiara.d	Tue Aug 28 11:46:40 2012
+@@ -1,17 +1,17 @@
+ EXTEND_BOTTOM LEHTIN 0
+   IF ~OR(2) 
+ CharName("Chiara Marna Rhie-Tara de Velastan",LastTalkedToBy)
+-CharName("Chiara",LastTalkedToBy)~ THEN REPLY ~Gewährt mir Zugang zu den unteren Gewölben, Bursche! Und zwar schnell!~
++CharName("Chiara",LastTalkedToBy)~ THEN REPLY @25
+     GOTO chiaralethin
+   IF ~!CharName("Chiara Marna Rhie-Tara de Velastan",LastTalkedToBy)
+ !CharName("Chiara",LastTalkedToBy) 
+-InParty("V#Chiara")~ THEN REPLY ~Eine Kameradin von mir möchte gern die unteren Gewölbe sehen! Wir haben dort einige Geschäfte zu erledigen!~
++InParty("V#Chiara")~ THEN REPLY @26
+     GOTO chiaralethin
+ END
+ 
+ APPEND LEHTIN
+   IF ~~ THEN BEGIN chiaralethin
+-     SAY ~Nun gut, ich will keinen Ärger mit Jakob! Geht also runter!~
++     SAY @27
+      IF ~~ THEN DO ~SetGlobal("Backroom","GLOBAL",1) Unlock("DOOR17") Unlock("DOOR25")~ EXIT
+   END
+ END
+@@ -32,18 +32,18 @@
+ BEGIN ~V#ChiaJ~
+ 
+ IF ~Global("TannerWarningChiara","AR0502",1) InParty(Myself)~ THEN BEGIN V#TannerWarning
+-   SAY ~<CHARNAME>, bitte passt auf wo Ihr hintretet. Ich weiß nicht warum, aber ich spüre Gefahr.~
++   SAY @28
+     IF ~~ THEN DO ~SetGlobal("TannerWarningChiara","AR0502",1)~ EXIT
+ END
+ 
+ IF ~Global("Littleman","GLOBAL",1)
+ Global("ChiaraWellynKom","LOCALS",0)~ THEN BEGIN V#ChiaraWellyn
+-   SAY ~Das arme Kind! Wie kann jemand nur ein unschuldiges Kind töten und es ausrauben? Es macht mich so wütend zu wissen, dass dieser Dreckskerl noch freirumrennt! <CHARNAME>, wir müssen den Kerl finden und stellen.~
++   SAY @29
+    IF ~~ THEN DO ~SetGlobal("ChiaraWellynKom","LOCALS",1)~ EXIT
+ END
+  
+ IF ~Global("V#AusrasterChiara","GLOBAL",1)~ THEN BEGIN V#ChiaraHCWellyn
+-   SAY ~WAS??? Wir helfen diesem armen Jungen nicht!? Oh wartet, <CHARNAME>! Ihr werdet mich kennenlernen! Untote, eilt herbei!~
++   SAY @30
+    IF ~~ THEN DO ~SetGlobal("V#AusrasterChiara","GLOBAL",2) CreateCreatureObject("GRREVEN",Myself,1,1,1) CreateCreatureObject("V#GREVEN",Myself,1,1,1) CreateCreatureObject("V#GREVEN",Myself,1,1,1) Enemy()~ EXIT
+ END
+  

@@ -1,0 +1,187 @@
+@0    = ~v1.1~
+@1    = ~Haendlermod~
+@2    = ~Zun~
+@3    = ~Geist des Magiers~
+@4    = ~Geist des Kriegers~
+@5    = ~Geist des Diebes~
+@6    = ~Geist des Priesters~
+@7    = ~Krish~
+@8    = ~Rose~
+@9    = ~Flasche~
+@10   = ~Flasche des Händlers~
+@11   = ~Die Flasche sieht wertvoll aus und liegt gut in der Hand. Ihr könnt nicht sagen aus welchem Material sie gemacht wurde, aber sie scheint nicht zerbrechlich zu sein. Die Flasche ist leer.~
+@12   = ~Wenn man an der Flasche reibt, erscheint ein Djin. Der Djin ist ein Händler, der dem Beschwörer seine Ware anbietet und Gegenstände abkauft. Falls der Djin getötet wird, während er dem Beschwörer dient, wird die Flasche zerstört.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Kann dreimal täglich einen Djin beschwören.~
+@13   = ~Pulver~
+@14   = ~Goblinpulver~
+@15   = ~Goblinpulver ist eine der bekanntesten Erfindungen Hirrins des Verrückten. Dem Nekromanten gelang es, dieses aus den natürlichen Exkrementen männlcher Goblins gewonnene Pulver, so zu verzaubern, dass man damit ein Abbild dessen Schöpfers hervorrufen kann. Dieses dient dem Anwender des Pulvers bis seine Beschwörungsdauer endet. Nach einmaliger Anwendung verliert es seine Wirkung.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Beschwört einen Goblin, der seinem Beschwörer für eine Minute dient.~
+@16   = ~Spiegel der Fernsicht~
+@17   = ~Dieser silberne Spiegel muss das Werkzeug eines Wahrsagers gewesen sein. Der Rahmen ist mit kunstvollen Runen übersehen, von dennen allerdings keine einen erkennbaren Sinn zu haben scheint. Wenn Ihr Euch darauf konzentriert, verändert sich das Spiegelbild und kann Euch Orte zeigen, die ihr noch nicht entdeckt habt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Träger kann dreimal täglich den Zauber Fernsicht wirken.~
+@18   = ~Schlüssel des Hausmeisters~
+@19   = ~Dieser Schlüssel gehörte einst einem erfolgreichen Dieb, der sein Unwesen in Calimhafen trieb. Seine Karriere endete, als die Tür der Schatzkammer eines reichen Magiers hinter ihm ins Schloss fiel. Der Schlüssel steckte noch von außen in der Tür und der Dieb fand keine Möglichkeit sie ohne ihn zu öffnen. Als der Hausherr den Eindringling entdeckte brachte er seinen Missmut zum Ausdruck, indem er ihn in ein Häuflein Asche verwandelte. Den Schlüssel verkaufte er, um seine Schatzkammer mit noch mehr Gold zu füllen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Kann dreimal täglich den Zauber Klopfen wirken.~
+@20   = ~Amulett des Geisterrufers~
+@21   = ~Das Amulett besteht aus einem Material, das Ihr noch nie im Leben gesehen habt. Es scheint kein Gewicht zu haben und so sehr Ihr es auch versucht, gelingt es Euch nicht, Euch auf einen speziellen Punkt daran zu konzentrieren. Während Ihr es tragt, ist Euch als könntet Ihr leise flüsternde Stimmen hören, die in Eurem Geist um eure Aufmerksamkeit kämpfen. Je länger ihr das Amulett tragt, desto lauter und aufdringlicher scheinen die Stimmen zu werden. Sie locken euch mit Versprechungen, loben ihre Vorzüge und bezichtigen die anderen der Lüge. Konzentriert Ihr Euch auf eine der Stimmen, scheint diese Euch immer näher zu kommen, bis das Amulett den Geist der von Euch erwählten Seele beschwört. Ihr kennt keine Geschichten oder Legenden, die irgendwie in Zusammenhang mit dem Amulett zu stehen scheinen und würdet Ihr es nicht regelmäßig überprüfen, wäret Ihr Euch nicht einmal sicher ob das Amulett wirklich existiert oder Ihr es Euch vielleicht nur eingebildet habt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Beschwört einmal täglich einen speziellen Geist für fünf Minuten.~
+@22   = ~Handschuhe des Meuchelmörders~
+@23   = ~Ein Meuchelmörder ist immer dann am erfolgreichsten, wenn sein Opfer nicht mit einem Angriff rechnet. Nach diesem Prinzip wurden auch die Handschuhe des Meuchelmörders gefertigt. Ihre erste bekannte Besitzerin war eine Dunkelelfin, die sich selbst Schwarze Schlange nannte. Sie zog es vor unbewaffnet an ihr Opfer heranzutreten und erst im letzten Augenblick einen vergifteten Dolch zu beschwören, mit dem sie dann blitzschnell zuschlug. Die Handschuhe wanderten seitdem duch viele Hände, was ein deutliches Zeichen dafür ist, welche Risiken diese Taktik birgt.
+
+SPEZIFISCHE EIGENSCHAFTEN:  
+
+ETW0: -1
+Besondere Eigenschaften: Der Träger kann einmal täglich 5 vergiftete Wurfdolche beschwören.
+Gewicht: 1
+Kann nur verwendet werden von:
+Dieben (auch mehrklassig und mit Klassenkombination)~
+@24   = ~Dimensionsring~
+@25   = ~Der Dimensionsring wurde einst von einem faulen Magier erschaffen, der nicht einsehen wollte warum er trotz seiner Macht noch seine Füße benutzen sollte. Der Ring diente ihm jahrelang zuverlässig, aber er gewöhnte sich so sehr an ihn, dass er keinen Schritt mehr ohne ihn machen wollte. Als er diese Angewohnheit auch bei einem Aufenthalt in Amn nicht ablegen wollte, verwarnten ihn die verhüllten Magier genau einmal. Beim zweiten mal schickten sie einen Stoßtrupp ihrer Inquisitoren, die Ihn nach einem heftigen Kampf überwältigten konnten. Er wurde nie wieder gesehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Träger kann beliebig oft den Zauber Dimensionstor wirken.~
+@26   = ~Lesebrille~
+@27   = ~Als der Orkhäuptling Ubruk Zahn bemerkte, dass er die Nachrichten seiner zahlreichen Spione nicht lesen konnte, beauftragte er einen seiner Berater ihm eine Brille anzufertigen zu lassen. Der weise Berater erkannte jedoch, dass die Sehstärke nicht das eigentliche Problem des Häutptlings war. Er ließ daher eine Brille mit einfachen gläsernen Linsen verzaubern und überreichte diese dem Häuptling. Obwohl die Brille ihren Zweck erfüllte, richtete der Häuptling seinen Berater augenblicklich hin, da sie ihn auch in die Lage versetzte dessen List zu durchschauen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Intelligenz +3~
+@28   = ~Trank des Lebens~
+@29   = ~Rea Silberbogen war eine treue Anhängerin von Sune, die ihr Leben der Göttin gewidmet hatte. Als sie ihren Tempel für einer Misson des Guten verlassen musste, wurde sie von Sune gesegnet und alle Tränke, die sie bei sich trug wurden durch die Macht der Göttin verstärkt. Der Trank des Lebens ist einer dieser Tränke.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Trank kann einmal täglich verwendet werden um 50 erlittene Schadenspunkte zu heilen.~
+@30   = ~Leopardenfell~
+@31   = ~Dieses Leopardenfell ist kaum bearbeitet worden und kann wie ein einfacher Umhang getragen werden. Es wurde von den Schamanen eines mittlerweile ausgestorbenen Stammes der Utghar gesegnet und diente dem Stamm als Ehrenzeichen für seine tapfersten Krieger.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Träger kann sich dreimal täglich in einen Leoparden verwandeln.~
+@32   = ~Diese besondere Falle hatte eine ähnliche Wirkung wie der Zauber Schädelfalle. Wirft man den Schädel, schwebt dieser unbeweglich am Zielort in der Luft. Wenn sich dem schwebenden Schädel ein Wesen auf 6 m nähert, explodiert er und verursacht bei jedem Wesen in 9 m Radius 7W6 Schadenspunkte. Angeblich gehen die ersten Exemplare dieser nekromantischen Fallenart, bis auf die Zeit des alten Nesseril zrück.~
+@33   = ~Feuerhandschuhe~
+@34   = ~Handschuhe wie diese stammen aus Calimhafen und verstärken die Nahkampfangriffe ihres Trägers durch Elementarschäden. Mit ihnen kann selbst ein unbewaffneter Angriff tödliche Folgen haben. Dieser ist jedoch nicht nötig, da ihre Magie auch über jede Art von Nahkampfwaffe wirkt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1 Schadenspunkt durch Feuer
+Gewicht: 2~
+@35   = ~Eishandschuhe~
+@36   = ~Handschuhe wie diese stammen aus Calimhafen und verstärken die Nahkampfangriffe ihres Trägers durch Elementarschäden. Mit ihnen kann selbst ein unbewaffneter Angriff tödliche Folgen haben. Dieser ist jedoch nicht nötig, da ihre Magie auch über jede Art von Nahkampfwaffe wirkt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1 Schadenspunkt durch Kälte
+Gewicht: 2~
+@37   = ~Elektrizitätshandschuhe~
+@38   = ~Handschuhe wie diese stammen aus Calimhafen und verstärken die Nahkampfangriffe ihres Trägers durch Elementarschäden. Mit ihnen kann selbst ein unbewaffneter Angriff tödliche Folgen haben. Dieser ist jedoch nicht nötig, da ihre Magie auch über jede Art von Nahkampfwaffe wirkt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1 Schadenspunkt durch Elektrizität
+Gewicht: 2~
+@39   = ~Folteraxt +2~
+@40   = ~Die Folteraxt gehörte einst einem einflussreichen Sklavenhändler der Duergar. Der bösartige Zwerg setze die Axt oft und gerne gegen ungehorsame Sklaven ein, denen ihre Verzauberung zusätzliche Qualen durch Elektrizität zufügte. Zu seinem Unglück befand sich unter diesen Sklaven auch das Mitglied eines mächtigen Hauses der Dunkelelfen. Da die Elfen nichts mit der uneleganten Waffe anzufangen wussten, ließen sie sie einfach bei der verstümmelten Leiche des Zwerges liegen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0 -2
+Schaden: 1W8 +2 (Klingenwaffe), +2 durch Elektrizität 
+Gewicht: 5
+Initiativefaktor: 5
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+@41   = ~Vampirzahn +1~
+@42   = ~Obwohl es sicher mächtigere Waffen gibt, sind die von den Zentarim entwickelten Vampirzähne besonders bei Magier sehr beliebt. Dies liegt nicht nur daran, dass die meisten Magier in jeder Waffe, die schwerer als eine Tintenfeder ist, eine Zumutung sehen, sondern hängt auch damit zusammen, dass die Wurfpfeile nach jedem Wurf in die Hand ihres Trägers zurückkehren. Zusätzlich dazu übertragen sie bei jedem Treffer einen Teil der Lebensenergie ihrer Opfer auf den Werfer.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Kehrt nach einem Wurf sofort in die Hand des Trägers zurück. Jeder Treffer mit dem Wurfpfeil heilt 1 Schadenspunkt beim Träger
+ETW0: -1
+Schaden: 1W3+1 (Fernkampf- und Stichwaffe)
+Gewicht: 0
+Initiativefaktor: 1
+Waffenfertigkeit: Wurfpfeil
+Waffentyp: einhändig
+Kann nicht verwendet werden von:
+Klerikern~
+@43   = ~Schinderstab +3~
+@44   = ~Muran Baloks Bewunderung für das Volk der Illithiden lässt sich am ehesten damit erklären, dass er von Geburt an schwächlich und hoch intelligent war. Der Magier begann früh sich mit der Geschichte ihres Volkes zu beschäftigen und suchte nach Mittel und Wegen um ihre besonderen Eigenschaften zu erlernen. Seine Studien endeten schließlich, als er im Herzen von Amn versuchte einen eigenen Stamm Illithiden zu züchten, indem er Bürger entführte und ihnen Tadpole, die Larven der Illithiden, einsetzte. Eine Gruppe Harfner stürmte sein Anwesen und setzte seinem dunklen Treiben ein Ende. Dieser Stab ist einer der mächtigsten Gegenstände, die Balok während seiner Studien entwickelte.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Jeder Treffer mit dem Stab senkt die Intelligenz des Opfers um 2 und stellt einen Zauber des 6. oder eines niedrigeren Grades beim Träger wieder her.
+ETW0: -3
+Schaden: 1W6+3 (Wuchtwaffe) 
+Gewicht: 4
+Initiativefaktor: 1
+Waffenfertigkeit: Kampfstab
+Waffentyp: Beidhändig
+Kann nur verwendet werden von:
+Magiern (ohne Klassenkombination)~
+@45   = ~Grüne Pfeile~
+@46   = ~Die grünen Pfeile wurden von Waldläufer hergestellt, die es vermeiden wollten mehr Tiere als nötig zu töten. Ein einziger Treffer mit ihnen genügte, um eine Bestie vorübergehend ausser Gefecht zu setzen und sich in Sicherheit zu bringen. Es dauerte nicht lange, bis die Pfeile bei Wilderern, Sklavenjägern und Meuchelmördern beliebt wurden, so dass sich die Waldläufer gezwungen sahen die Produktion einzustellen. Die Existenz dieses Pfeils beweist, dass ihre Einsicht zu spät kam und weniger rücksichtsvolle Pfeilmacher ein Weg gefunden haben die Pfeile herzustellen. 
+
+SPEZIFISCHE EIGENSCHAFTEN.
+
+ETW0: -1
+Schaden: 1W6 (Fernkampf- und Stichwaffe)
+Spezielle Merkmale: Wesen, denen kein Rettungswurf +3 gegen Zauber gelingt, werden von Verstricken betroffen.
+Gewicht: 0
+Wird verschossen von: Bogen~
+@47   = ~Dämonenklinge +2~
+@48   = ~Dämonenklingen wie diese stammen aus der Abyss und wurden von den Soldaten eines mächtigen Fürsten der Tanar'ri getragen. Obwohl es grade in dieser Region, etliche Schwerter gibt, die diesen wenig einfallsreichen Namen tragen, lassen sich die Klingen dieses Tanar'ris leicht erkennen, da jeder Treffer mit ihnen ihrem Träger einen Schadenspunkt durch Feuer zufügt. Was für einen gewöhnlichen Sterblichen wie ein Fluch klingt, war ein Segen für die Truppen des Dämonen, da diese Dank ihrer hohen Feuerresistenz durch die Schwerter geheilt wurden.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Jeder Treffer mit dem Schwert verursacht 1 Punkt Feuerschaden beim Träger.
+ETW0: -2
+Schaden: 2W4+2 (Klingenwaffe)
+Gewicht: 7
+Initiativefaktor: 6
+Waffenfertigkeit: Bastardschwert
+Waffentyp: Einhändig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben~
+@49   = ~Dämonenklinge +4~
+@50   = ~Diese Klinge wurde einst von einem Balor geschwungen, der als General in den Blutkriegen kämpfte. Jeder seiner Soldaten trug eine ähnliche, wenn auch weniger mächtige Klinge, die ihnen bei jedem Treffer Feuerschaden zufügte. Da es sich bei den Kriegern um Dämonen handelte, wurde diese durch das Feuer geheilt und konnten so länger kämpfen. Der Balor und seine Truppen kämpften unzählige Jahre gegen Baatezu und brachten ihnen eine Niederlage nach der Anderen bei. Doch wie es bei einem ewigen Krieg nicht anders sein kann, kam der Tag an dem auch sie ihren Meister finden mussten. Als sich die Klinge eines Fürsten der Baatezu in das verdorbene Herz des Balors frass, konnte ihn selbst die mächtige Waffe nicht mehr retten. Sein Körper verging in einer Explosion aus Flammen, die nicht nur seinen Widersacher in Fetzen riss, sondern auch seine gesamte Ausrüstung zerstörte. Nur das Schwert blieb unbeschädigt.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Der Träger erhält +50% Feuerresistenz; jeder Treffer mit dem Schwert verursacht 3 Punkt Feuerschaden beim Träger.
+ETW0: -4
+Schaden: 2W4+4 (Klingenwaffe)
+Gewicht: 6
+Initiativefaktor: 4
+Waffenfertigkeit: Bastardschwert
+Waffentyp: Einhändig
+Kann nicht verwendet werden von:
+Druiden
+Klerikern
+Magiern
+Dieben~

@@ -1,0 +1,51 @@
+--- Setup-run.tp2	Fri Aug 15 19:26:17 2014
++++ C:\BWP Patchstudio\patched files\Setup-run.tp2	Sat Aug 16 15:51:02 2014
+@@ -1,7 +1,20 @@
+ BACKUP ~Run/backup~
+ AUTHOR ~www.riklaunim.noi.pl~
+ VERSION ~v2.0 BWP Fix~
+-BEGIN ~Runiczny Pieœniarz~
++AUTO_TRA ~Run\%s~
++
++LANGUAGE 	~Polish~
++		~polish~
++		~Run/TRA/RUN_POL.tra~
++LANGUAGE 	~Russian (by aerie.ru)~
++         	~russian~
++         	~Run/TRA/RUN_RUS.tra~
++LANGUAGE 	~English~
++		~english~
++		~Run/TRA/RUN_ENG.tra~
++
++BEGIN @0
++
+ ADD_KIT ~runi~
+ //weapons / bronie
+ ~runi 0 0 0 0 0 0 0 0~
+@@ -25,23 +38,9 @@
+ //equipment
+ ~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 BOW06~
+ // description Teksty poni¿ej dodane zostan¹ do dialog.tlk i wszêdzie tam gdzie trzeba. S¹ to nazwy poklasy i jej opis
+-SAY ~ Runiczny Pieœniarz Klingi~
+-SAY ~Runiczny Pieœniarz Klingi~
+-SAY ~Runiczni Pieœniarze klingi to mistyczni obroñcy elfiej rasy i odwiecznego ³adu Faerunu. Za pomoc¹ pradawnych mocy s¹ w stanie powstrzymywaæ œmieræ i zniszczenie, wojny i kataklizmy. Na powierzchni Torilu jest ich zawsze 10. Gdy ginie jeden, nastêpny siê rodzi. Ich moc p³ynie z g³êbi wszystkich Planów Mocy...
+-
+-Zalety
+-- Premia +1 do zrêcznoœci i charyzmy
+-- Wraz z poziomami zyskuje zdolnoœæ wielokrotnego rzucania czarów "S³owo Mocy" i "symbol" ró¿nych typów.
+-- Promieñ s³oñca na kilku poziomach
+-- Ochrona przed magiczn¹ energi¹ na kilku poziomach
+-- Odpornoœæ na czary 1 poziomu na 20 poziomie
+-- Odpornoœæ na czary 2 poziomu na 25 Poziomie
+-- Swoboda dzia³ania i odpornoœæ na ciosy w plecy na 15 poziomie
+-
+-Wady
+-- Kara -1 do si³y i kondycji
+-- Ograniczenia przedmiotowe jak Kensai
+-- Mo¿e wydaæ jedynie 5* w Katanach i 2* w walce 2 broniami~
++SAY @1
++SAY @2
++SAY @3
+ 
+ COPY ~Run/qqenerg.spl~                ~override/qqenerg.spl~        
+ 

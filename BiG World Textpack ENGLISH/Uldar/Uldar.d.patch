@@ -1,0 +1,555 @@
+--- Uldar\d\Uldar.d	Mon Sep 22 12:30:22 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\Uldar.d	Wed Aug 29 05:58:59 2012
+@@ -1,50 +1,50 @@
+ BEGIN ~Uldar~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN PrimerContacto
+-  SAY ~¡Eh, vosotros! ¡AQUÍ!~
++  SAY @0
+       =
+-      ~¡Tenéis que liberadnos! ¡No permitáis que hagan daño a los niños que tienen encarcelados en una de estas celdas! ¡Salvad a los pequeños y os estaré eternamente agradecido!~
+-  IF ~~ THEN REPLY ~No te preocupes, la esclavitud tiene aquí sus días contados. ¡Pronto seréis todos libres!~ DO ~SetGlobal("Uldaragradecido","GLOBAL",1)~ EXIT
+-  IF ~~ THEN REPLY ~Tranquilo gladiador pronto....euhh...esto... (detrás de los barrotes distingues una corpulenta figura humanoide de portentosos músculos y piel verdosa; sus rasgos faciales se te antojan deformes pues su gran boca esconde una prominente dentadura de grandes colmillos y su nariz chata recuerda a la de los puercos)~ DO ~SetGlobal("Uldaragradecido","GLOBAL",1)~ GOTO Semiorco
+-  IF ~~ THEN REPLY ~Te equivocas, no estoy en contra de lo que aquí hay montado; de hecho, me encanta veros encerrados ahí dentro ¡jajajaja!~ DO ~SetGlobal("Uldaragradecido","GLOBAL",1)~ GOTO Decepcion
++      @1
++  IF ~~ THEN REPLY @2 DO ~SetGlobal("Uldaragradecido","GLOBAL",1)~ EXIT
++  IF ~~ THEN REPLY @3 DO ~SetGlobal("Uldaragradecido","GLOBAL",1)~ GOTO Semiorco
++  IF ~~ THEN REPLY @4 DO ~SetGlobal("Uldaragradecido","GLOBAL",1)~ GOTO Decepcion
+ END
+ 
+ IF ~~ THEN BEGIN Semiorco
+-  SAY ~No...no os asustéis. Me llamo Uldar, antaño orgulloso guerrero y cazador...ahora esclavo y gladiador...Y sí, por mis venas corre sangre orca...soy un semiorco...~
+-IF ~!Race(Player1,HALFORC)~ THEN REPLY ~Tranquilo... No puedo negar que al verte me he sorprendido, pero no soy de los que juzgan por las apariencias Uldar. ¡Pronto os liberaré!~ ~Tranquilo...No puedo negar que al verte me he sorprendido, pero no soy de las que juzgan por las apariencias Uldar. ¡Pronto volveré para liberaros!~ EXIT
+-IF ~!Race(Player1,HALFORC)~ THEN REPLY ~¿Eres el vástago de un sucio orco? ¡Todo orco es escoria a la que se le ha de dar muerte! Lo se bien puesto que en el pasado tuve que dar cuenta de muchos de ellos. Lo siento semiorco pero no me fio. No seré yo quien deje libre en las calles de Athkatla a alguien de tu especie. Adios. ~ GOTO Decepcion
+-IF ~Race(Player1,HALFORC)~ THEN REPLY ~No has de avergonzarte de nada Uldar...Fijate bien, yo también soy como tu, me llamo <CHARNAME> y soy un semiorco. Aguanta un poco más, pronto quedarás libre.~ ~No has de avergonzarte de nada Uldar...Fijate bien, yo también soy como tu, me llamo <CHARNAME> y soy una semiorca. Aguanta un poco más, pronto quedarás libre.~EXIT
++  SAY @5
++IF ~!Race(Player1,HALFORC)~ THEN REPLY @6  EXIT
++IF ~!Race(Player1,HALFORC)~ THEN REPLY @7 GOTO Decepcion
++IF ~Race(Player1,HALFORC)~ THEN REPLY @8 EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Decepcion
+-  SAY ~¡Grrr...<RACE>, da gracias a que estos gruesos barrotes te protegen de mi furia! ¡¡QUE ALGUIEN ME SAQUE DE AQUIIII!!~
++  SAY @9
+   IF ~~ THEN DO ~SetGlobal("Uldardecepcionado","GLOBAL",1)~ EXIT
+ END
+ 
+ 
+ IF ~NumTimesTalkedToGT(0) Global("Uldardecepcionado","GLOBAL",1) Global("CeldaniñoUldar","GLOBAL",0) !PartyHasItem("MISC4Z")~ THEN BEGIN FuerademiVista     
+-  SAY ~¡Fuera de mi vista! ¡Odio a los esclavistas!.~
++  SAY @10
+   IF ~~ THEN EXIT 
+ END
+ 
+ IF ~NumTimesTalkedToGT(0) Global("Uldardecepcionado","GLOBAL",1) Global("CeldaniñoUldar","GLOBAL",0) PartyHasItem("MISC4Z")~ THEN BEGIN Sorpresa 
+-  SAY ~¡¿Has conseguido la llave?!. Puede que me equivocara al juzgarte... ¡Rápido, libera primero a los niños y a lo demás gladiadores!~
++  SAY @11
+   IF ~~ THEN EXIT 
+ END
+ 
+ IF ~NumTimesTalkedToGT(0) !Global("Uldardecepcionado","GLOBAL",1) Global("CeldaniñoUldar","GLOBAL",0) PartyHasItem("MISC4Z")~ THEN BEGIN Liberado                
+-  SAY ~¡¿Tienes la llave?! ¡Rápido, libera primero a los niños y a lo demás gladiadores!~
+-  IF ~~ THEN REPLY ~Está bien, así lo haremos~  EXIT 
++  SAY @12
++  IF ~~ THEN REPLY @13  EXIT 
+ END
+ 
+ 
+ //IF ~NumTimesTalkedToGT(0) Global("CeldaniñoUldar","GLOBAL",1) Global("HendakReleased","AR0406",2) 
+ 
+ IF ~NumTimesTalkedToGT(0) Global("HendakReleased","AR0406",2) Global("PuertaAbiertaUldar","GLOBAL",1) Global("UldarLibre","GLOBAL",0)~ THEN BEGIN Liberado    
+-  SAY ~¡Gracias, has liberado a los pequeños y a mis camaradas tal y como te pedí! ¡¡BIEN!! ¡Primero machaquemos las cabezas de algunos esclavistas! ¡Ya hablaremos luego acompañados por una buena jarra de cerveza!~ 
++  SAY @14 
+       =
+-      ~¡VENID AQUÍ SUCIOS PEDAZOS DE CARNE ESCLAVISTA, OS VOY A ARRANCAR EL CORAZÓN! ¡¡UUUAAARRRRGGGGG!!~  
+-  IF ~~ THEN REPLY ~(La mirada asesina del semiorco anima a apartarse de su camino mientras este se abre paso por los pasillos dando grandes zancadas y echando espumarajos por la boca...en cierto sentido, sientes lástima por aquellos pobres esclavistas que se crucen con él).~ DO ~SetGlobal("TomandoCerveza","GLOBAL",1) SetGlobal("UldarLibre","GLOBAL",1) EscapeAreaMove("AR0406",1373,1760,3)~ EXIT
++      @15  
++  IF ~~ THEN REPLY @16 DO ~SetGlobal("TomandoCerveza","GLOBAL",1) SetGlobal("UldarLibre","GLOBAL",1) EscapeAreaMove("AR0406",1373,1760,3)~ EXIT
+ END
+ 
+ 
+@@ -52,57 +52,57 @@
+ 
+ 
+ IF ~NumTimesTalkedToGT(0) Global("HendakReleased","AR0406",3) Global("TomandoCerveza","GLOBAL",1) Global("UldarAgradece","GLOBAL",0)~ THEN BEGIN Descansando    
+-  SAY ~¡Uldar te saluda <CHARNAME>! ¡Todos hablan ti y de como has expulsado a los esclavistas de la Corona de Cobre!~
++  SAY @17
+       =   
+-      ~¡Al final conseguiste liberarnos a todos!~
+-  IF ~~ THEN REPLY ~Esa escoria tuvo lo que se merecía.~ GOTO Agradecido
+-  IF ~~ THEN REPLY ~Sí, lo cierto es que no podía permanecer impasible ante lo que aquí estaba sucediendo.~ GOTO Agradecido
+-  IF ~~ THEN REPLY ~Lehtinan no fue nada razonable, el se lo buscó.~ GOTO Agradecido
++      @18
++  IF ~~ THEN REPLY @19 GOTO Agradecido
++  IF ~~ THEN REPLY @20 GOTO Agradecido
++  IF ~~ THEN REPLY @21 GOTO Agradecido
+ END
+ 
+ 
+ IF ~~ THEN BEGIN Agradecido
+-  SAY ~Sí, tus actos han salvado muchas vidas, sobre todo la de los niños que tenían secuestrados. Si les hubiera pasado algo nunca me lo hubiera perdonado.~
++  SAY @22
+       =
+-      ~Afortunadamente todo ha salido bien. Además, ya me he ocupado de los pequeños, me he asegurado de que puedan volver a su casa con su madre.~
+-  IF ~~ THEN REPLY ~Veo que te has tomado muy en serio la protección de esos chavales...~ GOTO Chavales
+-  IF ~~ THEN REPLY ~Todo un detalle por tu parte Uldar. Por cierto, ¿qué piensas hacer ahora que ya no tienes que ser más un gladiador para los esclavistas?...Te propongo unirte a mi grupo. Nos vendría bien un guerrero como tu.~ GOTO Propuesta2
+-  IF ~Global("Uldaragradecido","GLOBAL",1)~ THEN REPLY ~Por cierto, recuerdo que antes, en las celdas, me digiste que me lo agradecerías "eternamente" si liberaba a los chavales...~ GOTO Propuesta1 
++      @23
++  IF ~~ THEN REPLY @24 GOTO Chavales
++  IF ~~ THEN REPLY @25 GOTO Propuesta2
++  IF ~Global("Uldaragradecido","GLOBAL",1)~ THEN REPLY @26 GOTO Propuesta1 
+ END
+ 
+ IF ~~ THEN BEGIN Chavales
+-  SAY ~Así es... así se lo prometí a su padre en la arena...(Tras suspirar, el pensativo semiorco empina con impetu su gran jarra y de un solo trago se bebe toda la cerveza que contenía, como si con ello intentase espantar fantasmas del pasado).~
++  SAY @27
+       =
+-      ~¡Uuaah, se acabo la cerveza! (El semiorco deja con fuerza la jarra vacía sobre la mesa mientra suelta un estruendoso erupto) ¡Bien, creo entonces que ha llegado el momento de salir de esta ciudad infecta y regresar a mis montañas!~
+-  IF ~~ THEN REPLY ~Espera Uldar, ¿y si te unieras al grupo?. Nos vendría bien un guerrero como tu.~ GOTO Propuesta2
+-  IF ~~ THEN REPLY ~Haces bien en salir de aquí. Yo mismo lo haría de no ser por unos asuntos de gran importancia que me retienen. ¡Buen viaje Uldar!~ ~Haces bien en salir de aquí. Yo misma lo haría de no ser por unos asuntos de gran importancia que me retienen. ¡Buen viaje Uldar!~DO ~EscapeArea()~ EXIT
++      @28
++  IF ~~ THEN REPLY @29 GOTO Propuesta2
++  IF ~~ THEN REPLY @30 DO ~EscapeArea()~ EXIT
+ END
+ 
+ 
+ IF ~~ THEN BEGIN Propuesta1
+-  SAY ~Sí...así fue. Y Uldar siempre cumple su palabra.~
++  SAY @31
+       =
+-      ~Pero en poco puede recompensarte este bárbaro del norte por tu hazaña, salvo poniendo su fuerte brazo a tu servicio...si es eso lo que deseas.~ 
+-  IF ~~ THEN REPLY ~Bueno, supongo que ha de valer, me consta de que tu habilidad en el combate podrá serme muy útil.~ DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) JoinParty()~ EXIT 
+-  IF ~~ THEN REPLY ~¿Viajar con un semiorco? ¿Y que hay de mi reputación? ¡Eso no me sirve para nada! En fin, ya que no puedo sacar nada de valor, agradecemelo desapareciendo de mi vista, ese es mi deseo bárbaro.~ DO ~EscapeArea()~ EXIT
+-  IF ~~ THEN REPLY ~Lo tendré en cuenta Uldar, pero ahora no puede ser. Permanece aquí, si te necesito volveré a por ti.~ DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarEsperando","GLOBAL",1)~ EXIT
+-  IF ~~ THEN REPLY ~No esperaba un mejor agradecimiento. Sin duda nos vendrá muy bien contar contigo Uldar.~ DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FIVE_DAYS) JoinParty()~ EXIT 
++      @32 
++  IF ~~ THEN REPLY @33 DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) JoinParty()~ EXIT 
++  IF ~~ THEN REPLY @34 DO ~EscapeArea()~ EXIT
++  IF ~~ THEN REPLY @35 DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarEsperando","GLOBAL",1)~ EXIT
++  IF ~~ THEN REPLY @36 DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FIVE_DAYS) JoinParty()~ EXIT 
+ END
+ 
+ IF ~~ THEN BEGIN Propuesta2
+-  SAY ~¿Unirme a ti? ¿Lo dices en serio?~
++  SAY @37
+       =
+-      ~¡Uldar se sentiría muy orgulloso de compartir camino junto a <CHARNAME>!~ 
+-  IF ~~ THEN REPLY ~¡Estupendo! ¡Ven entonces! ¡Pongamonos en marcha!~ DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FIVE_DAYS) JoinParty()~ EXIT 
+-  IF ~~ THEN REPLY ~¡Excelente Uldar! Espera entonces aquí. Pronto vendré a pedirte ayuda.~ DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarEsperando","GLOBAL",1)~ EXIT
++      @38 
++  IF ~~ THEN REPLY @39 DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FIVE_DAYS) JoinParty()~ EXIT 
++  IF ~~ THEN REPLY @40 DO ~SetGlobal("UldarAgradece","GLOBAL",1) SetGlobal("UldarEsperando","GLOBAL",1)~ EXIT
+ END
+ 
+ 
+ IF ~NumTimesTalkedToGT(0) Global("TomandoCerveza","GLOBAL",1) Global("UldarEsperando","GLOBAL",1) Global("UldarAdmitido","GLOBAL",0)~ THEN BEGIN BebiendoCerveza
+-  SAY ~¡Es bueno verte <CHARNAME>!. ¿Necesitas de la fuerza de Uldar?~
+-  IF ~~ THEN REPLY ~Así es, orgulloso guerrero. Requerimos de tus habilidades. ¡Bienvenido!~ DO ~SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) JoinParty()~ EXIT
+-  IF ~~ THEN REPLY ~Ahora no, quizás más tarde.~ EXIT
+-  IF ~~ THEN REPLY ~No por ahora, solo pasaba para saludar.~ EXIT
++  SAY @41
++  IF ~~ THEN REPLY @42 DO ~SetGlobal("UldarAdmitido","GLOBAL",1) SetGlobal("DialogosconUldar","LOCALS",1) SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) JoinParty()~ EXIT
++  IF ~~ THEN REPLY @43 EXIT
++  IF ~~ THEN REPLY @44 EXIT
+ END
+ 
+ 
+@@ -114,29 +114,29 @@
+ 
+ 
+ IF ~Global("UldarAdmitido","GLOBAL",1)~ THEN BEGIN DejarGrupo
+-  SAY ~¿Es hora de que Uldar y <CHARNAME> recorran senderos distintos?~
+-    IF ~~ THEN REPLY ~Nada de eso, ¡siguamos adelante compañero!~ DO ~JoinParty()~ EXIT
+-    IF ~Global("UldarLealtad","GLOBAL",0)~ THEN REPLY ~Así es, creo que deberías marcharte.~ GOTO CoroCobre
+-    IF ~Global("UldarLealtad","GLOBAL",1)~ THEN REPLY ~Así es, creo que deberías marcharte.~ GOTO Infierno
++  SAY @45
++    IF ~~ THEN REPLY @46 DO ~JoinParty()~ EXIT
++    IF ~Global("UldarLealtad","GLOBAL",0)~ THEN REPLY @47 GOTO CoroCobre
++    IF ~Global("UldarLealtad","GLOBAL",1)~ THEN REPLY @47 GOTO Infierno
+ END
+ 
+ IF ~~ THEN BEGIN CoroCobre
+-  SAY ~Como quieras <CHARNAME>.~
++  SAY @48
+       =
+-      ~Si me necesitas estaré en la Corona de Cobre. Estará bien beber cerveza con Hendak y con el resto de mis viejos camaradas gladiadores.~
+-  IF ~~ THEN REPLY ~Muy bien Uldar, allí nos veremos.~ DO ~SetGlobal("UldarAdmitido","GLOBAL",0) EscapeAreaMove("AR0406",1373,1760,3)~ EXIT
++      @49
++  IF ~~ THEN REPLY @50 DO ~SetGlobal("UldarAdmitido","GLOBAL",0) EscapeAreaMove("AR0406",1373,1760,3)~ EXIT
+ END  
+ 
+ IF ~~ THEN BEGIN Infierno
+-  SAY ~Muy bien, te esperaré aquí mismo por si me necesitas.~
++  SAY @51
+   IF ~~ THEN DO ~SetGlobal("UldarAdmitido","GLOBAL",0)~ EXIT
+ END  
+ 
+  
+ IF ~Global("UldarAdmitido","GLOBAL",0)~ THEN BEGIN Reencuentro
+-  SAY ~¡Es bueno verte <CHARNAME>!. ¿Necesitas de la fuerza de Uldar?~
+-  IF ~~ THEN REPLY ~Así es, orgulloso guerrero. Requerimos de tus habilidades.¡Bienvenido!~ DO ~SetGlobal("UldarAdmitido","GLOBAL",1) JoinParty()~ EXIT
+-  IF ~~ THEN REPLY ~No, sólo pasaba para saludarte.~ EXIT
++  SAY @41
++  IF ~~ THEN REPLY @52 DO ~SetGlobal("UldarAdmitido","GLOBAL",1) JoinParty()~ EXIT
++  IF ~~ THEN REPLY @53 EXIT
+ END
+ 
+ 
+@@ -148,61 +148,61 @@
+ 
+ 
+ IF ~AreaCheck("AR0400") Global("UldarBarco1","GLOBAL",0)~ THEN BEGIN MisionCHARNAME
+-  SAY ~¡Por fin, el cielo abierto!...No es que se pueda comparar al de las altas montañas, pero sin duda el cielo en la ciudad adquiere una gran belleza cuando se ve con ojos libres...~ 
+-  IF ~~ THEN REPLY ~A mi y a unos amigos también nos tuvieron hasta hace poco encarcelados en esta misma ciudad, incluso nos torturaron, así que puedo entender la dicha que sientes. Me alegra haber ayudado.~ GOTO UldarsabedeIrenicus
+-  IF ~~ THEN REPLY ~Me agrada haberte sido de ayuda pero ahora puedes cumplir la promesa que me hiciste, me vendría muy bien tu ayuda en la caza de un mago llamado Irenicus y en el rescate de Imoen, ambos retenidos por los Magos Encapuchados de Athkatla.~ GOTO Uldarseapunta
++  SAY @54 
++  IF ~~ THEN REPLY @55 GOTO UldarsabedeIrenicus
++  IF ~~ THEN REPLY @56 GOTO Uldarseapunta
+ END
+ 
+ 
+ IF ~~ THEN BEGIN UldarsabedeIrenicus
+-  SAY ~¡Ummff! ¡¿Qué le pasa a esta ciudad?! ¡¡¿Es qué no conocen otra forma de vivir que no sea a costa de negar la libertad y hacer sufrir a los demás?!!~
++  SAY @57
+       =
+-      ~...Pero ahora eres libre... ¿Ya te habrás vengado de tu carcelero, verdad?~
+-  IF ~~ THEN REPLY ~No. Lo cierto es que el culpable, un mago llamado Irenicus, consiguió escapar gracias a que los Magos Encapuchados se lo llevaron detenido. Pero no estoy dispuesto que esto quede así, lo encontraré y se lo haré pagar.~ ~No. Lo cierto es que el culpable, un mago llamado Irenicus, consiguió escapar gracias a que los Magos Encapuchados se lo llevaron detenido. Pero no estoy dispuesta que esto quede así, lo encontraré y se lo haré pagar.~GOTO Uldarseapunta 
+-  IF ~~ THEN REPLY ~No. Lo cierto es que el culpable, un mago llamado Irenicus, consiguió escapar gracias a que los Magos Encapuchados se lo llevaron detenido. Y no solo eso, debido a la intervención de estos, una amiga mía llamada Imoen también fue arrestada por esta poderosa organización. Como ves, estoy de lleno en una misión para rescatar a Imoen y darle su merecido a ese tal Irenicus.~ GOTO Uldarseapunta
++      @58
++  IF ~~ THEN REPLY @59 GOTO Uldarseapunta 
++  IF ~~ THEN REPLY @60 GOTO Uldarseapunta
+ END
+ 
+ 
+ IF ~~ THEN BEGIN Uldarseapunta
+-  SAY ~¡Pues escucha entonces el juramento de un guerrero Hatuk amigo mio: Tu me has devuelto la libertad y yo, mientras me necesites, estaré a tu lado! ¡Juntos rescataremos a Imoen y juntos daremos caza a ese villano llamado Irenicus! Es lo mínimo que puedo hacer por ti. A parte de eso, poco más puedo ofrecerte ya que conozco bien poco a esos Magos Encapuchados. Lo cierto es que soy todo un extraño en esta ciudad. Siento no serte de más ayuda.~  
+-      ~¡Pues escucha entonces el juramento de un guerrero Hatuk amiga mia: Tu me has devuelto la libertad y yo, mientras me necesites, estaré a tu lado! ¡Juntos rescataremos a Imoen y juntos daremos caza a ese villano llamado Irenicus! Es lo mínimo que puedo hacer por ti. A parte de eso, poco más puedo ofrecerte ya que conozco bien poco a esos Magos Encapuchados. Lo cierto es que soy todo un extraño en esta ciudad. Siento no serte de más ayuda.~
++  SAY @61  
++      
+ 
+-  IF ~~ THEN REPLY ~No te preocupes por eso Uldar. Lo que importa es saber que podré contar contigo.~ EXIT
+-  IF ~~ THEN REPLY ~¡Excelente! Tu palabra te obliga gran guerrero y me consta que será fiel a ella hasta las últimas consecuencias.~ EXIT
+-  IF ~~ THEN REPLY ~¡Bien! ¡Pongamonos entonces en marcha! ¡No hay tiempo que perder!~ EXIT
++  IF ~~ THEN REPLY @62 EXIT
++  IF ~~ THEN REPLY @63 EXIT
++  IF ~~ THEN REPLY @64 EXIT
+ END
+ 
+ 
+ IF ~AreaCheck("AR0405") See([ENEMY]) Global("UldarBarco1","GLOBAL",0)~ THEN BEGIN EntradaBarco1 
+-  SAY ~Grrrr... ¡Más esclavistas! ¡¡LOS VOY A MATAR A TODOS!!~ 
++  SAY @65 
+   IF ~~ THEN DO ~SetGlobal("UldarBarco1","GLOBAL",1)~ EXIT
+ END
+ 
+ 
+ IF ~AreaCheck("AR0405") !See([ENEMY]) Global("UldarBarco2","GLOBAL",0)~ THEN BEGIN EntradaBarco2 
+-  SAY ~Sí, conozco bien este barco (mientras habla, el bárbaro recorre cada rincón del lugar con una mirada de auténtico odio)... Aquí es donde esconden a los esclavos hasta que son vendidos en subasta.~ 
+-  IF ~~ THEN REPLY ~¿Así que te tuvieron encerrado aquí?~ DO ~SetGlobal("UldarBarco2","GLOBAL",1)~ GOTO EntradaBarco3
++  SAY @66 
++  IF ~~ THEN REPLY @67 DO ~SetGlobal("UldarBarco2","GLOBAL",1)~ GOTO EntradaBarco3
+ END
+ 
+ IF ~~ THEN BEGIN EntradaBarco3
+-  SAY ~Sí... (te quedas mirando a Uldar e intuyes que habría querido añadir algo más, pero notas como si la mente del semiorco viajara en el tiempo. Probablemente esté recordando los malos momentos que tuvo que pasar dentro de esta embarcación)~
++  SAY @68
+       = 
+-      ~¡<CHARNAME>, seguro que tendrán a gente encerrada aquí! ¡Debemos rescatarlos a todos!~
+-  IF ~~ THEN REPLY ~Eso está hecho Uldar. No dejaremos un rincón sin mirar.~ EXIT
+-  IF ~~ THEN REPLY ~¡Claro! Además, seguro que Hendak nos tiene preparada otra recompensa si conseguimos echar a bajo este negocio.~ EXIT
++      @69
++  IF ~~ THEN REPLY @70 EXIT
++  IF ~~ THEN REPLY @71 EXIT
+ END
+ 
+ IF ~AreaCheck("AR0405")  Global("QueesJarall","GLOBAL",1)~ THEN BEGIN QueesJarall 
+-  SAY ~¿Te has fijado en este hombre que acompañaba a los yuantis? Nunca antes había visto algo igual...~
+-  IF ~~ THEN REPLY ~Sí, aunque parece humano, esos ojos de reptil y esa piel escamosa reflejan claramente su parentesco con los yuantis... ¿qué estarían estos haciendo aquí?~ GOTO QuedeciaJarall
+-  IF ~~ THEN REPLY ~Creo recordar haber leido algo sobre este tipo de hombres serpiente en Candelero. Se denominan Puracasta y es muy mal asunto verlos aquí. Los yuantis suelen usarlos para infiltrarse entre comunidades humanas y llevar a cabo algún oscuro plan.~ GOTO QuedeciaJarall
+-  IF ~~ THEN REPLY ~Parece que se trata de algún tipo de hombre serpiente, con más apariencia humana de la que he visto en otras ocasiones...~ GOTO QuedeciaJarall
++  SAY @72
++  IF ~~ THEN REPLY @73 GOTO QuedeciaJarall
++  IF ~~ THEN REPLY @74 GOTO QuedeciaJarall
++  IF ~~ THEN REPLY @75 GOTO QuedeciaJarall
+ END
+ 
+ IF ~~ THEN BEGIN QuedeciaJarall
+-  SAY ~Todo esto es muy extraño...¿Oiste lo que dijo sobre un Profeta?. ~
+-  IF ~~ THEN REPLY ~Sí, también lo escuché, pero no se a que se refería. Quizás encontremos algo entre sus pertenecias que de un poco más de luz sobre este misterio.~ DO ~SetGlobal("QueesJarall","GLOBAL",2)~ EXIT
+-  IF ~~ THEN REPLY ~Ni idea a que podría referirse con eso, pero bastante turbio parece el asunto como para además mezclarlo con videntes parlanchines y conspiradores . Miremos entre sus cosas a ver si encontramos algo que aclare un poco más todo esto.~ DO ~SetGlobal("QueesJarall","GLOBAL",2)~ EXIT
++  SAY @76
++  IF ~~ THEN REPLY @77 DO ~SetGlobal("QueesJarall","GLOBAL",2)~ EXIT
++  IF ~~ THEN REPLY @78 DO ~SetGlobal("QueesJarall","GLOBAL",2)~ EXIT
+ END
+ 
+ 
+@@ -210,85 +210,85 @@
+ //211***********************************************************
+ 
+ I_C_T HAEGAN 1 UldarHaegan
+-== ULDARJ IF ~InParty("Uldar")~ THEN ~¡Pronto acabará todo pedazo de carne! ¡¡Voy a matarte!! ¡¡UUARRGGGG!!~
+-== HAEGAN IF ~InParty("Uldar")~ THEN ~¡Te recuerdo! ¡Yo te vendí a Lehtinan para que hiciera de ti un gladiador! ¡No me das miedo esclavo! ¡¡VAMOS!! ¡¡Te enseñaré cual es tu lugar escoria semiorca!!~
++== ULDARJ IF ~InParty("Uldar")~ THEN @79
++== HAEGAN IF ~InParty("Uldar")~ THEN @80
+ END
+ 
+ I_C_T HAEGAN 2 UldarHaegan
+-== ULDARJ IF ~InParty("Uldar")~ THEN ~¡Pronto acabará todo pedazo de carne! ¡¡Voy a matarte!! ¡¡UUARRGGGG!!~
+-== HAEGAN IF ~InParty("Uldar")~ THEN ~¡Te recuerdo! ¡Yo te vendí a Lehtinan para que hiciera de ti un gladiador! ¡No me das miedo esclavo! ¡¡VAMOS!! ¡¡Te enseñaré cual es tu sitio escoria semiorca!!~
++== ULDARJ IF ~InParty("Uldar")~ THEN @79
++== HAEGAN IF ~InParty("Uldar")~ THEN @81
+ END
+ 
+ I_C_T HAEGAN 3 UldarHaegan
+-== ULDARJ IF ~InParty("Uldar")~ THEN ~¡Pronto acabará todo pedazo de carne! ¡¡Voy a matarte!! ¡¡UUARRGGGG!!~
+-== HAEGAN IF ~InParty("Uldar")~ THEN ~¡Te recuerdo! ¡Yo te vendí a Lehtinan para que hiciera de ti un gladiador! ¡No me das miedo esclavo! ¡¡VAMOS!! ¡¡Te enseñaré cual es tu sitio escoria semiorca!!~
++== ULDARJ IF ~InParty("Uldar")~ THEN @79
++== HAEGAN IF ~InParty("Uldar")~ THEN @81
+ END
+ 
+ 
+ I_C_T VICG1 3 UldarArdeVico
+-== ULDARJ IF ~InParty("Uldar")~ THEN ~¿Una drow?...Los ancianos de mi tribu podrían contarnos dos o tres buenas historias sobre ellos. Yo es la primera vez que veo una de su especie, pero si es cierto lo que se cuenta de ellos, no es de extrañar que estas gentes la quieran quemar viva.~
++== ULDARJ IF ~InParty("Uldar")~ THEN @82
+ END
+ 
+ 
+ I_C_T HENDAK 31 FinEsclavistas
+-== ULDARJ IF ~InParty("Uldar")~ THEN ~No estarás solo en ello Hendak, yo también estaré alerta. Se lo debemos a todos los que fueron esclavos; sobre todo a todos nuestros camaradas gladiadores que perdieron la vida en el foso.~
+-== HENDAK IF ~InParty("Uldar")~ THEN ~Sí, son muchas las vidas que se ha llevado el infame negocio que aquí tenían montado Lehtinan y Haegan aunque ya no tendremos que preocuparnos más por eso, no mientras nosotros estemos vigilantes.~ 
++== ULDARJ IF ~InParty("Uldar")~ THEN @83
++== HENDAK IF ~InParty("Uldar")~ THEN @84 
+ 
+ 
+-== PLAYER1 IF ~InParty("Uldar")~ THEN ~Una última cosa Hendak, en el barco descubrimos que un nuevo cliente de Haegan había comprado un buen número de niños y que estaba pendiente de hacerse con más...~
+-== HENDAK IF ~InParty("Uldar")~ THEN ~¡Maldito! ¿Habéis descubierto algo sobre ese cerdo o del paradero de los niños?~
+-== PLAYER1 IF ~InParty("Uldar")~ THEN ~Solo sabemos que hay hombres serpiente implicados y que siguen las ordenes de uno al que llaman el Profeta. De este no sabemos nada y tampoco sabemos donde se haN llevado a los niños o que pretendeN hacer con ellos pero el asunto tiene ciertos tintes de secta religiosa que no pinta nada bien.~  
+-== HENDAK IF ~InParty("Uldar")~ THEN ~Con esos datos en poco puedo ayudarte pero investigaré a ver que descubro. Este negocio que le arrebaté a Lehtinan me permite conocer a mucha gente y  tener muchos contactos. Si escucho algo sobre el tema os lo haré saber.~
+-== HENDAK IF ~InParty("Uldar")~ THEN ~Ahora tengo que dejaros. ¡Buena suerte amigos!~
+-== ULDARJ IF ~InParty("Uldar")~ THEN ~Hasta pronto.~
++== PLAYER1 IF ~InParty("Uldar")~ THEN @85
++== HENDAK IF ~InParty("Uldar")~ THEN @86
++== PLAYER1 IF ~InParty("Uldar")~ THEN @87  
++== HENDAK IF ~InParty("Uldar")~ THEN @88
++== HENDAK IF ~InParty("Uldar")~ THEN @89
++== ULDARJ IF ~InParty("Uldar")~ THEN @90
+ END
+ 
+ 
+ I_C_T FIRKRA02 21 UldarFirkraag
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡En mi pueblo solo existe una vieja leyenda que narre el combate de un Hatuk contra un dragón rojo...Este sin duda es más grande y feroz...¡Qué historias tan magnificas podrían cantar los bardos de nuestra victoria sobre tan vil criatura!.~
++== UldarJ IF ~InParty("Uldar")~ THEN @91
+ END
+ 
+ 
+ I_C_T YOSHJ 113 UldarYoshimo
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡¡Ummf, traición!! ¡Los Hatuk la castigamos con la muerte pues no hay cosa peor que la felonía de un camarada!.~
++== UldarJ IF ~InParty("Uldar")~ THEN @92
+ END
+ 
+ 
+ I_C_T PPSAEM2 17 UldarSaemon
+-== UldarJ IF ~InParty("Uldar")~ THEN ~La Infraoscuridad...Cuentan cosas terribles de ese lugar...Los ancianos nos tienen prohibido adentrarnos en ella pero si es tu deseo <CHARNAME>, yo, Uldar de la Tribu de los Hatuk, te acompañaré en tan oscuro viaje.~
++== UldarJ IF ~InParty("Uldar")~ THEN @93
+ END
+ 
+ I_C_T BODHI 11 UldarBodhi1
+-== UldarJ IF ~InParty("Uldar")~ THEN ~Aceptaré cualquiera que sea tu decisión <CHARNAME> pero esto no me da buena espina, mi olfato me dice que hay algo sobrenatural y malvado hay en esta mujer...cuidado.~
++== UldarJ IF ~InParty("Uldar")~ THEN @94
+ END
+ 
+ I_C_T UDSILVER 35 UldarAdalon
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡JA!  ¡Yo convertido en un drow!  Si los de mi tribu me vieran ahora, se quedaban todos de piedra. ¡JA,JA,JA!~
++== UldarJ IF ~InParty("Uldar")~ THEN @95
+ END
+ 
+ I_C_T PLAYER1 18 UldarIrenicusDead
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡Ancestros, qué...! ¡¡UUUARRRGGGgggg!!~
++== UldarJ IF ~InParty("Uldar")~ THEN @96
+ END
+ 
+ I_C_T PLAYER1 25 UldarInfierno
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¿Dónde...? ¿Dónde estamos?... El cielo tiene un extraño color y esas nubes... qué extraño es todo...~
++== UldarJ IF ~InParty("Uldar")~ THEN @97
+ END
+ 
+ 
+ I_C_T HELLJON 7 UldarIrenicusInfierno1
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡¡MAGO!! ¡Los Espiritus Sagrados claman venganza por tus fechorías! ¡Preparate! ¡Vas a sentir mi furia!~ 
++== UldarJ IF ~InParty("Uldar")~ THEN @98 
+ END
+ 
+ I_C_T HELLJON 8 UldarIrenicusInfierno2
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡¡MAGO!! ¡Los Espiritus Sagrados claman venganza por tus fechorías! ¡Preparate! ¡Vas a sentir mi furia!~ 
++== UldarJ IF ~InParty("Uldar")~ THEN @98 
+ END
+ 
+ I_C_T HELLJON 9 UldarIrenicusInfierno3
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡¡MAGO!! ¡Los Espiritus Sagrados claman venganza por tus fechorías! ¡Preparate! ¡Vas a sentir mi furia!~ 
++== UldarJ IF ~InParty("Uldar")~ THEN @98 
+ END
+ 
+ I_C_T HELLJON 10 UldarIrenicusInfierno4
+-== UldarJ IF ~InParty("Uldar")~ THEN ~¡¡MAGO!! ¡Los Espiritus Sagrados claman venganza por tus fechorías! ¡Preparate! ¡Vas a sentir mi furia!~ 
++== UldarJ IF ~InParty("Uldar")~ THEN @98 
+ END
+ 
+ 
+@@ -301,32 +301,32 @@
+ 
+ APPEND PLAYER1
+   IF ~~ P133Uldar
+-   SAY ~Uldar, guerrero de la tribu bárbara de los Hatuk. Su portentosa fuerza y su habilidad en el combate ha sido crucial en más de una ocasión. Juró acompañarte pero quizás el paso que vas a dar ahora es más de lo que se le pueda pedir a cualquiera. Aunque sabes que su código de honor hará que te siga hasta la muerte sientes que debes darle la opción de seguir adelante o quedarse atrás.~
+-   ++ ~Uldar, quizás no volvamos, ¿estás seguro de querer seguir adelante?.~ EXTERN UldarJ doordie
+-   ++ ~Si me sigues, puede que nunca vuelvas a ver a los de tu tribu. Entendería que decidieras no continuar.~ EXTERN UldarJ bowout
+-   ++ ~Uldar, sin ti no podría haber llegado hasta aquí y por ello te estoy muy agradecido. Dime guerrero, ¿puedo contar contigo en este tramo final de mi viaje?.~ ~Uldar, sin ti no podría haber llegado hasta aquí y por ello te estoy muy agradecida. Dime guerrero, ¿puedo contar contigo en este tramo final de mi viaje?.~EXTERN UldarJ thankyou
++   SAY @99
++   ++ @100 EXTERN UldarJ doordie
++   ++ @101 EXTERN UldarJ bowout
++   ++ @102 EXTERN UldarJ thankyou
+   END
+ END
+ 
+ APPEND UldarJ
+ 
+   IF ~~ doordie
+-   SAY ~¡Por los Ancianos!¿Qué pregunta es esa? Uldar no deshonrará a su tribu y menos aún abandonará a su suerte a un camarada. ¡VAMOS! ¡Estoy impaciente por entrar en combate!.~ 
++   SAY @103 
+   IF ~~ GOTO tolend
+   END
+ 
+   IF ~~ bowout
+-   SAY ~Mi pueblo, mi gente... Sí podría ser que sucediera lo que dices pero peor aún sería volver a verlos y no poder mirarlos a la cara sabiendo que he dado la espalda a un amigo y a mi juramento. ¡¡No será así!! ¡<CHARNAME>, muestra el camino porque Uldar, de la tribu de los Hatuk, permanecerá contigo hasta el final!~
++   SAY @104
+   IF ~~ GOTO tolend
+   END
+ 
+   IF ~~ thankyou
+-   SAY ~¡Por su puesto <CHARNAME>! ¡Hay un malvado mago que ha de pagar por sus crímenes y cientos de bardos esperan cantar nuestra gesta! ¡Adelante camarada, la batalla final nos espera!.~ 
++   SAY @105 
+   IF ~~ GOTO tolend
+   END
+ 
+   IF ~~ tolend
+-   SAY ~¡Vamos! ¡El honor y la gloria nos aguardan!~
++   SAY @106
+    COPY_TRANS PLAYER1 33 
+   END
+ 
+@@ -338,56 +338,56 @@
+ BEGIN ~BUldar~
+ 
+ IF ~Global("DialogosconUldar","LOCALS",2)~ THEN BEGIN UldarBanner01
+-  SAY ~¡Estoy muy contento de hacer este viaje contigo <CHARNAME>!.~ 
+-  IF ~~ THEN REPLY ~A mi también me agrada tenerte en el grupo Uldar. ¡Eres un gran guerrero!~ GOTO UldarBanner02
+-  IF ~~ THEN REPLY ~Sí. Yo también estoy muy complacido de que estés de mi parte. Hasta ahora estás cumpliendo tu juramento tal y como prometiste~ ~Sí. Yo también estoy muy complacida de que estés de mi parte. Hasta ahora estás cumpliendo tu juramento tal y como prometiste~ GOTO UldarBanner02
+-  IF ~~ THEN REPLY ~Está bien, pero callate ahora, no es el momento de hablar~ DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
++  SAY @107 
++  IF ~~ THEN REPLY @108 GOTO UldarBanner02
++  IF ~~ THEN REPLY @109 GOTO UldarBanner02
++  IF ~~ THEN REPLY @110 DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN UldarBanner02
+-  SAY ~Me alegra que pienses eso, pues ser un gran guerrero y fiel a mi juramento es la senda que he decidido recorrer... ¡Sí!... me gustaría que algún día los Ancianos de mi tribu llegaran a cantar mis gestas y que mi nombre sirviera de inspiración a los jovenes Hatuk; Que sonara con igual fuerza y devoción que el de Frandar el Matadragones, Thrungor el Rencoroso o Cerigan el Inmortal... ~
++  SAY @111
+       =
+-      ~¡Sí! No cabe duda. Presiento que este viaje a tu lado me va a dar más de una ocasión de mostrarme como un digno miembro de mi tribu.~   
+-   IF ~~ THEN REPLY ~Vaya, veo que es muy importante para ti dejar en buen lugar a los de tu tribu...eso sin duda te honra.~ GOTO UldarBanner03a
+-   IF ~~ THEN REPLY ~Siempre estás hablando de tu tribu Uldar, aunque no entiendo por qué les tienes tanta lealtad a ellos y a sus normas.~ GOTO UldarBanner03a
+-   IF ~~ THEN REPLY ~¿Frandar el Matadragones? ¿Thrungor el Rencoroso? ¿Cerigan el Inmortal?...Esos nombres no me suenan pero me gustaría conocer sus gestas. En Candelero pude leer muchas historias y leyendas de heroes pasados pero uno siempre tiene ganas de más.~ ~¿Frandar el Matadragones? ¿Thrungor el Rencoroso? ¿Cerigan el Inmortal?...Esos nombres no me suenan pero me gustaría conocer sus gestas. En Candelero pude leer muchas historias y leyendas de heroes pasados pero una siempre tiene ganas de más.~GOTO UldarBanner03b
++      @112   
++   IF ~~ THEN REPLY @113 GOTO UldarBanner03a
++   IF ~~ THEN REPLY @114 GOTO UldarBanner03a
++   IF ~~ THEN REPLY @115 GOTO UldarBanner03b
+ END
+ 
+ 
+ IF ~~ THEN BEGIN UldarBanner03a
+-  SAY ~No podría ser de otra forma <CHARNAME>...Has de saber que fueron ellos, una tribu de humanos nómadas de los Picos Nublados, los que me rescataron de los brazos de la muerte...~
++  SAY @116
+       =
+-      ~Los Ancianos me han contado muchas veces como un grupo de caza de mi tribu me encontró entre los restos humeantes de una aldea minera que había sido arrasada por orcos. Los Hatuk me acogieron y me criaron como a uno más de la tribu...~
++      @117
+       =
+-      ~Uldar me llamaron, nombre que significa "Colmillo Encontrado". Has de saber que mi gente venera al Lobo Sagrado de las Tres Colas, cada miembro de mi tribu es uno de los incontables dientes de sus grandes fauces, un Hatuk.... Como ves, no puedo más que sentir agradecimiento y orgullo hacia los mios y es por esa razón que, con el consentimiento de los Ancianos, decidí viajar por un tiempo a lo largo de la Costa de la Espada... Con esto quiero agradecerles todo lo que han hecho por mi, quiero que, con mis actos y mis gestas, se sientan orgullosos y reconocidos por las demás tribus...~
+-  IF ~~ THEN REPLY ~Comprendo. Es muy elogiable lo que quieres hacer. La tribu de los Hatuk tiene mucha suerte de poder contar contigo.~ DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
+-  IF ~~ THEN REPLY ~Entiendo. Por lo que a mi respecta puedes seguir con tu idea de ganar fama y gloria...siempre y cuando cumplas con tu juramento..~ DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
++      @118
++  IF ~~ THEN REPLY @119 DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
++  IF ~~ THEN REPLY @120 DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FOUR_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
+ END
+ 
+ 
+ IF ~~ THEN BEGIN UldarBanner03b
+-  SAY ~Bien <CHARNAME>, no sé donde queda ese Candelero del que hablas ni que historias habrás conocido pero si se da la ocasión te contaré alguna que otra gesta de los grandes heroes de los Hatuk y verás como hay pocos que puedan superarlos en valor y fuerza.~
+-  IF ~~ THEN REPLY ~¡Estupendo! ¡Me encantará escucharlas!~ DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FIVE_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
++  SAY @121
++  IF ~~ THEN REPLY @122 DO ~SetGlobalTimer("UldarDialogo","GLOBAL",FIVE_DAYS) IncrementGlobal("DialogosconUldar","LOCALS",1) ~ EXIT
+ END
+ 
+ IF ~Global("DialogosconUldar","LOCALS",4)~ THEN BEGIN UldarBanner04
+-  SAY ~<CHARNAME>, ¿te he contado alguna vez la historia Thrungor el Rencoroso?~ 
+-  IF ~~ THEN REPLY ~No Uldar, aunque me gustaría me la contases.~ GOTO UldarBanner05
+-  IF ~~ THEN REPLY ~Lo siento Uldar pero no es un buen momento. Tal vez en otra ocasión.~ DO ~IncrementGlobal("DialogosconUldar","LOCALS",1)~ EXIT
++  SAY @123 
++  IF ~~ THEN REPLY @124 GOTO UldarBanner05
++  IF ~~ THEN REPLY @125 DO ~IncrementGlobal("DialogosconUldar","LOCALS",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN UldarBanner05
+-  SAY ~Verás, Thrungor fue el segundo hijo de Plassar, el XXI Portador de la Corona de Colmillos de nuestro pueblo. Cuentan los ancianos que su padre y su hermano mayor cayeron en una emboscada orca mientras cazaban venados poco antes de la llegada de las primeras nieves. Cuentan que los orcos los decapitaron y que los Hatuk solo pudieron dar entierro a los cuerpos sin cabeza. Esto enfureció muchisimo a todos los Hatuk y más si cabe a Trungor que, desoyendo el consejo de los Ancianos y no esperando a que se eligiera a un nuevo Portador de la Corona de Colmillos que dirigiera a todos los guerreros, se adentro en territorio orco armado con el hacha de su hermano mayor en una mano y la espada rota de su padre en la otra.~
++  SAY @126
+       =
+-      ~Se cuenta que dos días más tarde, una vez elegido a un nuevo Portador de la Corona de Colmillos, los guerreros Hatuk entraron también en territorio orco hasta llegar, sin ningún tipo de oposición, a la misma aldea orca. Allí descubrieron porqué no les salió al paso ningún orco: En medio de la aldea orca, formada por un monton de chozas de mohosa madera y pieles  malorientes, se alzaba una gran montaña de orcos muertos y sobre ésta yacia inerte, a causa de las heridas recibidas, Thrungor, el segundo hijo de Plassar el Decapitado. Se lo encontrarón desangrado, con los calzones bajados y una gran sonrisa. El gran guerrero, utilizó sus últimas fuerzas para apilar a todos los cadaveres de los orcos que había matado, subirse encima de la montaña de cadaveres y cagarse encima de ellos.~
++      @127
+       =
+-      ~¡JA,JA,JA,JA! ¡Me encanta esta historia! Desde entonces son pocos los orcos que se hayan atrevido a levantar su brazo contra los nuestros... De esto ya ha pasado mucho tiempo pero a los orcos todavía les HUELE como el primer día. ¡JA, JA, JA,JA!~
+-  IF ~~ THEN REPLY ~¡Ja,ja,ja! Sí que es buena esta historia de Thrungor el Rencoroso. ¡Ja,ja,ja! ~ GOTO UldarBanner06
+-  IF ~~ THEN REPLY ~¿Prefirio cagarse encima de los orcos en vez de curarse primero las heridas?...Sin duda el apodo del Rencoroso se lo ganó a pulso...~ GOTO UldarBanner06
++      @128
++  IF ~~ THEN REPLY @129 GOTO UldarBanner06
++  IF ~~ THEN REPLY @130 GOTO UldarBanner06
+ END
+ 
+ IF ~~ THEN BEGIN UldarBanner06
+-  SAY ~Sí, el apodo lo tiene ganado a pulso...Esta es sin duda una buena historia Hatuk que trae con ella dos grandes enseñanzas: la primera es que la determinación y la furia de un guerrero Hatuk es siempre imparable y la segunda que desoir el consejo de los Ancianos puede traerte graves consecuencias.~
++  SAY @131
+ IF ~~ THEN DO ~IncrementGlobal("DialogosconUldar","LOCALS",1)~ EXIT
+ END
+ 
+@@ -396,23 +396,23 @@
+ 
+ CHAIN
+ IF ~InParty("Minsc") InParty("Uldar") See("Minsc ") !StateCheck("Minsc",STATE_SLEEPING) Global("BUldarMinsc","LOCALS",0)~ THEN BMINSC TCHAIN101
+-~¡Uldar, eres un gran guerrero! Estoy seguro de que entre los Hatuk tienes una gran reputación.~ DO ~SetGlobal("BUldarMinsc","LOCALS",1)~
+-== BUldar ~Agradezco tus palabras, pero entre los Hatuk no era sino otro de los tantos colmillos que tiene las fauces del Lobo Sagrado de las Tres Colas, solo eso...Pero no te negaré que algún día me gustaría ser el portador de la Corona de Colmillos y ser reconocido entre los de mi tribu como uno de sus grandes heroes.~
+-== BMINSC ~Sí, lo entiendo. Minsc también empezó hace tiempo su dajemma para que a su vuelta los suyos le reconociesen como un guerrero apto y valeroso... Pero no me está resultando fácil, muchas veces he recibido buenos porrazos... aunque lo pero fue perder a mi buena amiga Dynaheir, la bruja con la que partí de Rashemen y a la que juré proteger...~
+-== BUldar ~Mi pésame por tu perdida... pero no has de venirte abajo, todo lo contrario, has de sobreponerte  y reemprender tu misión con más entusiasmo y entrega que antes, solo así honrarás a tu amiga y a tu gente.~
+-== BMINSC ~...Hablas sabiamente compañero...me recuerdas a mi maestro y a sus enseñanzas, cuando me adiestraban de joven~
+-== BUldar ~No es extraño eso que dices pues esa sabiduría no es mía, es lo que me decían a mi los Ancianos cuando fracasaba en alguna de las tareas.~
+-== BMINSC ~ Veo que hay mucho en común entre nuestros pueblos. ¡Me alegra poder luchar a tu lado Uldar!...¡Ooh sí, y Bubú también se alegra un montón! ¿Verdad Bubú?~
++@132 DO ~SetGlobal("BUldarMinsc","LOCALS",1)~
++== BUldar @133
++== BMINSC @134
++== BUldar @135
++== BMINSC @136
++== BUldar @137
++== BMINSC @138
+ EXIT
+ 
+ 
+ 
+ CHAIN
+ IF ~InParty("Viconia") InParty("Uldar") See("Viconia") !StateCheck("Viconia",STATE_SLEEPING) Global("BUldarViconia","LOCALS",0)~ THEN BUldar TCHAIN102
+-~Tus artes son sorprendentes Viconia...viendote en acción he comprendido que mis Ancianos no exageraban cuando nos relataban alguna historia que tuviera que ver con vosotros.~ DO ~SetGlobal("BUldarViconia","LOCALS",1)~
+-==BVICONI ~Haces bien en sorprenderte, aunque harías mejor en temernos guerrero. No en vano somos los amos y señores de la Infraoscuridad.~
+-==BUldar ~¿Temeros? ¡Un Hatuk no tiene miedo a nada!~
+-==BVICONI ~¡No seas tan ligero en esa aseveración!. La senda que marca Shar es muy oscura pero a veces deja ver en los sueños más allá de lo que hace nuestra vista... Es muy probable que algún día tengas que luchar contra los de mi raza...entonces veremos cuan valiente eres.~ 
++@139 DO ~SetGlobal("BUldarViconia","LOCALS",1)~
++==BVICONI @140
++==BUldar @141
++==BVICONI @142 
+ EXIT
+ 
+ 

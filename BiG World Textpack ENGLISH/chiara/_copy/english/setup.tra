@@ -1,0 +1,104 @@
+@1  = ~Chiara~ 
+@2  = ~Chiara Marna Rhie-Tara de Velastan~
+@3  = ~Whoops :D~ 
+@4  = ~Chiara - A character from the Rosenranken Forum~
+@5  = ~Potion of beast blood~ 
+@6  = ~This bottle contains blood, probably from cattle or other beasts. In any case, there is no sentient blood. It serves to satisfy vampires' thirst, without the needing to feed on people. However, it doesn't taste as good!~
+@7  = ~Opaque mask~
+@8  = ~This mask was made for light-sensitive beings and allows them to mitigate the effects of sunlight. It can not only protect the face but also other parts of the body through it's magic.~ 
+@9  = ~Opaque gloves~
+@10 = ~These gloves were made for light-sensitive beings and allows them to mitigate the effects of sunlight. It can not only protect the hands but also other parts of the body through it's magic.~ 
+@11 = ~Polymorph spell~
+@12 = ~Vampiric Wolf form~
+@13 = ~Chiara in her Vampiric Wolf form~ 
+@14 = ~Jacob~
+@15 = ~Jacob Dorjion~ 
+@16 = ~Producing Vampire arrows~
+@17 = ~Vampire arrows~
+@18 = ~Vampire arrows
+
+These arrows were produced by Chiara. The ability to produce custom weapons of this nature, lent itself to Chiara during her early tribulations as a vampire.
+She has learned to imbue magic into weapons from her mother, who had a some minor magical talent.
+
+STATISTICS
+
+Special abilities: hit causes an opponent to undergo +2 damage for two rounds due to bleeding.
+
+Damage: 1d3 (Ranged and stab weapon)
+Weight: 0
+Speed Factor: 2
+Proficiency Type: Dart
+Type: 1-handed
+Can only by used by: Chiara~
+@19 = ~Chiara's blood bag~ 
+@20 = ~This bag was designed by Jacob for Chiara, to serve as a repository for her blood supply. It offers room for 10 bottles of blood potions~
+@21 = ~Relaed~ 
+@22 = ~Chiara's sword~ 
+@23 = ~This is Chiara's longsword.
+
+STATISTICS
+
+Special abilities: Each hit with the sword inflicts 2 HP damage on target, and heals the wielder 2 HP.
+THAC0: -1
+Damage: 1d8+1 (blade weapon)
+Weight: 3 
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: 1-handed~
+@24 = ~This is Chiara's long sword.
+
+STATISTICS
+
+Special abilities: Each hit with the sword inflicts 2 HP damage on target, and heals the wielder 2 HP.
+THAC0: -2
+Damage: 1d8+2 (blade weapon)
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: 1-handed~ 
+@25 = ~This is Chiara's long sword.
+
+STATISTICS
+
+Special abilities: Each hit with the sword inflicts 2 HP damage on target, and heals the wielder 2 HP.
+THAC0: -3
+Damage: 1d8+3 (blade weapon)
+Weight: 3
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: 1-handed~
+@26 = ~Vampire Ring?~
+@27 = ~Let's see, what fruit this quest will bear. I have assembled the components.~
+@30 = ~I go!~ [chiaray]
+@31 = ~You bleed, yes?~ [chiaraz]
+@32 = ~~
+@33 = ~~
+@34 = ~~
+@35 = ~You want me to lead? You do know I'm undead, right?~ [chiarab]
+@36 = ~Even I need a break, dead as I am.~ [chiarac]
+@37 = ~I have eternal youth, YOU grow old. Move before you die here!~ [chiarad]
+@38 = ~Join me in darkness!~ [chiara8]
+@39 = ~Argh! You will pay for that!~ [chiaral]
+@40 = ~Argh! So... it... ends.... *groan*~ [chiaram]
+@41 = ~Argh! I'm hurt!~ [chiaral]
+@42 = ~Virgin beauty, and yet so full of danger.~ [chiaran]
+@43 = ~So much blood in one place.... this scent... so tempting... No, we must move on!~ [chiarao]
+@44 = ~Alas! I smell sweet sweet blood within these walls!~ [chiarap]
+@45 = ~~
+@46 = ~~
+@47 = ~Finally, my senses awaken!~ [chiarar]
+@48 = ~Do you need something?~ [chiaras]
+@49 = ~Speak and I will try to assist.~ [chiarat]
+@50 = ~Yes? What do you need from me?~ [chiarau]
+@51 = ~Of course!~ [chiarav]
+@52 = ~I'm in!~ [chiarax]
+@53 = ~I go!~ [chiaray]
+@54 = ~Speak! I'm still standing here!~ [chiara_]
+@55 = ~Damn it! Missed! As usual.~ [chiara1]
+@56 = ~Predictable! This blood bag resists my weapon!~ [chiara2]
+@57 = ~I don't think I can take any more.~ [chiara3]
+@58 = ~Vampire fear~
+@59 = ~Blood healing~
+@60 = ~Vampiric power~
+@61 = ~Strength of soul~
+@62 = ~Blah~

@@ -1,0 +1,39 @@
+@0 = ~Installation du Kit : Rôdeur de l'ombre~
+@1 = ~Rôdeur de l'ombre~
+@2 = ~RÔDEUR DE L'OMBRE :
+
+Les rôdeurs de l'ombre forment une secte secrète affiliée aux Druides de l'ombre. Ils prônent le pouvoir de la nuit et des ombres qui la peuplent, et n'hésitent pas à recourir à des ruses machiavéliques pour parvenir à leur fin. Ils vénèrent en général la sombre déesse Shar et murmurent son nom lorsqu'ils tranchent la gorge de leurs adversaires dans la pénombre. Les Rôdeurs de l'ombre sont de dangereux combattants capables de faire appel aux ombres pour les épauler...
+
+Avantages :
+
+- Aux niveaux, 1, 6, 12, 18, 24, 30 et 36, le Rôdeur de l'ombre gagne la capacité Détection des illusions
+- Aux niveaux, 15, 21 et 28 le Rôdeur peut faire appel à 3 ombres
+- Aux niveaux, 10, 16 et 22, 28 et 34 le Rôdeur de l'ombre gagne la capacité Convocation de loup de l'ombre
+- Aux niveaux, 2, 6, 10, 14, 18, 22, 26, 30, 35 et 39 le Rôdeur de l'ombre obtient un bonus de +5 pour le déplacement silencieux et le camouflage dans l'ombre
+
+Désavantages :
+
+- Le Rôdeur de l'ombre ne peut utiliser que les épées courtes, les dagues, les arcs courts, les arbalètes légères, les bâtons, les fléchettes et les frondes.
+- Le Rôdeur de l'ombre ne peut pas porter d'armures métalliques.~
+@3 = ~Détection des illusions~
+@4 = ~Convocation d'ombres~
+@5 = ~Convocation de loup de l'ombre~
+@6 = ~+5 pour se cacher dans l'ombre et au déplacement silencieux~
+@7 = ~Convocation de l'ombre démoniaque~
+@8 = ~Convocation de l'ombre démoniaque
+
+L'ombre démoniaque est la créature la plus perverse et la plus vicieuse qui peuple les ombres de Féérune... Elle n'apparaît que la nuit et détruit ses proies en absorbant leurs forces vitales...~
+@9 = ~Fusion avec les ombres~
+@10 = ~Fusion avec les ombres
+
+La fusion avec les ombres permet au Rôdeur de se rendre immédiatement invisible, comme par un sort d'Invisibilité Majeure, et le rend indétectable par des sorts de Divination tels que Vision Véritable. Seuls les Rôdeurs de l'ombre de haut niveau peuvent user de cette technique machiavélique...~
+@11 = ~Convocation de Déva déchu~
+@12 = ~Convocation de Déva déchu
+Niveau : Quête
+Portée : 40 m
+Durée : 4 rounds + 1 round / niveau
+Temps d'incantation : 5
+Zone d'effet : spéciale
+Jet de sauvegarde : non
+
+Ce sort ouvre un portail céleste par lequel passe une déva qui vient combattre aux côtés du lanceur pour la durée du sort ou jusqu'à sa mort.~

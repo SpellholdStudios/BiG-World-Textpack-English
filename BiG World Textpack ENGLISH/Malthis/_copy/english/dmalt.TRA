@@ -1,0 +1,94 @@
+@0   = ~If we are to die soon, I may as well tell you my story. I come from a small village near Eshpurta. My stepfather trained me in weapons. We were not very popular in our village... many residents treated my family with scorn. It all seemed so pointless, but they did not stop. They sensed that we were... different, I guess. My stepfather didn't exactly fit the image of a farmer.~ 
+@1   = ~Then one day a group of knights came to the village. The villagers rejoiced at the arrival of these people, telling them of the allegedly profane rites that my family was performing. The irony is almost amusing, for the knights proceeded to decimate the entire population!~
+@2   = ~I was not in the village at that time. I was out tracking trolls alone. When I came back, the entire village had been slaughtered. My son had hidden under the floorboards in our house. My stepfather and wife lay dead... I found my friend Rondar close to my house... he was alive long enough to tell me who was responsible. A pointless massacre of a whole village. I had missed it by an hour at the most... I tracked the knights, ambushed them while they were setting up camp. They were led by a man named Kern, and I killed them all. That is what I thought at least, but I was wrong. I have spoken enough. I am sorry, <CHARNAME>! Let us move on!~ 
+@3   = ~Why did this thief has attack me only?! Dead for his trouble... futile... Sigh... my name is Malthis and I've heard of you, <CHARNAME>. I probably won't be much help, but if you'll have me, I would join you.I can deal with locks and traps and have some experience with close combat.~ [MALTH03]
+@4   = ~Yes, I can make good use of you.~ 
+@5   = ~No, I'm sorry. I don't need someone like you right now.~
+@6   = ~Very well, I am happy to join you, doomed to fail as we are...~
+@7   = ~I understand, chances for success are slim. I wish you a good journey, maybe we'll meet again? I will stay here for a little while before I move on.~ 
+@8   = ~Greetings, <CHARNAME>. Have you come to collect me?~
+@9   = ~I understand, chances for success are slim. I wish you good luck, I'm going to leave Athkatla. Goodbye!~ 
+@10  = ~No, NO! I cannot hold back the thirst... I hunger, <CHARNAME>! My body craves blood! * Malthis digs his teeth into the knight's neck. drinking deep of his blood... *~
+@11  = ~Wha... What happened?! I feel so... different! I think I am losing my mind! Such thirst... I felt as if I would be devoured by it!~
+@12  = ~You drank... blood... of a dead man no less! What are you, Malthis? A vampire? A devil?!~ 
+@13  = ~You are a creature of evil! I will kill you, Malthis!~
+@14  = ~I... really liked  that, Malthis! What other talents are you hiding?~ 
+@15  = ~I... I do not know, <CHARNAME>! I have always known I was... different... I mean my wounds heal faster and I have always been... healthy. It was like this since I was born.
+This body seems to have awakened something inside me! I wasn't completely conscious of what I was doing when I threw myself at it. Am I a vampire? No... no I'm not undead... and I can walk in the sun. I... I have to think about this... I would be happy to continue with you... assuming you'll still have me?~
+@16  = ~Maybe we can help you find out more about your... nature. You can continue to travel with us, Malthis.~
+@17  = ~No! You are vile! I will kill you, Malthis!~
+@18  = ~I'm not! I... I don't know what I am, but believe me I do not mean anyone any harm! You are witness to this!~ 
+@19  = ~Then explain to me what you are, Malthis?! Why should I believe you?!~
+@20  = ~I have to put an end to you before you become a threat!~ 
+@21  = ~Thank you, <CHARNAME>! Impossible though it may be, I have to find out who is behind all this. I have contact in the Bridge District, he said he had some information for me. He expects me at the Delosar's Inn. We should pay a visit.~ 
+@22  = ~Malthis' skills
+
+I have added Malthis, a thief, to my party. An obligate pessimist, he seems to be drawing trouble from unknown quarters. I have allowed him to travel with me, for now. He is an unusual fellow, with equally unusual skills! He is a constant drain on morale though, perhaps something has affected him mentally... Malthis spoke of a contact in Delosar's Inn in the Bridge District, we will help him meet this contact.~
+@23  = ~Like you say. Our quest is pointless, so are your words in this case.~ 
+@24  = ~I'm sorry, Malthis! Come, let us move on, my friend!~
+@25  = ~Very well!~
+@26  = ~I... I feel stronger... Yes, this power is... wonderful!~
+@27  = ~Malthis, come back to us! Fight it! Do not lose control!~
+@28  = ~What are you, Malthis?! I must kill you before something worse happens!~
+@29  = ~Yes, Malthis! Unleash what lies within! Follow the path to power!~
+@30  = ~Thank you, <CHARNAME>! Thank you... I almost lost myself in this vortex of evil... I would've be damned. We... we must find out who is behind all this... it all seems so hopeless... but we must press on!~ [MALTH36]
+@31  = ~By the gods, Malthis! You need to cheer up! We will find out soon enough who is behind all this!~
+@32  = ~Thank you, <CHARNAME>! Despite impending doom , you tried to give me a glimmer of hope.~
+@33  = ~Malthis gains additional skills
+
+Today we were attacked again. We dealt with it, but Malthis could not restrain himself! Whatever he has inside him almost overwhelmed him. As an upside, he has acquired new skills. His wounds heal almost immediately, he can dodge incoming attacks better, and he moves faster. Unfortunately, we still have no clue as to who attacked us or why...~
+@34  = ~Yes, <CHARNAME>! Yes! You are right! I will unleash my power! Nothing will stand in our way! Hahahaha! I will... I... wha... what's this?! I feel... I... I am... changing!~
+@35  = ~Malthis is becoming more like a vampire.
+
+Today we were attacked again. We dealt with it, but Malthis could not restrain himself! I encouraged him to give in to his true nature! He seems different... quick to anger... sour... irritable... not to  mention a little chaotic, for lack of a better word... He heels faster, and dodges better. Furthermore, he seems to be immune to fatigue... or at least more resilient to it. Unfortunately, we still have no clue as to who attacked us or why...~
+@36  = ~No, NO! I cannot hold back this thirst! I crave, <CHARNAME>! I crave blood! I have held back long enough... *Malthis digs his teeth into the body's neck. drinking deep of his blood...*~
+@37  = ~It is finished. A pointless fight. Many have died in the  quest for power. Was it worth it, <CHARNAME>?~
+@38  = ~Nobody can answer this question, Malthis. If you wish, you can stay on with me in my party. And we can finally put these events behind us.~
+@39  = ~You drive me crazy with your constant whining! Damn it, be happy that we've won! Keep your blithering to yourself!~
+@40  = ~You are right, <CHARNAME>! You have given me a glimmer of hope. Nevertheless, our destiny is set, we can do nothing other than be steered by it.~
+@41  = ~Malthis' transformation is complete.
+
+Today we came across a small group of vampires in Athkatla. It was a tough fight, but we prevailed. Malthis continued his transformation and has become a something akin to the creatures we killed. He has served me for a long time and I am glad to have him in the party. The vampires we fought threatened us with dire future consequences. This was surely just the beginning.
+
+Malthis' existing skills.
+- Damage bonus +4
+- Bonus AC -4
+- Immunity vs. life deduction
+- Movement Bonus +2
+- Reg: every 2 seconds 2 HP
+~
+@42  = ~Malthis' transformation into a vampire is complete.
+
+Today we came across a small group of vampires in Athkatla. It was a tough fight, but we prevailed. Malthis continued his transformation and has become a something akin to the creatures we killed. He has served me for a long time and I am glad to have him in the party. The vampires we fought threatened us with dire future consequences. This was surely just the beginning.
+
+Malthis' existing skills (human form)
+- Damage bonus +3
+- Bonus AC -4
+- Immunity vs. life reduction
+- Magic damage reduced: 10%
+- Movement Bonus +2
+- Damage Reduction: 10%
+- Reg: every 4 seconds 2 HP
+- Elemental Protection
+
+Malthis' existing skills (wolf form)
+- Damage bonus +1
+- Basic AC -4
+- Immunity vs. life reduction
+- Magic damage reduced: 10%
+- Movement speed bonus
+- Elemental Protection
+- No damage reduction
+- Detect invisibility
+- Weapon: teeth (hit as weapon +1)
+~
+@43  = ~I can not approve of these actions! We must part ways!~
+@44  = ~No, Please come back. I'm sorry!~
+@45  = ~Thank you, Malthis. Goodbye!~
+@46  = ~This party is especially hopeless today! I will stay for some time in Athkatla. I will go to the Graveyard District,  to gather my thoughts in peace.~
+@47  = ~We will meet you in the Graveyard District if we need your services again. Thank you, Malthis.~
+@48  = ~Wait right here, Malthis. When we need you again, we will return.~
+@49  = ~We had a good run. I wish you good luck on your journey. I'm going to Amn. Goodbye, <CHARNAME>!~
+@50  = ~No, Please come back. I'm sorry!~
+@51  = ~If this is what you want, pathetic <PRO_MANWOMAN>! I wish you much luck in your travels! Good riddance!~
+@101 = ~I'm wounded! Fire and even acid attacks reduces my healing rate!~

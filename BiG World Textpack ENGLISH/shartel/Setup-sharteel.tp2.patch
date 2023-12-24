@@ -1,0 +1,153 @@
+--- Setup-sharteel.tp2	Tue Oct 21 16:32:50 2003
++++ C:\BWP Patchstudio\patched files\Setup-sharteel.tp2	Mon Dec 03 12:17:25 2012
+@@ -1,6 +1,19 @@
+ BACKUP ~shartel/shartel-backup~
+ AUTHOR ~Nicolas Peters - darthsabe@web.de~
+-BEGIN ~Shar-Teel Mod für Baldur's Gate II~
++
++AUTO_TRA ~shartel/tra/%s~
++
++
++LANGUAGE ~German~
++         ~german~
++         ~shartel/tra/german/Setup-sharteel.tra~
++
++LANGUAGE ~English~
++         ~english~
++         ~shartel/tra/english/Setup-sharteel.tra~
++
++
++BEGIN @0
+ 
+ // Shar-Teels neue Portraits kopieren
+ COPY ~shartel/sharL.bmp~ ~override/sharL.bmp~
+@@ -34,32 +47,32 @@
+ 
+ // CRE kopieren, Namensgebung, Setzen der Biographie, Eintrag der Sounds
+ COPY ~shartel/shartel.cre~ ~override/shartel.cre~
+-SAY NAME1 ~Shar-Teel~
+-SAY NAME2 ~Shar-Teel~
+-SAY BIO ~Als Ihr SHAR-TEEL nach ihrer Vergangenheit fragt, sagt sie nicht viel. Von dem wenigen, das sie erzählt, könnt Ihr schließen, dass sie eine Waise ist. Sie scheint auch eine ausgeprägte Abneigung gegenüber Söldnern der Flammenden Faust zu hegen, ebenso eine offensichtliche Respektlosigkeit gegenüber Männern im allgemeinen. Sie scheint sich etwas beweisen zu müssen und wahrscheinlich hatte sie nicht unbedingt eine Bilderbuch-Kindheit.~
+-SAY INITIAL_MEETING ~Ich scheiß auf Eure Männlichkeit!~ [shar1]
+-SAY HAPPY ~Feinde niedermetzeln...bringt Freude ins Leben.~ [shart]
+-SAY UNHAPPY_ANNOYED ~Das Schwert ist das Einzige, worauf sich eine Frau verlassen kann.~ [sharu]
+-SAY LEADER ~Ich werde diese Gruppe besser anführen, als es ein Mann jemals könnte.~ [sharb]
+-SAY TIRED ~Kleine Pause geht in Ordnung...~ [sharc]
+-SAY BORED ~Reine Zeitverschwendung, besser gesagt 'Männer' sind reine Zeitverschwendung.~ [shard]
+-SAY BATTLE_CRY1 ~Wenn es blutet kann ich es auch töten.~ [shara]
+-SAY BATTLE_CRY2 ~das Schwein hat es heraufbeschwört.~ [shar9]
+-SAY BATTLE_CRY3 ~Lasst Euch von keinem Mann einschüchtern.~ [shar8]
++SAY NAME1 @1
++SAY NAME2 @1
++SAY BIO @2
++SAY INITIAL_MEETING @3 
++SAY HAPPY @4 
++SAY UNHAPPY_ANNOYED @5 
++SAY LEADER @6 
++SAY TIRED @7 
++SAY BORED @8 
++SAY BATTLE_CRY1 @9 
++SAY BATTLE_CRY2 @10 
++SAY BATTLE_CRY3 @11 
+ SAY DAMAGE ~~ [sharl]
+ SAY DYING ~~ [sharm]
+-SAY SELECT_COMMON1 ~Vorsicht ist heldenhafter als Mut.~ [sharf]
+-SAY SELECT_COMMON2 ~Männer sind so armselig.~ [sharg]
+-SAY SELECT_COMMON3 ~Hm...ich liebe Blutvergießen.~ [sharh]
+-SAY SELECT_COMMON4 ~Männer denken niemals mit ihrem Gehirn.~ [sharx]
+-SAY SELECT_COMMON5 ~Nutzloser stinkender männlicher Dreckhaufen.~ [shary]
+-SAY SELECT_ACTION1 ~Ok.~ [shari]
+-SAY SELECT_ACTION2 ~Wirklich?~ [sharj]
+-SAY SELECT_ACTION3 ~Ich tue es.~ [shark]
+-SAY SELECT_ACTION4 ~Manchmal bringt mich schon der Geruch eines Mannes zum Würgen.~ [shars]
+-SAY SELECT_ACTION5 ~Feinde niedermetzeln bringt Freude ins Leben.~ [shart]
+-SAY SELECT_ACTION6 ~Das Schwert ist das Einzige, worauf sich eine Frau verlassen kann.~ [sharu] 
+-SAY SELECT_ACTION7 ~Mit Schmeicheleien kommt Ihr bei mir nicht weiter.~ [sharv]
++SAY SELECT_COMMON1 @14 
++SAY SELECT_COMMON2 @15 
++SAY SELECT_COMMON3 @16 
++SAY SELECT_COMMON4 @17 
++SAY SELECT_COMMON5 @18 
++SAY SELECT_ACTION1 @19 
++SAY SELECT_ACTION2 @20 
++SAY SELECT_ACTION3 @21 
++SAY SELECT_ACTION4 @22 
++SAY SELECT_ACTION5 @23 
++SAY SELECT_ACTION6 @5  
++SAY SELECT_ACTION7 @24 
+ 
+ // Gebietscripte ergänzen
+ EXTEND_BOTTOM ~AR0602.bcs~ ~shartel/Arshar.bcs~
+@@ -67,9 +80,9 @@
+ 
+ // Dialoge kompilieren
+ COMPILE ~shartel/charJ.d~
+-USING ~~
++USING ~shartel/tra/%LANGUAGE%/charJ.tra~
+ COMPILE ~shartel/charP.d~
+-USING ~~
++USING ~shartel/tra/%LANGUAGE%/charP.tra~
+ 
+ // Dialoge in 2da's hinzufügen
+ APPEND ~pdialog.2da~
+@@ -84,33 +97,33 @@
+ AT_INTERACTIVE_EXIT ~VIEW shartel\Liesmich.txt~
+ 
+ 
+-BEGIN ~Shar-Teels neue Portraits mit den alten (BG1) ersetzen?~
++BEGIN @25
+ 
+ // Shar-Teels CRE-Datei überschreiben und neue Definitionen geben
+ COPY ~shartel/shartel2.cre~ ~override/shartel.cre~
+-SAY NAME1 ~Shar-Teel~
+-SAY NAME2 ~Shar-Teel~
+-SAY BIO ~Als Ihr SHAR-TEEL nach ihrer Vergangenheit fragt, sagt sie nicht viel. Von dem wenigen, das sie erzählt, könnt Ihr schließen, dass sie eine Waise ist. Sie scheint auch eine ausgeprägte Abneigung gegenüber Söldnern der Flammenden Faust zu hegen, ebenso eine offensichtliche Respektlosigkeit gegenüber Männern im allgemeinen. Sie scheint sich etwas beweisen zu müssen und wahrscheinlich hatte sie nicht unbedingt eine Bilderbuch-Kindheit.~
+-SAY INITIAL_MEETING ~Ich scheiß auf Eure Männlichkeit!~ [shar1]
+-SAY HAPPY ~Feinde niedermetzeln...bringt Freude ins Leben.~ [shart]
+-SAY UNHAPPY_ANNOYED ~Das Schwert ist das Einzige, worauf sich eine Frau verlassen kann.~ [sharu]
+-SAY LEADER ~Ich werde diese Gruppe besser anführen, als es ein Mann jemals könnte.~ [sharb]
+-SAY TIRED ~Kleine Pause geht in Ordnung...~ [sharc]
+-SAY BORED ~Reine Zeitverschwendung, besser gesagt 'Männer' sind reine Zeitverschwendung.~ [shard]
+-SAY BATTLE_CRY1 ~Wenn es blutet kann ich es auch töten.~ [shara]
+-SAY BATTLE_CRY2 ~das Schwein hat es heraufbeschwört.~ [shar9]
+-SAY BATTLE_CRY3 ~Lasst Euch von keinem Mann einschüchtern.~ [shar8]
++SAY NAME1 @1
++SAY NAME2 @1
++SAY BIO @2
++SAY INITIAL_MEETING @3 
++SAY HAPPY @4 
++SAY UNHAPPY_ANNOYED @5 
++SAY LEADER @6 
++SAY TIRED @7 
++SAY BORED @8 
++SAY BATTLE_CRY1 @9 
++SAY BATTLE_CRY2 @10 
++SAY BATTLE_CRY3 @11 
+ SAY DAMAGE ~~ [sharl]
+ SAY DYING ~~ [sharm]
+-SAY SELECT_COMMON1 ~Vorsicht ist heldenhafter als Mut.~ [sharf]
+-SAY SELECT_COMMON2 ~Männer sind so armselig.~ [sharg]
+-SAY SELECT_COMMON3 ~Hm...ich liebe Blutvergießen.~ [sharh]
+-SAY SELECT_COMMON4 ~Männer denken niemals mit ihrem Gehirn.~ [sharx]
+-SAY SELECT_COMMON5 ~Nutzloser stinkender männlicher Dreckhaufen.~ [shary]
+-SAY SELECT_ACTION1 ~Ok.~ [shari]
+-SAY SELECT_ACTION2 ~Wirklich?~ [sharj]
+-SAY SELECT_ACTION3 ~Ich tue es.~ [shark]
+-SAY SELECT_ACTION4 ~Manchmal bringt mich schon der Geruch eines Mannes zum Würgen.~ [shars]
+-SAY SELECT_ACTION5 ~Feinde niedermetzeln bringt Freude ins Leben.~ [shart]
+-SAY SELECT_ACTION6 ~Das Schwert ist das Einzige, worauf sich eine Frau verlassen kann.~ [sharu] 
+-SAY SELECT_ACTION7 ~Mit Schmeicheleien kommt Ihr bei mir nicht weiter.~ [sharv]
+\ No newline at end of file
++SAY SELECT_COMMON1 @14 
++SAY SELECT_COMMON2 @15 
++SAY SELECT_COMMON3 @16 
++SAY SELECT_COMMON4 @17 
++SAY SELECT_COMMON5 @18 
++SAY SELECT_ACTION1 @19 
++SAY SELECT_ACTION2 @20 
++SAY SELECT_ACTION3 @21 
++SAY SELECT_ACTION4 @22 
++SAY SELECT_ACTION5 @23 
++SAY SELECT_ACTION6 @5  
++SAY SELECT_ACTION7 @24 
+\ No newline at end of file

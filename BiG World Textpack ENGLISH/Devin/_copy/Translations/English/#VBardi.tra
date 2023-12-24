@@ -1,0 +1,269 @@
+@50003  = ~#VBardi~ 
+
+@10     = ~(You observe Bardick, asking yourselves what to do. Why this strange old man asked you to take this appointment at night? What is your role in all this?)~
+@11     = ~Well, here's a good thing done.~ [Bardi@11] 
+@2      = ~(In spite of, you are taken by an irresistible urge to sneeze. You try  to do your best to refrain but your nose tickles you atrociously...)~
+@3      = ~(Bardick continues to smoke his pipe, his eyes are lost to a distance.)~ 
+@4      = ~(Your nose, stings you more and more. It would really be too stupid to ...)~
+@5      = ~Achoo! ATCHAAA!!!~
+@6      = ~(Bardick reacts straight off, turning to all directions to find you) So it's like that, I'm being spied on. Very well, you don't know who you're dealing with, miserable.~ [Bardi@6] 
+
+
+// VISION VERITABLE
+
+@70     = ~(You were far from suspecting that he had a spell as powerful. In all cases, the result is here: you have been exposed.)~
+@71     = ~Here's our man. Who are you? Answer me!~ [Bardi@71] 
+@709    = ~Oh... A damsel, how charming. Who are you? Come on, introduce yourself!~ [Ba@709]
+@711    = ~An old man told me to come here. I didn't do anything other than obeying him.~
+@712    = ~It's my business. I was just passing, anyway. Good evening!~ 
+@713    = ~I am Dolfigo! And I come from my province to bring Joy and Happiness to unfortunate little children!~
+
+@7111   = ~An old man? And do you listen to the elderly, young pig?~ [Ba@7111] 
+@7110   = ~An old man? And the damsel you are, does listen to the elderly?~ [Ba@7110]
+@7112   = ~You won't insult me for a long time, smoker of bulrush! I know how to make you pay back.~
+@7113   = ~Phew! You can do nothing! I'll always be ahead of types like you.~ [Ba@7113]
+@7154   = ~Phew! You can do nothing! I'll always be ahead of creatures as meaningless as you.~ [Ba@7154] 
+
+@7121   = ~And you hope to get away that easily? Fool! Who do you take me for!?~ [Ba@7121]
+
+@7131   = ~Ah, a little joker... You will always make me die laughing! We'll see, if you still joke around after that.~ [Ba@7131] 
+
+@7130   = ~Ah, that's... laughable! You will always make me die laughing! We'll see, if you still joke around after that.~ [Ba@7130] 
+
+
+// Combat Bardick
+
+@8      = ~You defend yourself well, for a pig. You must excuse me, but I have to go. Maybe we'll meet again some other time.~ [Bardi@8]
+@9      = ~You defend yourself well, for a damsel. You must excuse me, but I have to go. Maybe we'll meet again some other time.~ [Bardi@9] 
+
+// Déplacement
+
+@15     = ~(Annoyed by all these going back and forth, you scream one last provocation to Bardick, before he gets loose)~
+@149    = ~(Annoyed by all these going back and forth, you scream one last provocation to Bardick, before he gets loose)~
+@151    = ~Come back here. Aren't you going to tell me I scare you?~
+@152    = ~That you are now afraid? Be careful! It can be dangerous to turn your back on me.~
+@153    = ~Why do you think you can escape? I won't let you do anything, now that you provoked me.~ ~Why do you think you can escape? I won't let you do anything, now that you provoked me.~
+@13     = ~Phew! Fool! Do you think I don't plan my escape!?~ [Bardi@13]
+
+
+// INTRO PREMIER QUETE
+
+
+@17     = ~Ah, you're back! Then? How was your little escape?~ [Bardi@17]
+
+@171    = ~I don't know very well, I'm undecided. What's the point of this stage play, Bardick?~ ~I don't know very well, I'm undecided. What's the point of this stage play, Bardick?~
+@1711   = ~What stage play? Isn't it you who we spied well away from your pseudo Invisibility spell?~ [Ba@1711]
+@1712   = ~Do you mean to imply you would have nothing to do with this man who appeared when I was in my cell?~
+@1713   = ~I'm not implying anything. I only put words together, words that form sentences, sentences that you keep yourself not to understand...~ [Ba@1713]
+
+@1714   = ~And if I shut your trap as I did earlier?~
+@1715   = ~What are you playing to? What are you getting at?~
+
+@17141  = ~You won't do it, you're too curious for that. And besides, our assistance could be crucial in your undertaking.~ [Ba@17141]
+@17140  = ~You won't do it, you're too curious for that. And besides, our assistance could be crucial in your undertaking.~ [Ba@17140]
+@17142  = ~I assure you nothing. If it wasn't you might need us in the near future and it might be appropriate for you to get thinking, to develop your logical sense. I think it would be best for you.~ [Ba@17142]
+@1717   = ~(Frowning) I'd been already offered help. Why should I accept your offer rather than another?~
+@1718   = ~You can accept all the offers you want. Except those from the one whose shadow lurks in these places, we are somewhat in conflict with her.~ [Ba@1718]
+@1719   = ~What are you talking about? Are you at war against who?~
+@1720   = ~You will see by yourself, when she gets in touch with you. If she hasn't already...~ [Ba@1720]
+@1721   = ~For the rest, you're free to leave. But if you came to find me here, it's for the fact that you agreed to work with us.~ [Ba@1721]
+@1722   = ~I didn't accept anything at all, I have been imposed. I had no opportunity to oppose.~
+@1723   = ~But you're here, isn't it? So what are you going to do, young lion?~ [Ba@1723]
+@17229  = ~But you're here, isn't it? So what are you going to do, young lioness?~ [Ba@17229]
+
+@1724   = ~Slitting your throat from ear to ear seems to be a nice idea to me. Don't you think ?~
+@1725   = ~I would first get an idea of what you can offer me.~
+@1726   = ~So you need my help... Why? What does require my intervention?~
+
+
+// DISCUSSION
+
+@17261  = ~It seems to me you have proved yourself so far; your passing through Baldur's 
+Gate has not gone unnoticed, you know. What we do offer you, is not to play lackey under our thumb but a full and complete collaboration.~ [Ba@17261]
+@17251  = ~What can we offer you? Success, of source! Where others see only interest and small games, we will grant you a full collaboration.~ [Ba@17251]
+@17241  = ~I recommend against doing it, I'm too important. And you, you already know too much about us to let you leave unharmed.~ [Ba@17241]
+
+@1728   = ~Either I'm with you, or I'm dead. Is this what you want to imply?~
+@1729   = ~You can see it like that. Or you can say that, if you're not with us, you won't be well prepared to survive. If we want to help you, it won’t be in exchange of a vague reward or even to defend our interests. Because, indeed, we want to link our interests to yours, we want to ensure that you succeed, because, lastly, "your" success will involve "our" success.~ [Ba@1729]
+
+@1730   = ~How charitable of you! And what guarantees do I have?~
+@1731   = ~Why would you do that? By altruism?~
+
+@1732   = ~We have our own reasons for doing so, you will learn to trust us. Even if I grant you, we have a moral sense that is somewhat special, it is important to us to follow certain codes. Confidence is part of these codes.~ [Ba@1732]
+
+
+@1733   = ~I refuse. This game is not fun anymore.~
+@1734   = ~Then I grant you my confidence. Hoping not to regret it.~
+
+@1735   = ~Well, if we're going to talk about your first important task within the brotherhood?~ [Ba@1735]
+@173321 = ~In such a case I accept your proposal. I guess I have no choice.~
+
+
+// PARTIE COUTEAU SOUS LA GORGE
+
+@17331  = ~Be very careful about what you can say. Unfortunately, such a choice would be irrevocable.~ [Ba@17331]
+@17332  = ~Your pathetic attempts to intimidate me don't work on me. Farewell!~
+@17333  = ~Hmmm... Very bad reaction. I'll have to take action...~ [Ba@17333]
+@17334  = ~To me! Chosen of the depths!~
+@17335  = ~(As soon as the creature appears you feel your limbs go numb. Soon you can no longer move while the creature approaches you. She brushes against your forehead then presses her hands against your temples, suddenly a vision of horror begins to form in front of your eyes.)~
+@17336  = ~(Faceless creatures captured you, and you have been tied to a slab. Your skin is torn from side to side and your face is unrecognizable. Focusing now on your abdomen, the creatures begin to plow your guts with their sharp teeth.) ~
+@17337  = ~(Then the vision fades as your screams of agony still echo in your head.)~
+@17338  = ~Then? Did you change your mind or should we insist a little longer?~ [Ba@17338]
+@17339  = ~No! It's okay, I'll do what you tell me! But mercy! Stop all of that!~
+@17340  = ~Okay, I'll do what you tell me. Stop it... Please...~
+@17341  = ~You won. I'll follow your orders.~
+@17342  = ~Glad you're back to reason.~ [Ba@17342]
+
+
+@17343  = ~Along the graves over there, you will be able to find an old mausoleum. Two old skeletons watch this place but if you wear this item, you won't have troubles. It may be that we just need you over there, thus go and offer your services. You'll see you won't regret it.~ [Ba@17343]
+
+
+// JOURNAL ENTRY
+
+
+@17344  = ~The secret brotherhood.
+
+The old man seems to have led me (voluntarily or against his will) to get in contact with a brotherhood of the most mysterious. It wants us to "collaborate" and can apparently be very persuasive... For now I have to go into a mausoleum, I am eager to know more.~
+
+@17345  = ~A nightmarish vision.
+          
+I went to see Bardick, as Jackomo told me. And when I wanted to express my refusal... By all gods, it was terrible! A horrible creature appeared and when it touched me, I felt... It was a vision worthy of my worst nightmares! Or rather no, I've never experienced such a nightmare! Not even... Ultimately, Irenicus can't be the main danger. I must be very careful of what I do in this brotherhood, this could become very dangerous. And this Bardick! I will have my revenge on him! One way or another...~
+
+
+// Si glandou come back
+
+@17346  = ~I enter the mausoleum, I have nothing else to say.~ [Ba@17346]
+
+
+
+// Gemmes étoilés
+
+
+@17347  = ~What else do you want? I told you to enter the mausoleum. Is that so complicated?~ [Ba@17347]
+
+@17348  = ~These two freaks of skeletons, they want me to bring back starry gems but I looked all over Athkatla, I had found nothing!~
+@17349  = ~I would have to bring back the starry gems to the mausoleum. Maybe a suggestion... ?~
+
+@17350  = ~Funny... It seems that you love to complain yourself in grotesque situations. Some originality in a world of mediocrity. Always better than nothing...~ [Ba@17350]
+
+@17351  = ~I don't like your insinuations Bardick. Can you help me or not?~
+@17352  = ~I need your help, not your comments. Then?~
+@17353  = ~You seem to know a lot about me... maybe try to tell me something?~
+
+
+@17354  = ~It is so. Just like chance, sometimes...~ [Ba@17354]
+@17355  = ~Direct to the north. At the entrance of the graveyard, you'll find someone who could help you. Now just go, I need to remain alone.~ [Ba@17355]
+@17356  = ~No, absolutely not. And in any case I don't believe you're smart enough to notice.~ [Ba@17356]
+@17357  = ~No, absolutely not. And in any case I don't believe you're smart enough to notice.~ [Ba@17357]
+
+@17363  = ~Now just go, I need to remain alone.~
+
+// perso
+
+@17358  = ~Yes, what do you want? I'm quite in a hurry and I don't have time to play.~
+
+@17359  = ~Pardon me, I'm looking for starry gems, could you help me?~
+
+@17360  = ~You... You want to take them away from me!? I... I'd been warned! You have come to steal from me!!~
+
+@17361  = ~Let's try to calm down. I never said that...~
+@17362  = ~Then be nice: give me everything you have, and I won't cut your pretty little head.~
+
+
+@17364  = ~~
+@17365  = ~~
+@17366  = ~~
+@17367  = ~~
+@17368  = ~~
+@17369  = ~~
+@17370  = ~~
+@17371  = ~~
+@17372  = ~~
+@17373  = ~~
+
+
+@17374  = ~GUARD! GUARD! GET RID OF THIS MAN!~
+@17375  = ~GUARD! GUARD! GET RID OF THIS WOMAN!~
+@17376  = ~What are we doing this time Brym?~
+@17377  = ~Well, I don't know, this little mosquito starts to annoy me in the end. And go to do this... And go to do that...~
+@17378  = ~What are we going to do then? Do we get lost?~
+@17379  = ~(A complicit smile appears on his face.) There's a new waitress at the Copper Coronet. They say she isn't shy, we could go and take a look, right? Anyway the old one paid us, who gives a fuck...~
+@17380  = ~No, wait! There's a contract! I ORDER YOU TO...~
+@17381  = ~Yeah, you're right, tired of being treated like a pinch. Come, let's take off.~
+@17382  = ~No, don't leave! COME BACK ! COME BAAAAAAACK!!!~
+
+@17312  = ~(The man turns to you with an embarrassed expression.) Well, let's not get mad, after all we are human beings who share the same...~
+@17383  = ~Finally I want to say: let's stay calm, we'll have to find a way to negotiate...~
+
+@17384  = ~A way, yes. I will rid you of your richness so you can start with a "light heart".~
+@17385  = ~No, I don't think so. Now that you're alone, it will be so easy to kill you...~
+@17386  = ~Have you already had your throat slit? It is said that middle-class persons have black blood... Do you believe it yourself?~
+
+@17387  = ~Ta-... Take all! AAAAAAAAAAAAHHHHHHHHHHH !!!~
+@17388  = ~N-... NO ! I... HE-... HELP! HELP ME!!~
+@17389  = ~~
+
+
+
+// Erreur fatale
+
+@18     = ~<CHARNAME>, my dear <CHARNAME>. What cruel lack of education! You don't kill people who welcome you.~ [Bardi@18]
+@179    = ~<CHARNAME>, my dear <CHARNAME>. What cruel lack of education! You don't kill people who welcome you.~ [Ba@179]
+@181    = ~It's a shame but I have to get it over with you, sometimes fate is absurd...~ [Ba@181]
+
+
+
+// Bardick à arnise
+
+
+
+@19     = ~Excellent work, <CHARNAME>! They had sent me reinforcements but, apparently, they won't be needed. The more time that passes, the more I am convinced they took the right choice adding you to us.~ [Bardi@19]
+
+@191    = ~It was almost too easy. Children could have done it.~
+@192    = ~It was pretty tough but I think they will rise no more this time.~
+@193    = ~I learned some interesting things. What was he doing here? What interesting things can the de'Arnise Keep have?~
+
+@194    = ~Children.. Yes, indeed, but not ordinary children isn't that so, <CHARNAME>?~ [Ba@194]
+@195    = ~I also think that. You're a good man, <CHARNAME>, and we will appreciate your efforts.~ [Ba@195]
+@196    = ~This is a long story. Maybe we'll tell you about it one day. Later...~ [Ba@196]
+
+@197    = ~At the end, in the meantime, there's already that, to heal your wounds. This is especially effective. And I also forgot, a present that could turn useful someday. As for resting, I think we'll be called again soon <CHARNAME>. In the meantime we recommend the utmost discretion over this subject, of course.~ [Ba@197]
+@198    = ~~
+
+
+// Bardick aux champignons (non je déconne bardick à lancevent.)
+
+@199    = ~<CHARNAME>? What are you doing here? I thought I told you to hide, not to raise suspicions.~ [Ba@199]
+
+
+
+@200    = ~Bardick, I need the journal. That which Jackomo is going to do is terrible, I'm sure you don't want to incur in such risks.~
+
+
+
+
+@201    = ~The journal? Who made you aware? What do you exactly know?~ [Bardi@201]
+
+@202    = ~I know that you've been fragile and someone took advantage of you. I know what you've suffered, and that not everything happened just as you wanted.~
+@203    = ~I was told about Silverymoon, about Jackomo, about betrayal and manipulation. I'm here to give you the choice they have never given you.~
+@204    = ~I know that the fall of Jackomo is inevitable, and I'm here to help you avoid going down with him.~
+
+@205    = ~<CHARNAME>, listen carefully to me. What you are going to do is very dangerous; you are going to destroy everything we have already built together. All that we have developed...~ [Ba@205]
+@206    = ~I don't know what game you play but you engaged on a very slippery slope. We could reach an agreement, we could revise your position. BUT IF YOU GET TO TALK TO ME LIKE A KID ANOTHER TIME, THEN I WOULD BE WILLING TO PROVE TO YOU THAT YOU DON'T TALK TO ME LIKE THAT WITH IMPUNITY!~ [Ba@206]
+@207    = ~Well, now I'm listening to you. WHO told you about all this? I want an answer.~ [Bardi@207]
+
+
+@208    = ~I won't tell you anything, Bardick. I want the journal, don't complicate things.~
+@209    = ~Are you really unable to accept a helping hand? This time listen to my advice. Give me the journal so we get over with it.~
+
+
+@210    = ~You won't give up, that's so. Well... Like Jackomo likes to say: sometimes the dead are more vocal than the living. Sorry, there is nothing personal but I have to get rid of you: you have become too dangerous.~ [Ba@210]
+@211    = ~When you'll be no more than a disjointed puppet, we talk again about it.~ [Bardi@211]
+@212    = ~Ha... HAHAHHAHAHAHHAHAAAAA !!! You'll taste the power of those who have no soul! Come, my children, come and enjoy the blood of this idiot...~ [Ba@212]
+
+
+
+@213    = ~I... I can't lose! THAT THIS POWER TAKE OVER ME AND OBLITERATE YOU!!~ [Ba@213]
+@214    = ~~
+@215    = ~~
+@216    = ~~

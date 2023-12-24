@@ -1,0 +1,20 @@
+--- rukrakia\D\RU_JAMES.D	Thu Oct 11 14:50:17 2007
++++ C:\BWP Patchstudio\patched files\rukrakia\D\RU_JAMES.D	Fri Oct 03 04:23:20 2014
+@@ -44,9 +44,7 @@
+                  EndCutSceneMode()
+                  Shout(ALERT)
+                  Wait(1)
+-                 DestroySelf()~ UNSOLVED_JOURNAL %라이젠의 무덤?
+-
+-제임스 남작이라는 자가 이미 라이젠의 무덤입구에서 노예들을 부리고 있었다. 어떤 어려움에 봉착한 것 같았는데, 입구에 어떤 마법적인 힘이 작용하는 것 같다. 그는 나를 보자마자 부하들을 이용해 다짜고짜 공격해왔고 자기 자신은 도망쳤다.% EXIT
++                 DestroySelf()~ UNSOLVED_JOURNAL @22 EXIT
+ END
+ 
+ 
+@@ -112,4 +110,4 @@
+                  StartCutSceneMode()
+                  StartCutScene("RU_CUTS7")~ EXIT
+ END
+-END
+\ No newline at end of file
++END

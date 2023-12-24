@@ -1,0 +1,22 @@
+--- AviM\SoA\1xAviB3.d	Wed Sep 23 16:13:26 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviB3.d	Mon Mar 25 11:10:42 2013
+@@ -1,13 +1,13 @@
+ BEGIN 1xAviB3
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ Global("AviBrother","GLOBAL",4)~ THEN BEGIN 1xAviB3
+-SAY~Hihi, la la la la! Groby, groby! Wszêdzie groooooby!~
+-IF~~ THEN GOTO 1xAviB3x1
++SAY @0
++IF ~~ THEN GOTO 1xAviB3x1
+ END
+ 
+-IF~~ THEN BEGIN 1xAviB3x1
+-SAY~Zostawcie mnie i moje groby! Grooooooooooby! Mam ochotê na luskañski sernik...~
+-IF~~THEN DO ~SetGlobal("AviBrother","GLOBAL",5)~ EXIT
++IF ~~ THEN BEGIN 1xAviB3x1
++SAY @1
++IF ~~ THEN DO ~SetGlobal("AviBrother","GLOBAL",5)~ EXIT
+ END
+ 

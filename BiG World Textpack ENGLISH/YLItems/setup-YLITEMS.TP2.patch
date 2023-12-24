@@ -1,0 +1,126 @@
+--- setup-YLITEMS.TP2	Sun Oct 19 10:47:02 2014
++++ C:\BWP Patchstudio\patched files\setup-YLITEMS.TP2	Sun Oct 19 10:49:42 2014
+@@ -7,31 +7,36 @@
+   AT_INTERACTIVE_EXIT ~VIEW YLITEMS/readme.txt~
+ END
+ 
++AUTO_TRA ~YLITEMS/%s~
++
+ LANGUAGE ~简体中文~
+          ~简体中文~
+          ~YLITEMS/CHS/setup.tra~
+ 
++LANGUAGE ~English~
++         ~English~
++         ~YLITEMS/ENGLISH/setup.tra~
+ 
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+ // YLITEMS
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+-BEGIN ~YLITEMS~
+-REQUIRE_FILE ~Data/25Dialog.bif~ ~你需要首先安装TOB.~
++BEGIN @2809
++REQUIRE_FILE ~Data/25Dialog.bif~ @2810
+ 
+ COPY ~YLItems/Bams~   ~override~ 
+       ~YLItems/EFF~   ~override~
+ 
+ COPY ~YLITEMS\Store\YLITEMS.sto~ ~override\YLITEMS.sto~
+-SAY NAME2 ~连城峰~
++SAY NAME2 @2811
+ 
+ 
+ COPY ~YLITEMS\Store\YLITEMX.STO~ ~override\YLITEMX.STO~
+-SAY NAME2 ~西门骥~
++SAY NAME2 @2812
+ 
+ 
+ COPY ~YLITEMS\Store\25YLITEM.sto~ ~override\25YLITEM.sto~
+-SAY NAME2 ~连城峰~
++SAY NAME2 @2811
+ 
+ 
+ COPY ~YLItems\Items\AMULY1.itm~ ~override\AMULY1.itm~
+@@ -356,10 +361,10 @@
+ SAY IDENTIFIED_DESC @2150
+ 
+ COMPILE ~YLITEMS\DLG\LCF.d~
+-USING ~~
++USING ~YLITEMS\%LANGUAGE%\LCF.tra~
+ 
+ COMPILE ~YLITEMS\DLG\XIMEN.D~
+-USING ~~
++USING ~YLITEMS\%LANGUAGE%\XIMEN.tra~
+ 
+ COMPILE ~YLItems\Scripts\LCFIGHT.BAF~
+ USING ~~
+@@ -403,38 +408,38 @@
+ END
+ 
+ COPY ~YLItems\Creature\LCF.cre~ ~override~
+-SAY NAME1 ~连城峰~
+-SAY NAME2 ~连城峰~
++SAY NAME1 @2811
++SAY NAME2 @2811
+ 
+ COPY ~YLItems\Creature\XIMEN.cre~ ~override~
+-SAY NAME1 ~西门骥~
+-SAY NAME2 ~西门骥~
++SAY NAME1 @2812
++SAY NAME2 @2812
+ 
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+ // YLITEMS ADD ON
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+-BEGIN ~YLItems Addon~
++BEGIN @2813
+ 
+ COMPILE ~YLITEMS\DLG\25LCF.d~
+-USING ~~
++USING ~YLITEMS\%LANGUAGE%\25LCF.tra~
+ 
+ COMPILE ~YLITEMS\DLG\25XIMEN.d~
+-USING ~~
++USING ~YLITEMS\%LANGUAGE%\25XIMEN.tra~
+ 
+ EXTEND_TOP ~ar5011.bcs~ ~YLItems\Scripts\25YLITEM.baf~
+ 
+ COPY ~YLItems\Creature\25LCF.cre~ ~override~
+-SAY NAME1 ~连城峰~
+-SAY NAME2 ~连城峰~
++SAY NAME1 @2811
++SAY NAME2 @2811
+ 
+ COPY ~YLItems\Creature\25XIMEN.cre~ ~override~
+-SAY NAME1 ~西门骥~
+-SAY NAME2 ~西门骥~
++SAY NAME1 @2812
++SAY NAME2 @2812
+ 
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+ // Use Origin Scimitar Animation
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+-BEGIN ~不使用倭刀外形~
++BEGIN @2814
+ 
+ COPY ~YLItems\Items\SC1HY1A.itm~ ~override\SC1HY1.itm~
+ SAY NAME2 @1740
+@@ -450,7 +455,7 @@
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+ // Haste Replace Improved Haste
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+-BEGIN ~加速效果替换高加效果~
++BEGIN @2815
+ 
+ COPY ~YLItems\Items\BELTY2A.itm~ ~override\BELTY2.itm~
+ SAY NAME2 @1110
+@@ -469,5 +474,5 @@
+ // Change Imoen's Class To Wildmage/Thief
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+-BEGIN ~Imoen To WM/T~
+-COPY ~YLItems\Imoen~ ~override~
+\ No newline at end of file
++BEGIN @2816
++COPY ~YLItems\Imoen~ ~override~

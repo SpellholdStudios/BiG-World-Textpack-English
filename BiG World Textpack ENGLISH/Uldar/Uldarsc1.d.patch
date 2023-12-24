@@ -1,0 +1,18 @@
+--- Uldar\d\Uldarsc1.d	Mon Sep 22 12:31:34 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\Uldarsc1.d	Wed Aug 29 05:58:59 2012
+@@ -8,13 +8,13 @@
+ 
+ 
+ IF ~NumTimesTalkedTo(0) !Dead("announcer") !StateCheck("announcer",STATE_SLEEPING)~ THEN BEGIN Gladiador 
+-  SAY ~¡¡No lucharé!! ¡No os daré el placer de ver más sangre vertida por mi causa!~
++  SAY @0
+   IF ~~ THEN EXTERN ~ANNO1~ 2
+ END
+ 
+  
+ IF ~~ THEN BEGIN 1
+-  SAY ~¡Malditos! ¡Me habéis obligado a matar a esta pobre bestia solo para saciar vuestra sed de sangre!  (el gladiador levanta su hacha amenazadoramente hacia los guardias)~
++  SAY @1
+   IF ~~ THEN EXTERN ~ULDGUA1~ 1
+ END
+ 

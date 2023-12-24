@@ -1,0 +1,11 @@
+
+BiG World Textpack read me
+
+
+
+
+This textpack installs all available text translations for more than 60 mods, that are not included in the mods, and carries out other text corrections.
+
+Although it is made for the BiG World Project, it can be used with any other installation. Just copy the folder "BiG World Textpack" and the file "BiG World Textpack.bat" into your "BGII - SoA" main directory and start the batch file AFTER unpacking and BEFORE installing the mods. The batch file checks for mods that are already present in the main folder and copies the needed files into the predetermined folders.
+
+The patch files contain only the changes which are carried out in the files, not the content of the whole files themselves. Hence, you may on no account replace the existing files with the patch files!

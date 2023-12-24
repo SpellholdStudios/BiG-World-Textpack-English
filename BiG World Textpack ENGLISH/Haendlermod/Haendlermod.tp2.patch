@@ -1,0 +1,377 @@
+--- Haendlermod\Haendlermod.tp2	Mon Apr 05 06:50:14 2010
++++ C:\BWP Patchstudio\patched files\Haendlermod\Haendlermod.tp2	Mon Aug 27 04:40:44 2012
+@@ -1,11 +1,17 @@
+ BACKUP ~Haendlermod\backup~
+ AUTHOR ~Genwa@gmx.de~
+ 
+-VERSION ~v1.1~
++VERSION @0
++
++AUTO_TRA ~Haendlermod\TRA\%s~
+ 
+ README ~Haendlermod\readme.txt~
+ 
+-BEGIN ~Haendlermod~
++LANGUAGE ~Deutsch~ ~german~ ~Haendlermod\TRA\german\Haendlermod.tra~
++
++LANGUAGE ~English~ ~english~ ~Haendlermod\TRA\english\Haendlermod.tra~
++
++BEGIN @1
+ 
+ COPY ~Haendlermod\bam~ ~override~
+ 
+@@ -23,6 +29,8 @@
+ COMPILE ~Haendlermod\baf\nq#rbad1.baf~
+ COMPILE ~Haendlermod\baf\nq#rbad3.baf~
+ COMPILE ~Haendlermod\baf\nq#rbad6.baf~
++	USING ~Haendlermod\TRA\%LANGUAGE%\baf\nq#rbad6.tra~
++
+ 
+ // cre
+ 
+@@ -31,28 +39,28 @@
+ COPY ~Haendlermod\cre\nq#dgob3.cre~ ~override\nq#dgob3.cre~
+ COPY ~Haendlermod\cre\nq#dgob4.cre~ ~override\nq#dgob4.cre~
+ COPY ~Haendlermod\cre\nq#djin.cre~ ~override\nq#djin.cre~
+-SAY NAME1 ~Zun~
+-SAY NAME2 ~Zun~
++SAY NAME1 @2
++SAY NAME2 @2
+ COPY ~Haendlermod\cre\nq#dleo.cre~ ~override\nq#dleo.cre~
+ COPY ~Haendlermod\cre\nq#it04a.cre~ ~override\nq#it04a.cre~
+-SAY NAME1 ~Geist des Magiers~
++SAY NAME1 @3
+ COPY ~Haendlermod\cre\nq#it04b.cre~ ~override\nq#it04b.cre~
+-SAY NAME1 ~Geist des Kriegers~
++SAY NAME1 @4
+ COPY ~Haendlermod\cre\nq#it04c.cre~ ~override\nq#it04c.cre~
+-SAY NAME1 ~Geist des Diebes~
++SAY NAME1 @5
+ COPY ~Haendlermod\cre\nq#it04d.cre~ ~override\nq#it04d.cre~
+-SAY NAME1 ~Geist des Priesters~
++SAY NAME1 @6
+ COPY ~Haendlermod\cre\nq#rbad1.cre~ ~override\nq#rbad1.cre~
+ COPY ~Haendlermod\cre\nq#rbad2.cre~ ~override\nq#rbad2.cre~
+ COPY ~Haendlermod\cre\nq#rbad3.cre~ ~override\nq#rbad3.cre~
+ COPY ~Haendlermod\cre\nq#rbad4.cre~ ~override\nq#rbad4.cre~
+ COPY ~Haendlermod\cre\nq#rbad5.cre~ ~override\nq#rbad5.cre~
+ COPY ~Haendlermod\cre\nq#rbad6.cre~ ~override\nq#rbad6.cre~
+-SAY NAME1 ~Krish~
+-SAY NAME2 ~Krish~
++SAY NAME1 @7
++SAY NAME2 @7
+ COPY ~Haendlermod\cre\nq#rose.cre~ ~override\nq#rose.cre~
+-SAY NAME1 ~Rose~
+-SAY NAME2 ~Rose~
++SAY NAME1 @8
++SAY NAME2 @8
+ 
+ 
+ //d
+@@ -72,14 +80,10 @@
+ //itm
+ 
+ COPY ~Haendlermod\itm\nq#djin1.itm~ ~override\nq#djin1.itm~
+-SAY NAME1 ~Flasche~
+-SAY NAME2 ~Flasche des Händlers~
+-SAY UNIDENTIFIED_DESC ~Die Flasche sieht wertvoll aus und liegt gut in der Hand. Ihr könnt nicht sagen aus welchem Material sie gemacht wurde, aber sie scheint nicht zerbrechlich zu sein. Die Flasche ist leer.~
+-SAY DESC ~Wenn man an der Flasche reibt, erscheint ein Djin. Der Djin ist ein Händler, der dem Beschwörer seine Ware anbietet und Gegenstände abkauft. Falls der Djin getötet wird, während er dem Beschwörer dient, wird die Flasche zerstört.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Kann dreimal täglich einen Djin beschwören.~
++SAY NAME1 @9
++SAY NAME2 @10
++SAY UNIDENTIFIED_DESC @11
++SAY DESC @12
+ 
+ COPY ~Haendlermod\itm\nq#dleo.itm~ ~override\nq#dleo.itm~
+ 
+@@ -99,244 +103,112 @@
+ 
+ COPY ~Haendlermod\itm\nq#ite01.itm~ ~override\nq#ite01.itm~
+ 
+-SAY NAME1 ~Pulver~
+-SAY NAME2 ~Goblinpulver~
+-SAY DESC ~Goblinpulver ist eine der bekanntesten Erfindungen Hirrins des Verrückten. Dem Nekromanten gelang es, dieses aus den natürlichen Exkrementen männlcher Goblins gewonnene Pulver, so zu verzaubern, dass man damit ein Abbild dessen Schöpfers hervorrufen kann. Dieses dient dem Anwender des Pulvers bis seine Beschwörungsdauer endet. Nach einmaliger Anwendung verliert es seine Wirkung.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Beschwört einen Goblin, der seinem Beschwörer für eine Minute dient.~
++SAY NAME1 @13
++SAY NAME2 @14
++SAY DESC @15
+ 
+ COPY ~Haendlermod\itm\nq#ite02.itm~ ~override\nq#ite02.itm~
+ 
+-SAY NAME2 ~Spiegel der Fernsicht~
+-SAY DESC ~Dieser silberne Spiegel muss das Werkzeug eines Wahrsagers gewesen sein. Der Rahmen ist mit kunstvollen Runen übersehen, von dennen allerdings keine einen erkennbaren Sinn zu haben scheint. Wenn Ihr Euch darauf konzentriert, verändert sich das Spiegelbild und kann Euch Orte zeigen, die ihr noch nicht entdeckt habt.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Träger kann dreimal täglich den Zauber Fernsicht wirken.~
++SAY NAME2 @16
++SAY DESC @17
+ 
+ COPY ~Haendlermod\itm\nq#ite03.itm~ ~override\nq#ite03.itm~
+ 
+-SAY NAME2 ~Schlüssel des Hausmeisters~
+-SAY DESC ~Dieser Schlüssel gehörte einst einem erfolgreichen Dieb, der sein Unwesen in Calimhafen trieb. Seine Karriere endete, als die Tür der Schatzkammer eines reichen Magiers hinter ihm ins Schloss fiel. Der Schlüssel steckte noch von außen in der Tür und der Dieb fand keine Möglichkeit sie ohne ihn zu öffnen. Als der Hausherr den Eindringling entdeckte brachte er seinen Missmut zum Ausdruck, indem er ihn in ein Häuflein Asche verwandelte. Den Schlüssel verkaufte er, um seine Schatzkammer mit noch mehr Gold zu füllen.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Kann dreimal täglich den Zauber Klopfen wirken.~
++SAY NAME2 @18
++SAY DESC @19
+ 
+ COPY ~Haendlermod\itm\nq#ite04.itm~ ~override\nq#ite04.itm~
+ 
+-SAY NAME2 ~Amulett des Geisterrufers~
+-SAY DESC ~Das Amulett besteht aus einem Material, das Ihr noch nie im Leben gesehen habt. Es scheint kein Gewicht zu haben und so sehr Ihr es auch versucht, gelingt es Euch nicht, Euch auf einen speziellen Punkt daran zu konzentrieren. Während Ihr es tragt, ist Euch als könntet Ihr leise flüsternde Stimmen hören, die in Eurem Geist um eure Aufmerksamkeit kämpfen. Je länger ihr das Amulett tragt, desto lauter und aufdringlicher scheinen die Stimmen zu werden. Sie locken euch mit Versprechungen, loben ihre Vorzüge und bezichtigen die anderen der Lüge. Konzentriert Ihr Euch auf eine der Stimmen, scheint diese Euch immer näher zu kommen, bis das Amulett den Geist der von Euch erwählten Seele beschwört. Ihr kennt keine Geschichten oder Legenden, die irgendwie in Zusammenhang mit dem Amulett zu stehen scheinen und würdet Ihr es nicht regelmäßig überprüfen, wäret Ihr Euch nicht einmal sicher ob das Amulett wirklich existiert oder Ihr es Euch vielleicht nur eingebildet habt.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Beschwört einmal täglich einen speziellen Geist für fünf Minuten.~
++SAY NAME2 @20
++SAY DESC @21
+ 
+ COPY ~Haendlermod\itm\nq#ite05.itm~ ~override\nq#ite05.itm~
+ 
+-SAY NAME2 ~Handschuhe des Meuchelmörders~
+-SAY DESC ~Ein Meuchelmörder ist immer dann am erfolgreichsten, wenn sein Opfer nicht mit einem Angriff rechnet. Nach diesem Prinzip wurden auch die Handschuhe des Meuchelmörders gefertigt. Ihre erste bekannte Besitzerin war eine Dunkelelfin, die sich selbst Schwarze Schlange nannte. Sie zog es vor unbewaffnet an ihr Opfer heranzutreten und erst im letzten Augenblick einen vergifteten Dolch zu beschwören, mit dem sie dann blitzschnell zuschlug. Die Handschuhe wanderten seitdem duch viele Hände, was ein deutliches Zeichen dafür ist, welche Risiken diese Taktik birgt.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:  
+-
+-ETW0: -1
+-Besondere Eigenschaften: Der Träger kann einmal täglich 5 vergiftete Wurfdolche beschwören.
+-Gewicht: 1
+-Kann nur verwendet werden von:
+-Dieben (auch mehrklassig und mit Klassenkombination)~
++SAY NAME2 @22
++SAY DESC @23
+ 
+ COPY ~Haendlermod\itm\nq#ite06.itm~ ~override\nq#ite06.itm~
+-SAY NAME2 ~Dimensionsring~
+-SAY DESC ~Der Dimensionsring wurde einst von einem faulen Magier erschaffen, der nicht einsehen wollte warum er trotz seiner Macht noch seine Füße benutzen sollte. Der Ring diente ihm jahrelang zuverlässig, aber er gewöhnte sich so sehr an ihn, dass er keinen Schritt mehr ohne ihn machen wollte. Als er diese Angewohnheit auch bei einem Aufenthalt in Amn nicht ablegen wollte, verwarnten ihn die verhüllten Magier genau einmal. Beim zweiten mal schickten sie einen Stoßtrupp ihrer Inquisitoren, die Ihn nach einem heftigen Kampf überwältigten konnten. Er wurde nie wieder gesehen.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Der Träger kann beliebig oft den Zauber Dimensionstor wirken.~
++SAY NAME2 @24
++SAY DESC @25
+ 
+ COPY ~Haendlermod\itm\nq#ite07.itm~ ~override\nq#ite07.itm~
+ 
+-SAY NAME2 ~Lesebrille~
+-SAY DESC ~Als der Orkhäuptling Ubruk Zahn bemerkte, dass er die Nachrichten seiner zahlreichen Spione nicht lesen konnte, beauftragte er einen seiner Berater ihm eine Brille anzufertigen zu lassen. Der weise Berater erkannte jedoch, dass die Sehstärke nicht das eigentliche Problem des Häutptlings war. Er ließ daher eine Brille mit einfachen gläsernen Linsen verzaubern und überreichte diese dem Häuptling. Obwohl die Brille ihren Zweck erfüllte, richtete der Häuptling seinen Berater augenblicklich hin, da sie ihn auch in die Lage versetzte dessen List zu durchschauen.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Intelligenz +3~
++SAY NAME2 @26
++SAY DESC @27
+ 
+ COPY ~Haendlermod\itm\nq#ite08.itm~ ~override\nq#ite08.itm~
+ 
+-SAY NAME2 ~Trank des Lebens~
+-SAY DESC ~Rea Silberbogen war eine treue Anhängerin von Sune, die ihr Leben der Göttin gewidmet hatte. Als sie ihren Tempel für einer Misson des Guten verlassen musste, wurde sie von Sune gesegnet und alle Tränke, die sie bei sich trug wurden durch die Macht der Göttin verstärkt. Der Trank des Lebens ist einer dieser Tränke.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Der Trank kann einmal täglich verwendet werden um 50 erlittene Schadenspunkte zu heilen.~
++SAY NAME2 @28
++SAY DESC @29
+ 
+ COPY ~Haendlermod\itm\nq#ite09.itm~ ~override\nq#ite09.itm~
+ 
+-SAY NAME2 ~Leopardenfell~
+-SAY DESC ~Dieses Leopardenfell ist kaum bearbeitet worden und kann wie ein einfacher Umhang getragen werden. Es wurde von den Schamanen eines mittlerweile ausgestorbenen Stammes der Utghar gesegnet und diente dem Stamm als Ehrenzeichen für seine tapfersten Krieger.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Der Träger kann sich dreimal täglich in einen Leoparden verwandeln.~
++SAY NAME2 @30
++SAY DESC @31
+ 
+ COPY ~Haendlermod\itm\nq#ite10.itm~ ~override\nq#ite10.itm~
+ 
+-SAY DESC ~Diese besondere Falle hatte eine ähnliche Wirkung wie der Zauber Schädelfalle. Wirft man den Schädel, schwebt dieser unbeweglich am Zielort in der Luft. Wenn sich dem schwebenden Schädel ein Wesen auf 6 m nähert, explodiert er und verursacht bei jedem Wesen in 9 m Radius 7W6 Schadenspunkte. Angeblich gehen die ersten Exemplare dieser nekromantischen Fallenart, bis auf die Zeit des alten Nesseril zrück.~
++SAY DESC @32
+ 
+ COPY ~Haendlermod\itm\nq#ite11.itm~ ~override\nq#ite11.itm~
+ 
+-SAY NAME2 ~Feuerhandschuhe~
+-SAY DESC ~Handschuhe wie diese stammen aus Calimhafen und verstärken die Nahkampfangriffe ihres Trägers durch Elementarschäden. Mit ihnen kann selbst ein unbewaffneter Angriff tödliche Folgen haben. Dieser ist jedoch nicht nötig, da ihre Magie auch über jede Art von Nahkampfwaffe wirkt.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Schaden: 1 Schadenspunkt durch Feuer
+-Gewicht: 2~
++SAY NAME2 @33
++SAY DESC @34
+ 
+ COPY ~Haendlermod\itm\nq#ite12.itm~ ~override\nq#ite12.itm~
+ 
+-SAY NAME2 ~Eishandschuhe~
+-SAY DESC ~Handschuhe wie diese stammen aus Calimhafen und verstärken die Nahkampfangriffe ihres Trägers durch Elementarschäden. Mit ihnen kann selbst ein unbewaffneter Angriff tödliche Folgen haben. Dieser ist jedoch nicht nötig, da ihre Magie auch über jede Art von Nahkampfwaffe wirkt.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Schaden: 1 Schadenspunkt durch Kälte
+-Gewicht: 2~
++SAY NAME2 @35
++SAY DESC @36
+ 
+ COPY ~Haendlermod\itm\nq#ite13.itm~ ~override\nq#ite13.itm~
+ 
+-SAY NAME2 ~Elektrizitätshandschuhe~
+-SAY DESC ~Handschuhe wie diese stammen aus Calimhafen und verstärken die Nahkampfangriffe ihres Trägers durch Elementarschäden. Mit ihnen kann selbst ein unbewaffneter Angriff tödliche Folgen haben. Dieser ist jedoch nicht nötig, da ihre Magie auch über jede Art von Nahkampfwaffe wirkt.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Schaden: 1 Schadenspunkt durch Elektrizität
+-Gewicht: 2~
++SAY NAME2 @37
++SAY DESC @38
+ 
+ COPY ~Haendlermod\itm\nq#wep01.itm~ ~override\nq#wep01.itm~
+ 
+-SAY NAME2 ~Folteraxt +2~
+-SAY DESC ~Die Folteraxt gehörte einst einem einflussreichen Sklavenhändler der Duergar. Der bösartige Zwerg setze die Axt oft und gerne gegen ungehorsame Sklaven ein, denen ihre Verzauberung zusätzliche Qualen durch Elektrizität zufügte. Zu seinem Unglück befand sich unter diesen Sklaven auch das Mitglied eines mächtigen Hauses der Dunkelelfen. Da die Elfen nichts mit der uneleganten Waffe anzufangen wussten, ließen sie sie einfach bei der verstümmelten Leiche des Zwerges liegen.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-ETW0 -2
+-Schaden: 1W8 +2 (Klingenwaffe), +2 durch Elektrizität 
+-Gewicht: 5
+-Initiativefaktor: 5
+-Waffenfertigkeit: Axt
+-Waffentyp: einhändig
+-Mindeststärke: 10
+-Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Dieben~
++SAY NAME2 @39
++SAY DESC @40
+ 
+ COPY ~Haendlermod\itm\nq#wep02.itm~ ~override\nq#wep02.itm~
+ 
+-SAY NAME2 ~Vampirzahn +1~
+-SAY DESC ~Obwohl es sicher mächtigere Waffen gibt, sind die von den Zentarim entwickelten Vampirzähne besonders bei Magier sehr beliebt. Dies liegt nicht nur daran, dass die meisten Magier in jeder Waffe, die schwerer als eine Tintenfeder ist, eine Zumutung sehen, sondern hängt auch damit zusammen, dass die Wurfpfeile nach jedem Wurf in die Hand ihres Trägers zurückkehren. Zusätzlich dazu übertragen sie bei jedem Treffer einen Teil der Lebensenergie ihrer Opfer auf den Werfer.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Kehrt nach einem Wurf sofort in die Hand des Trägers zurück. Jeder Treffer mit dem Wurfpfeil heilt 1 Schadenspunkt beim Träger
+-ETW0: -1
+-Schaden: 1W3+1 (Fernkampf- und Stichwaffe)
+-Gewicht: 0
+-Initiativefaktor: 1
+-Waffenfertigkeit: Wurfpfeil
+-Waffentyp: einhändig
+-Kann nicht verwendet werden von:
+-Klerikern~
++SAY NAME2 @41
++SAY DESC @42
+ 
+ 
+ COPY ~Haendlermod\itm\nq#wep03.itm~ ~override\nq#wep03.itm~
+ 
+-SAY NAME2 ~Schinderstab +3~
+-SAY DESC ~Muran Baloks Bewunderung für das Volk der Illithiden lässt sich am ehesten damit erklären, dass er von Geburt an schwächlich und hoch intelligent war. Der Magier begann früh sich mit der Geschichte ihres Volkes zu beschäftigen und suchte nach Mittel und Wegen um ihre besonderen Eigenschaften zu erlernen. Seine Studien endeten schließlich, als er im Herzen von Amn versuchte einen eigenen Stamm Illithiden zu züchten, indem er Bürger entführte und ihnen Tadpole, die Larven der Illithiden, einsetzte. Eine Gruppe Harfner stürmte sein Anwesen und setzte seinem dunklen Treiben ein Ende. Dieser Stab ist einer der mächtigsten Gegenstände, die Balok während seiner Studien entwickelte.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Jeder Treffer mit dem Stab senkt die Intelligenz des Opfers um 2 und stellt einen Zauber des 6. oder eines niedrigeren Grades beim Träger wieder her.
+-ETW0: -3
+-Schaden: 1W6+3 (Wuchtwaffe) 
+-Gewicht: 4
+-Initiativefaktor: 1
+-Waffenfertigkeit: Kampfstab
+-Waffentyp: Beidhändig
+-Kann nur verwendet werden von:
+-Magiern (ohne Klassenkombination)~
++SAY NAME2 @43
++SAY DESC @44
+ 
+ COPY ~Haendlermod\itm\nq#wep04.itm~ ~override\nq#wep04.itm~
+ 
+-SAY NAME2 ~Grüne Pfeile~
+-SAY DESC ~Die grünen Pfeile wurden von Waldläufer hergestellt, die es vermeiden wollten mehr Tiere als nötig zu töten. Ein einziger Treffer mit ihnen genügte, um eine Bestie vorübergehend ausser Gefecht zu setzen und sich in Sicherheit zu bringen. Es dauerte nicht lange, bis die Pfeile bei Wilderern, Sklavenjägern und Meuchelmördern beliebt wurden, so dass sich die Waldläufer gezwungen sahen die Produktion einzustellen. Die Existenz dieses Pfeils beweist, dass ihre Einsicht zu spät kam und weniger rücksichtsvolle Pfeilmacher ein Weg gefunden haben die Pfeile herzustellen. 
+-
+-SPEZIFISCHE EIGENSCHAFTEN.
+-
+-ETW0: -1
+-Schaden: 1W6 (Fernkampf- und Stichwaffe)
+-Spezielle Merkmale: Wesen, denen kein Rettungswurf +3 gegen Zauber gelingt, werden von Verstricken betroffen.
+-Gewicht: 0
+-Wird verschossen von: Bogen~
++SAY NAME2 @45
++SAY DESC @46
+ 
+ COPY ~Haendlermod\itm\nq#wep05.itm~ ~override\nq#wep05.itm~
+ 
+-SAY NAME2 ~Dämonenklinge +2~
+-SAY DESC ~Dämonenklingen wie diese stammen aus der Abyss und wurden von den Soldaten eines mächtigen Fürsten der Tanar'ri getragen. Obwohl es grade in dieser Region, etliche Schwerter gibt, die diesen wenig einfallsreichen Namen tragen, lassen sich die Klingen dieses Tanar'ris leicht erkennen, da jeder Treffer mit ihnen ihrem Träger einen Schadenspunkt durch Feuer zufügt. Was für einen gewöhnlichen Sterblichen wie ein Fluch klingt, war ein Segen für die Truppen des Dämonen, da diese Dank ihrer hohen Feuerresistenz durch die Schwerter geheilt wurden.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Jeder Treffer mit dem Schwert verursacht 1 Punkt Feuerschaden beim Träger.
+-ETW0: -2
+-Schaden: 2W4+2 (Klingenwaffe)
+-Gewicht: 7
+-Initiativefaktor: 6
+-Waffenfertigkeit: Bastardschwert
+-Waffentyp: Einhändig
+-Kann nicht verwendet werden von:
+-Druiden
+-Klerikern
+-Magiern
+-Dieben~
++SAY NAME2 @47
++SAY DESC @48
+ 
+ COPY ~Haendlermod\itm\nq#wep06.itm~ ~override\nq#wep06.itm~
+ 
+-SAY NAME2 ~Dämonenklinge +4~
+-SAY DESC ~Diese Klinge wurde einst von einem Balor geschwungen, der als General in den Blutkriegen kämpfte. Jeder seiner Soldaten trug eine ähnliche, wenn auch weniger mächtige Klinge, die ihnen bei jedem Treffer Feuerschaden zufügte. Da es sich bei den Kriegern um Dämonen handelte, wurde diese durch das Feuer geheilt und konnten so länger kämpfen. Der Balor und seine Truppen kämpften unzählige Jahre gegen Baatezu und brachten ihnen eine Niederlage nach der Anderen bei. Doch wie es bei einem ewigen Krieg nicht anders sein kann, kam der Tag an dem auch sie ihren Meister finden mussten. Als sich die Klinge eines Fürsten der Baatezu in das verdorbene Herz des Balors frass, konnte ihn selbst die mächtige Waffe nicht mehr retten. Sein Körper verging in einer Explosion aus Flammen, die nicht nur seinen Widersacher in Fetzen riss, sondern auch seine gesamte Ausrüstung zerstörte. Nur das Schwert blieb unbeschädigt.
+-
+-SPEZIFISCHE EIGENSCHAFTEN:
+-
+-Besondere Fähigkeiten: Der Träger erhält +50% Feuerresistenz; jeder Treffer mit dem Schwert verursacht 3 Punkt Feuerschaden beim Träger.
+-ETW0: -4
+-Schaden: 2W4+4 (Klingenwaffe)
+-Gewicht: 6
+-Initiativefaktor: 4
+-Waffenfertigkeit: Bastardschwert
+-Waffentyp: Einhändig
+-Kann nicht verwendet werden von:
+-Druiden
+-Klerikern
+-Magiern
+-Dieben~
++SAY NAME2 @49
++SAY DESC @50
+ 
+ // spl
+ 
+ COPY ~Haendlermod\spl\nq#ddoor.spl~ ~override\nq#ddoor.spl~
+ COPY ~Haendlermod\spl\nq#djin.spl~ ~override\nq#djin.spl~
+-SAY NAME1 ~Flasche des Händlers~
++SAY NAME1 @10
+ COPY ~Haendlermod\spl\nq#it04a.spl~ ~override\nq#it04a.spl~
+-SAY NAME1 ~Geist des Magiers~
++SAY NAME1 @3
+ COPY ~Haendlermod\spl\nq#it04b.spl~ ~override\nq#it04b.spl~
+-SAY NAME1 ~Geist des Kriegers~
++SAY NAME1 @4
+ COPY ~Haendlermod\spl\nq#it04c.spl~ ~override\nq#it04c.spl~
+-SAY NAME1 ~Geist des Diebes~
++SAY NAME1 @5
+ COPY ~Haendlermod\spl\nq#it04d.spl~ ~override\nq#it04d.spl~
+-SAY NAME1 ~Geist des Priesters~
++SAY NAME1 @6
+ COPY ~Haendlermod\spl\nq#ite11.spl~ ~override\nq#ite11.spl~
+ COPY ~Haendlermod\spl\nq#ite12.spl~ ~override\nq#ite12.spl~
+ COPY ~Haendlermod\spl\nq#ite13.spl~ ~override\nq#ite13.spl~

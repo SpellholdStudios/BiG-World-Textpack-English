@@ -1,0 +1,166 @@
+@1 = ~(Your gaze shifts inadvertently to a corner, your eyes locking with another pair, gazing at you from the darkness. You notice a person wearing a gray hooded cloak. You feel that he is trying to look inconspicuous, but he seems to catch your eye repeatedly... perhaps it is the obvious effort that he makes to hide himself, or that his mouth flashes a hidden smile, like he knows some big joke you don't... Your curiosity aroused, you start to walk towards him.)~
+@2 = ~(Before you say a word, he smiles mysteriously, as if he knows your intent, and speaks in a low drawl.) Curiosity killed the cat!~
+@3 = ~(Surprised, you take a few steps back, your hand rushing to your weapon.)~
+@4 = ~Relax, friend. (He drinks a wine glass, with a calm smile on his face)I too was an adventurer once... perhaps I was referring to my own curiosity?~
+@5 = ~(You realize your reaction may have been a bit too dramatic, even you are surprised. Other patrons in the inn are nervously watching you. You looked at him again, from the contours of his appearance, he seems to be a half-elf, he seems to wear no amor, you only see two blades around his waist for protection, he does not seem to be a threat.)~
+@6 = ~I apologize... you startled me.~
+@7 = ~(You step forward without saying anything.)~
+@8 = ~Bastard! DIE!~
+@9 = ~Come! Some drinks to ease the tension, my treat! Bartender! Mugs of your sweetest mead for my new friends!~
+@10 = ~Ah! The strong, silent type! Friends, stay for a drink or two. Bartender! More wine!~
+@11 = ~sigh... Why does it lately always end like this?
+
+(He sighs with exasperation, drops a few gold coins on the table, and with a flash of white light, he disappears right in front of your eyes...)~
+@12 = ~My thanks! Who are you?~
+@13 = ~Thank you very much. (You take a large sip of beer)You don't seem to be from around here...~
+@14 = ~Ha! Jumping straight to my life history, eh? Maybe should conduct interviews, write things down, no? I don't suppose you have any paper? You should cultivate the habit! Well, simply put, I was an adventurer, like you I expect, with many tales to tell from many places... again like you I'm sure. However, that life is behind me now, I now own an inn... not in this neighborhood of course(He mischievously winks at the bartender).
+As a innkeeper, I wish to provide beverages both local and exotic, and this is the reason I that has brought me here.~
+@15 = ~You're not a local. Indeed, such is the case, travellers are rare enough in these troubled times, however, before "asking" others  about their past, shouldn't you break out a pen and a paper? Or do you have none? No? You should cultivate the habit of carrying some!
+Well, simply put, I was an adventurer, like you I expect, with many tales to tell from many places... again like you I'm sure. However, that life is behind me now, I now own an inn... not in this neighborhood of course(He mischievously winks at the bartender).
+As a innkeeper, I wish to provide beverages both local and exotic, and this is the reason I that has brought me here.~
+@16 = ~So...­
+(You try to say something, but he interrupts you.)~
+@17 = ~I know adventurers are always looking for quests and all. Is that why you are here? I mean I have nothing to share in the way of news or rumor, I have little interest in what happens here.  What you will get from me, are little quests... well... not all the way to quests, more like tasks. As I mentioned before, I'm here looking for beverages, but this place has become fairly lawless, and travellers such as myself are... welcomed by robbers! Ha ha ha!
+So, if you are willing, I qould like you to help me buy or find some brew, I'll pay you enough, and supply you with a few special brews I've collected.~
+@18 = ~I also collect magic items, I cannot sell you any yet, but if you have unwanted items, you can sell them to me, I will acquire them for a fair price. Perhaps one day, if our business relationship has blossomed into somthing more, you can also buy from me, but let me say I am very reluctant to let go of my collection, so prices will be high.~
+@19 = ~Now that's over with. Everything clear? Anything else I can do for you?~
+
+@100 = ~My friend, good to see you again. Is there anything I can do for you?~
+@101 = ~My friend, I didn't expect to see you again in this establishment! Is there anything I can do for you?~
+@102 = ~My friend, seeing familiar faces again brings warmth to my heart. I need your help, and only *you* can help me.~
+@103 = ~What do you need?~
+@104 = ~I seem to have made a mistake. I need the bottle of Heart wine back, Do you still have it? I gave it to you as a reward.~
+@105 = ~I still have the bottle, but why do you want it back now?~
+@106 = ~I don't have the bottle of wine (Lie).~
+@107 = ~I don't have the bottle anymore.~
+@108 = ~I... I'm afraid I can't tell you the exact reason, but I can tell you it's in your interests to return the bottle, I... I fear it may be *cursed*...
+Of course, I will give you  compensation in exchange!~
+@109 = ~Is it not? How.. odd! Very well! But if you "find" that bottle, you know where to find me.~
+@110 = ~Ughhh... I was afraid of this. If you come across it in your travels, please remember to send it back, I will compensate you for it.~
+@111 = ~Here's the wine.~
+@112 = ~No, I don't want to give it back to you.~
+@113 = ~Thank you!(He carefully takes the wine, puts it in a bag, and takes out a steaming bottle, handing it over to you.)
+Be careful, it's hot, I procured it recently, this will make you feel VERY good, if you can stand the heat! May it be helpful to you in your journeys.~
+@114 = ~Thank you!~
+@115 = ~That... is your choice... Well, if you change your mind, you know where to find me.~
+@116 = ~My friend, is there anything I can do for you?~
+@117 = ~I've always wanted to ask, what is your name? I know you for quite some time but I still don't know your name.~
+@118 = ~I can't tell you my real name, it's not a big deal but... I hope you will come to my inn one day, I promise I will introduce myself properly then.~
+@119 = ~What is your inn's name?~
+@120 = ~Nameless Melody, maybe one day our paths will cross again. For now, I bid you farewell!
+(With a flash of white light, he disappears in front of your eyes.)~
+@121 = ~I'd like to see if you have something to buy, I might also have some items to sell.~
+@122 = ~Of course, look at my wares.~
+@123 = ~Nevermind, I have to leave.~
+@124 = ~I will offer high prices for your wares, but to buy what I have, you will have to pay high prices as well.~
+@125 = ~Of course, Let me see what you have...­~
+@126 = ~Goodbye, my friend, I am sure our paths will meet again... very soon.~
+
+@200    = ~I've got a bottle of "Forever together".~
+
+@202    = ~I've got a bottle of the Golden Sands.~
+
+@204    = ~I've got a bottle of Krupneisch.~
+
+@206    = ~I've got a bottle of Farm Honey mead.~
+
+@208    = ~I've got a bottle of Bitter rye whiskey.~
+
+@210    = ~I've got a bottle of Ruby wine from Westgate.~
+
+@212    = ~I've got a bottle of Selune's Kiss.~
+
+@214    = ~I've got a bottle of Wild honey mead.~
+
+@216    = ~I've got a bottle of Apple Cider.~
+
+@218    = ~I've got a bottle of Auriel's Breath.~
+
+@220    = ~I've got a bottle of Grape wine.~
+
+@222    = ~I've got a bottle of Elminster's Draught.~
+
+@224    = ~I've got a bottle of Chultan Palm wine.~
+
+@226    = ~I've got a bottle of Rice sake from Kara-Tur.~
+
+@228    = ~I've got a bottle of Kaelyn's Sweet Bosom.~
+
+@230    = ~I've got a bottle of Blood wine.~
+
+@232    = ~I've got a bottle of Ironfist Rock ale.~
+
+@234    = ~I've got a bottle of Halruuan Stout.~
+
+@236    = ~I've got a bottle of Dragon's Swill.~
+
+@238    = ~I've got a bottle of Firewater.~
+
+@240    = ~I've got a bottle of Winter's Frost.~
+
+@242    = ~I've got a bottle of Amnish Rekaan wine.~
+
+@244    = ~I've got a bottle of Black Isle beer.~
+
+@246    = ~I've got a bottle of Horsehead Red Wine.~
+
+@248    = ~I've got something, don't know what... but it has an indescribable taste.~
+
+@250    = ~I've got a bottle of Rashemi Pilrod wine.~
+
+@252    = ~I've got the Illfarni Heart wine.~
+
+@254    = ~Thank you, my friend, I believe these coins are enough in return.~
+
+@256    = ~What an exotic taste! Thank you, my friend! I have something for you here, I believe these are adequate in return.~
+
+@258    = ~A fine beverage! A damned fine beverage! A favorite amongst the Dwarves! Thank you, my friend! I have something for you here, I believe these are an appropriate reward.~
+
+@260    = ~It tastes really good! Thank you, my friend, I have something for you for your trouble.~
+
+@262    = ~Elminster's... a clever ploy, Ha! Thank you, my friend! I have something for you! I believe these are an appropriate reward for you.~
+
+@264    = ~Thank you, my friend, for this. I have something for you here, I believe these are an appropriate reward for you.~
+
+@266    = ~What's this?!... I don't know what to say... I... this reminds me... What a unique taste... almost indescribable... I don't know what to give in return... such a prize...~
+@267    = ~Are you alright?~
+@268    = ~Yes, yes, of course, my friend, it's just that... this here reminds me of... things, things I had long forgotten...~
+@269    = ~What sort of things?~
+@270    = ~Things... memories... I... I'd rather not share...
+(He forces himself out of his reverie, reaches for his bag and takes out a bottle filled with a brilliant amber coloured liquid)
+
+Some time ago, someone gave me this bottle of wine, she said it came from an ancient ruin... belonging to the Illefarn Empire, in what would be Neverwinter today. It is called Heart wine. This is seriously aged wine... of unnaturally exquisite taste, impossible to find. It is priceless. And yet, I feel it is poor recompense for what you have given me... Please accept it with my gratitude. ~
+
+@271    = ~Very strong, but good! Here, I have Abi-Dalzim's Firewater and some fire seed for you.~
+
+@272    = ~My inn, it's close to a monastery. The monks that live there have a penchant for this one, unfortunately it is so hard to find... That which is rare is cherished more, no?~
+@273    = ~Yes, such is the way of the world.~
+@274    = ~Perhaps... my view is people only value a thing after they lose it.~
+@276    = ~I don't think so, value depends on the person and the object, and proposed value that the person attributes to that object. One man's treasure is another man's junk.~
+@278    = ~No, I don't think so.~
+@280    = ~I... do not know.~
+@282    = ~I think you have the gist of it. Here is a bag of gold, as reward.~
+@284    = ~It is a sad thing. Here, this should be enough recompense.~
+
+@288    = ~How very... logical, interesting... insightful... you seem to understand the lay of it... sigh... I thought I did too but... I don't even know myself anymore... a dark empty night... a bird without sight...~
+@290    = ~What do you mean?~
+@292    = ~I just had this feeling of being in a tight closed place... unable to move... not WANTING to move either.~
+@294    = ~Like a caged bird?~
+@296    = ~Ha... exactly! Yes, a bird that has come to love it's captivity..~
+@298    = ~I... don't understand what you mean.~
+@300    = ~A bird, captive for so long that even if it is set free, it will fly back to it's cage. The body is free, but the heart and mind have become used to the cage. Such feels to me to be my situation. What are your thoughts?~
+@301    = ~I don't agree, Shackles of the body can't be compared to the bonds our hearts make, perhaps everyone's heart is somewhat tied to home. It represents safety... security... trust.~
+@302    = ~I don't know, the bird is free to come and go and that represents freedom, but it also seeks the cage at the end of the day, and that represents captivity... perhaps one can never truly be free...~
+@303    = ~You are right. The bird will not be free till it is free of it's cage as well.~
+@304    = ~Thank you for your point of view, I have a unique item for you...~
+@305    = ~HA! An interesting point of view, I have a unique item for you...~
+@306    = ~I can't say I agree... I have something for you, should be sufficient.~
+@307    = ~You must accept this... a colorless, transparent liquid... this is pure "water"!~
+@308    = ~It looks to me that you like to answer questions with more questions. Ha! I've got a unique beverage for you.~
+
+@310    = ~What else can I do for you?~
+@312    = ~I think it is time for me to return to my inn. But before that, perhaps you still have need of me, my friend.~
+@313    = ~Every time I see you, I get the urge to walk the path of an adventurer again! Sigh, I wish to help you if you prefer, my friend.~
+@314    = ~I know.~
+@315    = ~Thank you, my friend, you have no idea how important this is. Here, these are for you, I hope they help you in your travels.~
+@400    = ~The content of... (burp)~

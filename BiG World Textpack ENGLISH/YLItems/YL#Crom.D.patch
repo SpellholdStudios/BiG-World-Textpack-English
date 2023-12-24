@@ -1,0 +1,9 @@
+--- YLITEMS\DLG\YL#Crom.D	Fri Dec 03 17:03:40 2010
++++ C:\BWP Patchstudio\patched files\YLITEMS\DLG\YL#Crom.D	Sat Aug 23 05:23:28 2014
+@@ -111,4 +111,4 @@
+   IF ~~ THEN REPLY @2481 GOTO 13
+   IF ~~ THEN REPLY @2410 EXIT
+ END
+-END
+\ No newline at end of file
++END

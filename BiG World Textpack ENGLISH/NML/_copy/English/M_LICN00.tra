@@ -1,0 +1,172 @@
+////////////////////////////////////////////////////////////////////////////////////////
+@1000 = ~Hello there? Did you need something?~
+@1001 = ~Good lady, please prepare something delicious for us weary travelers, we are famished!~
+@1002 = ~We need some dry rations, do you have any for sale?~
+@1003 = ~Nothing for us, thank you.~
+
+@1004 = ~Of course. I'll have something up for you immediately. 3 gold per person...~
+@1005 = ~Thank you, here's your money.~
+@1006 = ~I just remembered I had to be somewhere else!­~
+
+@1007 = ~I have dry rations, 10 gold per pound. How much do you want?~
+@1008 = ~I want 50 pounds of food.~
+@1009 = ~I want 30 pounds of food.~
+@1010 = ~I want 10 pounds of food.~
+@1011 = ~Sorry, I don't want anything.~
+
+@1012 = ~We need some drinking water.~
+@1013 = ~I have distilled water. Purest, safest water you'll find. 10 gold each, how many do you want?~
+@1014 = ~I want 50 bottles of water.~
+@1015 = ~I want 30 bottles of water.~
+@1016 = ~I want 10 bottles of water.~
+@1017 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1100 = ~Do you need something, friend? I'm just the cook, if you want something, look for John, he's in a bad mood though... must be sulking around here, somewhere.~
+@1101 = ~My companions and I are particularly hungry after our latest near-death experience, we wish to celebrate our victory with something delicious!~
+@1102 = ~We need some dry rations.~
+@1103 = ~Right, goodbye.~
+
+@1104 = ~Adventurers! I've got delicious dishes to tickle your fancy!~
+@1105 = ~Thank you, here's your money.~
+@1106 = ~No, I changed my mind.~
+
+@1107 = ~There is not much left, 10 gold per pound, how much do you want?~
+@1108 = ~I want 50 pounds of food.~
+@1109 = ~I want 30 pounds of food.~
+@1110 = ~I want 10 pounds of food.~
+@1111 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1200 = ~This is the kitchen, there is nothing to do here... unless you want to taste my cooking.~
+@1201 = ~I hope you have delicious food here?~
+@1202 = ~We need some dry food, do you have it here?~
+@1203 = ~I'll leave.~
+
+@1204 = ~Well, you are in luck, I have some of my most special dishes ready, 4 gold for each. Worth every bit!~
+@1205 = ~Thank you, here's the money you ask for.~
+@1206 = ~No, I changed my mind.~
+
+@1207 = ~Only a little. Long-term preservation of food is costly... 10 gold per pound, ok?~
+@1208 = ~I want 50 pounds of food.~
+@1209 = ~I want 30 pounds of food.~
+@1210 = ~I want 10 pounds of food.~
+@1211 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1300 = ~Wretched ungrateful things, these halflings... don't understand true talent! Lazy, useless! They will rue their words when they learn that Wu Da is considering resigning!~
+@1301 = ~Hello, the lovely fragrances of your cooking are very appealing!~
+@1302 = ~We need dry food, do you have some here?~
+@1303 = ~Sorry to bother you, I'll leave.~
+
+@1304 = ~Oh! True connoisseurs of the culinary art!? Wu Da's skills are famous! Oh oh oh! Everything is delicious, and just  2 gold too!~
+@1305 = ~Thank you, Wu Da, this looks great!~
+@1306 = ~No, I changed my mind.~
+
+@1307 = ~I have delicious dry rations, 2 gold for every 10 pounds! Cheap cheap cheap! How much do you want?~
+@1308 = ~I want 50 pounds of food.~
+@1309 = ~I want 30 pounds of food.~
+@1310 = ~I want 10 pounds of food.~
+@1311 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1400 = ~This is the kitchen, don't stomp about, or Martha will get angry.~
+@1401 = ~Sorry, we just wanted to ask if you had something special and delicious to eat, today?~
+@1402 = ~We need some dry rations?~
+@1403 = ~I'll leave.~
+
+@1404 = ~Oh, you are in luck, these here are some of my special dishes, three coins of gold per person!~
+@1405 = ~Thank you, here's the money you asked for.~
+@1406 = ~No, I changed my mind.~
+
+@1407 = ~Long-term preservation of food cost 10 gold per pound, ok?~
+@1408 = ~I want 50 pounds of food.~
+@1409 = ~I want 30 pounds of food.~
+@1410 = ~I want 10 pounds of food.~
+@1411 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1500 = ~Hey, buddy, this is the kitchen, please don't come in unless you are asked!~
+@1501 = ~What do you have here today that is particularly delicious?~
+@1502 = ~We need some dry food, do you have any available?~
+@1503 = ~I'll leave.~
+
+@1504 = ~Here are my specialities, just 4 coins of gold per person.~
+@1505 = ~Thank you, here's the money you ask for.~
+@1506 = ~No, I changed my mind.~
+
+@1507 = ~There's only a few left, 10 gold per pound, how much do you want?~
+@1508 = ~I want 50 pounds of food.~
+@1509 = ~I want 30 pounds of food.~
+@1510 = ~I want 10 pounds of food.~
+@1511 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1600 = ~Greetings patrons, what can I do for you?~
+@1601 = ~Do you have some delicious specialities to point out?~
+@1602 = ~We need some dry food, do you have it here?~
+@1603 = ~I'll leave.~
+
+@1604 = ~Yes, come come. Tantalise your taste buds!~
+@1605 = ~Thank you, here's your tip.~
+@1606 = ~No, I changed my mind.~
+
+@1607 = ~Long-term preservation of food costs 10 gold, ok?~
+@1608 = ~I want 50 pounds of food.~
+@1609 = ~I want 30 pounds of food.~
+@1610 = ~I want 10 pounds of food.~
+@1611 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1700 = ~Please leave! I have to prepare a meal for the Duke!~
+@1701 = ~Do you have anything particularly tasty to eat?~
+@1702 = ~We need some dry rations, do you have some here?~
+@1703 = ~I'll leave.~
+
+@1704 = ~Are you DEAF?! The Duke is... oh very well, here, I dare you to find something more delicious!~
+@1705 = ~Thank you!~
+@1706 = ~No, I chang my mind.~
+
+@1707 = ~Long-term food preservation costs 10 gold each, ok?~
+@1708 = ~I want 50 pounds of food.~
+@1709 = ~I want 30 pounds of food.~
+@1710 = ~I want 10 pounds of food.~
+@1711 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1800 = ~This is MY kitchen! And I don't like uninvited guests! Get out!~
+@1801 = ~I wish to taste you finest, and I pay well.~
+@1802 = ~We need some dry rations, do you have any?~
+@1803 = ~I'll leave.~
+
+@1804 = ~Oh my, why didn't you say so?! You're lucky, here! Some of my finest!~
+@1805 = ~Thank you, here's the money you ask for.~
+@1806 = ~No, I changed my mind.~
+
+@1807 = ~Long-term preservation of food costs 10 gold, ok?~
+@1808 = ~I want 50 pounds of food.~
+@1809 = ~I want 30 pounds of food.~
+@1810 = ~I want 10 pounds of food.~
+@1811 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@1900 = ~Leave my kitchen! I have to serve all the tables! Get out!~
+@1901 = ~We want to ask if you have something particularly delicious here?~
+@1902 = ~We need some dry food, do you some?~
+@1903 = ~I'll leave.~
+
+@1904 = ~Oh, *special*, eh? Here! Only 4 gold... per person!~
+@1905 = ~Thank you, this is the money you ask for.~
+@1906 = ~No, I changed my mind.~
+
+@1907 = ~Are you adventurers? Long-term preservation costs 10 each, ok?~
+@1908 = ~I want 50 pounds of food.~
+@1909 = ~I want 30 pounds of food.~
+@1910 = ~I want 10 pounds of food.~
+@1911 = ~Sorry, I don't want anything.~
+////////////////////////////////////////////////////////////////////////////////////////
+@2000 = ~Oh, noble one, what can I do for you?~
+@2001 = ~Let us taste your finest!~
+@2002 = ~We need some dry food, do you have any?~
+@2003 = ~None of your business.~
+
+@2004 = ~It is my pleasure to serve.~
+@2005 = ~Nice, thank you!~
+@2006 = ~No, I am not hungy anymore.~
+
+@2007 = ~There's only a little left, long-term preservation of food costs 10 gold, how much do you want?~
+@2008 = ~I want 50 pounds of food.~
+@2009 = ~I want 30 pounds of food.~
+@2010 = ~I want 10 pounds of food.~
+@2011 = ~I don't want anything.~

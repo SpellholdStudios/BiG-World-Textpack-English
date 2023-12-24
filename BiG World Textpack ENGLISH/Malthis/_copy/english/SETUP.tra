@@ -1,0 +1,81 @@
+@0  = ~Malthis, the swashbuckler!~ 
+@1  = ~Malthis~
+@2  = ~When asked about his past, Malthis answers you somewhat reluctantly. He says that he comes from a small village near Eshpurta, and he and his family had to leave the village. He says the word "leave" with a bit of bitterness, but he does not elaborate, and his tone suggest further inquiry might anger him...~ 
+@3  = ~Onward, onward to futility!~ [MALTH03]
+@4  = ~Maybe we will survive longer than I thought.~ [MALTH04] 
+@5  = ~As leader, my aim will be to make sure ALL of us don't die... just some.~ [MALTH08]
+@6  = ~I am about to collapse from exhaustion, we will surely perish if we enter battle in such a weekend state!~ [MALTH09]
+@7  = ~We will all die horrible deaths.~ [MALTH17] 
+@8  = ~You do not seriously believe this group of misfits could survive a battle.~ [MALTH24]
+@9  = ~We are all doomed, let us run, while we still can!~ [MALTH02] 
+@10 = ~ARGHH!~ [MALTH39]
+@11 = ~My wounds are too deep, I will soon become dead.~ [MALTH11]
+@12 = ~In this majestic forest I feel so insignificant...~ [MALTH12] 
+@13 = ~In the bustle of the cities I feel very insignificant.~ [MALTH13]
+@14 = ~Life is so meaningless.~ [MALTH18] 
+@15 = ~Our quest is futile.~ [MALTH19]
+@16 = ~Whatever.~ [MALTH20]
+@17 = ~What is the point?~ [MALTH21]
+@18 = ~As you wish.~ [MALTH22] 
+@19 = ~It is not even worth the effort.~ [MALTH23]
+@20 = ~I do what I can, but please do not expect too much.~ [MALTH26] 
+@21 = ~Come on, let us save ourselves the trouble, lie down and die.~ [MALTH25] 
+@22 = ~Malthis's Leather Armor~
+@23 = ~This armor was made for Malthis by his friend, the Ranger Rondar Deer Eye.
+
+A group of ankhegs was attacking livestock near Eshpurta. Rondar Deer Eye was hired, due to his local fame as a ranger, to dispose of the beasts. He staked out in a group of trees overlooking the pens of a local farmer, waiting to ambush the beasts when they came at night to feed. He waited eight days before the creatures finally appeared.
+The fight turned hard, Rondar was constantly being assailed by a seasoned creature weaving amongst it's allies, using them as cover and hitting hard. Rondar would have been killed had it not been for a young man who appeared out of nowhere and jumping on the back of the hard hitting beast, plunging his dagger into the gaps between the scales with ferocious zeal. Rondar saw his chance, the beast being distracted by the young man on his back, and plunged his short sword into the creature's neck. The ankheg, in it's death throes threw the young man off, slamming himself against a rock, and thrashed around on the ground as ir died. Rondar ran to the man, he could not believe his eyes, as his terribly gashed body was healing rapidly before his eyes.
+Rondar wondered who or what he was, he thanked the gods for sending such a miraculous creature to save his life. The two men became fast friends. As a sign of gratitude he gave Malthis (the boy's name) this armor, the material came from the shell belonging to the beast that almost killed him.
+
+FEATURES:
+
+Special Abilities: wearer gets +4 to all saving throws and +10% magic resistance
+Armor Class: 3
+Weight: 5
+Can only be used by Malthis~ 
+@24 = ~Malthis has been wearing this ring since birth. It seems to have "adapted" to him over the years. He does not know what this ring is made of exactly.~
+@25 = ~Black Gutter~
+@26 = ~Black Gutter, a name that seems to herald darkness and death. Dark though the name sounds, it is a blade forged in friendship. It was made for Malthis by the dwarf blacksmith Rimbaar Ironfist, given to him as a reward and as a gift of  friendship. Malthis, after taking revenge for has family's death wandered aimlessly along the Sword Coast till he reached Neverwinter, where he met the Rimbaar in Crossroad Keep. Rimbaar needed exotic materials to craft weapons and armor for the steward of the keep. Malthis agreed to undertake dangerous expeditions into the surrounding mountains and Neverwinter wood in search of what was needed. They laboured night and day at the forge and fashioned a suit of armor and weapons for the Lord Protector. Some dark steel was left, which Rimbaar used to forge into a short sword and presented it to Malthis as a sign of his gratitude.
+
+FEATURES:
+
+THAC0: -3
+Damage: 1d6 (stabbing)
+Weight: 3
+Initiative factor: 3
+Weapon Skill: Short Sword
+Weapon type: 1-handed
+Can only be used by Malthis~
+@27 = ~Acid Thorn~
+@28 = ~This sword belonged to Rondar Deer Eye, so named because he was an excellent shot with the bow, famous for being able to hit moving targets as small as a deer's eye and moving as fast. 
+Rondar was a shrewd ranger, and a fast friend, ignoring the village gossip directed against Malthis. The two would often wander the woods together, in search og game or hunting trolls that had ventured too close to the village. One day Malthis returned to his village to find everyone, including his family, dead. He found his friend the ranger in the village square. Rondar pressed his sword into Malthis' hands before he breathed his last. Malthis swore revenge.
+
+FEATURES:
+
+Special skills: the wearer is immune to immobilization. For each successful hit, the weapon inflicts acid damage.
+THAC0: -2
+Damage: 1d6 +2 (stabbing) + Acid Damage
+Weight: 2
+Initiative Factor: 1
+Weapon Skill: Short Sword
+Weapon type: 1-handed
+Can only be used by Malthis~
+@29 = ~Summon Werewolf~
+@30 = ~Self-transformation: Gas cloud~
+@31 = ~Document~
+@32 = ~Letter
+
+Ensures that Malthis does not get in my way. Do NOT underestimate him. I will be in touch.~
+@33 = ~Message
+
+You find a piece of paper by the knight, a weathered message with the following text....
+
+Hear ye, Hear ye!
+
+Herein is declared our eternal gratitude, to our fierce friends Wertax, Dragonheart, Fedegar, Angus and Abazigal for their extraordinary help! They will always have a special place in our hearts.
+
+(The rest of the message is unfortunately weathered and can no longer be understood.)~
+@34 = ~Kern~
+@35 = ~Dindal~
+@36 = ~Install extension for ToB.~
+@37 = ~When asked about his past, Malthis answers you somewhat reluctantly. He says that he comes from a small village near Eshpurta, and he and his family had to leave the village. He says the word "leave" with a bit of bitterness, but he does not elaborate, and his tone suggest further inquiry might anger him...~

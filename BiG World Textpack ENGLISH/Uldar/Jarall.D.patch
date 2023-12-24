@@ -1,0 +1,23 @@
+--- Uldar\d\Jarall.D	Sun Sep 07 11:58:06 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\Jarall.D	Wed Aug 29 05:58:58 2012
+@@ -1,15 +1,15 @@
+ BEGIN ~Jarall~
+ 
+ IF ~NumTimesTalkedTo(0)~ THEN BEGIN DeGuardia
+-  SAY ~¡El Profeta tenía razón cuando predijo que unos insensatos intentarían atacar a su proveedor!~ 
++  SAY @0 
+       =
+-      ~¡Rápido hermanos, cumplid la voluntad del Profeta! ¡¡MATADLOS!!~
+-  IF ~~ THEN REPLY ~¡¿Qué demonios hacen aquí UNOS yuantis?! ¡¿Y que hace un humano con ellos?!...¡Espera! ¡Tus facciones, tus ojos...¡¡¿¿QUÉ ERES??!!~ GOTO Explicacion
+-  IF ~~ THEN REPLY ~¡Venid aquí culebrillas! ¡¡No se que demonios estáis haciendo aquí pero me voy a hacer con vuestra piel un cinturón con zapatos a juego~ DO ~ActionOverride("Jarall",Enemy()) SetGlobal("QueesJarall","GLOBAL",1)~ EXIT
++      @1
++  IF ~~ THEN REPLY @2 GOTO Explicacion
++  IF ~~ THEN REPLY @3 DO ~ActionOverride("Jarall",Enemy()) SetGlobal("QueesJarall","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Explicacion
+-  SAY ~¡Yo soy el futuro y tu, sangre caliente, eres el pasado! ¡Soy la herramienta con la que seréis castigados INFIELES! ¡Matadlos!¡ ¡MATADLOS!!~
++  SAY @4
+   IF ~~ THEN  DO ~ActionOverride("Jarall",Enemy()) SetGlobal("QueesJarall","GLOBAL",1)~ EXIT
+ END
+ 

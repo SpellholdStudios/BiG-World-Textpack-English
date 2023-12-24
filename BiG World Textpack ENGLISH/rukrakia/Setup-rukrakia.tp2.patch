@@ -1,0 +1,511 @@
+--- rukrakia\Setup-rukrakia.tp2	Sat Dec 04 09:49:07 2021
++++ C:\BWP Patchstudio\patched files\rukrakia\Setup-rukrakia.tp2	Sat Dec 04 16:35:31 2021
+@@ -1,15 +1,21 @@
+ BACKUP ~rukrakia/backup~
+ AUTHOR ~darktn@naver.com~
++AUTO_TRA ~rukrakia/%s~
+ VERSION ~v.08 BWP Fix~
++
+ LANGUAGE ~korean~
+          ~korean~
+          ~rukrakia/korean/setup.tra~
+ 
++LANGUAGE ~English~
++         ~English~
++         ~rukrakia/English/setup.tra~
++
+ BEGIN @0
+ 
+ REQUIRE_FILE ~Data/25Dialog.bif~ @125
+ 
+-PRINT ~이 모드는 BP용 detectable spell패치를 포함합니다. BP와 호환되지 않는 모드는 이 모드와 호환되지 않을 수 있습니다.~
++PRINT @301
+ 
+ ACTION_IF FILE_EXISTS ~Setup-GUI.tp2~
+ THEN BEGIN
+@@ -36,7 +42,7 @@
+ END
+ 
+ //*********************************************************************
+-PRINT ~Patching STATS.IDS...~
++PRINT @302
+ //*********************************************************************
+ COPY_EXISTING ~STATS.IDS~ ~override~
+   SET_2DA_ENTRY 0 0 1 ~1~   //that's a trick for WeiDU to handle row numbers properly - removes all leading empty rows
+@@ -178,7 +184,7 @@
+ 
+ 
+ //*********************************************************************
+-PRINT ~Implementing STATES...~
++PRINT @303
+ //*********************************************************************
+ 
+ COPY_EXISTING ~SPWI609.SPL~    ~override~
+@@ -559,9 +565,9 @@
+ // updates :  01-02-2006
+ //****************************************************************
+ 
+-PRINT ~이제부터 루크라키아 로맨스 모드를 설치합니다.~
++PRINT @304
+ 
+-PRINT ~이 모드는 월드맵변경을 포함합니다. 월드맵을 건드리는 모드와는 호환되지 않습니다.~
++PRINT @305
+ 
+ APPEND ~CLASS.ids~ ~202 LONG_BOW~
+  UNLESS ~LONG_BOW~
+@@ -898,28 +904,28 @@
+ // 스크립트 컴파일
+ 
+ COMPILE ~rukrakia/BAF/salvanas.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukrakia.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukstorm.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/ruksezar.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukmage1.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukadelb.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukcrusa.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukpries.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukamild.baf~
+ USING ~~
+@@ -931,25 +937,25 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/rukra25.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RUKUDDO2.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RUKUDDO3.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rumascom.baf~
+-USING ~rukrakia/korean/rumaster.tra~
++USING ~rukrakia/%LANGUAGE%/rumaster.tra~
+ 
+ COMPILE ~rukrakia/BAF/rumaster.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rumastgo.baf~
+-USING ~rukrakia/korean/rumaster.tra~
++USING ~rukrakia/%LANGUAGE%/rumaster.tra~
+ 
+ COMPILE ~rukrakia/BAF/rumasgoe.baf~
+-USING ~rukrakia/korean/rumaster.tra~
++USING ~rukrakia/%LANGUAGE%/rumaster.tra~
+ 
+ COMPILE ~rukrakia/BAF/rumscrol.baf~
+ USING ~~
+@@ -958,16 +964,16 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU6800.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU6801.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU6700.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RUMTRIG0.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukcoldb.baf~
+ USING ~~
+@@ -976,13 +982,13 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RUMAGECR.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RUMAGEMN.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RUMAGEST.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RUKNIGH1.baf~
+ USING ~~
+@@ -991,19 +997,19 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/rumastcr.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rumblach.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukbaldu.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/rumasco2.baf~
+-USING ~rukrakia/korean/rumaster.tra~
++USING ~rukrakia/%LANGUAGE%/rumaster.tra~
+ 
+ COMPILE ~rukrakia/BAF/rukbald#1.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/ruksezaf.baf~
+ USING ~~
+@@ -1015,10 +1021,10 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_WOOD1.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_SMITM.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_SMITH.baf~
+ USING ~~
+@@ -1032,10 +1038,10 @@
+ // 다이얼로그 컴파일
+ 
+ COMPILE ~rukrakia/D/ruksezar.d~
+-USING ~rukrakia/korean/ruksezar.tra~
++USING ~rukrakia/%LANGUAGE%/ruksezar.tra~
+ 
+ COMPILE ~rukrakia/D/rukmage1.d~
+-USING ~rukrakia/korean/rukmage1.tra~
++USING ~rukrakia/%LANGUAGE%/rukmage1.tra~
+ 
+ COMPILE ~rukrakia/D/rukadelb.d~
+ USING ~~
+@@ -1044,36 +1050,36 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/D/rukrakia.d~
+-USING ~rukrakia/korean/rukrakia.tra~
++USING ~rukrakia/%LANGUAGE%/rukrakia.tra~
+ 
+ COMPILE ~rukrakia/D/rukrap.d~
+-USING ~rukrakia/korean/rukrap.tra~
++USING ~rukrakia/%LANGUAGE%/rukrap.tra~
+ 
+ COMPILE ~rukrakia/D/Brukra.d~
+-USING ~rukrakia/korean/Brukra.tra~
++USING ~rukrakia/%LANGUAGE%/Brukra.tra~
+ 
+ COMPILE ~rukrakia/D/rukraj.d~
+-USING ~rukrakia/korean/rukraj.tra~
++USING ~rukrakia/%LANGUAGE%/rukraj.tra~
+ 
+ COMPILE ~rukrakia/D/Brukra25.d~
+-USING ~rukrakia/korean/Brukra25.tra~
++USING ~rukrakia/%LANGUAGE%/Brukra25.tra~
+ 
+ COMPILE ~rukrakia/D/rukra25j.d~
+-USING ~rukrakia/korean/rukra25j.tra~
++USING ~rukrakia/%LANGUAGE%/rukra25j.tra~
+ 
+ COMPILE ~rukrakia/D/rukra25p.d~
+-USING ~rukrakia/korean/rukra25p.tra~
++USING ~rukrakia/%LANGUAGE%/rukra25p.tra~
+ 
+ COMPILE ~rukrakia/D/rumaster.d~
+-USING ~rukrakia/korean/rumaster.tra~
++USING ~rukrakia/%LANGUAGE%/rumaster.tra~
+ 
+ COMPILE ~rukrakia/D/rumastcr.d~
+-USING ~rukrakia/korean/rumastcr.tra~
++USING ~rukrakia/%LANGUAGE%/rumastcr.tra~
+ COMPILE ~rukrakia/D/RU_WOOD1.d~
+-USING ~rukrakia/KOREAN/RU_WOOD1.tra~
++USING ~rukrakia/%LANGUAGE%/RU_WOOD1.tra~
+ 
+ COMPILE ~rukrakia/D/RU_SMITH.d~
+-USING ~rukrakia/KOREAN/RU_SMITH.tra~
++USING ~rukrakia/%LANGUAGE%/RU_SMITH.tra~
+ 
+ // EXTEND TOP
+ 
+@@ -1485,6 +1491,7 @@
+ ACTION_IF NOT FILE_EXISTS_IN_GAME ~AR5501.bcs~ THEN BEGIN
+ COPY ~rukrakia/BAF/RU5501.baf~ ~rukrakia/BCS/AR5501.baf~
+ COMPILE ~rukrakia/BCS/AR5501.baf~
++USING ~rukrakia/%LANGUAGE%/RU5501.tra~
+ COPY_EXISTING ~AR5501.are~ ~override~
+ WRITE_ASCII 0x94 ~AR5501~ #6
+ END ELSE BEGIN
+@@ -1492,7 +1499,7 @@
+ END
+ 
+ COMPILE ~rukrakia/BAF/RU6900.baf~
+-USING ~~
++USING ~rukrakia/%LANGUAGE%/RU6900.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU6901.baf~
+ USING ~~
+@@ -1501,16 +1508,16 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_ASIM.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_AZURE.baf~
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_CLOZE.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_CUTS1.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_CUTS2.baf~
+ USING ~~
+@@ -1522,13 +1529,13 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_CUTS5.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_CUTS6.baf~
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_CUTS7.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_CUTS8.baf~
+ USING ~~
+@@ -1546,10 +1553,10 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_HONMA.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_INFOM.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_JIN.baf~
+ USING ~~
+@@ -1561,55 +1568,55 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_KYRIX.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_LIME.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_MAGE1.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_MAXIM.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_MONID.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_MONIE.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_MUM.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_NILSS.baf~
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_POOL.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_PRIE1.baf~
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_RAIGE.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_RDSKE.baf~
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_SKEB.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_SKEM.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_SKES.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_SKEW.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_SLAV1.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_THIE1.baf~
+ USING ~~
+@@ -1618,7 +1625,7 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/BAF/RU_TRINF.baf~
+-USING ~rukrakia/korean/setup.tra~
++USING ~rukrakia/%LANGUAGE%/setup.tra~
+ 
+ COMPILE ~rukrakia/BAF/RU_TRINK.baf~
+ USING ~~
+@@ -1655,19 +1662,19 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/D/RU_AZURE.d~
+-USING ~rukrakia/KOREAN/RU_AZURE.tra~
++USING ~rukrakia/%LANGUAGE%/RU_AZURE.tra~
+ 
+ COMPILE ~rukrakia/D/RU_ASSA1.d~
+-USING ~rukrakia/KOREAN/RU_ASSA1.tra~
++USING ~rukrakia/%LANGUAGE%/RU_ASSA1.tra~
+ 
+ COMPILE ~rukrakia/D/RU_INFOM.d~
+-USING ~rukrakia/KOREAN/RU_INFOM.tra~
++USING ~rukrakia/%LANGUAGE%/RU_INFOM.tra~
+ 
+ COMPILE ~rukrakia/D/RU_ELBER.d~
+-USING ~rukrakia/KOREAN/RU_ELBER.tra~
++USING ~rukrakia/%LANGUAGE%/RU_ELBER.tra~
+ 
+ COMPILE ~rukrakia/D/RU_KYRIX.d~
+-USING ~rukrakia/KOREAN/RU_KYRIX.tra~
++USING ~rukrakia/%LANGUAGE%/RU_KYRIX.tra~
+ COMPILE ~rukrakia/D/RU_SLAV1.d~
+ USING ~~
+ COMPILE ~rukrakia/D/RU_SLAV2.d~
+@@ -1680,12 +1687,12 @@
+ USING ~~
+ 
+ COMPILE ~rukrakia/D/RU_JAMES.d~
+-USING ~rukrakia/KOREAN/RU_JAMES.tra~
++USING ~rukrakia/%LANGUAGE%/RU_JAMES.tra~
+ 
+ COMPILE ~rukrakia/D/RU_RAIGE.d~
+-USING ~rukrakia/KOREAN/RU_RAIGE.tra~
++USING ~rukrakia/%LANGUAGE%/RU_RAIGE.tra~
+ COMPILE ~rukrakia/D/RU_MUM.d~
+-USING ~rukrakia/KOREAN/RU_MUM.tra~
++USING ~rukrakia/%LANGUAGE%/RU_MUM.tra~
+ 
+ APPEND ~Specific.ids~
+   ~246 RUKRAKA_HARMONIC_SHADOW~
+@@ -2017,7 +2024,7 @@
+ // D파일
+ 
+ COMPILE ~rukrakia/STAGE/host/RU_host.d~
+-USING ~rukrakia/STAGE/host/RU_host.tra~
++USING ~rukrakia/%LANGUAGE%/RU_host.tra~
+ 
+ 
+ //**************************************************
+@@ -2025,7 +2032,7 @@
+ //**************************************************
+ BEGIN ~Add Rukrakia Areas to SOA Worldmap~
+ 
+-PRINT ~월드맵을 업데이트 합니다...~
++PRINT @306
+ 
+ INCLUDE ~rukrakia/LIB/add_map_icons.tpa~
+ //INCLUDE ~rukrakia/LIB/worldmap.tph~
+@@ -2056,7 +2063,7 @@
+ 
+ // call the sc#addWmpAre function
+   // returns the worldmap entry number for the new area
+-   LAUNCH_ACTION_FUNCTION sc#addWmpAre 
++  LAUNCH_ACTION_FUNCTION sc#addWmpAre 
+     INT_VAR mapIcon = %new_icon_index%
+             xCoord  = 1424
+             yCoord  = 567
+@@ -2066,7 +2073,7 @@
+             strName = "Black Forest"
+             strDesc = "Black Forest"
+             worldmap = "worldmap"
+-    RET areNum = areNum END
++  RET areNum = areNum END
+ 
+   // remove if not desired
+   PRINT ~RU6700 patched. New area number is: %areNum%~
+@@ -2437,7 +2444,7 @@
+ 
+ // call the sc#addWmpAre function
+   // returns the worldmap entry number for the new area
+-LAUNCH_ACTION_FUNCTION sc#addWmpAre 
++  LAUNCH_ACTION_FUNCTION sc#addWmpAre 
+     INT_VAR mapIcon = %new_icon_index%
+             xCoord  = 116
+             yCoord  = 455
+@@ -2447,7 +2454,7 @@
+             strName = "Sleeping Desert"
+             strDesc = "Sleeping Desert"
+             worldmap = "worldm25"
+-RET areNum = areNum END
++  RET areNum = areNum END
+ 
+   // remove if not desired
+   PRINT ~RU6901 patched. New area number is: %areNum%~
+@@ -2662,7 +2669,7 @@
+ //**************************************************
+ BEGIN ~Add Rukrakia Areas to BP-BGT-Worldmap~
+ 
+-PRINT ~월드맵을 업데이트 합니다...~
++PRINT @306
+ 
+ //INCLUDE ~rukrakia/LIB/add_map_icons.tpa~
+ //INCLUDE ~rukrakia/LIB/worldmap.tph~

@@ -1,0 +1,4 @@
+@0 = ~We know that you have been through some tough times, <CHARNAME>. For that we will ignore your hostility. However, you will not get our help... for the moment.~ 
+@1 = ~That is enough, <CHARNAME>! We will not be hostile to you, but you will not get help from me!~
+@2 = ~You don't have ToB installed.~ 
+@3 = ~You don't have SoA version of this mod installed.~

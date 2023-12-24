@@ -1,0 +1,2550 @@
+--- AviM\SoA\1xAviB.d	Sun Sep 27 21:41:48 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviB.d	Mon Mar 25 11:10:41 2013
+@@ -1,44 +1,44 @@
+ BEGIN 1xAviB
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ Global("AviEnemyDead","GLOBAL",3)
+ !Global("AviEnemyDialog","GLOBAL",1)~ THEN BEGIN 1xAviEx0
+-SAY~Dziêkujê ci za pomoc. Nie poradzi³abym sobie sama z tymi fanatykami. Widzisz, teraz mo¿e byæ ju¿ tylko lepiej. Oni nie ¿yj¹, ja ci pomagam no i do tego dobrze mieæ chyba nieumar³ego sojusznika, który w dodatku nie œmierdzi zgnilizn¹, co nie?~
+-IF~~ THEN DO ~SetGlobal("AviEnemyDialog","GLOBAL",1)~ EXIT
++SAY @0
++IF ~~ THEN DO ~SetGlobal("AviEnemyDialog","GLOBAL",1)~ EXIT
+ END
+ 
+ IF ~InParty("AviDV")
+ Global("AviRelationsActive","GLOBAL",1)
+ Global("AviBrother","GLOBAL",1)~ THEN BEGIN AviBr1x00
+-SAY~Zapomnia³am. Mam proœbê. Gdy ¿y³am, mieszka³am z bratem. Chcia³abym siê z nim zobaczyæ. Mo¿emy go odwiedziæ? Tak wiem, jestem problematyczna jak na zmar³a, ale mi na tym zale¿y.~
+-IF~~THEN REPLY~Dobra. Zobaczmy siê z twoim bratem.~ GOTO AviBr1x01
+-IF~~THEN REPLY~Wybacz. Nie bêdziemy siê zajmowaæ takimi sprawami.~ GOTO AviBr1x02
++SAY @1
++IF ~~ THEN REPLY@2 GOTO AviBr1x01
++IF ~~ THEN REPLY@3 GOTO AviBr1x02
+ END
+ 
+-IF~~THEN BEGIN AviBr1x01
+-SAY~Mi³o, ¿e spe³niasz proœby zdechlaków. Mój brat przebywa³ czasami w tutejszej œwi¹tyni. SprawdŸmy czy tam jest.~
+-IF~~THEN DO ~SetGlobal("AviBrother","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN AviBr1x01
++SAY @4
++IF ~~ THEN DO ~SetGlobal("AviBrother","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AviBr1x02
+-SAY~Dobrze. Zostawmy to, ale nie licz, ¿e ta duszyczka wskoczy póŸniej za tob¹ w ogieñ.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN AviBr1x02
++SAY @5
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~GlobalGT("LoveTalk","LOCALS",7) Global("AviLoveConflict","GLOBAL",1)~ THEN BEGIN AVI-L-01
+-SAY~<CHARNAME>, mam wra¿enie... One siê dziwnie na ciebie patrz¹... inne dziewczyny z dru¿yny. Nie podoba im siê to, ¿e ze mn¹ rozmawiasz... Czy chcesz bym z tob¹ ju¿ nie rozmawia³a?~
+-IF~~THEN REPLY~Nie, chcê rozmawiaæ z tob¹ w ten sposób jak to robimy i nie obchodzi mnie co oni s¹dz¹.~ GOTO AVI-L-02
+-IF~~THEN REPLY~Nie chce by relacje z tob¹ zmieni³y stosunek z innymi cz³onkami. Nie powinniœmy tylê rozmawiaæ.~ GOTO AVI-L-03
++IF ~GlobalGT("LoveTalk","LOCALS",7) Global("AviLoveConflict","GLOBAL",1)~ THEN BEGIN AVI-L-01
++SAY @6
++IF ~~ THEN REPLY@7 GOTO AVI-L-02
++IF ~~ THEN REPLY@8 GOTO AVI-L-03
+ END
+ 
+-IF~~ THEN BEGIN AVI-L-02
+-SAY~Dziêkujê... to wiele dla mnie znaczy, ¿ywy.~
+-IF~~THEN DO ~SetGlobal("AviLoveConflict","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN AVI-L-02
++SAY @9
++IF ~~ THEN DO ~SetGlobal("AviLoveConflict","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN AVI-L-03
+-SAY~Masz... Masz racjê.. Tak nie powinno byæ, ¿ywy...~
+-IF~~THEN DO ~SetGlobal("AviLoveConflict","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN AVI-L-03
++SAY @10
++IF ~~ THEN DO ~SetGlobal("AviLoveConflict","GLOBAL",3)~ EXIT
+ END
+ 
+ 
+@@ -47,265 +47,265 @@
+ 
+ 
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ Global("LoveTalk","LOCALS",1)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi01x00
+-SAY~Hmm, mi³o, ¿e zosta³am oswobodzona. Nie sta³oby siê tak gdyby nie ty. Ju¿ myœla³am, i¿ zostanê tam do koñca nie¿ycia. Jak taka zimna i bez czucia osoba jak ja mog³aby ci podziêkowaæ? Och, nie mów tylko bym ogrza³a ciê swoim cia³em, <CHARNAME>. Do tego przyda³oby mi siê kilka kilogramów cia³a a w tym stanie... sam rozumiesz.~
+-IF~~THEN REPLY ~No nie jesteœ taka nieczu³a. Co najwy¿ej martwa. (Mrugnij.)~ GOTO Avi01x01
+-IF~~THEN REPLY ~Po prostu b¹dŸ tutaj z nami. Nawet siê wyra¿ê - ca³ym swoim duchem.~ GOTO Avi01x02
+-IF~~THEN REPLY ~Nie mam ochoty na gadanie. Zmiataj, duszyczko.~ GOTO Avi01x03
+-IF~~THEN REPLY ~Nie mów tak o sobie... Mam wra¿enie jakbyœ nie lubi³a swojego obecnego stanu...~ GOTO Avi01x04
++SAY @11
++IF ~~ THEN REPLY @12 GOTO Avi01x01
++IF ~~ THEN REPLY @13 GOTO Avi01x02
++IF ~~ THEN REPLY @14 GOTO Avi01x03
++IF ~~ THEN REPLY @15 GOTO Avi01x04
+ END
+ 
+-IF~~THEN BEGIN Avi01x01
+-SAY~No tego nie da siê ukryæ. Bêdê szczêœliwa mog¹c ci pomagaæ. No mo¿e czasami pl¹taæ siê pod nogami. Bêdê ciê wspomagaæ pieœniami, mieczem i magi¹. Mo¿esz tak¿e liczyæ na moj¹ d³oñ gdy upadniesz. Niestety martwa ta d³oñ ale lepsza taka ni¿ ¿adna. Nie wierze byœ wola³ bardziej materialn¹, ale za to przegni³¹.~
+-IF~~THEN REPLY ~Fakt.~ GOTO Avi01x05
+-IF~~THEN REPLY ~Znalaz³em sobie jazgocz¹ce widmo do pomocy... Odczep siê ode mnie!~ GOTO Avi01x03
+-IF~~THEN REPLY ~Nie mów o sobie w tak negatywny sposób, Avi Mayu...~ GOTO Avi01x04
++IF ~~ THEN BEGIN Avi01x01
++SAY @16
++IF ~~ THEN REPLY @17 GOTO Avi01x05
++IF ~~ THEN REPLY @18 GOTO Avi01x03
++IF ~~ THEN REPLY @19 GOTO Avi01x04
+ END
+ 
+-IF~~THEN BEGIN Avi01x05
+-SAY~Mi³o mi, ¿e siê rozumiemy. Zosta³am zjaw¹ na w³asne ¿yczenie. Mo¿e ciê to dziwiæ, ale sta³oby siê to zrozumia³e na ³o¿u œmierci. Gdy ma siê wybór by zgin¹æ, lub pozostaæ na tym œwiecie w nie-¿yciu, lecz przy zdrowych zmys³ach. Pomóg³ mi w tym mój przyjaciel - nekromanta Koœciarz - ale to czêœæ mojej przesz³oœci, któr¹ wola³abym pozostawiæ za sob¹. Po cholerê rozmyœlaæ smuk³ej i martwej dziewuszce o czasach gdy mog³a przytyæ!~
+-IF~~THEN REPLY ~Nie musisz siê baæ. Ja siê nie dziwiê, i¿ dokona³aœ takiego, a nie innego wyboru. Du¿o osób post¹pi³oby tak samo.~ GOTO Avi01x06
+-IF~~THEN REPLY ~Znalaz³em sobie jazgocz¹ce widmo do pomocy... Odczep siê ode mnie! Denerwujesz mnie jak mrówki dreptaj¹ce po j¹drach!~ GOTO Avi01x03
+-IF~~THEN REPLY ~Nie mów o sobie w tak negatywny sposób, Avi Mayu. Mam wra¿enie, ¿e nie do koñca zaakceptowa³aœ to kim jesteœ.~ GOTO Avi01x04
++IF ~~ THEN BEGIN Avi01x05
++SAY @20
++IF ~~ THEN REPLY @21 GOTO Avi01x06
++IF ~~ THEN REPLY @22 GOTO Avi01x03
++IF ~~ THEN REPLY @23 GOTO Avi01x04
+ END
+ 
+-IF~~THEN BEGIN Avi01x06
+-SAY~(Avi Maya œmieje siê donoœnie, lecz szczerze. Blask œwiat³a przenika przez jej pó³-materialn¹ pow³okê sprawiaj¹c, ¿e blada poœwiata jej skóry zdaje siê jeszcze jaœniejsza.)~
++IF ~~ THEN BEGIN Avi01x06
++SAY @24
+ =
+-~Czemu mam siê nie baæ? Przecie¿ mnie to nie zabije! Jednak muszê powiedzieæ, ¿e takie traktowanie mnie jest doœæ urocze. Intryguj¹cy z ciebie mê¿czyzna... ch³opiec... A nie wa¿ne jakby ciebie nazwaæ. Nie wiem jakie tam masz doœwiadczenie w ró¿nych sprawach. (Avi Maya œmieje siê dalej po czym kiwa g³ow¹ w kierunku w którym zmierzaliœcie zanim Avi Maya zaczê³a rozmowê.)~
+-IF~~THEN  EXIT
++@25
++IF ~~ THEN  EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi01x02
+-SAY~Ha! Tego mogê dokonaæ! Nie powinno byæ z tym wiêkszych problemów, mo¿esz mi uwierzyæ, ch³opcze.~
+-IF~~THEN GOTO Avi01x08
++IF ~~ THEN BEGIN Avi01x02
++SAY @26
++IF ~~ THEN GOTO Avi01x08
+ END
+ 
+-IF~~THEN BEGIN Avi01x08
+-SAY~Bêdê wiêc z t¹ dru¿yn¹ *ca³ym* swoim duchem. Niestety nie dodam, ¿e cia³em te¿, chyba, ¿e wrócimy na cmentarz i wykopiemy je. Ale kto bêdzie to truch³o nosi³. Mi siê nie chce. Wystarczaj¹co d³ugo je nosi³am. Poza tym pewnie mo¿e ju¿ trochê œmierdzieæ. Nie ¿ebym siê nie my³a... oj, rozumiesz! Poza tym nie wiem czy gdybyœmy wykopali to cia³ko, to czy bym chcia³a patrzeæ jak¹ ma teraz "ziemist¹ cerê".~
+-IF~~THEN REPLY ~Uwielbiam twoje poczucie humoru! Zdajesz siê taka pogodna i nie obawiasz siê ¿artowaæ z takich spraw jak œmieræ!~ GOTO Avi01x09
+-IF~~THEN REPLY ~Znalaz³em sobie jazgocz¹ce widmo do pomocy... Odczep siê ode mnie! Nie bawi¹ mnie twoje ¿arty wiêc od razu daj sobie spokój.~ GOTO Avi01x03
+-IF~~THEN REPLY ~Nie mów o sobie w tak negatywny sposób. Nie potrafiê stwierdziæ, czy akceptujesz swój obecny stan czy nie.~ GOTO Avi01x04
++IF ~~ THEN BEGIN Avi01x08
++SAY @27
++IF ~~ THEN REPLY @28 GOTO Avi01x09
++IF ~~ THEN REPLY @29 GOTO Avi01x03
++IF ~~ THEN REPLY @30 GOTO Avi01x04
+ END
+ 
+-IF~~THEN BEGIN Avi01x09
+-SAY~Nie dziwie siê! Jestem dziewczyn¹, która lubi sobie trochê po¿artowaæ. Wêdrowanie by³oby nudne, gdyby wszyscy mówi wszystko na serio, bez ¿artów i z grobow¹ min¹. No a ty do tego jesteœ niezwyk³ym szczêœciarzem! Ma³o kto ma szanse na wêdrowanie z widmem i do tego tak piêknym!~
++IF ~~ THEN BEGIN Avi01x09
++SAY @31
+ =
+-~No a teraz powinniœmy rozprostowaæ koœci. Mówiê o twoich oczywiœcie Sprawê moich ju¿ poruszaliœmy. Ruszamy dalej?~
+-IF~~THEN REPLY ~Tak. Ruszajmy.~ GOTO Avi01x10
+-IF~~THEN REPLY ~Jeszcze nie. Powiedz mi, czemu mówisz o sobie czasami w tak negatywny i ironiczny sposób?~ GOTO Avi01x04
++@32
++IF ~~ THEN REPLY @33 GOTO Avi01x10
++IF ~~ THEN REPLY @34 GOTO Avi01x04
+ END
+ 
+-IF~~THEN BEGIN Avi01x10
+-SAY~No to gnajmy! Na z³amanie karku! (Avi Maya zaczyna œmiaæ siê szczerze i popycha ciê delikatnie w kierunku w którym zmierzaliœcie przed rozpoczêciem rozmowy.)~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi01x10
++SAY @35
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi01x04
+-SAY~Ech, nie wiem czy przepadam za tego typu rozmowami, je¿eli mam byæ szczera, ¿ywy.~
++IF ~~ THEN BEGIN Avi01x04
++SAY @36
+ =
+-~To nie jest tak, ¿e szydzê sama z siebie, mówiê w negatywny sposób o swoim istnieniu. Sama zdecydowa³am, ¿e bêdê wiod³a takie ¿ycie. Nie odesz³am, bo moja wola pozostania by³a tak wielka. Co bym robi³a póŸniej? Ma³a pomoc magii i nie muszê "prze¿ywaæ" tej poœmiertnej, boskiej nudy. Cieszê siê, ¿e przybra³am t¹ formê, tak jak powinieneœ siê cieszyæ i ty. Gdyby nie to to nie wêdrowalibyœmy razem.~
++@37
+ =
+-~To by chyba by³o na tyle... Nie ma sensu rozdmuchiwaæ tego tematu. Nie myœl sobie tylko, ¿e mnie urazi³eœ czy coœ.~
++@38
+ =
+-~No wiêc w drogê! Na z³amanie karku, kompani!~
+-IF~~THEN EXIT
++@39
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi01x03
+-SAY~Znalaz³ siê... Sztywniejszy od moich niedawnych s¹siadów. Nie opuszczam was tylko dlatego, bo bez ciebie stercza³abym dalej na cmentarzu. Po prostu ruszajmy dalej, ale nie oczekuj, ¿e bêdê rozmowna po takich s³owach.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi01x03
++SAY @40
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+ 
+ //////////////////////////////////2
+ 
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ Global("LoveTalk","LOCALS",2)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi02x00
+-SAY~(Widzisz, ¿e Avi Maya spogl¹da na ciebie gdy pijesz wodê z buk³aka. Trudno wyczytaæ z jej nieumar³ej twarzy co sobie myœli spogl¹daj¹c na twoj¹ osobê. Jej spojrzenie jest pewne siebie, zadowolone lecz po chwili przeplata siê z pewn¹ doz¹ roztargnienia. Przypomina to jakby przez chwile przypomnia³ siê jej pewien fakt, wspomnienie, lub po prostu odgania³a myœli.)~
+-IF~~THEN REPLY ~(Podaj jej buk³ak z wod¹.)~ GOTO Avi02x01
+-IF~~THEN REPLY ~Chcesz siê napiæ? Mam jeszcze jeden buk³ak, wiêc jak jesteœ spragniona, to siê nie krêpuj. Mówiê oczywiœcie o wodzie.~ GOTO Avi02x01
+-IF~~THEN REPLY ~Coœ siê sta³o? Mam wra¿enie jakby coœ zaprz¹ta³o twoj¹ g³owê, moja zmar³a kole¿anko. Coœ nie tak?~ GOTO Avi02x05
+-IF~~THEN REPLY ~Przestañ siê na mnie gapiæ.~ GOTO Avi02x02
+-IF~~THEN REPLY ~Ruszajmy dalej.~ GOTO Avi02x03
++SAY @41
++IF ~~ THEN REPLY @42 GOTO Avi02x01
++IF ~~ THEN REPLY @43 GOTO Avi02x01
++IF ~~ THEN REPLY @44 GOTO Avi02x05
++IF ~~ THEN REPLY @45 GOTO Avi02x02
++IF ~~ THEN REPLY @46 GOTO Avi02x03
+ END
+ 
+-IF~~THEN BEGIN Avi02x01
+-SAY~Zauwa¿y³eœ, ¿e jestem martwa? Niezbyt chce mi siê piæ... w przysz³oœci te¿ mi siê nie bêdzie chcia³o. Dobrze, ¿e nie jestem zombie. Jeszcze bym zgni³a. ~
+-IF~~THEN REPLY ~No nie pomyœla³em, trzeba przyznaæ ci racjê.~ GOTO Avi02x04
+-IF~~THEN REPLY ~Coœ siê sta³o? Mam wra¿enie jakby coœ zaprz¹ta³o twoj¹ g³owê, moja zmar³a kole¿anko. Nie masz humoru?~ GOTO Avi02x05
+-IF~~THEN REPLY ~Ech, no tak. Dobra, ruszajmy dalej.~ GOTO Avi02x03
+-IF~~THEN REPLY ~Wnerwiasz mnie.~ GOTO Avi02x02
++IF ~~ THEN BEGIN Avi02x01
++SAY @47
++IF ~~ THEN REPLY @48 GOTO Avi02x04
++IF ~~ THEN REPLY @49 GOTO Avi02x05
++IF ~~ THEN REPLY @50 GOTO Avi02x03
++IF ~~ THEN REPLY @51 GOTO Avi02x02
+ END
+ 
+-IF~~THEN BEGIN Avi02x04
+-SAY~Tak to ju¿ bywa z ¿ywymi. Œmieræ wiele by ciê nauczy³a.~
+-IF~~THEN REPLY ~Coœ siê sta³o? Mam wra¿enie jakby coœ zaprz¹ta³o twoj¹ g³owê. Nie masz humoru?~ GOTO Avi02x05
+-IF~~THEN REPLY ~Mmm... lepiej ju¿ ruszajmy...~ GOTO Avi02x03
+-IF~~THEN REPLY ~Takie odzywki niezwykle mnie denerwuj¹. Prawie tak jak ty.~ GOTO Avi02x02
++IF ~~ THEN BEGIN Avi02x04
++SAY @52
++IF ~~ THEN REPLY @53 GOTO Avi02x05
++IF ~~ THEN REPLY @54 GOTO Avi02x03
++IF ~~ THEN REPLY @55 GOTO Avi02x02
+ END
+ 
+-IF~~THEN BEGIN Avi02x03
+-SAY~Dobra, dobra idziemy. Nie rozumiem czemu ¿ywi tak wszêdzie biegaj¹... od œmierci i tak nie uciekn¹. No ale ona nie jest taka z³a!~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi02x03
++SAY @56
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi02x02
+-SAY~Jaki dra¿liwy! No to trudno. Na przysz³oœæ, naucz siê traktowaæ wszystko z wiêkszym dystansem.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi02x02
++SAY @57
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi02x05
+-SAY ~E, to nic takiego. Nie wiesz, ¿e kobiety maj¹ czasami ciê¿kie dni...?~
++IF ~~ THEN BEGIN Avi02x05
++SAY @58
+ =
+-~Heh, nawet ¿arty mi dzisiaj chyba nie wychodz¹. W ka¿dym razie nic siê nie sta³o. Nie ma co zaprz¹taæ moj¹ g³owê, ale nie wiem czy po czêœci to nie jest swojego rodzaju problem. Nie muszê siê o nic martwiæ, uwa¿aæ na siebie ani nic takiego. Po prostu muszê przywykn¹æ ot i ca³a sprawa.~
++@59
+ =
+-~No ale nie róbmy tutaj stypy! Trochê uœmiechu, ¿ywy. Mo¿e lepiej mi powiesz o czym takim ciekawym ty rozmyœlasz. No i nie martw siê, ¿e niby mnie zgorszysz. No tak szczerze! O czym rozmyœla³ nasz m³ody poszukiwacz przygód?~
+-IF~~THEN REPLY ~O kobietach! No, ale chwilowo nie mam ¿adnej, wiêc muszê wystarczyæ sam sobie. (Zaœmiej siê.)~ GOTO Avi02x06
+-IF~~THEN REPLY ~O niczym szczególnym. Po prostu o naszych podró¿ach i o tym co teraz powinniœmy zrobiæ.~ GOTO Avi02x07
+-IF~~THEN REPLY ~O jedzeniu. Muszê przyznaæ, ¿e jestem doœæ g³odny.~ GOTO Avi02x07
+-IF~~THEN REPLY ~To chyba oczywiste, ¿e o kolejnych walkach. Uwielbiam je!~ GOTO Avi02x07
+-IF~~THEN REPLY ~Co za ró¿nica. Po prostu ruszajmy dalej.~ GOTO Avi02x08
++@60
++IF ~~ THEN REPLY @61 GOTO Avi02x06
++IF ~~ THEN REPLY @62 GOTO Avi02x07
++IF ~~ THEN REPLY @63 GOTO Avi02x07
++IF ~~ THEN REPLY @64 GOTO Avi02x07
++IF ~~ THEN REPLY @65 GOTO Avi02x08
+ END
+ 
+-IF~~THEN BEGIN Avi02x06
+-SAY ~Ah, sprawdzasz czy siê zarumieniê! Och, ale to chyba ci siê nie uda. Wiesz, te¿ mia³am kolegów i wiem jacy wy jesteœcie. Faceci myœl¹ chyba tylko o jednym! No, ale w sumie nie jest to takie z³e. Czasami doprowadza to do zabawnych historii. (Avi mruga w twoj¹ stronê.)~
++IF ~~ THEN BEGIN Avi02x06
++SAY @66
+ =
+-~Teraz ruszajmy, mój wyuzdany przyjacielu, zanim te kud³ate myœli przeistocz¹ siê w wyobra¿anie sobie nagich zjaw!~
+-IF~~THEN EXIT
++@67
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi02x07
+-SAY ~Hmm, to raczej doœæ przyziemne sprawy, ale za takim czymœ czasami têskniê, wiêc chyba mogê ciê zrozumieæ. Ta z któr¹ bêdziesz w przysz³oœci bêdzie z ciebie zadowolona. Dobrze mieæ blisko kogoœ twardo st¹paj¹cego po ziemi.~
++IF ~~ THEN BEGIN Avi02x07
++SAY @68
+ =
+-~No a do tego jesteœ ch³opem z krwi i koœci! (Avi Maya mruga w twoj¹ stronê i rusza przed siebie.)~
+-IF~~THEN EXIT
++@69
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi02x08
+-SAY ~Racja! Ruszajmy, <CHARNAME>!~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi02x08
++SAY @70
++IF ~~ THEN EXIT
+ END
+ 
+ 
+ ///////////////////////////////////////////3
+ 
+ 
+-IF~Global("LoveTalk","LOCALS",4)
++IF ~Global("LoveTalk","LOCALS",4)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi03x00
+-SAY~Mam dla ciebie kilka s³ów wyjaœnienia, <CHARNAME>. Widzisz, mo¿e czasami têskniê za byciem ¿yw¹... No ale to zimne cia³ko te¿ jest ca³kiem przyjemne. O ile mo¿na nazwaæ tê formê "cia³kiem". Gdybyœ zobaczy³ mnie za ¿ycia! P³aski brzuch, smuk³a figura, a biust! Place lizaæ! To znaczy... tak chyba siê mówi³o o jedzeniu... no ale nie przysz³o mi nic innego do g³owy.~
+-IF~~THEN REPLY ~Bycie nieuma³ym te¿ ma chyba swoje zalety. Teraz ju¿ zawsze bêdziesz mieæ tak¹ taliê, nie bêdziesz mia³a zmarszczek. Nie wiem jak tak z tymi sprawami, ale nie musisz siê martwiæ, ¿e zajdziesz w ci¹¿ê.~ GOTO Avi03x01
+-IF~~THEN REPLY ~No fakt, niez³e to "cia³ko". Mogê sobie wyobraziæ jak wygl¹da³aœ za ¿ycia, gdy by³aœ odrobinê mniej... blada. No ale w ¿yciu nie chodzi tylko o puls! (Mrugnij.)~ GOTO Avi03x02
+-IF~~THEN REPLY ~Ci¹gle gadasz. Mo¿esz do cholery w koñcu siê zamkn¹æ? Ci¹gle s³yszê tylko to "bla bla bla, ciupu-ciupu, ³e ³a ³o." Przymknij siê.~ GOTO Avi03x03
+-IF~~THEN REPLY ~Nie teraz, proszê. Mamy bardzo du¿o do zrobienia. Porozmawiamy innym razem, obiecujê.~ GOTO Avi03x04
++SAY @71
++IF ~~ THEN REPLY @72 GOTO Avi03x01
++IF ~~ THEN REPLY @73 GOTO Avi03x02
++IF ~~ THEN REPLY @74 GOTO Avi03x03
++IF ~~ THEN REPLY @75 GOTO Avi03x04
+ END
+ 
+-IF~~THEN BEGIN Avi03x01
+-SAY~Racja. Odpornoœæ na innych nieumar³ych, brak wp³ywu czasu, nie chorujê... no i co najwa¿niejsze - umarli nie tyj¹. No poza topielcami napuchniêtymi i nasi¹kniêtymi wod¹. Co do dzieci, no to faktem jest, ¿e nie muszê siê o to martwiæ, ale ju¿ nigdy nie bêdê matk¹. No, najwidoczniej nie ka¿demu jest to przeznaczone. Nic na to nie poradzimy. Koœci zosta³y rzucone - mówi¹c dok³adniej moje koœci do mojego grobu.~
+-IF~~THEN REPLY ~No i jeszcze ghule i ghasty. W koñcu lubi¹ sobie przek¹siæ parê dobrych zw³ok. Lepiej byæ ³adn¹ zjaw¹, a nie ropiej¹cym, zw³oko¿ernym czymœ.~ GOTO Avi03x05
+-IF~~THEN REPLY ~No ale a propos tego co mówi³aœ - "cia³ko" to faktycznie masz niczego sobie. Za ¿ycia musia³aœ byæ piêkn¹ dziewk¹, Avi!~ GOTO Avi03x02
+-IF~~THEN REPLY ~Dobra, nie mamy czasu teraz. Jazgoczesz i jazgoczesz. Musimy wykonaæ zadanie. Ruszajmy. A no i na przysz³oœæ - b¹dŸ cicho.~ GOTO Avi03x03
+-IF~~THEN REPLY ~Nie teraz, proszê. Mamy bardzo du¿o do zrobienia. Musimy ruszaæ.~ GOTO Avi03x04
++IF ~~ THEN BEGIN Avi03x01
++SAY @76
++IF ~~ THEN REPLY @77 GOTO Avi03x05
++IF ~~ THEN REPLY @78 GOTO Avi03x02
++IF ~~ THEN REPLY @79 GOTO Avi03x03
++IF ~~ THEN REPLY @80 GOTO Avi03x04
+ END
+ 
+-IF~~THEN BEGIN Avi03x02
+-SAY~O! Jak ¿eœ siê... *o¿ywi³*. Ha! Nie wiedzia³am, ¿e tak polubisz rozmowy ze zmar³ymi. Wiesz, wiêkszoœæ kap³anów by ciê wyklê³a, ukamienowa³a, a mo¿e i by powiesi³a. Nie mówi¹c ju¿ o pieœniach i obrzêdach które by odprawili by doprowadziæ ciê do ich "normalnoœci". Nie wiem czemu tak siê czepiaj¹ wszystkich zmar³ych. Rozumiem zombie i ghule, ale zgrabne widma? To ju¿ lekka przesada. (Avi Maya uœmiecha siê przebiegle.)~
+-IF~~THEN REPLY ~To ta twoja nieumar³a aura mnie tak o¿ywia. Brzmi to doœæ oksymoronicznie, no ale nie wiem jak to inaczej uj¹æ.~ GOTO Avi03x05
+-IF~~THEN REPLY ~Wybacz, lecz nie mamy wiêcej czasu. Musimy ruszaæ. Powinniœmy jeszcze zaj¹æ siê kilkoma sprawami. ~ GOTO Avi03x04
+-IF~~THEN REPLY ~Mam dla ciebie kolejn¹ radê - stul pysk. Irytujesz mnie.~ GOTO Avi03x03
++IF ~~ THEN BEGIN Avi03x02
++SAY @81
++IF ~~ THEN REPLY @82 GOTO Avi03x05
++IF ~~ THEN REPLY @83 GOTO Avi03x04
++IF ~~ THEN REPLY @84 GOTO Avi03x03
+ END
+ 
+-IF~~THEN BEGIN Avi03x05
+-SAY~To teraz porozmawiajmy o czymœ innym. Wiem, ¿e jesteœ dzieckiem Bhaala. Mam nadziejê, ¿e nie krêpuje ciê moja bezpoœrednioœæ, ale nie bawienie siê w tego typu s³owne podchody to strata czasu. No i mo¿e uda mi siê sprawiæ, ¿e siê s³odko zarumienisz. To by by³o coœ!~
+-IF~~THEN GOTO Avi03x06
++IF ~~ THEN BEGIN Avi03x05
++SAY @85
++IF ~~ THEN GOTO Avi03x06
+ END
+ 
+-IF~~THEN BEGIN Avi03x06
+-SAY ~Zanim zaczniesz pytaæ, po prostu powiem - duchy o tobie szepcz¹. Nawet teraz jest tutaj wiele duchów i cieni. Œwiaty siê na siebie nak³adaj¹. Powiedzmy, ¿e istniejê pomiêdzy nimi. Po prostu wiem to od "innych", ale poza tym tylko jakaœ ma³a i nieporadna zjawa nie wyczu³aby tej aury, która ciê otacza. Od pierwszego spotkania na cmentarzu ju¿ wiedzia³am, co doda³o temu spotkaniu jeszcze wiêcej pikanterii.~
++IF ~~ THEN BEGIN Avi03x06
++SAY @86
+ =
+-~No co masz tak¹ minê? Wola³eœ bym udawa³a, ¿e niczego nie wiem? To by by³o jak oszustwo, ale teraz mam wra¿enie, ¿e powiedzenie ci o wszystkim te¿ mog³o byæ niekoniecznie dobrym wyjœciem. Powiesz coœ wreszcie?~
+-IF~~THEN REPLY ~Ja... wybacz muszê to przemyœleæ... wszystko...~ GOTO Avi03x08
+-IF~~THEN REPLY ~Tak, jestem dzieckiem Bhaala. Mog³aœ mi powiedzieæ od razu, ¿e o tym wiesz. Teraz po prostu ruszajmy.~ GOTO Avi03x08
+-IF~~THEN REPLY ~I nic mi nie powiedzia³aœ, ty nieumar³a Ÿdziro? Potraktowa³aœ mnie jak dziecko!~ GOTO Avi03x09
++@87
++IF ~~ THEN REPLY @88 GOTO Avi03x08
++IF ~~ THEN REPLY @89 GOTO Avi03x08
++IF ~~ THEN REPLY @90 GOTO Avi03x09
+ END
+ 
+-IF~~THEN BEGIN Avi03x04
+-SAY~A jednak porozmawiamy teraz. Wiem, ¿e jesteœ dzieckiem Bhaala. Chcia³am powiedzieæ ci po krótkim wstêpie, by nie waliæ tak prosto z mostu, no ale widaæ, ¿e nie mia³eœ czasu na ten wstêp.~
+-IF~~THEN GOTO Avi03x06
++IF ~~ THEN BEGIN Avi03x04
++SAY @91
++IF ~~ THEN GOTO Avi03x06
+ END
+ 
+-IF~~THEN BEGIN Avi03x03
+-SAY~Tak, mogê. Bêdê milczeæ jak grób. (Oczy Avi Mayi œwiec¹ siê od wœciek³oœci, a na jej twarzy zawita³ specyficzny grymas ³¹cz¹cy siê z sarkastycznym uœmiechem. Avi Maya zaczyna iœæ nie czekaj¹c na ciebie.)~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi03x03
++SAY @92
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi03x08
+-SAY~Rozumiem, <CHARNAME>. W drogê wiêc.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi03x08
++SAY @93
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi03x09
+-SAY~Idioto! W³aœnie o wszystkim Ci powiedzia³am, bo uwa¿a³am, ¿e zrozumiesz! Ale w tym wypadku nie odzywaj siê do mnie! Zostanê tylko dlatego, ¿e wyzwoli³eœ mnie z niewidzialnego wiêzienia.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi03x09
++SAY @94
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+ //////////////////////////////////4
+ 
+-IF~Global("LoveTalk","LOCALS",6)
++IF ~Global("LoveTalk","LOCALS",6)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi04x00
+-SAY~Martwiê siê o mojego brata. Do czego to dosz³o, ¿e martwi siê martwi¹... no i do tego o ¿ywych... Praktycznie odciê³am siê od bliskich po pogrzebie. Nie wiem co siê dzieje z kimkolwiek z mojego by³ego otoczenia. Rodzice nie ¿yj¹, o swym bracie nie s³ysza³am od dawna. Pewnie sobie myœlisz, ¿e skoro rodzice nie ¿yj¹ to mogê sobie z nimi popytlowaæ, ale to tak nie dzia³a. Oni tak jakby... œpi¹. Ale co z bratem...~
+-IF~~THEN REPLY ~Nie martw siê. Natrafimy na niego prêdzej czy póŸniej. Obiecujê ci to, wiêc nie zamartwiaj siê ju¿ tak, "martwiaczko", dobrze?~ GOTO Avi04x01
+-IF~~THEN REPLY ~Nie mam zamiaru szukaæ twojego brata. Jak na niego nie natrafimy teraz to nie bêdê siê tym martwi³. To nie moja sprawa, duszyczko.~ GOTO Avi04x02
+-IF~~THEN REPLY ~Na pewno wszystko z nim dobrze. Teraz ruszajmy.~ GOTO Avi04x03
++SAY @95
++IF ~~ THEN REPLY @96 GOTO Avi04x01
++IF ~~ THEN REPLY @97 GOTO Avi04x02
++IF ~~ THEN REPLY @98 GOTO Avi04x03
+ END
+ 
+-IF~~THEN BEGIN Avi04x01
+-SAY~To naprawdê mi³e ze strony ¿ywego, ¿e pociesza zmar³¹. To nie jest coœ czêsto spotykanego, no ale chyba ciê¿ko siê dziwiæ.~
+-IF~~THEN REPLY ~Ca³kowicie ciê rozumiem. Nie powinnaœ o nim teraz myœleæ, tylko byæ pewna, ¿e wszystko jest dobrze. Skoro wspomnia³aœ o rodzicach to powiesz mi o nich coœ wiêcej?~ GOTO Avi04x04
+-IF~~THEN REPLY ~Nie martw siê... Ruszajmy.~ GOTO Avi04x03
+-IF~~THEN REPLY ~Oczywiœcie ¿artowa³em. Na pewno ju¿ jest martwy albo zadowala jakiœ bogatych szlachciców za parê miedziaków.~ GOTO Avi04x02
++IF ~~ THEN BEGIN Avi04x01
++SAY @99
++IF ~~ THEN REPLY @100 GOTO Avi04x04
++IF ~~ THEN REPLY @101 GOTO Avi04x03
++IF ~~ THEN REPLY @102 GOTO Avi04x02
+ END
+ 
+ 
+-IF~~THEN BEGIN Avi04x02
+-SAY~Jesteœ gnid¹. Ju¿ za ¿ycia jesteœ zjadany przez z³o.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi04x02
++SAY @103
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi04x03
+-SAY~Dziêkujê. Porozmawiamy póŸniej...~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi04x03
++SAY @104
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi04x04
+-SAY ~Chyba masz racjê.~
++IF ~~ THEN BEGIN Avi04x04
++SAY @105
+ =
+-~Co do rodziców to... no byli jak zwyczajni rodzice. Trochê mo¿na siê by³o na nich powœciekaæ, czasami pomagali, gonili moich ch³opaków bo nie podoba³o im siê, ¿e robili do mnie maœlane oczy. Gdyby tylko wiedzieli, ¿e nasza znajomoœæ nie koñczy³a siê tylko na zerkaniu na mnie. Po prostu zawsze by³am dziewczyn¹, która lubi próbowaæ nowych rzeczy.~
++@106
+ =
+-~Kocha³am rodziców, ale oni zmarli - zamordowani przez morderców na szlaku do Wrót Baldura. Chcieli odwiedziæ moj¹ ciotkê, a ja z bratem zostaliœmy tutaj. Zajmowa³a siê nami s¹siadka. Wszystkiego siê dowiedzieliœmy od cioci.~
++@107
+ =
+-~No ale dosyæ tej smuty! Nie wiem czemu w ogóle chce ci siê s³uchaæ zwierzeñ martwej kobitki. Ty to musisz mieæ pomieszane w tej g³owie! Nied³ugo zaczniesz podrywaæ je¿e albo ca³owaæ meduzy! To teraz chyba powinniœmy ruszaæ, hmm?~
+-IF~~THEN REPLY ~Masz racjê. Ruszajmy! No i nie denerwuj siê. Na pewno wpadniemy na twojego brata!~ GOTO Avi04x03
+-IF~~THEN REPLY ~Dobra, doœæ bajek i wracamy na szlak.~ GOTO Avi04x05
+-IF~~THEN REPLY ~Ale wszystko z tob¹ dobrze, Avi?~ GOTO Avi04x06
++@108
++IF ~~ THEN REPLY @109 GOTO Avi04x03
++IF ~~ THEN REPLY @110 GOTO Avi04x05
++IF ~~ THEN REPLY @111 GOTO Avi04x06
+ END
+ 
+-IF~~THEN BEGIN Avi04x05
+-SAY ~Dobra! No to ruszajmy! Ku przygodzie, mój oddychaj¹cy przyjacielu!~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi04x05
++SAY @112
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi04x06
+-SAY ~Oj, ¿ywy, za kogo ty mnie masz? Jestem babk¹ która umie sobie poradziæ. Nie jestem nieporadn¹ siks¹ czy wiecznie za³aman¹ córk¹ banshee. Ja wiem czego chcê, wiem jak walczyæ i jak sprawiæ, ¿e ch³opak chce siê mn¹ zaj¹æ. (Avi Maya figlarnie siê uœmiecha i zaczyna iœæ.)~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi04x06
++SAY @113
++IF ~~ THEN EXIT
+ END
+ 
+ 
+@@ -318,984 +318,984 @@
+ ////////////////////////////////5
+ 
+ 
+-IF~Global("LoveTalk","LOCALS",8)
++IF ~Global("LoveTalk","LOCALS",8)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi05x00
+-SAY~<CHARNAME>, wtedy jak powiedzia³am, ¿e wiem kim jesteœ, chyba zrobi³am to w niezwykle "martwy" sposób. Mog³am to wszystko wyjawiæ inaczej. Hmm, s¹dzê, ¿e bym ciê za to przeprosi³a, gdyby nie to, ¿e jestem doœæ dumnym duchem. Jednak¿e, postanowi³a, ¿e przynajmniej powiem ci to w taki sposób.~
+-IF~~THEN REPLY ~Nic siê nie sta³o, Avi Mayu. Nie musisz mnie przepraszaæ. Rozumiem.~ GOTO Avi05x01
+-IF~~THEN REPLY ~Dziêkujê. Mo¿e i masz racjê, ale w ka¿dym razie nic siê nie sta³o...~ GOTO Avi05x02
+-IF~~THEN REPLY ~Trochê za póŸno to mówisz. Za du¿o tego wszystkiego, wiêc mówiê doœæ. Nie mêcz mnie wiêcej.~ GOTO Avi05x03
++SAY @114
++IF ~~ THEN REPLY @115 GOTO Avi05x01
++IF ~~ THEN REPLY @116 GOTO Avi05x02
++IF ~~ THEN REPLY @117 GOTO Avi05x03
+ END
+ 
+-IF~~THEN BEGIN Avi05x01
+-SAY~Dobrze, ¿e nie przejmujesz siê tym. Wiesz, podoba mi siê podró¿owanie z tob¹. Czuje siê taka ¿ywa! Jestem najbardziej ¿ywa wœród nie¿ywych! Po prostu wprawiacie mnie w dobry nastrój!~
+-IF~~THEN REPLY ~No jesteœ na pewno ¿ywsza ni¿ znany mi Xan.~ GOTO Avi05x04
+-IF~~THEN REPLY ~(Zaœmiej siê.)~ GOTO Avi05x09
++IF ~~ THEN BEGIN Avi05x01
++SAY @118
++IF ~~ THEN REPLY @119 GOTO Avi05x04
++IF ~~ THEN REPLY @120 GOTO Avi05x09
+ END
+ 
+-IF~~THEN BEGIN Avi05x04
+-SAY~To ten od Ksiê¿ycowego Ostrza? Pamiêtam jak duchy szepta³y o nim! Podobno okropnie marudny! Czasami siê zachowuje jakby jego matk¹ by³a banshee. Ci¹gle wyje i zawodzi. Nie zdziwiê siê jak zacznie p³akaæ po k¹tach!~
+-IF~~THEN REPLY ~Nie by³o z nim tak Ÿle. Ruszajmy!~ GOTO Avi05x06
+-IF~~THEN REPLY ~(Zaœmiej siê.)~ GOTO Avi05x05
++IF ~~ THEN BEGIN Avi05x04
++SAY @121
++IF ~~ THEN REPLY @122 GOTO Avi05x06
++IF ~~ THEN REPLY @120 GOTO Avi05x05
+ END
+ 
+-IF~~THEN BEGIN Avi05x05
+-SAY~Masz ³adny œmiech. Taki szczery. Muszê powiedzieæ, ¿e to doœæ urocze. Ech, nie wiem czemu tak siê rozczulam nad tob¹! To chyba jakiœ dziwny sentyment albo co! W ka¿dym razie, masz ³adny uœmiech.~
+-IF~~THEN REPLY ~Nie by³o tak Ÿle z Xanem. Czasem nawet zabawnie. Ruszajmy!~ GOTO Avi05x06
+-IF~~THEN REPLY ~Dziêkujê.~ GOTO Avi05x07
+-IF~~THEN REPLY ~Ty tak¿e.~ GOTO Avi05x08
++IF ~~ THEN BEGIN Avi05x05
++SAY @123
++IF ~~ THEN REPLY @124 GOTO Avi05x06
++IF ~~ THEN REPLY @125 GOTO Avi05x07
++IF ~~ THEN REPLY @126 GOTO Avi05x08
+ END
+ 
+-IF~~THEN BEGIN Avi05x08
+-SAY~Dobrze, ¿e trupy nie mog¹ siê rumieniæ!~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi05x08
++SAY @127
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi05x07
+-SAY~Dobra, ruszajmy dalej! (Avi Maya uœmiecha siê szczerze.)~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi05x07
++SAY @128
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi05x06
+-SAY~Wierzê. Na pewno mo¿na by³o siê poœmiaæ. No to ruszamy!~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi05x06
++SAY @129
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi05x09
+-SAY~Jaki ³adny œmiech! Prawie jak ten gdy jeszcze podró¿owa³eœ z Xanem! Zupe³nie jakbyœ siê w ogóle nie postarza³...~
+-IF~~THEN REPLY ~Sk¹d ty...~ GOTO Avi05x07
+-IF~~THEN REPLY ~Jak ty mo¿esz to wiedzieæ? Taka piêkna... szkoda, ¿e jesteœ martwa.~ GOTO Avi05x08
++IF ~~ THEN BEGIN Avi05x09
++SAY @130
++IF ~~ THEN REPLY @131 GOTO Avi05x07
++IF ~~ THEN REPLY @132 GOTO Avi05x08
+ END
+ 
+-IF~~THEN BEGIN Avi05x02
+-SAY~No ale jest ju¿ dobrze! To znaczy na tyle dobrze jak na trupa i ¿ywego przyjaŸni¹cych siê!~
+-IF~~THEN REPLY ~Jesteœ ca³kiem ¿ywa jak na zmar³¹. No ¿ywsza ni¿ elf Xan.~ GOTO Avi05x04
+-IF~~THEN REPLY ~(Zaœmiej siê.)~ GOTO Avi05x05
++IF ~~ THEN BEGIN Avi05x02
++SAY @133
++IF ~~ THEN REPLY @134 GOTO Avi05x04
++IF ~~ THEN REPLY @120 GOTO Avi05x05
+ END
+ 
+-IF~~THEN BEGIN Avi05x03
+-SAY~Skoro... skoro tak uwa¿asz...~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi05x03
++SAY @135
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+ ///////////////////////////////////6
+ 
+-IF~Global("LoveTalk","LOCALS",10)
++IF ~Global("LoveTalk","LOCALS",10)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi06x00
+-SAY~Zazwyczaj kiedy patrzê w niebo widzê jakie jest ¿ycie tego œwiata. Pe³ne kolorów, uœmiechów, ³ez i innych takich bzdetów... No, ale jednak mi³ych bzdetów. Nie wiem czy dalej do niego pasujê... to znaczy do tego œwiata. Jestem martwa, moje zw³oki gnij¹ sobie w Targowie, nie wiadomo gdzie jest mój brat... Mo¿e tak jak umar³am dla œwiata, to œwiat powinien umrzeæ dla mnie. To prawdopodobnie by³oby najlepsze wyjœcie, ale jakoœ trudno mi po¿egnaæ to wszystko.~
+-IF~~THEN REPLY ~Gdzie siê podzia³ twój humor, Avi Mayu? Coœ siê sta³o?~ GOTO Avi06x01
+-IF~~THEN REPLY ~Dla mnie nie umar³aœ. Jesteœ tak ¿ywa jak ja. Rozmawiamy, œmiejemy siê, no a to chyba najlepszy dowód, ¿e masz w sobie wiele ¿ycia.~ GOTO Avi06x02
+-IF~~THEN REPLY ~Przestaniesz kiedyœ jêczeæ jak podrzêdna zjawa w zamku?~ GOTO Avi06x03
+-IF~~THEN REPLY ~No ale nie jesteœ taka znowu martwa...~ GOTO Avi06x02
++SAY @136
++IF ~~ THEN REPLY @137 GOTO Avi06x01
++IF ~~ THEN REPLY @138 GOTO Avi06x02
++IF ~~ THEN REPLY @139 GOTO Avi06x03
++IF ~~ THEN REPLY @140 GOTO Avi06x02
+ END
+ 
+-IF~~THEN BEGIN Avi06x01
+-SAY~Po prostu ciê¿ko byæ nieumar³ym w œwiecie ¿ywych. Kap³ani, spojrzenia tych co mnie widz¹ i ci którzy mnie nawet nie widz¹... Po prostu mnie to wnerwia. Jakbym by³a równoczeœnie ¿ywa i martwa. To doœæ frustruj¹ce.~
+-IF~~THEN REPLY ~Przestaniesz kiedyœ jêczeæ jak podrzêdna zjawa w zamku?~ GOTO Avi06x03
+-IF~~THEN REPLY ~Przecie nie jest tak Ÿle. Wêdrujesz z ludŸmi którzy ciê szanuj¹.~ GOTO Avi06x04
+-IF~~THEN REPLY ~(Przytul Avi Mayê.)~ GOTO Avi06x09
++IF ~~ THEN BEGIN Avi06x01
++SAY @141
++IF ~~ THEN REPLY @139 GOTO Avi06x03
++IF ~~ THEN REPLY @142 GOTO Avi06x04
++IF ~~ THEN REPLY @143 GOTO Avi06x09
+ END
+ 
+-IF~~THEN BEGIN Avi06x04
+-SAY~I co? Sam musisz mi pomagaæ bym nie utraci³a tej pó³-cielesnej formy, sprawiam wam nikiedy k³opoty, kap³ani za mn¹ nie przepadaj¹. Dziêkujê za twoje s³owa, ale nie jestem idiotk¹. Wiem, ¿e pewnie smêcê, ale kobiety tak czasem maj¹.~
+-IF~~THEN REPLY ~Dla mnie jesteœ ¿ywa i koniec kropka.~ GOTO Avi06x02
+-IF~~THEN REPLY ~(Przytul Avi Mayê.)~ GOTO Avi06x09
+-IF~~THEN REPLY ~Przestaniesz kiedyœ jêczeæ i marudziæ. Nie mam zamiaru ci¹gle ciê s³uchaæ. Swoj¹ drog¹, masz chyba racjê.~ GOTO Avi06x03
++IF ~~ THEN BEGIN Avi06x04
++SAY @144
++IF ~~ THEN REPLY @145 GOTO Avi06x02
++IF ~~ THEN REPLY @143 GOTO Avi06x09
++IF ~~ THEN REPLY @146 GOTO Avi06x03
+ END
+ 
+-IF~~THEN BEGIN Avi06x02
+-SAY~To spróbuj mnie dotkn¹æ. Poczujesz ch³ód, mo¿e delikatn¹ formê albo w ogóle ci siê nie uda. Tak ju¿ bêdzie i tyle. Nic nie mo¿na poradziæ tak jak rêka odciêta toporkiem sama nie odroœnie.~
+-IF~~THEN REPLY ~(Przytul Avi Mayê.)~ GOTO Avi06x09
+-IF~~THEN REPLY ~Jesteœ dla mnie naprawdê wa¿na.~ GOTO Avi06x05
+-IF~~THEN REPLY ~Przestaniesz kiedyœ jêczeæ i marudziæ. Nie mam zamiaru ci¹gle ciê s³uchaæ. Swoj¹ drog¹, masz chyba racjê.~ GOTO Avi06x03
++IF ~~ THEN BEGIN Avi06x02
++SAY @147
++IF ~~ THEN REPLY @143 GOTO Avi06x09
++IF ~~ THEN REPLY @148 GOTO Avi06x05
++IF ~~ THEN REPLY @146 GOTO Avi06x03
+ END
+ 
+-IF~~THEN BEGIN Avi06x05
+-SAY~Dziêkujê. Jednak¿e co bêdzie dalej. Bêdziecie mnie chroniæ, przez to poœwiêcenie towarzysze bêd¹ gin¹æ, a ja i tak wszystkich prze¿yje bo czas nie ma na mnie wp³ywu?~
++IF ~~ THEN BEGIN Avi06x05
++SAY @149
+ =
+-~Przepraszam, nie powinnam tyle byæ taka pesymistyczna i za³amana. Po prostu jestem nieumar³¹ od niedawna. Nie wiem jak mam wszystko odbieraæ, jak mam ¿yæ...~
++@150
+ =
+-~Ach... ja nie ¿yjê...~
+-IF~~THEN EXIT
++@151
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi06x09
+-SAY~(Kiedy chcesz przytuliæ Avi Mayê nagle twoje ramiona i rêce przenikaj¹ przez pow³okê dziewczyny. Spogl¹dasz zak³opotany w jej oczy.) Ja... (Oczy Avi bledn¹ i nie pal¹ siê tym œwiat³em co zwykle.) Widzisz? To jest straszne. Chyba chcê byœ mnie zostawi³ chwilê sam¹.~
+-IF~~THEN REPLY ~Dopiero teraz widzê jakie masz oczy i jak wygl¹da³y niegdyœ. S¹ piêkne.~ GOTO Avi06x08
+-IF~~THEN REPLY ~Przykro mi, Avi...~ GOTO Avi06x08
++IF ~~ THEN BEGIN Avi06x09
++SAY @152
++IF ~~ THEN REPLY @153 GOTO Avi06x08
++IF ~~ THEN REPLY @154 GOTO Avi06x08
+ END
+ 
+-IF~~THEN BEGIN Avi06x08
+-SAY~(Avi Maya uœmiecha siê po raz pierwszy podczas rozmowy.) Dziêki, <CHARNAME>. Ty to umiesz pocieszaæ zmar³ych. Idziemy na cmentarz? Mo¿e uda ci siê rozruszaæ tych sztywniaków jak czasami umiesz rozruszaæ mnie.~
+-IF~~THEN REPLY ~Twoja radoœæ jest trochê nieszczera, ale ciesze siê, ¿e jest ju¿ lepiej.~ GOTO Avi06x10
+-IF~~THEN REPLY ~Dobrze, ¿e ju¿ z tob¹ lepiej.~ GOTO Avi06x10
++IF ~~ THEN BEGIN Avi06x08
++SAY @155
++IF ~~ THEN REPLY @156 GOTO Avi06x10
++IF ~~ THEN REPLY @157 GOTO Avi06x10
+ END
+ 
+-IF~~THEN BEGIN Avi06x10
+-SAY~Nie martw siê. Fakt, jest ju¿ lepiej i nied³ugo bêdzie jak zazwyczaj. Jakby nie to, ¿e nie ¿yjê powiedzia³abym, i¿ to przez kobiece sprawy, a tak mogê zrzuæ to jedynie na swoje niczym nie wywo³ane humorki.~
++IF ~~ THEN BEGIN Avi06x10
++SAY @158
+ =
+-~Idziemy. Pora wyruszyæ w drogê.~
+-IF~~THEN EXIT
++@159
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi06x03
+-SAY~Mam wiêcej serca w sobie, ni¿ taka osoba jak ty. Móg³byœ przynajmniej staraæ siê zrozumieæ! OdejdŸ!~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi06x03
++SAY @160
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+ ////////////////////////////7
+ 
+-IF~Global("LoveTalk","LOCALS",12)
++IF ~Global("LoveTalk","LOCALS",12)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi07x00
+-SAY~<CHARNAME>, pos³uchaj! Przychodzi nieumar³a do znachora...~
+-IF~~THEN REPLY ~Daj spokój... Takie odzywki niezbyt mnie œmiesz¹.~ GOTO Avi07x01
+-IF~~THEN REPLY ~(Zacznij siê œmiaæ.)~ GOTO Avi07x02
+-IF~~THEN REPLY ~Niezbyt œmieszne.~ GOTO Avi07x01
++SAY @161
++IF ~~ THEN REPLY @162 GOTO Avi07x01
++IF ~~ THEN REPLY @163 GOTO Avi07x02
++IF ~~ THEN REPLY @164 GOTO Avi07x01
+ END
+ 
+-IF~~THEN BEGIN Avi07x02
+-SAY~Widzisz? Jak ja opowiadam ten ¿art to nawet nie muszê koñczyæ!~
++IF ~~ THEN BEGIN Avi07x02
++SAY @165
+ =
+-~Ach, po prostu te¿ chcia³am znowu us³yszeæ jak siê œmiejesz. Mam wra¿enie, ¿e by³eœ ostatnio doœæ posêpny. No ale Avi powie dwa s³ówka, klaœnie w rêce, podrzuci biustem i od razu wszystkie z³e nastroje przechodz¹.~
++@166
+ =
+-~Ale mam nadziejê, ¿e nic strasznego siê nie sta³o.~
+-IF~~THEN REPLY ~E, nie takiego. A ty jesteœ po prostu niesamowita!~ GOTO Avi07x03
+-IF~~THEN REPLY ~Ale ju¿ ruszajmy.~ GOTO Avi07x04
+-IF~~THEN REPLY ~E to po prostu przez te wszystkie przygody, decyzje. To by by³o na tyle.~ GOTO Avi07x06
++@167
++IF ~~ THEN REPLY @168 GOTO Avi07x03
++IF ~~ THEN REPLY @169 GOTO Avi07x04
++IF ~~ THEN REPLY @170 GOTO Avi07x06
+ END
+ 
+-IF~~THEN BEGIN Avi07x06
+-SAY ~Hmm, chyba ciê rozumiem, ale nie mo¿esz te¿ siê tak wszystkim denerwowaæ, bo bêdziesz mia³ jakieœ wrzody, impotencjê czy inne dziwne przypad³oœci, tak wiêc g³owa do góry i nos w chmury, panie dowódco!~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi07x06
++SAY @171
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi07x03
+-SAY~Mi³o, ¿e tak mówisz. Ju¿ mam lepszy humor ni¿ ostatnio. Cieszê siê tak¿e, i¿ mog³am poprawiæ twój humor. Chyba bêdê musia³a robiæ to czêœciej!~
++IF ~~ THEN BEGIN Avi07x03
++SAY @172
+ =
+-~Idziemy. Porozmawiamy póŸniej!~
+-IF~~THEN EXIT
++@173
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi07x01
+-SAY~Ech, ¿adnego poczucia humoru...~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi07x01
++SAY @174
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi07x04
+-SAY~No dobra. Mo¿e porozmawiamy póŸniej.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi07x04
++SAY @175
++IF ~~ THEN EXIT
+ END
+ 
+ /////////////////////////8
+ 
+ 
+-IF~Global("LoveTalk","LOCALS",14)
++IF ~Global("LoveTalk","LOCALS",14)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi08x00
+-SAY~<CHARNAME>, lubisz sztukê? Teatr, rzeŸbê, œpiew, taniec?~
+-IF~~THEN REPLY ~Nie zawracaj mi g³owy, babo.~ GOTO Avi08x01
+-IF~~THEN REPLY ~Tak. Mo¿e zatañczymy, moja pani?~ GOTO Avi08x02
+-IF~~THEN REPLY ~Nie przepadam za tymi "wspania³oœciami".~ GOTO Avi08x03
+-IF~~THEN REPLY ~Tak. Doœæ lubiê sztukê. ~ GOTO Avi08x04
++SAY @176
++IF ~~ THEN REPLY @177 GOTO Avi08x01
++IF ~~ THEN REPLY @178 GOTO Avi08x02
++IF ~~ THEN REPLY @179 GOTO Avi08x03
++IF ~~ THEN REPLY @180 GOTO Avi08x04
+ END
+ 
+-IF~~THEN BEGIN Avi08x02
+-SAY~S³ucham? Czy coœ ciê opêta³o...?~
+-IF~~THEN GOTO Avi08x05
++IF ~~ THEN BEGIN Avi08x02
++SAY @181
++IF ~~ THEN GOTO Avi08x05
+ END
+ 
+-IF~~THEN BEGIN Avi08x05
+-SAY~...poza mn¹ oczywiœcie. (Avi Maya uœmiecha siê do ciebie. Podchodzi i podaje rêkê.) No wiêc? Ma³e danse macabre? Nie spodziewa³am siê tego po tobie, ale skoro ju¿ proponujesz to jak¿e bym mog³a odmówiæ. (Uœmiecha siê.)~
+-IF~~THEN REPLY ~(Uœmiechnij siê i zacznij tañczyæ z Avi May¹.)~ GOTO Avi08x06
+-IF~~THEN REPLY ~Nie, jakoœ jednak nie... Tak tylko ¿artowa³em.~ GOTO Avi08x11
++IF ~~ THEN BEGIN Avi08x05
++SAY @182
++IF ~~ THEN REPLY @183 GOTO Avi08x06
++IF ~~ THEN REPLY @184 GOTO Avi08x11
+ END
+ 
+-IF~~THEN BEGIN Avi08x06
+-SAY~(zaczynacie tañczyæ. Taniec jest doœæ wolny lecz nabiera tempa. Avi Maya ma zamkniête oczy, a jej ruchy s¹ niezwykle precyzyjne i finezyjne. Przypomina liœæ delikatnie unoszony przez morsk¹ bryzê, przelatuj¹cy nad ŸdŸb³ami trawy. W tym porównaniu to ty jesteœ wiatrem który unosi Avi Mayê, co sprawia, ¿e uœmiech sam pojawia siê na twojej twarzy.)~
++IF ~~ THEN BEGIN Avi08x06
++SAY @185
+ =
+-~(Podczas tañca jej skóra zaczyna b³yszczeæ wewnêtrznym blaskiem. Na oko³o Avi zaczyna tañczyæ magiczna energia przypominaj¹ca tañcz¹cego wê¿a. Delikatne skry przypominaj¹ce œwietliki otaczaj¹ was, lecz po chwili znikaj¹ i wszystko wraca do normy.)~
++@186
+ =
+-~(Przestajecie tañczyæ. Avi Maya wci¹¿ posiada zamkniête oczy.)~
+-IF~~THEN REPLY ~Avi?~ GOTO Avi08x09
+-IF~~THEN REPLY ~To... by³o wspania³e...~ GOTO Avi08x10
++@187
++IF ~~ THEN REPLY @188 GOTO Avi08x09
++IF ~~ THEN REPLY @189 GOTO Avi08x10
+ END
+ 
+ 
+-IF~~THEN BEGIN Avi08x09
+-SAY~Nie czu³am nigdy czegoœ tak wyj¹tkowego. No, muszê przyznaæ, ¿e tym razem uda³o ci siê mnie oczarowaæ, ty przeklêty ale jak¿e uroczy zaklinaczu widm! Pewnie ka¿d¹ zab³¹kan¹ duszyczkê tak traktujesz! Ach, ci mê¿czyŸni!~
+-IF~~THEN DO ~SetGlobal("AviDanseMacabre","GLOBAL",1)~ EXIT
++IF ~~ THEN BEGIN Avi08x09
++SAY @190
++IF ~~ THEN DO ~SetGlobal("AviDanseMacabre","GLOBAL",1)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi08x10
+-SAY~Tak... te¿ tak s¹dzê... No, muszê przyznaæ, ¿e tym razem uda³o ci siê mnie oczarowaæ, ty przeklêty ale jak¿e uroczy zaklinaczu widm! Pewnie ka¿d¹ zab³¹kan¹ duszyczkê tak traktujesz! Ach, ci mê¿czyŸni!~
+-IF~~THEN DO ~SetGlobal("AviDanseMacabre","GLOBAL",1)~ EXIT
++IF ~~ THEN BEGIN Avi08x10
++SAY @191
++IF ~~ THEN DO ~SetGlobal("AviDanseMacabre","GLOBAL",1)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi08x11
+-SAY~Szkoda... No, wiêc dobrze. Nie bêdê ciê zanudzaæ w tym wypadku.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi08x11
++SAY @192
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi08x03
+-SAY~Szkoda. Swoj¹ drog¹ dziwne, ¿e umarlak bardziej docenia sztukê ni¿ ¿ywy.~
+-IF~~THEN REPLY ~Ruszajmy.~ GOTO Avi08x12
+-IF~~THEN REPLY ~Przykro mi. Nie rozumiem jej.~ GOTO Avi08x13
++IF ~~ THEN BEGIN Avi08x03
++SAY @193
++IF ~~ THEN REPLY @194 GOTO Avi08x12
++IF ~~ THEN REPLY @195 GOTO Avi08x13
+ END
+ 
+-IF~~THEN BEGIN Avi08x12
+-SAY~Dobrze.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi08x12
++SAY @196
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi08x13
+-SAY~Mo¿e kiedyœ coœ na to poradzimy.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi08x13
++SAY @197
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi08x04
+-SAY~Jako bard muszê lubiæ sztukê... ale s¹dzê, ¿e nawet jakbym nie by³a artystk¹ to bym j¹ lubi³a. Hmm, nazwanie siebie artystk¹ nie by³o zbytnio skromne, ale pewnie wiesz o co mi chodzi³o. Jestem bardziej poetk¹ ni¿ srog¹ wojowniczk¹. Sztuka pozwala mi siê zrelaksowaæ i poczuæ kimœ lepszym ni¿ zdechlakiem. Za ¿ycia stara³am siê trochê malowaæ, ale œpiewanie wychodzi³o mi stanowczo lepiej.~
+-IF~~THEN REPLY ~Mam nadziejê, ¿e bêdziemy mieli okazjê stworzyæ jakieœ dzie³o sztuki razem. Mo¿e napiszemy jakiœ wiersz, zanucimy wspólnie jedn¹ melodiê. To by mog³o byæ ciekawe.~ GOTO Avi08x14
+-IF~~THEN REPLY ~Jakoœ mnie irytujesz takim gadaniem... wiêc... przymknij siê.~ GOTO Avi08x01
+-IF~~THEN REPLY ~Tak na prawdê do nie rozumiem sztuki. Udajê, ¿e tak by ci zaimponowaæ, ale nie czujê siê z tym wygodnie.~ GOTO Avi08x03
++IF ~~ THEN BEGIN Avi08x04
++SAY @198
++IF ~~ THEN REPLY @199 GOTO Avi08x14
++IF ~~ THEN REPLY @200 GOTO Avi08x01
++IF ~~ THEN REPLY @201 GOTO Avi08x03
+ END
+ 
+-IF~~THEN BEGIN Avi08x14
+-SAY~Mo¿liwe, ¿e kiedyœ... ~
+-IF~~THEN GOTO Avi08x15
++IF ~~ THEN BEGIN Avi08x14
++SAY @202
++IF ~~ THEN GOTO Avi08x15
+ END
+ 
+-IF~~THEN BEGIN Avi08x15
+-SAY~(Avi Maya uœmiecha siê do ciebie. Œwiat³o odbija siê blaskiem na jej skórze.) ... Mo¿liwe, ¿e kiedyœ... (Jej typowy figlarny uœmiech pojawi³ siê wraz z momentem kiedy do ciebie mrugnê³a.)~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi08x15
++SAY @203
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi08x01
+-SAY~Jesteœ po prostu... beznadziejny...~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi08x01
++SAY @204
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+ 
+ //////////////////////////////////////////9
+ 
+ 
+-IF~Global("LoveTalk","LOCALS",16)
++IF ~Global("LoveTalk","LOCALS",16)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi09x00
+-SAY~<CHARNAME>, nie masz ochotê na s³odk¹ i zimn¹ dziewczynkê...? Jestem dziœ ca³kiem niegrzecznym widmem... Pobawimy siê w "nekromantê i zw³oki"...? (Avi Maya spogl¹da na ciebie po czym zamyka oczy i przeci¹ga siê. Jej œnie¿nobia³e, jêdrne piersi s¹ teraz mocno upiête przez skórzany kaftan dziewczyny, przez co mocniej zarysowuj¹ siê kszta³ty jej 'atutów'.)~
+-IF~~THEN REPLY ~O tak. Chcê ciebie nie wa¿ne gdzie. Mogê to zrobiæ tutaj. (Rozepnij pasek.)~ GOTO Avi09x01
+-IF~~THEN REPLY ~Avi, co siê sta³o? To jakby nie ty...~ GOTO Avi09x02
+-IF~~THEN REPLY ~S³ucham?~ GOTO Avi09x03
+-IF~~THEN REPLY ~Daruj sobie... Jak ty mnie irytujesz takim zachowaniem.~ GOTO Avi09x04
++SAY @205
++IF ~~ THEN REPLY @206 GOTO Avi09x01
++IF ~~ THEN REPLY @207 GOTO Avi09x02
++IF ~~ THEN REPLY @208 GOTO Avi09x03
++IF ~~ THEN REPLY @209 GOTO Avi09x04
+ END
+ 
+-IF~~THEN BEGIN Avi09x01
+-SAY~O naprawdê? No wiêc dalej... chcê wyssaæ wszystkie twoje si³y ¿yciowe... Wiesz, ¿e nieumar³e nigdy siê nie mêcz¹, prawda? To mo¿e byæ dla ciebie "œmiertelnie" przyjemne doœwiadczenie.~
+-IF~~THEN GOTO Avi09x05
++IF ~~ THEN BEGIN Avi09x01
++SAY @210
++IF ~~ THEN GOTO Avi09x05
+ END
+ 
+-IF~~THEN BEGIN Avi09x05
+-SAY~¯artowa³am! Na ³askê Sune, jaki ty jesteœ... spragniony! Zak³adaj te spodnie! Natychmiast! No, gdybym mia³a puls to tym razem na prawdê bym siê zawstydzi³a! Nie ¿ebym siê nie spodziewa³a co tam... chowasz, ale tak po œrodku takiego miejsca?~
++IF ~~ THEN BEGIN Avi09x05
++SAY @211
+ =
+-~No, ale nie bêdê k³amaæ, ¿e to by³ taki z³y widok, ty mój perwersyjny kud³aczu! (Avi Maya œmieje siê, choæ widaæ, ¿e faktycznie jest delikatnie zmieszana. Krêci g³ow¹ jakby nie dowierza³a, ¿e coœ takiego mia³o miejsce, chocia¿ uœmiech ca³y czas widnieje na jej œnie¿nej skórze.)~
+-IF~~THEN EXIT
++@212
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi09x02
+-SAY~¯artujê! Wiesz, ¿e nie jestem taka.~
+-IF~~THEN REPLY ~Wiem, Avi. Przecie nie jesteœ pierwsz¹ lepsza kurtyzan¹. Jesteœ o wiele lepsza!~ GOTO Avi09x06
+-IF~~THEN REPLY ~Jakoœ mnie to nie bawi³o.~ GOTO Avi09x11
++IF ~~ THEN BEGIN Avi09x02
++SAY @213
++IF ~~ THEN REPLY @214 GOTO Avi09x06
++IF ~~ THEN REPLY @215 GOTO Avi09x11
+ END
+ 
+-IF~~THEN BEGIN Avi09x06
+-SAY~Cieszê siê, ¿e masz poczucie humoru. Dobrze mieæ blisko kogoœ cierpliwego. Nieumarli potrafi¹ byæ czasami uci¹¿liwi. Ja na szczêœcie nie jestem tak sztywna jak wiêkszoœæ z nich... Jednak niektórym to nie odpowiada, ale co mi tam! Nie bêdê udawaæ kogoœ kim nie jestem, bo ktoœ sobie coœ pomyœli. Po prostu lubiê ¿artowaæ.~
++IF ~~ THEN BEGIN Avi09x06
++SAY @216
+ =
+-~Ech, ze mn¹ to Ty masz stypê codziennie! Oczywiœcie tak¹ na której pije siê du¿o alkoholu.~
++@217
+ =
+-~Ale wracaj¹c do tego o czym mówi³am... Dziêkujê. (Avi Maya uœmiecha siê serdecznie.)~
+-IF~~THEN REPLY ~(Zbli¿ siê do Avi Mayi, spójrz jej w oczy i dotknij rêk¹ jej policzka.)~ GOTO Avi09x09
+-IF~~THEN REPLY ~Nie ma za co. Idziemy dalej.~ GOTO Avi09x10
++@218
++IF ~~ THEN REPLY @219 GOTO Avi09x09
++IF ~~ THEN REPLY @220 GOTO Avi09x10
+ END
+ 
+ 
+-IF~~THEN BEGIN Avi09x09
+-SAY~(Avi robi krok w ty³.) Ja... <CHARNAME>, powinniœmy chyba ruszaæ dalej... (Widaæ, ¿e Avi Maya jest zmieszana sytuacj¹. Rzuca tobie szybki uœmiech i zaczyna iœæ w kierunku w którym zmierzaliœcie przed rozmow¹.)~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi09x09
++SAY @221
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi09x10
+-SAY~Dobra. Na ³eb, na szyjê, <CHARNAME>!~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi09x10
++SAY @222
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi09x11
+-SAY~Ojej no... Postaraj siê o trochê poczucia humoru... Mo¿e kupimy ci od jakiegoœ trupa komika, albo co.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi09x11
++SAY @223
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi09x03
+-SAY~Jakie zdziwienie! £adnie ci z nim na twarzy. Muszê przyznaæ, ¿e to ciekawy widok jak teraz tak na ciebie zerkam, <CHARNAME>.~
+-IF~~THEN REPLY ~E tam! No to zaczynajmy! Jak ju¿ mi zaproponowa³aœ... (Rozepnij pasek.)~ GOTO Avi09x01
+-IF~~THEN REPLY ~O co ci chodzi³o, duszyczko?~ GOTO Avi09x02
+-IF~~THEN REPLY ~Muszê ci coœ powiedzieæ... Ja... jestem... kobiet¹...~ GOTO Avi09x12
++IF ~~ THEN BEGIN Avi09x03
++SAY @224
++IF ~~ THEN REPLY @225 GOTO Avi09x01
++IF ~~ THEN REPLY @226 GOTO Avi09x02
++IF ~~ THEN REPLY @227 GOTO Avi09x12
+ END
+ 
+-IF~~THEN BEGIN Avi09x12
+-SAY~(Na twarzy Avi Mayi maluje siê zdziwienie z zak³opotaniem jak gdyby w jej twarz rzucony by³ pojemnik z wod¹ œwiêcon¹.)~
+-IF~~THEN REPLY ~Na twojej twarzy zdziwienie te¿ ³adnie wygl¹da, duszyczko!~ EXIT
++IF ~~ THEN BEGIN Avi09x12
++SAY @228
++IF ~~ THEN REPLY @229 EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi09x04
+-SAY~Ech... to ty sobie daruj.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi09x04
++SAY @230
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+ ////////////////////////////////10
+ 
+-IF~Global("LoveTalk","LOCALS",18)
++IF ~Global("LoveTalk","LOCALS",18)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi10x00
+-SAY~Przywódco, co w³aœciwie s¹dzisz o tej zimnej kobiecie? Mam oczywiœcie na myœli siebie. Muszê powiedzieæ, ¿e ciekawie mi siê z tob¹ rozmawia i takie tam, ale nie jestem pewien czym *to* w³aœciwie jest, wiêc zdecydowa³am, ¿e po prostu siê zapytam.~
+-IF~~THEN REPLY ~Mówi³em ci, nie jesteœ zimna, wiêc proszê, nie mów tak o sobie...~ GOTO Avi10x01
+-IF~~THEN REPLY ~Jesteœ dla mnie kimœ naprawdê wa¿nym. Nie jesteœ kimœ kogo tak mo¿na sobie po prostu zast¹piæ i tyle.~ GOTO Avi10x02
+-IF~~THEN REPLY ~Jesteœ jedynie kompanem w podró¿y. Mo¿na ciê zast¹piæ. Mam nadziejê, ¿e nie pomyœla³aœ sobie inaczej.~ GOTO Avi10x03
++SAY @231
++IF ~~ THEN REPLY @232 GOTO Avi10x01
++IF ~~ THEN REPLY @233 GOTO Avi10x02
++IF ~~ THEN REPLY @234 GOTO Avi10x03
+ END
+ 
+-IF~~THEN BEGIN Avi10x01
+-SAY~Wiesz co mam na myœli, <CHARNAME>, wiêc po prostu mi odpowiedz, dobrze?~
+-IF~~THEN GOTO Avi10x04
++IF ~~ THEN BEGIN Avi10x01
++SAY @235
++IF ~~ THEN GOTO Avi10x04
+ END
+ 
+-IF~~THEN BEGIN Avi10x04
+-SAY~Kim ja w³aœciwie dla ciebie jestem, <CHARNAME>?~
+-IF~~THEN REPLY ~Jesteœ dla mnie kimœ naprawdê wa¿nym.~ GOTO Avi10x02
+-IF~~THEN REPLY ~Jesteœ kompanem w podró¿y. Mo¿na ciê zast¹piæ.~ GOTO Avi10x03
++IF ~~ THEN BEGIN Avi10x04
++SAY @236
++IF ~~ THEN REPLY @237 GOTO Avi10x02
++IF ~~ THEN REPLY @238 GOTO Avi10x03
+ END
+ 
+-IF~~THEN BEGIN Avi10x02
+-SAY~Tak wiêc...~
+-IF~~THEN GOTO Avi10x05
++IF ~~ THEN BEGIN Avi10x02
++SAY @239
++IF ~~ THEN GOTO Avi10x05
+ END
+ 
+-IF~~THEN BEGIN Avi10x05
+-SAY~Jesteœ dla mnie bardzo wa¿ny. Chyba... w pewien sposób... Trudno mi to wyraziæ, nie wiem jak to nazwaæ, ale jesteœ jak... przyjemne wyœcie³anie trumny... Ech, chyba mam problemy z wyra¿aniem emocji...~
+-IF~~THEN GOTO Avi10x06
++IF ~~ THEN BEGIN Avi10x05
++SAY @240
++IF ~~ THEN GOTO Avi10x06
+ END
+ 
+-IF~~THEN BEGIN Avi10x06
+-SAY~Mi³ujê ciê. Jak tylko zmar³a mo¿e mi³owaæ ¿ywego. Ech, to natomiast zabrzmia³o jakoœ chyba zbyt dramatycznie...~
+-IF~~THEN REPLY ~Czujê chyba to samo, Avi... Jesteœ najwspanialsz¹ zmar³a jak¹ pozna³em. No jakby nie patrzeæ nie pyta³em o sztukê ¿adnego lisza ani wampira zanim go zabi³em...~ GOTO Avi10x07
+-IF~~THEN REPLY ~Przykro mi, ale to nie jest odwzajemnione. Jesteœ mi przyjació³k¹, nie ukochan¹.~ GOTO Avi10x03
++IF ~~ THEN BEGIN Avi10x06
++SAY @241
++IF ~~ THEN REPLY @242 GOTO Avi10x07
++IF ~~ THEN REPLY @243 GOTO Avi10x03
+ END
+ 
+-IF~~THEN BEGIN Avi10x07
+-SAY~Teraz jednak potrzebujê chwili dla siebie... przepraszam... ruszajmy. Porozmawiamy póŸniej, <CHARNAME>.~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi10x07
++SAY @244
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi10x03
+-SAY~Wiêc... wiêc tak siê sprawy maj¹...~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi10x03
++SAY @245
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+ ///////////////////////////////////////////11
+ 
+-IF~Global("LoveTalk","LOCALS",20)
++IF ~Global("LoveTalk","LOCALS",20)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi11x00
+-SAY~(Zdaje ci siê, ¿e Avi Maya jest doœæ smutna od waszej ostatniej rozmowy.)~
+-IF~~THEN REPLY ~(Zignoruj humor Avi.)~ GOTO Avi11x01
+-IF~~THEN REPLY ~Czy mogê coœ zrobiæ?~ GOTO Avi11x02
++SAY @246
++IF ~~ THEN REPLY @247 GOTO Avi11x01
++IF ~~ THEN REPLY @248 GOTO Avi11x02
+ END
+ 
+-IF~~THEN BEGIN Avi11x01
+-SAY~(Oboje bez s³owa ruszacie dalej.)~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi11x01
++SAY @249
++IF ~~ THEN EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi11x02
+-SAY~(Avi Maya jedyne co robi to kiwa przecz¹co g³ow¹ i rusza dalej.)~
+-IF~~THEN EXIT
++IF ~~ THEN BEGIN Avi11x02
++SAY @250
++IF ~~ THEN EXIT
+ END
+ 
+ 
+ ///////////////////////////////////////////12
+ 
+ 
+-IF~Global("LoveTalk","LOCALS",22)
++IF ~Global("LoveTalk","LOCALS",22)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",1)~ THEN BEGIN Avi12x00
+-SAY~Chyba powinniœmy porozmawiaæ, ¿ywy ch³opcze. Widzisz, reagowa³am jak reagowa³am bo wci¹¿ ¿yjesz. Nie wiem czy mo¿emy byæ razem. To tak jakbyœ podszed³ do szkieletu na cmentarzu i powiedzia³ "Hej, koœcista panno! Nie szukasz takiego pana co ma jeszcze œwie¿e cia³ko?" Zbli¿yliœmy siê do siebie, ale... nie bêdê do cholery tego ukrywaæ - bojê siê. (Na twarzy Mayi maluje siê zak³opotanie.)~
+-IF~~THEN REPLY ~(Zaœmiej siê.) I w³aœnie za takie s³owa ciê kocham! Nawet w tej wypowiedzi potrafi³aœ za¿artowaæ.~ GOTO Avi12x01
+-IF~~THEN REPLY ~Masz racje. To nie ma sensu. Nie powinniœmy tego kontynuowaæ.~ GOTO Avi12x02
+-IF~~THEN REPLY ~Dajmy temu szansê. Zobaczymy jak to wszystko zaowocuje.~ GOTO Avi12x01
++SAY @251
++IF ~~ THEN REPLY @252 GOTO Avi12x01
++IF ~~ THEN REPLY @253 GOTO Avi12x02
++IF ~~ THEN REPLY @254 GOTO Avi12x01
+ END
+ 
+-IF~~THEN BEGIN Avi12x02
+-SAY~Tak... wiêc... ruszajmy. (Oczy Avi Mayi prawie ca³kowicie gasn¹.)~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi12x02
++SAY @255
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi12x01
+-SAY~(Avi Maya uœmiecha siê.) No, no! Pan "jestem pewny siebie i mam cia³o" powróci³! Po prostu... mimo, ¿e ¿artujê to trochê siê bojê. Tak ju¿ po prostu jest.~
+-IF~~THEN REPLY ~Wiêc pozwól, ¿e... (Poca³uj Avi Mayê.)~ GOTO Avi12x03
+-IF~~THEN REPLY ~Mo¿e jednak pozwolimy temu umrzeæ ju¿ teraz... czujê, ¿e tylko bêdziemy cierpieæ.~ GOTO Avi12x02
++IF ~~ THEN BEGIN Avi12x01
++SAY @256
++IF ~~ THEN REPLY @257 GOTO Avi12x03
++IF ~~ THEN REPLY @258 GOTO Avi12x02
+ END
+ 
+-IF~~THEN BEGIN Avi12x03
+-SAY~(Twoje usta dotykaj¹ pó³ materialnych ust Avi. Jest to jak ca³owanie ob³oków. W poca³unku Avi Mayi pocz¹tkowo czuæ niepewnoœæ ale jednak po chwili wyczuwasz wiêksz¹ pewnoœæ siebie. Nie czujesz ciep³a, ani smaku jej ust lecz to zbli¿enie posiada bardzo magiczn¹ aurê.)~
++IF ~~ THEN BEGIN Avi12x03
++SAY @259
+ =
+-~(Obejmujesz rêkoma formê Avi. Ona jak zauroczona trzyma rêce luŸno. Czujesz jak przez twoje cia³o przep³ywa magia - delikatne dreszcze rozgrzewaj¹ce skórê.)~
++@260
+ =
+-~(Odsuwacie twarze od siebie na parê centymetrów. Avi Maya zaczyna szeptaæ ci na ucho.) O tak, stanowczo jesteœmy szaleni.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",2)~EXIT
++@261
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",2)~ EXIT
+ END
+ 
+ ////////////////////////////////////////13
+ 
+-IF~Global("LoveTalk","LOCALS",24) Global("AviRelations","GLOBAL",0)
++IF ~Global("LoveTalk","LOCALS",24) Global("AviRelations","GLOBAL",0)
+ RealGlobalTimerExpired("AviRomance","GLOBAL")
+ Global("AviRelationsActive","GLOBAL",2)~ THEN BEGIN Avi13x00
+-SAY~Gdy wyruszymy do miejca w którym przechowywana jest Imoen sprawy mog¹ obraæ gorszy ni¿ teraz obrót. Chcia³abym ofiarowaæ ci coœ co bêdzie ciê strzeg³o i czego powinieneœ u¿ywaæ w niebezpieczeñstwie.~
+-IF~~THEN REPLY ~Avi Mayu, nie trzeba... dziêkujê, ¿e siê martwisz, ale...~ GOTO Avi13x01
+-IF~~THEN REPLY ~Nie chce nosiæ jakiegoœ zbêdnego balastu. Nie chce tego, cokolwiek by to nie by³o.~ GOTO Avi13x02
+-IF~~THEN REPLY ~Co to jest, Avi?~ GOTO Avi13x01
++SAY @262
++IF ~~ THEN REPLY @263 GOTO Avi13x01
++IF ~~ THEN REPLY @264 GOTO Avi13x02
++IF ~~ THEN REPLY @265 GOTO Avi13x01
+ END
+ 
+-IF~~THEN BEGIN Avi13x02
+-SAY~To by³o bezczelne z twojej strony, ¿ywy. Jednak siê myli³am co do ciebie. Nie s¹dzi³am, ¿e oka¿esz siê gnid¹. Po prostu ruszajmy.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi13x02
++SAY @266
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi13x01
+-SAY~(Avi Maya podnosi swoje rêce na wysokoœæ piersi i przyk³ada je do swojego cia³a. Nagle na jej klatce piersiowej rozpala siê szkar³atny blask. Z blasku wy³ania siê czerwony obiekt przypominaj¹cy od³amek lodu.) To jest widmowy kryszta³. Ten konkretny nazywa siê Skrystalizowana Krew. WeŸ go.~
++IF ~~ THEN BEGIN Avi13x01
++SAY @267
+ =
+-~On... powsta³ po czêœci z mojej krwi. Zachowa³am ten przedmiot na wszelki wypadek... chcê byœ prze¿y³, wiêc go weŸ.~
++@268
+ =
+-~No wiem, ¿e ja jestem ³adna jak na umar³¹, ale nie wiadomo jakby by³o z tob¹. A gdybyœ zosta³ ghulem? Wiêc obiecaj mi, ¿e zostaniesz ¿ywym. Nie chce mieæ œmierdz¹cego, ¿ywi¹cego siê zw³okami kompana.~
+-IF~~THEN REPLY ~Dziêkujê ci, ukochana.~ GOTO Avi13x05
+-IF~~THEN REPLY ~Zmiataj z tymi œmieciami. Nie mam ochoty taszczyæ takich kolorowych b³yskotek.~ GOTO Avi13x02
++@269
++IF ~~ THEN REPLY @270 GOTO Avi13x05
++IF ~~ THEN REPLY @271 GOTO Avi13x02
+ END
+ 
+-IF~~THEN BEGIN Avi13x05
+-SAY~Ukochana? No, nabierasz odwagi, <CHARNAME>. (Avi Maya ca³uje ciê w policzek.)~
+-IF~~THEN DO ~SetGlobal("AviRelations","GLOBAL",1)~ EXIT
++IF ~~ THEN BEGIN Avi13x05
++SAY @272
++IF ~~ THEN DO ~SetGlobal("AviRelations","GLOBAL",1)~ EXIT
+ END
+ 
+ //////////////////////////////////14
+ 
+ 
+-IF~Global("AviRelations","GLOBAL",2)~ THEN BEGIN Avi14x00
+-SAY~Jesteœmy praktycznie na miejscu, kochany. Teraz musimy tylko uwa¿aæ na... jaszczury... chyba je tu czuæ... ~
+-IF~~THEN GOTO Avi14x01
++IF ~Global("AviRelations","GLOBAL",2)~ THEN BEGIN Avi14x00
++SAY @273
++IF ~~ THEN GOTO Avi14x01
+ END
+ 
+-IF~~THEN BEGIN Avi14x02
+-SAY~Tylko na tym ci zale¿y? Wielka szkoda. (Avi Maya puszcza twoje ramiê i do³¹cza do reszty.)~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi14x02
++SAY @274
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi14x01
+-SAY~Nieumar³ych... pewnie te¿ gdzieœ tutaj s¹...~
+-IF~~THEN GOTO Avi14x03
++IF ~~ THEN BEGIN Avi14x01
++SAY @275
++IF ~~ THEN GOTO Avi14x03
+ END
+ 
+-IF~~THEN BEGIN Avi14x03
+-SAY~Pomijaj¹c fakt szaleñców, dewiantów, zakapturzonych...~
+-IF~~THEN GOTO Avi14x04
++IF ~~ THEN BEGIN Avi14x03
++SAY @276
++IF ~~ THEN GOTO Avi14x04
+ END
+ 
+-IF~~THEN BEGIN Avi14x04
+-SAY~...no to mamy jeszcze wspania³¹, zniszczon¹, pe³n¹ pu³apek i magów budowlê o funkcji wiêziennej. Och, <CHARNAME>, gdzie ja za tob¹ nie pójdê.~
+-IF~~THEN REPLY ~Do o³tarza, bo kap³an wtedy by nas zaatakowa³ wod¹ œwiêcon¹! (Zacznij siê œmiaæ.)~ GOTO Avi14x05
+-IF~~THEN REPLY ~Do ³ó¿ka, nie wa¿ne jakbym tego chcia³. W koñcu jesteœ martwa. Ech...~ GOTO Avi14x02
++IF ~~ THEN BEGIN Avi14x04
++SAY @277
++IF ~~ THEN REPLY @278 GOTO Avi14x05
++IF ~~ THEN REPLY @279 GOTO Avi14x02
+ END
+ 
+-IF~~THEN BEGIN Avi14x05
+-SAY~Fakt! (Avi Maya uœmiecha siê do ciebie. Jej bia³a jak œnieg, widmowa cera piêknie jaœnieje w œwietle.)~
+-IF~~THEN DO ~SetGlobal("AviRelations","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi14x05
++SAY @280
++IF ~~ THEN DO ~SetGlobal("AviRelations","GLOBAL",3)~ EXIT
+ END
+ 
+ //////////////////////////////////15
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ Global("AviRelations2","GLOBAL",1)
+ Global("AviRelationsActive","GLOBAL",2)
+ Global("OpenJonBedroom","GLOBAL",1)~ THEN BEGIN Avi15x00
+-SAY~Jon... Irenicus... on ich zabi³. Kolejni przyjaciele s¹ martwi. Tak nie powinno byæ. On zak³óca równowagê... Zabija ka¿dego, wypacza umys³y. Kochany, musimy coœ z tym zrobiæ.~
+-IF~~THEN REPLY ~Tam by³ Tiax... Dradeel... Zna³em ich. Mój kompan i mag pok³adowy Baldurana.~ GOTO Avi15x01
+-IF~~THEN REPLY ~Mówisz jak Jaheira, ale zgadzam siê z tob¹. To musi siê skoñczyæ.~ GOTO Avi15x02
+-IF~~THEN REPLY ~On ma moj¹ duszê. Zabi³ przyjació³. Teraz sam zginie. Przysiêgam.~ GOTO Avi15x03
++SAY @281
++IF ~~ THEN REPLY @282 GOTO Avi15x01
++IF ~~ THEN REPLY @283 GOTO Avi15x02
++IF ~~ THEN REPLY @284 GOTO Avi15x03
+ END
+ 
+-IF~~THEN BEGIN Avi15x01
+-SAY~Ty ich zna³eœ osobiœcie? Nie wiedzia³am. Przykro mi, <CHARNAME>. Tiax wydawa³ siê trochê szalony, ale by³o w tym coœ pogodnego. Dradeel... S³ysza³am o jego przepisach. To by³ Mag pok³adowy Baldurana? Jon musi zap³aciæ...~
+-IF~~THEN GOTO Avi15x05
++IF ~~ THEN BEGIN Avi15x01
++SAY @285
++IF ~~ THEN GOTO Avi15x05
+ END
+ 
+-IF~~THEN BEGIN Avi15x02
+-SAY~No, Jaheira nie jest taka g³upia na jak¹ wygl¹da. Nie wiem jak Jon zdoby³ tak¹ moc. Pewne jest, ¿e zginie. My bêdziemy jego zgub¹.~
+-IF~~THEN GOTO Avi15x05
++IF ~~ THEN BEGIN Avi15x02
++SAY @286
++IF ~~ THEN GOTO Avi15x05
+ END
+ 
+-IF~~THEN BEGIN Avi15x03
+-SAY~Widaæ, ¿e ogieñ w twoich oczach pozosta³. Mo¿esz byæ pewnym, i¿ odbierzemy twoj¹ duszê i zniszczymy Jona Irenicusa. Bêdê przy tobie do momentu upadku jego cia³a na ziemiê, kochanie. ~
+-IF~~THEN GOTO Avi15x05
++IF ~~ THEN BEGIN Avi15x03
++SAY @287
++IF ~~ THEN GOTO Avi15x05
+ END
+ 
+-IF~~THEN BEGIN Avi15x05
+-SAY~Zniszczymy Bodhi i Irenicusa!~
+-IF~~THEN REPLY ~Dziêkujê, za twój ogieñ.~ GOTO Avi15x06
+-IF~~THEN REPLY ~Co ciê uczyni³o tak wojownicz¹, Avi?~ GOTO Avi15x07
++IF ~~ THEN BEGIN Avi15x05
++SAY @288
++IF ~~ THEN REPLY @289 GOTO Avi15x06
++IF ~~ THEN REPLY @290 GOTO Avi15x07
+ END
+ 
+-IF~~THEN BEGIN Avi15x06
+-SAY~To dziêki tobie. Jak ciê pokocha³am œwiat siê lekko zmieni³. Czuje siê szczêœliwa... na tyle na ile nieboszczyk mo¿e czuæ siê szczêœliwy. Zabawne uczucie. ~
+-IF~~THEN GOTO Avi15x08
++IF ~~ THEN BEGIN Avi15x06
++SAY @291
++IF ~~ THEN GOTO Avi15x08
+ END
+ 
+-IF~~THEN BEGIN Avi15x07
+-SAY~Ty, kochany. O wiele lepiej jest walczyæ dla kogoœ kogo siê kocha, a nie dla pieniêdzy czy s³awy... chocia¿ trochê s³awy dla nieumar³ej poszukiwaczki przygód by siê przyda³o.~
+-IF~~THEN GOTO Avi15x08
++IF ~~ THEN BEGIN Avi15x07
++SAY @292
++IF ~~ THEN GOTO Avi15x08
+ END
+ 
+-IF~~THEN BEGIN Avi15x08
+-SAY~Pora ju¿ ruszaæ za Irenicusem. Mo¿e go dogonimy.~
+-IF~~THEN DO ~SetGlobal("AviRelations2","GLOBAL",2)~EXIT
++IF ~~ THEN BEGIN Avi15x08
++SAY @293
++IF ~~ THEN DO ~SetGlobal("AviRelations2","GLOBAL",2)~ EXIT
+ END
+ 
+ ////////////////////////////////////16
+ 
+-IF~Global("AviRelations3","GLOBAL",1)~ THEN BEGIN Avi16x00
+-SAY~<CHARNAME>, mo¿emy przejœæ do... s¹siedniej jaskini. Og³oœ, ¿e pora na odpoczynek. (Mówi¹c to Avi Maya przygryza doln¹ wargê i spogl¹da na ciebie z jasno œwiec¹cymi oczami.)~
+-IF~~THEN REPLY ~Dobrze.~ GOTO Avi16x01
+-IF~~THEN REPLY ~Nie mamy czasu na takie rzeczy.~ GOTO Avi16x02
++IF ~Global("AviRelations3","GLOBAL",1)~ THEN BEGIN Avi16x00
++SAY @294
++IF ~~ THEN REPLY @196 GOTO Avi16x01
++IF ~~ THEN REPLY @295 GOTO Avi16x02
+ END
+ 
+-IF~~THEN BEGIN Avi16x01
+-SAY~(Gdy tylko wracasz do Avi, chwyta ciê w ramiona. Ca³uje ciê w charakterystyczny dla niej sposób. K¹tem oka widzisz, ¿e jaskinia jest oœwietlona pó³blaskiem luminescencyjnego mchu.) <CHARNAME>, chce ci siê oddaæ. Poka¿e ci coœ.~
+-IF~~THEN REPLY ~Chcê tylko tego.~ GOTO Avi16x03
+-IF~~THEN REPLY ~Przepraszam. Nie. Tak nie powinno byæ.~ GOTO Avi16x02
++IF ~~ THEN BEGIN Avi16x01
++SAY @296
++IF ~~ THEN REPLY @297 GOTO Avi16x03
++IF ~~ THEN REPLY @298 GOTO Avi16x02
+ END
+ 
+-IF~~THEN BEGIN Avi16x02
+-SAY~Ale s¹dzi³am, ¿e... ty... mo¿e to wszystko by³ jednak z³y pomys³. Tylko siê wyg³upi³am.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN Avi16x02
++SAY @299
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN Avi16x03
+-SAY~(Rozbieracie siê. Œwiat³o odbija siê na twoim spoconym i nagim ciele. G³adka i jasna skóra kobiety-widma wygl¹da jak z magicznego jedwabiu. Avi Maya podchodzi i dotyka twojej klatki piersiowej.)~
+-IF~~THEN GOTO Avi16x04
++IF ~~ THEN BEGIN Avi16x03
++SAY @300
++IF ~~ THEN GOTO Avi16x04
+ END
+ 
+ 
+-IF~~THEN BEGIN Avi16x04
+-SAY~(K³adziecie siê na pos³aniu. Ca³ym swoim cia³em czujesz pó³ materialne cia³o Avi. Zaczyna ona ca³owaæ ciê we wspania³y sposób. Zaczynacie siê kochaæ.)~
+-IF~~THEN GOTO Avi16x05
++IF ~~ THEN BEGIN Avi16x04
++SAY @301
++IF ~~ THEN GOTO Avi16x05
+ END
+ 
+-IF~~THEN BEGIN Avi16x05
+-SAY~(Nagle jej cia³o zaczyna ³¹czyæ siê z twoim. Jej duch wchodzi w twoje cia³o. Nagle przestajesz widzieæ wnêtrze jaskini. Przez twój umys³ przep³ywa jednoczeœnie setka ciep³ych obrazów. Ca³e twoje cia³o czuje przyjemnoœæ.)~
+-IF~~THEN GOTO Avi16x06
++IF ~~ THEN BEGIN Avi16x05
++SAY @302
++IF ~~ THEN GOTO Avi16x06
+ END
+ 
+-IF~~THEN BEGIN Avi16x06
+-SAY~(Trwa to pewien czas. Stan tego upojenia sprawia, ¿e zaczynasz czuæ zmêczenie. S³yszysz w swojej g³owie szept.) To jest coœ, co tylko ja mogê ci pokazaæ.~
+-IF~~THEN DO ~SetGlobal("AviRelations3","GLOBAL",2)
+-RestParty()~EXIT
++IF ~~ THEN BEGIN Avi16x06
++SAY @303
++IF ~~ THEN DO ~SetGlobal("AviRelations3","GLOBAL",2)
++RestParty()~ EXIT
+ END
+ 
+ //////////////////////////////////////////17
+ 
+-IF~Global("AviRelations4","GLOBAL",1)~ THEN BEGIN Avi17x00
+-SAY~Powiedz mi. Co siê sta³o, ¿e tak ciê... zaraz... coœ jest nie tak! Jednak nie porozmawiamy! Pora pomóc paru osobom umrzeæ!~
+-IF~~THEN REPLY ~Racja!~ GOTO Avi17x01
+-IF~~THEN REPLY ~No sami siê nie zabij¹... chyba...~ GOTO Avi17x01
++IF ~Global("AviRelations4","GLOBAL",1)~ THEN BEGIN Avi17x00
++SAY @304
++IF ~~ THEN REPLY @305 GOTO Avi17x01
++IF ~~ THEN REPLY @306 GOTO Avi17x01
+ END
+ 
+-IF~~THEN BEGIN Avi17x01
+-SAY~(Obserwujesz jak Avi Maya wyci¹ga broñ. Jej ruchy s¹ niezwykle delikatne, ale stanowcze. Zupe³nie po nich nie widaæ, ¿e cia³o tej kobiety od dawna gnije na cmentarzu w Targowie.)~
+-IF~~THEN GOTO Avi17x02
++IF ~~ THEN BEGIN Avi17x01
++SAY @307
++IF ~~ THEN GOTO Avi17x02
+ END
+ 
+-IF~~THEN BEGIN Avi17x02
+-SAY~(Czujesz podniecenie patrz¹c na walecznoœæ i mêstwo Avi. Jej twarz jest rozœwietlona przez ogieñ bitwy. Niestety wiesz, ¿e pora by do³¹czyæ do walki.)~
+-IF~~THEN DO ~SetGlobal("AviRelations4","GLOBAL",2)~EXIT
++IF ~~ THEN BEGIN Avi17x02
++SAY @308
++IF ~~ THEN DO ~SetGlobal("AviRelations4","GLOBAL",2)~ EXIT
+ END
+ 
+ ///////////////////////////////////////////18
+ 
+ IF ~Global("AviRomHolWa","GLOBAL",1) !Global("AviRelationsActive","GLOBAL",0)~ THEN BEGIN Avi18x00
+-SAY~Och, <CHARNAME>! Chyba nie chcesz u¿yæ tej wody œwiêconej przeciwko niesfornej duszyczce?! Obiecujê, bêdê ju¿ bardzo grzeczna i uleg³a! No nie patrz na mnie tak! Przyrzekam... (Mówi¹c to Avi Maya przytula siê do <CHARNAME> w teatralny sposób.)~
+-IF~~THEN REPLY ~Taki bêdzie twój los, Avi Mayu! Chyba, ¿e bêdziesz mi uleg³a... (Mrugnij.)~ GOTO Avi18x01
+-IF~~THEN REPLY ~Musisz mi siê poddaæ, dobra dziewico! Taka jest moja wola! (Uœmiechnij siê.)~ GOTO Avi18x01
+-IF~~THEN REPLY ~Co ty gadasz, zdech³a jêdzo?~ GOTO Avi18x02
+-IF~~THEN REPLY ~Przepraszam, ale nie mam nastroju...~ GOTO Avi18x03
++SAY @309
++IF ~~ THEN REPLY @310 GOTO Avi18x01
++IF ~~ THEN REPLY @311 GOTO Avi18x01
++IF ~~ THEN REPLY @312 GOTO Avi18x02
++IF ~~ THEN REPLY @313 GOTO Avi18x03
+ END
+ 
+-IF~~THEN BEGIN Avi18x01
+-SAY~Och, nie! I có¿ ja teraz pocznê! Pozostaje mi jedynie zostaæ na³o¿nic¹ tego oto œmiertelnika! Och, <CHARNAME>! To by³o doœæ zabawne przedstawienie. Mi³o tak pobawiæ siê w teatr w trakcie wêdrówki.~
+-IF~~THEN REPLY ~Tak mi³o... Jednak to koniec na teraz... Proszê, ruszajmy.~ GOTO Avi18x03
+-IF~~THEN REPLY ~Och, to ty ¿artowa³aœ? (Zaœmiej siê.)~GOTO Avi18x04
+-IF~~THEN REPLY ~A kto mówi³, ¿e ¿artujê? (Uœmiechnij siê.)~ GOTO Avi18x04
+-IF~~THEN REPLY ~No dobra ale teraz siê zamknij!~ GOTO Avi18x02
++IF ~~ THEN BEGIN Avi18x01
++SAY @314
++IF ~~ THEN REPLY @315 GOTO Avi18x03
++IF ~~ THEN REPLY @316GOTO Avi18x04
++IF ~~ THEN REPLY @317 GOTO Avi18x04
++IF ~~ THEN REPLY @318 GOTO Avi18x02
+ END
+ 
+-IF~~ THEN BEGIN Avi18x04
+-SAY~(Avi Maya zaczyna siê œmiaæ.) No, ale siê oœmieli³eœ, ¿ywy. No ale co siê dziwiê...~
+-IF~~THEN GOTO Avi18x05
++IF ~~ THEN BEGIN Avi18x04
++SAY @319
++IF ~~ THEN GOTO Avi18x05
+ END
+ 
+-IF~~ THEN BEGIN Avi18x05
+-SAY~Przy takiej martwiaczce jak ja ka¿dy by siê o¿ywi³!~
+-IF~~THEN DO ~SetGlobal("AviRomHolWa","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi18x05
++SAY @320
++IF ~~ THEN DO ~SetGlobal("AviRomHolWa","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi18x02
+-SAY~Ty perfidny bydlaku. Tak nie powinno siê odzywaæ do kogoœ gdy ten chce ciê podnieœæ na duchu. Nie mam zamiaru wiêcej siê trudziæ by miêdzy nami by³o dobrze.~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3) SetGlobal("AviRomHolWa","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi18x02
++SAY @321
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3) SetGlobal("AviRomHolWa","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi18x03
+-SAY~Rozumiem. Nie trzeba mieæ zawsze dobrego humoru. Ruszajmy wiêc.~
+-IF~~THEN DO ~SetGlobal("AviRomHolWa","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi18x03
++SAY @322
++IF ~~ THEN DO ~SetGlobal("AviRomHolWa","GLOBAL",2)~ EXIT
+ END
+ 
+ /////////////////////////////////////////19
+ 
+ IF ~Global("AviRomFirDe","GLOBAL",1) !Global("AviRelationsActive","GLOBAL",0)~ THEN BEGIN Avi19x00
+-SAY~Jaszczur jest zdech³y!~
+-IF~~THEN REPLY ~I bardzo dobrze! Zastanawia³aœ siê kiedyœ jak smakuje miêso smoka?~ GOTO Avi19x01
+-IF~~THEN REPLY ~By³o ciê¿ko... No to co? Sprawdzimy jak smakuje czerwony smok?~ GOTO Avi19x01
+-IF~~THEN REPLY ~Zamknij siê! Nie widzisz, ¿e jestem zmêczony, spocony, ranny? Nie mam ochoty teraz z tob¹ gadaæ, idiotko.~ GOTO Avi19x02
+-IF~~THEN REPLY ~By³o... ciekawie. To teraz idziemy. Mam doœæ tego miejsca.~ GOTO Avi19x03
++SAY @323
++IF ~~ THEN REPLY @324 GOTO Avi19x01
++IF ~~ THEN REPLY @325 GOTO Avi19x01
++IF ~~ THEN REPLY @326 GOTO Avi19x02
++IF ~~ THEN REPLY @327 GOTO Avi19x03
+ END
+ 
+-IF~~THEN BEGIN Avi19x01
+-SAY~To mo¿e byæ... ciekawe. Niestety ja jestem zjaw¹ wiêc nie jem. Skosztuj i powiedz mi jak smakuje.~
+-IF~~THEN REPLY ~Mo¿e jednak po prostu zabierzmy przedmioty i idŸmy st¹d. Duszno tu.~ GOTO Avi19x03
+-IF~~THEN REPLY ~No dobra! (Skosztuj smoczego miêsa.)~GOTO Avi19x04
+-IF~~THEN REPLY ~Sam z chêci¹ spróbujê. (Skosztuj smoka.)~ GOTO Avi19x04
+-IF~~THEN REPLY ~Ja ¿artowa³em. Jesteœ idiotk¹ je¿eli s¹dzi³aœ inaczej. ZejdŸ mi z drogi.~ GOTO Avi19x02
++IF ~~ THEN BEGIN Avi19x01
++SAY @328
++IF ~~ THEN REPLY @329 GOTO Avi19x03
++IF ~~ THEN REPLY @330GOTO Avi19x04
++IF ~~ THEN REPLY @331 GOTO Avi19x04
++IF ~~ THEN REPLY @332 GOTO Avi19x02
+ END
+ 
+-IF~~ THEN BEGIN Avi19x04
+-SAY~(Avi Maya przygl¹da ci siê zaciekawiona.)~
+-IF~~THEN GOTO Avi19x05
++IF ~~ THEN BEGIN Avi19x04
++SAY @333
++IF ~~ THEN GOTO Avi19x05
+ END
+ 
+-IF~~ THEN BEGIN Avi19x05
+-SAY~Nie s¹dzi³am, ¿e to zrobisz! Pewnie smakuje jak kurczak! (Avi Maya œmieje siê.) Dobra, musimy iœæ. Na z³amanie karku!~
+-IF~~THEN DO ~SetGlobal("AviRomFirDe","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi19x05
++SAY @334
++IF ~~ THEN DO ~SetGlobal("AviRomFirDe","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi19x02
+-SAY~Jesteœ bezczelny! Nie mam zamiaru z tob¹ rozmawiaæ!~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3) SetGlobal("AviRomFirDe","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi19x02
++SAY @335
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3) SetGlobal("AviRomFirDe","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi19x03
+-SAY~Tu œmierdzi. Faktycznie... Lepiej st¹d idŸmy.~
+-IF~~THEN DO ~SetGlobal("AviRomFirDe","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi19x03
++SAY @336
++IF ~~ THEN DO ~SetGlobal("AviRomFirDe","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~Global("AviRomRep","GLOBAL",1) !Global("AviRelationsActive","GLOBAL",0)~ THEN BEGIN Avi20x00
+-SAY~Piêknie, piêknie! Zachowujemy siê tak grzecznie. A co bêdzie z nutk¹ niedobrej pikanterii ¿ycia, mój s³odki cielesny?~
+-IF~~THEN REPLY ~Pikanterii dodajesz ty, moja bezcielesna.~ GOTO Avi20x01
+-IF~~THEN REPLY ~Jakoœ poradzimy sobie bez pikanterii.~ GOTO Avi20x06
+-IF~~THEN REPLY ~O czym ty znowu jêczysz! Jesteœ najgorsz¹ zjaw¹ jak¹ kiedykolwiek spotka³em. Zamknij siê.~ GOTO Avi20x02
+-IF~~THEN REPLY ~Przepraszam. To ju¿ bywa! No ale wiem, ¿e w g³êbi serca... to znaczy... duszy! Tak w g³êbi duszy! No jesteœ dobra. Ruszajmy...~ GOTO Avi20x03
++SAY @337
++IF ~~ THEN REPLY @338 GOTO Avi20x01
++IF ~~ THEN REPLY @339 GOTO Avi20x06
++IF ~~ THEN REPLY @340 GOTO Avi20x02
++IF ~~ THEN REPLY @341 GOTO Avi20x03
+ END
+ 
+-IF~~THEN BEGIN Avi20x01
+-SAY~No! Wiêc jestem twoj¹ papryczk¹? Twoj¹ przypraw¹ z Kara-Tur? No to mo¿e skosztujesz tego smako³yku! Boisz siê?~
+-IF~~THEN REPLY ~Ja? Chyba ¿artujesz! (Zbli¿ siê by poca³owaæ Avi Mayê.)~ GOTO Avi20x04
+-IF~~THEN REPLY ~No to daj mi siê... (Zbli¿ siê by poca³owaæ Avi Mayê.)~GOTO Avi20x04
+-IF~~THEN REPLY ~Teraz nie jest czas i miejsce. Zaczekaj tylko.~ GOTO Avi20x03
+-IF~~THEN REPLY ~Jesteœ idiotk¹ skoro mi wierzysz. Zmiataj, najg³upsza zjawo Torilu.~ GOTO Avi20x02
++IF ~~ THEN BEGIN Avi20x01
++SAY @342
++IF ~~ THEN REPLY @343 GOTO Avi20x04
++IF ~~ THEN REPLY @344GOTO Avi20x04
++IF ~~ THEN REPLY @345 GOTO Avi20x03
++IF ~~ THEN REPLY @346 GOTO Avi20x02
+ END
+ 
+-IF~~ THEN BEGIN Avi20x04
+-SAY~(Zbli¿asz siê do twarzy Avi by poca³owaæ jej usta. Im jesteœ bli¿ej tym bardziej czujesz jej nienaturaln¹ aurê.)~
+-IF~~THEN GOTO Avi20x05
++IF ~~ THEN BEGIN Avi20x04
++SAY @347
++IF ~~ THEN GOTO Avi20x05
+ END
+ 
+-IF~~ THEN BEGIN Avi20x05
+-SAY~(Spostrzegasz naglê, ¿e Avi Maya zniknê³a. Zza pleców dobiega ciê jej g³os.) No, mamy wyrafinowanego i podrywaj¹cego dowódce. Ciekawie, ciekawie...~
+-IF~~THEN DO ~SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi20x05
++SAY @348
++IF ~~ THEN DO ~SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi20x02
+-SAY~Gnida...~
+-IF~~THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3) SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi20x02
++SAY @349
++IF ~~ THEN DO ~SetGlobal("AviRelationsActive","GLOBAL",3) SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi20x03
+-SAY~No... Hmm... Zobaczymy co przyniesie nam kolejny dzieñ.~
+-IF~~THEN DO ~SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi20x03
++SAY @350
++IF ~~ THEN DO ~SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi20x06
+-SAY~Bez pikanterii?~
+-IF~~THEN GOTO Avi20x07
++IF ~~ THEN BEGIN Avi20x06
++SAY @351
++IF ~~ THEN GOTO Avi20x07
+ END
+ 
+-IF~~ THEN BEGIN Avi20x07
+-SAY~No dobrze... Jakoœ to "prze¿yjê"... Poza tym to siê mo¿e zmieniæ. Zawsze mo¿na jeszcze przyprawiæ odrobinê ¿ycie.~
+-IF~~THEN DO ~SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi20x07
++SAY @352
++IF ~~ THEN DO ~SetGlobal("AviRomRep","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~Global("AviRomForest","GLOBAL",1) !Global("AviRelationsActive","GLOBAL",0)~ THEN BEGIN Avi21x00
+-SAY~Ale tu ³adnie... Co s¹dzisz o tym miejscu, <CHARNAME>? Uwielbiam lasy...~
+-IF~~THEN REPLY ~Bardzo tu ³adnie. Podzielam twoje zdanie.~ GOTO Avi21x01
+-IF~~THEN REPLY ~Piêknie tu... Pasujesz do tego miejsca.~ GOTO Avi21x02
+-IF~~THEN REPLY ~Normalne miejsce...~ GOTO Avi21x03
++SAY @353
++IF ~~ THEN REPLY @354 GOTO Avi21x01
++IF ~~ THEN REPLY @355 GOTO Avi21x02
++IF ~~ THEN REPLY @356 GOTO Avi21x03
+ END
+ 
+-IF~~ THEN BEGIN Avi21x01
+-SAY~Uwielbiam naturê. Trochê to dziwne bo zazwyczaj nieumarli nie zwracaj¹ na takie rzeczy uwagi...~
+-IF~~THEN GOTO Avi21x04
++IF ~~ THEN BEGIN Avi21x01
++SAY @357
++IF ~~ THEN GOTO Avi21x04
+ END
+ 
+-IF~~ THEN BEGIN Avi21x04
+-SAY~Najwidoczniej jestem jednak inna..~
+-IF~~THEN DO ~SetGlobal("AviRomForest","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi21x04
++SAY @358
++IF ~~ THEN DO ~SetGlobal("AviRomForest","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi21x03
+-SAY~Skoro tak uwa¿asz...~
+-IF~~THEN DO ~SetGlobal("AviRomForest","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi21x03
++SAY @359
++IF ~~ THEN DO ~SetGlobal("AviRomForest","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi21x02
+-SAY~(Patrzysz jak promienie s³oñca sprawiaj¹, ¿e pó³ materialna forma Avi Mayi zdaje siê byæ p³ynnym œwiat³em i piêknem.)~
+-IF~~THEN GOTO Avi21x05
++IF ~~ THEN BEGIN Avi21x02
++SAY @360
++IF ~~ THEN GOTO Avi21x05
+ END
+ 
+-IF~~ THEN BEGIN Avi21x05
+-SAY~Twoja twarz piêknie wygl¹da na tle drzew i pól.~
+-IF~~THEN DO ~SetGlobal("AviRomForest","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi21x05
++SAY @361
++IF ~~ THEN DO ~SetGlobal("AviRomForest","GLOBAL",2)~ EXIT
+ END
+ 
+ IF ~Global("AviRomDrunk","GLOBAL",1) Global("AviRelationsActive","GLOBAL",2)~ THEN BEGIN Avi22x00
+-SAY~No to bosko. Mój ukochany siê upi³. I co teraz bêdzie dowódco? Bêdziesz nam rozkazywa³ w tym stanie? Czy twoje myœli s¹ zm¹cone? Czy w³aœciwie wiesz co robisz?~
+-IF~~THEN REPLY ~Mo...mo¿e porozmawiamy na osobnoœci...?~ GOTO Avi22x01
+-IF~~THEN REPLY ~Ni..nie mów mi co m...mam robiæ. Idziemy...~ GOTO Avi22x02
++SAY @362
++IF ~~ THEN REPLY @363 GOTO Avi22x01
++IF ~~ THEN REPLY @364 GOTO Avi22x02
+ END
+ 
+-IF~~ THEN BEGIN Avi22x01
+-SAY~Dobrze... (Odchodzicie oboje od reszty ludzi.)~
+-IF~~THEN GOTO Avi22x03
++IF ~~ THEN BEGIN Avi22x01
++SAY @365
++IF ~~ THEN GOTO Avi22x03
+ END
+ 
+-IF~~ THEN BEGIN Avi22x03
+-SAY~Jesteœ po prostu zalany... Na moj¹ duszê, jeszcze zaraz bêdziesz mia³ jakieœ erotyczne pomys³y. Pamiêtej, ¿e duchy mog¹ siê broniæ. Zagrajmy w pewn¹ grê. Dajê ci minutê. Zobaczymy czy mnie zaskoczysz.~
+-IF~~THEN REPLY ~N...nie. To nie jest dobry pomys³.~ GOTO Avi22x02
+-IF~~THEN REPLY ~Czemu by... nie...~ GOTO Avi22x04
++IF ~~ THEN BEGIN Avi22x03
++SAY @366
++IF ~~ THEN REPLY @367 GOTO Avi22x02
++IF ~~ THEN REPLY @368 GOTO Avi22x04
+ END
+ 
+-IF~~ THEN BEGIN Avi22x04
+-SAY~(Przesuwasz Avi Mayê pod œcianê. Ca³ujesz j¹ po szyi doœæ szybko. Wiesz, ¿e masz jedynie kilka chwil. Zêbami zaczynasz przegryzaæ sznureczki bluzki zjawy. Pozwalasz by twój zarost delikatnie ³askota³ Avi po piersiach. Nieumar³a k³adzie jedn¹ rêkê na twojej klatce piersiowej, po czym przemieszcza rêkê coraz ni¿ej i ni¿ej. Ostatecznie jej rêka spoczywa na kroczu. Avi Maya delikatnie masuje je rêka. Krew zaczyna nap³ywaæ do twego grzechu.)~
+-IF~~THEN GOTO Avi22x05
++IF ~~ THEN BEGIN Avi22x04
++SAY @369
++IF ~~ THEN GOTO Avi22x05
+ END
+ 
+-IF~~ THEN BEGIN Avi22x05
+-SAY~(Niematerialne wiêzy bluzki rozluŸni³y siê ukazuj¹c piersi Avi Mayi. Zaczynasz je delikatnie ssaæ. Widmo zaczyna wydawaæ z siebie delikatne mruczenie. Masz wra¿enie, ¿e zatapiasz siê w pó³ materialnym ciele kochanki. Jej rêce delikatnie pieszcz¹ twojego cz³onka.)~
+-IF~~THEN GOTO Avi22x06
++IF ~~ THEN BEGIN Avi22x05
++SAY @370
++IF ~~ THEN GOTO Avi22x06
+ END
+ 
+-IF~~ THEN BEGIN Avi22x06
+-SAY~(Avi Maya zbli¿a twarz do twojego ucha i zaczyna szeptaæ) Brawo... uda³o ci siê mnie zaskoczyæ. Jednak... minuta minê³a.~
+-IF~~THEN DO ~SetGlobal("AviRomDrunk","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi22x06
++SAY @371
++IF ~~ THEN DO ~SetGlobal("AviRomDrunk","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~ THEN BEGIN Avi22x02
+-SAY~Jak chcesz...~
+-IF~~THEN DO ~SetGlobal("AviRomDrunk","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN Avi22x02
++SAY @372
++IF ~~ THEN DO ~SetGlobal("AviRomDrunk","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~!Global("AviRelationsActive","GLOBAL",0) Global("AviRelKeep","GLOBAL",1)~THEN BEGIN AVI23x00
+-SAY~Dzwina twierdza...~
+-IF~~THEN REPLY ~Czy ona ciê martwi?~ GOTO AVI23x01
+-IF~~THEN REPLY ~Coœ nie tak...?~ GOTO AVI23x01
+-IF~~THEN REPLY ~Bêdzie dobrze, Avi Mayu. Ruszajmy.~ GOTO AVI24x02
+-IF~~THEN REPLY ~Oj nie marudŸ... Nie chce ci¹gle wys³uchiwaæ twojego biadolenia, zdechlaczko. Zrozumiano?~ GOTO AVI23x03
++IF ~!Global("AviRelationsActive","GLOBAL",0) Global("AviRelKeep","GLOBAL",1)~ THEN BEGIN AVI23x00
++SAY @373
++IF ~~ THEN REPLY @374 GOTO AVI23x01
++IF ~~ THEN REPLY @375 GOTO AVI23x01
++IF ~~ THEN REPLY @376 GOTO AVI24x02
++IF ~~ THEN REPLY @377 GOTO AVI23x03
+ END
+ 
+-IF~~THEN BEGIN AVI23x01
+-SAY~Nie...~
+-IF~~THEN GOTO AVI23x04
++IF ~~ THEN BEGIN AVI23x01
++SAY @378
++IF ~~ THEN GOTO AVI23x04
+ END
+ 
+-IF~~THEN BEGIN AVI23x04
+-SAY~Chyba wszystko dobrze, ¿ywy... Mi³o, ¿e pytasz... Chyba...~
+-IF~~THEN DO ~SetGlobal("AviRelKeep","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN AVI23x04
++SAY @379
++IF ~~ THEN DO ~SetGlobal("AviRelKeep","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVI23x02
+-SAY~Tak... Ruszajmy...~
+-IF~~THEN DO ~SetGlobal("AviRelKeep","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN AVI23x02
++SAY @380
++IF ~~ THEN DO ~SetGlobal("AviRelKeep","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVI23x03
+-SAY~Jesteœ g³upi. Tak traktowaæ przyjació³...~
+-IF~~THEN DO ~SetGlobal("AviRelKeep","GLOBAL",2) SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN AVI23x03
++SAY @381
++IF ~~ THEN DO ~SetGlobal("AviRelKeep","GLOBAL",2) SetGlobal("AviRelationsActive","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~!Global("AviRelationsActive","GLOBAL",0) Global("AviRelOrb","GLOBAL",1)~THEN BEGIN AVI24x00
+-SAY~Tak! Mamy kulê! Musimy teraz uwolniæ wszystkich niewolników! Oni pomog¹ nam pozbyæ siê wroga! Muszê przyznaæ, ¿ywy, ¿e podró¿owanie z tob¹ jest ca³kiem ciekawym doznaniem.~
+-IF~~THEN REPLY ~Wiem. Tak ciekawym doznaniem jak dla ¿ywego jest podró¿owanie z nieumar³¹, ale piêkn¹ kobiet¹.~ GOTO AVI24x01
+-IF~~THEN REPLY ~To podró¿owanie z tob¹ dodaje pikanterii...~ GOTO AVI24x01
+-IF~~THEN REPLY ~Nie teraz, Avi. Musimy pomóc innym. Porozmawiamy póŸniej.~ GOTO AVI24x02
++IF ~!Global("AviRelationsActive","GLOBAL",0) Global("AviRelOrb","GLOBAL",1)~ THEN BEGIN AVI24x00
++SAY @382
++IF ~~ THEN REPLY @383 GOTO AVI24x01
++IF ~~ THEN REPLY @384 GOTO AVI24x01
++IF ~~ THEN REPLY @385 GOTO AVI24x02
+ END
+ 
+-IF~~THEN BEGIN AVI24x01
+-SAY~Hmm, mi³o, ¿e tak mówisz...~
+-IF~~THEN GOTO AVI24x03
++IF ~~ THEN BEGIN AVI24x01
++SAY @386
++IF ~~ THEN GOTO AVI24x03
+ END
+ 
+-IF~~THEN BEGIN AVI24x02
+-SAY~Rozumiem.~
+-IF~~THEN DO~SetGlobal("AviRelOrb","GLOBAL",2)~EXIT
++IF ~~ THEN BEGIN AVI24x02
++SAY @387
++IF ~~ THEN DO~SetGlobal("AviRelOrb","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVI24x03
+-SAY~Wiesz, ¿e nigdy nie podró¿owa³am z du¿¹ dru¿yn¹? Powiedz mi, jakie krainy chcia³byœ jeszcze odwiedziæ?~
+-IF~~THEN REPLY ~Zawsze chcia³em odwiedziæ inne plany... Sigil? Ach, Misto Bram...~ GOTO AVI24x04
+-IF~~THEN REPLY ~Chêtnie bym wróci³ do Wrót Baldura...~ GOTO AVI24x05
+-IF~~THEN REPLY ~Mo¿e Dolinê Lodowego Wichru... Dekapolis...~ GOTO AVI24x06
+-IF~~THEN REPLY ~Hmm... Rashemen...?~ GOTO AVI24x07
+-IF~~THEN REPLY ~Chyba Thay. Miejsce gdzie rz¹dz¹ Czerwoni Magowie.~ GOTO AVI24x08
++IF ~~ THEN BEGIN AVI24x03
++SAY @388
++IF ~~ THEN REPLY @389 GOTO AVI24x04
++IF ~~ THEN REPLY @390 GOTO AVI24x05
++IF ~~ THEN REPLY @391 GOTO AVI24x06
++IF ~~ THEN REPLY @392 GOTO AVI24x07
++IF ~~ THEN REPLY @393 GOTO AVI24x08
+ END
+ 
+-IF~~THEN BEGIN AVI24x04
+-SAY~Och, ciekawa odpowiedŸ! Nie spodziewa³am siê tego. Mi³o, ¿e s¹ jeszcze ¿ywe istoty które umiej¹ mnie zaskoczyæ...~
+-IF~~THEN GOTO AVI24x09
++IF ~~ THEN BEGIN AVI24x04
++SAY @394
++IF ~~ THEN GOTO AVI24x09
+ END
+ 
+-IF~~THEN BEGIN AVI24x05
+-SAY~Ach, w sumie to tam po czêœci siê zaczê³a przygoda braci... <CHARNAME> i Sarevok... Cieszê siê, ¿e wygra³eœ i mia³am szansê ciê spotkaæ...~
+-IF~~THEN GOTO AVI24x09
++IF ~~ THEN BEGIN AVI24x05
++SAY @395
++IF ~~ THEN GOTO AVI24x09
+ END
+ 
+-IF~~THEN BEGIN AVI24x06
+-SAY~Ach, kraina zimniejsza od mojego cia³ka! Chêtnie bym tam z tob¹ zawêdrowa³a...~
+-IF~~THEN GOTO AVI24x09
++IF ~~ THEN BEGIN AVI24x06
++SAY @396
++IF ~~ THEN GOTO AVI24x09
+ END
+ 
+-IF~~THEN BEGIN AVI24x07
+-SAY~Kraina duchów, energii i wiary! WiedŸmy, wojownicy, duchy zwierz¹t... To musi byæ wspania³e miejsce... Mo¿e bym tam pasowa³a...~
+-IF~~THEN GOTO AVI24x09
++IF ~~ THEN BEGIN AVI24x07
++SAY @397
++IF ~~ THEN GOTO AVI24x09
+ END
+ 
+-IF~~THEN BEGIN AVI24x08
+-SAY~O tak! Rozwi¹zalibyœmy parê zagadek magów, wpl¹tali siê w problemy i poradzili sobie jak zwykle... Wiesz... Uwielbiam to!~
+-IF~~THEN GOTO AVI24x09
++IF ~~ THEN BEGIN AVI24x08
++SAY @398
++IF ~~ THEN GOTO AVI24x09
+ END
+ 
+-IF~~THEN BEGIN AVI24x09
+-SAY~Tak naprawdê, to chêtnie zawêdrujê tam gdzie tylko zechcesz... Zawsze bêdziemy mieli trochê zabawy...~
+-IF~~THEN GOTO AVI24x10
++IF ~~ THEN BEGIN AVI24x09
++SAY @399
++IF ~~ THEN GOTO AVI24x10
+ END
+ 
+-IF~~THEN BEGIN AVI24x10
+-SAY~Ruszajmy. Porozmawiamy jeszcze... Zaplanujemy nowe przygody...~
+-IF~~THEN DO~SetGlobal("AviRelOrb","GLOBAL",2)~EXIT
++IF ~~ THEN BEGIN AVI24x10
++SAY @400
++IF ~~ THEN DO~SetGlobal("AviRelOrb","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~!Global("AviRelationsActive","GLOBAL",0)
+-Global("AviRelRain","GLOBAL",2)~THEN BEGIN AVI25x00
+-SAY~Uwielbiam jak pada! Widzisz, jestem pó³ materialna... Czêœæ kropli sp³ywa po mojej pow³oce, czêœæ przenika przeze mnie jak gdybym by³a powietrzem...~
+-IF~~THEN REPLY ~Uwielbiam ciê w³aœnie za to, ¿e jesteœ taka inna.~ GOTO AVI25x01
+-IF~~THEN REPLY ~Wiem... Piêknie wygl¹dasz...~ GOTO AVI25x01
+-IF~~THEN REPLY ~Nie bêdziemy siê teraz tym zajmowaæ, Avi Mayu.~ GOTO AVI25x02
++IF ~!Global("AviRelationsActive","GLOBAL",0)
++Global("AviRelRain","GLOBAL",2)~ THEN BEGIN AVI25x00
++SAY @401
++IF ~~ THEN REPLY @402 GOTO AVI25x01
++IF ~~ THEN REPLY @403 GOTO AVI25x01
++IF ~~ THEN REPLY @404 GOTO AVI25x02
+ END
+ 
+-IF~~THEN BEGIN AVI25x01
+-SAY~Jesteœ zabawny. Och, ¿ywy... Jesteœ taki... ¿ywy!~
+-IF~~THEN GOTO AVI25x03
++IF ~~ THEN BEGIN AVI25x01
++SAY @405
++IF ~~ THEN GOTO AVI25x03
+ END
+ 
+-IF~~THEN BEGIN AVI25x03
+-SAY~Widzisz, to dziwne uczucie posiadaæ tak¹ formê. Jednak posiadaj¹c j¹ mogê czuæ tak jak nigdy za ¿ycia.~
+-IF~~THEN GOTO AVI25x04
++IF ~~ THEN BEGIN AVI25x03
++SAY @406
++IF ~~ THEN GOTO AVI25x04
+ END
+ 
+-IF~~THEN BEGIN AVI25x04
+-SAY~To jest wspania³e... Czasami... podniecaj¹ce... (Avi Maya uœmiecha siê i zaczyna obracaæ z twarz¹ zwrócon¹ ku niebu.)~
+-IF~~THEN DO ~SetGlobal("AviRelRain","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN AVI25x04
++SAY @407
++IF ~~ THEN DO ~SetGlobal("AviRelRain","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVI25x02
+-SAY~Tak, Tak...~
+-IF~~THEN DO ~SetGlobal("AviRelRain","GLOBAL",3)~ EXIT
++IF ~~ THEN BEGIN AVI25x02
++SAY @408
++IF ~~ THEN DO ~SetGlobal("AviRelRain","GLOBAL",3)~ EXIT
+ END
+ 
+-IF~!Global("AviRelationsActive","GLOBAL",0)
+-Global("AviRelYosh","GLOBAL",1)~THEN BEGIN AVI26x00
+-SAY~Powiedz mi, <CHARNAME>... Co uwa¿asz o tym tutaj... Yoshimo... ~
+-IF~~THEN REPLY ~A co mam myœleæ? Chyba wszystko z nim dobrze.~ GOTO AVI26x01
+-IF~~THEN REPLY ~Mam do niego pewne podejrzenia...~ GOTO AVI26x02
++IF ~!Global("AviRelationsActive","GLOBAL",0)
++Global("AviRelYosh","GLOBAL",1)~ THEN BEGIN AVI26x00
++SAY @409
++IF ~~ THEN REPLY @410 GOTO AVI26x01
++IF ~~ THEN REPLY @411 GOTO AVI26x02
+ END
+ 
+-IF~~THEN BEGIN AVI26x01
+-SAY~Nie by³abym taka pewna.~
+-IF~~THEN GOTO AVI26x03
++IF ~~ THEN BEGIN AVI26x01
++SAY @412
++IF ~~ THEN GOTO AVI26x03
+ END
+ 
+-IF~~THEN BEGIN AVI26x03
+-SAY~Œmieræ wiele by ciê nauczy³a. Yoshimo zdaje siê ci¹gle nas obserwowaæ. Jest wœcibski, spostrzegawczy i nieprzeciêtny.~
+-IF~~THEN GOTO AVI26x04
++IF ~~ THEN BEGIN AVI26x03
++SAY @413
++IF ~~ THEN GOTO AVI26x04
+ END
+ 
+-IF~~THEN BEGIN AVI26x04
+-SAY~Uwa¿ajmy na niego. Nie chcia³abym by mój ulubiony i ¿ywy cz³onek dru¿yny sta³ siê ulubionym i martwym.~
+-IF~~THEN DO ~SetGlobal("AviRelYosh","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN AVI26x04
++SAY @414
++IF ~~ THEN DO ~SetGlobal("AviRelYosh","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVI26x02
+-SAY~Bardzo dobrze. Uwa¿aj na niego, ¿ywy. Uwa¿aj... (Mówi¹c to, Avi Maya ci¹gle patrzy na ³owcê nagród.)~
+-IF~~THEN DO ~SetGlobal("AviRelYosh","GLOBAL",2)~ EXIT
++IF ~~ THEN BEGIN AVI26x02
++SAY @415
++IF ~~ THEN DO ~SetGlobal("AviRelYosh","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~!Global("AviRelationsActive","GLOBAL",0)
+-Global("AviRelSexy","GLOBAL",1)~THEN BEGIN AVI27x00
+-SAY~Wiesz, nigdy tego nie zauwa¿y³am, ¿ywy, ale...~
+-IF~~THEN GOTO AVI27x01
++IF ~!Global("AviRelationsActive","GLOBAL",0)
++Global("AviRelSexy","GLOBAL",1)~ THEN BEGIN AVI27x00
++SAY @416
++IF ~~ THEN GOTO AVI27x01
+ END
+ 
+-IF~~THEN BEGIN AVI27x01
+-SAY~Masz piêkne uda. Mogê ich dotkn¹æ?~
+-IF~~THEN REPLY ~Ja... s¹dzê, ¿e tak...~ GOTO AVI27x02
+-IF~~THEN REPLY ~Œmia³o.~ GOTO AVI27x02
+-IF~~THEN REPLY ~Nie. To jest dziwne...~ GOTO AVI27x03
++IF ~~ THEN BEGIN AVI27x01
++SAY @417
++IF ~~ THEN REPLY @418 GOTO AVI27x02
++IF ~~ THEN REPLY @419 GOTO AVI27x02
++IF ~~ THEN REPLY @420 GOTO AVI27x03
+ END
+ 
+-IF~~THEN BEGIN AVI27x02
+-SAY~(Avi Maya dotyka twojego uda. Jej rêka jest delikatna ale pewna.) Czy mo¿esz napi¹æ dla mnie miêsieñ uda?~
+-IF~~THEN REPLY ~Dobrze. (Napnij miêsieñ.)~ GOTO AVI27x04
+-IF~~THEN REPLY ~Nie. To jest ju¿ stanowczo za dziwne...~ GOTO AVI27x03
++IF ~~ THEN BEGIN AVI27x02
++SAY @421
++IF ~~ THEN REPLY @422 GOTO AVI27x04
++IF ~~ THEN REPLY @423 GOTO AVI27x03
+ END
+ 
+-IF~~THEN BEGIN AVI27x04
+-SAY~(Avi Maya obserwuje twoje udo. Wk³ada rêkê pod twoje ubranie. Przemieszcza swoj¹ rêkê po napiêtym miêœniu. Od jej dotyku w³osy na twoim udzie podnosz¹ siê.) Masz zabawne w³osy na udzie. Lubie je dotykaæ. Mam na myœli uda! Chocia¿ twoje ow³osienie te¿ jest przyjemne w dotyku...~
+-IF~~THEN GOTO AVI27x05
++IF ~~ THEN BEGIN AVI27x04
++SAY @424
++IF ~~ THEN GOTO AVI27x05
+ END
+ 
+-IF~~THEN BEGIN AVI27x05
+-SAY~Mam nadziejê, ¿e bêdê mog³a jeszcze nie raz dotkn¹æ tych wspania³ych ud...~
+-IF~~THEN GOTO AVI27x06
++IF ~~ THEN BEGIN AVI27x05
++SAY @425
++IF ~~ THEN GOTO AVI27x06
+ END
+ 
+-IF~~THEN BEGIN AVI27x06
+-SAY~Teraz ruszajmy...~
+-IF~~THEN DO~SetGlobal("AviRelSexy","GLOBAL",2)~EXIT
++IF ~~ THEN BEGIN AVI27x06
++SAY @426
++IF ~~ THEN DO~SetGlobal("AviRelSexy","GLOBAL",2)~ EXIT
+ END
+ 
+-IF~~THEN BEGIN AVI27x03
+-SAY~Szkoda... Jak chcesz...~
+-IF~~THEN DO~SetGlobal("AviRelSexy","GLOBAL",2)~EXIT
++IF ~~ THEN BEGIN AVI27x03
++SAY @427
++IF ~~ THEN DO~SetGlobal("AviRelSexy","GLOBAL",2)~ EXIT
+ END
+ 
+ CHAIN
+@@ -1303,20 +1303,20 @@
+ See("Minsc")
+ !StateCheck("Minsc",STATE_SLEEPING)
+ Global("MinscAviTalk","LOCALS",0)~ THEN 1xAviB MinscAvi01
+-~Minsc, jesteœ z Rashemenu, prawda?~
++@428
+ DO ~SetGlobal("MinscAviTalk","LOCALS",1)~
+ == BMINSC
+-~Tak! Minsc i Boo s¹ z Rashemenu. By³a jeszcze z nami Dynaheir...~
++@429
+ == 1xAviB
+-~Rozumiem...~
++@430
+ == BMINSC
+-~Ale ja i Boo pomœcimy nasz¹ wiedŸmê! Wgryziemy siê w z³o tego œwiata, prawda Boo?!~
++@431
+ == 1xAviB
+-~Ach... Rashemen to kraina duchów, tak?~
++@432
+ == BMINSC
+-~Tak. W Rashemenie wszêdzie mo¿na napotkaæ duchy. Strumienie, zwierzêta, drzewa... Du¿o duchów!~
++@433
+ == 1xAviB
+-~To musi byæ... ¿ywe w pewnym sensie... miejsce.~
++@434
+ EXIT
+ 
+ CHAIN
+@@ -1324,10 +1324,10 @@
+ See("Minsc")
+ !StateCheck("Minsc",STATE_SLEEPING)
+ Global("MinscAviTalk","LOCALS",1)~ THEN 1xAviB MinscAvi02
+-~(Avi Maya ukrywa siê w ciemnoœci i gdy Minsc siê zbli¿a, wyskakuje i krzyczy.)~
++@435
+ DO ~SetGlobal("MinscAviTalk","LOCALS",2)~
+ == BMINSC
+-~Aaa! Uwa¿aj! Wystraszysz Boo!~
++@436
+ EXIT
+ 
+ CHAIN
+@@ -1335,16 +1335,16 @@
+ See("HaerDalis")
+ !StateCheck("HaerDalis",STATE_SLEEPING)
+ Global("HaerdaAviTalk","LOCALS",0)~ THEN 1xAviB DalisAvi01
+-~Mi³o podru¿owaæ ze swoim przeciwieñstwem, Haer'Dalisie?~
++@437
+ DO ~SetGlobal("HaerdaAviTalk","LOCALS",1)~
+ == BHAERDA
+-~Co masz na myœli, moja nocna sowo?~
++@438
+ == 1xAviB
+-~Jestem cz³owiekiem, ty jesteœ diabelstwem, jestem martwa, a ty ¿ywy. To chyba doœæ istotne. ~
++@439
+ == BHAERDA
+-~Jednak oboje jesteœmy artystami, droga sowo! A nadmieniæ pragnê, i¿ ka¿dego z nas spotka los bliski twemu. Nie ubli¿am ci oczywiœcie... Jesteœ doœæ ciekaw¹... truposzk¹. Mi³o z tob¹ wêdrowaæ.~
++@440
+ == 1xAviB
+-~No, no. no! Widzê, ¿e nekrofilia chyba robi siê modna!~
++@441
+ EXIT
+ 
+ CHAIN
+@@ -1352,12 +1352,12 @@
+ See("HaerDalis")
+ !StateCheck("HaerDalis",STATE_SLEEPING)
+ Global("HaerdaAviTalk","LOCALS",1)~ THEN 1xAviB DalisAvi02
+-~Wygl¹dasz dziœ ¿ywiej ni¿ zwykle, Haer'Dalisie!~
++@442
+ DO ~SetGlobal("HaerdaAviTalk","LOCALS",2)~
+ == BHAERDA
+-~Mi³o us³yszeæ coœ takiego od martwej dziewczyny. Intryguj¹ce...~
++@443
+ == 1xAviB
+-~Tak, wiem. Jestem doœæ intryguj¹ca...~
++@444
+ EXIT
+ 
+ CHAIN
+@@ -1365,14 +1365,14 @@
+ See("Aerie")
+ !StateCheck("Aerie",STATE_SLEEPING)
+ Global("AerieAviTalk","LOCALS",0)~ THEN 1xAviB AerieAvi01
+-~Powiedz mi, elfico, czy musisz tak ci¹gle gadaæ o swoich skrzyd³ach? Nie wszystko krêci siê wokó³ trudnego dzieciñstwa.~
++@445
+ DO ~SetGlobal("AerieAviTalk","LOCALS",1)~
+ == BAERIE
+-~Ty... ty po prostu tego nie zrozumiesz. To by³o coœ... coœ naprawdê strasznego...~
++@446
+ == 1xAviB
+-~Tak strasznego jak morderstwa dzieci, masowe gwa³ty? Dano ci jednak ¿ycie idiotko.~
++@447
+ == BAERIE
+-~Natychmiast... natychmiast mnie zostaw!~
++@448
+ EXIT
+ 
+ CHAIN
+@@ -1380,14 +1380,14 @@
+ See("Aerie")
+ !StateCheck("Aerie",STATE_SLEEPING)
+ Global("AerieAviTalk","LOCALS",1)~ THEN 1xAviB AerieAvi02
+-~Co siê tak na mnie patrzysz?~
++@449
+ DO ~SetGlobal("AerieAviTalk","LOCALS",2)~
+ == BAERIE
+-~Ja... ja siê tylko przygl¹dam. Po prostu zastanawiam siê jaka by³aœ za ¿ycia... ~
++@450
+ == 1xAviB
+-~Taka sama jak obecnie. S¹dzisz, ¿e œmieræ tak bardzo zmienia?~
++@451
+ == BAERIE
+-~Tak, chyba tak s¹dzê...~
++@452
+ EXIT
+ 
+ CHAIN
+@@ -1395,12 +1395,12 @@
+ See("Anomen")
+ !StateCheck("Anomen",STATE_SLEEPING)
+ Global("AnomenAviTalk","LOCALS",0)~ THEN 1xAviB AnomenAvi01
+-~Dziwiê siê, ¿e jeszcze siê na mnie nie rzuci³eœ...~
++@453
+ DO ~SetGlobal("AnomenAviTalk","LOCALS",1)~
+ == BANOMEN
+-~Nie mam zwyczaju atakowania kogoœ z kim walczê po tej samej stronie, pani. Mo¿e sama tak postêpujesz.~
++@454
+ == 1xAviB
+-~Nie mia³am na myœli atakowania, Anomenie... ~
++@455
+ EXIT
+ 
+ CHAIN
+@@ -1408,12 +1408,12 @@
+ See("Anomen")
+ !StateCheck("Anomen",STATE_SLEEPING)
+ Global("AnomenAviTalk","LOCALS",1)~ THEN 1xAviB AnomenAvi02
+-~Czemu ci¹gle siê na mnie gapisz, kap³anie? A¿ tak ciê podniecam. Mo¿e chcesz skosztowaæ tego cia³ka... (Avi Maya podchodzi do Anomena.)~
++@456
+ DO ~SetGlobal("AnomenAviTalk","LOCALS",2)~
+ == BANOMEN
+-~Co ty robisz, kobieto? Jak œmiesz...? (Avi Maya dotyka krocza Anomena.)~
++@457
+ == 1xAviB
+-~Wiedzia³am, ¿e nie masz jaj... (Avi Maya uœmiecha siê i odchodzi od kap³ana.)~
++@458
+ EXIT
+ 
+ CHAIN
+@@ -1421,12 +1421,12 @@
+ See("Cernd")
+ !StateCheck("Cernd",STATE_SLEEPING)
+ Global("CerndAviTalk","LOCALS",0)~ THEN 1xAviB CerndAvi01
+-~Nie uwa¿asz mnie za wynaturzenie, Cernd? Jestem umar³¹ w œwiecie ¿ywych. Twoje zasady s¹ proste, a ja je ³amiê.~
++@459
+ DO ~SetGlobal("CerndAviTalk","LOCALS",1)~
+ == BCERND
+-~Mo¿e jesteœ pewnego rodzaju wynaturzeniem. Jest jednak pewna kwestia. Ten œwiat potrzebuje paru wynaturzeñ. Nie wszystko zawsze jest idealne. Œwiat to nie perfekcja wiêc kilka zaburzeñ nic nie zmieni. Tolerujê ciê. ~
++@460
+ == 1xAviB
+-~To chyba dobrze...~
++@461
+ EXIT
+ 
+ CHAIN
+@@ -1434,12 +1434,12 @@
+ See("Cernd")
+ !StateCheck("Cernd",STATE_SLEEPING)
+ Global("CerndAviTalk","LOCALS",1)~ THEN 1xAviB CerndAvi02
+-~Cernd, chcesz mo¿e o czymœ porozmawiaæ? Wygl¹dasz na zamyœlonego.~
++@462
+ DO ~SetGlobal("CerndAviTalk","LOCALS",2)~
+ == BCERND
+-~¯e ciê tolerujê to nie oznacza, ¿e bêdê ci siê zwierza³, Avi Mayu. ~
++@463
+ == 1xAviB
+-~Twoja decyzja, ¿ywy.~
++@464
+ EXIT
+ 
+ CHAIN
+@@ -1447,14 +1447,14 @@
+ See("Edwin")
+ !StateCheck("Edwin",STATE_SLEEPING)
+ Global("EdwinAviTalk","LOCALS",0)~ THEN 1xAviB EdwinAvi01
+-~Edwinie, czy spiskujesz w³aœnie przeciwko mnie? Zdajesz siê taki zamyœlony.~
++@465
+ DO ~SetGlobal("EdwinAviTalk","LOCALS",1)~
+ == BEDWIN
+-~Och, próbujesz byæ zabawna, czy tak? Twoje bezwartoœciowe poczucie humoru mo¿e byæ przewy¿szone przez twoje ego. (Czy ona myœli, ¿e chce mi siê z ni¹ gadaæ?)~
++@466
+ == 1xAviB
+-~I kto tu mówi o wielkim ego!~
++@467
+ == BEDWIN
+-~Tylko, ¿e ja mam prawo w ten sposób siê odzywaæ, a ty nie. JA nie jestem TOB¥! (I bardzo dobrze.)~
++@468
+ EXIT
+ 
+ CHAIN
+@@ -1462,16 +1462,16 @@
+ See("Edwin")
+ !StateCheck("Edwin",STATE_SLEEPING)
+ Global("EdwinAviTalk","LOCALS",1)~ THEN 1xAviB EdwinAvi02
+-~Znowu siê zamyœli³eœ, Czerwony Magu? A mo¿e po prostu próbujesz wymyœliæ kolejn¹ inteligentn¹ odzywkê?~
++@469
+ DO ~SetGlobal("EdwinAviTalk","LOCALS",2)~
+ == BEDWIN
+-~Nie zawracaj mi g³owy, idiotko. (Co do cholery ona sobie myœli?)~
++@470
+ == 1xAviB
+-~A masz coœ wa¿niejszego do roboty?~
++@471
+ == BEDWIN
+-~Tak.~
++@472
+ == BEDWIN
+-~Szukanie sposobu ca³kowitej eksterminacji namolnych nieumar³ych.~
++@473
+ EXIT
+ 
+ CHAIN
+@@ -1479,14 +1479,14 @@
+ See("Imoen2")
+ !StateCheck("Imoen2",STATE_SLEEPING)
+ Global("ImoenAviTalk","LOCALS",0)~ THEN 1xAviB ImoenAvi01
+-~Jak siê czujesz, Imoen?~
++@474
+ DO ~SetGlobal("ImoenAviTalk","LOCALS",1)~
+ == BIMOEN2
+-~Ju¿ ze mn¹ lepiej. by³o ciê¿ko gdy Irenicus mêczy³ mnie zaklêciami i rytua³ami. Mi³o, ¿e siê martwisz.~
++@475
+ == 1xAviB
+-~Po prostu zdajesz siê mi³a. Nie widzê powodów czemu mia³abym byæ inna w stosunku do ciebie.~
++@476
+ == BIMOEN2
+-~Hej! To te¿ by³o doœæ mi³e.~
++@477
+ EXIT
+ 
+ CHAIN
+@@ -1494,14 +1494,14 @@
+ See("Imoen2")
+ !StateCheck("Imoen2",STATE_SLEEPING)
+ Global("ImoenAviTalk","LOCALS",1)~ THEN 1xAviB ImoenAvi02
+-~No, no. Widzê, ¿e masz doœæ zrêczne paluszki Imoen.~
++@478
+ DO ~SetGlobal("ImoenAviTalk","LOCALS",2)~
+ == BIMOEN2
+-~Jestem jednak trochê z³odziejk¹! Mi³o by³o podkradaæ mnichom cukierki...~
++@479
+ == 1xAviB
+-~...i zakradaæ siê do domów ³adnych ch³opców...~
++@480
+ == BIMOEN2
+-~Hej! Ja tego nie powiedzia³am!~
++@481
+ EXIT
+ 
+ CHAIN
+@@ -1509,12 +1509,12 @@
+ See("Jaheira")
+ !StateCheck("Jaheira",STATE_SLEEPING)
+ Global("JahAviTalk","LOCALS",0)~ THEN 1xAviB JahAvi01
+-~Nie podoba ci siê, ¿e wêdrujesz z martw¹ dziewczyn¹, prawda?~
++@482
+ DO ~SetGlobal("JahAviTalk","LOCALS",1)~
+ == BJAHEIR
+-~To nie tak, dziecko. Po prostu nie wiem jak siê zachowywaæ wœród martwych...~
++@483
+ == 1xAviB
+-~Tak jak gdyby nie byli martwi?~
++@484
+ EXIT
+ 
+ CHAIN
+@@ -1522,18 +1522,18 @@
+ See("Jan")
+ !StateCheck("Jan",STATE_SLEEPING)
+ Global("JanAviTalk","LOCALS",0)~ THEN 1xAviB JanAvi01
+-~Gnomie, myœla³eœ kiedyœ by otworzyæ statyczn¹ firmê? Nie musia³byœ zostawiaæ swojej rodziny.~
++@485
+ DO ~SetGlobal("JanAviTalk","LOCALS",1)~
+ == BJAN
+-~Tak, tak. Myœla³em o tym... Jednak gdy przypomina mi siê historia mojego stryjecznego dziadka od strony matuszki... Posiada³ on cudown¹ firmê zajmuj¹c¹ siê magicznie modyfikowan¹ kapust¹. Och, co to by³ za smak! Jednak jak siê okaza³o, nie wp³ywa³a dobrze na jelita... i zdrowie psychiczne...~
++@486
+ == 1xAviB
+-~Ach...~
++@487
+ == 1xAviB
+-~Twoja matka jad³a t¹ kapustê, prawda?~
++@488
+ == BJAN
+-~Oczywiœcie! Jak widaæ na moj¹ matkê nie podzia³a³a ta kapusta, nawet pomimo tego, ¿e by³a przy nadziei!~
++@489
+ == 1xAviB
+-~I tak powsta³ Jan... Z kapusty...~
++@490
+ EXIT
+ 
+ CHAIN
+@@ -1541,10 +1541,10 @@
+ See("Keldorn")
+ !StateCheck("Keldorn",STATE_SLEEPING)
+ Global("KeldornAviTalk","LOCALS",0)~ THEN 1xAviB KeldornAvi01
+-~Powiedz mi, Keldornie, nie masz ochoty na tak wyrafinowan¹ damê jak ta stoj¹ca przed tob¹ duszyczka?~
++@491
+ DO ~SetGlobal("KeldornAviTalk","LOCALS",1)~
+ == BKELDOR
+-~Nie mam najmniejszego powodu by z tob¹ rozmawiaæ. Nie ufam nieumar³ym... Zw³aszcza ponêtnym...~
++@492
+ EXIT
+ 
+ CHAIN
+@@ -1552,12 +1552,12 @@
+ See("Keldorn")
+ !StateCheck("Keldorn",STATE_SLEEPING)
+ Global("KeldornAviTalk","LOCALS",1)~ THEN 1xAviB KeldornAvi02
+-~Nie s¹dŸ, ¿e moja ostatnia odzywka by³a czymœ dobrym. Jedyne czego od ciebie pragnê to odrobina zabawy... W postaci szydzenia z ciebie oczywiœcie.~
++@493
+ DO ~SetGlobal("KeldornAviTalk","LOCALS",2)~
+ == BKELDOR
+-~A ja zwracam te s³owa do ciebie, gnij¹ca panno.~
++@494
+ == BKELDOR
+-~A teraz zamilczmy.~
++@495
+ EXIT
+ 
+ CHAIN
+@@ -1565,14 +1565,14 @@
+ See("Korgan")
+ !StateCheck("Korgan",STATE_SLEEPING)
+ Global("KorganAviTalk","LOCALS",0)~ THEN 1xAviB KorganAvi01
+-~Krasnoludzie, jesteœ idiot¹. Twój topór przej¹³ funkcjê myœlenia?~
++@496
+ DO ~SetGlobal("KorganAviTalk","LOCALS",1)~
+ == BKORGAN
+-~Mój topór zaraz spadnie na twój ³eb!~
++@497
+ == 1xAviB
+-~Nie bij mnie toporem. O mózg trzeba dbaæ. Chcesz by siê na mnie stêpi³?~
++@498
+ == BKORGAN
+-~Pewnego razu dorwê ciê. Niech tylko nie bêdzie <CHARNAME> w pobli¿u.~
++@499
+ EXIT
+ 
+ CHAIN
+@@ -1580,14 +1580,14 @@
+ See("Mazzy")
+ !StateCheck("Mazzy",STATE_SLEEPING)
+ Global("MazzyAviTalk","LOCALS",0)~ THEN 1xAviB MazzyAvi01
+-~Mazzy, masz doœæ zadbany ³uk. Zaobserwowa³am, ¿e doœæ biegle siê pos³ugujesz tego typu broni¹. A w³aœni... Czy ty nie pochodzisz z Targowa?~
++@500
+ DO ~SetGlobal("MazzyAviTalk","LOCALS",1)~
+ == BMAZZY
+-~Dziêkujê. Tak, ale wiêkszoœæ czasu spêdzam jako poszukiwaczka przygód. Mam jednak wra¿enie, ¿e ju¿ ciê kiedyœ widzia³am...~
++@501
+ == 1xAviB
+-~To pewnie dlatego, ¿e przez pewien czas mieszka³am w Targowie... No i jakby nie patrzeæ to tam jest mój grób.~
++@502
+ == BMAZZY
+-~To wiele wyjaœnia...~
++@503
+ EXIT
+ 
+ CHAIN
+@@ -1595,14 +1595,14 @@
+ See("Mazzy")
+ !StateCheck("Mazzy",STATE_SLEEPING)
+ Global("MazzyAviTalk","LOCALS",1)~ THEN 1xAviB MazzyAvi02
+-~Nie têsknisz czasami za rodzin¹, "s¹siadko"? Z tego co wiem jest doœæ liczna i wszyscy zostali w Targowie. Nie myœla³aœ by do nich wróciæ?~
++@504
+ DO ~SetGlobal("MazzyAviTalk","LOCALS",2)~
+ == BMAZZY
+-~Kocham ich, dobra duszo, jednak nie potrafiê bezczynnie siedzieæ wiedz¹c, ¿e mogê uczyniæ wiele dobrego.~
++@505
+ == 1xAviB
+-~Rozumiem.~
++@387
+ == BMAZZY
+-~I nie pozna³abym wielu ludzi... i przyjaznych nieumar³ych.~
++@506
+ EXIT
+ 
+ CHAIN
+@@ -1610,12 +1610,12 @@
+ See("Nalia")
+ !StateCheck("Nalia",STATE_SLEEPING)
+ Global("NaliaAviTalk","LOCALS",0)~ THEN 1xAviB NaliaAvi01
+-~Ojej! Musimy poszukaæ potrzebuj¹cych! Gdzie jesteœcie?! Ja wam pomogê! Potrzebuj¹cy! Gdzie jesteœcie?! Do nogi!~
++@507
+ DO ~SetGlobal("NaliaAviTalk","LOCALS",1)~
+ == BNALIA
+-~Jak mo¿esz tak sobie ze mnie ¿artowaæ?~
++@508
+ == 1xAviB
+-~Hmm... Dlatego, ¿e jesteœ idiotk¹? Ja te¿ czasami pomagam ludziom ale ty zachowujesz siê jak upoœledzona.~
++@509
+ EXIT
+ 
+ CHAIN
+@@ -1623,14 +1623,14 @@
+ See("Valygar")
+ !StateCheck("Valygar",STATE_SLEEPING)
+ Global("ValyAviTalk","LOCALS",0)~ THEN 1xAviB ValyAvi01
+-~Valygarze, nie powinieneœ mnie nienawidziæ? Jesteœ ³owc¹ wiêc tak jak druidzi nie przepadacie za nienaturalnymi stworzeniami... Dodatkowo u¿ywam magii...~
++@510
+ DO ~SetGlobal("ValyAviTalk","LOCALS",1)~
+ == BVALYGA
+-~(Valygar patrzy chwilê na Avi Mayê.) Pomagasz mi, istoto. Staram siê ciebie tolerowaæ. Nie jesteœ te¿ magiem. Bardowie to ledwo czaruj¹cy. ~
++@511
+ == 1xAviB
+-~Jak ze mn¹ rozmawiasz w ten sposób to nie wiem czy to co mówisz to komplementy czy z³oœliwoœci.~
++@512
+ == BVALYGA
+-~Ja te¿ tego nie wiem.~
++@513
+ EXIT
+ 
+ CHAIN
+@@ -1638,14 +1638,14 @@
+ See("Valygar")
+ !StateCheck("Valygar",STATE_SLEEPING)
+ Global("ValyAviTalk","LOCALS",1)~ THEN 1xAviB ValyAvi02
+-~Powiedz mi... Zdajesz siê byæ jednak trochê tajemniczy... Co w³aœciwie s¹dzisz o takich dziewczynach jak ja, Valygarze?~
++@514
+ DO ~SetGlobal("ValyAviTalk","LOCALS",2)~
+ == BVALYGA
+-~S¹dzê, ¿e takie dziewczyny powinny milczeæ jak grób.~
++@515
+ == 1xAviB
+-~Takiej odpowiedzi siê spodziewa³am... Wiesz, w³aœnie dlatego dobrze o tobie myœlê. Jesteœ doœæ logicznie postêpuj¹cy.~
++@516
+ == BVALYGA
+-~Wiem. W pewnym sensie jesteœ przyjemn¹ towarzyszk¹.~
++@517
+ EXIT
+ 
+ CHAIN
+@@ -1653,12 +1653,12 @@
+ See("Viconia")
+ !StateCheck("Viconia",STATE_SLEEPING)
+ Global("VicAviTalk","LOCALS",0)~ THEN 1xAviB VicAvi01
+-~(Avi Maya zauwa¿a ma³ego paj¹ka. Podnosi go i k³adzie na kaptur Viconii.)~
++@518
+ DO ~SetGlobal("VicAviTalk","LOCALS",1)~
+ == BVICONI
+-~(Viconia rozgl¹da siê nic nie zauwa¿aj¹c.)~
++@519
+ == 1xAviB
+-~B³agam, b¹dŸ wys³annikiem Lloth i zdejmij nam ten problem z g³owy...~
++@520
+ EXIT
+ 
+ CHAIN
+@@ -1666,10 +1666,10 @@
+ See("Viconia")
+ !StateCheck("Viconia",STATE_SLEEPING)
+ Global("VicAviTalk","LOCALS",1)~ THEN 1xAviB VicAvi02
+-~Viconio, jesteœ drowk¹. Nie boisz siê, ¿e w œwiecie naziemnym po prostu ciê z³api¹? Mam nadziejê, ¿e jakiœ ow³osiony, œmierdz¹cy i paskudny mê¿czyzna - najlepiej ork - weŸmie ciê si³¹, brutalnie... ¯e bêdziesz krzyczeæ jak bêdzie wk³ada³ ci swojego penisa... Na koniec oczywiœcie ciê zer¿nie jeszcze raz i zabije... ~
++@521
+ DO ~SetGlobal("VicAviTalk","LOCALS",2)~
+ == BVICONI
+-~Mo¿e jednak rozmyœlasz o w³asnym losie, suko? Iblith!~
++@522
+ EXIT
+ 
+ CHAIN
+@@ -1677,12 +1677,12 @@
+ See("Yoshimo")
+ !StateCheck("Yoshimo",STATE_SLEEPING)
+ Global("YoshiAviTalk","LOCALS",0)~ THEN 1xAviB YoshiAvi01
+-~Yoshimo, dla kogo ty w³aœciwie pracujesz?~
++@523
+ DO ~SetGlobal("YoshiAviTalk","LOCALS",1)~
+ == BYOSHIM
+-~Dla tych którzy mi najlepiej zap³ac¹, ksiê¿ycowa dziewico.~
++@524
+ == 1xAviB
+-~A je¿eli przyk³adowo najwiêcej ci zap³aci... no nie wiem... Jon Irenicus?~
++@525
+ == BYOSHIM
+-~Was bym nigdy nie zdradzi³. Jesteœcie dla mnie jak rodzeñstwo.~
+-EXIT
+\ No newline at end of file
++@526
++EXIT

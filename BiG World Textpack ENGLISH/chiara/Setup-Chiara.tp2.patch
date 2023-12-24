@@ -1,0 +1,103 @@
+--- Setup-Chiara.tp2	Fri Nov 08 22:52:47 2013
++++ C:\BWP Patchstudio\patched files\Setup-Chiara.tp2	Fri Nov 08 22:52:50 2013
+@@ -3,6 +3,7 @@
+ BACKUP ~chiara/chiara-backup~
+ AUTHOR ~octavian@rosenranken.de~
+ VERSION ~v1.02 BWP Fix~
++AUTO_TRA ~chiara/%s~
+ // Dateien, die nicht jeder hat
+ ALLOW_MISSING
+         ~Ar4500.bcs~
+@@ -11,6 +12,8 @@
+ // Die Sprachen
+ LANGUAGE ~Deutsch~ ~deutsch~
+ 	~chiara/deutsch/setup.tra~
++LANGUAGE ~English~ ~english~
++	~chiara/english/setup.tra~
+ 
+ 
+ // Installation von Chiara
+@@ -36,7 +39,7 @@
+ ACTION_IF FILE_EXISTS ~Data/25Dialog.bif~ THEN BEGIN
+   EXTEND_BOTTOM ~Baldur25.bcs~ ~chiara/Baldur25.bcs~
+   COMPILE ~chiara/V#chi25.baf~
+-    USING ~chiara/%s/V#chia.tra~
++    USING ~chiara/%LANGUAGE%/V#chia.tra~
+ END
+ 
+ //Bilder
+@@ -125,55 +128,55 @@
+ COPY ~chiara/V#BERSK.spl~ ~override/V#BERSK.spl~
+ 
+ COPY ~chiara/Blutfähigkeiten/V#Vamp1.spl~ ~override/V#Vamp1.spl~
+-SAY NAME1 ~Vampirfurcht~
+-SAY NAME2 ~Vampirfurcht~
++SAY NAME1 @58
++SAY NAME2 @58
+ 
+ COPY ~chiara/Blutfähigkeiten/V#Vamp2.spl~ ~override/V#Vamp2.spl~
+-SAY NAME1 ~Blutheilung~
+-SAY NAME2 ~Blutheilung~
++SAY NAME1 @59
++SAY NAME2 @59
+ 
+ COPY ~chiara/Blutfähigkeiten/V#Vamp3.spl~ ~override/V#Vamp3.spl~
+-SAY NAME1 ~Vampirmacht~
+-SAY NAME2 ~Vampirmacht~
++SAY NAME1 @60
++SAY NAME2 @60
+ 
+ COPY ~chiara/Blutfähigkeiten/V#Vamp4.spl~ ~override/V#Vamp4.spl~
+-SAY NAME1 ~Seelenstärke~
+-SAY NAME2 ~Seelenstärke~
+-SAY DESC ~Blah~
++SAY NAME1 @61
++SAY NAME2 @61
++SAY DESC @62
+ 
+ 
+ // Skripting
+ COMPILE ~chiara/V#chia.baf~
+-USING ~chiara/%s/V#chia.tra~
++USING ~chiara/%LANGUAGE%/V#chia.tra~
+ 
+ COMPILE ~chiara/V#GuardS.baf~
+-USING ~chiara/%s/V#GuardS.tra~
++USING ~chiara/%LANGUAGE%/V#GuardS.tra~
+ 
+ 
+ // Dialoge
+ COMPILE ~chiara/V#Chiara.d~
+-USING ~chiara/%s/V#Chiara.tra~
++USING ~chiara/%LANGUAGE%/V#Chiara.tra~
+ 
+ COMPILE ~chiara/V#Guard.d~
+-USING ~chiara/%s/V#Guard.tra~
++USING ~chiara/%LANGUAGE%/V#Guard.tra~
+ 
+ COMPILE ~chiara/V#ChiaP.d~
+-USING ~chiara/%s/V#ChiaP.tra~
++USING ~chiara/%LANGUAGE%/V#ChiaP.tra~
+ 
+ COMPILE ~chiara/add_wirt.d~
+-USING ~chiara/%s/add_wirt.tra~
++USING ~chiara/%LANGUAGE%/add_wirt.tra~
+ 
+ COMPILE ~chiara/V#Relaed.d~
+-USING ~chiara/%s/V#Relaed.tra~
++USING ~chiara/%LANGUAGE%/V#Relaed.tra~
+ 
+ COMPILE ~chiara/add_duer.d~
+-USING ~chiara/%s/add_duer.tra~
++USING ~chiara/%LANGUAGE%/add_duer.tra~
+ 
+ COMPILE ~chiara/v#jacob.d~
+-USING ~chiara/%s/NPC.tra~
++USING ~chiara/%LANGUAGE%/NPC.tra~
+ 
+ COMPILE ~chiara/CHIA_INT.d~
+-USING ~chiara/%s/CHIA_INT.tra~
++USING ~chiara/%LANGUAGE%/CHIA_INT.tra~
+ 
+ 
+ 

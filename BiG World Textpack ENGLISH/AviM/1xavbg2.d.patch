@@ -1,0 +1,20 @@
+--- AviM\SoA\1xavbg2.d	Wed Sep 23 16:09:06 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xavbg2.d	Mon Mar 25 11:10:40 2013
+@@ -1,11 +1,11 @@
+ BEGIN ~1xAVBG2~
+ 
+-IF~InParty("AviDV") Global("AviBrotherAction","GLOBAL",4) Global("AviBroRevive","GLOBAL",1)~ THEN BEGIN AVBG201x00
+-SAY~Ja... ja ¿yjê! Dziêkujê ci siostrzyczko. Przepraszam ciê za wszystko... Przykro mi, ¿e jesteœ duchem, ale widzê, ¿e te¿ jesteœ szczêœliwa. Muszê ci coœ powiedzieæ... widzisz... ten kap³an to mój kochanek... nie umia³em powiedzieæ swojej kobiecie, ¿e kocham go. Bêdziemy teraz razem.~ [ AVIBG5 ] 
+-IF~~THEN GOTO AVBG201x01
++IF ~InParty("AviDV") Global("AviBrotherAction","GLOBAL",4) Global("AviBroRevive","GLOBAL",1)~ THEN BEGIN AVBG201x00
++SAY @0 
++IF ~~ THEN GOTO AVBG201x01
+ END
+ 
+-IF~~ THEN BEGIN AVBG201x01
+-SAY~Wiêc to koniec... Koniec koszmaru...~
+-IF~~THEN DO ~SetGlobal("AviBrotherAction","GLOBAL",5)~ EXIT
++IF ~~ THEN BEGIN AVBG201x01
++SAY @1
++IF ~~ THEN DO ~SetGlobal("AviBrotherAction","GLOBAL",5)~ EXIT
+ END

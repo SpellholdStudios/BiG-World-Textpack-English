@@ -1,0 +1,15 @@
+--- SETUP-NMT.tp2	Sun Nov 18 20:19:40 2012
++++ C:\BWP Patchstudio\patched files\SETUP-NMT.tp2	Thu Aug 07 21:43:04 2014
+@@ -12,6 +12,12 @@
+ LANGUAGE ~TraditionalChinese~ 
+          ~TraditionalChinese~ 
+          ~NMT/TraditionalChinese/setup.tra~
++LANGUAGE ~German~ 
++         ~German~ 
++         ~NMT/German/setup.tra~
++LANGUAGE ~English~ 
++         ~English~ 
++         ~NMT/English/setup.tra~
+ 
+ BEGIN @0
+ 

@@ -1,0 +1,124 @@
+@0  = ~Avi Maya NPC for SoA/ToB~ 
+@1  = ~Throne of Bhaal required~
+@2  = ~Song of Breath Infusion~ 
+@3  = ~This magical song makes the dead rise... literally.~
+@4  = ~Song of Dancing Cold~ 
+@5  = ~Avi Maya is protected by the dancing, icy flames.~
+@6  = ~Song of Wailing~
+@7  = ~Avi Maya can paralyze enemies with this song.~ 
+@8  = ~Song of Caution~
+@9  = ~Avi Maya can detect traps.~ 
+@10 = ~Song of Trembling Form~
+@11 = ~Avi Maya sends tremors through the ground, causing damage.~
+@12 = ~Song of Hell's Scream~ 
+@13 = ~Avi Maya can kill enemies in an instant.~
+@14 = ~Ghost Flash~ 
+@15 = ~Avi Maya's mere gaze causes destruction.~
+@16 = ~Death Touch~
+@17 = ~Avi Maya saps life from enemies.~
+@18 = ~Avi Maya's Curse~ 
+@19 = ~Avi Maya curses her enemies.~
+@20 = ~Avi Maya~ 
+@21 = ~When asked about her past,  AVI MAYA looks at you in a strange manner. She says, before she died she was a little-known bard. There was little of note of her life that bears mentioning. Avi Maya also says she had a brother - Dost. Her parents died long before her. This was, however, her old existence. As of now, she has no one.~ 
+@22 = ~Even the dead feel fear!~ [AVI001]
+@23 = ~My my! What a "lively" party!~ [AVI002] 
+@24 = ~Ugh... this is foolish!~ [AVI003]
+@25 = ~Are we selling our souls now?!~ [AVI004]
+@26 = ~That's it! This one is leaving!~ [AVI005]
+@27 = ~Watch out! Dead woman ahead!~ [AVI006]
+@28 = ~Let's rest. I feel tired even in this state...~ [AVI007]
+@29 = ~Spiders, rain, the dead asleep...~ [AVI008]
+@30 = ~Ah!~ [AVI009]
+@31 = ~No! My form...~ [AVI010]
+@32 = ~My substance! It falls apart!~ [AVI011]
+@33 = ~What does this soul want?~ [AVI012]
+@34 = ~Hmm?~ [AVI013]
+@35 = ~What now, weakling? Oh, sorry...~ [AVI014]
+@36 = ~If I was alive, I would bathe.~ [AVI015]
+@37 = ~Do you want something?~ [AVI016]
+@38 = ~At breakneck speed!~ [AVI017]
+@39 = ~It is done!~ [AVI018]
+@40 = ~On the head, on the neck!~ [AVI019]
+@41 = ~Okay, okay... don't disturb the dead! Sheesh!~ [AVI020]
+@42 = ~Kiss my bu- soul!~ [AVI021]
+@43 = ~Hello there...~ [AVI022]
+@44 = ~Talk about boring... I thought I was the dead one?~ [AVI023]
+@45 = ~If it wasn't for me you would have been dead long ago!~ [AVI024]
+@46 = ~Take care! Do you want to look like me?!~ [AVI025]
+@47 = ~Why isn't this working?!~ [AVI026]
+@48 = ~Life stinks... figuratively!~ [AVI027]
+@49 = ~"Dead" -ly!~ [AVI028]
+@50 = ~Missed!~ [AVI029]
+@51 = ~Smells like my grave... ~ [AVI030]
+@52 = ~The sun is too bright...~ [AVI031]
+@53 = ~Mmm... a beautiful night...~ [AVI032]
+@54 = ~So, what if we break a few bones?~ [AVI033]
+@55 = ~Let's just see what you have inside!~ [AVI034]
+@56 = ~I've become undead, not a mule!~ [AVI035]
+@57 = ~Nature is so are such "spiritual"!~ [AVI036]
+@58 = ~Avi Maya has found more fun!~ [AVI038]
+@59 = ~Cornelius~
+@60 = ~Kania~
+@61 = ~Boddi~
+@62 = ~Fanatic Priest~
+@63 = ~Bobi~
+@64 = ~Amorak~
+@65 = ~Avi Maya's Armor~
+@66 = ~Avi Maya's Armor
+
+This is the armor in which Avi Maya was buried. In life it was her favorite chainmail. Although it was supposed to protect her, it failed. Avi Maya hopes it will do in death what it could not do in life.~
+@67 = ~Avi Maya's Bow~
+@68 = ~Avi Maya's Bow
+
+This is Avi Maya's favorite bow. She has had it since she was a child. It is very beautiful and has somehow shared in Avi's experience in death by becoming infused with some form of spiritual magic. The bow shoots arrows of this mysterious spiritual force.~
+@69 = ~Crystallized Blood~
+@70 = ~Crystallized Blood
+
+While Avi Maya is certain dead, from time to time she "bleeds". This blood instantly freezes. It can be used by anyone but she really wanted <CHARNAME> to use it. It seems to have a powerful ranged attack. It's power is unwieldy, so mastering the weapon is fairly difficult.
+
+STATISTICS:
+
+Damage: 1d4 + 3
+THAC0: +3 melee / +5 as a tossed weapon
+Increases HP by 10
+Bonus +1 to armor class
+Allows 3/2 attacks per round
+Speed Factor: 0
+Weight: 1
+Usable By: 
+Everyone~
+@71 = ~Avi Maya's Bow
+
+This is Avi Maya's favorite bow. She has had it since she was a child. It is very beautiful and has somehow shared in Avi's experience in death by becoming infused with some form of spiritual magic. The bow shoots arrows of this mysterious spiritual force.
+
+Over time and use, this bow has become more powerful by absorbing spiritual energy from those that it has killed.~
+@72 = ~Avi Maya's Bow
+
+This is Avi Maya's favorite bow. She has had it since she was a child. It is very beautiful and has somehow shared in Avi's experience in death by becoming infused with some form of spiritual magic. The bow shoots arrows of this mysterious spiritual force.
+
+With the close proximity of blood and magical stored soul this bow has gained astral power. It has become more deadly.
+
+Over time and use, this bow has become more powerful by absorbing spiritual energy from those that it has killed.~
+@73 = ~Undead Dost~
+@74 = ~Skull of Dost~
+@75 = ~Skull of Dost
+
+This is all that remains of Dost - Avi Maya's brother - who has been transformed into the undead. This skull has to be taken to his friend, who will be by the temple in Trademeet.~
+@76 = ~Dost~
+@77 = ~Avi Maya's Enigma~
+@78 = ~This song helps Avi absorb the soul of an enemy.~
+@79 = ~Insane soul of the priest~
+@80 = ~Avatar~
+@81 = ~Avi Maya's Ring~
+@82 = ~Avi Maya's Ring
+
+This ring was created from the essence of Bhaal. It's the symbol of the love <CHARNAME> felt for Avi Maya. "Love has been immortalized in soul" would be remarked by scholars for many years to come when reviweing this artifact.~
+@83 = ~After long and lengthy discussions between <CHARNAME> and Avi Maya, everything became clear. <CHARNAME> chose to become the new Lord of Murder and, with great love, Avi Maya chose to let her spirit be merged into <CHARNAME>. Over the aeons, <CHARNAME> felt her warmth as an eternal guiding light.~
+@84 = ~Avi Maya stayed with you, long after you abandoned Bhaal's essence. Unfortunately, she was never accepted anywhere, despite her good nature, she was hunted for her very existence. <CHARNAME> and Avi became a constant target for paladins, ever on the run. For many years they hid in different places, the Underdark, Waterdeep and even Rashemen, the land of spirits. But the fanatics of Kelemvor followed you everywhere. During a fight your heart was pierced by a sword. Everything turned to darkness... Then, through it, you heard the lilting song of love, calling you back to her... <CHARNAME> joined Avi Maya in undeath... the rest is not recorded~
+@85 = ~Avi Maya - thief/mage~
+@86 = ~Alternative Avi Maya~
+@87 = ~Main component has not been installed~
+@88 = ~Avi Maya - thief~
+@89 = ~Avi Maya - subtle portrait~
+@90 = ~Alternative Portrait~
+@91 = ~Avi Maya - based on Sharwyn from NWN~

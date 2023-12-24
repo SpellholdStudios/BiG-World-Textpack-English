@@ -1,0 +1,137 @@
+--- Haendlermod\d\nq#djin.d	Tue Sep 01 10:25:54 2009
++++ C:\BWP Patchstudio\patched files\Haendlermod\d\nq#djin.d	Mon Aug 27 04:27:00 2012
+@@ -8,94 +8,94 @@
+ BEGIN ~NQ#DJIN~
+ 
+ IF ~Global("NQ#DJIN1","GLOBAL",0)~ THEN BEGIN 0 // from:
+- SAY ~Na, wer seid Ihr denn?~
+- IF ~~ THEN REPLY ~Ich bin <GABBER> und wer seid Ihr?~ DO ~SetGlobal("NQ#DJIN1","GLOBAL",1)~ GOTO 1
+- IF ~~ THEN REPLY ~Das behalte ich lieber für mich. Wer seid Ihr?~ DO ~SetGlobal("NQ#DJIN1","GLOBAL",1)~ GOTO 2
++ SAY @0
++ IF ~~ THEN REPLY @1 DO ~SetGlobal("NQ#DJIN1","GLOBAL",1)~ GOTO 1
++ IF ~~ THEN REPLY @2 DO ~SetGlobal("NQ#DJIN1","GLOBAL",1)~ GOTO 2
+ END
+ 
+ IF ~~ THEN BEGIN 1 // from:
+- SAY ~Ihr dürft mich Zun nennen, zu Euren Diensten! Ich vermute, Ihr habt meine Flasche gefunden?~
+- IF ~~ THEN REPLY ~Ja, hier ist sie.~ GOTO 3
+- IF ~~ THEN REPLY ~Allerdings, werdet Ihr mir nun drei Wünsch erfüllen?~ GOTO 4
+- IF ~~ THEN REPLY ~Und wenn es so wäre?~ GOTO 3
++ SAY @3
++ IF ~~ THEN REPLY @4 GOTO 3
++ IF ~~ THEN REPLY @5 GOTO 4
++ IF ~~ THEN REPLY @6 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 2 // from:
+- SAY ~Ihr seid unfreundlich... selbst für einen Sterblichen. Ich vermute, Ihr habt meine Flasche gefunden?~
+- IF ~~ THEN REPLY ~Ja, hier ist sie.~ GOTO 3
+- IF ~~ THEN REPLY ~Allerdings, werdet Ihr mir nun drei Wünsch erfüllen?~ GOTO 4
+- IF ~~ THEN REPLY ~Und wenn es so wäre?~ GOTO 3
++ SAY @7
++ IF ~~ THEN REPLY @4 GOTO 3
++ IF ~~ THEN REPLY @5 GOTO 4
++ IF ~~ THEN REPLY @6 GOTO 3
+ END
+ 
+ IF ~~ THEN BEGIN 3 // from:
+- SAY ~Behaltet sie nur, Sterblicher. Ihr könnt mich damit rufen und mit mir Geschäfte machen, wenn Ihr es denn wollt.~
+- IF ~~ THEN REPLY ~Ich verstehe. Würdet Ihr mir jetzt Eure Ware zeigen?~ GOTO 6
+- IF ~~ THEN REPLY ~Interessant, aber ich habe keine Lust mit Euch zu handeln.~ GOTO 7
++ SAY @8
++ IF ~~ THEN REPLY @9 GOTO 6
++ IF ~~ THEN REPLY @10 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN 4 // from:
+- SAY ~Ha ha! Ich hatte fast vergessen wie naiv die Sterblichen sind.~ [OGREM01]
++ SAY @11 
+  IF ~~ THEN GOTO 5
+ END
+ 
+ IF ~~ THEN BEGIN 5 // from:
+- SAY ~Nein, ich werde Euch keine drei Wünsch erfüllen. Ich bin ein Händler und werde mit Euch handeln, wenn Ihr es denn wollt.~
+- IF ~~ THEN REPLY ~Aber gerne. Tut mir Leid, wenn ich Euch beleidigt haben sollte.~ GOTO 8
+- IF ~~ THEN REPLY ~Nein, ich traue Euch nicht. Vielleicht solltet Ihr jetzt gehen.~ GOTO 7
+- IF ~~ THEN REPLY ~Nun gut, zeigt mir Eure Waren.~ GOTO 6
++ SAY @12
++ IF ~~ THEN REPLY @13 GOTO 8
++ IF ~~ THEN REPLY @14 GOTO 7
++ IF ~~ THEN REPLY @15 GOTO 6
+ END
+ 
+ IF ~~ THEN BEGIN 6 // from:
+-  SAY ~Wie Ihr wünscht! Es ist mir eine Freude mit Euch Geschäfte zu machen!~
++  SAY @16
+   IF ~~ THEN DO ~StartStore("nq#geni1",LastTalkedToBy())~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 7 // from:
+-  SAY ~Wenn es das ist, was Ihr Euch wünscht, Wanderer, dann wünsche ich Euch angenehme Umwege auf Euren Reisen.~
++  SAY @17
+   IF ~~ THEN DO ~ForceSpell(Myself,DRYAD_TELEPORT)~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN 8 // from:
+-  SAY ~Macht Euch kein Sorgen! Es ist mir eine Freude mit Euch Geschäfte zu machen!~
++  SAY @18
+   IF ~~ THEN DO ~StartStore("nq#geni1",LastTalkedToBy())~ EXIT
+ END
+ 
+ IF ~GlobalGT("Chapter","GLOBAL",5) Global("9#NEWSHOP","GLOBAL",0)~ THEN BEGIN NEWSHOP // from:
+-  SAY ~Ihr seid es, Sterblicher! Ich habe einige neue Waren erhalten, die ich euch anbieten möchte. Seid Ihr interessiert?~ [OGREM01]
+-  IF ~~ THEN REPLY ~Natürlich, zeigt mir was Ihr anzubieten habt.~ DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO NEW
+-  IF ~~ THEN REPLY ~Nein, zeigt mir nur Eure übliche Ware.~ DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO 6
+-  IF ~~ THEN REPLY ~Erzählt mir etwas über Euch.~ DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO STORY1
+-  IF ~~ THEN REPLY ~Im Moment nicht. Wir sprechen uns später!~ DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO 7
++  SAY @19 
++  IF ~~ THEN REPLY @20 DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO NEW
++  IF ~~ THEN REPLY @21 DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO 6
++  IF ~~ THEN REPLY @22 DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO STORY1
++  IF ~~ THEN REPLY @23 DO ~SetGlobal("9#NEWSHOP","GLOBAL",1)~ GOTO 7
+ END
+ 
+ IF ~True()~ THEN BEGIN HELLO // from:
+-  SAY ~Was kann ich für Euch tun, Sterblicher?~ [OGREM01]
+-  IF ~~ THEN REPLY ~Ich würde gerne sehen, was Ihr anzubieten habt.~ GOTO 6
+-  IF ~Global("9#NEWSHOP","GLOBAL",1)~ THEN REPLY ~Ich würde gerne Eure besonderen Gegenstände sehen.~ GOTO NEW
+-  IF ~~ THEN REPLY ~Erzählt mir etwas über Euch.~ GOTO STORY1
+-  IF ~~ THEN REPLY ~Nichts, geht einfach wieder.~ GOTO 7
++  SAY @24 
++  IF ~~ THEN REPLY @25 GOTO 6
++  IF ~Global("9#NEWSHOP","GLOBAL",1)~ THEN REPLY @26 GOTO NEW
++  IF ~~ THEN REPLY @22 GOTO STORY1
++  IF ~~ THEN REPLY @27 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN STORY1 // from:
+-  SAY ~Mein Interesse gilt dem Handel und ich bin bemüht mich ansonsten nicht in die Belange der Sterblichen einzumischen.~
++  SAY @28
+  IF ~~ THEN GOTO STORY2
+ END
+ 
+ IF ~~ THEN BEGIN STORY2 // from:
+-  SAY ~Ich habe ein Geschäft in Calimhafen und ich erschuf diese und andere Flaschen, damit meine exquisiten Kunden nicht auf mindere Händler zurückgreifen müssen.~
++  SAY @29
+  IF ~~ THEN GOTO STORY3
+ END
+ 
+ IF ~~ THEN BEGIN STORY3 // from: STORY2
+-  SAY ~Ihr könnt Euch daher sicher vorstellen, dass meine Zeit sehr begrenzt ist... Wollt Ihr mit mir handeln?~
+-  IF ~GlobalLT("Chapter","GLOBAL",6)~ THEN REPLY ~Zeigt mir Eure Waren.~ GOTO 6
+-  IF ~GlobalGT("Chapter","GLOBAL",5)~ THEN REPLY ~Zeigt mir Eure üblichen Waren.~ GOTO 6
+-  IF ~GlobalGT("Chapter","GLOBAL",5)~ THEN REPLY ~Zeigt mir Eure besonderen Waren.~ GOTO NEW
+-  IF ~~ THEN REPLY ~Ich glaube nicht. Lebt wohl.~ GOTO 7
++  SAY @30
++  IF ~GlobalLT("Chapter","GLOBAL",6)~ THEN REPLY @31 GOTO 6
++  IF ~GlobalGT("Chapter","GLOBAL",5)~ THEN REPLY @32 GOTO 6
++  IF ~GlobalGT("Chapter","GLOBAL",5)~ THEN REPLY @33 GOTO NEW
++  IF ~~ THEN REPLY @34 GOTO 7
+ END
+ 
+ IF ~~ THEN BEGIN NEW // from: HELLO STORY2
+-  SAY ~Wie Ihr wünscht! Es ist mir eine Freude mit Euch Geschäfte zu machen!~
++  SAY @16
+   IF ~~ THEN DO ~StartStore("nq#geni2",LastTalkedToBy())~ EXIT
+ END
+ 

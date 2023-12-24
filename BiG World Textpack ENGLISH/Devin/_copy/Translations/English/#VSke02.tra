@@ -1,0 +1,178 @@
+
+// DIALOGUES RAMA
+
+
+// Donjon d'arnise première fois
+
+@1    = ~<CHARNAME>,  that is the one I was waiting for.~ ~<CHARNAME>,  that is the one I was waiting for.~ 
+
+@11   = ~Excuse me but... Who are you?~
+@12   = ~Are you the contact of the Brotherhood? Why resort to this subterfuge? I thought you had business here!?~ 
+
+@13   = ~My name is Rama. And I have some shapeshifting skills, as you can see. It's better for people like us, not to reveal our true face.~
+
+@14   = ~So... This is not your true face, is it?~ 
+@15   = ~Jackomo told me that you could help me join him. Do you know where he is?~
+
+
+@141  = ~No, definitely not. But maybe you will see him one day... Who knows?~
+@151  = ~Yes, I'll take you to our operations center. At least... One of our centers... It is located on the eastern part of the continent.~ 
+@152  = ~I'll take you to our operations center. At least... One of our centers... It is located on the eastern part of the continent.~
+
+@16   = ~Why so far? Don't you have closer "centers"?~ 
+@17   = ~To the east? But it will take us months!~
+
+@161  = ~It is better, believe me. For you as well as for us... Here, the walls have ears and we are a minority. We'll be safer there, you can be sure.~
+@18   = ~It will only take a few minutes due to magic. And as you are few, I can place us over there without troubles.~ 
+
+
+@19   = ~Fine. Are you ready?~
+
+@191  = ~If it doesn't bother you, I'd prefer to do some shopping before...~ 
+@1911 = ~I think I’ll stick around here a little more, I'll be back later.~
+@192  = ~Yes, we can leave.~
+
+
+@193  = ~It won't be long, you'll see. Give me just a few moments.~
+@194  = ~As you wish: I'll wait for you here. You know the trick, henceforth... ~ 
+
+
+// Cité aux milles visages première fois
+
+
+@20   = ~This is the place. If you would enjoy taking a look around? We'll take care of our small business later.~
+@21   = ~When you're ready, you can just find me at the home of the Two Devotees.~ 
+
+
+
+@22   = ~Wait, wait: did you change your appearance again!? What does that mean?~ 
+@23   = ~A second! Where is this building located? I know nothing here!~
+@24   = ~Okay, I'll meet you there.~ 
+
+
+@25   = ~This is the shape I use here. You will have to get used to it.~
+@26   = ~The part of the city you have access to is not very extended. You're unlikely to lose yourself, believe me.~
+
+@27   = ~(Nodding.) Bye-bye, then.~
+
+
+
+// CUTSCENE rencontre groupe
+
+@28   = ~Well, here you are. Follow me.~
+
+
+
+// DIALOGUES MELUSIANE
+
+
+@30   = ~(As soon as you place a foot on the threshold of the entry you hear a voice echoing inside your head.)~
+@31   = ~*Ah, there's the famous <CHARNAME>. First and foremost, agree to everything I say if you want everything to go smoothly.*~
+@311  = ~*Ah, there's the famous <CHARNAME>. First and foremost, agree to everything I say if you want everything to go smoothly.*~
+@32   = ~Hello dear friend, how nice to see you in these places. This kind of place is usually not very crowded ...~
+@321  = ~Hello dear friend, how nice to see you in these places. This kind of place is usually not very crowded ...~
+
+@33   = ~But I will not waste your time, I know that you have a very busy schedule. The people you are looking for are just close to the place where you have been sent back. They meet the next night after sunset. I wish you good luck. For my part, I must leave you, I have an important business waiting for me.~
+@331  = ~~
+@35   = ~~
+@36   = ~~
+
+
+
+// DIALOGUES LE SANDINISTE
+
+// Si pas seigneur du château
+
+@37   = ~Yes! Everything worked as expected. Lord de'Arnise died and all indications are that Roenal family will take control of the region.~
+@38   = ~No risk of a run away? It would be difficult for someone to learn the truth...~
+@39   = ~No, none. These creatures are too stupid to be really dangerous.~
+@40   = ~Well, the mistress will be happy. If the plan is successful, it should buy us some time.~
+@41   = ~What a pity that the mistress is no longer there to see it. If the plan is successful, it should buy us some time.~
+@411  = ~A second! There is someone here.~
+
+// Si seigneur du chateau
+
+@42   = ~Well, unfortunately we have had some unexpected things.~
+@43   = ~Unexpected? This is very detrimental... And what pathetic excuse do you offer me this time?~
+@44   = ~It is not our fault, we could not predict it. It seems that the warrior who got the keep rid of the trolls has also taken the title of Lord with the help of the current Lady de'Arnise.~
+@45   = ~...~
+@46   = ~And there is even something worse. The name of this warrior is <CHARNAME>.~
+@47   = ~<CHARNAME>... How all that is very upsetting...~
+@48   = ~We didn't dare to take action, we were afraid that...~
+@49   = ~Afraid that we become aware of your incompetence? Yes, it's probable!~
+
+
+@50   = ~In all cases, it would definitely be best to address the person concerned. I think we observed him enough.~
+@501  = ~In all cases, it would definitely be best to address the person concerned. I think we observed her enough.~
+
+@51   = ~Do you mean that...~
+@52   = ~Yes, I mean that it's time to put an end to this <CHARNAME>. You must also be very scared for not having detected <PRO_HIMHER>.~
+
+@53   = ~But the mistress would risk...~
+@54   = ~I also believe it would be a wise revenge, master. Let me finish  them: no need to get your hands dirty.~
+
+
+@55   = ~I don't care about what the mistress might think! We're going to make a ridicule of ourselves. If the mistress is unable to act accordingly, then I'll take care of it.~
+@56   = ~Why do you think you can overcome them alone? Who do you think you are? My body is tattered but it's you who seems to be in a state of degeneration. ~
+
+
+@57   = ~I came to eradicate the breed that you are. You will not have the chance to hurt anyone anymore.~
+@58   = ~Sorry to interrupt you, but I have to bring back your heads to some unhappy people. I'll try to be quick...~ ~Sorry to interrupt you, but I have to bring back your heads to some unhappy people. I'll try to be quick...~
+
+@59   = ~Damn, what were you doing here? What is it that creatures of your kind may be scheming?~
+
+
+
+@60   = ~C'mon! We'll see about that...~
+@61   = ~Whatever. You won't survive too long to do it again, anyway.~
+
+
+// Variable devenir le seigneur du château
+
+// Global("PCKeepOwner","GLOBAL",1)
+// Global("PlayerHasStronghold","GLOBAL",1)
+
+
+// La maitresse ? Elle est cramée !!
+
+//!Dead("Bodhi")
+
+
+// DISPLAY STRING
+
+@62   = ~I...CAN NOT...DIEEEEEEEE!!~
+
+@63   = ~As you walk, you feel a vague drowsiness over you. You slowly sink into the mists of sleep.~
+
+
+
+// DIALOGUES RAMA
+
+// Envois machin final avec toute la smalla
+
+
+@64   = ~Welcome back, finally. Sir Bardick warned me about your arrival. Are you ready to go back to the city?~
+@641  = ~Welcome back, finally. Sir Bardick warned me about your arrival. Are you ready to go back to the city?~
+
+@65   = ~Bardick is dead. I have proof of his betrayal of me.~
+@66   = ~Sir Bardick is no more, Rama. This traitor is dead by my hand I have found his journal on his body. His story is overwhelming.~
+
+
+
+@67   = ~(Rama stays silent for a while, staring at you.) Dead? I see... We'll see that with the others. Get ready to leave, I teleport us.~
+
+// Voyage vers arnise
+
+@68   = ~Do you want to return to Amn? The journey will last just for a moment.~
+
+@69   = ~Yes, I have a lot to do. Take me back there.~
+@70   = ~No, I still have two or three small things to finish here.~
+
+// Voyage vers confrérie
+
+
+@71   = ~Do you miss us? Do you want to return to the city?~
+
+// THEN REPLY
+// @69
+// @70

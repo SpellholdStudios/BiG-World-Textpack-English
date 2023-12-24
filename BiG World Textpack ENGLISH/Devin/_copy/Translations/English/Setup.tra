@@ -1,0 +1,230 @@
+@0       = ~Soothsayer: version Beta 0.00~ 
+
+
+
+
+// PERSONNAGES
+
+@8       = ~Arcane~
+
+@10      = ~Soothsayer~ 
+@11      = ~Young Monk~
+@12      = ~Old Monk~ 
+@13      = ~Bardick~
+@14      = ~Aknor, perilous~
+@15      = ~Stamping Protector~ 
+@16      = ~Elenna~
+@17      = ~Jackomo~ 
+
+@18      = ~Chosen of Deepholm~
+@19      = ~Master skeleton~
+@20      = ~Skeleton fighter, First Class~ 
+@2111111 = ~Skeleton fighter, Second Class~
+@2211111 = ~Follower of Shialla~ 
+@2311111 = ~Priestess of Shialla~
+@25      = ~Timek~
+@26      = ~Lucie~
+@27      = ~Follower of Lady Eloïse~ 
+@28      = ~Mathilda~
+@29      = ~Old Tom~ 
+@30      = ~Elder~ 
+@31      = ~Chataya~
+
+@32      = ~Rama~ 
+
+@33      = ~Irinna~
+@34      = ~Hemp~
+@35      = ~Lotus~
+@36      = ~Guardian~
+@37      = ~Aspiring Guardian~
+@38      = ~Fanatic~
+@39      = ~Evan~
+@40      = ~Lost Fisherman~
+@41      = ~First disciple~
+@42      = ~Second disciple~
+@43      = ~Third disciple~
+@44      = ~Prospector~
+
+@45      = ~Top servant~
+@46      = ~Goblin of an alternative plane~
+
+@47      = ~Ritual Enchanter~
+
+
+@49      = ~Fenrir~
+@50      = ~Anghus~
+@51      = ~Myriam~
+@52      = ~Sergeant Haven~
+@53      = ~Sergeant Koy~
+@54      = ~Tchay~
+@55      = ~Benvis~
+@56      = ~Amyr~
+@57      = ~Calopius~
+@58      = ~Amasys~
+@59      = ~Clept~
+@60      = ~Vuis~
+@61      = ~Ravo~
+
+@62      = ~Melusiane~
+@63      = ~The Sandinista~
+@64      = ~Angry Vampire~
+@65      = ~Angry Vampire~
+@66      = ~Incarnate Disciple~
+
+@67      = ~Cariem~
+@68      = ~Brym~
+@69      = ~Kyaros~
+
+
+
+
+
+
+// OBJETS
+
+@1       = ~Human Skull~
+@2       = ~It's Bardick who gave me this skull, it's apparently a sign of recognition. This should allow me to protect myself from the two skeleton guards...~
+
+@3       = ~Skull of Timek~
+@4       = ~This skull is actually the receptacle of the soul of Timek the Barbarian. Usually, it won't cause you great troubles but, unfortunately, Timek is very talkative for a dead... From what you noticed, this skull allows to communicate with some undead creatures when they wish to.~
+
+@5       = ~Priestess' Body~
+@6       = ~This cadaver is the body of the priestess, which you must give back to the two skeleton soldiers.~
+
+@711     = ~Scroll in a dirty state~
+@712     = ~This old scroll turned yellow by age (unless they are coffee stains) is supposed to be a scroll of evocation written a thousand years ago by an extinct race. It hasn't been written with ink but with the blood of a young virgin. From what you can see, it is rather a vague scribbling slapdash in red ink.~
+
+@713     = ~Ancestral scroll of the Knots~
+@714     = ~The real scroll that the skeleton soldiers are looking for. According to Lucie, it holds a great power.~
+
+
+// Objet quête n°1(non identifié)
+
+
+@715     = ~Big thing that hurts?~
+@716     = ~This weapon seems to be the war treasure of the two skeleton soldiers. The conditions under which you obtained it are quite crazy indeed...
+In all cases, this mace is of an impressive size and its usage seems to require great force. Besides, it's covered with a bluish halo betraying the emanation of a strange force.~
+
+
+// Objet quête n°1 (identifié)
+
+@717     = ~Mace of Krel'Tor'Shan +3~
+@718     = ~You have in your hands an exceptional item, forged from a material no longer existing today: the oriharukon. This magical metal rock solid makes it a legendary weapon.
+The last known owner of this weapon seems to have been an orc called Krel'Tor'Shan, who led the orcish armies of Rauvin mountains much further inland than his predecessors. Magic emanating from the weapon seemed to protect him against physical attacks, he crushed a huge number of skulls before being crushed by the massive chivalry set by the Northern Alliance.
+Only a person with orcish blood could handle this weapon, otherwise will be unable to even lift it. It's powerfully enchanted and is able to increase the strength of its wearer.
+However, it also inflicts a certain vulnerability to ranged attacks, the light emanating from the weapon offers an ideal target for the archers.
+
+
+STATISTICS:
+
+Fighting skills:
+ 35% chance to inflict 1D6+2 magic damage for each successful hit
+ +4 to AC vs. physical attacks
+Equipped skills:
+Life points bonus: +5
+Constitution bonus: +1
+Special: -2 to AC vs. missiles
+THAC0: +3
+Damage: 2D6 +2
+Damage type: crushing
+Weight: 35
+Speed Factor: 9
+Proficiency Type: Mace
+Type: 1-handed
+Requires: 12 Strength
+Not Usable By:
+ All races but orcs and half-orcs
+ Druid
+ Mage
+ Thief~
+
+
+// Objet quête n°2 (identifié)
+
+@719     = ~Skin Shield~
+@720     = ~This shield was designed from the skin of a dead animal. This type of shield is quite rare in the cities but it is rather widespread among nomad tribes where the iron is too precious to be wasted. Without being a real equivalent to a classic shield, skin shields are fairly popular among the northern regions of Faerun.~
+        // Objet quête n°2 (identifié)
+
+@721     = ~Ankheg Skin Shield~
+@722     = ~This shield has been forged from the bodies of several dead ankhegs. Legend tells that's Ménaris, a prominent member of the Spellguard, who brought the bodies to Silver Marches where several weapon masters took charge to collect all the power.
+		Ankhegs are very rare in this part of the Realms, but according to the legend, it's after lingering a little too deeply into the High Forest that Ménaris fell on this group of ankhegs. He retained, from this battle, many burn marks, so it was legitimate they forged this shield in order to protect him. In all cases and be this story true or not, the shield provides an excellent protection vs. acid, besides being a very good shield.
+
+
+STATISTICS:
+
+Bonus to Armor Class: 3
+Special: 30% protection vs. acid
+Weight: 45
+Requires: 14 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+
+@723     = ~Journal of Bardick~
+@724     = ~This is the journal in which Bardick seems to have recorded a part of his life. Curiously, it's the only thing spared by his transformation. And you have to force a lot, wasting your breath: you're unable to open it.~
+
+
+
+
+
+
+
+
+
+
+
+// Text Patching for #VCHNEW Chapter Text Screen
+
+
+@801     = ~Secret Chapter: The Brotherhood of Jackomo
+
+After meeting many characters, more or less unusual, you have finally got in touch with this mysterious brotherhood. Your thoughts are confused and you are still wondering if you took the right choice. While teleport scroll does its job, you feel as if you're moving away, far away from Athkatla. Through lakes and plains, mountains and oceans, you have the feeling that you're getting closer to your destination. In which strange place are you landing? For now, the mystery remains unsolved...~
+
+// Store
+
+@802     = ~Temple of the Grand Sacrant~
+
+
+
+
+
+
+
+@9999964 = ~Room of the damned~
+@9999965 = ~Temple of the Grand Sacrant~
+@9999966 = ~House of the two fervents~
+@9999967 = ~You feel the eyes of that statue continue to follow you, as if they were endowed with life.~
+@9999968 = ~An evil aura emanates from this sculpture, you can't hold a thrill when your eyes linger on.~
+@9999969 = ~You can read an inscription on the object: Two hearts beating as one, two hearts kissing the righteous.~
+@9999970 = ~Here there's another inscription: Two hearts that continue to resonate, two hearts to abominate the world.~
+@9999971 = ~This coffin here is sweating blood. You can't suppress a shiver laying your eyes on it.~
+@9999972 = ~A strange sign is engraved on the coffin, a bit like a cross...~
+@9999973 = ~This coffin here is sweating blood. You can't suppress a shiver laying your eyes on it.~
+@9999974 = ~A strange sign is engraved on the coffin, a bit like a cross...~
+@9999975 = ~You wonder what can be the use of this device. This doesn't seem to be very inviting...~
+@9999976 = ~The fangs of this machine are covered with blood and shreds of flesh. You're barely able to look at the thought of its usage.~
+@9999977 = ~... and he was rejected, rejected by the gods.~
+@9999978 = ~Endless suffering, and thus crushed by his fate...~
+@9999979 = ~This mannequin still carries the mark of the last trainings. It's half disarticulated.~
+@9999980 = ~This manequin is still intact. It seems to have been replaced recently.~
+@9999981 = ~This is a weapon rack, presumably reserved for workouts. Better not touch it.~
+@9999982 = ~This is a huge crack, it plunges into the depths. You prefer not to get close.~
+@9999983 = ~As soon as you put your eyes on the stairs you feel a sharp pain inside your head. You immediately turn your eyes.~
+@9999984 = ~Of a repulsive appearance, he had no place...~
+@9999985 = ~... he was dark, without a shape, he was new. ~
+@9999986 = ~And suddenly he emerged from the cesspool...~
+@9999987 = ~A passage is open, a hand reaches out...~
+@9999988 = ~The head of this mannequin is no more than a very little piece. You don't dare to guess what pressure it could have gone through.~
+@9999989 = ~... and loosing hope, never knowing anything.~
+@9999990 = ~Then a graceful face lingers on the traits...~
+@9999991 = ~... and suddenly everything is less black, less hard.~
+@9999992 = ~... then foolish cries, everything stops at that moment.~
+@9999993 = ~The horror gives way to mystery...~
+@9999994 = ~... when a new substance emerges from the fog.~
+@9999995 = ~She leaves, she sadly leaves...~
+@9999996 = ~... facing the stupidity of decadent hymns.~
+@9999997 = ~She brings a new message...~
+@9999998 = ~... nobody will get you into a cage she says.~
+@9999999 = ~Because here the end of slavery has come.~

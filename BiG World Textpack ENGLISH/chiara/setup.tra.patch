@@ -1,0 +1,14 @@
+--- chiara\deutsch\setup.tra	Mon Nov 29 11:14:20 2004
++++ C:\BWP Patchstudio\patched files\chiara\deutsch\setup.tra	Tue Jan 08 19:27:04 2013
+@@ -97,4 +97,9 @@
+ @54 = ~Sprecht schon! Ich stehe doch vor Euch!~ [chiara_]
+ @55 = ~Verdammt! Das nächste Mal!~ [chiara1]
+ @56 = ~Bei den Ebenen der Neun Höllen! Dieser Hund widersteht meiner Waffe!~ [chiara2]
+-@57 = ~Glaubt Ihr, ich kann noch mehr tragen?~ [chiara3]
+\ No newline at end of file
++@57 = ~Glaubt Ihr, ich kann noch mehr tragen?~ [chiara3]
++@58 = ~Vampirfurcht~
++@59 = ~Blutheilung~
++@60 = ~Vampirmacht~
++@61 = ~Seelenstärke~
++@62 = ~Blah~

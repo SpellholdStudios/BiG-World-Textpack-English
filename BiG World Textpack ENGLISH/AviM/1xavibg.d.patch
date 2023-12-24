@@ -1,0 +1,47 @@
+--- AviM\SoA\1xavibg.d	Wed Sep 23 16:13:58 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xavibg.d	Mon Mar 25 11:10:42 2013
+@@ -1,29 +1,29 @@
+ BEGIN 1xAVIBG
+ 
+-IF~InParty("AviDV") Global("AviBrotherAction","GLOBAL",2)~ THEN BEGIN AVIBG01x00
+-SAY~No, siostrzyczka! Mam ju¿ doœæ twojego wtr¹cania siê w sprawy Bodhi! Chcesz siê zabawiæ?~ [ AVIBG1 ] 
+-IF~~THEN GOTO AVIBG01x01
++IF ~InParty("AviDV") Global("AviBrotherAction","GLOBAL",2)~ THEN BEGIN AVIBG01x00
++SAY @0 
++IF ~~ THEN GOTO AVIBG01x01
+ END
+ 
+-IF~~ THEN BEGIN AVIBG01x01
+-SAY~Ca³y czas depczesz mam po piêtach. Moja g³upia, by³a ukochana s¹dzi³a, ¿e ci pomog³a. Dobrze, ¿e zdech³a. Niech nauczy siê s³uchaæ. Nie potrafi³a nawet dobrze zapamiêtaæ imienia mojej mistrzyni.~
+-IF~~THEN GOTO AVIBG01x02
++IF ~~ THEN BEGIN AVIBG01x01
++SAY @1
++IF ~~ THEN GOTO AVIBG01x02
+ END
+ 
+-IF~~ THEN BEGIN AVIBG01x02
+-SAY~Zapraszam ciê do zabawy, zdech³a kurwo. Bêdê czeka³.~ [ AVIBG2 ] 
+-IF~~THEN DO ~EscapeAreaMove("AR0809",1101,377,3)~ EXIT
++IF ~~ THEN BEGIN AVIBG01x02
++SAY @2  
++IF ~~ THEN DO ~EscapeAreaMove("AR0809",1101,377,3)~ EXIT
+ END
+ 
+ 
+-IF~InParty("AviDV") Global("AviBrotherAction","GLOBAL",3)~ THEN BEGIN AVIBG02x00
+-SAY~Siostrzyczka wpad³a na herbatkê?~ [ AVIBG3 ] 
+-IF~~THEN GOTO AVIBG02x01
++IF ~InParty("AviDV") Global("AviBrotherAction","GLOBAL",3)~ THEN BEGIN AVIBG02x00
++SAY @3 
++IF ~~ THEN GOTO AVIBG02x01
+ END
+ 
+-IF~~ THEN BEGIN AVIBG02x01
+-SAY~Zaparzê sobiê herbatê z twojej krwi, suko!~ [ AVIBG4 ] 
+-IF~~THEN DO ~Enemy()~ EXIT
++IF ~~ THEN BEGIN AVIBG02x01
++SAY @4 
++IF ~~ THEN DO ~Enemy()~ EXIT
+ END
+ 
+ 

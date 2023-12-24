@@ -1,0 +1,237 @@
+--- AviM\SoA\1xAviJ.d	Wed Sep 23 16:16:06 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviJ.d	Mon Mar 25 11:10:43 2013
+@@ -2,147 +2,147 @@
+ 
+ INTERJECT_COPY_TRANS AKAE 0 aviakae
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~No! Nie powinno siê groziæ zmar³ym w grobowcu!~
++@0
+ ==AKAE
+-~Zginiecie!~
++@1
+ END
+ 
+ INTERJECT_COPY_TRANS BODHI 0 avibodhi
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Czujê od tej kobiety aurê nieumar³ego. Musia³am ci to powiedzieæ.~
++@2
+ ==BODHI
+-~Nie przerywaj mi!~
++@3
+ END
+ 
+ INTERJECT_COPY_TRANS CARBOS 1 avicarbos
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Na moj¹ duszê... Oni siê k³óc¹ jak dzieci o ciastko. A niech siê pozabijaj¹...~
++@4
+ END
+ 
+ INTERJECT_COPY_TRANS FIRKRA01 0 avifir1
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Coœ mi siê nie podoba w tej osobie... Jest coœ taki ma³o ludzki...~
++@5
+ ==FIRKRA01
+-~Wys³uchajcie lepiej co mam do powiedzenia. B¹dŸ cicho, dziewczyno.~
++@6
+ END
+ 
+ INTERJECT_COPY_TRANS FIRKRA02 2 avifir2
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~No nieŸle... To siê nazywa dopiero posiadanie problematycznych rodziców.~
++@7
+ ==FIRKRA02
+-~Nie przerywaj mi, œmieciu.~
++@8
+ END
+ 
+ INTERJECT_COPY_TRANS GAAL 0 avigaal
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Zapowiada siê ciekawa rozmowa... byle nie skoñczy³a siê zbyt... martwo...~
++@9
+ END
+ 
+ INTERJECT_COPY_TRANS UDDEMON 0 aviuddem
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Trochê to straszne... Gdybym by³a ¿ywa to w³osy stane³yby mi dêba.~
++@10
+ END
+ 
+ INTERJECT_COPY_TRANS SAMIA 0 avisamia
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Ale ta kobieta za to jest niewiel piêkniejsza od orka...~
++@11
+ ==SAMIA
+-~Powiedzia³a... jak siê domyœlam... martwa kobieta. ~
++@12
+ END
+ 
+ INTERJECT_COPY_TRANS GAELAN2 0 avigaelan2
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Nie mo¿emy pozwoliæ by nas zabi³! To znaczy by WAS zabi³! Z³ammy kark paru zbójcom!~
++@13
+ ==GAELAN2
+-~Fajno! Bêdzie zabawa! Na nich! ~
++@14
+ END
+ 
+ INTERJECT_COPY_TRANS SHADEL 0 avishadel
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~<CHARNAME>! To Pan Cieni! To miejsce jest ca³kowicie kontrolowane przez jego mroczne moce! Musimy zniszczyæ pos¹g i Pana!~
++@15
+ ==SHADEL
+-~Martwa panienka siê wtr¹ca! Moje s³ugi zniszcz¹ twoj¹ ¿a³osn¹ formê!~
++@16
+ END
+ 
+ INTERJECT_COPY_TRANS CEFALDOR 6 avifald
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~To jest równowaga? Równowagi to ty nie masz nawet w mózgu! <CHARNAME>, musimy zakoñczyæ to wszystko. To nie jest ¿adna si³a natury! To jest furia zidiocia³ej fanatyczki.~
++@17
+ ==CEFALDOR
+-~Nie jesteœ naturaln¹ form¹! SiedŸ cicho, albo pozbêdê siê ciebie na pierwszym miejscu!~
++@18
+ END
+ 
+ INTERJECT_COPY_TRANS TANWIZ1 0 avitanwiz
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Jak nam nie powiesz gdzie jest garbarz to zaraz z twojego przyrodzenia zrobimy ³adn¹ pochwê na sztylet skoro tak kochasz wyroby ze skóry!~
++@19
+ ==TANWIZ1
+-~Gadaj zdrów!~
++@20
+ ==1xAviJ
+-~Jak zaraz chwycê twojego i "przelecê" go sztyletem to nabierzesz szacunku dla martwych!~
++@21
+ END
+ 
+ INTERJECT_COPY_TRANS RAELIS 71 aviraelis
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~Postanowili, ¿e was uratuj¹... a co ja biegna duszyczka mia³am robiæ... no wiêc te¿ posz³am.~
++@22
+ ==RAELIS
+-~Doceniam to, dobry duchu!~
++@23
+ END
+ 
+ INTERJECT_COPY_TRANS RIFTCR04 0 avimani
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~To nie jest zwyczajna istota, <CHARNAME>! Ona dzia³a inaczej! Ona... ona prosi o pomoc! Pomó¿my jej! Jest jak niespokojny duch!~
++@24
+ ==RIFTCR04
+-~Nienawiœæ! Nienawiœæ nadchodzi!~
++@25
+ END
+ 
+ INTERJECT_COPY_TRANS UDSOLA01 0 avisola
+ == 1xAviJ IF ~InParty("AviDV")~ THEN
+-~On mi ju¿ dzi³a na nerwy... mo¿e go... uduchowimy?~
++@26
+ ==UDSOLA01
+-~Micz, iblith!~
++@27
+ END
+ 
+ INTERJECT_COPY_TRANS 1xAviB2 0 avibrokania
+ == 1xAviJ IF ~~ THEN
+-~Kania? To ja Avi Maya. Jestem siostr¹ twojego ukochanego.~
++@28
+ ==1xAviB2
+-~Tak... Przypominam sobiê. Niestety ju¿ nie ukochanego... On odszed³. Zmieni³ siê. Ja... ja nie wiem co siê sta³o... Nie dziwi mnie, ¿e zdech³aœ. Nawet po œmierci jesteœ piêkna.~
++@29
+ == 1xAviJ
+-~Odszed³? Dost? Przecie¿ on cie kocha³? To... Gdzie jest mój brat...? ~
++@30
+ ==1xAviB2
+-~Nie wiem... On odszed³... Mówi³, ¿e teraz Boddi jest wa¿niejsza... ~
++@31
+ == 1xAviJ
+-~Kim ona jest?~
++@32
+ ==1xAviB2
+-~Nie wiem! Sk¹d mam wiedzieæ?! Podobno spotka³ j¹ w Dzielnicy Cmentarnej... Zostaw mnie proszê...~
++@33
+ == 1xAviJ
+-~Dziêkujê ci. ¯yczê ci jak najlepiej.~
++@34
+ == 1xAviJ
+-~<CHARNAME>, Poszukajmy Boddi.~
++@35
+ END
+ 
+ INTERJECT_COPY_TRANS 1xAviB3 0 avibroboddi
+ == 1xAviJ IF ~~ THEN
+-~Nie mów, ¿e nazywasz siê Boddi...~
++@36
+ ==1xAviB3
+-~Tak! To moje imiê! Nie nadu¿ywaj go! Chcesz, ¿eby siê zmechaci³o?! Jestem naj³adniejsz¹ koboldzi¹ dziewic¹! Jak to bêdzie gdy moje imiê bêdzie zmechacone?!~
++@37
+ == 1xAviJ
+-~Jesteœ szalona...~
++@38
+ ==1xAviB3
+-~Przeszkadza ci to?! Odczep siê!~
++@39
+ == 1xAviJ
+-~<CHARNAME>, nie odnajdziemy go... nie mamy wiêcej poszlak... Wróæmy na szlak i miejmy nadziejê, ¿e trafimy na mojego brata. Dziêkujê ci, ¿e stara³eœ mi siê pomóc... (Widaæ, ¿e Avi Maya jest naprawdê smutna.)~
++@40
+ END
+ 
+ INTERJECT_COPY_TRANS 1xAviE2 0 avieny2
+ == 1xAviJ IF ~~ THEN
+-~Czy to siê nie skoñczy? Zabije ciê w³asnymi martwymi ³apami jak ma mi to pomóc w uzyskaniu spokoju!~
++@41
+ ==1xAviE2
+-~Uzyskasz ty spokój wieczny!~
++@42
+ END
+ 
+ INTERJECT_COPY_TRANS 1xAVIBG 0 avi1xAVIBG
+ == 1xAviJ IF ~~ THEN
+-~Nie! Wiedzia³am, ¿e coœ takiego siê stanie. <CHARNAME>, nie s³uchaj go! Nie chodzi³o o Boddi tylko o Bodhi! Zosta³ zamieniony tak szybko... To musi byæ efekt magiczny. Mo¿emy to zmieniæ! Musimy mieæ jego czaszkê! Zanieœmy j¹ do Targowa! Jego przyjaciel bêdzie wiedzia³ co dalej!~
++@43
+ END
+ 
+ CHAIN
+@@ -150,27 +150,27 @@
+ ~!InPartySlot(LastTalkedToBy,0)
+ IsGabber("AviDV")
+ Global("AviSALVANAS","LOCALS",0)~ THEN SALVANAS avisalvanas
+-~Och! Witaj piêkna! Czy... czy ja umar³em?~ DO ~SetGlobal("AviSALVANAS","LOCALS",1)~
+-== 1xAVIJ ~A co ci chodzi, ¿ywy?~
+-== SALVANAS ~Jesteœ dusz¹... Pragnê umrzeæ by staæ siê twym kochankiem na wiecznoœæ... Jesteœ niczym wspania³a...~
+-== 1xAVIJ ~Statua mi³oœci i piêkna! Ty za to jesteœ niczym...~
+-== SALVANAS ~Tak, moja piêkna? Niczym kto? Twój piêkny bóg?~
+-== 1xAviJ ~Nie. Jesteœ niczym...~ 
+-== SALVANAS ~Manifestacja subtelnoœci i harmonii?~
+-== 1xAviJ ~G³uchy jesteœ, ¿ywy? Jesteœ po prostu NICZYM.~
+-== SALVANAS ~Ach! Jestem niczym wobec twojej perfekcyjnoœci!~
+-== 1xAviJ ~Jak z tob¹ skoñczê to bêdziesz niczym skaml¹cy pies bez nó¿ek...~
+-== SALVANAS ~Ja... ja... hmm... Chyba ktoœ mnie tam wo³a... Bywaj!~
++@44 DO ~SetGlobal("AviSALVANAS","LOCALS",1)~
++== 1xAVIJ @45
++== SALVANAS @46
++== 1xAVIJ @47
++== SALVANAS @48
++== 1xAviJ @49 
++== SALVANAS @50
++== 1xAviJ @51
++== SALVANAS @52
++== 1xAviJ @53
++== SALVANAS @54
+ EXIT
+ 
+ INTERJECT_COPY_TRANS PLAYER1 2 aviatplay01
+ == 1xAVIJ IF ~InParty("AVIDV") Global("AviRelationsActive","GLOBAL",2)~ THEN
+-~<CHARNAME>! Nie! On... Ja nie wyczówam twojego ducha... coœ jest nie tak! Pieprzony Irenicus!~
++@55
+ == 1xAviJ
+-~Nic nie mów i przyjmij to.~
++@56
+ == 1xAviJ
+-~(Avi Maya podchodzi i dotyka twej twarzy. Przybli¿a swoje usta i ca³uje ciê. Czujesz jak twoje cia³o zaczyna przemierzaæ si³a. Twe nozdrza wype³nia zapach przypominaj¹cy wilgotn¹ ziemiê i bluszcz.)~
++@57
+ == 1xAviJ
+-~To musi narazie wystarczyæ...~
++@58
+ END
+ 

@@ -1,0 +1,8 @@
+--- PoFQuestPack\English\D\SLAINE1.tra	Mon Apr 26 15:41:41 2021
++++ C:\BWP Patchstudio\patched files\PoFQuestPack\English\D\SLAINE1.tra	Mon Mar 13 12:32:55 2023
+@@ -1,4 +1,4 @@
+-@1   = ~< CHARNAME > quickly here... They took him.~
++@1   = ~<CHARNAME> quickly here... They took him.~
+ @2   = ~Wait, I don't know who took who?~
+ @3   = ~Yarpen's warriors took my friend Solan...~
+ @4   = ~Good.. Do you know where he is now?~

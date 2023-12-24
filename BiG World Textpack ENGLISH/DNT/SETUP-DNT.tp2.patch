@@ -1,0 +1,17 @@
+--- SETUP-DNT.tp2	Sun Aug 09 11:46:45 2015
++++ C:\BWP Patchstudio\patched files\SETUP-DNT.tp2	Sun Aug 09 11:52:08 2015
+@@ -1,9 +1,13 @@
+ BACKUP ~DNT\bak~
+ AUTHOR ~vira@live.com~
+ VERSION ~v0.9 BWP Fix~
+-LANGUAGE~简体中文~
++AUTO_TRA ~DNT\Language\%s~
++LANGUAGE ~简体中文~
+ 	~SimChinese~
+ 	~DNT\Language\SimChinese\setup.tra~
++LANGUAGE ~English~
++    ~English~
++    ~DNT\Language\English\setup.tra~
+ BEGIN @1
+ 
+ //拷贝人物

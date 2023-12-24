@@ -1,0 +1,11 @@
+--- Uldar\d\UldarTob.d	Sat Sep 06 20:11:16 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\UldarTob.d	Wed Aug 29 05:58:59 2012
+@@ -4,7 +4,7 @@
+        !InMyArea("Uldar")
+        Global("UldarSummoned","GLOBAL",0)~ THEN
+ 
+-      REPLY ~Tráeme a Uldar, al bárbaro semiorco de la orgullosa tribu de los Hatuk.~ DO ~SetGlobal("UldarSummoned","GLOBAL",1)~ GOTO 8
++      REPLY @0 DO ~SetGlobal("UldarSummoned","GLOBAL",1)~ GOTO 8
+ END
+ 
+ 

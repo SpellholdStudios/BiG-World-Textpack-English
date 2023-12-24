@@ -1,0 +1,20 @@
+--- Uldar\d\uldgua1.d	Tue Apr 15 03:54:44 2008
++++ C:\BWP Patchstudio\patched files\Uldar\d\uldgua1.d	Wed Aug 29 05:59:00 2012
+@@ -1,13 +1,13 @@
+ BEGIN ~ULDGUA1~
+ 
+ IF ~NumTimesTalkedTo(0) !Dead("announcer") !StateCheck("announcer",STATE_SLEEPING)~ THEN BEGIN 0
+-  SAY ~¡Suelta el arma semiorco! ¡Has luchado bien, pero ya es hora de que vuelvas a tu celda!~
++  SAY @0
+   IF ~~ THEN EXTERN ~Uldarsc1~ 1
+ END
+ 
+ IF ~~ THEN BEGIN 1
+-  SAY ~¡Calma gladiador! Recuerda a los niños. Cualquier muestra de rebelión hacia tus amos les costará la vida a esos crios.~
++  SAY @1
+ =
+-~ ¡Y ahora muevete! Te llevamos de nuevo a tu celda. Hay de dejar libre el pozo para el siguiente combate.~
++@2
+ IF ~~ THEN EXIT
+ END
+\ No newline at end of file

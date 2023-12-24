@@ -1,0 +1,2022 @@
+--- Setup-Vendedor_DLAN.tp2	Sat Jan 02 18:27:16 2016
++++ C:\BWP Patchstudio\patched files\Setup-Vendedor_DLAN.tp2	Sat Jan 02 18:22:45 2016
+@@ -1,1120 +1,302 @@
+ BACKUP ~Vendedor_DLAN\backup~
+ AUTHOR ~Bhasbuto@adinet.com.uy~
+ VERSION ~v6.1 BWP Fix~
+-BEGIN ~Vendedor DLAN para SoA v6.1~
+ 
+ 
++// AUTO_TRA ~Vendedor_DLAN/tra/%s~
+ 
+-COPY ~Vendedor_DLAN\BHBITM01.itm~ ~override\BHBITM01.itm~
+-   SAY NAME1 ~Cuero Tachonado~
+-   SAY NAME2 ~Cuero Tachonado +5: El Acechador~
+-   SAY DESC ~Esta armadura fue forjada por Rembrandt, al que llamaban "El Herrero Celestial" debido a que sus creaciones eran siempre hermosas y útiles a la vez, para Uttiro, uno de sus discípulos, quien abandonaría su tutela para vivir las experiencias del mundo. Uttiro no aceptó el presente, de modo que se quedó en las bodegas de Rembrandt, con otro montón de cosas hermosas hasta el día de su muerte, después de la cual todos esos objetos desaparecieron y fueron apareciendo por todas partes del mundo. Este objeto en particular nunca había sido visto después de eso.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por equipado:
+-Bonificador + 30% a las habilidades robar, esconderse en las sombras, moverse sigilosamente y colocar trampas.
+-Bonificador +2 al factor de movimiento.
+-Bonificador +1 a la destreza.
+-Bonificador +1 al apuñalamiento por la espalda.
+-No detección
+-Clase de Armadura: 2
+-Peso: 5
+-Requisitos: Fuerza 6
+-
+-Sólo lo puede usar:
+- El ladrón
+- El Guerrero/Mago (Kensai incluido)~
+-
+-
+-COPY ~Vendedor_DLAN\BHBITM02.itm~ ~override\BHBITM02.itm~
+-   SAY NAME1 ~Mandoble~
+-   SAY NAME2 ~Mandoble +4: Nhoram~
+-   SAY DESC ~Hace muchos años, el pequeño reino de Forums era dominado por su rey-mago Nhoram, quien gobernaba su reino con justicia y bondad, utilizando su magia en favor de los que lo merecían, y otorgando justos castigos a los malhechores.
+ 
+-El reino de Forums prosperó bajo su reinado durante siete años. Para ese entonces era muy conocida la curiosidad de Nhoram por los objetos mágicos antiguos, además de su afición a crear objetos él mismo, siempre beneficiosos, que luego regalaba a lo largo del pueblo. Pero aunque la conducta extraña de Nhoram era muy discutida, nadie puso ninguna objeción, dado que no podían pedir un mejor rey.
++LANGUAGE ~Spanish~
++         ~spanish~
++         ~Vendedor_DLAN/tra/spanish/Setup-Vendedor_DLAN.tra~
+ 
+-Pero al primer día de su octavo año al trono, algo ocurrió, el cielo de repente se oscureció, y una voz se escuchó en todos los rincones del reino... desgraciadamente y por alguna extraña razón, al minuto siguiente nadie recordaba lo que dijo. Y luego de eso, el cielo nunca volvió a aclarar...
++LANGUAGE ~English~
++         ~english~
++         ~Vendedor_DLAN/tra/english/Setup-Vendedor_DLAN.tra~
+ 
+-Pasaron cinco años. Para ese entonces, el reino estaba devastado. No se veía un alma por la noche, puesto que hasta el mendigo más miserable rehuía de las sombras. Ya no se intentaba asesinar al rey. Todos los que lo habían intentado, habían perecido horriblemente luego de ver como nada funcionaba contra su rey. Lo atacaban con todo tipo de armas y conjuros, sin embargo nada le hacía daño. Por lo que los habitantes del pequeño reino de Forum abandonaron toda esperanza de salir de la tiranía, ya que hasta los límites del reino estaban sellados con una barrera mágica. Nadie comprendía como su amado rey podía haberse convertido en un tirano cruel y despiadado que disfrutaba matando y torturando. Nhoram imponía a su reino la adoración a un dios llamado "Khen", cobraba altísimos impuestos, ofrecía a su dios sacrificios humanos, y disfrutaba quemando vivos a los "herejes" que eran lo suficientemente osados como para no adorar a Khen. Llamaba a sus castigos "Hogueras purificadoras".
+ 
+-Pero en esos tiempos, la gente ya empezaba a murmurar excitada desde hacía un mes aproximadamente. Nadie sabía donde habían comenzado los rumores, pero se decía que Rembrandt (quien para ese entonces aún no se había ganado su apodo de "Herrero Celestial") estaba trabajando en un arma y un héroe que podrían derrotar a Nhoram. Mientras tanto, Nhoram lo dejaba pasar, puesto que se creía invencible y esperaba divertirse en grande torturando al tal "héroe".
++BEGIN @0
+ 
+-Finalmente, el primer día del año número 13 de Nhoram en el trono, la gente lo vio en el camino hacia el castillo: no era en lo absoluto lo que esperaban, sino un elfo de complexión más bien débil, sin armadura ni ninguna clase de protección. Lo único que llevaba era un mandoble: una hoja inmensa, de casi 1,40m de largo, y que el elfo llevaba con las dos manos, aunque no parecía costarle en lo absoluto.
+ 
+-El encuentro entre los dos fue muy breve, y sólo hubo un mayordomo para presenciar el encuentro: al elfo, cuyo nombre era Elgharin, no parecían hacerle daño ninguno de los conjuros de Nhoram. En cambio Elgharin y su mandoble parecían uno, y ambos se movían como si lo hubieran practicado desde hacía miles de años, con una agilidad sobrehumana. Por supuesto, esto no habría tenido importancia de tratarse de una espada normal, puesto que a Nhoram no le afectaba nada de lo que le hacían. Sin embargo, ante la vista del impresionado mayordomo, su amo perdía poco a poco ese brillo que siempre lo acompañaba. ¡La espada estaba absorbiendo la magia de sus conjuros de protección con cada uno de sus golpes!. Finalmente, al darse cuenta de que estaba derrotado, Nhoram se rindió y suplicó clemencia. Sin embargo, el siguiente golpe de mandoble, el cual le cercenó el brazo, tuvo un efecto inesperado: el brillo rojizo que se encontraba en los ojos de Nhoram desapareció, al instante el cielo aclareció, Nhoram cayó desmayado a un lado y todos pudieron recordar aquel día y aquella voz: "Vuestra insaciable curiosidad me ha convocado y ahora pagaréis las consecuencias, a partir de ahora vuestra carne, mente y alma son mías. Yo soy el todopoderoso Khen".
+ 
+-En ese momento Elgharin se dio cuenta de lo que había pasado: aquel ente llamado Khen había dominado el cuerpo de Nhoram, y los efectos anti magia de la espada lo habían disipado. De inmediato perdonó a Nhoram y se convirtió en el nuevo rey con el completo consentimiento de la gente del reino. Y a Nhoram se le desterró porque si no fuera por su pasión por lo oculto nada de eso habría pasado, aunque le concedieron que se le restituyera su brazo cercenado.
+-
+-Nhoram aceptó su exilio, aunque no sin antes robar la espada de los aposentos del rey y teleportarse de inmediato fuera del reino. Durante el resto de su vida, Nhoram la utilizó para servir al bondadoso dios Ueiner. Luego de su muerte, la espada desapareció y no se volvió a saber de ella. Aunque luego se la bautizó con el nombre del rey a quien una vez derrotó y sirvió luego. Un detalle a destacar es que el portador de la espada nunca puede pasar desapercibido: tal fue la cantidad de magia que absorbió durante su primer combate que ya casi no puede retenerla, por lo que usa a su portador para ayudarlo. De esta manera, cualquiera que porte esta espada emitirá un brillo mágico del que le será imposible deshacerse.
+-
+-CARACTERÍSTICAS:
+-
+-* 30% de probabilidades de eliminar una protección mágica y lanzar Disipar Magia con cada golpe si el objetivo no supera una tirada de salvación contra conjuros.
+-* Fija la destreza en 19
+-* Aumenta en 2 los puntos de habilidad con el mandoble.
+-* Fija la resistencia mágica en 30%
+-* Fija el factor de movimiento en 12
++COPY ~Vendedor_DLAN\BHBITM01.itm~ ~override\BHBITM01.itm~
++   SAY NAME1 @1
++   SAY NAME2 @2
++   SAY DESC @3
+ 
+-THAC0: Bonificador +4
+-Daño: 1D10 +5
+-Tipo de daño: Cortante
+-Peso: 2
+-Factor de velocidad: 6
+-Talento Marcial: Mandoble
+-Tipo: a dos manos
+-Requerimientos: Fuerza 14
+ 
+-No lo puede usar:
+- El druida
+- El clérigo
+- El mago
+- El ladrón~
++COPY ~Vendedor_DLAN\BHBITM02.itm~ ~override\BHBITM02.itm~
++   SAY NAME1 @4
++   SAY NAME2 @5
++   SAY DESC @6
+ 
+ 
+ COPY ~Vendedor_DLAN\BHBITM03.itm~ ~override\BHBITM03.itm~
+-   SAY NAME1 ~Anillo~
+-   SAY NAME2 ~Anillo del control propio~
+-   SAY DESC ~Este anillo tiene inscripto en letras muy muy finas: "Para que no perdáis el control, mi querido pupilo". Fue forjado hace mucho por el famoso Rembrandt "El Herrero Celestial" para uno de sus tantos aprendices, de nombre Pleagûind. Hacía tiempo éste había ocasionado desastres por toda la Costa de la Espada, aunque sus intenciones siempre eran buenas, tenía el defecto de que se enojaba por cualquier insignificancia. Y en las situaciones que harían enfadar a un hombre corriente, él perdía la cabeza por completo, y cuando esto sucedía, nada ni nadie estaba a salvo, ya que, cegado por la ira, destruía a todos y a todo lo que se cruzara en su camino. Nunca fue recordado por sus hazañas a favor del bien como lo fue por estos incidentes. Cuando al fin cayó en la cuenta de que era una especie de bestia, hizo lo que pudo por dominarse, sin embargo no logró nada, ya que él sabía que cuando se enfadaba era cuando más fuerza adquiría, por lo que en realidad todavía lo deseaba, aunque la idea le repugnaba.
+-
+-Fue así como se convirtió en pupilo de Rembrandt. Su fama como maestro y como herrero ya se extendía por casi todo Faerun, así como su disposición a ayudar a quien necesite sus enseñanzas. Cuando fue a verlo, Rembrandt lo admitió en seguida, y se puso a trabajar en una posible solución para su problema.
+-
+-La solución fue muy simple. Le dio un anillo mágico, que, según Rembrandt, ayudaría a Pleagûind a conservar la calma, y sacar de ella más fuerzas de las que sacaba con su ira. Rembrandt decía que el anillo sólo lo ayudaría, que luego de un tiempo ya no lo necesitaría más. Pero Pleagûind no le hizo caso y lo llevó puesto hasta el día de su muerte a causa de una enfermedad. O sea que nunca se supo si las palabras de Rembrandt eran ciertas o no. Luego de eso, el anillo pasó a manos de su hijo, y luego al hijo de su hijo y así hasta que fue robado. Sin embargo, ninguna persona consiguió usarlo, puesto que Rembrandt lo hizo para uso específico de Pleagûind, o cualquiera con una personalidad parecida. Curiosamente, Minsc lo puede usar.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por equipado:
+-  Fija la sabiduría en 15
+-Habilidades:
+-  Lanza Rabia controlada sobre el portador una vez al día. Ésta hace:
+-    * Bonificador +2 a la fuerza
+-    * Bonificador +2 a la destreza
+-    * Bonificador +2 a la constitución
+-    * Bonificador +3 al movimiento
+-    * Bonificador +20 a los puntos de vida
+-    * Bonificador +2 a todas las tiradas de salvación
+-    * Duración: 60 segundos
+-Peso: 1
+-
+-Sólo lo puede usar:
+-  Los exploradores humanos caóticos buenos.
+-  Minsc.~
++   SAY NAME1 @7
++   SAY NAME2 @8
++   SAY DESC @9
+ 
+ 
+ COPY ~Vendedor_DLAN\BHBITM04.itm~ ~override\BHBITM04.itm~
+-   SAY NAME1 ~Fajín~
+-   SAY NAME2 ~Fajín de Energía Oscura~
+-   SAY DESC ~Fajín de Energía Oscura:
+-
+-   Este fajín fue originalmente forjado por Rembrandt, "el Herrero Celestial". Y como tantos otros objetos, fue guardado en su bodega a falta de un uso inmediato. Este fajín había sido la más hermosa y poderosa de todas las creaciones de Rembrandt, y mientras era probado, hubo gente que lo vio y ambicionó. Cuando Rembrandt guardó este objeto en su bodega, los ladrones vieron su oportunidad, y contrataron a uno de los magos más reconocidos de todo el continente para debilitar la magia que protegía la bodega. Éste, cuyo nombre era Sucineri, hizo una impresionante demostración de poder mágico e inusitada buena suerte al conseguir mantener las barreras mágicas desactivadas suficiente tiempo como para que los ladrones entraran, y les diera el tiempo justo para coger el fajín y marcharse corriendo.
+-
+-Así fue como Herman y Enrik, los dos ladrones, consiguieron el fajín. Pero luego les fue imposible usarlo. Como todas las creaciones de Rembrandt, no soportaba el contacto con el mal, y cuando alguna persona maligna intentaba usarlo, se quemaba, helaba, recibía una descarga eléctrica, o cualquier cosa que les impidiera mantener el fajín durante más de un segundo.
+-
+-Contrariados, Herman y Enrik volvieron a solicitar los servicios de Sucineri, esta vez para invertir el sentido de las protecciones del fajín: solamente debía poder ser tocado por las personas malignas. El experimento llevó más tiempo del planeado. Al final de la quinta semana, ya eran cinco los magos que intentaban quebrar la resistencia del fajín. Y por fin, en una combinación de poderes que difícilmente se haya visto en todo Faerun, consiguieron lo deseado... casi. El fajín cedió, pero para eso fue necesario sacrificar casi el 80% de todo su poder. De modo que ya no tenía comparación con el fajín de antes. Aún así seguía siendo poderoso.
+-
+-Con esto, el par de tontos ladrones se rehusaron a pagar a cinco de los más poderosos magos del mundo... nadie sabe como terminaron, pero es seguro que no fue nada agradable de presenciar. Del fajín no se sabe que fue, lo más probable era que alguno de los magos se lo hubiera llevado, pero eso nunca se supo. El fajín volvió a ser visto más de cien años después... para desaparecer nuevamente y aparecer algunos años después en manos de otro. Nada se sabe de como el fajín llegó a manos de sus respectivos dueños, pero algo tenían en común: todos eran guerreros verdaderamente malignos, fácilmente reconocibles por el manto de sangre hecha energía que siempre los rodeaba.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por equipado:
+-  * Fija en 22 las resistencias al fuego, frío, electricidad, magia y daño mágico.
+-  * El portador es inmune a las armas no mágicas
+-Habilidades:
+-  * Puede convocar el Mandoble de Energía Oscura una vez al día durante 30 segundos
+-Peso: 2
+-
+-Sólo lo puede usar:
+-  El guerrero (simple, dual o multiclase)
+-  Personajes de alineamiento maligno
+-  Humanos
+-
+-Mandoble de Energía Oscura:
+-
+-El mandoble se forma con la energía que emana del Fajín de Energía Oscura, no pesa en lo absoluto y parece que se moviera por sí mismo en las manos de su portador. Debido a la gran energía empleada, no durará mucho. Así que aprovechadlo.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por equipado:
+-  * Bonificación +2 a la habilidad con el mandoble
+-  * Causa 1D4 de daño por electricidad
+-  * Causa 1D4 de daño por fuego
+-  * Causa 1D4 de daño por frio
+-  * Celeridad en su portador
+-THAC0: Bonificador +7
+-Daño: 1D10 +7
+-Peso: 1
+-Factor de velocidad: 3
+-Tipo de daño: Cortante
+-Talento Marcial: Mandoble~
++   SAY NAME1 @10
++   SAY NAME2 @11
++   SAY DESC @12
+ 
+ COPY ~Vendedor_DLAN\BHIT04_1.itm~ ~override\BHIT04_1.itm~
+-   SAY NAME1 ~Mandoble de Energía Oscura~
+-   SAY NAME2 ~Mandoble de Energía Oscura~
++   SAY NAME1 @13
++   SAY NAME2 @13
+ 
+ COPY ~Vendedor_DLAN\BHBITM05.itm~ ~override\BHBITM05.itm~
+-  SAY NAME2 ~Cimitarra +5: Recompensa~
+-  SAY DESC ~Cimitarra +5: Recompensa.
+-
+-  Laneor era un guerrero semielfo. Un mercenario errante que aceptaba cualquier trabajo que le pudiera reportar algún beneficio. Mataba sin piedad tanto a personas bondadosas como a malvados. Tanto a reyes como mendigos. Fue a sus 25 años cuando conoció al Hombre. Éste se le apareció de improviso enfrente de la cara en cuanto salía de la casa de su última víctima. Sobresaltado, estuvo a punto de rebanarle la cabeza, pero no tuvo tiempo. El hombre desapareció de inmediato, pero aún así, luego pudo sentir una voz en su cabeza que le decía: "Estáis desperdiciando vuestros talentos y vuestra vida. Venid a Amn y sed mi pupilo".
+-
+-Acto seguido, Laneor se dirigió hacia Amn, con la idea de averiguar lo que quería ese sujeto y tal vez, matarlo. Cuando llegó a Amn, intentó buscar de nuevo al Hombre dando su descripción a las personas... pero claro, Amn era una ciudad muy grande y no tuvo éxito. Una noche, el Hombre se le apareció en sueños y le dijo el lugar al que debía ir. Así como también la hora y fecha.
+-
+-Por supuesto que Laneor no le hizo caso y partió en seguida. Al llegar, comprobó que era una gran mansión, con jardines en donde había mucha gente practicando de todo un poco: Desde conjuros mágicos hasta alquimia y habilidades con las armas. No les hizo caso, debían ser los pupilos del Hombre, se dijo. Avanzó hasta la puerta de la casa y nadie reparó en él, nadie dio un paso para detenerlo ni se alarmó al verlo. En esa casa estaban todos locos, o eso creyó Laneor.
+-
+-La entrada de la mansión daba a un largo pasillo con puertas a ambos lados. A la mitad, aproximadamente, se encontraba el Hombre. Pero no era en absoluto como se le había parecido. O mejor dicho, SI era, pero parecía totalmente distinto. De él emanaba amor, bondad, sabiduría, creatividad, y tantas cosas... Laneor quedó indefenso, no se podía mover ante la "aparición". Parecía un dios... no, parecía más que un dios, pensaba. Finalmente, el Hombre habló. "¿Habéis venido a haceros mi pupilo?" Y Laneor, sin pensarlo, sin dudar un instante, le contestó: "Sí, maestro". Y así fue como Laneor se convirtió en pupilo de Rembrandt, "el Herrero Celestial".
+-
+-Durante diez años fue pupilo suyo, y durante ese tiempo desarrolló un intenso amor hacia la naturaleza. También repudió su anterior vida y juró no volver a tocar otra espada larga por los recuerdos desagradables que le conferían. Se sentía como que al fin hubiera despertado de un sueño. De entre todas las armas, eligió la cimitarra, le gustaba como se sentía en su mano y su manejabilidad. Así que entrenó con ella todo el tiempo que estuvo allí, aprendiendo a su vez de la naturaleza y la importancia del Gran Equilibrio. Pasados los diez años, decidió marcharse a proteger el equilibrio, y finalmente se fue con los mejores deseos de su maestro.
+-
+-Seis largos años más viajó por todo Amn y la Costa de la Espada protegiendo al equilibrio, y se convirtió en un druida renombrado. Nunca consiguió una cimitarra mágica, decían que eran muy difíciles de encontrar y por eso siempre tuvo que hacer su mejor esfuerzo con una cimitarra corriente... y logró sobrevivir. No le importaba, mientras creyera en el Equilibrio y luchara por defenderlo, el arma no tenía importancia, él resultaría vencedor. Sin embargo, Rembrandt decidió recompensar el arduo y duro trabajo de su alumno, y cierto día se apareció ante él y le regaló esta cimitarra de forja suya.
+-
+-Luego de eso, nunca se separó de su cimitarra, y en los primeros meses, pensó que nunca se iban a acabar los efectos nuevos por descubrir, ya que siempre parecía hacer cosas diferentes. Uno de los tantos efectos que tenía era la posibilidad de hacer salir el alma de su oponente con un golpe, para que pueda redimirse en una nueva encarnación. Luego, conoció a algunos de sus antiguos enemigos y verificó que se habían convertido en personas excelentes, aunque la mayoría de las veces, sólo los veía de niños. Sin embargo, lo reconocían y le daban las gracias por la segunda oportunidad.
+-
+-La cimitarra luce un gigantesco rubí en la empuñadura, que es donde se almacena su imponente energía. Desgraciadamente, luego de combatir contra un mago terrible (uno de sus últimos combates), la magia de éste consiguió averiar la joya, de modo que a veces parte de la energía, en vez de salir por el filo en forma de "efectos", sale por la joya en forma de una gigantesca bola de fuego que amenaza con consumir todo a su alrededor. A pesar de eso, Laneor nunca se separó de esta espada hasta el día en que volvió al seno de la naturaleza que tanto amaba.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por el golpe:
+-* Causa 1D6 puntos de daño de fuego
+-* Causa 1D6 puntos de daño de frío
+-* Causa 15 puntos de daño eléctrico si no se supera una tirada de salvación contra conjuros con penalización de -4.
+-* 50% de probabilidades de atontar al objetivo durante 12 segundos si no supera una tirada de salvación contra parálisis
+-* 35% de probabilidades de quitar una protección mágica.
+-* 35% de probabilidades de lanzar Disipar Magia sobre el objetivo.
+-* 10% de probabilidades de obligar al alma a salir si no supera una tirada de salvación contra la muerte con penalización de -3
+-* 2% de probabilidades de que lance una Bola de Fuego sobre el portador.
+-
+-THAC0: Bonificador +5
+-Daño: 1D6
+-Tipo de daño: Cortante
+-Peso: 4
+-Factor de Velocidad: 5
+-Talento marcial: cimitarra/wakizashi/ninja-to
+-Tipo: a una mano
+-
+-Sólo lo puede usar:
+-  Guerreros-Druidas semielfos.
+-  Jaheira~
++  SAY NAME2 @14
++  SAY DESC @15
+ 
+ COPY ~Vendedor_DLAN\BHBMOD01.itm~ ~override\BHBMOD01.itm~
+-   SAY NAME1 ~Anillo~
+-   SAY NAME2 ~Precaución del Asesino~
+-   SAY DESC ~ "Por supuesto, el más poderoso de los asesinos puede ser eliminado fácilmente gracias al veneno adecuado, porque si es difícil acercarse a un mago, más difícil es acercarse a un asesino entrenado; por desgracia un asesino no suele ser tan cándido como un mago, por eso, si debéis enfrentaros a un poderoso asesino aseguraos de que no está en guardia y usad veneno, si está en guardia lo mejor que podéis hacer es huir bien lejos. Porque ningún asesino precavido puede ser eliminado mediante el veneno".
+-
+-Arkanis Garth, Maestro de Asesinos de los Ladrones de las Sombras
+-
+-CARACTERÍSTICAS:
+-
+-El portador es inmune a todos los venenos.
+-El portador regenera 5 puntos de golpe por segundo.~
++   SAY NAME1 @7
++   SAY NAME2 @16
++   SAY DESC @17
+ 
+ COPY ~Vendedor_DLAN\BHMO01_1.itm~ ~override\BHMO01_1.itm~
+-   SAY NAME1 ~Arco corto~
+-   SAY NAME2 ~Desgarrador de Arruza~
+-  SAY DESC ~Este Arco fue Creado por Arruza, un explorador arquero que amaba los dragones, pero tenía que matarlos.
+-
+-CARACTERÍSTICAS:
+-
+-Inmunidad al Miedo.
+-El Arco Dispara Flechas sin la necesidad de estar cargado.
+-
+-THAC0: +7
+-Daño: +7 + Doble Daño a Dragones
+-Factor de Velocidad: 2
+-Talento Marcial: Arco Corto
+-Tipo: a dos manos
+-Peso: 3
+-Requisitos: 15 Destreza
+-
+-No lo puede usar:
+- El Mago
+- El Bardo
+- El Druida
+- El Clérigo~
++   SAY NAME1 @18
++   SAY NAME2 @19
++  SAY DESC @20
+ 
+ COPY ~Vendedor_DLAN\BHMO01_2.itm~ ~override\BHMO01_2.itm~
+-   SAY NAME1 ~Bala~
+-   SAY NAME2 ~Furia del Ifrit~
+-   SAY DESC ~La furia del Ifrit no es una bala normal, está hecha de puro fuego y explota en una bola de fuego contra sus oponentes, haciéndola un arma mortal en casi todos sus aspectos, muy pocos sobreviven a este ataque. ~
++   SAY NAME1 @21
++   SAY NAME2 @22
++   SAY DESC @23
+ 
+ COPY ~Vendedor_DLAN\BHMO01_3.itm~ ~override\BHMO01_3.itm~
+-   SAY NAME1 ~Botas~
+-   SAY NAME2 ~Relámpago~
+-   SAY DESC ~ "Qué los estúpidos vengan por mí, uno tras otro, en una línea interminable de ansiosos asesinos. Por cada uno que mato gano en sabiduría, y la sabiduría me hace más fuerte."
+-
+-Artemis Entreri, Maestro de Asesinos
+-
+-CARACTERÍSTICAS:
+-
+-Celeridad mejorada mientras se lleven puestas
+-Inmunidad al apuñalamiento por la espalda~
++   SAY NAME1 @24
++   SAY NAME2 @25
++   SAY DESC @26
+ 
+ COPY ~Vendedor_DLAN\BHMO01_4.itm~ ~override\BHMO01_4.itm~
+-   SAY NAME1 ~Casco~
+-   SAY NAME2 ~Regalo del Reino~
+-   SAY DESC ~¡Salve, Incrédulo! Mantenedor de la promesa, verdad sin juramento y enemigo del mal.
+-Ur-amo, que puso fin al mal y afirmó la vida.
+-¡Salve, Covenant! Fuerte poseedor de la magia indomeñable, servidor del oro blanco en la tierra y Amo...
+-Vuestro es el poder que preserva.
+-Cantad, pueblo del Reino...
+-¡Elevad vuestra obediencia!
+-Mantened altos el honor y la gloria hasta el fin de los días:
+-¡Qué esté limpia la verdad ganadora!
+-¡Salve, Incrédulo!
+-¡Covenant!
+-¡Salve! 
+-
+-CARACTERÍSTICAS:
+-
+-+15 a los puntos de golpe máximos
+-25% de resistencia mágica
+-Lanza trampa contra conjuros 3 veces al día
+-Lanza retorno de conjuros 3 veces al día~
++   SAY NAME1 @27
++   SAY NAME2 @28
++   SAY DESC @29
+ 
+ COPY ~Vendedor_DLAN\BHMO01_5.itm~ ~override\BHMO01_5.itm~
+-   SAY NAME1 ~Legado de los C'rintrin~
+-   SAY NAME2 ~Legado de los C'rintrin~
+-  SAY DESC ~Cuando miráis fijamente el anillo, os invade una fuerte nostalgia. No sabéis con certeza los orígenes de éste, ya que lo habéis llevado en vuestra mano desde que nacisteis y este se adapta mágicamente al tamaño de vuestro dedo. La verdad es que la joya es el símbolo más preciado de los C'rintrin (drows nobles), y más concretamente de la casa Auviir, lo que podría aclarar vuestra misteriosa juventud antes de ser acogido por vuestro padrastro Gorion.
+-
+-CARACTERÍSTICAS:
+-
+-Mientras se lleve equipado regenera un punto de vida cada seis segundos.~
++   SAY NAME1 @30
++   SAY NAME2 @30
++  SAY DESC @31
+ 
+ COPY ~Vendedor_DLAN\BHMO01_6.itm~ ~override\BHMO01_6.itm~
+-   SAY NAME1 ~Cinturón~
+-   SAY NAME2 ~Cinturón de los Sin Hogar~
+-SAY DESC ~Este es un cinturón a todas luces muy extraño, parece hecho de piedra y sin embargo con cada movimiento oís el sonido de las olas. Hay una extraña inscripción grabada en él.
+-
+-Piedra y Mar, profundos en la vida
+-Dos inalterables símbolos del mundo.
+-Permanencia en el descanso y permanencia en la acción.
+-Participantes en el Poder que queda
+-
+-CARACTERÍSTICAS:
+-
+-Fuerza 22
+-Destreza +2
+-25% resistencia mágica
+-50% resistencia al daño mágico.~
++   SAY NAME1 @32
++   SAY NAME2 @33
++SAY DESC @34
+ COPY ~Vendedor_DLAN\BHMO01_7.itm~ ~override\BHMO01_7.itm~
+-   SAY NAME1 ~Cimitarra~
+-   SAY NAME2 ~Kamikura +4~
+-   SAY DESC ~Esta Cimitarra fue forjada y trabajada cuidadosamente por Latis y Lord Redjan, hecha especialmente para combatir a los magos de Faerun.
+-Desprende una llamarada que daña severamente al enemigo en cada ataque
+-
+-CARACTERÍSTICAS:
+-
+-THAC0: +4
+-Daño: 1D8+4 +3D10 daño por fuego
+-Peso: 4
+-Factor de velocidad: 2
+-Talento marcial: cimitarra/wakizashi/ninja-to
+-Tipo: a una mano
+-
+-No lo puede usar:
+- El Clérigo
+- El Mago
+- El Ladrón~
++   SAY NAME1 @35
++   SAY NAME2 @36
++   SAY DESC @37
+ 
+ COPY ~Vendedor_DLAN\BHMO01_8.itm~ ~override\BHMO01_8.itm~
+-   SAY NAME1 ~Katana~
+-   SAY NAME2 ~Flying Revenge~
+-  SAY DESC ~ "Existe una cierta belleza en la absoluta fealdad de los demonios. No existe ninguna duda, ninguna ambigüedad a la hora de tratar con ellos. Uno no negocia con los demonios, uno no escucha sus mentiras. Sino que deben ser expulsados, destruidos. Es preciso librar al mundo de su presencia"
+-
+-Drizzt Do´Urden. Vigilante. Héroe del Valle del Viento Helado 
+-
+-CARACTERÍSTICAS:
+-
+-Lanza Capa del miedo tres veces al día.
+-
+-Lanza Sanar tres veces al día.
+-
+-Aptitudes de combate:
+-   3-10 puntos de daño adicionales cada golpe, a no ser que el objetivo se salve contra veneno
+-   10% de posibilidades de decapitar a un oponente con cada golpe (sin tiro de salvación)
+-
+-THAC0: bonificador +6
+-Daño: 2D12 +6
+-Tipo de Daño: perforante
+-Peso: 10
+-Factor de velocidad: 3
+-Talento marcial: katana
+-Tipo: a una mano
+-Requisitos: Fuerza 13~
++   SAY NAME1 @38
++   SAY NAME2 @39
++  SAY DESC @40
+ 
+ COPY ~Vendedor_DLAN\BHMO01_9.itm~ ~override\BHMO01_9.itm~
+-   SAY NAME1 ~Escudo Pequeño~
+-   SAY NAME2 ~Fortaleza Mental~
+-   SAY DESC ~"¿Cuál debe ser la principal característica del guerrero?. ¿La pericia con las armas?. Aunque parezca mentira yo creo que no, lo más importante para un guerrero es mantener su integridad, tener la suficiente fuerza de voluntad para actuar según sus criterios, en caso contrario se convierte en una marioneta de otros, quizás en una máquina de destrucción imparable".
+-
+-Drizzt Do´Urden, Vigilante y héroe del Valle del Viento Helado.
+-
+-"Antes la muerte que vivir como un esclavo, yo debo ser el amo de mi vida, de esa necesidad de control nació mi increíble habilidad, pase lo que pase yo debo ser el dueño de mi destino".
+-
+-Artemis Entreri Destructor de Crenshinibon.
+-
+-"La libertad es una oportunidad para ser mejor, la esclavitud es la certeza de lo peor"
+-
+-Alber Camus
+-
+-CARACTERÍSTICAS:
+-
+-El portador es totalmente inmune a cualquier forma de manipulación mental, ya sea de tipo mágico como el conjuro confusión, o psíquica como las habilidades de los azotamentes y moles sombrías.
+-
+-Permite lanzar Espejo Físico 3 veces al día
+-Bonificador +5 al tipo de armadura~
++   SAY NAME1 @41
++   SAY NAME2 @42
++   SAY DESC @43
+ 
+ COPY ~Vendedor_DLAN\BHMO01_A.itm~ ~override\BHMO01_A.itm~
+-   SAY NAME1 ~Brazales~
+-   SAY NAME2 ~Guarda de Sangre~
+-   SAY DESC ~ "-Es un conocimiento... un arma. Las armas no nos sirven.
+--¿No os sirven?...    ¿Cómo defendéis a los Amos sin armas?
+--Nosotros... Nosotros nos bastamos"
+-
+-"Conversación entre Thomas Covenant el incrédulo y Bannor miembro de la Guardia de Sangre"
+-
+-CARACTERÍSTICAS:
+-
+-THAC0: Bonificador +10
+-Lanza Ataque torbellino Mayor 5 veces al día   ~
++   SAY NAME1 @44
++   SAY NAME2 @45
++   SAY DESC @46
+ 
+ COPY ~Vendedor_DLAN\BHMO01_B.itm~ ~override\BHMO01_B.itm~
+-   SAY NAME1 ~Manto~
+-   SAY NAME2 ~Manto de las Sombras~
+-   SAY DESC ~ "Escuchadme bien necios; ningún asesino en su sano juicio atacaría voluntariamente a un mago. ¿De qué os sirve ser tan sigiloso como el más etéreo de los fantasmas elfos si con un simple movimiento de la mano pueden veros?. ¿De qué os sirve vuestra pericia con la espada o la daga si con una palabra pueden inmovilizaros y convertiros en una presa indefensa?. No, ningún asesino en sus cabales se enfrentaría a un mago, pero si tenéis que hacerlo, procurad estar preparados. La magia se combate con magia"
+-
+-Arkanis Garth, Maestro de Asesinos de los Ladrones de las Sombras
+-
+-CARACTERÍSTICAS:
+-
+-Especial: El portador es inmune a cualquier cosa, mágica o de otro tipo, que afecte al movimiento de cualquier manera. Esto no incluye los conjuros de Celeridad y Celeridad mejorada .
+-El que lo usa está bajo los efectos del hechizo No detección.
+-Puede lanzar Invisibilidad mejorada tres veces al día.
+-
+-Permitido a:
+- Todos~
++   SAY NAME1 @47
++   SAY NAME2 @48
++   SAY DESC @49
+ 
+ COPY ~Vendedor_DLAN\BHMO01_C.itm~ ~override\BHMO01_C.itm~
+-   SAY NAME1 ~Guantes~
+-   SAY NAME2 ~Mano de Vecna~
+-   SAY UNIDENTIFIED_DESC ~Unos guantes que parecen hechos de algún tipo de piel. Tienen un olor hediondo y un tacto repugnante~
+-   SAY DESC ~ Estos guantes fueron tejidos con la propia piel del liche Vecna. En principio fueron un simple trofeo, símbolo de cómo el bien derrotó una vez más al mal. Más tarde se descubrió que los guantes contenían energía mágica residual procedente de los propios escudos mágicos del liche. Desde entonces se han convertido en un preciado tesoro.
+-   
+-CARACTERÍSTICAS:
+-
+-Aptitudes poseídas:
+-10% de resistencia mágica
+-20% de resistencia al daño mágico
+-20% de resistencia al fuego, frío, ácido y electricidad
+-Ejecutar 3 veces al día Presteza mejorada durante 2 minutos~
++   SAY NAME1 @50
++   SAY NAME2 @51
++   SAY UNIDENTIFIED_DESC @52
++   SAY DESC @53
+ 
+ COPY ~Vendedor_DLAN\BHMO01_D.itm~ ~override\BHMO01_D.itm~
+-   SAY NAME1 ~Ojo~
+-   SAY NAME2 ~Ojo de Vecna~
+-   SAY UNIDENTIFIED_DESC ~Parece el ojo cristalizado de alguna bestia~
+-   SAY DESC ~El Ojo de Vecna: se trata del mismísimo ojo de la legendaria criatura. Crea un vínculo entre él y su propietario de forma que, con sólo pensarlo, puede ver desde el ojo del liche. Es, sin duda, un artefacto antiguo y poderoso, y debería usarse con cuidado. 
+-
+-CARACTERÍSTICAS: 
+-
+-+2 inteligencia 
+-+2 todas las tiradas de salvación 
+-Permite memorizar un conjuro adicional de nivel 7, 8 y 9 
+-Visión verdadera 3 veces al día ~
++   SAY NAME1 @54
++   SAY NAME2 @55
++   SAY UNIDENTIFIED_DESC @56
++   SAY DESC @57
+ 
+ COPY ~Vendedor_DLAN\BHMO01_E.itm~ ~override\BHMO01_E.itm~
+-   SAY NAME1 ~Martillo de Guerra~
+-   SAY NAME2 ~Furia de Moradin~
+-    SAY DESC ~Este martillo fue creado por el mismísimo Moradin. Fue otorgado al líder del clan Blackshield para defenderse del asedio de un malvado nigromante que ansiaba las riquezas que albergaba su mina. Tras ser derrotados por las hordas de muertos vivientes, Khâzzlex Blackshield y su consejero Amrheck Blackshield consiguieron vencerlas finalmente con la ayuda de este poderoso martillo. Nada se sabe de cómo el martillo llegó a desaparecer, pero se dice que la Furia pasa de un héroe a otro como si Moradin eligiera a quién debe pertenecer.
+-
+-CARACTERÍSTICAS:
+-
+-Aptitud de combate: 4-16 +10 puntos de daño a muertos vivientes, que deben realizar un tiro de salvación contra muerte (penalizador -4) o serán completamente destruidos.
+-
+-THAC0: +4
+-Daño: 2D4 +4
+-Tipo de daño (cuerpo a cuerpo): Cortante
+-Tipo de daño (arrojada): Proyectil (perforante)
+-Especial: Regresa a la mano una vez lanzada
+-Peso: 2
+-Factor de velocidad: 1
+-Talento marcial: Martillo de Guerra 
+-Tipo: una mano
+-
+-No lo puede usar:
+- El Druida
+- El Mago
+- El Ladrón
+- El Bardo~
++   SAY NAME1 @58
++   SAY NAME2 @59
++    SAY DESC @60
+ 
+ COPY ~Vendedor_DLAN\BHMO01_F.itm~ ~override\BHMO01_F.itm~
+-   SAY NAME1 ~Katana~
+-    SAY NAME2 ~Azote de CuervoBlanco~
+-   SAY DESC ~Esta maravillosa espada fue creada al igual que su hermana, la Furia Corvida, en los talleres de Corellon en los dominios de Dlan.
+-Redjan fue su creador entregándosela a CuervoBlanco para sus peligrosas misiones, se dice que juntando estas armas se puede obtener un poder inmenso casi imposible de derrotar.
+-Gracias a la Magia del antiguo Paladín, Redjan, La espada da a su portador más fuerza así como más salud y mayor defensa para enfrentar sus peligrosos viajes.
+-
+-CARACTERÍSTICAS
+-
+-10% de Probabilidad de infringir 10 puntos de daño adicionales por Fuego.
+-25% Resistencia al Fuego, Ácido y Frío.
+- +3 a la Fuerza
+- +1 a la Constitución
+- +1 a la CA
+-
+-THAC0: +4
+-Daño: 1D10 +4 +3 por Daño de Fuego
+-Factor de Velocidad: 1
+-Tipo de Daño: Cortante
+-Talento Marcial: Katana
+-Tipo: a una mano
+-Peso: 4
+-
+-Permitido a:
+- Kensai
+- Caótico Bueno~
++   SAY NAME1 @38
++    SAY NAME2 @61
++   SAY DESC @62
+ 
+ COPY ~Vendedor_DLAN\BHMO01_G.itm~ ~override\BHMO01_G.itm~
+-   SAY NAME1 ~Katana~
+-   SAY NAME2 ~Furia Corvida~
+-   SAY DESC ~Creada en manos de un antiguo Paladín llamado Redjan, esta espada fue entregada al guerrero CuervoBlanco, sin duda ahora está en sus manos y es un gran peligro para sus enemigos.
+-Redjan y su compañero, Latis, dieron a esta arma la posibilidad de descargar pequeños rayos eléctricos, así dañando más a sus rivales. 
+-
+-CARACTERÍSTICAS
+-
+- 50% de Paralizar a su oponente durante 20 segundos.
+- 18% de decapitar a su adversario de un golpe sin tirada de salvación.
+- Bonificador CA: +2
+-
+-THAC0: +3
+-Daño: 1D10 +3 +3 por Daño Eléctrico.
+-Tipo de Daño: Cortante
+-Factor de Velocidad: 1
+-Peso: 4
+-Talento Marcial: Katana
+-Tipo: a una mano
+-
+-Permitido a:
+- Kensai~
++   SAY NAME1 @38
++   SAY NAME2 @63
++   SAY DESC @64
+ 
+ COPY ~Vendedor_DLAN\BHMO01_H.itm~ ~override\BHMO01_H.itm~
+-   SAY NAME1 ~Martillo de Guerra~
+-   SAY NAME2 ~Azote del Dragón Rojo~
+-    SAY DESC ~Existen 6 martillos de este tipo en la actualidad y sus paraderos son del todo desconocidos. Creados por un herrero enano para ayudar a un grupo de cazadragones (Dragones Rojos en su mayoría), se perdieron tras la derrota que sufrieron cuando, un grupo de Dragones, les tendieron una emboscada y despedazaron al valeroso grupo. Estas poderosas armas son temidas por todo Dragón Rojo.
+-   
+-Este martillo en concreto perteneció a un humano llamado Lornaf Brightshield, paladín que dedicó su vida al exterminio de Dragones malvados. Consiguió derrotar a 3 dragones juntos en su propia guarida, uno de ellos el terrible Urlrenklaax que no fue derrotado por ninguno de los cerca de 3000 cazadragones que intentaron acabar con él con anterioridad.
+-
+-CARACTERÍSTICAS:
+-
+-Aptitudes especiales:
+-Otorga al portador inmunidad al fuego
+-Lanzar cono de frío 3 veces al día
+-Al arrojarse el martillo vuelve a la mano del portador
+-
+-THAC0: +6
+-Daño: 1D8+4
+-Tipo de daño: contundente
+-Peso: 10
+-Factor de velocidad: 0
+-Talento marcial: martillo de guerra
+-Tipo: una mano
+-
+-No lo puede usar:
+- El Druida
+- El Mago
+- El Ladrón~
++   SAY NAME1 @58
++   SAY NAME2 @65
++    SAY DESC @66
+ 
+ COPY ~Vendedor_DLAN\BHMO01_I.itm~ ~override\BHMO01_I.itm~
+-   SAY NAME1 ~Pergamino~
+-   SAY NAME2 ~Ancla Dimensional~
+-  SAY DESC ~Ancla Dimensional(Abjuración)
+-
+-   Nivel 5
+-Alcance: 60 metros.
+-Área de efecto: Global
+-Tirada de salvación: Ninguna
+-Duración: 2 minutos
+-
+-Al lanzar este conjuro el mago "fija" de alguna manera el primer plano material, convirtiéndose de hecho en una especie de ancla que impide que cualquier otro plano se manifieste.
+-Las consecuencias de este hechizo; durante dos minutos cualquier conjuro de convocatoria (convocar Monstruos, Convocar elemental, Levantar a los muertos) no funcionan.
+-El Efecto no se puede disipar y no permite ninguna tirada de salvación o resistencia mágica. Este conjuro también afecta a los miembros del grupo. ~
++   SAY NAME1 @67
++   SAY NAME2 @68
++  SAY DESC @69
+ 
+ COPY ~Vendedor_DLAN\BHMO01_J.itm~ ~override\BHMO01_J.itm~
+-   SAY NAME1 ~Varita~
+-   SAY NAME2 ~Varita de Cautiverio~
+-   SAY DESC ~Andradas Onessoiron un mago rojo de Thay descubrió la forma de convocar a los demonios de los planos inferiores de una forma tan sencilla y rápida que pronto se convirtió en poseedor de un ejército de estos seres. Una asesina logró acabar con el mago en medio de la noche, pero su muerte tuvo como resultado la libertad de los demonios por el plano material. Fue necesaria la intervención de los arpistas para acabar con la amenaza; agentes de la organización recorrieron todo Faerun provistos de varitas como ésta proporcionadas por Khelben Arunsum.
+-
+-CARACTERÍSTICAS:
+-
+-Puede lanzar cautiverio 5 veces al día.
+-Alcance 60 metros
+-
+-Permitido a:
+- Todos.~
++   SAY NAME1 @70
++   SAY NAME2 @71
++   SAY DESC @72
+ 
+ COPY ~Vendedor_DLAN\BHMO01_K.itm~ ~override\BHMO01_K.itm~
+-   SAY NAME1 ~Daga~
+-   SAY NAME2 ~La Defensora~
+-SAY DESC ~Muchos grandes espadachines de Faerun luchan con dos armas a la vez. Este estilo extremadamente ofensivo en la mayoría de los casos ya que pocos poseen la destreza necesaria para defenderse adecuadamente con dos armas. Aunque en muchos casos no les hace falta podría decirse, ya que en la mayoría de los casos alguien equipado con un arma y un escudo está mejor protegido que alguien que empuñe dos armas.
+-   
+-Basándose en esta teoría un anciano mago de la Torre del Arcano en Luskan, cuyo hijo quería ser guerrero, creó esta daga con la esperanza de que le protegiera. Está imbuida con magias protectoras muy potentes y pensada para destruir a los trolls una vez vencidos en batalla.
+-
+-CARACTERÍSTICAS:
+-
+-Clase de armadura +5
+-Daño: 1D6 de daño por fuego.
+-Tipo de daño: cortante
+-Peso: 0
+-Factor de velocidad: 0
+-Talento marcial: daga
+-Tipo: una mano
+-Aumenta la velocidad del portador.
+-100% de Resistencia al frío y el fuego.
+-El portador es inmune al encantamiento.~
++   SAY NAME1 @73
++   SAY NAME2 @74
++SAY DESC @75
+ 
+ COPY ~Vendedor_DLAN\BHMO01_L.itm~ ~override\BHMO01_L.itm~
+-   SAY NAME1 ~Varita~
+-   SAY NAME2 ~Carne para el Vencedor~
+-   SAY DESC ~ ¿Qué puede ocurrir cuando un enano loco y un miembro de la familia Harpel se hacen amigos? Pues cosas como esta varita, Brill Battlehammer era un guerrero admirado por todo su clan; desgraciadamente un golpe en la cabeza hizo que perdiera la cordura. Llevando consigo un conejito de peluche (Qué según él provenía del espacio) se convirtió en aún mejor guerrero si cabe, entrando en la batalla entre gritos bestiales de "Muerte a los hámsters" y "¿Dónde está ese cobarde de Minsc?" sembraba el terror por donde pasaba.
+-Un día le comento a su amigo Harple Harpel que es una lástima que los enemigos muertos tuvieran que dejarse a los buitres, y que si fueran pollos al menos de su muerte sacarían carne. La idea de proporcionar un sentido a la guerra encantó al excéntrico mago que creó esta varita.
+-
+-CARACTERÍSTICAS:
+-
+-El objetivo debe salvarse contra polimorfismo con un penalizador de -10 o será convertido en pollo
+-Por supuesto, los pollos no pueden hacer magia (Coock cocorico , cooooooooooooco no parece un buen hechizo) y su clase de armadura base es de 10. Y sus ataques.....bueno.
+-¿Conocéis algún aventurero mínimamente equipado que tenga miedo de los ataques de un pollo?~
++   SAY NAME1 @70
++   SAY NAME2 @76
++   SAY DESC @77
+ 
+ COPY ~Vendedor_DLAN\BHMO01_M.itm~ ~override\BHMO01_M.itm~
+-   SAY NAME1 ~Estatuilla~
+-   SAY NAME2 ~Estatuilla~
+-   SAY DESC ~Permite invocar a Sarevok de BG1 y unirlo a vuestro grupo 5 veces al día~
++   SAY NAME1 @78
++   SAY NAME2 @78
++   SAY DESC @79
+ 
+ COPY ~Vendedor_DLAN\BHMO01_N.itm~ ~override\BHMO01_N.itm~
+-   SAY NAME1 ~Santo Grial~
+-   SAY NAME2 ~Santo Grial~
+-   SAY DESC ~Muchas son las leyendas acerca de esta copa sagrada que utilizo Jesucristo en la última cena y que después sirvió para recoger su sangre antes de morir.
+-
+-Dicen que toda aquella persona que beba de ella se curará instantáneamente de cualquier herida o enfermedad que posea.~
++   SAY NAME1 @80
++   SAY NAME2 @80
++   SAY DESC @81
+ 
+ COPY ~Vendedor_DLAN\BHMO01_O.itm~ ~override\BHMO01_O.itm~
+-   SAY NAME1 ~Gwynn~
+-   SAY NAME2 ~Gwynn, el Cazador Salvaje~
+-   SAY DESC ~Este mandoble traído desde el mismo Infierno, fue usado durante décadas por los Reyes de los ejércitos del Norte.
+-Hasta que una gran guerrera llamada Immortality la encontró y juró restablecer la paz en las tierras de Baldur.
+-
+-CARACTERÍSTICAS:
+-
+-Aptitudes poseídas:
+- 100% resistencia mágica.
+-Disipar magia cuando golpea a un oponente.
+-THAC0: +10
+-Daño: 6D10
+-Tipo de daño: cortante
+-Peso: 0
+-Factor de velocidad: 2
+-Talento marcial: Mandoble
+-Tipo: a dos manos~
++   SAY NAME1 @82
++   SAY NAME2 @83
++   SAY DESC @84
+ 
+ COPY ~Vendedor_DLAN\BHMO01_P.itm~ ~override\BHMO01_P.itm~
+-   SAY NAME1 ~Ballesta Ligera~
+-   SAY NAME2 ~HLER, el Terror de la Infantería~
+-   SAY DESC ~Dice la leyenda que cuando alguien empuñaba esta ballesta, las tropas de infantería de los ejércitos temblaban......
+-Se dice que los hombres retrocedían y gritaban aterrorizados al ver como sus dardos se clavaban con tanta rapidez en los cuerpos de los pobres soldados.
+-
+-CARACTERÍSTICAS:
+-
+-No necesita munición.
+-
+-Dispara automáticamente flechas ácidas +3
+-
+-THAC0: bonificador +7 (+5 ballesta, +3 Flecha ácida)
+-Daño: 1D10+5, +3 daño por ácido.
+-Peso: 5
+-Factor de velocidad: 1
+-Talento marcial: Ballesta
+-Tipo: a dos manos~
++   SAY NAME1 @85
++   SAY NAME2 @86
++   SAY DESC @87
+ 
+ COPY ~Vendedor_DLAN\BHMO01_Q.itm~ ~override\BHMO01_Q.itm~
+-   SAY NAME1 ~Katana +6~
+-   SAY NAME2 ~ShadowStar~
+-   SAY DESC ~Esta Katana fue utilizada por los mejores y más fuertes Samurais del Imperio Chino, ya que está tan afilada que puede partir a una persona en dos si es empuñada por alguien con la suficiente destreza y poder para ello.
+-
+-En la empuñadura se lee: "Esta espada pertenece al Gran Guerrero <CHARNAME>."
+-
+-CARACTERÍSTICAS:
+-
+-Daño: 1D10+7
+-THAC0: +6
+-Peso: 0
+-Aptitudes poseídas:
+-80% de probabilidades de regenerar 4D20 puntos de vida por golpe.
+-40% de probabilidad de decapitar a un oponente de un golpe.
+-Envenena y regenera.
+-Factor de velocidad: 1
+-Tipo de Daño: Cortante.
+-Talento marcial: Katana.
+-Tipo: a una mano
+-
+-¡Esta es un arma DLAN!~ 
++   SAY NAME1 @88
++   SAY NAME2 @89
++   SAY DESC @90 
+ 
+ COPY ~Vendedor_DLAN\BHMO01_R.itm~ ~override\BHMO01_R.itm~
+-   SAY NAME1 ~Cimitarra~
+-   SAY NAME2 ~Tizona~
+-   SAY DESC ~La espada del Cid, el cual hizo retroceder a las tropas musulmanas despues de muerto montado y atado a su caballo..
+-
+-ESTADISTICAS:
+-
+-THAC0: +1O
+-
+-Daño: 10D10+10
+-
+-Celeridad mientras es portada
+-Dos ataques por asalto
+-Factor de velocidad: 2
+-Peso: 5
+-Talento marcial:
+-Cimitarra~SAY DESC ~La espada del Cid, el cual hizo retroceder a las tropas musulmanas después de muerto, montado y atado a su caballo.
+-
+-CARACTERÍSTICAS:
+-
+-THAC0: +10
+-Daño: 10D10 +10
+-Tipo de daño: Cortante
+-Peso: 5
+-Factor de Velocidad: 2
+-Talento marcial: cimitarra/wakizashi/ninja-to
+-Tipo: a una mano
+-Celeridad mientras es portada
+-Dos ataques por asalto~
++   SAY NAME1 @35
++   SAY NAME2 @91
++   SAY DESC @92
++   SAY DESC @93
+ 
+ COPY ~Vendedor_DLAN\BHBITM06.itm~ ~override\BHBITM06.itm~
+-   SAY NAME1 ~Capa~
+-   SAY NAME2 ~Capa de la Memoria Maravillosa~
+-    SAY DESC ~Rembrandt tenía solamente diecisiete años cuando la encontró sola y perdida en las calles del pequeño reino de Forums: sola, perdida, con apenas ocho años de edad. Una niña espléndidamente bella, de cabello rubio, estaba vagando por las calles a altas horas de la noche, sin nadie a la vista que pareciera protegerla. Sintió mucha pena por ella y también se encariñó al instante. Y se la llevó a vivir con él a su casa.
+-
+-Rembrandt nunca supo por qué aquella niña estaba aquel día en aquel lugar. Cada vez que le preguntaba, ella cambiaba rápidamente de tema y, con el tiempo, dejó de preguntarle. Lo importante era que la tenía con él.
+-
+-Arelianth (pues así se llamaba) vivió ocho años en esa casa, cuidada como hermana e hija a la vez por el cariñoso Rembrandt. Durante ese tiempo aprendió mucho, y sobre todo le fascinaron las artes mágicas, tanto clericales como las de los hechiceros. Por lo que decidió practicarlas a ambas. Sin embargo, puesto que estudiaba dos artes mágicas a la vez, nunca pudo memorizar demasiados conjuros de cada clase, ni avanzar rápidamente en sus estudios. Pero aún así, era una buena maga y clérigo.
+-
+-A los tres años de estadía en la casa de Rembrandt, el rey Nhoram fue poseído por un ente maligno, cinco años después, ella ayudó a Rembrandt a forjar el mandoble que finalmente acabaría con la tiranía de Nhoram. Para esa época ya tenía dieciséis años, y, asqueada ya de Forums, decidió marcharse del reino para "ver el mundo".
+-
+-Ella estaba muy entusiasmada, y le comunicó a Rembrandt que tenía planeado marcharse al día siguiente. Sin embargo, a éste la noticia le cayó muy pesada, aunque no dijo nada, pero se había encariñado demasiado con Arelianth y nunca pensó en la posibilidad de que pudiera marcharse alguna vez. Luego de eso le dio las buenas noches y marchó a su taller de trabajo.
+-
+-Desesperado, utilizó toda su habilidad para imbuir todas las propiedades mágicas que pudo en esta capa en una sola noche. Al disponer de tan poco tiempo, tuvo que elegir bien los efectos a imbuir, para que la capa le fuera lo más útil posible. Finalmente, decidió poner énfasis a su protección personal y a la memoria de ella, y para la siguiente mañana, ya estaba lista. Cuando llegó Arelianth a despedirse, le pidió que aceptara la capa como presente, pero nunca le dijo nada de las propiedades mágicas que le había imbuido.
+-
+-Como consecuencia, Arelianth aceptó el regalo, pero no lo usó más que unas pocas veces, y, por ende, no estaba protegida cuando, mientras dormía, la asaltaron un grupo de kobolds disparando flechas de fuego y acabaron con ella. De la túnica no se supo nada más. Sin embargo, Rembrandt sintió la muerte de Arelianth en el mismo momento en que sucedió. Profundamente apenado, se marchó de Forums hacia Amn, con la firme resolución de dedicar su vida a ayudar e instruir a los que lo necesiten. Tal vez haya sido el destino, o simple casualidad, pero en Amn consiguió felicidad, muchos pupilos a quien enseñar, y el apodo que lo seguiría hasta su muerte. Rembrandt, "el Herrero Celestial".
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+-* +2 a todos los conjuros de mago y de clérigo de todos los niveles.
+-* Protección contra el mal en su portador.
+-* +50% de resistencia al fuego, frío y electricidad.
+-* +2 a la clase de armadura.
+-* Inmunidad a los ataques que afecten la mente
+-
+-NOTA: Esta capa se usa a modo de una túnica de mago
+-
+-Sólo lo puede usar:
+-  Los Elfos Magos Clérigos Legales Buenos
+-  Aerie~
++   SAY NAME1 @94
++   SAY NAME2 @95
++    SAY DESC @96
+ 
+ COPY ~Vendedor_DLAN\BHMO01_S.itm~ ~override\BHMO01_S.itm~
+-   SAY NAME1 ~Anillo de Hechicería de Draco~
+-   SAY NAME2 ~Anillo de Hechicería de Draco~
+-   SAY DESC ~Al identificarlo, se producen frases en vuestra cabeza: "Vos no sois mi amo... 
+-¿Quién sois vos?, usad mi poder con prudencia y no tendréis problemas...". 
+-
+-Frases por el estilo se producen cada vez que os concentráis en él.
+-
+-CARACTERÍSTICAS:
+-
+-   Bonifica en -5 la Categoría de Armadura del usuario.
+-   Bonifica en -2 la Categoría de Armadura del usuario contra armas de proyectiles.
+-   Incrementa en 2 el número de conjuros que un hechicero o sacerdote es capaz de preparar por cada nivel de conjuros lanzable.
+-   Aumenta la Inteligencia, la Sabiduría, el Carisma y la Constitución del usuario en +4.
+-   Acelera en -5 el Tiempo de Lanzamiento de conjuros.
+-   Efecto Vocalizador sobre el lanzador.
+-   Celeridad siempre activa sobre el usuario.
+-   Neutralizar Venenos sobre el usuario
+-   Bonifica las Tiradas de Salvación en -4.
+-   Inmunidad a intentos de detención del tiempo, de aprisionamiento, petrificación y muerte instantánea hostiles.
+-   Inmunidad a Confusión, Poderes psiónicos, todo tipo de miedos y aturdimiento.
+-   Regenera 3 Puntos de Golpe por segundo.
+-   Brinda un 30% de Resistencia a la Magia.
+-   75% de Resistencia a Frío, Fuego, Ácido y Electricidad.
+-
+-Además el anillo otorga el uso de las siguientes habilidades:
+-
+-   "Conocer alineamiento" a voluntad.
+-   "Apertura" a voluntad.
+-   "Zona de Aire Limpio" a voluntad.
+-   "Sanar" a voluntad.
+-   "Restablecimiento" a voluntad.
+-   "Liberación" a voluntad.
+-   "Resurrección" a voluntad.
+-   "Extirpar parálisis" a voluntad.
+-   "Quitar enfermedad" a voluntad.~
++   SAY NAME1 @97
++   SAY NAME2 @97
++   SAY DESC @98
+ 
+ COPY ~Vendedor_DLAN\BHMO01_T.itm~ ~override\BHMO01_T.itm~
+-   SAY NAME1 ~Pergamino~
+-   SAY NAME2 ~Fuerzas elementales de Li Syaoran~
+-   SAY DESC ~Esfera: elemental
+-Escuela: Alteración
+-Nivel: 1
+-Tiempo de lanzamiento: 2
+-
+-    Con este conjuro pueden ser evocados una docena de efectos según cómo sean usados sus componentes materiales: Sólo la espada, sólo el sello o ambos a la vez. Usando sólo la espada puede lanzarse un chorro de agua, una onda terrestre, un golpe de rayo o una bola de fuego, por un valor de 1D6 p.d. para su blanco (T.S. conjuros para mitad del daño).
+-   
+-    Con el sello, se puede evocar el Escudo del dragón de agua (protege contra conjuros de primer nivel, contra 3 ataques +1/nivel (máx. 12) y da un 1% de resistencia mágica/nivel (máx. 10%).
+-    
+-    Tormenta de tierra (reduce en 4 CA, T.S. y THAC0, T.S. armas de aliento niega efectos).
+-    
+-    Una Bolsa de fuego (1D6 p.d./nivel, máx 4D6, T.S. conjuros niega daño) o un espejo eléctrico (Devolverá un conjuro y otorgará un 15% de resistencia mágica).
+-    
+-    Usar ambos objetos permitirá lanzar un Cono de frío, una Bola de Fuego o un Relámpago (como el conjuro, 1D6 p.d./nivel (máx 5D6)), o una Tormenta protectora (+5 CA y T.S. e inmunidad a proyectiles mágicos, 1 turno/nivel, máx 10).~
++   SAY NAME1 @67
++   SAY NAME2 @99
++   SAY DESC @100
+ 
+ 
+ COPY ~Vendedor_DLAN\BHMO01_U.itm~ ~override\BHMO01_U.itm~
+-   SAY NAME1 ~Pergamino~
+-   SAY NAME2 ~Invocar Poder de Iza~
+-   SAY DESC ~Escuela: Invocación/Evocación
+-Nivel: 4
+-Alcance: 30 mts./nivel
+-Duración: instantáneo
+-Tiempo de lanzamiento: 4
+-Área de efecto: Criatura Blanco
+-Tirada de salvación: ninguna.
+-
+-Mediante este conjuro, el lanzador invoca una columna de extremo poder sobre uno de sus adversarios causándole 4D4 +1D4 puntos de daño por nivel sin tirada de salvación alguna. Cabe permitir cualquier resistencia natural del 
+-blanco.~
++   SAY NAME1 @67
++   SAY NAME2 @101
++   SAY DESC @102
+ 
+ COPY ~Vendedor_DLAN\BHMO01_V.itm~ ~override\BHMO01_V.itm~
+-   SAY NAME1 ~Pergamino~
+-   SAY NAME2 ~Marchitamiento de Joneleth Irenicus~
+-   SAY DESC ~Escuela: Necromancia
+-Nivel: 2
+-Alcance: 1 metro/nivel
+-Duración: Instantánea
+-Tiempo de lanzamiento: 1
+-Área del efecto: Criatura objetivo
+-Tiro de protección: Ninguno
+-
+-Con este conjuro el mago puede robarle la fuerza vital a una víctima para aumentar la suya, debilitando de paso el cuerpo de la víctima y revitalizando el suyo. La víctima sufrirá de 1D8 puntos de daño por cada nivel de conjuro que el mago sea capaz de lanzar más 1 punto de daño por cada nivel de experiencia. Mientras, recuperará el máximo del mismo índice (es decir, si un hechicero de nivel tres inflige 2D8 +3 puntos de daño, a su vez, recuperara 19 (8x2=16+3=19) puntos de vida.~
++   SAY NAME1 @67
++   SAY NAME2 @103
++   SAY DESC @104
+ 
+ 
+ COPY ~Vendedor_DLAN\BHMO01_W.itm~ ~override\BHMO01_W.itm~
+-   SAY NAME1 ~Pergamino~
+-   SAY NAME2 ~Llamar Rayos de Draco~
+-   SAY DESC ~Escuela: Alteración
+-Nivel: 3
+-Alcance: 0
+-Duración: instantáneo
+-Tiempo de lanzamiento: 9
+-Área del efecto: radio de 80 m.
+-Tiro de protección: 1/2
+-
+-Cuando se lanza el conjuro del rayo, ha de hacerse en el exterior, pues de otro modo no funcionaría. El lanzador de conjuros puede atraer a los rayos relampagueantes; puede convocar un (y sólo un) rayo, el que ocasiona daños eléctricos por valor de 2D8 puntos, más 1D8 puntos adicionales por cada nivel de experiencia del lanzador de conjuros. Así, un lanzador de conjuros del nivel 4 convocará un rayo de 6D8 (2D8 + 4D8), hasta un máximo de 22D8 al nivel 20. El virote de relámpago descarga en dirección vertical sobre cualquiera que sea el enemigo del hechicero.~
++   SAY NAME1 @67
++   SAY NAME2 @105
++   SAY DESC @106
+ 
+ 
+ COPY ~Vendedor_DLAN\BHMO01_X.itm~ ~override\BHMO01_X.itm~
+-   SAY NAME1 ~Pergamino~
+-   SAY NAME2 ~Súper Proyectil Mágico de Draco~
+-   SAY DESC ~Escuela: Invocación/Evocación
+-Nivel: 3
+-Rango: 120 metros + 20 metros/nivel, máx. 300 mts.
+-Duración: Instantáneo
+-Tiempo de lanzamiento: 3
+-Área del efecto: 1 criatura
+-Tiro de protección: Ninguno
+-
+-El uso del conjuro de Súper proyectil mágico de Draco crea hasta un total de diez proyectiles de energía mágica que avanzan partiendo de las manos del mago hasta alcanzar siempre a su objetivo, que debe ser una criatura de 
+-algún tipo. Cada proyectil ocasiona 1D6 +1 puntos de daño. Por cada nivel más de experiencia, el mago dispondrá de un proyectil adicional: seis en el sexto nivel, siete en el séptimo nivel, ocho en el octavo nivel, etc., hasta un total de diez proyectiles en el décimo nivel.~
++   SAY NAME1 @67
++   SAY NAME2 @107
++   SAY DESC @108
+ 
+ 
+ COPY ~Vendedor_DLAN\BHMO01_Y.itm~ ~override\BHMO01_Y.itm~
+-   SAY NAME1 ~Poción~
+-   SAY NAME2 ~Poción Interminable del Conocimiento Supremo~
+-   SAY DESC ~Esta poción imbuye al bebedor con la habilidad de centrar la mente infaliblemente en cualquier tarea que deba realizar. Su contenido no se acabará nunca lo que permitirá al usuario beber de ella las veces que desee.
+-
+-CARACTERÍSTICAS:
+-
+-   Inteligencia definida en 25.
+-   El vial vuelve a llenarse de poción.
+-   Duración: 1 hora.~
++   SAY NAME1 @109
++   SAY NAME2 @110
++   SAY DESC @111
+ 
+ COPY ~Vendedor_DLAN\BHMO01_Z.itm~ ~override\BHMO01_Z.itm~
+-   SAY NAME1 ~Poción~
+-   SAY NAME2 ~Poción de curación milagrosa de Draco~
+-   SAY DESC ~Al tomársela, esta poción hace recuperar completamente hasta un máximo de doscientos puntos de golpe a quien la ingiere. El efecto es instantáneo y su contenido es mágicamente rellenado con nueva poción, por lo que puede ser vuelta a utilizar.~
++   SAY NAME1 @109
++   SAY NAME2 @112
++   SAY DESC @113
+ 
+ 
+ COPY ~Vendedor_DLAN\BHM01_00.itm~ ~override\BHM01_00.itm~
+-   SAY NAME1 ~Hacha de Batalla~
+-   SAY NAME2 ~Destructor de Reint~
+-  SAY DESC ~Esta hacha fue forjada hace mucho tiempo por Lord Gaton Reint, famoso por sus creaciones y más aún porque no tenía el talento suficiente como para empuñarlas, sino todo lo contrario, parecía que lo único que no podía escapársele de las manos en cuanto lo empuñaba, era su propio martillo de herrero. Cansado ya, Lord Reint forjó esta hacha para sí mismo. El hacha le daba el poder para empuñarla a la perfección, y Lord Reint, por todos los rumores acerca de su "mal talento", se dejó cegar por la ira y atacaba a quien fuera. Muchos cazarrecompensas intentaron matarlo, ya que habían puesto un precio de 5.000 monedas a su cabeza, pero ninguno lo logró.
+-   
+-   Al fin, cuando parecía que Lord Reint era invencible, y su ira ya se había transformado en completa locura, la Orden del Muy Radiante Corazón se decidió a actuar, y en un gran combate en el que cayeron tres paladines, finalmente lograron matarlo. Pero del hacha nada se sabe, dicen que cuando el cuerpo de Lord Reint cayó, él ya no empuñaba el arma.
+-
+-CARACTERÍSTICAS:
+-Considerada para golpear como un arma + 5
+-Habilidades por equipado: Mejora hasta 6 el talento con el Hacha del portador.
+-THAC0: Bonificador +2
+-Daño: 1D8 + 2
+-Tipo de daño: Cortante
+-Peso: 7
+-Factor de velocidad: 5
+-Talento Marcial: Hacha
+-Tipo: a una mano
+-
+-No lo puede usar:
+- El Druida
+- El Clérigo
+- El Mago
+- El Ladrón~
++   SAY NAME1 @114
++   SAY NAME2 @115
++  SAY DESC @116
+ 
+ COPY ~Vendedor_DLAN\BHM01_01.itm~ ~override\BHM01_01.itm~
+-   SAY NAME1 ~Cota de Láminas~
+-   SAY NAME2 ~Armadura de Piel de Balor~
+-   SAY DESC ~Esta armadura está creada como una cota de láminas normal... sólo que está recubierta en el interior por piel de Balor. No se sabe quien fue el que la fabricó, pero sí que es muy resistente a los ataques con fuego. Tened cuidado si lleváis esto puesto frente a un Balor, ya que podría enfadarse...
+-
+-CARACTERÍSTICAS:
+-
+-Bonificador de 30% de resistencia al fuego
+-Clase de armadura: 2
+-Peso: 40
+-
+-No lo puede usar:
+- El Bardo
+- El Druida
+- El Mago
+- El Ladrón
+- Personajes sin alineamiento maligno~
++   SAY NAME1 @117
++   SAY NAME2 @118
++   SAY DESC @119
+ 
+ COPY ~Vendedor_DLAN\BHM01_02.itm~ ~override\BHM01_02.itm~
+-   SAY NAME1 ~Brazales~
+-   SAY NAME2 ~Brazales del Sabio~
+-  SAY DESC ~Estos fueron hechos hace algunos años para una persona específica: Midsal, una monje. Midsal no estaba satisfecha con su avance dentro de su orden y quería llegar rápidamente a los rangos más altos. Por eso le pidió al famoso herrero Klimvark que le forjara unos brazales con algunas propiedades mágicas: Ella quería alcanzar una gran sabiduría y perfeccionar sus habilidades de monje.
+-Los materiales requeridos le costaron mucho oro y sangre... pero finalmente los consiguió y Klimvark comenzó a forjar su pedido. Sin embargo, los maestros de su orden notaron su conducta extraña y la espiaron, y de ese modo se dieron cuenta de sus propósitos. Decidieron que Midsai era demasiado ambiciosa, ya que la sabiduría debía alcanzarse mediante la devoción y la meditación, y no con métodos artificiales.
+-Así que decidieron darle un pequeño castigo, e invocaron a sus artes para imbuir otra propiedad en los brazales: sólo los podría usar el que ya fuera un sabio, de ese modo, Midsai los tendría, sí, pero debería alcanzar la sabiduría por su cuenta antes de poder usarlos.
+-Pero Midsai, al enterarse de esto, se enfureció tanto que le dio una locura momentánea tal que atacó a sus maestros. Éstos la dejaron inconsciente con toda facilidad y la expulsaron de la orden. Luego de eso, Midsai comenzó a vagar, y aunque nadie sabe el por qué ella se llevó los brazales consigo. Pero el shock emocional fue tal que ella quedó paranoica, y desde ese momento, sólo podía pensar en vengarse. Así que ella intentó reunir un ejército para atacar su ex-monasterio, pero antes de lograr nada fue atacada en medio del bosque por vampiros, quienes la mataron.
+-
+-CARACTERÍSTICAS:
+-
+-  + 10 a los puntos de golpe del portador
+-  Bonificador +1 a la CA
+-  Bonificador +10% a la resistencia mágica
+-  Bonificador de 1 al factor de velocidad
+-  Bonificador +1 a la velocidad de movimiento
+-  Peso: 2
+-  
+-  No permitido a:
+-   Personajes de clase que no sea monje
+-   Personajes de sabiduría 13 o inferior
+-   Personajes de nivel 13 o inferior~
++   SAY NAME1 @44
++   SAY NAME2 @120
++  SAY DESC @121
+    
+ COPY ~Vendedor_DLAN\BHM01_03.itm~ ~override\BHM01_03.itm~
+-   SAY NAME1 ~Daga~
+-   SAY NAME2 ~Daga +4: Colmillo de Agambar~
+-  SAY DESC ~Esta daga está hecha de piedra, pero está increíblemente afilada y sus aptitudes mágicas son increíbles.
+-Cuenta la historia que una vez, un aventurero encontró un monumento hecho en piedra pura de la cabeza de un dragón azul, era enorme y tenía las fauces abiertas. En la parte del cuello tenía una breve inscripción: "Gloria a Agambar, la reina de las bestias aladas". El aventurero, de nombre Brik, inmediatamente notó las poderosas radiaciones mágicas que emanaban de la cabeza de piedra. Y nadie sabe con exactitud por qué, pero desde ese momento Brik adoró a la cabeza como si fuera un dios y siempre la protegía de aventureros curiosos como él que quisieran siquiera verla. Un día, en uno de sus arrebatos por proteger la cabeza, estalló una violenta lucha entre él y un grupo de magos. Brik venció, pero entre la violencia de la batalla, un meteoro conjurado por un mago le dio accidentalmente de lleno a la cabeza a Agambar, y ésta se partió en pedazos. El único pedazo que quedó intacto fue un colmillo, y Brik lo cogió y lo guardó durante años adorándolo como si hubiera sido su dios.
+-Algunos años después, Brik oyó una voz en su cabeza: le decía que era inútil adorar ese pedazo de cabeza... para darle gloria al nombre de Agambar debería coger ese colmillo y llevarlo al mejor forjador de armas que existiese... para que con él creara un arma que devastara a todo aquel que se atreviera a cruzarse en su camino... sólo así el nombre de Agambar quedaría honrado y sería recordado para siempre.
+-Y así lo hizo Brik; buscó al mejor forjador de armas que existiese y le pidió que con el colmillo forjara el arma más poderosa que haya estado en la faz de Faerun. Aunque esta daga está lejos de ser el arma más poderosa de Faerun, Brik siempre pensó que así lo era... y así terminó también. De todas formas, esta daga tiene imbuidas poderosísimas propiedades mágicas.
+-
+-CARACTERÍSTICAS:
+-
+-Puede lanzar "Relámpago zigzagueante" una vez al día
+-Bonificador: +1 a la CA
+-THAC0: Bonificador + 4
+-Daño: 1D4 + 4   + 2 por daño eléctrico
+-Tipo de daño: Perforante
+-Peso: 1
+-Factor de velocidad: 2
+-Talento Marcial: Daga
+-Tipo: a una mano
+-
+-No lo puede usar:
+- El clérigo~
++   SAY NAME1 @73
++   SAY NAME2 @122
++  SAY DESC @123
+ 
+ COPY ~Vendedor_DLAN\BHM01_04.itm~ ~override\BHM01_04.itm~
+-   SAY NAME1 ~Garrote~
+-   SAY NAME2 ~Antiliches~
+- SAY DESC ~Este garrote parece de forja reciente, y tiene algo escrito. Dice. "Las puertas de la ciudad". Examinándolo más detenidamente, os dais cuenta de que está fabricado especialmente contra un tipo de criatura: los liches. Así que deducís que, este garrote debe haber sido fabricado para matar a un liche en las puertas de la ciudad.
+-
+-CARACTERÍSTICAS:
+-
+-Considerada para golpear como un arma + 2
+-THAC0: Bonificador + 2, + 5 contra liches
+-Daño: 1D6 + 2, +5 contra liches
+-Tipo de daño: Contundente
+-Peso: 3
+-Factor de velocidad: 4
+-Talento Marcial: Armas sin punta
+-Tipo: a una mano
+-
+-No lo puede usar:
+- El Mago~
++   SAY NAME1 @124
++   SAY NAME2 @125
++ SAY DESC @126
+ 
+ COPY ~Vendedor_DLAN\BHM01_05.itm~ ~override\BHM01_05.itm~
+-   SAY NAME1 ~Amuleto~
+-   SAY NAME2 ~Amuleto de la Piedra Solar~
+-    SAY DESC ~Originalmente este amuleto no era más que un collar con un rubí incrustado. Aunque tampoco era muy común que digamos porque tenía algunas capacidades mágicas bastante aceptables. Era capaz de lanzar un rayo de fuego abrazador que explotaba al impacto con el objetivo, destruyendo todo a su alrededor.
+-Ese amuleto fue pasando de padre a hijo por muchas generaciones, pero nunca fue robado, ya que con su poder, el que lo tuviera destruiría a cualquiera que se le cruzara con intenciones malignas.
+-El último miembro de la familia en recibir este amuleto fue Gwarim, un guerrero ambicioso que inmediatamente lo vendió al mejor postor. Gwarim fue expulsado de la casa de la familia por ese acto, y más tarde murió en una emboscada por trasgos... pero eso ahora no viene al caso.
+-El amuleto no estuvo mucho tiempo en manos del mercader, se lo vendió inmediatamente a un clérigo de Amaunator, quien lo conservó para sí como un secreto. Pasaron algunos años, y el clérigo era irreconocible: el secreto y el poder del amuleto lo habían corrompido casi completamente, no pensando en otra cosa más que en obtener riqueza y poder usándolo. Pero aún así seguía manteniéndolo en secreto, y en el templo de Amaunator no sospechaban nada.
+-Cuando el clérigo estaba ya al borde de la locura, un milagro ocurrió: se dice que una luz brillante y roja surgió de improviso... muy fuerte, pero sin embargo suave, ya que se la podía mirar sin quedar encandilado. Dicen que esa luz era la representación de Amaunator, otros dicen que fue el clérigo mayor del templo, que se había percatado de todo. Sea quien fuere, con su sola aparición, provocó la vergüenza y el arrepentimiento en el corazón del clérigo. Y la luz sólo dijo esto: "Entregadle el amuleto a la primera persona que veáis". Y se desvaneció.
+-Así lo hizo el clérigo, le entregó el amuleto a un druida llamado Harlon, quien aceptó gustoso el objeto tomándolo como un talismán de Amaunator, ya que el clérigo no le había contado acerca de sus cualidades mágicas. Harlon servía a Amaunator, y en ese momento estaba a punto de partir en una misión en su nombre: derrotar a un gran dragón de las sombras que había aparecido no muy lejos de allí, en la cercanía de Aguas Profundas.
+-Una vez allí, se encontraron con que el dragón de las sombras era mucho más poderoso de lo que ellos pensaban, y masacró a la mitad del grupo de un sólo aliento. De los que quedaron, dos lucharon valientemente, y otros dos trataron de huir. Éstos no tuvieron mucha suerte, ya que el dragón los cazó y los mató instantáneamente. Los otros dos, Harlon y un compañero, pelearon valientemente. El segundo guerrero cayó, y sólo quedó Harlon. Finalmente, al notar que estaba vencido, se lanzó a sí mismo un conjuro de espejo, dejando tras de sí un reflejo suyo que parecía muerto, y él escapó, invisible.
+-Cuando llegó al templo como único sobreviviente, sólo pensaba en derrotar al dragón para la gloria de Amaunator. Así que reunió un pequeño grupo de diez creyentes para dar caza al dragón. En un incidente en el camino, los asaltó un grupo de ogros. Cuando cayó uno de sus compañeros, Harlon, quien aún desconocía el poder del amuleto, se aferró instintivamente rogando "o, Padre Amaunator: Vuestro humilde súbdito os implora clemencia y que nos dejéis vencer en esta batalla". En ese instante una gigantesca bola de fuego salió desde el amuleto y dio de lleno en el grupo de ogros, matando a dos de los compañeros de Harlon; pero en cambio murieron más de 20 ogros, y los que quedaban salieron huyendo.
+-Pero esto poco le preocupó a Harlon, ya que se dio cuenta al instante de que ese poder no provino de Amaunator, sino del talismán mismo ¡Y podía controlarlo a voluntad!. Más animados, los aventureros prosiguieron su marcha, con la esperanza de que el poder del medallón de Harlon los ayudara en esa batalla.
+-Cuando llegaron por el dragón, no hubo mucha batalla. Harlon dijo a todos que permanecieran atrás y le lanzó el poder del amuleto. Tres veces fue golpeado por las abrasantes llamas. Harlon intentó que hubiera una cuarta pero es ese momento se dio cuenta de que el poder del amuleto era limitado. Sin embargo, el dragón estaba ya casi vencido. Y fue muerto tras una breve pelea.
+-Cuatro días después, Harlon llegaba al templo de Amaunator, donde fue recibido con congratulaciones y honores. Pero ningún honor lo fue tanto como la vista de su amado Amaunator: Él estaba estudiando unos pergaminos en su habitación, cuando una luz roja apareció de pronto: "Soy Amaunator", Dijo. "Gracias a que me habéis servido bien y no habéis flaqueado cuando la situación parecía perdida, ahora Traxcualquent ya no es una amenaza para mi reino. Merecéis una recompensa" Harlon sólo podía escuchar, asombrado y reverente a la vez. Amaunator siguió hablando: "Más no os la daré directamente a vos, ya que cualquier hombre puede corromperse cuando se le entrega demasiado poder. Imbuiré el rubí de vuestro medallón con mi luz, y mientras vuestro corazón esté libre de corrupción y ansias de poder podréis llevarlo. Mas si llegareis a perder aquellas virtudes que os han hecho merecedor de este premio, nunca más podréis usar este amuleto de nuevo" Y así fue como Amaunator, señor del Sol, transformó el rubí en una piedra donde se percibe toda la gloria de su poder. Y el que lleve el amuleto no sólo podrá utilizar su poder original, sino que estará bendecido con la energía del propio sol.
+-
+-CARACTERÍSTICAS:
+-
+-Puede lanzar en conjuro Bola de fuego tres veces al día
+-Fija la constitución en 22
+-
+-No lo puede usar:
+- Personajes de alineamiento maligno.~
++   SAY NAME1 @127
++   SAY NAME2 @128
++    SAY DESC @129
+ 
+ COPY ~Vendedor_DLAN\BHM01_06.itm~ ~override\BHM01_06.itm~
+-   SAY NAME1 ~Lucero del Alba~
+-   SAY NAME2 ~Lucero del Alba +3: Ojos de Halcón~
+-    SAY DESC ~Este lucero del alba tiene una forja excelente, y se balancea fluidamente, tanto, que casi parece que estuviera fusionado con el aire. No sabéis de donde vino ni quien lo forjó, pero ahora entendéis a la perfección como el loco que lo usaba podía moverse tan rápida y fluidamente. Además este excelente lucero del alba tiene la cualidad de que puede revelar zonas lejanas con sólo mirar su pulida superficie. Aunque después de unas veces, la superficie se pone borrosa, y debéis dejarlo descansar para que pueda revelar algo más.
+-
+-CARACTERÍSTICAS:
+-
+-Puede lanzar Vista lejana 2 veces al día.
+-Aumenta en 1 la velocidad de su portador
+-THAC0: Bonificador + 3
+-Daño: 2D4 + 3
+-Tipo de daño: Contundente
+-Peso: 7
+-Factor de velocidad: 2
+-Talento Marcial: Armas con punta
+-Tipo: a una mano
+-
+-No lo puede usar:
+- El Druida
+- El Mago
+- El Ladrón~
++   SAY NAME1 @130
++   SAY NAME2 @131
++    SAY DESC @132
+ 
+ COPY ~Vendedor_DLAN\BHM01_07.itm~ ~override\BHM01_07.itm~
+-   SAY NAME1 ~Katana~
+-  SAY NAME2 ~La Supervelocidad de los dioses~
+-   SAY DESC ~La Supervelocidad de los dioses.
+-
+-   CARACTERÍSTICAS:
+-   Clase de Armadura: bonificador -4
+-   Bonificador +4 a la Destreza.
+-   Bonificador +4 a las Tiradas de Salvación.
+-   Inmunidad al apuñalamiento por la espalda
+-
+-   Aptitudes de combate:
+-   Celeridad Mejorada siempre activa sobre el usuario.
+-   10% de probabilidades de destajar al oponente.
+-THAC0: +4 (golpea como un arma +6)
+-Daño: 1D10 +4
+-Tipo de daño: cortante
+-Peso: 2
+-Factor de velocidad: 1
+-Talento marcial: katana
+-Tipo: a una mano
+-
+-No lo puede usar
+- El Druida
+- El Clérigo
+- El Mago~
++   SAY NAME1 @38
++  SAY NAME2 @133
++   SAY DESC @134
+ 
+ 
+ COPY ~Vendedor_DLAN\BHM01_08.itm~ ~override\BHM01_08.itm~
+-   SAY NAME1 ~Mandoble~
+-   SAY NAME2 ~Sanpher Then~
+-   SAY DESC ~Sanpher Then +6: La Maldición de los dragones argénteos.
+-   
+-Sanpher Then es una hoja de leyenda. Su procedencia es misteriosa pero muchos eruditos sostienen que surgió durante la Guerra de los Dragones, allá donde las razas ya no caminaban libres por el mundo sino escondidas de los fuegos, los rayos y las sombras. La derrota se estaba quedando con los dragones buenos cuando Sanpher Then dio vuelta el marcador. En manos de Sanpher, el más famoso de todos los dragones argenteos, usó esta hoja yendo, increíblemente, en forma de humano, para desviar la atención de la espada. Derrotando a cuanto dragón maligno se le puso delante, Sanpher Then se transformó en leyenda. Los eruditos teorizan que eso debió haber sido por la majestuosa habilidad con la espada de Sanpher. Pese a ello, la leyenda sigue viva y cazarrecompensas y bribones, aún si no creyesen mucho en ella, son capaces de arriesgar sus propias vidas por el sólo rumor del paradero de esta magnífica hoja. Se piensa que de poseerla, ningún dragón es rival para su esgrimista. El nombre "Maldición de los Dragones Argenteos" se dice que se lo dio Reurge, el más poderoso y último dragón rojo que participó en este conflicto.
+-
+-CARACTERÍSTICAS:
+-   Clase de Armadura: Bonificador -3
+-   40% de probabilidades de infligir 5 puntos de daño por ácido, 5 puntos de daño por frío, 5 puntos de daño por electricidad y 5 puntos de daño por fuego
+-   50% de resistencia al ácido, frío, electricidad, fuego y magia.
+-   Inmunidad a poderes psiónicos, confusión y miedos.
+-   Disipa una protección mágica por golpe (partiendo desde la de más alto nivel y descendiendo).
+-   THAC0: bonificador +6
+-   Daño: 1D10 +6
+-   Tipo de daño: cortante.
+-   Peso: 30.
+-   Factor de velocidad: 1
+-   Talento Marcial: Mandoble
+-   Tipo: a dos manos
+-      
+-Sólo lo puede usar:
+-  Guerreros Humanos, Elfos o Semielfos de alineamiento no malvado.~
++   SAY NAME1 @4
++   SAY NAME2 @135
++   SAY DESC @136
+ 
+ COPY ~Vendedor_DLAN\BHM01_09.itm~ ~override\BHM01_09.itm~
+-   SAY NAME1 ~Espada Bastarda~
+-   SAY NAME2 ~Gate of Winds~
+-    SAY DESC ~Aún nadie conoce la procedencia exacta de esta espada forjada de un oscuro metal, la cual las gentes de las Tierras de Baldur llaman "La Puerta de los Vientos" según dicen la espada al ser empuñada puede atraer tormentas y huracanes, lanzar a hombres y gigantes por los aires, e incluso convocar seres de otros planos.. 
+-
+-Nadie lo sabe a ciencia cierta, ya que muy pocos han llegado a controlar del todo esta poderosa espada...
+-
+-CARACTERÍSTICAS:
+-
+-Aptitudes Especiales:
+-
+-Espada +6
+-
+-Destruye defensas mágicas del oponente.
+-
+-Todo aquel que reciba un impacto sale disparado hasta chochar con algún objeto y queda inconsciente durante 10 segundos y recibiendo 1D6 de daño adicional.
+-
+-Dos veces al día puede lanzar Tormenta de Hielo, Tormenta de Fuego e invocar 2 elementales de Aire para que ayuden al portador de la espada.
+-
+-Aptitudes de Combate:
+-
+-Tiene un 10% de posibilidades de matar de un golpe al oponente por decapitación.
+-
+-THAC0: 6
+-Daño: 1D12 +9
+-Tipo de Daño: Cortante.
+-Peso: 5
+-Factor de Velocidad: 3
+-Talento Marcial: Espada Bastarda.
+-Tipo: a una mano.
+-Requisitos: Constitución 11
+-
+-No lo puede usar:
+- El Ladrón
+- El Druida
+- El Clérigo
+- El Mago~
++   SAY NAME1 @137
++   SAY NAME2 @138
++    SAY DESC @139
+ 
+ COPY ~Vendedor_DLAN\BHM01_10.itm~ ~override\BHM01_10.itm~
+-   SAY NAME1 ~Espada Bastarda~
+-   SAY NAME2 ~Némesis +6~
+-   SAY DESC ~Némesis +6
+-Esta es una espada de los Días Antiguos. Su hoja es de mithril y su empuñadura está recubierta por la escamosa piel de un Dragón. No se sabe su naturaleza exacta pero se supone que es una de las creaciones de Eöl, el elfo oscuro. Al igual que su herrero, su hoja está llena de odio. Cuando acercáis la mano sentís deseo de olvidaros de vuestro código moral para siempre.
+-
+-CARACTERÍSTICAS:
+-
+-Aptitudes poseídas:
+-celeridad, piel robliza, invisibilidad una vez al día.
+-Posibilidad de eliminar las defensas mágicas.
+-La constitución se reduce 2 puntos.
+-La destreza aumenta un punto.
+-De sólo empuñarla el personaje se volverá Caótico Neutral y su carisma baja 2 puntos
+-
+-THAC0: +6
+-Daño: 1D10 +6
+-Tipo de Daño: Cortante
+-Peso: 11
+-Factor Velocidad: 1
+-Talento marcial: Espada Bastarda
+-Tipo: a una mano
+-
+-No lo puede usar:
+- El Clérigo
+- El Druida
+- El Mago~
++   SAY NAME1 @137
++   SAY NAME2 @140
++   SAY DESC @141
+ 
+ 
+ 
+@@ -1123,318 +305,84 @@
+ /////////////////////////////
+ 
+ COPY ~Vendedor_DLAN\Medlad.itm~ ~override\medlad.itm~
+-   SAY NAME1 ~Vara del ladrón~
+-   SAY NAME2 ~Vara del ladrón~
+-    SAY DESC ~Una poderosa varita con cargas ilimitadas de detectar trampas y abrir cerraduras~
++   SAY NAME1 @142
++   SAY NAME2 @142
++    SAY DESC @143
+ 
+ COPY ~Vendedor_DLAN\V-DLAN01.itm~ ~override\V-DLAN01.itm~
+-   SAY NAME1 ~Regalo a la Inmortalidad~
+-   SAY NAME2 ~Regalo a la Inmortalidad~
+-   SAY DESC ~En tiempos remotos, Anra, el guerrero más poderoso existente, encargó la fabricación de esta espada en tributo a Nemis, la diosa de la inmortalidad. Sin embargo, la espada cayó en manos de ladrones, y ha pasado de mano en mano desde entonces sin que Anra pudiera hacer nunca nada para recuperarla.
+-
+-CARACTERÍSTICAS:
+-
+- Considerado para golpear como un arma +4
+- +1 daño de fuego
+- +1 daño de frío
+- +1 daño eléctrico
+- Lanza Santuario una vez al día
+-
+- Daño: 1D10 +2
+- THAC0: +3
+- Peso: 10
+- Factor de Velocidad: 10
+- Tipo de Daño: Cortante
+- Talento Marcial: Mandoble
+- Tipo: Dos manos
+- Requerimientos: Fuerza 14
+- Bonificación a la Clase de Armadura: 2
+- +1 conjuro de clérigo de niveles 1 y 2
+- +5 al daño contra oponentes malignos
+- -3 al daño contra oponentes buenos
+-
+- Sólo lo puede usar:
+-  El Paladín legal bueno~
++   SAY NAME1 @144
++   SAY NAME2 @144
++   SAY DESC @145
+ 
+ COPY ~Vendedor_DLAN\V-DLAN02.itm~ ~override\V-DLAN02.itm~
+-  SAY NAME1 ~El Sueño de Kelhan~
+-  SAY NAME2 ~El Sueño de Kelhan~
+-   SAY DESC ~Esta espada fue poseída por un mago llamado Kelhan. Este mago era muy débil en combate y se avergonzaba de ello, puesto que pensaba que poseer habilidades mágicas no era suficiente, sino tener un buen equilibrio entre magia y poderío en combate.
+-
+-Pese a todo, Kelhan era un mago muy poderoso, más poderoso de lo que incluso él mismo creía ser. Una noche, soñó con que una espada mágica se le materializaba en las manos, y usándola Kelhan era muy diestro en combate, y he aquí que, cuando despertó, la misma espada se encontraba sobre él, lista para servir a su dueño.
+-
+-Desde la muerte de Kelhan, por causas naturales, la espada ha estado pasando de mano a mano entre los comerciantes de todo Faerun como una reliquia altamente valorada.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+- Agrega 1 conjuro de mago de cada nivel
+- Aumenta en 1 el tiempo de lanzamiento de conjuros
+-
+-Habilidades de Combate:
+- 4% de posibilidades de desintegrar al objetivo sin derecho a una tirada de salvación
+-
+-Habilidades Especiales:
+- Puede lanzar Visión Verdadera 3 veces al día
+-
+- Daño: 1D8 +3
+- THAC0: +3
+- Peso: 4
+- Tipo de Daño: Cortante
+- Factor de Velocidad: 5
+- Talento Marcial: Espada Larga
+- Tipo: a una mano
+- Requerimientos: Fuerza 6
+-
+-Sólo lo puede usar:
+- El mago~
++  SAY NAME1 @146
++  SAY NAME2 @146
++   SAY DESC @147
+ 
+ COPY ~Vendedor_DLAN\V-DLAN03.itm~ ~override\V-DLAN03.itm~
+-   SAY NAME1 ~Botas de Escamas de Dragón Rojo~
+-   SAY NAME2 ~Botas de Escamas de Dragón Rojo~
+-   SAY DESC ~En las cuevas subterráneas en que Garamon vivía, abundaban los ríos de lava, por lo que cierta vez pidió a uno de los residentes de allí que le confeccionara unas botas que le permitieran caminar por encima de la lava sin lastimarse. La respuesta fueron estas botas. Quitándole las escamas de dragón al jefe de la tribu Troll, y con un poco de tela de araña de acero, Garamon consiguió los materiales para su confección.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+- 100% resistencia al fuego
+- Reduce el factor de movimiento en 1
+-
+- Peso: 4
+- Requerimientos: Fuerza 5~
++   SAY NAME1 @148
++   SAY NAME2 @148
++   SAY DESC @149
+ 
+ COPY ~Vendedor_DLAN\V-DLAN04.itm~ ~override\V-DLAN04.itm~
+-   SAY NAME1 ~Vara de Invisibilidad Mejorada~
+-   SAY NAME2 ~Vara de Invisibilidad Mejorada~
+-   SAY DESC ~Esta varita fue creada a pedido de un ladrón principiante que no tenía fe en sus propias habilidades. No le sirvió de mucho, puesto que fue descubierto y ejecutado en su primer delito con esta vara. Sin embargo, no deja de ser un objeto útil para quien sepa utilizarlo.
+-
+-CARACTERÍSTICAS:
+-
+- Lanza Invisibilidad Mejorada 3 veces al día
+- Lanza Invisibilidad en Masas 1 vez al día
+-
+-PARA CAMBIAR ENTRE UNA HABILIDAD Y OTRA SE DEBE PULSAR EL BOTÓN DERECHO DEL RATÓN EN LA VARA Y A CONTINUACIÓN PULSAR EL BOTÓN "HABILIDADES"
+-
+- Peso: 1
+- 
+- Sólo lo puede usar:
+-  Los magos o hechiceros.~
++   SAY NAME1 @150
++   SAY NAME2 @150
++   SAY DESC @151
+ 
+ COPY ~Vendedor_DLAN\V-DLAN05.itm~ ~override\V-DLAN05.itm~
+-   SAY NAME1 ~La Hora de las Brujas~
+-   SAY NAME2 ~La Hora de las Brujas~
+-   SAY DESC ~Armas como esta llevaban todos los guardias de la ciudad de Kanor en los tiempos en que se tenía un enorme temor a la magia y todo lo que tuviera que ver con ella. Se aborrecía en especial a las mujeres que utilizaban magia, y todos los guardias de la ciudad iban preparados para tales encuentros con alabardas de este tipo.
+-
+-Luego de la invasión de Kanor por parte de los bárbaros, se pensaba que no había sobrevivido ni una de estas alabardas, pero al parecer, tenéis a una sobreviviente, quien sabe si la única.
+-
+-CARACTERÍSTICAS:
+-
+-OBJETO MALDITO
+-
+-Habilidades de Combate:
+- 60% de probabilidades quitar una protección mágica al objetivo
+-
+-Habilidades Especiales:
+- Lanza Oráculo 2 veces al día
+-
+- Considerada para golpear como arma +5
+- Daño: 1D8 +1
+- THAC0: +1
+- Peso: 15
+- Factor de Velocidad: 9
+- Tipo de Daño: Perforante
+- Talento Marcial: Albarda
+- Requerimientos: Fuerza 13
+- Tipo: a dos manos
+- 
+- No lo puede usar:
+-  El Druida
+-  El Clérigo
+-  El Mago
+-  El Ladrón
+-  El Bardo
+-  El Monje~
++   SAY NAME1 @152
++   SAY NAME2 @152
++   SAY DESC @153
+ 
+ COPY ~Vendedor_DLAN\V-DLAN06.itm~ ~override\V-DLAN06.itm~
+-   SAY NAME1 ~Cazadora~
+-   SAY NAME2 ~Cazadora~
+-   SAY DESC ~Un mandoble que hizo famosa a la cazadora Misha, puesto que a éste le debe el éxito en su trabajo. A pesar de que puede realizar al trabajo de cualquier mandoble limpiamente, tiene capacidad especial contra los animales.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades de Combate:
+- 20% de probabilidades de matar instantáneamente a cualquier animal sin tirada de salvación
+-
+- THAC0: +2, +4 contra animales
+- Daño: 1D10 +2, +4 contra animales
+- Tipo de Daño: Cortante
+- Factor de Velocidad: 5
+- Talento Marcial: Mandoble
+- Tipo: a dos manos
+- Peso: 5
+- Requerimientos: Destreza 13
+- 
+- No lo puede usar:
+-  El Druida
+-  El Clérigo
+-  El Mago
+-  El Ladrón
+-  El Monje
+-  El Bardo~
++   SAY NAME1 @154
++   SAY NAME2 @154
++   SAY DESC @155
+ 
+ COPY ~Vendedor_DLAN\V-DLAN07.itm~ ~override\V-DLAN07.itm~
+-   SAY NAME1 ~Varita de Curación Masiva~
+-   SAY NAME2 ~Varita de Curación Masiva~
+-    SAY DESC ~Un tipo de vara muy usado por los clérigos en tiempos de guerra. Puede curar instantáneamente a varias personas.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades Especiales:
+- 10 cargas de Curación en Masas
+-
+- Peso: 1
+- 
+- Sólo lo puede usar:
+-  El Clérigo~
++   SAY NAME1 @156
++   SAY NAME2 @156
++    SAY DESC @157
+ 
+ COPY ~Vendedor_DLAN\V-DLAN08.itm~ ~override\V-DLAN08.itm~
+-   SAY NAME1 ~Amuleto de Ohmmar~
+-   SAY NAME2 ~Amuleto de Ohmmar~
+-  SAY DESC ~Amuleto especialmente diseñado para ladrones, más concretamente para un ladrón en especial llamado Ohmmar. Nunca llegó a usarlo, sino que siempre esperaba una oportunidad especial para hacerlo. Al final, murió por mano de unos asesinos que asaltaron su casa y se lo llevaron todo, incluido este amuleto. Ha estado perdido desde entonces.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+- +1 a la Clase de Armadura
+-
+-Habilidades Especiales:
+- Lanza Invisibilidad 1 vez al día
+- Lanza Ladrón Experto 1 vez al día
+-
+-Ladrón Experto:
+- - +70% a todas las habilidades de ladrón
+- - +1 al multiplicador de apuñalamiento
+- - Fija la habilidad con espada corta en 3
+- - Celeridad
+- - Dura 30 segundos
+-
+- Peso: 1
+- 
+- Sólo lo puede usar:
+-  El Ladrón~
++   SAY NAME1 @158
++   SAY NAME2 @158
++  SAY DESC @159
+ 
+ COPY ~Vendedor_DLAN\V-DLAN09.itm~ ~override\V-DLAN09.itm~
+-   SAY NAME1 ~Capa de Armonía con la Naturaleza~
+-   SAY NAME2 ~Capa de Armonía con la Naturaleza~
+-  SAY DESC ~Por sus habilidades, puede decirse que esta capa perteneció a uno -o varios- druidas, pero no se sabe nada más. Sin embargo, si alguien que no sea un druida la toca, recibe una fuerte descarga de calor.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+- +2 a la Clase de Armadura natural
+- Un conjuro extra de druida de nivel 4, 5 y 6
+- Lanza Hechizar Persona o Mamífero 3 veces al día.
+- Peso: 3
+-
+-  Sólo lo puede usar:
+-  El Druida~
++   SAY NAME1 @160
++   SAY NAME2 @160
++  SAY DESC @161
+ 
+ COPY ~Vendedor_DLAN\V-DLAN10.itm~ ~override\V-DLAN10.itm~
+-   SAY NAME1 ~Sacrificio~
+-   SAY NAME2 ~Sacrificio~
+-   SAY DESC ~Este conjuro sacrifica la vida del lanzador a cambio de una cura total de todo el grupo. Esta cura es igual al conjuro Sanar
+-
+-Sólo lo puede usar:
+- El Clérigo
+- El Druida~
++   SAY NAME1 @162
++   SAY NAME2 @162
++   SAY DESC @163
+ 
+ COPY ~Vendedor_DLAN\V-DLAN11.itm~ ~override\V-DLAN11.itm~
+-   SAY NAME1 ~Guantes de los Elementos~
+-   SAY NAME2 ~Guantes de los Elementos~
+-    SAY DESC ~Estos guantes pertenecieron al legendario luchador Gukho. Se dice que, luego de humillar en combate a sus enemigos con su formidable habilidad con la espada, extendía una mano hacia ellos, y los poderes que salían de ella no dejaban rastros del pobre hombre. Luego de muchos años se descubrió que su fuente de poder eran sus guantes, que estaban profundamente asociados con los elementos de la naturaleza, lo que permitía a su portador manejarlos a su gusto.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades Especiales:
+- Lanza Flecha Ácida de Melf 3 veces al día
+- Lanza Flecha de Fuego 2 veces al día
+- Lanza Relámpago Zigzagueante 1 vez al día
+- Lanza Cono de Frío 1 vez al día
+-
+-Habilidades por Equipado:
+- Resistencia a todos los elementos: +15%
+-
+- Peso: 1
+- 
+- No lo puede usar:
+-  El Mago
+-  El Clérigo
+-  El Druida
+-  El Ladrón~
++   SAY NAME1 @164
++   SAY NAME2 @164
++    SAY DESC @165
+ 
+ COPY ~Vendedor_DLAN\V-DLAN12.itm~ ~override\V-DLAN12.itm~
+-   SAY NAME1 ~Armadura de Protección Natural~
+-   SAY NAME2 ~Armadura de Protección Natural~
+- SAY DESC ~Esta armadura es muy popular entre aquellos guerreros que ponen la agilidad por encima de la cantidad de metal que se pongan encima. Esta armadura está hecha de hojas de los árboles unidas y reforzadas por poderosa magia, que otorga protecciones increíbles aunque no muy comunes. Sin embargo, la cantidad de magia en ella impide que cualquier lanzador de conjuros la utilice, ni tampoco está permitida a los ladrones porque interfiere con sus habilidades.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+- Fija en 75% la resistencia mágica y a los elementos y al frío y fuego mágico
+- Fija en 55% la resistencia al daño cortante, perforante y contundente
+- Protege contra el Apuñalamiento por la Espalda
+- No hay bonificación a la Clase de Armadura
+-
+- Peso: 3
+- 
+- No lo puede usar:
+-  El Mago
+-  El Ladrón
+-  El Druida
+-  El Clérigo
+-  El Bardo
+-  El Monje~
++   SAY NAME1 @166
++   SAY NAME2 @166
++ SAY DESC @167
+ 
+ COPY ~Vendedor_DLAN\V-DLAN13.itm~ ~override\V-DLAN13.itm~
+-   SAY NAME1 ~Puños de Algerion~
+-   SAY NAME2 ~Puños de Algerion~
+-   SAY DESC ~Estos guantes se inventaron para imitar el poder de los poderosos golpes de Algerion, un gigante que durante su juventud arrasó varios pueblos en la Costa de la Espada.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades Especiales:
+- Lanza 3 veces al día Puño de Algerion
+-
+-Puño de Algerion:
+- Hace 1D10 de daño mágico, atonta y hace al objetivo retroceder si el objetivo no supera una tirada de salvación contra el aliento con un penalizador de -5~
++   SAY NAME1 @168
++   SAY NAME2 @168
++   SAY DESC @169
+ 
+ COPY ~Vendedor_DLAN\V-DLAN14.itm~ ~override\V-DLAN14.itm~
+-   SAY NAME1 ~Amuleto de la Suerte~
+-   SAY NAME2 ~Amuleto de la Suerte~
+-  SAY DESC ~Este amuleto fue bendecido por la diosa de la fortuna, de modo que sus efectos serán latentes en quien lo porte.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+- +1 a todas las tiradas de salvación
+- -1 a la constitución
+- +2 al THAC0~
++   SAY NAME1 @170
++   SAY NAME2 @170
++  SAY DESC @171
+ 
+ COPY ~Vendedor_DLAN\V-DLAN15.itm~ ~override\V-DLAN15.itm~
+-   SAY NAME1 ~Anillo de Rorth~
+-   SAY NAME2 ~Anillo de Rorth~
+-   SAY DESC ~Este anillo convierte a su portador totalmente, excepto por la apariencia y el alineamiento, en Rorth, un caudillo ogro que vivió hace años pero dejó su esencia imbuida en este anillo para seguir viviendo después de la muerte.
+-
+-CARACTERÍSTICAS:
+-
+-Habilidades por Equipado:
+- Fija la fuerza en 22
+- Fija la constitución en 20
+- -2 a la destreza
+- Fija todas las otras características en 7
+-
+-Habilidades Especiales:
+- Lanza Relámpago Zigzagueante 1 vez al día~
++   SAY NAME1 @172
++   SAY NAME2 @172
++   SAY DESC @173
+ 
+ 
+ 
+@@ -1449,16 +397,16 @@
+ //////////////////////////////////
+ 
+ COPY ~Vendedor_DLAN\V-DLAN08.spl~ ~override\V-DLAN08.spl~
+-   SAY NAME1 ~Ladrón Experto~
+-   SAY NAME2 ~Ladrón Experto~
++   SAY NAME1 @174
++   SAY NAME2 @174
+ 
+ COPY ~Vendedor_DLAN\V-DLAN10.spl~ ~override\V-DLAN10.spl~
+-   SAY NAME1 ~Sacrificio~
+-   SAY NAME2 ~Sacrificio~
++   SAY NAME1 @162
++   SAY NAME2 @162
+ 
+ COPY ~Vendedor_DLAN\V-DLAN13.spl~ ~override\V-DLAN13.spl~
+-   SAY NAME1 ~Puño de Algerion~
+-   SAY NAME2 ~Puño de Algerion~
++   SAY NAME1 @175
++   SAY NAME2 @175
+ 
+ 
+ 
+@@ -1469,218 +417,110 @@
+ 
+ 
+ COPY ~Vendedor_DLAN\BHBITM03.spl~ ~override\BHBITM03.spl~
+-   SAY NAME1 ~Furia controlada~
++   SAY NAME1 @176
+ 
+ COPY ~Vendedor_DLAN\BHBITM04.spl~ ~override\BHBITM04.spl~
+-   SAY NAME1 ~Convocar Mandoble de Energía Oscura~
++   SAY NAME1 @177
+ 
+ COPY ~Vendedor_DLAN\BHBMOD01.spl~ ~override\BHBMOD01.spl~
+-   SAY NAME1 ~Ancla Dimensional~
+-   SAY NAME2 ~Ancla Dimensional~
+-   SAY UNIDENTIFIED_DESC ~Ancla Dimensional (Abjuración)
+-Nivel 5
+-Alcance: 60 metros.
+-Área de efecto: Global
+-Tirada de salvación: Ninguna
+-Duración: 2 minutos
+-
+-Al lanzar este conjuro el mago "fija" de alguna manera el primer plano material, convirtiéndose de hecho en una especie de ancla que impide que cualquier otro plano se manifieste.
+-Las consecuencias de este hechizo; durante dos minutos cualquier conjuro de convocatoria (convocar Monstruos, Convocar elemental, Levantar a los muertos) no funcionan.
+-El Efecto no se puede disipar y no permite ninguna tirada de salvación o resistencia mágica. Este conjuro también afecta a los miembros del grupo. ~
+-   SAY DESC ~Ancla Dimensional (Abjuración)
+-Nivel 5
+-Alcance: 60 metros.
+-Área de efecto: Global
+-Tirada de salvación: Ninguna
+-Duración: 2 minutos
+-
+-Al lanzar este conjuro el mago "fija" de alguna manera el primer plano material, convirtiéndose de hecho en una especie de ancla que impide que cualquier otro plano se manifieste.
+-Las consecuencias de este hechizo; durante dos minutos cualquier conjuro de convocatoria (convocar Monstruos, Convocar elemental, Levantar a los muertos) no funcionan.
+-El Efecto no se puede disipar y no permite ninguna tirada de salvación o resistencia mágica. Este conjuro también afecta a los miembros del grupo. ~
++   SAY NAME1 @68
++   SAY NAME2 @68
++   SAY UNIDENTIFIED_DESC @178
++   SAY DESC @178
+ 
+ COPY ~Vendedor_DLAN\BHMO01_1.spl~ ~override\BHMO01_1.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_2.spl~ ~override\BHMO01_2.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_3.spl~ ~override\BHMO01_3.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_4.spl~ ~override\BHMO01_4.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_5.spl~ ~override\BHMO01_5.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_6.spl~ ~override\BHMO01_6.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\elementp.spl~ ~override\elementp.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_8.spl~ ~override\BHMO01_8.spl~
+-   SAY NAME1 ~Fuerzas Elementales de Fuerzas elementales de Li Syaoran~
+-   SAY NAME2 ~Fuerzas Elementales de Fuerzas elementales de Li Syaoran~
+-  SAY UNIDENTIFIED_DESC ~Esfera: elemental
+-Escuela: Alteración
+-Nivel: 1
+-Tiempo de lanzamiento: 2
+-
+-    Con este conjuro pueden ser evocados una docena de efectos según cómo sean usados sus componentes materiales: Sólo la espada, sólo el sello o ambos a la vez. Usando sólo la espada puede lanzarse un chorro de agua, una onda terrestre, un golpe de rayo o una bola de fuego, por un valor de 1D6 p.d. para su blanco (T.S. conjuros para mitad del daño).
+-   
+-    Con el sello, se puede evocar el Escudo del dragón de agua (protege contra conjuros de primer nivel, contra 3 ataques +1/nivel (máx. 12) y da un 1% de resistencia mágica/nivel (máx. 10%).
+-    
+-    Tormenta de tierra (reduce en 4 CA, T.S. y THAC0, T.S. armas de aliento niega efectos).
+-    
+-    Una Bolsa de fuego (1D6 p.d./nivel, máx 4D6, T.S. conjuros niega daño) o un espejo eléctrico (Devolverá un conjuro y otorgará un 15% de resistencia mágica).
+-    
+-    Usar ambos objetos permitirá lanzar un Cono de frío, una Bola de Fuego o un Relámpago (como el conjuro, 1D6 p.d./nivel (máx 5D6)), o una Tormenta protectora (+5 CA y T.S. e inmunidad a proyectiles mágicos, 1 turno/nivel, máx 10).~
+-   SAY DESC ~Esfera: elemental
+-Escuela: Alteración
+-Nivel: 1
+-Tiempo de lanzamiento: 2
+-
+-    Con este conjuro pueden ser evocados una docena de efectos según cómo sean usados sus componentes materiales: Sólo la espada, sólo el sello o ambos a la vez. Usando sólo la espada puede lanzarse un chorro de agua, una onda terrestre, un golpe de rayo o una bola de fuego, por un valor de 1D6 p.d. para su blanco (T.S. conjuros para mitad del daño).
+-   
+-    Con el sello, se puede evocar el Escudo del dragón de agua (protege contra conjuros de primer nivel, contra 3 ataques +1/nivel (máx. 12) y da un 1% de resistencia mágica/nivel (máx. 10%).
+-    
+-    Tormenta de tierra (reduce en 4 CA, T.S. y THAC0, T.S. armas de aliento niega efectos).
+-    
+-    Una Bolsa de fuego (1D6 p.d./nivel, máx 4D6, T.S. conjuros niega daño) o un espejo eléctrico (Devolverá un conjuro y otorgará un 15% de resistencia mágica).
+-    
+-    Usar ambos objetos permitirá lanzar un Cono de frío, una Bola de Fuego o un Relámpago (como el conjuro, 1D6 p.d./nivel (máx 5D6)), o una Tormenta protectora (+5 CA y T.S. e inmunidad a proyectiles mágicos, 1 turno/nivel, máx 10).~
++   SAY NAME1 @180
++   SAY NAME2 @180
++  SAY UNIDENTIFIED_DESC @100
++   SAY DESC @100
+ 
+ COPY ~Vendedor_DLAN\BHMO01_9.spl~ ~override\BHMO01_9.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_A.spl~ ~override\BHMO01_A.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_B.spl~ ~override\BHMO01_B.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_C.spl~ ~override\BHMO01_C.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_D.spl~ ~override\BHMO01_D.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_E.spl~ ~override\BHMO01_E.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\INPOWERP.spl~ ~override\INPOWERP.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_G.spl~ ~override\BHMO01_G.spl~
+-   SAY NAME1 ~Invocar Poder de Iza~
+-   SAY NAME2 ~Invocar Poder de Iza~
+-   SAY UNIDENTIFIED_DESC ~Escuela: Invocación/Evocación
+-Nivel: 4
+-Alcance: 30 mts./nivel
+-Duración: instantáneo
+-Tiempo de lanzamiento: 4
+-Área de efecto: Criatura Blanco
+-Tirada de salvación: Ninguna
+-
+-Mediante este conjuro, el lanzador invoca una columna de extremo poder sobre uno de sus adversarios causándole 4D4 +1D4 puntos de daño por nivel sin tirada de salvación alguna. Cabe permitir cualquier resistencia natural del blanco.~
+-   SAY DESC ~Escuela: Invocación/Evocación
+-Nivel: 4
+-Alcance: 30 mts./nivel
+-Duración: instantáneo
+-Tiempo de lanzamiento: 4
+-Área de efecto: Criatura Blanco
+-Tirada de salvación: Ninguna
+-
+-Mediante este conjuro, el lanzador invoca una columna de extremo poder sobre uno de sus adversarios causándole 4D4 +1D4 puntos de daño por nivel sin tirada de salvación alguna. Cabe permitir cualquier resistencia natural del blanco.~
++   SAY NAME1 @101
++   SAY NAME2 @101
++   SAY UNIDENTIFIED_DESC @181
++   SAY DESC @181
+ 
+ COPY ~Vendedor_DLAN\BHMO01_H.spl~ ~override\BHMO01_H.spl~
+-  SAY NAME1 ~Marchitamiento de Joneleth Irenicus~
+-   SAY NAME2 ~Marchitamiento de Joneleth Irenicus~
+-   SAY UNIDENTIFIED_DESC ~Escuela: Necromancia
+-Nivel: 2
+-Alcance: 1 metro/nivel
+-Duración: Instantánea
+-Tiempo de lanzamiento: 1
+-Área del efecto: Criatura objetivo
+-Tiro de protección: Ninguna
+-
+-Con este conjuro el mago puede robarle la fuerza vital a una víctima para aumentar la suya, debilitando de paso el cuerpo de la víctima y revitalizando el suyo. La víctima sufrirá de 1D8 puntos de daño por cada nivel de conjuro que el mago sea capaz de lanzar más 1 punto de daño por cada nivel de experiencia. Mientras, recuperará el máximo del mismo índice (es decir, si un hechicero de nivel tres inflige 2D8 +3 puntos de daño, a su vez, recuperará 19 (8x2=16+3=19) puntos de vida.~
+-   SAY DESC ~Escuela: Necromancia
+-Nivel: 2
+-Alcance: 1 metro/nivel
+-Duración: Instantánea
+-Tiempo de lanzamiento: 1
+-Área del efecto: Criatura objetivo
+-Tiro de protección: Ninguno
+-
+-Con este conjuro el mago puede robarle la fuerza vital a una víctima para aumentar la suya, debilitando de paso el cuerpo de la víctima y revitalizando el suyo. La víctima sufrirá de 1D8 puntos de daño por cada nivel de conjuro que el mago sea capaz de lanzar más 1 punto de daño por cada nivel de experiencia. Mientras, recuperará el máximo del mismo índice (es decir, si un hechicero de nivel tres inflige 2D8 +3 puntos de daño, a su vez, recuperará 19 (8x2=16+3=19) puntos de vida.~
++  SAY NAME1 @103
++   SAY NAME2 @103
++   SAY UNIDENTIFIED_DESC @182
++   SAY DESC @183
+ 
+ COPY ~Vendedor_DLAN\Jwiltinp.spl~ ~override\Jwiltinp.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ COPY ~Vendedor_DLAN\BHMO01_J.spl~ ~override\BHMO01_J.spl~
+-   SAY NAME1 ~Llamar Rayos de Draco~
+-   SAY NAME2 ~Llamar Rayos de Draco~
+-    SAY UNIDENTIFIED_DESC ~Escuela: Alteración
+-Nivel: 3
+-Alcance: 0
+-Duración: instantáneo
+-Tiempo de lanzamiento: 9
+-Área del efecto: radio de 80 m.
+-Tiro de protección: 1/2
+-
+-Cuando se lanza el conjuro del rayo, ha de hacerse en el exterior, pues de otro modo no funcionaría. El lanzador de conjuros puede atraer a los rayos relampagueantes; puede convocar un (y sólo un) rayo, el que ocasiona daños eléctricos por valor de 2D8 puntos, más 1D8 puntos adicionales por cada nivel de experiencia del lanzador de conjuros. Así, un lanzador de conjuros del nivel 4 convocará un rayo de 6D8 (2D8 + 4D8), hasta un máximo de 22D8 al nivel 20. El virote de relámpago descarga en dirección vertical sobre cualquiera que sea el enemigo del hechicero.~
+-   SAY DESC ~Escuela: Alteración
+-Nivel: 3
+-Alcance: 0
+-Duración: instantáneo
+-Tiempo de lanzamiento: 9
+-Área del efecto: radio de 80 m.
+-Tiro de protección: 1/2
+-
+-Cuando se lanza el conjuro del rayo, ha de hacerse en el exterior, pues de otro modo no funcionaría. El lanzador de conjuros puede atraer a los rayos relampagueantes; puede convocar un (y sólo un) rayo, el que ocasiona daños eléctricos por valor de 2D8 puntos, más 1D8 puntos adicionales por cada nivel de experiencia del lanzador de conjuros. Así, un lanzador de conjuros del nivel 4 convocará un rayo de 6D8 (2D8 + 4D8), hasta un máximo de 22D8 al nivel 20. El virote de relámpago descarga en dirección vertical sobre cualquiera que sea el enemigo del hechicero.~
++   SAY NAME1 @105
++   SAY NAME2 @105
++    SAY UNIDENTIFIED_DESC @106
++   SAY DESC @106
+ 
+ COPY ~Vendedor_DLAN\BHMO01_K.spl~ ~override\BHMO01_K.spl~
+-   SAY NAME1 ~Súper Proyectil Mágico de Draco~
+-   SAY NAME2 ~Súper Proyectil Mágico de Draco~
+-   SAY UNIDENTIFIED_DESC ~Escuela: Invocación/Evocación
+-Nivel: 3
+-Rango: 120 metros + 20 metros/nivel, máx. 300 mts.
+-Duración: Instantáneo
+-Tiempo de lanzamiento: 3
+-Área del efecto: 1 criatura
+-Tiro de protección: Ninguno
+-
+-El uso del conjuro de Súper proyectil mágico de Draco crea hasta un total de diez proyectiles de energía mágica que avanzan partiendo de las manos del mago hasta alcanzar siempre a su objetivo, que debe ser una criatura de algún tipo. Cada proyectil ocasiona 1D6 +1 puntos de daño. Por cada nivel más de experiencia, el mago dispondrá de un proyectil adicional: seis en el sexto nivel, siete en el séptimo nivel, ocho en el octavo nivel, etc., hasta un total de diez proyectiles en el décimo nivel.~
+-   SAY DESC ~Escuela: Invocación/Evocación
+-Nivel: 3
+-Rango: 120 metros + 20 metros/nivel, máx. 300 mts.
+-Duración: Instantáneo
+-Tiempo de lanzamiento: 3
+-Área del efecto: 1 criatura
+-Tiro de protección: Ninguno
+-
+-El uso del conjuro de Súper proyectil mágico de Draco crea hasta un total de diez proyectiles de energía mágica que avanzan partiendo de las manos del mago hasta alcanzar siempre a su objetivo, que debe ser una criatura de algún tipo. Cada proyectil ocasiona 1D6 +1 puntos de daño. Por cada nivel más de experiencia, el mago dispondrá de un proyectil adicional: seis en el sexto nivel, siete en el séptimo nivel, ocho en el octavo nivel, etc., hasta un total de diez proyectiles en el décimo nivel.~
++   SAY NAME1 @107
++   SAY NAME2 @107
++   SAY UNIDENTIFIED_DESC @184
++   SAY DESC @184
+ 
+ COPY ~Vendedor_DLAN\SPMDDP.spl~ ~override\SPMDDP.spl~
+-   SAY NAME1 ~ ~
+-   SAY NAME2 ~ ~
++   SAY NAME1 @179
++   SAY NAME2 @179
+ 
+ 
+ COPY ~Vendedor_DLAN\BHBITM02.bam~ ~override\BHBITM02.bam~
+@@ -1696,8 +536,8 @@
+ 
+ 
+ COPY ~Vendedor_DLAN\BHBMOD01.cre~ ~override\BHBMOD01.cre~
+-   SAY NAME1 ~Eman Rahc~
+-   SAY NAME2 ~Eman Rahc~
++   SAY NAME1 @185
++   SAY NAME2 @185
+ 
+ COPY ~Vendedor_DLAN\BHMO01_1.cre~ ~override\BHMO01_1.cre~
+ COPY ~Vendedor_DLAN\BHMO01_2.cre~ ~override\BHMO01_2.cre~
+@@ -1714,12 +554,12 @@
+ COPY ~Vendedor_DLAN\BHMO01_1.eff~ ~override\BHMO01_1.eff~
+ 
+ 
+-COMPILE ~Vendedor_DLAN\BHBMOD01.baf~
+-   USING ~Vendedor_DLAN\BHBMOD01.tra~
++COMPILE ~Vendedor_DLAN\BHBMOD01.D~ ~Vendedor_DLAN\BHMO01_1.D~
++   USING ~Vendedor_DLAN\tra\%LANGUAGE%\BHMO01_1.tra~
+ 
+ 
+-COMPILE ~Vendedor_DLAN\BHBMOD01.D~ ~Vendedor_DLAN\BHMO01_1.D~
+-   USING ~Vendedor_DLAN\BHMO01_1.tra~
++COMPILE ~Vendedor_DLAN\BHBMOD01.baf~
++   USING ~Vendedor_DLAN\tra\%LANGUAGE%\BHBMOD01.tra~
+ 
+ 
+ EXTEND_TOP ~ar0700.bcs~ ~Vendedor_DLAN\BHMO01_1.baf~
+@@ -1731,24 +571,24 @@
+ //Versión ToB
+ 
+ 
+-BEGIN ~Vendedor DLAN para ToB v6.1~
++BEGIN @186
+ 
+ 
+ 
+-REQUIRE_FILE ~Data/25Dialog.bif~ @2 // Chequeo del ToB
++REQUIRE_FILE ~Data/25Dialog.bif~ @187 // Chequeo del ToB
+ 
+ 
+ COPY ~Vendedor_DLAN\BHMO01_3.cre~ ~override\BHMO01_3.cre~
+-   SAY NAME1 ~Eman Rahc~
+-   SAY NAME2 ~Eman Rahc~
++   SAY NAME1 @185
++   SAY NAME2 @185
+ 
+ 
+ COMPILE ~Vendedor_DLAN\BHMO01_2.D~ ~Vendedor_DLAN\BHMO01_3.D~
+-   USING ~Vendedor_DLAN\BHMO01_2.tra~
++   USING ~Vendedor_DLAN\tra\%LANGUAGE%\BHMO01_2.tra~
+ 
+ 
+ COMPILE ~Vendedor_DLAN\BHMO01_2.baf~
+-   USING ~Vendedor_DLAN\BHBMOD01.tra~
++   USING ~Vendedor_DLAN\tra\%LANGUAGE%\BHBMOD01.tra~
+ 
+ 
+ EXTEND_TOP ~ar5003.bcs~ ~Vendedor_DLAN\BHMO01_3.baf~

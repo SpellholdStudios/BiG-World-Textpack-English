@@ -1,0 +1,22 @@
+--- AviM\SoA\1xAviB2.d	Wed Sep 23 16:13:00 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAviB2.d	Mon Mar 25 11:10:42 2013
+@@ -1,13 +1,13 @@
+ BEGIN 1xAviB2
+ 
+-IF~InParty("AviDV")
++IF ~InParty("AviDV")
+ Global("AviBrother","GLOBAL",3)~ THEN BEGIN 1xAviB2
+-SAY~Mo¿ecie mnie zostawiæ...?~
+-IF~~ THEN GOTO 1xAviB2x1
++SAY @0
++IF ~~ THEN GOTO 1xAviB2x1
+ END
+ 
+-IF~~ THEN BEGIN 1xAviB2x1
+-SAY~To ju¿ koniec... (Bierze nó¿ i podrzyna sobiê gard³o.)~
+-IF~~THEN DO ~SetGlobal("AviBrother","GLOBAL",4)~ EXIT
++IF ~~ THEN BEGIN 1xAviB2x1
++SAY @1
++IF ~~ THEN DO ~SetGlobal("AviBrother","GLOBAL",4)~ EXIT
+ END
+ 

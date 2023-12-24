@@ -1,0 +1,59 @@
+@0 = ~The Ogre and the Dwarf, a blue story~
+@1 = ~Tragar~
+@2 = ~Lumens~
+@3 = ~Recipe for Potion of Ogre-transformation Reversal (Blue)~
+@4 = ~Recipe for Potion of Ogre-transformation Reversal (Blue):
+
+To assemble this potion which should allow a blue ogre regain his "pink" dwarf shape, I need the following ingredients:
+
+Two rat tails (a tiny feeble beast to counteract the strength from the hair of ogre in the previous potion).
+
+A pink lotus (To give that pink color. Flower of corruption generally reserved for junkies, as opposed to the blueberries of the previous potion- the flower of delight to pastry chefs).
+
+A rabbit's foot (Because a little luck, when a specific effect is hoped for, always helps).
+
+Cheese (to taste, because the rat tails and pink lotus, eh, uh... fine).
+
+A water opal (a crushed gem to enrich the mixture, and a pale pink to soften the effect of the pink lotus).
+
+Fairy dust (to make the effects of the potions permanent).~
+@5 = ~Rat tail~
+@6 = ~This is all that remains of the rat that you exterminated.~
+@7 = ~Rabbit's Foot~
+@8 = ~This foot was removed from the body of the rabbit that was unfortunate enough to cross your path.~
+@9 = ~Pink Lotus~
+@10 = ~This flower has hallucinogenic properties when inhaled and is consequently very popular among junkies of all kinds.~
+@11 =  ~Fairy Dust~
+@12 =  ~This terracotta jar contains fine fairy dust. This valuable ingredient is necessary for many practical works of magic.~
+@13 =  ~Cheese~
+@14 =  ~This piece of cheese smells good and looks tasty.~
+@15 = ~The Wonderies of Lumens~
+@16 = ~Tarngarn Rock-Breaker~
+@17 = ~Potion of Blue Ogre Tranformation Reversal~
+@18 = ~This potion was concocted by Lumens, the eccentric dwarven merchant. It should allow Tragar, the dwarf who was turned into a blue ogre, to regain his normal shape and color. That is, if the potion produces the desired effect....
+
+Not usable by:
+Anyone other than Tragar.~
+@19 = ~Sister of the Storm~
+@20 = ~Much time and effort has clearly been devoted to the creation of this finely-crafted weapon. Tiny runes have been engraved onto the weapon's surface to enhance its beauty as well as its power.  A faint blue glow seems to emanate from the runes that liberally cover the axe.
+
+STATISTICS:
+
+Fighting skills:
+5% chance of Chain Lightning inflicting 4D6 points of damage to all within the area of effect (without distinction between allies and enemies) with each successful attack
+2% chance of a Lightning Bolt striking the opponent for 4D6 points of damage with each successful attack
+
+THAC0: +1
+Damage: 1D8 +1
+Damage type: Slashing
+Weight: 4
+Speed Factor: 4
+Proficiency: Axe
+Weapon Type: 1-handed
+Requires: 10 Strength
+
+Not Usable by:
+Druid
+Cleric
+Mage
+Thief~

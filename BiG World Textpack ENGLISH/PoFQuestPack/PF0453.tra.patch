@@ -1,0 +1,10 @@
+--- PoFQuestPack\English\Baf_new\PF0453.tra	Mon Apr 26 14:01:49 2021
++++ C:\BWP Patchstudio\patched files\PoFQuestPack\English\Baf_new\PF0453.tra	Mon Mar 13 08:47:55 2023
+@@ -1,5 +1,5 @@
+-@0    = ~Sir Gradak, náš vùdce, tì shledal nebezpeènám, proto budeš do nìkolika hodin popraven, užij si zbytek svého života dobrodruhu.~
++@0    = ~Sir Gradak, our leader found you dangerous therefore you will be executed in a few hours enjoy the rest of your life adventurer.~
+ @1    = ~Sir Grafalcon, you're under arrest, give up and no one gets hurt!!~
+ @2    = ~Surrender to you? Never!~
+-@3    = ~< CHARNAME >, We have another important task for you. You have to find out who these soldiers are and where they come from. And most importantly, you must find and kill Gradak or otherwise all of Faerun will come to an end.~
++@3    = ~<CHARNAME>, We have another important task for you. You have to find out who these soldiers are and where they come from. And most importantly, you must find and kill Gradak or otherwise all of Faerun will come to an end.~
+ @4    = ~We have so much time before the other guards arrive, I found the entrance to the dungeon from which we were attacked during the ceremony. Your friends are waiting for you there. I'll get you there, maybe at the end of the corridor, you'll find answers. Follow me.~

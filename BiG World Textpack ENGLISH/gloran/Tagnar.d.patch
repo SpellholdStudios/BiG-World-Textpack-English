@@ -1,0 +1,27 @@
+--- gloran\dlg\Tagnar.d	Sat Apr 22 13:21:34 2006
++++ C:\BWP Patchstudio\patched files\gloran\dlg\Tagnar.d	Thu Jan 10 08:04:33 2013
+@@ -4,18 +4,18 @@
+ See("Gloran")
+ !StateCheck("Gloran",STATE_SLEEPING)
+ CombatCounter(0)~ THEN TAGNAR KillGloran 
+-~Wreszcie ciê wytropi³em Gloranie tym razem mi nie uciekniesz.~
++@0
+ DO ~SetGlobal("HuntersGloran","GLOBAL",2)~
+ == GLORANJ
+-~Brak ci honoru! Pracujesz jako najemny zabójca.~
++@1
+ == TAGNAR
+-~To nic osobistego, chodzi mi tylko o twoj¹ g³owê. Obiecuje, ¿e to nie bêdzie bola³o.~
++@2
+ == GLORANJ
+-~A wiêc po¿egnaj siê z ¿yciem, ³owco nagród.~
++@3
+ == TAGNAR
+-~Wyznaczono za ciebie niez³¹ sumkê i mam zamiar odebraæ t¹ nagrodê...~
++@4
+ =
+-~Ale doœæ ju¿ tego! Szykuj siê na œmieræ Gloranie!~
++@5
+ DO ~ActionOverride("Tagnar",Enemy()) ActionOverride("Groth",Enemy())
+ ActionOverride("Ardan",Enemy()) ActionOverride("Lisan",Enemy()) ActionOverride("Tamath",Enemy())~
+ EXIT

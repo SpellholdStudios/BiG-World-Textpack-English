@@ -1,0 +1,133 @@
+--- AviM\SoA\1xAvi.d	Sun Sep 27 22:01:00 2009
++++ C:\BWP Patchstudio\patched files\AviM\SoA\1xAvi.d	Mon Mar 25 11:10:40 2013
+@@ -1,92 +1,92 @@
+ BEGIN 1xAvi
+ IF ~NumTimesTalkedTo(0) Global("AviInParty","LOCALS",0)~ THEN BEGIN Avi00x00
+-SAY ~(Przed tob¹ stoi mglista postaæ kobiety. Jej eteryczna skóra jest œnie¿no bia³a, oczy jaœniej¹ce wewnêtrznym blaskiem. Wpatruje siê w ciebie niezbyt przejmuj¹co.) Hmm, witaj? Wypada siê odezwaæ, a nie staæ i gapiæ siê...~ [AVI039]  
+-IF ~~ THEN REPLY ~Jesteœ nieumar³ym! Czujê to! Musisz zgin¹æ!.~ GOTO Avi00x01
+-IF ~~ THEN REPLY ~Jako istota ¿ywa, mam prawo ciê zg³adziæ! Szykuj siê!~ GOTO Avi00x01
+-IF ~~ THEN REPLY ~Gadaj¹ca zjawa zdech³ej baby... Te¿ mi nowoœæ w tym œwiecie... Bywaj...~ GOTO Avi00x03
+-IF ~~ THEN REPLY ~Czym do cholery jesteœ?!~ GOTO Avi00x04
++SAY @0   
++IF ~~ THEN REPLY @1 GOTO Avi00x01
++IF ~~ THEN REPLY @2 GOTO Avi00x01
++IF ~~ THEN REPLY @3 GOTO Avi00x03
++IF ~~ THEN REPLY @4 GOTO Avi00x04
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x01
+-SAY ~Nie chce rozwiewaæ twoich planów co do wspania³ej rozrywki, no ale jednak ja JU¯ JESTEM martwa.~
+-IF ~~ THEN REPLY ~No wiêc... i tak zginiesz! Znowu...!~ GOTO Avi00x05
+-IF ~~ THEN REPLY ~Czym do cholery jesteœ?!~ GOTO Avi00x04
+-IF ~~ THEN REPLY ~Po co ja z tob¹ gadam... chyba mi rozum odjê³o.~ GOTO Avi00x03
++SAY @5
++IF ~~ THEN REPLY @6 GOTO Avi00x05
++IF ~~ THEN REPLY @4 GOTO Avi00x04
++IF ~~ THEN REPLY @7 GOTO Avi00x03
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x05
+-SAY ~Brzmisz doœæ... œmiesznie... Nie zamierzam ciê atakowaæ. Powiedzmy sobiê szczerze - po co?~
+-IF ~~ THEN REPLY ~Chyba masz racjê. Niepotrzebnie tak wrzeszczymy.~ GOTO Avi00x07
+-IF ~~ THEN REPLY ~Czym ty jesteœ?~ GOTO Avi00x04
+-IF ~~ THEN REPLY ~Nie no to dla mnie za wiele... przem¹drza³a zjawia poucza ¿ywych... Zostaw mnie.~ GOTO Avi00x03
++SAY @8
++IF ~~ THEN REPLY @9 GOTO Avi00x07
++IF ~~ THEN REPLY @10 GOTO Avi00x04
++IF ~~ THEN REPLY @11 GOTO Avi00x03
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x07
+-SAY ~O, wiêc jednak myœlisz. A ju¿ s¹dzi³am, ¿e jesteœ zombie i po prostu ciê nie pozna³am. Wiêc? Chcesz dalej rozmawiaæ czy moje martwe cia³ko ciê onieœmiela? Wygl¹dasz jakby m³ot mia³ kolizjê z twoim ³bem, albo jakby sta³ przed tob¹ duch... Mo¿e jestem martwa, ale mo¿naby ze mn¹ normalnie gadaæ...~
+-IF ~~ THEN REPLY ~Przepraszam... Czym lub kim jesteœ?~ GOTO Avi00x04
+-IF ~~ THEN REPLY ~Mam doœæ... ¯egnaj.~ GOTO Avi00x03
++SAY @12
++IF ~~ THEN REPLY @13 GOTO Avi00x04
++IF ~~ THEN REPLY @14 GOTO Avi00x03
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x04
+-SAY ~Jak widzisz, jestem martwa... W sumie zmar³am jakiœ dekadzieñ temu. Troche potrwa³o zanim wróci³am... ~
++SAY @15
+ IF ~~ THEN GOTO Avi00x08
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x08
+-SAY ~Niestety, nie uda³o mi siê powróciæ do koñca. Jestem tak jakby uwiêziona... Pomo¿esz mi? Musisz wymówiæ moje imiê.~
+-IF ~~ THEN REPLY ~Obiecujê ci pomóc. Jak siê nazywasz?~ GOTO Avi00x10
+-IF ~~ THEN REPLY ~Nie ma mowy.~ GOTO Avi00x09
++SAY @16
++IF ~~ THEN REPLY @17 GOTO Avi00x10
++IF ~~ THEN REPLY @18 GOTO Avi00x09
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x09
+-SAY ~Szkoda... Mimo, ¿e jestem troche... No sami wiecie... jednak nadzieja jeszcze nie umar³a tak jak reszta.~
++SAY @19
+ IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x03
+-SAY ~Ach... Gnida...~
++SAY @20
+ IF ~~ THEN EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x10
+-SAY ~(Kiwa g³ow¹ ze zrezygnowaniem.) Wiesz tak siê sk³ada, ¿e stoje w³aœnie na tym grobie z pewnego powodu... przeczytaj po prostu moje imiê.~
+-IF ~~ THEN REPLY ~(Przeczytaj.) Ave Marya? Co to za imiê?~ GOTO Avi00x11
+-IF ~~ THEN REPLY ~Nie ma mowy.~ GOTO Avi00x09
++SAY @21
++IF ~~ THEN REPLY @22 GOTO Avi00x11
++IF ~~ THEN REPLY @18 GOTO Avi00x09
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x11
+-SAY ~Ech... Spróbuj jeszcze raz...~
+-IF ~~ THEN REPLY ~Ach... Avi Maya!~ GOTO Avi00x12
++SAY @23
++IF ~~ THEN REPLY @24 GOTO Avi00x12
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x12
+-SAY ~(Œwiat³o sp³ywa na pó³materialne cia³o istoty. Materializuje siê jako ma³y sygnet na d³oni Avi Mayi.) No! Uda³o siê! Dziêkujê... Chyba by³am trochê niemi³a. Teraz jestem tw¹ d³u¿niczk¹... Czekaj! Mam pomys³. Mo¿e teraz ja ci pomogê swymi umiejêtnoœciami? Potrzebujesz nowego kompana? Nie zawsze trafia siê cz³owiekowi nieumar³y kompan, pamiêtaj!~ [AVI041]  
+-IF ~~ THEN REPLY ~To nie jest taki z³y pomys³...~ GOTO Avi00x13
+-IF ~~ THEN REPLY ~Nie. OdejdŸ.~ GOTO Avi00x14
++SAY @25   
++IF ~~ THEN REPLY @26 GOTO Avi00x13
++IF ~~ THEN REPLY @27 GOTO Avi00x14
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x14
+-SAY ~A wiêc bywajcie! Niech ¿ycie bêdzie z wami! Nawet jak zdechniecie! (Mruga.)~
++SAY @28
+ IF ~~ THEN DO ~EscapeArea()~ EXIT
+ END
+ 
+ IF ~~ THEN BEGIN Avi00x13
+-SAY ~Œwietnie! Przekonasz siê, ¿e nawet zmarli mog¹ siê na coœ przydaæ!~ [AVI040]  
++SAY @29   
+ IF ~~ THEN DO ~JoinParty()
+ SetGlobal("AviInParty","LOCALS",1)~ EXIT
+ END
+ 
+ IF ~NumTimesTalkedToGT(0)
+ !InParty("AviDV")~ THEN BEGIN Avi00x66
+-SAY ~Wracasz? No wiêc teraz mi pomo¿esz? Ech, ¿e umarli musz¹ prosiæ o pomoc ¿ywych...~
+-IF ~~ THEN REPLY ~Dobrze.~ GOTO Avi00x04
+-IF ~~ THEN REPLY ~Oczywiœcie, ¿e nie.~ GOTO Avi00x09
++SAY @30
++IF ~~ THEN REPLY @31 GOTO Avi00x04
++IF ~~ THEN REPLY @32 GOTO Avi00x09
+ END
+ 
+ BEGIN 1xAviP
+ 
+ IF ~Global("AviRomanceStop","GLOBAL",0)~ THEN BEGIN KickOutAvi
+-SAY ~Tak po prostu chcesz mnie zostawiæ? Wiem, ¿e tacy jak ty zostawiaj¹ za sob¹ jedynie trupy ale nie b¹dŸmy tacy dos³owni... Jak mam odejœæ to odchodzê na zawszê.~
+-IF ~~ THEN REPLY ~Przepraszam to by³ b³ad.~ DO ~JoinParty()~ EXIT
+-IF ~~ THEN REPLY ~Przykro mi...~ DO ~SetGlobal("AviRomanceStop","GLOBAL",1) EscapeArea()~EXIT
++SAY @33
++IF ~~ THEN REPLY @34 DO ~JoinParty()~ EXIT
++IF ~~ THEN REPLY @35 DO ~SetGlobal("AviRomanceStop","GLOBAL",1) EscapeArea()~ EXIT
+ END

@@ -1,0 +1,73 @@
+--- rukrakia\BAF\RU6900.baf	Thu Oct 25 12:12:37 2007
++++ C:\BWP Patchstudio\patched files\rukrakia\BAF\RU6900.baf	Wed Oct 01 05:36:37 2014
+@@ -1,7 +1,6 @@
+ IF
+         Global("RU_RAIGEN_APPEAR","GLOBAL",2)
+-        Global("Door2_open","RU6900",0)
+-THEN
++        Global("Door2_open","RU6900",0) THEN
+ 	RESPONSE #40
+                 SetGlobal("Door2_open","RU6900",1)
+ 		Unlock("Door2")
+@@ -10,37 +9,26 @@
+ 
+ IF
+         HPLT("RU_MUM",40)
+-        Global("RU_MUMMY_APPEAR","GLOBAL",2)
+-THEN
++        Global("RU_MUMMY_APPEAR","GLOBAL",2) THEN
+ 	RESPONSE #40
+                 SetGlobal("RU_MUMMY_APPEAR","GLOBAL",3)
+                 CreateVisualEffectObject("SPGENHLA","RU_MUM")
+                 Wait(1)
+                 Kill("RU_MUM")
+-                EraseJournalEntry(%라이젠의 무덤?
+-
+-나는 사라두쉬에서 젠킨스라는 자를 만났다. 그는 나에게 앰케스란 어딘가에 있는 엘버라는 자를 죽여달라고 부탁을 했고, 곧 이어 뒤따라온 암살자에게 살해당했다. 그 암살자는 나에게 관심을 끄라고 경고를 했지만, 그것과는 관계없이 선택은 어디까지나 나의 몫이다.%)
+-                EraseJournalEntry(%라이젠의 무덤?
+-
+-엘버라는 자는 젠킨스가 말했던 대로 앰케스란의 여관에 있었다. 내가 그를 추궁하거나 그렇지 않거나 어느 쪽이든 그는 달가워 하지 않는 듯 보였다. 그의 품에 라이젠의 무덤의 위치가 적혀진 지도가 있었고 나는 선택을 해야만 한다.%)
+-                EraseJournalEntry(%라이젠의 무덤?
+-
+-제임스 남작이라는 자가 이미 라이젠의 무덤입구에서 노예들을 부리고 있었다. 어떤 어려움에 봉착한 것 같았는데, 입구에 어떤 마법적인 힘이 작용하는 것 같다. 그는 나를 보자마자 부하들을 이용해 다짜고짜 공격해왔고 자기 자신은 도망쳤다.%)
+-                AddJournalEntry(%라이젠의 무덤?
+-
+-라이젠의 무덤에는 고대의 미라가 봉인되어 있었다. 우리는 그 봉인지를 지키고 있던 영혼을 물리쳤고, 아마 그 영혼이 무덤에 속박되어 있던 라이젠의 영혼일 것이다. 봉인이 풀리고 강력한 미라가 등장했지만, 내 힘을 당해 낼 수는 없었다.%,QUEST_DONE)
++                EraseJournalEntry(@0)
++                EraseJournalEntry(@1)
++                EraseJournalEntry(@2)
++                AddJournalEntry(@3,QUEST_DONE)
+ 		AddXPObject(Player1,165000)
+ 		AddXPObject(Player2,165000)
+ 		AddXPObject(Player3,165000)
+ 		AddXPObject(Player4,165000)
+ 		AddXPObject(Player5,165000)
+-		AddXPObject(Player6,165000)
+-END
++		AddXPObject(Player6,165000) END
+ 
+ IF
+         Global("RU_MUMMY_APPEAR","GLOBAL",0)
+-        PartyHasItem("RU_BROK2")
+-THEN
++        PartyHasItem("RU_BROK2") THEN
+ 	RESPONSE #40
+                 SetGlobal("RU_MUMMY_APPEAR","GLOBAL",1)
+ 		ScreenShake([50.50],3)
+@@ -55,8 +43,7 @@
+ 
+ IF
+         Global("RU_MUMMY_APPEAR","GLOBAL",2)
+-        !GlobalTimerNotExpired("RU_RANDOM_SUMMON","RU6900")
+-THEN
++        !GlobalTimerNotExpired("RU_RANDOM_SUMMON","RU6900") THEN
+ 	RESPONSE #4
+                 SetGlobalTimer("RU_RANDOM_SUMMON","RU6900",3)
+                 CreateVisualEffect("SPRAISED",[676.516])
+@@ -182,4 +169,4 @@
+                 CreateVisualEffect("SPRAISED",[1765.1840])
+                 Wait(3)
+ 		CreateCreature("RU_RDSKE",[1765.1840],0)
+-END
+\ No newline at end of file
++END

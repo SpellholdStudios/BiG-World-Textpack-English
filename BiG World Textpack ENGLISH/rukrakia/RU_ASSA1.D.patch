@@ -1,0 +1,13 @@
+--- rukrakia\D\RU_ASSA1.D	Thu Oct 04 14:58:12 2007
++++ C:\BWP Patchstudio\patched files\rukrakia\D\RU_ASSA1.D	Fri Oct 03 04:22:55 2014
+@@ -26,7 +26,5 @@
+ 
+ IF ~~ THEN BEGIN RU_ASSA1_4
+   SAY @8 = @9 = @10
+-  IF ~~ THEN DO ~EscapeArea()~ UNSOLVED_JOURNAL %라이젠의 무덤?
+-
+-나는 사라두쉬에서 젠킨스라는 자를 만났다. 그는 나에게 앰케스란 어딘가에 있는 엘버라는 자를 죽여달라고 부탁을 했고, 곧 이어 뒤따라온 암살자에게 살해당했다. 그 암살자는 나에게 관심을 끄라고 경고를 했지만, 그것과는 관계없이 선택은 어디까지나 나의 몫이다.% EXIT
+-END
+\ No newline at end of file
++  IF ~~ THEN DO ~EscapeArea()~ UNSOLVED_JOURNAL @11 EXIT
++END
